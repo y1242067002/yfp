@@ -58,14 +58,19 @@ jobs:
         branch: master
 
     # =======================
-    # 同步到 Gitee（新增）
+    # 同步到 Gitee（只同步 list.yml）
     # =======================
-    - name: Sync to Gitee
+    - name: Sync to Gitee (only list.yml)
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
+        git remote remove gitee || true
         git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
+
+        git add list.yml
+
+        git commit -m "sync list.yml $(date '+%Y-%m-%d %H:%M:%S')" || echo "no changes"
 
         git push gitee master --force
 
