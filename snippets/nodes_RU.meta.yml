@@ -1,6 +1,6 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 17|🇸🇪SE_1|⬇️2.7MB/s
+  name: 18|🇸🇪SE_1|⬇️2.7MB/s
   network: tcp
   port: 443
   server: 176.125.240.166
@@ -10,7 +10,7 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 17|RUVLESS-51|free-nodes
+- name: 18|RUVLESS-51|free-nodes
   network: tcp
   port: 10468
   server: 185.113.10.198
@@ -19,7 +19,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
-- name: 18|俄羅斯_3
+- name: 19|俄羅斯_3
   network: tcp
   port: 8080
   server: 195.66.25.21
@@ -29,7 +29,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 18|俄羅斯_4
+- name: 19|俄羅斯_4
   network: tcp
   port: 8080
   server: 77.246.100.169
@@ -39,7 +39,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 18|俄羅斯_5
+- name: 19|俄羅斯_5
   network: grpc
   port: 8880
   server: 95.164.88.186
@@ -48,15 +48,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 27|🇺RU-🚀@VPNine1
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  port: 8444
-  server: wlte3.nimarko.org
-  skip-cert-verify: false
-  sni: testing8.nimarko.org
-  tls: false
-  type: hysteria2
-- name: 27|🇷🇺RU-🚀@VPNine1
+- name: 28|🇺RU-🚀@VPNine1
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   port: 8451
   server: wlte9.nimarko.org
@@ -66,7 +58,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_9
+  name: 29|🇷🇺_俄罗斯_9
   port: 3087
   reality-opts:
     public-key: efO4FU4XI20hptm8R_6awJ-UmyHI_5zNaBhQEyBBLVU
@@ -80,21 +72,23 @@ proxies:
   uuid: e4cd624c-18d6-415e-8cde-0a800e06ce31
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_13
+  name: 29,35|🇳🇱NL_4|2.0MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE
     short-id: 34256b39b4ebb864
   server: 158.160.198.162
   servername: rezerv11.yunus.guru
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_25
+  name: 29|🇷🇺_俄罗斯_25
   port: 1111
   reality-opts:
     public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
@@ -107,7 +101,7 @@ proxies:
   uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_46
+  name: 29|🇷🇺_俄罗斯_46
   port: 443
   reality-opts:
     public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
@@ -121,7 +115,7 @@ proxies:
   uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_91
+  name: 29|🇷🇺_俄罗斯_91
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -131,7 +125,7 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
-  name: 28|🇷🇺_俄罗斯_84
+  name: 29|🇷🇺_俄罗斯_84
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -142,7 +136,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_93
+  name: 29|🇷🇺_俄罗斯_93
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -153,7 +147,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_179
+  name: 29|🇷🇺_俄罗斯_179
   port: 20447
   reality-opts:
     public-key: xBpyo1hUqSIC_DjeVuTDN1EqAsTnFNJPDgBoJZ79clw
@@ -167,7 +161,7 @@ proxies:
   uuid: 6d1cf8d0-d903-4a64-9e2b-fe2c5d2c3e12
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_181
+  name: 29|🇷🇺_俄罗斯_181
   port: 443
   reality-opts:
     public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE
@@ -180,7 +174,7 @@ proxies:
   udp: true
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
 - client-fingerprint: qq
-  name: 28|🇷🇺_俄罗斯_289
+  name: 29|🇷🇺_俄罗斯_289
   network: ws
   port: 9443
   server: 176.109.94.202
@@ -192,3 +186,10 @@ proxies:
   uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
   ws-opts:
     path: /ws
+- cipher: aes-256-gcm
+  name: 35|🇷🇺RU_1|2.1MB/s
+  password: Ukw2eUhDeU85UlN5Y0VQT3RSMmhyMzNzMGptZjZaR3VzanNyWVhFd252dXp5bGE0SGd0ajVLbU5rbVBTVWIzeg==
+  port: 16224
+  server: 109.73.193.143
+  type: ss
+  udp: true
