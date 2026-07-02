@@ -20,12 +20,12 @@ jobs:
     steps:
 
     # =======================
-    # 1. Checkout（关键修复点）
+    # 1. Checkout
     # =======================
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0   # 🚨 必须0，否则Gitee会拒绝 shallow push
+        fetch-depth: 0
 
     # =======================
     # 2. 环境
@@ -47,7 +47,9 @@ jobs:
     # =======================
     - name: Run fetch script
       run: |
+        echo "🚀 start fetch.py"
         timeout 600 python ./fetch.py
+        echo "✅ fetch.py done"
 
     # =======================
     # 4. GitHub 提交
@@ -59,33 +61,37 @@ jobs:
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v3.3.1 update" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v3.3.2 update" || echo "no changes"
 
     - name: Push to GitHub
       run: |
+        echo "📤 push to GitHub"
         git push origin master --force
+        echo "✅ GitHub push done"
 
     # =======================
-    # 5. Gitee 镜像同步（彻底修复版）
+    # 5. Gitee 同步（稳定诊断版）
     # =======================
-    - name: Sync to Gitee (stable mirror)
+    - name: Sync to Gitee (debug stable)
       run: |
         set -e
 
+        echo "🔧 config git"
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
-        # 清理旧 remote
+        echo "🔗 remove old remote"
         git remote remove gitee 2>/dev/null || true
 
-        # 重新绑定 Gitee
+        echo "🔗 add gitee remote"
         git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
 
-        # 🚨 关键修复：强制完整引用推送（避免 shallow update）
-        git fetch --unshallow 2>/dev/null || true
+        echo "🚀 start push to gitee (NO QUIET + TIMEOUT)"
 
-        # ⭐ 最稳定方式：直接推 HEAD
-        git push gitee HEAD:master --force --quiet
+        # ⭐关键修复：不再 silent + 加 timeout
+        timeout 120 git push gitee HEAD:master --force
+
+        echo "✅ gitee push finished"
 
     # =======================
     # 6. CDN 清理（轻量）
