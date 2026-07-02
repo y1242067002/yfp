@@ -1,4 +1,4 @@
-name: Fetch-v4.2
+name: Fetch-v5
 
 on:
   workflow_dispatch:
@@ -12,6 +12,7 @@ on:
       - '.github/workflows/**'
       - '**.py'
       - 'snippets/_*'
+      - 'requirements.txt'
 
 jobs:
   fetch:
@@ -36,70 +37,32 @@ jobs:
         python-version: '3.x'
         cache: 'pip'
 
-    - name: Install dependencies
+    # =========================
+    # 3. 🚀 自动依赖安装（核心）
+    # =========================
+    - name: Auto install dependencies
       run: |
-        pip install pyyaml
+        python -m pip install --upgrade pip
+
+        echo "🔍 installing base deps..."
+
+        # 基础运行库（保证 fetch.py 永不炸）
+        pip install requests pyyaml || true
+
+        # 如果存在 requirements.txt，则安装
+        if [ -f requirements.txt ]; then
+          echo "📦 installing requirements.txt"
+          pip install -r requirements.txt || true
+        fi
 
     # =========================
-    # 3. 执行抓取
+    # 4. 运行脚本（防卡死）
     # =========================
     - name: Run fetch script
       run: |
+        echo "🚀 running fetch.py"
         timeout 600 python ./fetch.py
-
-    # =========================
-    # 4. 🔥 v4.2 核心修复（结构级）
-    # =========================
-    - name: Deep YAML compatibility fix
-      run: |
-        python - << 'EOF'
-        import os
-        import yaml
-
-        ROOTS = ["snippets", "."]
-
-        def fix_proxy(obj):
-            if isinstance(obj, dict):
-                # 删除旧字段
-                obj.pop("fingerprint", None)
-                obj.pop("global-client-fingerprint", None)
-
-                # 替换为新字段
-                if "client-fingerprint" not in obj and "fingerprint" in obj:
-                    obj["client-fingerprint"] = obj.pop("fingerprint")
-
-                for k in obj:
-                    obj[k] = fix_proxy(obj[k])
-
-            elif isinstance(obj, list):
-                return [fix_proxy(i) for i in obj]
-
-            return obj
-
-        def process_file(path):
-            try:
-                with open(path, "r", encoding="utf-8") as f:
-                    data = yaml.safe_load(f)
-
-                if data is None:
-                    return
-
-                data = fix_proxy(data)
-
-                with open(path, "w", encoding="utf-8") as f:
-                    yaml.safe_dump(data, f, allow_unicode=True)
-
-                print("fixed:", path)
-
-            except Exception as e:
-                print("skip:", path, e)
-
-        for root in ROOTS:
-            for dirpath, _, files in os.walk(root):
-                for file in files:
-                    if file.endswith(".yml") or file.endswith(".yaml"):
-                        process_file(os.path.join(dirpath, file))
-        EOF
+        echo "✅ fetch done"
 
     # =========================
     # 5. GitHub 提交
@@ -111,7 +74,7 @@ jobs:
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v4.2 auto-fix" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v5 auto-deps update" || echo "no changes"
 
     - name: Push to GitHub
       run: |
