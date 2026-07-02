@@ -1,4 +1,4 @@
-name: Fetch
+name: Fetch-v4
 
 on:
   workflow_dispatch:
@@ -19,20 +19,17 @@ jobs:
 
     steps:
 
-    # =======================
-    # 1. 拉取代码
-    # =======================
+    # =========================
+    # 1. Checkout
+    # =========================
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
-    # =======================
-    # 2. 环境配置
-    # =======================
-    - name: Set timezone
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
-
+    # =========================
+    # 2. 环境
+    # =========================
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
@@ -42,32 +39,50 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    # =======================
-    # 3. 执行脚本（防卡死）
-    # =======================
+    # =========================
+    # 3. 执行抓取
+    # =========================
     - name: Run fetch script
       run: |
         timeout 600 python ./fetch.py
 
-    # =======================
-    # 4. GitHub 提交
-    # =======================
-    - name: Commit changes (GitHub)
+    # =========================
+    # 4. 🔥 核心：配置兼容修复
+    # =========================
+    - name: Fix compatibility (Clash/Meta/Verge)
+      run: |
+        echo "🧹 fixing deprecated fields..."
+
+        # 1. fingerprint → client-fingerprint
+        find snippets -type f -name "*.yml" -exec sed -i 's/fingerprint:/client-fingerprint:/g' {} \; || true
+
+        # 2. global-client-fingerprint → client-fingerprint
+        find snippets -type f -name "*.yml" -exec sed -i 's/global-client-fingerprint:/client-fingerprint:/g' {} \; || true
+
+        # 3. 清理空 proxy 字段（防解析错误）
+        find snippets -type f -name "*.yml" -exec sed -i '/fingerprint/d' {} \; || true
+
+        echo "✅ compatibility fix done"
+
+    # =========================
+    # 5. GitHub 提交
+    # =========================
+    - name: Commit changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') update nodes" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v4 compatible update" || echo "no changes"
 
     - name: Push to GitHub
       run: |
         git push origin master --force
 
-    # =======================
-    # 5. CDN 缓存刷新（保留）
-    # =======================
+    # =========================
+    # 6. CDN 刷新
+    # =========================
     - name: Calculate purge urls
       id: purge_urls
       run: |
