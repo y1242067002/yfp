@@ -20,7 +20,7 @@ jobs:
     steps:
 
     # =======================
-    # 1. Checkout
+    # 1. 拉取代码
     # =======================
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         fetch-depth: 0
 
     # =======================
-    # 2. 环境
+    # 2. 环境配置
     # =======================
     - name: Set timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
@@ -43,13 +43,11 @@ jobs:
       run: pip install -r requirements.txt
 
     # =======================
-    # 3. 执行任务（防卡死）
+    # 3. 执行脚本（防卡死）
     # =======================
     - name: Run fetch script
       run: |
-        echo "🚀 start fetch.py"
         timeout 600 python ./fetch.py
-        echo "✅ fetch.py done"
 
     # =======================
     # 4. GitHub 提交
@@ -61,40 +59,14 @@ jobs:
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v3.3.2 update" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') update nodes" || echo "no changes"
 
     - name: Push to GitHub
       run: |
-        echo "📤 push to GitHub"
         git push origin master --force
-        echo "✅ GitHub push done"
 
     # =======================
-    # 5. Gitee 同步（稳定诊断版）
-    # =======================
-    - name: Sync to Gitee (debug stable)
-      run: |
-        set -e
-
-        echo "🔧 config git"
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
-
-        echo "🔗 remove old remote"
-        git remote remove gitee 2>/dev/null || true
-
-        echo "🔗 add gitee remote"
-        git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
-
-        echo "🚀 start push to gitee (NO QUIET + TIMEOUT)"
-
-        # ⭐关键修复：不再 silent + 加 timeout
-        timeout 120 git push gitee HEAD:master --force
-
-        echo "✅ gitee push finished"
-
-    # =======================
-    # 6. CDN 清理（轻量）
+    # 5. CDN 缓存刷新（保留）
     # =======================
     - name: Calculate purge urls
       id: purge_urls
