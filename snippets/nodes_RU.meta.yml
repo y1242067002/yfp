@@ -1,6 +1,6 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 6|🇸🇪SE_1|⬇️2.7MB/s
+  name: 7|🇸🇪SE_1|⬇️2.7MB/s
   network: tcp
   port: 443
   server: 176.125.240.166
@@ -10,7 +10,7 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 6|RUVLESS-51|free-nodes
+- name: 7|RUVLESS-51|free-nodes
   network: tcp
   port: 10468
   server: 185.113.10.198
@@ -19,7 +19,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
-- name: 7|俄羅斯_3
+- name: 8|俄羅斯_3
   network: tcp
   port: 8080
   server: 195.66.25.21
@@ -29,7 +29,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 7|俄羅斯_4
+- name: 8|俄羅斯_4
   network: tcp
   port: 8080
   server: 77.246.100.169
@@ -39,7 +39,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 7|俄羅斯_5
+- name: 8|俄羅斯_5
   network: grpc
   port: 8880
   server: 95.164.88.186
@@ -50,7 +50,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 17|🇷🇺_俄罗斯_11
+  name: 18|🇷🇺_俄罗斯_11
   port: 443
   reality-opts:
     public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
@@ -64,7 +64,7 @@ proxies:
   uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 17|🇷🇺_俄罗斯_13
+  name: 18|🇷🇺_俄罗斯_13
   port: 443
   reality-opts:
     public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE
@@ -78,7 +78,7 @@ proxies:
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 17|🇷🇺_俄罗斯_20
+  name: 18|🇷🇺_俄罗斯_20
   port: 1111
   reality-opts:
     public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
@@ -91,7 +91,7 @@ proxies:
   uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 17|🇷🇺_俄罗斯_68
+  name: 18|🇷🇺_俄罗斯_68
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -101,7 +101,7 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
-  name: 17|🇷🇺_俄罗斯_61
+  name: 18|🇷🇺_俄罗斯_61
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -112,7 +112,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 17|🇷🇺_俄罗斯_70
+  name: 18|🇷🇺_俄罗斯_70
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -122,7 +122,7 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: qq
-  name: 17|🇷🇺_俄罗斯_215
+  name: 18|🇷🇺_俄罗斯_215
   network: ws
   port: 9443
   server: 176.109.94.202
@@ -134,3 +134,30 @@ proxies:
   uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
   ws-opts:
     path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  name: 23|🇷🇺RU_1|1.6MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HsD5EYwv9fjFST2_167HsoaeDAnHlJpdj39jNcgUwjQ
+    short-id: 5f64
+  server: 95.182.80.93
+  servername: https://sports.yahoo.com/
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5a5aa32-2f58-409f-93a9-abe1800b01d6
+  xhttp-opts:
+    host: www.yahoo.com
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '6'
+    x-padding-bytes: 100-1000
+  xudp: true
