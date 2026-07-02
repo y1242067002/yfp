@@ -32,6 +32,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 18|日期：07-01
   port: 14001
@@ -69,6 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
@@ -89,6 +91,7 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
@@ -109,6 +112,7 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: 23|🇯🇵JP_4|3.6MB/s
