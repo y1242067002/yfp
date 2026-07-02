@@ -494,10 +494,10 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 14,18|🇸🇬_新加坡_148
+  name: 14|美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -559,7 +559,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 14,18|🇩🇪_德国_56
+  name: 14,18|🇩🇪_德国_79
   port: 180
   server: 82.198.246.250
   skip-cert-verify: true
@@ -732,10 +732,10 @@ proxies:
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
 - alterId: 2
   cipher: auto
-  name: 14,18|🇭🇰_香港_158
+  name: 14|美国(yudou789.top 玉豆免费节点)_83
   port: 30808
   server: v8.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -749,7 +749,35 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 18|🇺🇸_美国_135
+  flow: xtls-rprx-vision
+  name: 18|🇺🇸_美国_17
+  port: 443
+  reality-opts:
+    public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
+    short-id: b2c3d4e5
+  server: us2-r.vortexio.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 18|🇺🇸_美国_18
+  port: 8443
+  reality-opts:
+    public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
+    short-id: b2c3d4e5
+  server: us2-r.vortexio.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
+- client-fingerprint: chrome
+  name: 18|🇺🇸_美国_159
   port: 35282
   server: panel-vip.us.998521.xyz
   servername: panel-vip.us.998521.xyz
@@ -758,7 +786,7 @@ proxies:
   type: vless
   udp: true
   uuid: 56000407-e282-489f-acb7-b86dafedf504
-- name: 18|🇺🇸_美国_136
+- name: 18|🇺🇸_美国_160
   port: 443
   server: 206.82.3.131
   skip-cert-verify: true
@@ -766,21 +794,71 @@ proxies:
   type: vless
   udp: true
   uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+- name: 18|🇺🇸_美国_167
+  password: PI36027154
+  port: 443
+  server: pro-tortoise.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 18|🇺🇸_美国_189
+  name: 18|🇺🇸_美国_195
   network: ws
   port: 443
-  server: 52.222.136.195
-  servername: moon.nocturnbit.online
+  server: 104.168.146.122
+  servername: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3da8ec10-c083-45b4-9c42-2ce3c5128f82
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
   ws-opts:
     headers:
-      Host: moon.nocturnbit.online
-    path: /xray
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-amz
+- client-fingerprint: chrome
+  name: 18|🇺🇸_美国_196
+  network: ws
+  port: 443
+  server: 104.168.146.122
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: 18|🇺🇸_美国_215
+  network: ws
+  port: 443
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-YouTube@小青科学网
+- name: 18|🇺🇸_美国_247
+  network: ws
+  port: 80
+  server: support.zoom.us
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula
 - client-fingerprint: chrome
   name: 18,23|🇺🇸US_1|1.7MB/s
   network: ws
@@ -811,9 +889,39 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
+- client-fingerprint: chrome
+  name: 18|🇺🇸_美国_266
+  network: ws
+  port: 443
+  server: 45.158.127.48
+  servername: us2.wxgqlfx.icu
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f421e67c-64f3-45a1-d7b4-40cf42c844f6
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.icu
+    path: /TG@wxgqlfx
+- client-fingerprint: chrome
+  name: 18|🇺🇸_美国_267
+  network: ws
+  port: 443
+  server: 52.222.136.195
+  servername: moon.nocturnbit.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3da8ec10-c083-45b4-9c42-2ce3c5128f82
+  ws-opts:
+    headers:
+      Host: moon.nocturnbit.online
+    path: /xray
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_美国_196
+  name: 18|🇺🇸_美国_270
   network: ws
   port: 80
   server: 69.84.182.49
@@ -826,7 +934,7 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- name: 18|🇺🇸_美国_210
+- name: 18|🇺🇸_美国_284
   network: ws
   port: 80
   server: 199.232.197.131
@@ -840,7 +948,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_202
+- name: 18|🇺🇸_美国_276
   network: ws
   port: 80
   server: 151.101.130.219
@@ -854,7 +962,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - client-fingerprint: chrome
-  name: 18|🇺🇸_美国_214
+  name: 18|🇺🇸_美国_288
   network: ws
   port: 80
   server: 151.101.0.1
@@ -868,7 +976,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_206
+- name: 18|🇺🇸_美国_280
   network: ws
   port: 80
   server: 151.101.194.219
@@ -883,7 +991,7 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - client-fingerprint: chrome
-  name: 18|🇺🇸_美国_213
+  name: 18|🇺🇸_美国_287
   network: ws
   port: 80
   server: speedtest.net
@@ -897,7 +1005,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_207
+- name: 18|🇺🇸_美国_281
   network: ws
   port: 80
   server: 151.101.2.219
@@ -910,7 +1018,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_208
+- name: 18|🇺🇸_美国_282
   network: ws
   port: 80
   server: 167.82.0.1
@@ -923,7 +1031,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_216
+- name: 18|🇺🇸_美国_290
   password: '!!str 114514'
   port: 443
   server: 68.64.178.42
@@ -936,7 +1044,7 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: /
-- name: 18|🇺🇸_美国_218
+- name: 18|🇺🇸_美国_292
   password: '!!str 114514'
   port: 443
   server: 154.64.235.208
@@ -949,7 +1057,7 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: /
-- name: 18|🇺🇸_美国_242
+- name: 18|🇺🇸_美国_316
   network: ws
   port: 80
   server: 151.101.0.151
@@ -962,7 +1070,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_243
+- name: 18|🇺🇸_美国_317
   network: ws
   port: 80
   server: 151.101.3.151
@@ -975,7 +1083,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_244
+- name: 18|🇺🇸_美国_318
   network: ws
   port: 80
   server: 151.101.2.151
@@ -988,7 +1096,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_245
+- name: 18|🇺🇸_美国_319
   network: ws
   port: 80
   server: 151.101.2.151
@@ -1001,7 +1109,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_246
+- name: 18|🇺🇸_美国_320
   network: ws
   port: 80
   server: 151.101.1.151
@@ -1014,7 +1122,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_248
+- name: 18|🇺🇸_美国_322
   network: ws
   port: 80
   server: 151.101.1.151
@@ -1027,7 +1135,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_252
+- name: 18|🇺🇸_美国_326
   network: ws
   port: 80
   server: 151.101.46.151
@@ -1040,7 +1148,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_253
+- name: 18|🇺🇸_美国_327
   network: ws
   port: 80
   server: 151.101.170.151
@@ -1053,7 +1161,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_256
+- name: 18|🇺🇸_美国_330
   network: ws
   port: 80
   server: 151.101.44.151
@@ -1066,7 +1174,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_257
+- name: 18|🇺🇸_美国_331
   network: ws
   port: 80
   server: 151.101.160.151
@@ -1079,7 +1187,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_258
+- name: 18|🇺🇸_美国_332
   network: ws
   port: 80
   server: 151.101.55.151
@@ -1092,7 +1200,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_259
+- name: 18|🇺🇸_美国_333
   network: ws
   port: 80
   server: 151.101.17.151
@@ -1105,7 +1213,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_260
+- name: 18|🇺🇸_美国_334
   network: ws
   port: 80
   server: 151.101.118.151
@@ -1118,7 +1226,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_261
+- name: 18|🇺🇸_美国_335
   network: ws
   port: 80
   server: 151.101.97.151
@@ -1131,7 +1239,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_262
+- name: 18|🇺🇸_美国_336
   network: ws
   port: 80
   server: 151.101.16.151
@@ -1144,7 +1252,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_263
+- name: 18|🇺🇸_美国_337
   network: ws
   port: 80
   server: 151.101.19.151
@@ -1157,7 +1265,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_264
+- name: 18|🇺🇸_美国_338
   network: ws
   port: 80
   server: 151.101.99.151
@@ -1170,7 +1278,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_265
+- name: 18|🇺🇸_美国_339
   network: ws
   port: 80
   server: 151.101.114.151
@@ -1183,7 +1291,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_266
+- name: 18|🇺🇸_美国_340
   network: ws
   port: 80
   server: 151.101.109.151
@@ -1196,7 +1304,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_267
+- name: 18|🇺🇸_美国_341
   network: ws
   port: 80
   server: 151.101.70.151
@@ -1209,7 +1317,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_268
+- name: 18|🇺🇸_美国_342
   network: ws
   port: 80
   server: 151.101.26.151
@@ -1222,7 +1330,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_269
+- name: 18|🇺🇸_美国_343
   network: ws
   port: 80
   server: 151.101.111.151
@@ -1235,7 +1343,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_270
+- name: 18|🇺🇸_美国_344
   network: ws
   port: 80
   server: 151.101.46.151
@@ -1248,7 +1356,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_271
+- name: 18|🇺🇸_美国_345
   network: ws
   port: 80
   server: 151.101.117.151
@@ -1261,7 +1369,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_272
+- name: 18|🇺🇸_美国_346
   network: ws
   port: 80
   server: 151.101.162.151
@@ -1274,7 +1382,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_273
+- name: 18|🇺🇸_美国_347
   network: ws
   port: 80
   server: 151.101.33.151
@@ -1287,7 +1395,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_274
+- name: 18|🇺🇸_美国_348
   network: ws
   port: 80
   server: 151.101.118.151
@@ -1300,7 +1408,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_275
+- name: 18|🇺🇸_美国_349
   network: ws
   port: 80
   server: 151.101.21.151
@@ -1313,7 +1421,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_276
+- name: 18|🇺🇸_美国_350
   network: ws
   port: 80
   server: 151.101.201.151
@@ -1326,7 +1434,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_277
+- name: 18|🇺🇸_美国_351
   network: ws
   port: 80
   server: 151.101.117.151
@@ -1339,7 +1447,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 18|🇺🇸_美国_278
+- name: 18|🇺🇸_美国_352
   network: ws
   port: 80
   server: 151.101.19.151
@@ -1352,7 +1460,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_279
+- name: 18|🇺🇸_美国_353
   network: ws
   port: 80
   server: 151.101.115.151
@@ -1365,7 +1473,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_280
+- name: 18|🇺🇸_美国_354
   network: ws
   port: 80
   server: 151.101.196.151
@@ -1378,7 +1486,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_281
+- name: 18|🇺🇸_美国_355
   network: ws
   port: 80
   server: 151.101.103.151
@@ -1391,321 +1499,6 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_282
-  network: ws
-  port: 80
-  server: 151.101.199.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_283
-  network: ws
-  port: 80
-  server: 151.101.181.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_284
-  network: ws
-  port: 80
-  server: 151.101.198.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_285
-  network: ws
-  port: 80
-  server: 151.101.58.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_286
-  network: ws
-  port: 80
-  server: 151.101.42.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_288
-  network: ws
-  port: 80
-  server: 151.101.148.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_289
-  network: ws
-  port: 80
-  server: 151.101.149.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_290
-  network: ws
-  port: 80
-  server: 151.101.182.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_291
-  network: ws
-  port: 80
-  server: 151.101.161.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_293
-  network: ws
-  port: 80
-  server: 151.101.22.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_294
-  network: ws
-  port: 80
-  server: 151.101.153.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_295
-  network: ws
-  port: 80
-  server: 151.101.86.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_296
-  network: ws
-  port: 80
-  server: 151.101.13.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_297
-  network: ws
-  port: 80
-  server: 151.101.108.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_298
-  network: ws
-  port: 80
-  server: 151.101.12.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_299
-  network: ws
-  port: 80
-  server: 151.101.112.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_300
-  network: ws
-  port: 80
-  server: 151.101.25.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_301
-  network: ws
-  port: 80
-  server: 151.101.169.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_303
-  network: ws
-  port: 80
-  server: 151.101.17.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_304
-  network: ws
-  port: 80
-  server: 151.101.15.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_305
-  network: ws
-  port: 80
-  server: 151.101.115.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 18|🇺🇸_美国_306
-  network: ws
-  port: 80
-  server: 151.101.70.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇺🇸_美国_308
-  network: ws
-  port: 80
-  server: 151.101.151.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 21,22,23|🇺🇸US_5|1.5MB/s
-  network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
-  server: 16.163.43.143
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 21,22,23|🇺🇸US_6|1.5MB/s
-  network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 49277
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 21,22|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1970,6 +1763,20 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /sg-melbi
   xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 25|US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: 97a01dfaef
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 25|US_speednode_0056

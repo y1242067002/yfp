@@ -73,7 +73,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 14,18|🇩🇪_德国_57
+  name: 14,18|🇩🇪_德国_80
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
@@ -82,7 +82,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 18|🇬🇧_英国_101
+  name: 18|🇬🇧_英国_124
   port: 8443
   server: 152.233.28.200
   servername: ams1.fromblancwithlove.com
@@ -92,7 +92,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 18|🇬🇧_英国_120
+  name: 18|🇬🇧_英国_144
   port: 8443
   server: 152.233.28.201
   servername: ams1.fromblancwithlove.com
@@ -102,7 +102,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 18|🇬🇧_英国_129
+  name: 18|🇬🇧_英国_153
   port: 8443
   server: 152.233.28.202
   servername: ams1.fromblancwithlove.com
@@ -111,7 +111,7 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 18|🇬🇧_英国_141
+- name: 18|🇬🇧_英国_165
   port: 8443
   server: 152.233.28.199
   servername: ams1.fromblancwithlove.com
@@ -120,20 +120,36 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 18|🇬🇧_英国_157
+- name: 18|🇬🇧_英国_191
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 9HzeVOO-_7-V3l4TCNqgO-cj32nlF3wsG8K4X3qFmFw
-    short-id: cc52201b
-  server: belgium.cloudpath.live
-  servername: microsoft.com
+  server: 57.129.137.208
+  servername: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a1fbffe9-8e5a-5a0e-9333-045d32eccd59
-- name: 18|🇬🇧_英国_226
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: 18|🇬🇧_英国_249
+  network: ws
+  port: 2096
+  server: 134.209.183.179
+  servername: vpn47.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
+  ws-opts:
+    headers:
+      Host: vpn47.cc.cd
+    path: /
+- name: 18|🇬🇧_英国_300
   network: ws
   port: 80
   server: 151.101.60.151
@@ -146,7 +162,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇬🇧_英国_228
+- name: 18|🇬🇧_英国_302
   network: ws
   port: 80
   server: 151.101.61.151
@@ -159,7 +175,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇬🇧_英国_229
+- name: 18|🇬🇧_英国_303
   network: ws
   port: 80
   server: 151.101.190.151
@@ -172,7 +188,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇬🇧_英国_231
+- name: 18|🇬🇧_英国_305
   network: ws
   port: 80
   server: 151.101.191.151
@@ -185,7 +201,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇬🇧_英国_233
+- name: 18|🇬🇧_英国_307
   network: ws
   port: 80
   server: 151.101.63.151
@@ -198,7 +214,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 18|🇬🇧_英国_235
+- name: 18|🇬🇧_英国_309
   network: ws
   port: 80
   server: 151.101.188.151
