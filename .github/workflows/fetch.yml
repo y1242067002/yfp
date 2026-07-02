@@ -3,7 +3,6 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    # 每小时 30 分钟执行一次
     - cron: '30 */1 * * *'
   push:
     paths:
@@ -40,47 +39,50 @@ jobs:
       run: python ./fetch.py
 
     # =======================
-    # 提交到 GitHub
+    # GitHub commit & push
     # =======================
-    - name: Commit changes
+    - name: Commit changes (GitHub)
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
 
-        git pull origin master || true
+        git pull origin master --rebase || true
         git add list* snippets/
 
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "no changes"
 
     - name: Push to GitHub
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
+      run: |
+        git push origin master --force
 
     # =======================
-    # 同步到 Gitee（只同步 list.yml）
+    # Gitee sync（只同步 list.yml）
     # =======================
-    - name: Sync to Gitee (only list.yml)
+    - name: Sync to Gitee (stable)
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
-        git remote remove gitee || true
+        # 强制重建 remote（避免 No such remote）
+        git remote remove gitee 2>/dev/null || true
+
         git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
 
+        # 只提交订阅文件
         git add list.yml
 
         git commit -m "sync list.yml $(date '+%Y-%m-%d %H:%M:%S')" || echo "no changes"
 
-        git push gitee master --force
+        # 强制推送
+        git push gitee master --force --quiet
 
     # =======================
-    # CDN 缓存清理
+    # CDN cache purge
     # =======================
     - name: Calculate purge urls
       id: purge_urls
       run: |
-        sleep 5
+        sleep 3
         baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
         urls=""
 
