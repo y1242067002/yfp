@@ -18,11 +18,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # =======================
+    # 1. 拉取代码
+    # =======================
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
+    # =======================
+    # 2. 环境
+    # =======================
     - name: Set timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
 
@@ -35,11 +41,14 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
+    # =======================
+    # 3. 执行脚本
+    # =======================
     - name: Run fetch script
       run: python ./fetch.py
 
     # =======================
-    # GitHub commit & push
+    # 4. GitHub 提交（标准稳定版）
     # =======================
     - name: Commit changes (GitHub)
       run: |
@@ -47,6 +56,7 @@ jobs:
         git config --local user.name "GitHub Actions"
 
         git pull origin master --rebase || true
+
         git add list* snippets/
 
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "no changes"
@@ -56,28 +66,24 @@ jobs:
         git push origin master --force
 
     # =======================
-    # Gitee sync（只同步 list.yml）
+    # 5. Gitee 镜像同步（最终稳定版）
     # =======================
-    - name: Sync to Gitee (stable)
+    - name: Sync to Gitee (mirror GitHub)
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
-        # 强制重建 remote（避免 No such remote）
+        # 清理旧 remote（防报错）
         git remote remove gitee 2>/dev/null || true
 
+        # 重新绑定 Gitee
         git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
 
-        # 只提交订阅文件
-        git add list.yml
-
-        git commit -m "sync list.yml $(date '+%Y-%m-%d %H:%M:%S')" || echo "no changes"
-
-        # 强制推送
-        git push gitee master --force --quiet
+        # ⭐ 核心：直接镜像 GitHub 当前分支
+        git push gitee origin/master:master --force --quiet
 
     # =======================
-    # CDN cache purge
+    # 6. CDN 缓存清理
     # =======================
     - name: Calculate purge urls
       id: purge_urls
