@@ -1,5 +1,5 @@
 proxies:
-- name: 17|🇸🇬SG_4|⬇️5.1MB/s
+- name: 18|🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
@@ -10,13 +10,13 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
-- name: 18|俄羅斯_2
+- name: 19|俄羅斯_2
   port: 443
   server: 92.112.22.117
   skip-cert-verify: true
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- name: 26|SG_@WangCai_8
+- name: 27|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 47.129.160.62
@@ -24,7 +24,7 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 26|SG
+- name: 27|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -34,7 +34,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 28|🇸🇬_新加坡_14
+  name: 29|🇸🇬_新加坡_14
   port: 443
   reality-opts:
     public-key: V9_W4evy6036YsXIYwUuHuYme-HXECN9ho7RPEzang8
@@ -46,7 +46,7 @@ proxies:
   type: vless
   udp: true
   uuid: ea09bde9-e2b9-4307-bb33-19069ed3e024
-- name: 28|🇸🇬_新加坡_166
+- name: 29|🇸🇬_新加坡_166
   password: PI36027154
   port: 443
   server: rich-mule.rooster465.autos
@@ -55,7 +55,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 28|🇸🇬_新加坡_188
+  name: 29|🇸🇬_新加坡_188
   network: ws
   port: 666
   server: 43.160.220.164
@@ -69,7 +69,7 @@ proxies:
     headers:
       Host: 43.160.220.164
     path: /proxy
-- name: 32,33|新加坡3|@ripaojiedian
+- name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -77,3 +77,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 35|🇸🇬SG_1|5.0MB/s
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: rich-mule.rooster465.autos
+  skip-cert-verify: true
+  sni: rich-mule.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇸🇬SG_5|3.8MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.245.111
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 35|🇸🇬SG_6|3.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.1.37
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
