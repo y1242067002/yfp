@@ -28,7 +28,7 @@ jobs:
         fetch-depth: 0
 
     # =======================
-    # 2. 环境初始化
+    # 2. 环境
     # =======================
     - name: Set timezone
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
@@ -40,18 +40,17 @@ jobs:
         cache: 'pip'
 
     - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
 
     # =======================
-    # 3. 执行抓取（防卡死优化）
+    # 3. 执行脚本（防卡死）
     # =======================
     - name: Run fetch script
       run: |
         timeout 600 python ./fetch.py
 
     # =======================
-    # 4. GitHub 提交（稳定版）
+    # 4. GitHub 提交
     # =======================
     - name: Commit changes (GitHub)
       run: |
@@ -62,31 +61,35 @@ jobs:
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v3 update nodes" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v3.1 update" || echo "no changes"
 
     - name: Push to GitHub
       run: |
         git push origin master --force
 
     # =======================
-    # 5. Gitee 镜像同步（v3核心升级）
+    # 5. Gitee 镜像同步（v3.1 修复核心）
     # =======================
-    - name: Sync to Gitee (v3 mirror mode)
+    - name: Sync to Gitee (v3.1 stable mirror)
       run: |
+        set -e
+
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
-        # 清理旧 remote
+        # 清理旧 remote（避免重复）
         git remote remove gitee 2>/dev/null || true
 
         # 重新绑定 Gitee
         git remote add gitee https://${{ secrets.GITEE_USERNAME }}:${{ secrets.GITEE_TOKEN }}@gitee.com/${{ secrets.GITEE_USERNAME }}/yfp.git
 
-        # ⭐ v3核心：强制镜像 GitHub 当前状态
-        git push gitee origin/master:master --force --quiet
+        # ⭐ v3.1 核心修复：永远用 HEAD（避免 refspec 错误）
+        git fetch origin master || true
+
+        git push gitee HEAD:master --force --quiet
 
     # =======================
-    # 6. CDN 清理（优化版）
+    # 6. CDN 刷新（优化版）
     # =======================
     - name: Calculate purge urls
       id: purge_urls
