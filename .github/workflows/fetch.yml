@@ -1,4 +1,4 @@
-name: Fetch-v4
+name: Fetch-v4.2
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
     steps:
 
     # =========================
-    # 1. Checkout
+    # 1. 拉取代码
     # =========================
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         fetch-depth: 0
 
     # =========================
-    # 2. 环境
+    # 2. Python 环境
     # =========================
     - name: Setup Python
       uses: actions/setup-python@v5
@@ -37,7 +37,8 @@ jobs:
         cache: 'pip'
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+        pip install pyyaml
 
     # =========================
     # 3. 执行抓取
@@ -47,22 +48,58 @@ jobs:
         timeout 600 python ./fetch.py
 
     # =========================
-    # 4. 🔥 核心：配置兼容修复
+    # 4. 🔥 v4.2 核心修复（结构级）
     # =========================
-    - name: Fix compatibility (Clash/Meta/Verge)
+    - name: Deep YAML compatibility fix
       run: |
-        echo "🧹 fixing deprecated fields..."
+        python - << 'EOF'
+        import os
+        import yaml
 
-        # 1. fingerprint → client-fingerprint
-        find snippets -type f -name "*.yml" -exec sed -i 's/fingerprint:/client-fingerprint:/g' {} \; || true
+        ROOTS = ["snippets", "."]
 
-        # 2. global-client-fingerprint → client-fingerprint
-        find snippets -type f -name "*.yml" -exec sed -i 's/global-client-fingerprint:/client-fingerprint:/g' {} \; || true
+        def fix_proxy(obj):
+            if isinstance(obj, dict):
+                # 删除旧字段
+                obj.pop("fingerprint", None)
+                obj.pop("global-client-fingerprint", None)
 
-        # 3. 清理空 proxy 字段（防解析错误）
-        find snippets -type f -name "*.yml" -exec sed -i '/fingerprint/d' {} \; || true
+                # 替换为新字段
+                if "client-fingerprint" not in obj and "fingerprint" in obj:
+                    obj["client-fingerprint"] = obj.pop("fingerprint")
 
-        echo "✅ compatibility fix done"
+                for k in obj:
+                    obj[k] = fix_proxy(obj[k])
+
+            elif isinstance(obj, list):
+                return [fix_proxy(i) for i in obj]
+
+            return obj
+
+        def process_file(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = yaml.safe_load(f)
+
+                if data is None:
+                    return
+
+                data = fix_proxy(data)
+
+                with open(path, "w", encoding="utf-8") as f:
+                    yaml.safe_dump(data, f, allow_unicode=True)
+
+                print("fixed:", path)
+
+            except Exception as e:
+                print("skip:", path, e)
+
+        for root in ROOTS:
+            for dirpath, _, files in os.walk(root):
+                for file in files:
+                    if file.endswith(".yml") or file.endswith(".yaml"):
+                        process_file(os.path.join(dirpath, file))
+        EOF
 
     # =========================
     # 5. GitHub 提交
@@ -74,7 +111,7 @@ jobs:
 
         git add list* snippets/
 
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v4 compatible update" || echo "no changes"
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v4.2 auto-fix" || echo "no changes"
 
     - name: Push to GitHub
       run: |
