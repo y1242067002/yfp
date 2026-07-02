@@ -381,7 +381,7 @@ proxies:
   type: vless
   udp: true
   uuid: d26598cf-2cdf-4219-80d0-94646dff160d
-- name: 18,21,22,23|🇯🇵JP_1|3.6MB/s
+- name: 18,21,22|日本2|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 5701
@@ -391,7 +391,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 18,21,22,23|🇭🇰HK_1|3.4MB/s
+- name: 18,21,22|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -420,7 +420,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 18,21,22,23|🇺🇸US_6|1.5MB/s
+- name: 18,21,22|美国2|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -430,7 +430,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 18,21,22,23|🇭🇰HK_3|1.6MB/s
+- name: 18,21,22|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -440,7 +440,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 18,21,22,23|🇺🇸US_5|1.5MB/s
+- name: 18,21,22|美国|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -450,7 +450,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 18,21,22,23|🇭🇰HK_2|2.6MB/s
+- name: 18,21,22|香港3|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 2008
@@ -522,6 +522,40 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 23|🇭🇰HK_1|5.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 32166
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 23|🇭🇰HK_2|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 23699
+  reality-opts:
+    public-key: 1Up61_Ml2SGi89jSqF7NOe8q1t9-qRdkau0nRXhFm1o
+    short-id: 72593ecf
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
+  xudp: true
 - name: 25|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
