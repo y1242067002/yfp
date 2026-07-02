@@ -1,8 +1,9 @@
-name: Fetch-v5
+name: Fetch
 
 on:
   workflow_dispatch:
   schedule:
+    # 表达式生成 https://crontab.guru/
     - cron: '30 */1 * * *'
   push:
     paths:
@@ -12,95 +13,52 @@ on:
       - '.github/workflows/**'
       - '**.py'
       - 'snippets/_*'
-      - 'requirements.txt'
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
     steps:
-
-    # =========================
-    # 1. 拉取代码
-    # =========================
-    - name: Checkout repository
+    - name: 迁出代码
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-
-    # =========================
-    # 2. Python 环境
-    # =========================
-    - name: Setup Python
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: 安装 Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
         cache: 'pip'
-
-    # =========================
-    # 3. 🚀 自动依赖安装（核心）
-    # =========================
-    - name: Auto install dependencies
-      run: |
-        python -m pip install --upgrade pip
-
-        echo "🔍 installing base deps..."
-
-        # 基础运行库（保证 fetch.py 永不炸）
-        pip install requests pyyaml || true
-
-        # 如果存在 requirements.txt，则安装
-        if [ -f requirements.txt ]; then
-          echo "📦 installing requirements.txt"
-          pip install -r requirements.txt || true
-        fi
-
-    # =========================
-    # 4. 运行脚本（防卡死）
-    # =========================
-    - name: Run fetch script
-      run: |
-        echo "🚀 running fetch.py"
-        timeout 600 python ./fetch.py
-        echo "✅ fetch done"
-
-    # =========================
-    # 5. GitHub 提交
-    # =========================
-    - name: Commit changes
-      run: |
+    - name: 安装依赖
+      run: pip install -r requirements.txt
+    - name: 执行任务
+      run: python ./fetch.py
+      
+    - name: 提交更改
+      run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
+        git pull origin master
+        git add list*
+        git add snippets/
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+    - name: 推送更改
+      uses: ad-m/github-push-action@master
+      with:
+        branch: master
 
-        git add list* snippets/
-
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') v5 auto-deps update" || echo "no changes"
-
-    - name: Push to GitHub
-      run: |
-        git push origin master --force
-
-    # =========================
-    # 6. CDN 刷新
-    # =========================
-    - name: Calculate purge urls
+    - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
-        sleep 1
+        sleep 5
         baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
         urls=""
-
-        for f in $(find snippets -name "*.yml" -type f 2>/dev/null); do
+        for f in `find snippets -name "*.yml" -type f`; do
           urls+="${baseUrl}/${f},"
         done
-
-        for f in $(find . -maxdepth 1 -name "list*" -type f 2>/dev/null); do
+        for f in `find . -name "list*" -type f -maxdepth 1`; do
           urls+="${baseUrl}/${f},"
         done
-
         echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
-
-    - name: Purge JsDelivr Cache
+    - name: 清除 JsDelivr CDN 缓存
       uses: egad13/purge-jsdelivr-cache@v1
       with:
         url: ${{ steps.purge_urls.outputs.urls }}
