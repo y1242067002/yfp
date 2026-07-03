@@ -10,14 +10,27 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
-- name: 29|🇸🇬_新加坡_166
-  password: PI36027154
+- name: 29|🇸🇬_新加坡_534
+  password: '!!str 114514'
   port: 443
-  server: rich-mule.rooster465.autos
+  server: 172.236.154.50
   skip-cert-verify: true
+  sni: tjaaa.hhllfly.kdns.fr
   tls: true
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: /
+- name: 33,34|新加坡2|@ripaojiedian
+  network: tcp
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 29642
+  server: 16.163.43.143
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -26,3 +39,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇸🇬SG_6|2.7MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.42.98
+  skip-cert-verify: false
+  sni: s-w.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /MiTiVPN=Se
