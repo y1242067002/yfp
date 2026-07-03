@@ -391,7 +391,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33|🇭🇰 香港4|@ripaojiedian
+- name: 29|🇭🇰_香港_172
   password: BxceQaOe
   port: 29449
   server: 18.162.144.111
@@ -429,7 +429,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33|🇭🇰 香港5|@ripaojiedian
+- name: 29|🇭🇰_香港_178
   password: BxceQaOe
   port: 11035
   server: 18.166.152.128
@@ -510,6 +510,22 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: /
+- name: 33,34|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 95.40.26.121
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.124.19
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -520,22 +536,45 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34|香港4|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇭🇰HK_1|3.6MB/s
+  password: 8dc3803d-42e0-40d3-addc-c79632858029
+  port: 48819
+  server: hkp9.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_2|2.7MB/s
   network: tcp
-  password: BxceQaOe
-  port: 29449
-  server: 95.40.26.121
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 34|香港5|@ripaojiedian
+  packet-encoding: xudp
+  port: 794
+  reality-opts:
+    public-key: 3lku6KkzR158dLknyyPMHzccKrnxczDPddvah1lt92s
+    short-id: 3ef5bc1a9876e667
+  server: 183.232.74.60
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a092af0-2e66-11f1-aa57-8f36e190ad40
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_3|3.6MB/s
   network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 18.163.124.19
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  packet-encoding: xudp
+  port: 60093
+  reality-opts:
+    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
+    short-id: bf92e87fff488bd3
+  server: 157.255.68.144
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a092af0-2e66-11f1-aa57-8f36e190ad40
+  xudp: true
 - name: 37|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

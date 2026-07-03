@@ -264,7 +264,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33|🇭🇰 香港4|@ripaojiedian
+- name: 29|🇭🇰_香港_172
   password: BxceQaOe
   port: 29449
   server: 18.162.144.111
@@ -302,7 +302,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33|🇭🇰 香港5|@ripaojiedian
+- name: 29|🇭🇰_香港_178
   password: BxceQaOe
   port: 11035
   server: 18.166.152.128
@@ -383,6 +383,22 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: /
+- name: 33,34|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 95.40.26.121
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.124.19
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -393,19 +409,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29449
-  server: 95.40.26.121
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 34|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 18.163.124.19
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇭🇰HK_1|3.6MB/s
+  password: 8dc3803d-42e0-40d3-addc-c79632858029
+  port: 48819
+  server: hkp9.network-cdn-gw-yd.net
+  type: ss
+  udp: true
