@@ -1030,6 +1030,133 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 35|🇺🇸US_1|2.5MB/s
+  password: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+  port: 11393
+  server: 107.173.7.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+  version: 5
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_2|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.17.162.229
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cc: 1
+  client-fingerprint: chrome
+  delay: 315
+  name: 35|🇺🇸US_3|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: news.zoom.us
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  vv: 260626.144
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_4|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: support.zoom.us
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_5|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mBi2PpqpCcfwAy3Fkq5kqrs3SlZfS23j-dTYdMO4D1w
+    short-id: 7e8f9a0b
+  server: 82.39.214.45
+  servername: www.varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2527061-d0f8-4646-b38d-b7828aafefd9
+  xudp: true
+- name: 35|🇺🇸US_6|2.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_7|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_8|2.1MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_9|1.7MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_10|2.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_11|2.5MB/s
+  password: ''
+  port: 1081
+  server: 167.233.56.179
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055

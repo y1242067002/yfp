@@ -180,6 +180,47 @@ proxies:
     headers:
       Host: us2.wxgqlfx.icu
     path: /TG@wxgqlfx
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇬🇧GB_1|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: germanyserver.nizeo.ir
+  servername: germanyserver.nizeo.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53510d6b-47e0-43d0-bd47-6934c1b26bbb
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇬🇧GB_2|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 194.238.79.150
+  servername: 194.238.79.150.fwqfw783rg2dad.website
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bf12aea-0a92-41fb-ab2d-0e034b9f57a2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /sequre/ws
+  xudp: true
 - name: 37|GB_speednode_0005
   network: ws
   password: MITIVPN
