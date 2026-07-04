@@ -328,28 +328,7 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: /
-- name: 33|🇺🇸 美国|@ripaojiedian
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
-  server: 16.163.43.143
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 33|🇺🇸 美国2|@ripaojiedian
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 49277
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 33|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 2366
-  server: 16.163.155.249
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 34|美国|@ripaojiedian
+- name: 33,34|美国|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -357,7 +336,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 34|美国2|@ripaojiedian
+- name: 33,34|美国2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -365,7 +344,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 34|美国3|@ripaojiedian
+- name: 33,34,35|🇺🇸US_12|1.7MB/s
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -373,6 +352,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_8|3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.133.132.79
+  type: ss
+  udp: true
 - name: 37|US_speednode_0063
   network: ws
   password: Mitivpn
