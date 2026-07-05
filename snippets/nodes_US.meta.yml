@@ -1031,86 +1031,108 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 35|🇺🇸US_1|2.5MB/s
-  password: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-  port: 11393
-  server: 107.173.7.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-  version: 5
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_2|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.17.162.229
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cc: 1
+  - http/1.1
   client-fingerprint: chrome
-  delay: 315
-  name: 35|🇺🇸US_3|2.5MB/s
+  encryption: none
+  name: 35|🇺🇸US_1|2.2MB/s
   network: ws
   packet-encoding: xudp
-  port: 2096
-  server: news.zoom.us
-  servername: primelinelk.me
+  port: 443
+  server: rvg-production-0fab.up.railway.app
+  servername: rvg-production-0fab.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-  vv: 260626.144
+  uuid: ab181813-5879-e2b9-1534-70aac9770fb7
   ws-opts:
     headers:
-      Host: primelinelk.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /xprolk-primeline
+      Host: rvg-production-0fab.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /ws/ab181813-5879-e2b9-1534-70aac9770fb7
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: 35|🇺🇸US_4|2.0MB/s
+  name: 35|🇺🇸US_2|1.9MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: support.zoom.us
-  servername: primelinelk.me
+  port: 443
+  server: tel-timazadi-mimi.up.railway.app
+  servername: tel-timazadi-mimi.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  uuid: 72ffdff3-610d-b6d1-9d44-8fe430fe569f
   ws-opts:
     headers:
-      Host: primelinelk.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /xprolk-primeline
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /ws/72ffdff3-610d-b6d1-9d44-8fe430fe569f
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_5|2.3MB/s
+  name: 35|🇺🇸US_3|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: tel-timazadi-mimi.up.railway.app
+  servername: tel-timazadi-mimi.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72ffdff3-610d-b6d1-9d44-8fe430fe569f
+  ws-opts:
+    headers:
+      Host: tel-timazadi-mimi.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /ws/72ffdff3-610d-b6d1-9d44-8fe430fe569f
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇺🇸US_4|2.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: mBi2PpqpCcfwAy3Fkq5kqrs3SlZfS23j-dTYdMO4D1w
-    short-id: 7e8f9a0b
-  server: 82.39.214.45
-  servername: www.varzesh3.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: d2527061-d0f8-4646-b38d-b7828aafefd9
+  uuid: 10e1b54e-9bd1-0001-b337-3e464f8051ec
   xudp: true
-- name: 35|🇺🇸US_6|2.7MB/s
+- name: 35|🇺🇸US_5|3.5MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_6|2.1MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_7|2.5MB/s
+  password: ''
+  port: 11679
+  server: 134.122.1.61
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 35|🇺🇸US_8|2.9MB/s
   password: ''
   port: 9002
   server: 138.199.35.212
@@ -1118,44 +1140,13 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 35|🇺🇸US_7|3.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 35|🇺🇸US_8|2.1MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 35|🇺🇸US_9|1.7MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 35|🇺🇸US_10|2.7MB/s
+- name: 35|🇺🇸US_9|1.9MB/s
   password: ''
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
-- name: 35|🇺🇸US_11|2.5MB/s
-  password: ''
-  port: 1081
-  server: 167.233.56.179
-  skip-cert-verify: true
-  type: socks5
   username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision

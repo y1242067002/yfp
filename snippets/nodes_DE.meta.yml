@@ -317,109 +317,80 @@ proxies:
       Host: us2.wxgqlfx.icu
     path: /TG@wxgqlfx
 - client-fingerprint: chrome
-  name: 35|🇩🇪DE_1|2.5MB/s
-  network: tcp
+  encryption: none
+  name: 35|🇩🇪DE_1|2.6MB/s
+  network: ws
   packet-encoding: xudp
-  port: 55555
-  reality-opts:
-    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
-    short-id: 880eeeef4927eed5
-  server: falkoraz.sav-savteam.iR
-  servername: yahoo.com.
+  port: 27032
+  server: geri.alis1.ir
+  servername: geri.alis1.ir
   tls: true
   type: vless
   udp: true
-  uuid: adfb87c6-6002-4996-9208-5d86d21597ed
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /ggi
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_2|2.0MB/s
+  name: 35|🇩🇪DE_2|1.9MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2083
+  reality-opts:
+    public-key: BUX5SiLVfg6xJeJWXfrw2mGGPTGn9Q7X7XQRrg0hdkA
+    short-id: 13f19f
+  server: DE248RX.fillmoo.pro
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 79ea3690-a658-4716-941e-164acabb7182
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: 35|🇩🇪DE_3|2.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 8.133.176.42
-  servername: octopusss5.info
+  server: 199.232.9.94
+  servername: speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  uuid: 86fdb625-1a7f-4784-99a6-a96b3a80fc6d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: octopusss5.info
+      Host: hamshahriesfahan.com
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /udfyfws
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /vip1
   xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 35|🇩🇪DE_4|2.0MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_3|2.4MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: relay-6bcjt33c.edgecompute.app
-  servername: relay-6bcjt33c.edgecompute.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83048224-1465-4dc7-9492-d7f5ba339fee
-  xhttp-opts:
-    host: relay-6bcjt33c.edgecompute.app
-    mode: auto
-    path: /dana1365
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_4|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: oK_y6oYvfhg3a4q9FVXHBnInqUXbFAy-nNSMDGa6dnY
-    short-id: 181a8b966c1e425a
-  server: ruras.riseads.in
-  servername: ruras.riseads.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 67baa13e-d41b-4acf-ad0f-4ad35a136f85
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_5|2.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: 513b0a
-  server: denode1.frost-api.com
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9fce38fd-1d71-4c39-bf8d-1685db314664
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 35|🇩🇪DE_6|2.8MB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.56.146.144
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_7|2.5MB/s
+  name: 35|🇩🇪DE_5|2.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -432,12 +403,85 @@ proxies:
   ws-opts:
     headers:
       Host: mAhaNrEaliteAm.MaHkHan.iR
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /
   xudp: true
-- name: 35|🇩🇪DE_8|3.2MB/s
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇩🇪DE_6|2.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9877
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  server: 194.87.226.71
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97d290a0-acec-4aae-b8cf-c7111a5a6397
+  xudp: true
+- grpc-opts:
+    grpc-service-name: vless
+  name: 35|🇩🇪DE_7|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2085
+  server: 45.86.159.134
+  type: vless
+  udp: true
+  uuid: 1ea1b30b-4114-4a5c-bd3a-9637bdae1948
+  xudp: true
+- name: 35|🇩🇪DE_8|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 20200
+  server: amirmakiaj.vtuix.ir
+  type: vless
+  udp: true
+  uuid: 545ce653-21f9-beb8-777e-143c35cdc023
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇩🇪DE_9|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 195.208.65.192
+  servername: s46270.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9835e4f0-be01-4146-8130-0673fbd66347
+  ws-opts:
+    headers:
+      Host: s46270.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /v1/data/sync/
+  xudp: true
+- name: 35|🇩🇪DE_10|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 172.66.170.53
+  type: vless
+  udp: true
+  uuid: e4927998-38dd-4bf4-a37d-4cc67a06ee2d
+  ws-opts:
+    headers:
+      Host: cold-shadow-66a0.278.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 35|🇩🇪DE_11|2.1MB/s
   network: ws
   packet-encoding: xudp
   port: 8880

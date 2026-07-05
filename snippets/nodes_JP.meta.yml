@@ -139,20 +139,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 35|🇯🇵JP_1|4.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.4.4
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 35|🇯🇵JP_2|2.8MB/s
+  name: 35|🇯🇵JP_1|3.2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -167,17 +160,3 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇯🇵JP_3|2.2MB/s
-  password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-  port: 48802
-  server: jp02.network-cdn-gw-yd.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇯🇵JP_4|3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.183.135.29
-  type: ss
-  udp: true

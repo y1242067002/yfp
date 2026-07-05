@@ -180,46 +180,22 @@ proxies:
     headers:
       Host: us2.wxgqlfx.icu
     path: /TG@wxgqlfx
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬🇧GB_1|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: germanyserver.nizeo.ir
-  servername: germanyserver.nizeo.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53510d6b-47e0-43d0-bd47-6934c1b26bbb
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 35|🇬🇧GB_2|2.1MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 35|🇬🇧GB_1|3.3MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 443
-  server: 194.238.79.150
-  servername: 194.238.79.150.fwqfw783rg2dad.website
+  port: 18022
+  reality-opts:
+    public-key: qJhdahkY0zd79SmTB30P1cy7cSvwN5ONRqL1pktr3GY
+    short-id: f62ca9ccc14703a1
+  server: e.ramcalshoping.ir
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 5bf12aea-0a92-41fb-ab2d-0e034b9f57a2
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /sequre/ws
+  uuid: 9e6cf131-5323-4607-a51e-036e8097e676
   xudp: true
 - name: 37|GB_speednode_0005
   network: ws
