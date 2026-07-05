@@ -952,7 +952,7 @@ proxies:
       Host: cnd.finland2.nexusdataroute.com
     path: /cdn/assets/stream
 - client-fingerprint: chrome
-  name: 29,35|🇺🇸US_3|3.3MB/s
+  name: 29|🇺🇸_美国_80
   network: ws
   port: 51042
   server: 173.242.123.189
@@ -1202,7 +1202,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34,35|🇺🇸US_6|2.6MB/s
+- name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -1210,70 +1210,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|🇺🇸US_2|3.0MB/s
-  network: ws
-  port: 443
-  server: 8.133.176.42
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_5|2.5MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 35|🇺🇸US_7|2.5MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 44265
-  server: 95.40.58.154
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- encryption: none
-  name: 35|🇺🇸US_8|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 23.227.39.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 35|🇺🇸US_9|1.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 45.192.224.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055
