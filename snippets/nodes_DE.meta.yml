@@ -159,6 +159,29 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 28|@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: T&me&V2RayyNGvpn
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - h3
+  fingerprint: chrome
+  name: 28|🇩🇪hysteria2-@hollowcon
+  obfs: salamander
+  obfs-password: xdbc2u01v1j9fhvv
+  password: hk6ah4vgb0qp2koh
+  port: 2087
+  server: ger1.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -169,7 +192,7 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: 28|🇪@V2RayyNGvpn🇩🇪
+- name: 28|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpN
@@ -238,3 +261,102 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇩🇪DE_1|2.6MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.4.60
+  skip-cert-verify: false
+  sni: NL-L-ll.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇩🇪DE_2|2.6MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.25.193.8
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇩🇪DE_3|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: fast.motorbazan.com
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7943183f-5c33-4728-8d57-8f18efe6ce25
+  ws-opts:
+    headers:
+      Host: sevenfeshab.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_4|4.3MB/s
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 35|🇩🇪DE_5|2.0MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_6|1.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
+    short-id: bd8a588cebc3395a
+  server: bel-03.node.lumixnet.com
+  servername: bel-03.node.lumixnet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  xudp: true
