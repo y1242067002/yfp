@@ -854,9 +854,7 @@ proxies:
   uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇺🇸US_6|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇺🇸_美国_59
   port: 44222
   reality-opts:
     public-key: dUmP9FeLYzkqBP2rf4GaoZA5CJhBaAjeLzeH5bcy1V8
@@ -868,7 +866,6 @@ proxies:
   type: vless
   udp: true
   uuid: 18b70dca-cd38-4875-bf9b-c3b6839cf752
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_60
@@ -1213,65 +1210,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇺🇸US_2|2.2MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: S-o-W.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇺🇸US_3|1.8MB/s
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.31.16.65
-  skip-cert-verify: false
-  sni: U-S-A.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Us
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇺🇸US_4|2.3MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: NL-L-ll.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_5|2.1MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055
