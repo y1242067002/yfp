@@ -152,47 +152,64 @@ proxies:
       Host: 445eb7ce2d66c34309d2e1dacbeaf3b9.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
-  name: 35|🇫🇷FR_1|2.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇫🇷FR_2|1.5MB/s
+  encryption: mlkem768x25519plus.native.0rtt.bHRJoW9nvDfcJd3ZRLXLDwT4i216yH90Uz42CXEoVUc
+  name: 35|🇫🇷FR_1|1.7MB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
+  port: 80
   reality-opts:
-    public-key: rxygSMMyRWk2DDJNiT8uHl_-r3xRGcQb1bHx9rsEkzo
-    short-id: 978757cf13
-  server: 129.151.226.84
-  servername: itunes.apple.com
+    public-key: uOXWzNhsJ6sMuaZV8zPNZLu0kHNoUmDTRv6P1mlnsXk
+    short-id: 36ac6e559457f64b
+  server: teamspk.callofdeuti.ir
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 773f0785-da29-4309-b6ea-5750622ac95d
+  uuid: 02c5fca9-cca0-4a81-a5e3-5fc734cc560c
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_3|2.6MB/s
+  name: 35|🇫🇷FR_2|1.8MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: 3c9c5d01c6f824dd
-  server: 155.117.137.113
+  server: 149.88.28.129
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- encryption: none
+  name: 35|🇫🇷FR_3|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: de4.niekotin.de
+  type: vless
+  udp: true
+  uuid: 2415cbdc-e5fc-453e-91ad-0e2e532afb7c
+  ws-opts:
+    headers:
+      Host: de4.niekotin.de
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /vless
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_4|1.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.174
   servername: cdn6-49.yahoo.com
   tls: true
   type: vless
