@@ -63,20 +63,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇯🇵JP_1|2.5MB/s
-  network: tcp
+- client-fingerprint: chrome
+  name: 35|🇯🇵JP_1|2.2MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: lqdXPtmlK9emOPzmvYD6XoWrT6laiRRXglFz0VMVCFc
-    short-id: ''
-  server: vm81-10036-20036-131.888877778888.top
-  servername: www.icloud.com
+  server: sub.danfeng.eu.org
+  servername: hhslb.vavava.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 39f30f2e-d7ff-4098-a757-678e44ecc491
+  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
+  ws-opts:
+    headers:
+      Host: hhslb.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /fp=random
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇯🇵JP_2|3.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cf.008500.xyz
+  servername: hhslb.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
+  ws-opts:
+    headers:
+      Host: hhslb.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /fp=random
   xudp: true

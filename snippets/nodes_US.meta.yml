@@ -953,94 +953,160 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 35|🇺🇸US_1|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 42810
-  reality-opts:
-    public-key: t1Iq9Mssq5CG66fXGInN8iNl5Kd6YbFoLlzf5C2PTmE
-    short-id: '1234567891122356'
-  server: turntable.proxy.rlwy.net
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2ac1a6e-dc19-466a-a9ee-1412669b5bcb
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_2|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: x4g-production-40db.up.railway.app
-  servername: x4g-production-40db.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
-  ws-opts:
-    headers:
-      Host: x4g-production-40db.up.railway.app
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /ws/25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_3|2.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: x4g-production-1c57.up.railway.app
-  servername: x4g-production-1c57.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77a99d74-549d-154c-eea7-536f18117c94
-  ws-opts:
-    headers:
-      Host: x4g-production-1c57.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /ws/77a99d74-549d-154c-eea7-536f18117c94
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇺🇸US_4|2.3MB/s
+  name: 35|🇺🇸US_1|2.6MB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
+  port: 7443
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 23.237.28.194
-  servername: us2.quattro-tech.ru
+    public-key: WPxQ7LPnJfuchcuNLZNOFqE-dTqOfRIbscUdQS5qsV0
+    short-id: a1b2c3d4e5f6789a
+  server: 2.27.15.95
+  servername: amedia-vod.cdnvideo.ru
   tls: true
   type: vless
   udp: true
-  uuid: 497631c4-a1a4-45ff-a86a-f42873473bb6
+  uuid: b5f03bd3-0c55-416b-8ef9-da02593c1466
   xudp: true
-- name: 35|🇺🇸US_5|2.4MB/s
-  password: ''
-  port: 11679
-  server: 134.122.1.61
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_6|2.7MB/s
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_2|2.0MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 3.14.249.239
-  type: ss
+  server: ansooyefilter5.up.railway.app
+  servername: ansooyefilter5.up.railway.app
+  tls: true
+  type: vless
   udp: true
-- name: 35|🇺🇸US_7|2.8MB/s
+  uuid: 04c86825-c257-4782-f188-ed7385d036d4
+  ws-opts:
+    headers:
+      Host: ansooyefilter5.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /ws/04c86825-c257-4782-f188-ed7385d036d4
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_3|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 208.68.180.209
+  servername: hhslb.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
+  ws-opts:
+    headers:
+      Host: hhslb.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    path: /fp=random
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_4|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 208.68.180.216
+  servername: hhslb.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
+  ws-opts:
+    headers:
+      Host: hhslb.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /fp=random
+  xudp: true
+- name: 35|🇺🇸US_5|3.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 11102
+  server: 154.29.147.127
+  type: vless
+  udp: true
+  uuid: ac7f22d1-066b-4355-dd3e-c5cfdc8ab19f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_6|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 46.30.41.73
+  servername: us2.wxgqlfx.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9399d16-a0ae-451a-d069-39280bc363f4
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.icu
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /TG@wxgqlfx
+  xudp: true
+- name: 35|🇺🇸US_7|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 104.17.58.113
+  type: vless
+  udp: true
+  uuid: 14e0ab2e-fb3e-4fd1-a6d9-62eeae62976b
+  ws-opts:
+    headers:
+      Host: jolly-shape-3ce6.392.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- name: 35|🇺🇸US_8|3.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: anydesk.com
+  type: vless
+  udp: true
+  uuid: 1399f473-ffb5-4942-b05c-7dd3fc0007fb
+  ws-opts:
+    headers:
+      Host: round-truth-dcf1.34-719.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_9|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 31.59.121.223
+  servername: us2.wxgqlfx.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9399d16-a0ae-451a-d069-39280bc363f4
+  ws-opts:
+    headers:
+      Host: us2.wxgqlfx.icu
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /TG@wxgqlfx
+  xudp: true
+- name: 35|🇺🇸US_10|2.1MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1054,51 +1120,6 @@ proxies:
       User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
         Chrome/12.0.742.100 Safari/534.30
     path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 35|🇺🇸US_8|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: anydesk.com
-  type: vless
-  udp: true
-  uuid: e431026f-d605-4a52-8b3b-0912a68dc9d1
-  ws-opts:
-    headers:
-      Host: sparkling-shadow-481d.342-429.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 35|🇺🇸US_9|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: anydesk.com
-  type: vless
-  udp: true
-  uuid: e9f44bc0-72c5-435b-9ab0-b1525823ad02
-  ws-opts:
-    headers:
-      Host: gentle-rice-a9b4.460-a3e.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 35|🇺🇸US_10|2.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 11102
-  server: 154.29.147.127
-  type: vless
-  udp: true
-  uuid: ac7f22d1-066b-4355-dd3e-c5cfdc8ab19f
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
   xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision

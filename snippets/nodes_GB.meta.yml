@@ -81,53 +81,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 35|🇬🇧GB_1|2.6MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: nlka.lockaway.top
-  servername: nlka.lockaway.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5163b7f3-c9bd-42ec-9841-350c84cbcdb5
-  xhttp-opts:
-    host: nlka.lockaway.top
-    mode: auto
-    path: /api/v2/stream/
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-concurrency: 16-32
-      max-connections: '0'
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇬🇧GB_2|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
-    short-id: bd8a588cebc3395a
-  server: cze-01.node.lumixnet.com
-  servername: cze-01.node.lumixnet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
-  xudp: true
 - name: 37|GB_speednode_0005
   network: ws
   password: MITIVPN
