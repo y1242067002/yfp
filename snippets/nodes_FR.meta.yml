@@ -103,7 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 29|🇫🇷_法国_29
+- name: 29|🇫🇷_法国_10
   port: 2090
   server: fn.fifapes.monster
   skip-cert-verify: true
@@ -111,19 +111,29 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: 29|🇫🇷_法国_12
+  port: 8882
+  server: gr1.fifapes.monster
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - client-fingerprint: qq
-  name: 29|🇫🇷_法国_42
-  port: 7009
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_18
+  port: 443
   reality-opts:
-    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
-  server: luemborgclouding.iranlast.com
-  servername: yahoo.com
+    public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
+    short-id: 341ad73bbc77993c
+  server: fr1.waspnest.space
+  servername: fr1.waspnest.space
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-- name: 29|🇫🇷_法国_201
+  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
+- name: 29|🇫🇷_法国_129
   password: humanity
   port: 443
   server: 81.255.155.10
@@ -136,80 +146,25 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国_216
-  network: ws
-  port: 16644
-  server: planb.mojcn.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0db8b699-548d-4ed8-b720-6194783ecc9e
-  ws-opts:
-    headers:
-      Host: 445eb7ce2d66c34309d2e1dacbeaf3b9.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.bHRJoW9nvDfcJd3ZRLXLDwT4i216yH90Uz42CXEoVUc
+- cipher: aes-256-cfb
   name: 35|🇫🇷FR_1|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 80
-  reality-opts:
-    public-key: uOXWzNhsJ6sMuaZV8zPNZLu0kHNoUmDTRv6P1mlnsXk
-    short-id: 36ac6e559457f64b
-  server: teamspk.callofdeuti.ir
-  servername: www.yahoo.com
-  tls: true
-  type: vless
+  password: amazonskr05
+  port: 443
+  server: 15.236.37.125
+  skip-cert-verify: true
+  type: ss
   udp: true
-  uuid: 02c5fca9-cca0-4a81-a5e3-5fc734cc560c
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_2|1.8MB/s
+  name: 35|🇫🇷FR_2|2.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: 3c9c5d01c6f824dd
-  server: 149.88.28.129
-  servername: cdn6-49.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-  xudp: true
-- encryption: none
-  name: 35|🇫🇷FR_3|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: de4.niekotin.de
-  type: vless
-  udp: true
-  uuid: 2415cbdc-e5fc-453e-91ad-0e2e532afb7c
-  ws-opts:
-    headers:
-      Host: de4.niekotin.de
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /vless
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_4|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: 3c9c5d01c6f824dd
-  server: 155.117.137.174
+  server: 155.117.137.44
   servername: cdn6-49.yahoo.com
   tls: true
   type: vless

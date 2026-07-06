@@ -121,7 +121,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_156
+- name: 25,29|🏳️_未知_174
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -153,10 +153,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 25|德国(yudou789.top 玉豆免费节点)_11
+  name: 25,29|🇩🇪_德国_64
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -193,10 +193,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25,29|🇭🇰_香港_64
+  name: 25|美国(yudou789.top 玉豆免费节点)_53
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -211,33 +211,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_168
-  password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-  port: 443
-  server: blog.webex.com
-  skip-cert-verify: true
-  sni: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-    path: /br-orcl
-- name: 29|🇺🇸_美国_175
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 141.193.213.30
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /br-orcl
-- name: 29|🇺🇸_美国_195
+- name: 29|🇺🇸_美国_170
   password: humanity
   port: 443
   server: 199.181.197.143
@@ -273,7 +247,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 34|美国3|@ripaojiedian
+- name: 34,35|🇺🇸US_6|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -281,10 +255,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_1|2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.17.162.229
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 35|🇺🇸US_1|2.1MB/s
+  name: 35|🇺🇸US_2|2.4MB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.31.16.65
+  skip-cert-verify: false
+  sni: U-S-A.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Us
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇺🇸US_3|1.6MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -295,49 +293,46 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Fl
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 35|🇺🇸US_2|1.8MB/s
+  name: 35|🇺🇸US_4|2.5MB/s
   network: ws
   password: MiTiVPN
   port: 443
   server: petrolicious.com
   skip-cert-verify: false
-  sni: S-o-W.MaQror.ir
+  sni: NL-L-ll.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- alterId: 0
-  cipher: auto
-  name: 35|🇺🇸US_8|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 16025
-  server: c722s801.portablesubmarines.com
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_25|2.6MB/s
+  name: 35|🇺🇸US_5|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.59.27.93
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_7|2.0MB/s
   password: amazonskr05
   port: 443
   server: 18.188.176.234
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_26|2.0MB/s
+  name: 35|🇺🇸US_20|2.3MB/s
   password: amazonskr05
   port: 443
-  server: 3.147.85.161
+  server: 18.118.140.96
   type: ss
   udp: true
 - name: 37|US_speednode_0063
