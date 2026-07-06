@@ -1480,6 +1480,62 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-gcm
+  name: 35|🇭🇰HK_1|2.6MB/s
+  password: gXtfJmxrZ8Qkkd2k
+  port: 16025
+  server: c722s2.portablesubmarines.com
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: 35|🇸🇬SG_1|4.2MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.37.237
+  skip-cert-verify: false
+  sni: S-o-W.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_2|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 16025
+  server: c722s3.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_3|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 16025
+  server: c722s4.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_4|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 16025
+  server: c722s5.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
 - name: 37|AE_speednode_0001
   network: ws
   password: MITIVPN
