@@ -146,6 +146,129 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
+  name: 35|🇫🇷FR_1|4.6MB/s
+  password: dongtaiwang.com
+  port: 33888
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  version: 5
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_2|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.44
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_3|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.1
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_4|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.153
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_5|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.60
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_6|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.33
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_7|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 72.56.55.26
+  servername: auto.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 497631c4-a1a4-0010-a86a-f42873473bb6
+  xudp: true
+- name: 35|🇫🇷FR_8|2.7MB/s
+  password: ''
+  port: 1088
+  server: 144.91.111.48
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: 37|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

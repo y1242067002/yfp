@@ -107,3 +107,27 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: firefox
+  name: 35|🇷🇺RU_1|2.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ
+    short-id: 94c9dbbf07366d96
+  server: 84.38.187.169
+  servername: mc.yandex.tr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e6e6bb2-4614-0032-b3c4-f4666c85290f
+  xhttp-opts:
+    mode: packet-up
+    path: /script
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '2'
+  xudp: true
