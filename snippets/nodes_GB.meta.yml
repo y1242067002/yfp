@@ -1,5 +1,5 @@
 proxies:
-- name: 18|🇬🇧GB_2|⬇️1.7MB/s
+- name: 17|🇬🇧GB_2|⬇️1.7MB/s
   network: ws
   port: 443
   server: 173.245.59.121
@@ -13,7 +13,7 @@ proxies:
     headers:
       host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
     path: /ws
-- name: 18|GBVLESS-110|free-nodes
+- name: 17|GBVLESS-110|free-nodes
   network: ws
   port: 80
   server: fuck1.tawanaproxy.online
@@ -29,7 +29,7 @@ proxies:
     path: /
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 19|KR_1
+  name: 18|KR_1
   network: grpc
   port: 59995
   server: 141.227.162.18
@@ -41,7 +41,7 @@ proxies:
   uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 19|英國_3
+  name: 18|英國_3
   network: grpc
   port: 40716
   server: 51.89.137.87
@@ -53,7 +53,7 @@ proxies:
   uuid: 0cd02a20-80c8-43c4-ae2f-b72488549ef9
 - grpc-opts:
     grpc-service-name: hydra.miniproxy.sbs
-  name: 19|英國_2
+  name: 18|英國_2
   network: grpc
   port: 2096
   server: miniproxy.net
@@ -63,7 +63,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5c19f5b4-ac8a-485c-b656-5fe46ee0d5cf
-- name: 21|🇧_GB_英国
+- name: 20|🇧_GB_英国
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-uk-002.fastervpn.world
@@ -73,7 +73,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25,29|🇩🇪_德国_65
+  name: 24,28|🇩🇪_德国_160
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
@@ -81,7 +81,84 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 37|GB_speednode_0005
+- client-fingerprint: chrome
+  name: 28|🇬🇧_英国_217
+  port: 8443
+  server: 152.233.28.200
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: 28|🇬🇧_英国_237
+  port: 8443
+  server: 152.233.28.201
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: 28|🇬🇧_英国_246
+  port: 8443
+  server: 152.233.28.202
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇬🇧GB_1|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 65145
+  reality-opts:
+    public-key: xXNl2pewpj5o3PTe8BX4tvNhypdVzSOXZ9CCOzEj-Ak
+    short-id: b98e
+  server: uk-lon-01.fsulink.com
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eed3f3da-f553-472c-8159-714d882bf963
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 34|🇬🇧GB_2|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: nlka.lockaway.top
+  servername: nlka.lockaway.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5163b7f3-c9bd-42ec-9841-350c84cbcdb5
+  xhttp-opts:
+    host: nlka.lockaway.top
+    mode: auto
+    path: /api/v2/stream/
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 36|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -94,7 +171,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 37|GB_speednode_0006
+- name: 36|GB_speednode_0006
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
@@ -102,7 +179,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 37|GB_speednode_0007
+- name: 36|GB_speednode_0007
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com

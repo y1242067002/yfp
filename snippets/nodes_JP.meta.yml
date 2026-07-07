@@ -1,5 +1,5 @@
 proxies:
-- name: 19|日本
+- name: 18|日本
   network: tcp
   port: 443
   server: 160.187.111.222
@@ -9,7 +9,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 21|_JP_
+- name: 20|_JP_
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-002.fastervpn.world
@@ -17,7 +17,7 @@ proxies:
   sni: vpn-jp-002.fastervpn.world
   type: hysteria2
   udp: true
-- name: 21|🇵_JP_日本_1
+- name: 20|🇵_JP_日本_1
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-001.fastervpn.world
@@ -25,14 +25,44 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: 27|JP
+- name: 26|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 33,34|日本|@ripaojiedian
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_334
+  network: ws
+  port: 443
+  server: 64.176.42.143
+  servername: ww1.aniuge.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.aniuge.qzz.io
+    path: /
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_336
+  network: ws
+  port: 7777
+  server: 45.192.241.147
+  servername: ww1.aniuge.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.aniuge.qzz.io
+    path: /
+- name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 47656
@@ -40,7 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 33,34|日本2|@ripaojiedian
+- name: 32,33|日本2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 55973
@@ -48,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|日本3|@ripaojiedian
+- name: 32,33|日本3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 3743
@@ -56,39 +86,12 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 35|🇯🇵JP_1|2.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: sub.danfeng.eu.org
-  servername: hhslb.vavava.kdns.fr
+- name: 34|🇯🇵JP_1|1.7MB/s
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 8201
+  server: 24964a7e-ths2o0-ths4hq-azvy.fsmax.wkuaishou.com
+  skip-cert-verify: true
+  sni: 24964a7e-ths2o0-ths4hq-azvy.fsmax.wkuaishou.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
-  ws-opts:
-    headers:
-      Host: hhslb.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /fp=random
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇯🇵JP_2|3.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: cf.008500.xyz
-  servername: hhslb.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
-  ws-opts:
-    headers:
-      Host: hhslb.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /fp=random
-  xudp: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32

@@ -1,5 +1,5 @@
 proxies:
-- name: 18|🇸🇬SG_4|⬇️5.1MB/s
+- name: 17|🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
@@ -10,13 +10,13 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
-- name: 19|俄羅斯_2
+- name: 18|俄羅斯_2
   port: 443
   server: 92.112.22.117
   skip-cert-verify: true
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- name: 27|SG
+- name: 26|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -24,7 +24,22 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 33,34|新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  name: 28|🇸🇬_新加坡_331
+  network: ws
+  port: 443
+  server: 54.251.182.31
+  servername: ww1.aniuge.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.aniuge.qzz.io
+    path: /
+- name: 32,33|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 6357
@@ -32,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|新加坡2|@ripaojiedian
+- name: 32,33|新加坡2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 29642
@@ -40,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|新加坡3|@ripaojiedian
+- name: 32,33|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -48,22 +63,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸🇬SG_1|3.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.10.87
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
