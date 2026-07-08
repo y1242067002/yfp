@@ -434,7 +434,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34,35|🇭🇰HK_3|3.1MB/s
+- name: 33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -452,13 +452,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇭🇰HK_2|1.5MB/s
+- client-fingerprint: chrome
+  name: 35|🇭🇰HK_1|3.7MB/s
   network: tcp
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
-  sni: growing-oyster.rooster465.autos
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: 37|HK_speednode_0008
