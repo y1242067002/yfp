@@ -119,6 +119,29 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - rubika.ir,igap.net,splus.ir,skyroom.online
+    path:
+    - /
+  name: 35|🇫🇷FR_1|2.0MB/s
+  network: http
+  packet-encoding: xudp
+  port: 700
+  server: admin.console.support.admin.iranvatanam.com
+  type: vless
+  udp: true
+  uuid: 887c8eae-500f-4cda-8db9-e951ffba141f
+  xudp: true
+- cipher: aes-256-cfb
+  name: 35|🇫🇷FR_2|2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 15.188.74.101
+  type: ss
+  udp: true
 - name: 37|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

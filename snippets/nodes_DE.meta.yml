@@ -263,3 +263,40 @@ proxies:
   uuid: dbc464ad-e674-4078-a983-265184a487f5
   ws-opts:
     path: /arki
+- name: 35|🇩🇪DE_1|3.1MB/s
+  password: ''
+  port: 5555
+  server: 157.90.183.51
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_2|2.5MB/s
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_3|3.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 42670
+  server: jason.ilovezhenjiu.top
+  servername: jason.ilovezhenjiu.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4dbb4d3f-2b9a-45b6-b741-e839c570ffd8
+  xudp: true
