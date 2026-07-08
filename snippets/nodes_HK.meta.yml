@@ -1,26 +1,4 @@
 proxies:
-- name: 18|香港_1
-  network: ws
-  port: 443
-  server: s1.db-link.in
-  servername: dabaihk.webn.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
-  ws-opts:
-    headers:
-      host: dabaihk.webn.cc
-    path: /db1024a105975707
-- name: 18|香港_2
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 19|香港
   network: tcp
   password: ef269dbc-0486-451f-b94b-d0c354bc3f1c
@@ -452,18 +430,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 35|🇭🇰HK_1|3.4MB/s
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: 35|🇭🇰HK_1|2.9MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 443
+  reality-opts:
+    public-key: Ia9JdXTzAzoqPEkarBg6HFdXrSKYcUh_dt59tyMjukk
+    short-id: c9e0a2f4b6d8
+  server: ro.spectrum.vu
+  servername: ro.spectrum.vu
+  tls: true
+  type: vless
   udp: true
-  uuid: 5d746f1e-7028-455f-bb00-1806249a5941
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
   xudp: true
 - name: 37|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
