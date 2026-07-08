@@ -256,3 +256,36 @@ proxies:
     headers:
       Host: s46270.cdn.ngenix.net
     path: /v1/data/sync/
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_1|1.9MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 194.55.239.243
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5d0bebb-3a92-075a-2df3-4c7d36b04af0
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_2|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 194.55.239.244
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5d0bebb-3a92-075a-2df3-4c7d36b04af0
+  xudp: true
