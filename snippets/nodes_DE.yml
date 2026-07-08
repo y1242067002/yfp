@@ -1,10 +1,14 @@
 proxies:
-- name: 29|🇩🇪_德国_5
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.102.218.188
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_365
+  network: ws
+  port: 6281
+  server: 193.36.84.146
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: dbc464ad-e674-4078-a983-265184a487f5
+  ws-opts:
+    path: /arki

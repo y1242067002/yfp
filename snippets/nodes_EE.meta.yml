@@ -1,8 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇪🇪EE_1|2.5MB/s
-  password: j1HaUANVRdB5ltSqhLYPWm
-  port: 14475
-  server: 45.83.181.155
-  type: ss
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚_152
+  port: 8443
+  reality-opts:
+    public-key: 9PFK7qve14puhWYmFyNGpmDVPEyUjwAsYHhgH3Y1HmY
+  server: 45.12.28.47
+  servername: batman.jokertv.eu
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
