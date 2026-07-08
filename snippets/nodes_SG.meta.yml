@@ -237,43 +237,53 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇸🇬SG_1|3.7MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 162.159.8.123
-  skip-cert-verify: true
-  sni: nland-o-oo.Maqror.ir
-  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 35|🇸🇬SG_1|4.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 6666
+  server: 136.110.57.85
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=NLA
-- name: 35|🇸🇬SG_2|3.7MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.213.12.36
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tfo: false
-  type: hysteria2
-- name: 35|🇸🇬SG_4|3.8MB/s
+  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸🇬SG_2|3.9MB/s
   network: ws
   packet-encoding: xudp
-  port: 8880
-  server: themeforest.net
+  port: 443
+  server: 34.87.14.140
+  servername: sga.okkeo.me
+  tls: true
   type: vless
   udp: true
-  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
+  uuid: 18e65438-6095-4430-f258-ad68be5133b6
   ws-opts:
     headers:
-      Host: crimson-sea-a4bb.343-1a7.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: sga.okkeo.me
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /bing
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇸🇬SG_3|4.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 52.139.202.182
+  servername: sga.okkeo.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18e65438-6095-4430-f258-ad68be5133b6
+  ws-opts:
+    headers:
+      Host: sga.okkeo.me
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /bing
   xudp: true
