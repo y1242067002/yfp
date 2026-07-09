@@ -1,5 +1,114 @@
 proxies:
 - flow: xtls-rprx-vision
+  name: 18|德國
+  network: tcp
+  port: 443
+  server: fra-0001-xr.packet-drop-society.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
+- flow: xtls-rprx-vision
+  name: 18|DEVLESS-60|free-nodes
+  network: tcp
+  port: 350
+  server: iar.blackhoster.com
+  servername: excoino.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
+- name: 18|官网520.juanwangjc.top德国免费使用-03
+  network: ws
+  port: 2083
+  server: v3.dabache.top
+  servername: hajames.amirconfigpaanelllll.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  ws-opts:
+    headers:
+      host: hajames.amirconfigpaanelllll.com
+    path: /
+- name: 18|🇩🇪DE_6|⬇️4.3MB/s
+  network: ws
+  port: 2053
+  server: 172.64.152.23
+  servername: hz.badomzamini.uk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      host: hz.badomzamini.uk
+    path: /latest?ed=2560
+- name: 18|🇩🇪DE_13|⬇️5.6MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+    path: /ws
+- flow: xtls-rprx-vision
+  name: 18|🇩🇪DE_9|⬇️3.5MB/s
+  network: tcp
+  port: 443
+  server: 178.17.50.111
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 36f6f998-029e-48e2-ba30-24e2a8159075
+- name: 18|🇩🇪DE_5|⬇️4.2MB/s
+  network: tcp
+  port: 443
+  server: 0ru84.tcpdoor.net
+  servername: 0ru84.tcpdoor.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+- name: 18|🇩🇪DE_8|⬇️4.8MB/s
+  network: tcp
+  port: 443
+  server: decdn13.suio.me
+  servername: decdn13.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 18|DEVLESS-42|free-nodes
+  network: ws
+  port: 2052
+  server: nx.cloud1.hosting-ip.zulagaming.icu
+  servername: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+  ws-opts:
+    headers:
+      host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+    path: /
+- flow: xtls-rprx-vision
   name: 19|🇩🇪DE_8|⬇️6.3MB/s
   network: tcp
   port: 8443
@@ -80,16 +189,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 28|️V2rayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: w1BoB6s3L3
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 28|🇩🇪@V2raybazi
   password: zhangyang
   port: 6443
@@ -125,6 +224,26 @@ proxies:
   type: vless
   udp: true
   uuid: 578c8541-16a0-40b7-bf72-9508d547f856
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_219
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_220
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_274
@@ -164,62 +283,75 @@ proxies:
   uuid: dbc464ad-e674-4078-a983-265184a487f5
   ws-opts:
     path: /arki
-- client-fingerprint: chrome
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 35|🇩🇪DE_1|2.1MB/s
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_1|3.4MB/s
-  network: tcp
+  name: 35|🇩🇪DE_2|2.0MB/s
+  network: xhttp
   packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: Fg8dfF_e8zjy830DZ3-iQh27U-xURRXYmjDwxWDFgFs
-    short-id: 42e3c14d7c
-  server: 52.59.200.46
-  servername: www.intel.com
+  port: 8443
+  server: securitytrails.com
+  servername: api.somethingelse.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: d4089cdb-48b6-46e7-b458-9c4c1b9fad56
+  uuid: 3a5fd8d7-4182-4f65-a005-ee8d39fe96b9
+  xhttp-opts:
+    host: api.somethingelse.dpdns.org
+    mode: auto
+    path: /forall
   xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_2|2.1MB/s
-  network: tcp
+- name: 35|🇩🇪DE_3|2.5MB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
-    short-id: bd8a588cebc3395a
-  server: bel-02.node.lumixnet.com
-  servername: bel-02.node.lumixnet.com
-  tls: true
+  port: 8880
+  server: 162.159.156.214
   type: vless
   udp: true
-  uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
+  ws-opts:
+    headers:
+      Host: wild-frog-c709.403-6ff.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|🇩🇪DE_3|2.7MB/s
-  network: grpc
+- name: 35|🇩🇪DE_4|2.5MB/s
+  network: ws
   packet-encoding: xudp
-  port: 2096
-  reality-opts:
-    public-key: HdIk7jX58DtK-PGVKoU587O4w1KrDiej1qz8J2SmRA8
-    short-id: a7bf40db1b0e566a
-  server: 144.31.87.16
-  servername: www.avito.ru
-  tls: true
+  port: 8880
+  server: 104.26.13.40
   type: vless
   udp: true
-  uuid: c40f773e-3b96-417e-b22c-e48cb63ca7d9
+  uuid: b9ea760d-3200-4d6d-8000-30514ebbce5a
+  ws-opts:
+    headers:
+      Host: aged-pine-d8c4.379.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_4|2.3MB/s
+  name: 35|🇩🇪DE_5|2.2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -232,7 +364,36 @@ proxies:
   ws-opts:
     headers:
       Host: satl.satl.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /api-ip
+  xudp: true
+- name: 35|🇩🇪DE_6|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: www.whatismyip.com
+  type: vless
+  udp: true
+  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
+  ws-opts:
+    headers:
+      Host: shiny-flower-c72d.105-161.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 35|🇩🇪DE_7|1.5MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 95.182.98.134
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   xudp: true

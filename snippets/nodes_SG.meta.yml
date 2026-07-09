@@ -1,4 +1,15 @@
 proxies:
+- name: 18|🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
 - name: 19|俄羅斯_2
   port: 443
   server: 92.112.22.117
@@ -205,24 +216,78 @@ proxies:
 - name: 33,34|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 29642
-  server: 95.40.1.25
+  port: 48738
+  server: 18.162.245.147
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 29642
-  server: 18.162.58.236
+  port: 48738
+  server: 18.163.8.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|新加坡3|@ripaojiedian
+- name: 33,34,35|🇸🇬SG_2|3.4MB/s
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 16.163.145.82
+  port: 45744
+  server: 16.162.122.182
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 35|🇸🇬SG_3|3.9MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.213.12.36
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tfo: false
+  type: hysteria2
+- encryption: none
+  name: 35|🇸🇬SG_4|1.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: 104.18.41.190
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇸🇬SG_5|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: www.wto.org
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇸🇬SG_6|3.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: themeforest.net
+  type: vless
+  udp: true
+  uuid: a429499b-6237-44b2-ae4d-0d53d14cf46a
+  ws-opts:
+    headers:
+      Host: small-wave-9851.441-57f.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true

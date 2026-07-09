@@ -53,8 +53,11 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇨🇳_中国_398
+- client-fingerprint: chrome
+  encryption: none
+  name: 29,35|🇺🇸US_1|2.0MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: 120.55.183.176
   servername: support.zoom.us.yxls.eu.cc
@@ -66,4 +69,7 @@ proxies:
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /sg-melbi
+  xudp: true
