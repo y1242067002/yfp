@@ -71,63 +71,31 @@ proxies:
   sni: vpn-uk-002.fastervpn.world
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 25|英国(yudou789.top 玉豆免费节点)_43
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_277
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_76
   port: 8443
-  server: 152.233.28.200
-  servername: ams1.fromblancwithlove.com
+  reality-opts:
+    public-key: CQxj7-6tWpEuk6O9psd6D_D47Igl_ee-EAas9tXSeHc
+    short-id: a34890a0
+  server: 45.134.16.136
+  servername: learn.microsoft.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_297
-  port: 8443
-  server: 152.233.28.201
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_306
-  port: 8443
-  server: 152.233.28.202
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 29|🇬🇧_英国_443
-  password: '!!str 521314'
-  port: 443
-  server: 104.248.160.220
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇬🇧_英国_444
-  password: '!!str 521314'
-  port: 443
-  server: 104.194.146.86
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇬🇧_英国_445
+  uuid: 46f2adab-25e7-4cd3-bd8c-5ba0965636cf
+- name: 29|🇬🇧_英国_162
   password: '!!str 521314'
   port: 443
   server: 104.194.144.187
@@ -140,23 +108,19 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇬🇧GB_1|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 29|🇬🇧_英国_163
+  password: '!!str 521314'
   port: 443
-  reality-opts:
-    public-key: JfPS2DUo4zsn-fn1lI8om8uCXEUyyUDutxfpLryUIx0
-    short-id: 03ff6d202621bc78
-  server: 31.77.147.204
-  servername: dl.google.com
+  server: 104.248.160.220
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 578c8541-16a0-40b7-bf72-9508d547f856
-  xudp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
 - name: 37|GB_speednode_0005
   network: ws
   password: MITIVPN
