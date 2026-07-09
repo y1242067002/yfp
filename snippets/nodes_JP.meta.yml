@@ -84,7 +84,9 @@ proxies:
   uuid: b6186710-ecdd-4005-8783-dd41cb05b8eb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_70
+  name: 29,35|🇯🇵JP_1|3.4MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: wv5GQvabP63timjM43c-jnL6fHlSGL_f0exd6seICAE
@@ -96,6 +98,7 @@ proxies:
   type: vless
   udp: true
   uuid: b621f4ca-f7de-466e-bf32-82e1455695f5
+  xudp: true
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_82
   port: 443
@@ -211,45 +214,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 35|🇯🇵JP_1|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1552
-  server: 103.201.131.66
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
-  xudp: true
-- cipher: aes-256-gcm
-  name: 35|🇯🇵JP_2|5.5MB/s
-  password: d4835152-04e6-3ad9-9c59-ad697a2c13c1
-  port: 492
-  server: x.q.b.f.c.t.m.d.1.jp03-ae5.entry.v51124-6.qpon
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 35|🇯🇵JP_3|5.0MB/s
-  password: d4835152-04e6-3ad9-9c59-ad697a2c13c1
-  port: 16528
-  server: w.q.9.z.3.u.1.d.1.jp10-ae5.entry.v51124-6.qpon
-  type: ss
-  udp: true
-- name: 35|🇯🇵JP_4|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: download.yunzhongzhuan.com
-  type: vless
-  udp: true
-  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
-  ws-opts:
-    headers:
-      Host: steep-thunder-97fa.108-d10.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
