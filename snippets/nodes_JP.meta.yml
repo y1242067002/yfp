@@ -84,9 +84,7 @@ proxies:
   uuid: b6186710-ecdd-4005-8783-dd41cb05b8eb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇯🇵JP_1|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇯🇵_日本_70
   port: 443
   reality-opts:
     public-key: wv5GQvabP63timjM43c-jnL6fHlSGL_f0exd6seICAE
@@ -98,7 +96,6 @@ proxies:
   type: vless
   udp: true
   uuid: b621f4ca-f7de-466e-bf32-82e1455695f5
-  xudp: true
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_82
   port: 443
@@ -214,3 +211,37 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_1|5.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_2|3.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  server: jp3.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
