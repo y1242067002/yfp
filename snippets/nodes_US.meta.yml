@@ -1062,17 +1062,17 @@ proxies:
     path: /
 - name: 33,34|美国|@ripaojiedian
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 49277
-  server: 95.40.124.185
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: 17005
+  server: 95.40.99.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 49277
-  server: 16.163.41.98
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: 17005
+  server: 43.199.215.77
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1080,58 +1080,10 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 34638
-  server: 95.40.22.244
+  server: 18.162.154.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  name: 35|🇺🇸US_1|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2095
-  server: 104.18.42.163
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: download.pusytroller.gq
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_2|3.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_3|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33501
-  reality-opts:
-    public-key: 9JCD4jcSfxqdtlXZdUYv7flD4np7p3DTkCMNglOMkwg
-    short-id: b24c0d37c8c01060
-  server: 64.188.98.165
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ecfd453-7675-426e-8637-6e7ea34c9697
-  xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_4|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.142.134.224
-  type: ss
-  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055
