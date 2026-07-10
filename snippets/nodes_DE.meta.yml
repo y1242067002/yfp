@@ -187,30 +187,71 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_5
+  port: 443
+  reality-opts:
+    public-key: PGiKo-BQL0YnBM2Sri5qW0ANNflz9qg_PlovagJXbgM
+    short-id: 23042f0ba48bc97d
+  server: ger.port-server.online
+  servername: ger.port-server.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45c876f9-4900-40c0-b269-94871e78df54
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_7
+  port: 443
+  reality-opts:
+    public-key: PGiKo-BQL0YnBM2Sri5qW0ANNflz9qg_PlovagJXbgM
+    short-id: 23042f0ba48bc97d
+  server: 64.188.79.129
+  servername: ger.port-server.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45c876f9-4900-40c0-b269-94871e78df54
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_72
+  name: 29|🇩🇪_德国_117
   port: 443
   reality-opts:
-    public-key: JfPS2DUo4zsn-fn1lI8om8uCXEUyyUDutxfpLryUIx0
-    short-id: 03ff6d202621bc78
-  server: 31.77.147.204
-  servername: dl.google.com
+    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
+    short-id: 31e36d0ac3355472
+  server: 191.44.118.101
+  servername: www.microsoft.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 578c8541-16a0-40b7-bf72-9508d547f856
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_81
-  port: 443
-  reality-opts:
-    public-key: l5eAOSPQMEyzEPvWGAKvCkcPpsJvR3DJfYo6elw1UTE
-    short-id: 3b802dad547b0847
-  server: 144.31.87.16
-  servername: yandex.ru
+  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+- name: 29|🇩🇪_德国_302
+  network: ws
+  port: 80
+  server: 151.101.6.151
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: c40f773e-3b96-417e-b22c-e48cb63ca7d9
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: 29|🇩🇪_德国_313
+  network: ws
+  port: 80
+  server: 151.101.7.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳

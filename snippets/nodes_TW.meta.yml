@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾_65
+  name: 29|🇹🇼_台湾_107
   port: 443
   reality-opts:
     public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
@@ -20,67 +20,33 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: b6186710-ecdd-4005-8783-dd41cb05b8eb
-- client-fingerprint: firefox
-  name: 29|🇹🇼_台湾_193
-  network: ws
-  port: 443
-  server: 103.115.108.45
-  servername: wgl.cdn-c.gfw.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: wgl.cdn-c.gfw.qzz.io
-    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl
-- client-fingerprint: firefox
-  name: 29|🇹🇼_台湾_199
-  network: ws
-  port: 8443
-  server: 103.137.63.227
-  servername: wgl.cdn-c.gfw.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: wgl.cdn-c.gfw.qzz.io
-    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl
-- client-fingerprint: firefox
-  name: 29|🇹🇼_台湾_200
-  network: ws
-  port: 443
-  server: 82.152.91.210
-  servername: wgl.cdn-c.gfw.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: wgl.cdn-c.gfw.qzz.io
-    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl
-- client-fingerprint: firefox
-  name: 29|🇹🇼_台湾_204
-  network: ws
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+- name: 29|🇹🇼_台湾_160
+  password: '!!str 521314'
   port: 2087
   server: 220.135.92.105
-  servername: wgl.cdn-c.gfw.qzz.io
   skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: wgl.cdn-c.gfw.qzz.io
-    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇹🇼_台湾_163
+  password: '!!str 521314'
+  port: 8443
+  server: 103.137.63.227
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|TW_speednode_0053
