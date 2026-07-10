@@ -307,25 +307,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 35|🇺🇸US_4|3.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 30080
+  server: 143.198.235.98
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d76c0edb-8097-4371-8d97-722723756012
+  ws-opts:
+    headers: {}
+    path: /vm
+  xudp: true
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_1|3.2MB/s
+  name: 35|🇺🇸US_5|3.2MB/s
   password: amazonskr05
   port: 443
-  server: 13.58.60.229
+  server: 18.189.145.175
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_4|3.1MB/s
+  name: 35|🇺🇸US_6|3.3MB/s
   password: amazonskr05
   port: 443
-  server: 3.14.255.108
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_5|3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.191.132.3
+  server: 18.119.164.101
   type: ss
   udp: true
 - name: 37|US_speednode_0063
