@@ -843,7 +843,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇨🇳_中国_149
+- name: 29,35|🇭🇰HK_1|3.7MB/s
+  network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
@@ -1898,13 +1899,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 35|🇫🇷FR_1|1.6MB/s
-  password: amazonskr05
+- name: 35|🇯🇵JP_5|1.6MB/s
+  network: ws
+  password: '666'
   port: 443
-  server: 15.188.74.101
-  type: ss
+  server: 166.88.2.154
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: 37|AE_speednode_0001
   network: ws
   password: MITIVPN
