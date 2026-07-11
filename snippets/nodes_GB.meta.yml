@@ -73,7 +73,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 25,29|🇩🇪_德国_63
+  name: 25,29|🇩🇪_德国_45
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
@@ -82,7 +82,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_120
+  name: 29|🇬🇧_英国_102
   port: 8443
   server: 152.233.28.200
   servername: ams1.fromblancwithlove.com
@@ -92,7 +92,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_140
+  name: 29|🇬🇧_英国_122
   port: 8443
   server: 152.233.28.201
   servername: ams1.fromblancwithlove.com
@@ -102,7 +102,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_149
+  name: 29|🇬🇧_英国_131
   port: 8443
   server: 152.233.28.202
   servername: ams1.fromblancwithlove.com
@@ -111,7 +111,16 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 29|🇬🇧_英国_309
+- name: 29|🇬🇧_英国_143
+  port: 8443
+  server: 152.233.28.199
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 29|🇬🇧_英国_273
   network: ws
   port: 80
   server: 151.101.60.151
@@ -124,7 +133,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 29|🇬🇧_英国_311
+- name: 29|🇬🇧_英国_275
   network: ws
   port: 80
   server: 151.101.61.151
@@ -137,7 +146,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 29|🇬🇧_英国_312
+- name: 29|🇬🇧_英国_276
   network: ws
   port: 80
   server: 151.101.190.151
@@ -150,7 +159,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 29|🇬🇧_英国_314
+- name: 29|🇬🇧_英国_278
   network: ws
   port: 80
   server: 151.101.191.151
@@ -163,10 +172,23 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 29|🇬🇧_英国_316
+- name: 29|🇬🇧_英国_280
   network: ws
   port: 80
   server: 151.101.63.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: 29|🇬🇧_英国_282
+  network: ws
+  port: 80
+  server: 151.101.188.151
   skip-cert-verify: true
   tls: false
   type: vless

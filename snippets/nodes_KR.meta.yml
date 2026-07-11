@@ -11,60 +11,30 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- name: 29|🇰🇷_韩国_8
-  password: '!!str 3632736327'
-  port: 1864
-  server: kr04021338.tmdsb.org
-  skip-cert-verify: true
-  sni: kr04021338.tmdsb.org
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇰🇷_韩国_13
-  password: '!!str 3632736327'
-  port: 1622
-  server: kr04231525.tmdsb.org
-  skip-cert-verify: true
-  sni: kr04231525.tmdsb.org
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_24
-  port: 80
-  server: 217.142.138.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- name: 29|🇰🇷_韩国_29
-  password: '!!str 3632736327'
-  port: 2648
-  server: kr04212339.tmdsb.org
-  skip-cert-verify: true
-  sni: kr04212339.tmdsb.org
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇰🇷KR_1|2.4MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇰🇷_韩国_150
   port: 443
   reality-opts:
     public-key: qxy4zCquvCNLDB-XrmPMuzyj7zEQheolHvF5_lokd3o
     short-id: f24a61d246
   server: 141.164.40.134
   servername: www.intel.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: bc13dd2d-cd06-4a88-bc30-eb7be1a4daf5
-  xudp: true
+- name: 35|🇰🇷KR_1|1.6MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - name: 37|KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433
