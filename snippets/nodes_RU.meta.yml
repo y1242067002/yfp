@@ -50,8 +50,7 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇪🇪EE_1|2.4MB/s
-  network: tcp
+  name: 29|🇷🇺_俄罗斯_79
   port: 2087
   reality-opts:
     public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
@@ -132,3 +131,35 @@ proxies:
   uuid: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
   ws-opts:
     path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_1|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA
+    short-id: da122c35
+  server: ru7.netfix.app
+  servername: haharu7.xixihaha.it.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_2|2.5MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA
+    short-id: da122c35
+  server: 5.129.243.64
+  servername: haharu7.xixihaha.it.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
+  xudp: true
