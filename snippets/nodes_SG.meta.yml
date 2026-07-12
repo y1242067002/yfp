@@ -91,36 +91,78 @@ proxies:
     path: /
 - name: 33,34|新加坡|@ripaojiedian
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
+  password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
-  server: 18.166.63.229
+  server: 18.162.125.197
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
+  password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 16.163.56.186
+  server: 16.163.109.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|新加坡3|@ripaojiedian
+- name: 33,34,35|🇸🇬SG_2|2.6MB/s
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 43.199.31.196
+  port: 45744
+  server: 16.162.191.181
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   encryption: none
-  name: 35|🇸🇬SG_1|2.6MB/s
+  name: 35|🇸🇬SG_1|3.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 173.245.58.87
+  server: 162.159.33.95
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇸🇬SG_3|3.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cucc.cloudflare.seeck.cn
+  servername: zdy.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
+  ws-opts:
+    headers:
+      Host: zdy.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.CMLiussss.netfp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 35|🇸🇬SG_4|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.42.44
   servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -128,26 +170,83 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /fp
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸🇬SG_2|2.3MB/s
+    path: /
+- encryption: none
+  name: 35|🇸🇬SG_5|1.9MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 34.87.14.140
-  servername: sga.okkeo.me
-  tls: true
+  port: 8880
+  server: cf4.466688.xyz
   type: vless
   udp: true
-  uuid: 18e65438-6095-4430-f258-ad68be5133b6
+  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
   ws-opts:
     headers:
-      Host: sga.okkeo.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /bing
+      Host: nameless-poetry-12fb.8-0a2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- encryption: none
+  name: 35|🇸🇬SG_6|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: cf3.466688.xyz
+  type: vless
+  udp: true
+  uuid: 1a5e2e63-64e2-4737-95b6-c2ee60c979a1
+  ws-opts:
+    headers:
+      Host: wild-mode-4ca6.234-8f6.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- name: 35|🇸🇬SG_7|3.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: themeforest.net
+  type: vless
+  udp: true
+  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
+  ws-opts:
+    headers:
+      Host: crimson-sea-a4bb.343-1a7.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- name: 35|🇸🇬SG_8|3.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: themeforest.net
+  type: vless
+  udp: true
+  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
+  ws-opts:
+    headers:
+      Host: old-tooth-d793.447-02e.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- encryption: none
+  name: 35|🇸🇬SG_9|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 108.162.192.206
+  servername: zeus-panel-otnc61.rtfastest.workers.dev
+  type: vless
+  udp: true
+  uuid: b73006bc-1a7a-44e2-9865-d8d302714adf
+  ws-opts:
+    headers:
+      Host: zeus-panel-otnc61.rtfastest.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ZEUS_PANEL_BOT
   xudp: true

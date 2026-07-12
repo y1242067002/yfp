@@ -280,53 +280,59 @@ proxies:
     path: /
 - name: 33,34|美国|@ripaojiedian
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
-  port: 17005
-  server: 18.163.105.231
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.162.115.77
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
-  port: 17005
-  server: 18.166.63.229
-  skip-cert-verify: false
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.163.192.100
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 18.163.115.109
+  port: 34638
+  server: 95.40.54.118
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_1|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.16.130.237
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇺🇸US_5|3.0MB/s
+  password: rihjnjl3qsfr7u15
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 8080
+  server: 45.39.33.174
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 35|🇺🇸US_6|4.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30845
-  server: v45.hdacd.com
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_6|2.2MB/s
+  network: ws
+  password: 45c47cfa-67da-47e0-b20b-5efa674e6a9b
+  port: 443
+  server: 104.16.75.127
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: unnes.ac.id.r3xxe.eu.cc
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /us-gllc
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_10|3.2MB/s
+  name: 35|🇺🇸US_14|2.4MB/s
   password: amazonskr05
   port: 443
-  server: 3.145.46.201
+  server: 3.145.52.166
   type: ss
   udp: true
 - name: 37|US_speednode_0063
