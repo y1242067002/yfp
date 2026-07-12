@@ -48,48 +48,86 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_56
+  name: 29|🇷🇺_俄罗斯_79
+  port: 2087
+  reality-opts:
+    public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
+    short-id: 9f0a1b2c
+  server: msk.24pitbullstore.ru
+  servername: msk.24pitbullstore.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_86
+  port: 67
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: 194.55.239.186
+  servername: nl-t3.vinnypuxtomoon.today
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96bca96c-adbc-49e3-bd9f-dad664d34412
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_94
   port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+  reality-opts:
+    public-key: CiWrWBKXgbKMGZPzTxsX05YsTc-_iDiiAIAHj3hReCU
+    short-id: 5c18a7d3263f1442
+  server: 90.156.218.124
+  servername: eh.vk.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_49
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 2797a040-443c-4249-ab49-546b37519642
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_58
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+  name: 29|🇷🇺_俄罗斯_97
+  port: 443
+  reality-opts:
+    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
+    short-id: ea1058117be12087
+  server: 186.246.31.136
+  servername: ads.x5.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_262
+  uuid: 74139fb5-fd3f-4133-a34a-b1d85da7a89f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_100
+  port: 67
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: 194.55.239.210
+  servername: ee-t3.vinnypuxtomoon.today
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96bca96c-adbc-49e3-bd9f-dad664d34412
+- client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯_191
   network: ws
-  port: 9443
-  server: 176.109.94.202
-  servername: mms-2tets.hysteria.ltd
+  port: 7443
+  server: 185.22.234.32
+  servername: mms-2.hysteria.ltd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
+  uuid: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
   ws-opts:
     path: /ws

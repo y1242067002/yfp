@@ -34,41 +34,9 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_7
-  port: 50443
-  reality-opts:
-    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-  server: 62.60.159.137
-  servername: www.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_96
-  port: 8443
-  server: 79.127.249.221
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 29|🇸🇪_瑞典_121
-  port: 8443
-  server: 45.159.12.15
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_153
+  name: 29|🇸🇪_瑞典_85
   port: 9443
   reality-opts:
     public-key: zOPjTJV8xgGMmD0Mg0jWsRYSOsa_2pp7SSs88EFK6nw
@@ -79,9 +47,22 @@ proxies:
   type: vless
   udp: true
   uuid: fe604665-7c82-44cf-a067-869fe9b2abae
+- name: 29|🇸🇪_瑞典_219
+  network: ws
+  port: 80
+  server: 199.232.172.11
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
 - down: ''
   fingerprint: ''
-  name: 35|🇸🇪SE_1|2.7MB/s
+  name: 35|🇸🇪SE_1|2.2MB/s
   obfs: ''
   obfs-password: ''
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8

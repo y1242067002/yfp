@@ -103,16 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 29|🇫🇷_法国_9
-  password: XG59623478
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
-  sni: intense-basilisk.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇫🇷_法国_160
+- name: 29|🇫🇷_法国_81
   port: 8882
   server: gr1.fifapes.monster
   skip-cert-verify: true
@@ -120,107 +111,53 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_154
-  port: 50443
-  reality-opts:
-    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
-  server: 89.208.113.54
-  servername: www.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_155
-  port: 40443
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-  server: 81.19.137.144
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国_230
-  network: ws
-  port: 16645
-  server: m.cnmjin.net
+- name: 29|🇫🇷_法国_92
+  port: 2090
+  server: fn.fifapes.monster
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: 3d77ce8d-f72b-4999-bef2-5a24ba0c74b1
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: 29|🇫🇷_法国_201
+  network: ws
+  port: 80
+  server: 199.232.168.11
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
   ws-opts:
     headers:
-      Host: ee8bc4404180096949f756bafe970f19.mobgslb.tbcache.com
+      Host: Fastapi.Org
     path: /
-- name: 29|🇫🇷_法国_269
+- name: 29|🇫🇷_法国_216
   network: ws
   port: 80
-  server: 151.101.122.151
+  server: 199.232.80.11
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: 29|🇫🇷_法国_274
+      Host: Fastapi.Org
+    path: /
+- name: 29|🇫🇷_法国_236
   network: ws
   port: 80
-  server: 151.101.120.151
+  server: 151.101.120.11
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_1|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: 1bc2c1ef1c
-  server: fr06.alilago.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2822d6ad-46b2-35e0-8b1d-b41fdca10dea
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_2|2.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: 1bc2c1ef1c
-  server: fr04.alilago.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2822d6ad-46b2-35e0-8b1d-b41fdca10dea
-  xudp: true
+      Host: Fastapi.Org
+    path: /
 - name: 37|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
