@@ -324,7 +324,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_164
+- name: 25,29|🏳️_未知_83
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -438,7 +438,43 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇭🇰_香港_95
+- name: 29|🇭🇰_香港_46
+  password: BxceQaOe
+  port: 34638
+  server: 54.46.67.204
+  skip-cert-verify: true
+  sni: 54.46.67.204
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_48
+  password: BxceQaOe
+  port: 34638
+  server: 54.46.67.204
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_51
+  password: BxceQaOe
+  port: 27826
+  server: 18.162.60.7
+  skip-cert-verify: true
+  sni: 18.162.60.7
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_56
+  password: BxceQaOe
+  port: 27826
+  server: 18.162.60.7
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_70
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -449,7 +485,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_114
+  name: 29|🇭🇰_香港_71
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国_74
   port: 443
   server: guanwang.awsno.com
   servername: gw.alicdn.com
@@ -458,180 +504,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_115
-  port: 80
-  server: 47.83.221.185
+- name: 29,35|🇭🇰HK_2|5.2MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_116
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: 29|🇹🇼_台湾_118
-  password: '521314'
-  port: 2087
-  server: 220.135.92.105
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
+  sni: www.yrtok.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇭🇰_香港_119
-  password: '521314'
-  port: 443
-  server: 122.10.119.252
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇹🇼_台湾_120
-  password: '521314'
-  port: 8443
-  server: 103.137.63.227
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇸🇬_新加坡_121
-  password: '521314'
-  port: 443
-  server: 129.212.225.217
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇸🇬_新加坡_122
-  password: '521314'
-  port: 443
-  server: 129.212.239.178
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇯🇵_日本_123
-  password: '521314'
-  port: 443
-  server: 126.220.82.161
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🏳️_未知_124
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_125
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_126
-  password: humanity
-  port: 443
-  server: 104.20.42.250
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_127
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_128
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_129
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_130
+- name: 29|🏳️_未知_79
   password: humanity
   port: 443
   server: 172.64.146.198
@@ -644,23 +527,10 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: /assignment
-- name: 29|🏳️_未知_131
+- name: 29|🏳️_未知_80
   password: humanity
   port: 443
-  server: 104.18.152.229
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_132
-  password: humanity
-  port: 443
-  server: 104.17.121.71
+  server: 172.64.152.23
   skip-cert-verify: true
   sni: www.calmlunch.com
   tls: true
@@ -670,349 +540,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 29|🏳️_未知_133
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_134
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇺🇸_美国_135
-  password: humanity
-  port: 443
-  server: 199.181.197.143
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_136
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_137
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇸🇨_塞舌尔_138
-  password: humanity
-  port: 443
-  server: 45.130.125.0
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_139
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_140
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_142
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: //assignment
-- name: 29|🏳️_未知_143
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_144
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🇦🇹_奥地利_145
-  password: humanity
-  port: 443
-  server: 212.183.88.136
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_146
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_147
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_148
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_149
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_150
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🇸🇨_塞舌尔_151
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_152
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 29|🏳️_未知_153
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_154
-  password: humanity
-  port: 443
-  server: 104.19.64.105
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_160
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_156
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 29|🏳️_未知_157
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 29|🏳️_未知_158
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_159
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_165
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_162
+- name: 29|🏳️_未知_81
   password: humanity
   port: 443
   server: 188.114.98.0
@@ -1025,43 +553,7 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
-- name: 29|🏳️_未知_163
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 29|🏳️_未知_166
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_167
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_168
+- name: 29|🏳️_未知_82
   password: humanity
   port: 443
   server: 104.18.139.67
@@ -1074,293 +566,411 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
-- name: 29|🏳️_未知_169
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn1.express.868863.xyz
+- name: 29|🏳️_未知_84
+  password: humanity
+  port: 443
+  server: 104.19.208.184
   skip-cert-verify: true
-  sni: 17838238382188.168381.xyz
+  sni: www.multiplydose.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238384219.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_170
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2096
-  server: bestcdn4.868863.xyz
+      Host: www.multiplydose.com
+    path: //assignment
+- name: 29|🏳️_未知_85
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
   skip-cert-verify: true
-  sni: 17838238385906.206352.xyz
+  sni: www.gossipglove.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_86
+  password: humanity
+  port: 443
+  server: www.creationlong.org
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_87
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: true
+  sni: www.calmloud.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238387901.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_171
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2083
-  server: bestcdn4.868863.xyz
+      Host: www.calmloud.com
+    path: /assignment
+- name: 29|🏳️_未知_96
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
   skip-cert-verify: true
-  sni: 17838238386314.168381.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_89
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238388215.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_172
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn0.868863.xyz
+      Host: www.gossipglove.com
+    path: /assignment
+- name: 29|🏳️_未知_90
+  password: humanity
+  port: 443
+  server: 104.18.152.225
   skip-cert-verify: true
-  sni: 17838238384552.682637.xyz
+  sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238384321.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_173
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn1.express.868863.xyz
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_91
+  password: humanity
+  port: 443
+  server: 104.17.177.143
   skip-cert-verify: true
-  sni: 17838238386547.206356.xyz
+  sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238389650.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_174
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn0.868863.xyz
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_92
+  password: humanity
+  port: 443
+  server: 104.17.131.88
   skip-cert-verify: true
-  sni: 17838238382836.682637.xyz
+  sni: www.gossipglove.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238387483.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_175
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn0.868863.xyz
+      Host: www.gossipglove.com
+    path: /assignment
+- name: 29|🏳️_未知_93
+  password: humanity
+  port: 443
+  server: 104.16.174.117
   skip-cert-verify: true
-  sni: 17838238387261.682637.xyz
+  sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238388401.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_176
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_94
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_95
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_97
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 29|🏳️_未知_98
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_99
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_100
+  password: humanity
+  port: 443
+  server: 104.20.42.250
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 29|🇸🇨_塞舌尔_101
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🇺🇸_美国_102
+  password: humanity
+  port: 443
+  server: 199.181.197.143
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 29|🏳️_未知_103
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- name: 29|🇦🇹_奥地利_104
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 29|🏳️_未知_105
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🏳️_未知_106
+  password: humanity
+  port: 443
+  server: www.creationlong.org
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_107
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🏳️_未知_113
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_109
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🏳️_未知_110
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🏳️_未知_111
+  password: humanity
+  port: 443
+  server: 172.66.47.69
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🏳️_未知_112
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 29|🇯🇵_日本_114
+  password: '521314'
+  port: 443
+  server: 126.220.82.161
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇸🇬_新加坡_115
+  password: '521314'
+  port: 443
+  server: 129.212.239.178
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇸🇬_新加坡_116
+  password: '521314'
+  port: 443
+  server: 129.212.225.217
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇹🇼_台湾_117
+  password: '521314'
   port: 8443
-  server: bestcdn0.868863.xyz
+  server: 103.137.63.227
   skip-cert-verify: true
-  sni: 17838238382181.682637.xyz
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238388368.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_177
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238387056.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238387191.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_178
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238388379.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238389865.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_179
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238387594.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238384120.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_180
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2053
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238385634.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238381047.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_181
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238385708.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238384198.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_182
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238389511.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238387333.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_183
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238386737.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238389522.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_184
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238386951.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238387990.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_185
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238386017.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238381547.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_186
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238383411.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238383131.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_189
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238387607.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238389347.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_192
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238386683.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238381192.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_212
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2083
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238386271.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238385325.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_213
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2096
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238389533.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238387017.168381.xyz
-    path: /tianboephth
-- name: 29|🇸🇬_新加坡_232
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇸🇬_新加坡_118
   password: '521314'
   port: 443
   server: 129.212.232.171
@@ -1373,72 +983,75 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- name: 29|🏳️_未知_403
-  password: '666'
+- name: 29|🇹🇼_台湾_119
+  password: '521314'
+  port: 2087
+  server: 220.135.92.105
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇭🇰_香港_120
+  password: '521314'
   port: 443
-  server: cf.090227.xyz
+  server: 122.10.119.252
   skip-cert-verify: true
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 29|🏳️_未知_405
-  password: '666'
-  port: 443
-  server: 104.17.162.3
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 29|🇮🇷_伊朗_121
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
   skip-cert-verify: true
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 29|🏳️_未知_413
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2096
-  server: bestcdn2.express.868863.xyz
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🇸🇬_新加坡_123
+  password: cortex-trojan-2026
+  port: 8443
+  server: 152.42.191.178
   skip-cert-verify: true
-  sni: 17838238383669.206355.xyz
+  sni: www.bing.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 17838238382308.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_414
-  password: aa545c4b-705b-44ed-83f1-456b35662e0b
-  port: 2096
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17838238382827.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17838238387281.206356.xyz
-    path: /dmusicmuaawe
+      Host: www.bing.com
+    path: /trojan-ws-cortex
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港_419
+  name: 29|🇯🇵_日本_203
   network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
+  port: 58905
+  server: 161.33.139.138
+  servername: 161.33.139.138
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港_420
+  name: 29|🇭🇰_香港_202
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -1477,7 +1090,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34,35|🇯🇵JP_2|3.4MB/s
+- name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27826
@@ -1533,7 +1146,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34,35|🇺🇸US_5|1.9MB/s
+- name: 33,34|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -1541,7 +1154,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34,35|🇺🇸US_6|2.6MB/s
+- name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -1559,32 +1172,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇭🇰HK_1|5.0MB/s
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 35|🇸🇬SG_4|3.0MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 172.64.154.211
-  skip-cert-verify: true
-  sni: fl-o--7-fllav.App-CloUd.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=F--l
 - name: 37|AE_speednode_0001
   network: ws
   password: MITIVPN
