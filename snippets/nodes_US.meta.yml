@@ -2808,26 +2808,106 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.162.115.77
+  server: 54.46.117.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|美国2|@ripaojiedian
+- name: 33,34,35|🇺🇸US_5|1.9MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.163.192.100
+  port: 17005
+  server: 18.163.110.193
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇺🇸US_6|2.6MB/s
   network: tcp
   password: BxceQaOe
   port: 34638
-  server: 95.40.54.118
+  server: 54.46.67.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 993
+  reality-opts:
+    public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+    short-id: ''
+  server: 140.235.168.9
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 526d2855-c7d1-ecf3-e4f8-5a75f77d5bb3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_2|1.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8526
+  reality-opts:
+    public-key: -zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM
+    short-id: 62ad184af31fc8cf
+  server: hokm-t2.igatel.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a49adb79-ed7b-449a-8bba-3842dc495e74
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_7|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 24382
+  reality-opts:
+    public-key: Slau4DRZkIFgAeKGsPz5MWOp5xB1ecTNzLtbCBUGeQM
+    short-id: 8059df
+  server: netherlands1.banovano.space
+  servername: www.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57f05fdc-8615-4082-9fc5-7f759bbd51d0
+  xudp: true
+- name: 35|🇺🇸US_8|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: www.visa.com.sg
+  type: vless
+  udp: true
+  uuid: 96a32aaa-ebd9-4824-aa04-e9678011d9b0
+  ws-opts:
+    headers:
+      Host: old-tooth-d793.447-02e.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- name: 35|🇺🇸US_9|2.4MB/s
+  password: ''
+  port: 443
+  server: 38.28.193.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 35|🇺🇸US_10|1.8MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055

@@ -53,23 +53,41 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
-  server: 18.162.125.197
+  server: 18.163.103.6
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 6357
-  server: 16.163.109.165
+  port: 48738
+  server: 54.46.117.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.162.191.181
+  port: 32434
+  server: 95.40.33.19
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇸🇬SG_4|3.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 172.64.154.211
+  skip-cert-verify: true
+  sni: fl-o--7-fllav.App-CloUd.IR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=F--l

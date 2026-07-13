@@ -212,6 +212,51 @@ proxies:
     headers:
       Host: Fastapi.Org
     path: /
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇬🇧GB_1|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
+    short-id: 0b0aa9caed9d011e
+  server: 31.77.201.85
+  servername: ag-03.rita-cloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇬🇧GB_2|3.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 48932
+  reality-opts:
+    public-key: Dl4-nKAkksLHmX2yR0LWAzyFBjIj1W10R4OxHKMX2AI
+    short-id: ''
+  server: umbr.gconexustun.ru
+  servername: cdn4-23.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42455ebe-1c84-479a-9bac-6433c30f8d19
+  xhttp-opts:
+    mode: auto
+    path: /
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 333-1777
+  xudp: true
 - name: 37|GB_speednode_0005
   network: ws
   password: MITIVPN
