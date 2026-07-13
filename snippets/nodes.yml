@@ -504,8 +504,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29,35|🇭🇰HK_2|1.7MB/s
-  network: tcp
+- name: 29|🇨🇳_中国_76
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
@@ -1172,23 +1171,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 35|🇺🇸US_1|1.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 45979
-  server: b32-14.cmj0502.cn
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 35|🇭🇰HK_1|4.8MB/s
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  type: trojan
   udp: true
-  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-  ws-opts:
-    headers:
-      Host: b32-14.cmj0502.cn
-    path: /test
-  xudp: true
+- cipher: aes-256-gcm
+  name: 35|🇷🇺RU_1|2.1MB/s
+  password: cfe685726eea2c4b
+  port: 10921
+  server: 185.22.154.103
+  type: ss
+  udp: true
 - name: 37|AE_speednode_0001
   network: ws
   password: MITIVPN
