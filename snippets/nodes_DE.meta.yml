@@ -239,68 +239,51 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_33
+- client-fingerprint: edge
+  name: 29|🇩🇪_德国_10
   port: 443
-  server: s661.wagahaha.xyz
-  servername: u695099ub02ce874s660.ccgfw.top
+  server: de1.linkto.sbs
+  servername: de1.linkto.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_40
-  port: 443
-  server: s662.csgfw.top
-  servername: u695099ub02ce874s660.ccgfw.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_27
-  port: 443
-  server: 185.230.162.56
-  servername: u695099ub02ce874s660.ccgfw.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_55
-  port: 443
+  uuid: dabe4e44-39e1-4464-9491-521993f207d8
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - vip-de2-unlimited.relqino.ir
+    path:
+    - /
+  name: 29|🇩🇪_德国_103
+  network: http
+  port: 2087
   reality-opts:
-    public-key: k_CM7YO0xkMv5qxxUXC3vRPEwpMChsCh6n5u9jBkfmA
-    short-id: eabb96497e376e99
-  server: 31.70.113.54
-  servername: povrat-spedstava.com
+    public-key: YzBMpb1dERPYZ523TWUVf9MkqH4_zrnc_t_o2IjF0W4
+    short-id: e898156ae00ddeb8
+  server: 31.76.10.180
+  servername: yahoo.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 596b215c-3743-4893-b24a-4e396c4ab80f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_63
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: a1b2c3d4e5f6
-  server: 147.45.39.93
-  servername: cloudflare.com
-  skip-cert-verify: true
-  tls: true
+  uuid: 4e37ec19-064c-41fe-a218-42b093d2ca5f
+- name: 35|🇩🇪DE_1|2.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: cd3.postshup.ir
+  tls: false
   type: vless
   udp: true
-  uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
-- name: 35|🇩🇪DE_1|2.5MB/s
+  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
+  ws-opts:
+    headers:
+      Host: nnnnnnnn.postshup.ir
+    path: /?ed
+    v2ray-http-upgrade: true
+- name: 35|🇩🇪DE_2|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -315,159 +298,21 @@ proxies:
     path: /?ed
     v2ray-http-upgrade: true
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 35|🇩🇪DE_2|2.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2087
-  server: 172.67.69.212
-  servername: somthingspecial.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7ddc55f-c7a5-4161-abf0-71832121cbe4
-  xhttp-opts:
-    host: somthingspecial.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 35|🇩🇪DE_3|3.3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2087
-  server: 172.67.69.211
-  servername: somthingspecial.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7ddc55f-c7a5-4161-abf0-71832121cbe4
-  xhttp-opts:
-    host: somthingspecial.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 35|🇩🇪DE_4|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
-  ws-opts:
-    headers:
-      Host: throbbing-moon-a07c.90-ec4.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 35|🇩🇪DE_5|1.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: www.zsu.gov.ua
-  type: vless
-  udp: true
-  uuid: 2756d45c-2d91-4783-8114-ad1e128799ba
-  ws-opts:
-    headers:
-      Host: blue-breeze-e33c.261.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- name: 35|🇩🇪DE_6|3.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  ws-opts:
-    headers:
-      Host: tiny-feather-4c41.227.workers.dev
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_7|2.4MB/s
-  network: tcp
+  name: 35|🇩🇪DE_3|2.6MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: zdUruFsb8e_EEIqEMyykFbpNaOZCk_RDRaYInsgD9y0
-    short-id: 0a076a46
-  server: 185.68.184.186
+  server: love.ns.cloudflare.com
+  servername: kcxal.freshfieldhub-ili.sbs
   tls: true
   type: vless
   udp: true
-  uuid: 7bdb9235-68bd-418f-912e-4cc590f50c35
-  xudp: true
-- name: 35|🇩🇪DE_8|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: www.zsu.gov.ua
-  type: vless
-  udp: true
-  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
+  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
   ws-opts:
     headers:
-      Host: dark-cake-4743.198-46c.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- name: 35|🇩🇪DE_9|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: www.iplocation.net
-  type: vless
-  udp: true
-  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
-  ws-opts:
-    headers:
-      Host: young-wind-3c58.240-2ce.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- name: 35|🇩🇪DE_10|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  ws-opts:
-    headers:
-      Host: wild-frog-c709.403-6ff.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  encryption: none
-  name: 35|🇩🇪DE_11|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: de1.linkto.sbs
-  servername: de1.linkto.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: dabe4e44-39e1-4464-9491-521993f207d8
+      Host: kcxal.freshfieldhub-ili.sbs
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /sea
   xudp: true

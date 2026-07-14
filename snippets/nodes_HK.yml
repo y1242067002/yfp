@@ -26,43 +26,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- name: 29|🇭🇰_香港_46
-  password: BxceQaOe
-  port: 34638
-  server: 54.46.67.204
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港_16
+  port: 5566
+  server: 47.76.127.88
   skip-cert-verify: true
-  sni: 54.46.67.204
-  tls: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 29|🇭🇰_香港_48
-  password: BxceQaOe
-  port: 34638
-  server: 54.46.67.204
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港_51
-  password: BxceQaOe
-  port: 27826
-  server: 18.162.60.7
-  skip-cert-verify: true
-  sni: 18.162.60.7
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港_56
-  password: BxceQaOe
-  port: 27826
-  server: 18.162.60.7
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港_70
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- name: 29|🇭🇰_香港_17
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -73,15 +47,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港_71
-  port: 5566
-  server: 47.76.127.88
+  name: 29|🇭🇰_香港_18
+  port: 80
+  server: 47.83.221.185
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: 29|🇭🇰_香港_120
+  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+- name: 29|🇭🇰_香港_58
   password: '!!str 521314'
   port: 443
   server: 122.10.119.252
@@ -96,7 +70,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港_202
+  name: 29|🇭🇰_香港_99
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港_100
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -139,29 +124,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 35|🇭🇰HK_2|4.7MB/s
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇭🇰HK_3|1.7MB/s
-  network: ws
-  password: bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a
-  port: 443
-  server: hkntt1.mmm.uw.to
-  skip-cert-verify: false
-  sni: HKNTT1.mmm.uw.to
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a-tr

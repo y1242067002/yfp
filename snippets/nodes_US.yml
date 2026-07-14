@@ -121,7 +121,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_83
+- name: 25,29|🏳️_未知_26
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -213,7 +213,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_74
+  name: 29|🇺🇸_美国_20
   port: 443
   server: guanwang.awsno.com
   servername: gw.alicdn.com
@@ -222,19 +222,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇺🇸_美国_102
-  password: humanity
-  port: 443
-  server: 199.181.197.143
+- alterId: 0
+  cipher: auto
+  name: 29,35|🇺🇸US_1|3.3MB/s
+  network: ws
+  port: 24187
+  server: 23.236.69.39
   skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
   ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
+    path: /
 - name: 33,34|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -259,27 +259,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: 35|🇺🇸US_1|1.9MB/s
-  network: http
-  port: 1001
-  server: 154.36.128.61
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_2|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.145.57.90
-  type: ss
-  udp: true
 - name: 37|US_speednode_0063
   network: ws
   password: Mitivpn
