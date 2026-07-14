@@ -238,24 +238,24 @@ proxies:
 - name: 33,34|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 54.46.117.9
+  port: 17005
+  server: 54.46.12.97
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.110.193
+  port: 49277
+  server: 54.46.12.97
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 54.46.67.204
+  port: 11993
+  server: 95.40.50.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -265,14 +265,21 @@ proxies:
     method: GET
     path:
     - /x
-  name: 35|🇺🇸US_1|2.1MB/s
+  name: 35|🇺🇸US_1|1.9MB/s
   network: http
-  port: 52080
+  port: 1001
   server: 154.36.128.61
   tls: false
   type: vmess
   udp: true
-  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_2|3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.57.90
+  type: ss
+  udp: true
 - name: 37|US_speednode_0063
   network: ws
   password: Mitivpn
