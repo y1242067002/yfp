@@ -324,11 +324,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_26
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -438,84 +438,19 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇯🇵_日本_7
-  password: BxceQaOe
-  port: 19708
-  server: 13.230.164.110
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇳_中国_12
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 29|🇨🇳_中国_14
-  port: 30833
-  server: v33.hdacd.com
+  name: 29|🇭🇰_香港_8
+  port: 27272
+  server: 45.158.23.138
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇯🇵_日本_15
-  password: BxceQaOe
-  port: 19708
-  server: 13.230.164.110
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港_16
-  port: 5566
-  server: 47.76.127.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: 29|🇭🇰_香港_17
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_18
-  port: 80
-  server: 47.83.221.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-- name: 29|🇨🇳_中国_19
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_20
+  name: 29|🇺🇸_美国_9
   port: 443
   server: guanwang.awsno.com
   servername: gw.alicdn.com
@@ -524,36 +459,50 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🏳️_未知_22
-  password: humanity
-  port: 443
-  server: 172.64.146.198
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+- name: 29,33,34|日本3|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 18.163.77.5
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 29|🏳️_未知_23
-  password: humanity
-  port: 443
-  server: 172.64.152.23
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港_11
+  port: 5566
+  server: 47.76.127.88
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- name: 29,33,34,35|🇺🇸US_3|2.7MB/s
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 17005
+  server: 18.163.77.5
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_24
+- name: 29,33,34|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 6769
+  server: 35.78.192.10
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国_330
   password: humanity
   port: 443
-  server: 188.114.98.0
+  server: 165.215.250.14
   skip-cert-verify: true
   sni: www.creationlong.org
   tls: true
@@ -563,81 +512,10 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
-- name: 29|🏳️_未知_25
+- name: 29|🇺🇸_美国_352
   password: humanity
   port: 443
-  server: 104.18.139.67
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 29|🏳️_未知_27
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: //assignment
-- name: 29|🏳️_未知_28
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_29
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_38
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_31
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 29|🏳️_未知_32
-  password: humanity
-  port: 443
-  server: 104.18.152.225
+  server: 165.215.250.14
   skip-cert-verify: true
   sni: www.ignitelimit.com
   tls: true
@@ -647,75 +525,10 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🏳️_未知_33
+- name: 29|🇺🇸_美国_355
   password: humanity
   port: 443
-  server: 104.17.177.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_34
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 29|🏳️_未知_35
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_36
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_37
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_39
-  password: humanity
-  port: 443
-  server: 104.18.12.149
+  server: 165.215.250.14
   skip-cert-verify: true
   sni: www.calmlunch.com
   tls: true
@@ -725,636 +538,21 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 29|🏳️_未知_40
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_41
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🇸🇨_塞舌尔_42
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_43
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 29|🇦🇹_奥地利_44
-  password: humanity
-  port: 443
-  server: 212.183.88.136
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_45
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_46
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_47
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_53
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_49
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_50
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_51
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🏳️_未知_52
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 29|🇯🇵_日本_54
-  password: '521314'
-  port: 443
-  server: 126.220.82.161
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇹🇼_台湾_55
-  password: '521314'
-  port: 8443
-  server: 103.137.63.227
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇸🇬_新加坡_56
-  password: '521314'
-  port: 443
-  server: 129.212.232.171
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇹🇼_台湾_57
-  password: '521314'
-  port: 2087
-  server: 220.135.92.105
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- name: 29|🇭🇰_香港_58
-  password: '521314'
-  port: 443
-  server: 122.10.119.252
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇲🇴_澳门_59
+  name: 29|🇸🇬_新加坡_379
   network: ws
-  port: 26711
-  server: 45.207.35.102
+  port: 80
+  server: 170.187.229.90
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e92b8574-c76c-49e0-ac30-1ee35814428d
-  ws-opts:
-    path: /
-- name: 29|🏳️_未知_63
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457614914.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 6683996b-d84a-4a40-a0d3-b42a92bb3313
   ws-opts:
     headers:
-      Host: 17839457616186.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_64
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615515.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457616318.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_65
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615264.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619794.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_66
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457614140.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457614761.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_67
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457618457.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619575.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_68
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457619849.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457614584.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_69
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457617451.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619267.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_70
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615761.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457611578.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_71
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2053
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457613775.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457617728.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_72
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2096
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457613194.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457617930.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_73
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457619124.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457616596.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_74
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn1.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457614530.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457612264.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_75
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2083
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457617259.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619751.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_76
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457611814.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619491.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_77
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2096
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457613093.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457611462.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_78
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2096
-  server: bestcdn2.express.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457616405.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457613126.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_79
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457617220.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457616925.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_80
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615923.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457614933.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_81
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615823.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457617905.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_82
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457612508.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457618109.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_83
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457611394.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457612544.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_84
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457612205.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619570.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_85
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457615998.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457613419.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_86
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457619464.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457619211.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_87
-  password: 247b2600-1c0a-42d9-ae4d-cf82d60efa49
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17839457616692.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17839457614935.206356.xyz
-    path: /dmusicmuaawe
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_88
-  network: ws
-  port: 24187
-  server: 23.236.69.39
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇲🇴_澳门_92
-  network: ws
-  port: 34080
-  server: 45.207.35.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a727244e-41d4-4ae8-b307-44595b9d723d
-  ws-opts:
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本_98
-  network: ws
-  port: 21949
-  server: as.dcsaw.rfgh.dsfdsgrrey.boutique
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a4040c61-d8a8-4ded-8c07-98aabafcdcac
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_99
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_100
-  network: ws
-  port: 443
-  server: n1747624274.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+      Host: shoutingtoutiao3.10010.com
+    path: /images
 - cipher: aes-256-cfb
   name: 33|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1385,27 +583,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 6769
-  server: 35.78.192.10
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 18.163.123.154
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 33,34|日本3|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.163.77.5
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1424,14 +606,6 @@ proxies:
   server: 95.40.110.2
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 33,34|美国|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.77.5
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
@@ -1459,70 +633,302 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇸🇬SG_2|2.0MB/s
-  network: raw
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-  udp: true
-- name: 35|🇯🇵JP_3|4.9MB/s
+- name: 35|🇯🇵JP_2|2.7MB/s
   network: tcp
-  password: CF68213490
-  port: 443
-  server: real-cardinal.rooster465.autos
-  skip-cert-verify: false
-  sni: real-cardinal.rooster465.autos
+  password: BxceQaOe
+  port: 6769
+  server: 35.78.192.10
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 35|🇯🇵JP_4|6.9MB/s
-  network: tcp
-  password: CF68213490
+- client-fingerprint: safari
+  name: 35|🇺🇸US_6|2.7MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
   port: 443
-  server: easy-barnacle.rooster465.autos
+  server: 5344gt5.cloudflare.182682.xyz
   skip-cert-verify: false
-  sni: easy-barnacle.rooster465.autos
+  sni: ttt1.ttttlefjljl.xyz
   type: trojan
   udp: true
-- name: 35|🇯🇵JP_5|5.4MB/s
-  network: tcp
-  password: CF68213490
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /images
+- name: 35|🇯🇵JP_3|3.5MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
   port: 443
-  server: thankful-mustang.rooster465.autos
+  server: cdn2.bpcdn.cc
   skip-cert-verify: false
-  sni: thankful-mustang.rooster465.autos
+  sni: bjbx8xu6iih7zht5.jptimecsgo.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇺🇸US_7|2.6MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  sni: ehofhoe.bpuk2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇲🇾MY_1|4.0MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  sni: thank.bpmalai2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇹🇷TR_1|2.0MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  sni: tuerqitt.bper2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇭🇰HK_1|3.5MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: hkefowhe04.hktimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇸🇬SG_3|2.8MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇷🇺RU_1|2.1MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: eeegj.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: lx2hz55sqjviknho.bper2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇭🇰HK_2|3.5MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: hkkk498.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: hkefowhe04.hktimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /images
+- name: 35|🇯🇵JP_4|3.4MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: jjyeye.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: bjbx8xu6iih7zht5.jptimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇸🇬SG_4|3.4MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: sgsgoo.cloudflare.182682.xyz
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇹🇷TR_2|2.1MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: tt45y3.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: tuerqitt.bper2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇹🇼TW_1|4.4MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: tw3011h8r.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: kfb9frqf0v.bpis2026.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /images
+- name: 35|🇺🇸US_8|2.6MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: uubest.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: px8r9i1b4k.bpusfaster2.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /images
+- client-fingerprint: safari
+  name: 35|🇺🇸US_9|1.9MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: uugt5.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: ttt1.ttttlefjljl.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /images
 - name: 35|🇯🇵JP_6|5.4MB/s
   network: tcp
   password: CF68213490
   port: 443
-  server: skilled-lioness.rooster465.autos
+  server: accurate-frog.rooster465.autos
   skip-cert-verify: false
-  sni: skilled-lioness.rooster465.autos
+  sni: accurate-frog.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇯🇵JP_7|3.7MB/s
+- name: 35|🇯🇵JP_7|5.2MB/s
   network: tcp
   password: CF68213490
   port: 443
-  server: gentle-honeybee.rooster465.autos
+  server: alert-fish.rooster465.autos
   skip-cert-verify: false
-  sni: gentle-honeybee.rooster465.autos
+  sni: alert-fish.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇯🇵JP_8|4.7MB/s
+- name: 35|🇯🇵JP_8|5.7MB/s
   network: tcp
   password: CF68213490
   port: 443
-  server: upright-rhino.rooster465.autos
+  server: careful-penguin.rooster465.autos
   skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
+  sni: careful-penguin.rooster465.autos
   type: trojan
   udp: true
 - name: 35|🇯🇵JP_9|5.5MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: adapting-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: adapting-basilisk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_10|5.0MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: composed-sheep.rooster465.autos
+  skip-cert-verify: false
+  sni: composed-sheep.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_11|4.1MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: communal-sunbird.rooster465.autos
+  skip-cert-verify: false
+  sni: communal-sunbird.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_12|5.2MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: definite-ladybird.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-ladybird.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_13|5.5MB/s
   network: tcp
   password: CF68213490
   port: 443
@@ -1531,7 +937,305 @@ proxies:
   sni: darling-mongrel.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇸🇬SG_7|3.7MB/s
+- name: 35|🇯🇵JP_14|5.1MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: eminent-dogfish.rooster465.autos
+  skip-cert-verify: false
+  sni: eminent-dogfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_15|5.6MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: eminent-panther.rooster465.autos
+  skip-cert-verify: false
+  sni: eminent-panther.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_16|5.7MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: eager-platypus.rooster465.autos
+  skip-cert-verify: false
+  sni: eager-platypus.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_17|3.9MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: fair-werewolf.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-werewolf.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_18|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: eternal-woodcock.rooster465.autos
+  skip-cert-verify: false
+  sni: eternal-woodcock.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_19|3.9MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: funny-hawk.rooster465.autos
+  skip-cert-verify: false
+  sni: funny-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_20|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: gentle-honeybee.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-honeybee.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_21|5.6MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: funny-hen.rooster465.autos
+  skip-cert-verify: false
+  sni: funny-hen.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_22|5.3MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: live-drake.rooster465.autos
+  skip-cert-verify: false
+  sni: live-drake.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_23|5.3MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: moved-bluegill.rooster465.autos
+  skip-cert-verify: false
+  sni: moved-bluegill.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_24|5.3MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: eternal-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: eternal-perch.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_25|5.2MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: sacred-shepherd.rooster465.autos
+  skip-cert-verify: false
+  sni: sacred-shepherd.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_26|4.9MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: loyal-molly.rooster465.autos
+  skip-cert-verify: false
+  sni: loyal-molly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_27|4.9MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: musical-manatee.rooster465.autos
+  skip-cert-verify: false
+  sni: musical-manatee.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_28|3.8MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: nearby-egret.rooster465.autos
+  skip-cert-verify: false
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_29|5.0MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: next-turkey.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_30|4.5MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: in-oriole.rooster465.autos
+  skip-cert-verify: false
+  sni: in-oriole.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_31|5.6MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: smiling-fowl.rooster465.autos
+  skip-cert-verify: false
+  sni: smiling-fowl.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_32|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: skilled-lioness.rooster465.autos
+  skip-cert-verify: false
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_33|4.5MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: smooth-hornet.rooster465.autos
+  skip-cert-verify: false
+  sni: smooth-hornet.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_34|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: sincere-crappie.rooster465.autos
+  skip-cert-verify: false
+  sni: sincere-crappie.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_35|3.8MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: smashing-fawn.rooster465.autos
+  skip-cert-verify: false
+  sni: smashing-fawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_36|5.5MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: star-moray.rooster465.autos
+  skip-cert-verify: false
+  sni: star-moray.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_37|5.8MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: steady-prawn.rooster465.autos
+  skip-cert-verify: false
+  sni: steady-prawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_38|7.2MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: summary-firefly.rooster465.autos
+  skip-cert-verify: false
+  sni: summary-firefly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_39|2.1MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: false
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_40|5.3MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: united-molly.rooster465.autos
+  skip-cert-verify: false
+  sni: united-molly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_41|5.4MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: welcome-monitor.rooster465.autos
+  skip-cert-verify: false
+  sni: welcome-monitor.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_42|3.9MB/s
+  network: ws
+  password: '666'
+  port: 443
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  sni: yg3u2.ncc0.n06.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 35|🇯🇵JP_43|4.1MB/s
+  network: ws
+  password: '666'
+  port: 443
+  server: www.cnae.top
+  skip-cert-verify: false
+  sni: yg3u2.ncc0.n06.hh.hhhdl.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 35|🇯🇵JP_45|5.2MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: easy-barnacle.rooster465.autos
+  skip-cert-verify: false
+  sni: easy-barnacle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_46|5.5MB/s
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: upright-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-rhino.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇸🇬SG_12|4.7MB/s
   network: tcp
   password: CF68213490
   port: 443

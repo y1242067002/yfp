@@ -48,11 +48,8 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: chrome
-  encryption: none
-  name: 29,35|🇬🇧GB_2|2.1MB/s
-  network: raw
-  packet-encoding: xudp
+- client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯_5
   port: 443
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
@@ -64,123 +61,30 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_9
-  port: 25567
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_7
+  port: 443
   reality-opts:
-    public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
-    short-id: a5bd715847213387
-  server: 78.159.245.43
-  servername: iv.kommersant.ru
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 45.143.203.21
+  servername: j.6sc.co
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_13
-  port: 25565
-  reality-opts:
-    public-key: Pw1EUU1hud5uvtfySGyGy5vV38bYIiQzDx-cDQoAdk0
-    short-id: a5bd715847213387
-  server: 78.159.245.45
-  servername: img.perekrestok.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: safari
+  name: 35|🇷🇺RU_1|2.1MB/s
+  network: ws
+  password: 2c366360-0333-4738-9423-6d5b378e3594
+  port: 443
+  server: eeegj.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: lx2hz55sqjviknho.bper2026.top
+  type: trojan
   udp: true
-  uuid: 1db3cf89-7ca0-4d7d-8c7c-4f57ae2a29da
-- client-fingerprint: firefox
-  http-opts:
+  ws-opts:
     headers:
-      Host:
-      - cdn.tracker.yandex.net
-    path:
-    - /static/js/main.js
-  name: 29|🇷🇺_俄罗斯_111
-  network: http
-  port: 443
-  reality-opts:
-    public-key: SRHaGdtnkRYMKRlJPAIlk3gXKNH9lEo_qCzF5BOBdB4
-    short-id: bc1aa344
-  server: 92.53.99.72
-  servername: cdn.tracker.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_1|2.5MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 36104
-  reality-opts:
-    public-key: 2Px6fKzdJdvV0AdnvNHY_UkWSiL0nOfPU_4A8nkFwhc
-    short-id: 1ace278dcb0b5082
-  server: 158.160.241.25
-  servername: vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3a27b278-b999-42f0-853d-61ae810ec719
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|🇷🇺RU_2|2.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8NnEa_OhXRMmdnQrfyr2SLFjl4JXUYb9oy6acyomZAw
-    short-id: ''
-  server: 51.250.29.180
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91d85eaf-f805-433f-8906-53408459ec93
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_3|2.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 161.104.107.86
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7675c4a-b148-4b02-9cfe-3275e4fee305
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_4|2.5MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: X3_wpAsAUS1ajiuResGGrHQo8aMT1KlbMeMWAFk1jX8
-    short-id: ''
-  server: 158.160.243.64
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9f0d148-991d-0064-a388-c3b69a0534df
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /images
