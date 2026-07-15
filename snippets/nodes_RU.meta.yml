@@ -48,8 +48,11 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_5
+- client-fingerprint: chrome
+  encryption: none
+  name: 29,35|🇬🇧GB_2|2.3MB/s
+  network: raw
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
@@ -61,6 +64,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: chrome
   name: 29|🇷🇺_俄罗斯_7
   port: 443
@@ -73,20 +77,36 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: firefox
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_1|2.9MB/s
+  name: 35|🇷🇺RU_1|2.4MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: R27DVC-KJRwzorKGz7tlPNeKs0R-gZnW1_qI6gGXVC8
+    short-id: 45ba24f429ad1f28
+  server: 176.53.161.244
+  servername: web.max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇷🇺RU_2|2.5MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: gYMI6_kvxK_r6sOPHp91ZYYKSUQfSp8JADHB3ZfuGUo
-    short-id: 880961f1d1256c97
-  server: freenl.aiage.work
-  servername: freenl.aiage.work
+    public-key: YlTuZAJgyqZ6gmKKTbtR0TZvFsXeozca_bs0tqIXtys
+    short-id: 920d0959
+  server: ru41.theabvp.org
+  servername: sun6-20.userapi.com
   tls: true
   type: vless
   udp: true
-  uuid: a8957892-6db0-4310-983b-6f3f5146a584
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
