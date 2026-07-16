@@ -245,7 +245,7 @@ proxies:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
     path: /@Marisa_kristi
 - auth: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  name: 35|🇩🇪DE_1|4.1MB/s
+  name: 35|🇩🇪DE_1|3.4MB/s
   password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
   port: 8449
   server: jongjmi.odnako.site
@@ -253,21 +253,41 @@ proxies:
   sni: jongjmi.odnako.site
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|2.5MB/s
-  network: ws
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 35|🇩🇪DE_2|2.0MB/s
+  network: xhttp
   packet-encoding: xudp
-  port: 443
+  port: 8443
   server: love.ns.cloudflare.com
-  servername: edxkk.goldfieldline-milo.sbs
+  servername: vamosargentina.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇩🇪DE_3|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: nebulonix.online
+  servername: moz.boaza.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85c40985-f109-410c-9657-4a2f52140bf0
   ws-opts:
     headers:
-      Host: edxkk.goldfieldline-milo.sbs
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sea
+      Host: moz.boaza.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
   xudp: true
