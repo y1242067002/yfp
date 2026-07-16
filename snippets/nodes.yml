@@ -662,28 +662,50 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇺🇸US_1|2.3MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-- name: 35|🇸🇬SG_2|2.7MB/s
+- name: 35|🇸🇬SG_2|3.5MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: 35|🇰🇷KR_1|4.8MB/s
+- alterId: '0'
+  cipher: auto
+  name: 35|🇨🇦CA_1|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18339
+  server: c87s5.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  xudp: true
+- name: 35|🇸🇬SG_3|3.5MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: driving-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: driving-antelope.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇸🇬SG_4|4.5MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: topical-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: topical-shark.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇰🇷KR_1|4.0MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -692,7 +714,7 @@ proxies:
   sni: thorough-foxhound.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇯🇵JP_14|5.1MB/s
+- name: 35|🇯🇵JP_11|4.9MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -701,7 +723,7 @@ proxies:
   sni: ace-liger.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇸🇬SG_4|4.4MB/s
+- name: 35|🇸🇬SG_5|3.6MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -710,7 +732,7 @@ proxies:
   sni: bold-eagle.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇸🇬SG_5|3.7MB/s
+- name: 35|🇸🇬SG_6|4.0MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -719,7 +741,7 @@ proxies:
   sni: allowed-moose.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇰🇷KR_2|3.9MB/s
+- name: 35|🇰🇷KR_2|4.7MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -728,31 +750,13 @@ proxies:
   sni: gentle-platypus.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇸🇬SG_6|3.8MB/s
+- name: 35|🇸🇬SG_7|3.8MB/s
   network: tcp
   password: NQ26071394
   port: 443
   server: amazing-troll.rooster465.autos
   skip-cert-verify: false
   sni: amazing-troll.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇯🇵JP_15|4.1MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: arriving-koala.rooster465.autos
-  skip-cert-verify: false
-  sni: arriving-koala.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇯🇵JP_16|5.2MB/s
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: direct-hawk.rooster465.autos
-  skip-cert-verify: false
-  sni: direct-hawk.rooster465.autos
   type: trojan
   udp: true
 - name: 37|AE_speednode_0001
