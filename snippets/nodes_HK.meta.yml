@@ -119,6 +119,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: web.max.ru
+  name: 35|🇭🇰HK_1|1.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 444
+  reality-opts:
+    public-key: lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ
+    short-id: 8622176789abcdef
+  server: hk.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 35|🇭🇰HK_2|1.5MB/s
+  network: none
+  packet-encoding: xudp
+  port: 25532
+  server: 103.172.134.162
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b26f68b-9f7f-41e5-b35f-ed1aded831d5
+  xudp: true
 - name: 37|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
