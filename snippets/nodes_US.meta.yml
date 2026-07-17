@@ -740,14 +740,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_56
@@ -1439,6 +1431,81 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: media.v1.ObjectService
+  name: 35|🇺🇸US_1|2.6MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 8QJSXd0F3JScfRiyQFh_IXYq8Liwpa9EzhbC1MDRrnc
+    short-id: 8e4d75390b1e0547
+  server: us.onetimeok.com
+  servername: us.onetimeok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+- encryption: none
+  name: 35|🇺🇸US_3|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: e2lsnrlu.cf.3666888.xyz
+  type: vless
+  udp: true
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  ws-opts:
+    headers:
+      Host: v83wyiv0.cnm.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /sub
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: gw.v1.MetricsService
+  name: 35|🇺🇸US_9|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 28oR3ji9c2CneMNkbvcDL8WfvNWHS3GfA3RdtaF-pSg
+    short-id: 89e97b6542785ca6
+  server: grid.onetimeok.com
+  servername: grid.onetimeok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: sync.v2.FeedService
+  name: 35|🇺🇸US_10|1.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: lOONDaJA7m6EtXSWb0DdUIAfOEO2_hqLsqn6ifA4gXE
+    short-id: 018f65354c647e46
+  server: router.reasonok.com
+  servername: router.reasonok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  xudp: true
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_11|1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.145.162.175
+  type: ss
+  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 37|US_speednode_0055
