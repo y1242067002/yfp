@@ -1,5 +1,7 @@
 proxies:
-- name: 29|🇫🇷_法国_31
+- client-fingerprint: chrome
+  name: 28,34|🇫🇷FR_2|4.1MB/s
+  network: tcp
   password: NQ26071394
   port: 443
   server: ready-kangaroo.rooster465.autos
@@ -8,3 +10,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 34|🇫🇷FR_3|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 12886
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
