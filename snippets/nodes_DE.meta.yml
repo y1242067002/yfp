@@ -229,12 +229,19 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: '27|T.Me=V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: kfCR7ekba6
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 28,34|🇦🇹AT_1|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 28|🇩🇪_德国_37
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -246,13 +253,9 @@ proxies:
   type: vless
   udp: true
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28,34|🇩🇪DE_1|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 28|🇩🇪_德国_43
   port: 2443
   reality-opts:
     public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
@@ -264,7 +267,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 28|🇩🇪_德国_59
@@ -279,9 +281,10 @@ proxies:
   type: vless
   udp: true
   uuid: 7856eb14-06d6-423a-b4a6-353b3ce5c51a
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_78
+  name: 28,34|🇺🇦UA_1|1.8MB/s
+  network: tcp
   port: 10443
   reality-opts:
     public-key: 6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0
@@ -336,8 +339,11 @@ proxies:
   udp: true
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_96
+  name: 28,34|🇦🇹AT_1|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -349,9 +355,11 @@ proxies:
   type: vless
   udp: true
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_105
+  name: 28,34|🇦🇹AT_2|3.3MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -414,7 +422,7 @@ proxies:
     headers:
       Host: 2.26.86.140
     path: /tunnel-5-ws
-- name: 28,34|🇺🇸US_8|2.5MB/s
+- name: 28|🇩🇪_德国_213
   network: ws
   port: 443
   server: 142.132.178.99
@@ -582,63 +590,41 @@ proxies:
       Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
     path: /
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇩🇪DE_2|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 53921
-  reality-opts:
-    public-key: 1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y
-    short-id: c2
-  server: real2.gogoli.xyz
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: efb994b0-c84f-483d-b45f-797b825f6e77
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 34|🇩🇪DE_3|2.3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  server: bayan.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: aes-256-cfb
-  name: 34|🇩🇪DE_4|3.7MB/s
-  password: amazonskr05
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: api.v1.StreamService
+  name: 34|🇩🇪DE_1|2.6MB/s
+  network: grpc
   port: 443
-  server: 3.122.115.111
-  type: ss
-  udp: true
-- name: 34|🇩🇪DE_5|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 3030
-  server: 169.40.32.4
+  reality-opts:
+    public-key: U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs
+    short-id: 335555b164619360
+  server: fetch.anotherok.com
+  servername: fetch.anotherok.com
+  tls: true
   type: vless
   udp: true
-  uuid: dfe03868-edda-4dd2-a1fb-19818d6089e3
-  xudp: true
+  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 34|🇩🇪DE_2|1.7MB/s
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
 - client-fingerprint: chrome
   encryption: none
-  name: 34|🇩🇪DE_6|1.8MB/s
+  name: 34|🇩🇪DE_3|3.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 2053
-  server: 51.91.103.101
+  port: 8443
+  server: 51.91.103.142
   servername: s5gydl.936.us.ci
   tls: true
   type: vless
@@ -647,7 +633,7 @@ proxies:
   ws-opts:
     headers:
       Host: s5gydl.936.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   xudp: true

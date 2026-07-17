@@ -43,11 +43,12 @@ proxies:
   type: vless
   udp: true
   uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- name: 28|🇯🇵_日本_18
+- name: 28,34|🇯🇵JP_9|1.6MB/s
+  network: tcp
   password: NQ26071394
   port: 443
   server: hot-tapir.rooster465.autos
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hot-tapir.rooster465.autos
   tls: true
   type: trojan
@@ -307,7 +308,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 34|🇯🇵JP_1|3.7MB/s
+- name: 34|🇯🇵JP_1|4.9MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -316,7 +317,7 @@ proxies:
   sni: harmless-pegasus.rooster465.autos
   type: trojan
 - client-fingerprint: random
-  name: 34|🇯🇵JP_2|3.0MB/s
+  name: 34|🇯🇵JP_2|3.7MB/s
   network: ws
   port: 443
   server: 172.64.229.1
@@ -328,15 +329,44 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
     path: /proxyip=ProxyIP.US.cmliussss.net
-- name: 34|🇯🇵JP_3|3.4MB/s
+- name: 34|🇯🇵JP_3|5.5MB/s
   network: tcp
   password: NQ26071394
   port: 443
-  server: innocent-mullet.rooster465.autos
+  server: wise-rhino.rooster465.autos
   skip-cert-verify: true
-  sni: innocent-mullet.rooster465.autos
+  sni: wise-rhino.rooster465.autos
   type: trojan
-- name: 34|🇯🇵JP_4|4.6MB/s
+- name: 34|🇯🇵JP_4|5.0MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: grateful-crawdad.rooster465.autos
+  skip-cert-verify: true
+  sni: grateful-crawdad.rooster465.autos
+  type: trojan
+- client-fingerprint: random
+  name: 34|🇯🇵JP_5|3.4MB/s
+  network: ws
+  port: 8443
+  server: 162.159.38.2
+  servername: cf11.evan00.dpdns.org
+  tls: true
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  ws-opts:
+    headers:
+      Host: cf11.evan00.dpdns.org
+    path: /proxyip=ProxyIP.US.cmliussss.net
+- name: 34|🇯🇵JP_6|3.7MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: equal-labrador.rooster465.autos
+  skip-cert-verify: true
+  sni: equal-labrador.rooster465.autos
+  type: trojan
+- name: 34|🇯🇵JP_7|5.2MB/s
   network: tcp
   password: NQ26071394
   port: 443
@@ -344,22 +374,58 @@ proxies:
   skip-cert-verify: true
   sni: bursting-racer.rooster465.autos
   type: trojan
-- name: 34|🇯🇵JP_5|5.0MB/s
+- name: 34|🇯🇵JP_8|4.0MB/s
   network: tcp
   password: NQ26071394
   port: 443
-  server: wise-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: wise-rhino.rooster465.autos
+  server: warm-bass.rooster465.autos
+  skip-cert-verify: true
+  sni: warm-bass.rooster465.autos
+  type: trojan
+- name: 34|🇯🇵JP_10|4.8MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: pure-ghoul.rooster465.autos
+  skip-cert-verify: true
+  sni: pure-ghoul.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 34|🇯🇵JP_6|5.0MB/s
+  name: 34|🇯🇵JP_11|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.38.78
+  servername: cf11.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  ws-opts:
+    headers:
+      Host: cf11.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.netfp=random
+  xudp: true
+- client-fingerprint: chrome
+  name: 34|🇯🇵JP_12|3.7MB/s
   network: tcp
   password: NQ26071394
   port: 443
-  server: one-dove.rooster465.autos
+  server: 13.192.169.230
   skip-cert-verify: false
-  sni: one-dove.rooster465.autos
+  sni: warm-bass.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 34|🇯🇵JP_13|2.0MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: 18.183.220.94
+  skip-cert-verify: false
+  sni: legible-ram.rooster465.autos
   type: trojan
   udp: true
