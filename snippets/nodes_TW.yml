@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: 29|🇹🇼_台湾_186
+  password: '!!str 521314'
+  port: 2087
+  server: 220.135.92.105
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /

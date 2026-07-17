@@ -1,45 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers:
-      Host:
-      - yahoo.com
-    path:
-    - /
-  name: 35|🇨🇭CH_1|2.1MB/s
-  network: http
-  packet-encoding: xudp
-  port: 32875
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士_62
+  port: 443
   reality-opts:
-    public-key: NFQAS72yT1b_7ZZhYcIC6Nm3rYSqQwxqOZKid5DJ0Gg
-    short-id: ''
-  server: 179.237.75.28
-  servername: yahoo.com
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: d67ec5a8fc40ebea
+  server: nd03.myxasecure.space
+  servername: nd03.myxasecure.space
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 1961317f-5f2c-4346-e4b0-b767f0946138
-  xudp: true
+  uuid: b79ada82-b394-4afd-828f-7eefecae3a97
 - client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers:
-      Host:
-      - yahoo.com
-    path:
-    - /
-  name: 35|🇨🇭CH_2|2.2MB/s
-  network: http
-  packet-encoding: xudp
-  port: 11596
+  flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士_92
+  port: 443
   reality-opts:
-    public-key: L6zEB5x8-kyr75lwmBNuz2S_UFo-GwVZvcyy0GY8QXA
-    short-id: ''
-  server: 179.237.75.28
-  servername: yahoo.com
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: 8f9d033ad6d2cebf
+  server: fi2.cyphervpn.pro
+  servername: fi2.cyphervpn.pro
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d1c9eccc-91b1-4185-e459-febe9c42ccd1
-  xudp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1

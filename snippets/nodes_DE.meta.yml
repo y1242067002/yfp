@@ -178,6 +178,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 28|Telegram=V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: KJX4HQHodA
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 28|🇩🇪Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -208,25 +218,12 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: acc6131ab42c77173ab179a5ac5707ececd64387bfd8b34c531278b561485d27
-  name: 28,35|🇩🇪DE_11|2.8MB/s
+- name: 28|Telegram=V2RayyNGvpn🇩🇪2
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: V2RayyNGvpn
   port: 25810
   server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-  up: ''
-- name: 28|@V2RayyNGvpn کانال ما🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: p3HaP2Lht6
-  port: 40460
-  server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
@@ -242,243 +239,346 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_264
-  network: ws
-  port: 8433
-  server: 95.181.160.240
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_37
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: jdwadgw.cvewfjg.shop
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 09e6bf0d-02d9-46e9-bf33-bdd533cc494b
-  ws-opts:
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_365
-  network: ws
-  port: 52014
-  server: 57.129.52.47
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_43
+  port: 2443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: 8f9d033ad6d2cebf
+  server: ge4.cyphervpn.pro
+  servername: ge4.cyphervpn.pro
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ecc4675b-1607-4699-8b20-23af97b671af
-  ws-opts:
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_366
-  network: ws
-  port: 5000
-  server: 92.118.190.151
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_59
+  port: 443
+  reality-opts:
+    public-key: IY7z4YneuuMK6nsOyqxHPC30hLR4CaxBVHD-SpRk2H0
+    short-id: 377209f7cecf2f7d
+  server: 217.60.23.230
+  servername: site.rumedia-cdn.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c4effa31-0e11-46e9-a24e-215194ffb17d
-  ws-opts:
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 35|🇩🇪DE_1|2.4MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_2|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
-    short-id: ''
-  server: 89.106.86.87
-  servername: ads.cardds.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_3|3.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
-    short-id: ''
-  server: 94.249.225.48
-  servername: ssl.cougarboardsstore.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_4|3.3MB/s
-  network: ws
-  port: 443
-  server: 172.67.77.213
-  servername: vp17.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp17.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_5|2.5MB/s
-  network: ws
-  port: 2087
-  server: 104.26.10.51
-  servername: vp42.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp42.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_6|1.9MB/s
-  network: ws
-  port: 443
-  server: 172.67.79.116
-  servername: vp19.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp19.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_7|2.6MB/s
-  network: ws
-  port: 2096
-  server: 172.67.79.161
-  servername: vp19.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp19.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_8|2.3MB/s
-  network: ws
-  port: 8443
-  server: 104.26.8.249
-  servername: vp41.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp41.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 35|🇩🇪DE_9|3.2MB/s
-  network: ws
-  port: 2053
-  server: 104.26.10.200
-  servername: vp37.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp37.cc.cd
-    path: /
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_10|4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.183.207.82
-  type: ss
-  udp: true
-- name: 35|🇩🇪DE_12|3.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: f5c01a38-a92a-46a1-8968-a0582f4e2f2a
-  ws-opts:
-    headers:
-      Host: steep-frost-8b18.350-c77.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 35|🇩🇪DE_13|2.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: www.zsu.gov.ua
-  type: vless
-  udp: true
-  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
-  ws-opts:
-    headers:
-      Host: dark-cake-4743.198-46c.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
+  uuid: 7856eb14-06d6-423a-b4a6-353b3ce5c51a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_14|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10001
+  name: 29|🇩🇪_德国_78
+  port: 10443
   reality-opts:
-    public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns
-    short-id: 1299373a
-  server: cdn.globalschool.edu.kg
-  servername: www.icloud.com
+    public-key: 6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0
+    short-id: be0191cc
+  server: 144.31.218.79
+  servername: www.tesla.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5c4a1e4c-c679-4030-8b5d-9704e4891223
-  xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_15|2.7MB/s
-  password: amazonskr05
+  uuid: 111841ae-8ee4-4ac7-b750-717d46f17492
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_120
   port: 443
-  server: 18.153.33.90
-  type: ss
+  reality-opts:
+    public-key: HQ0kcyQp4LLPMJNtI7kEcQZw1o5AA1YNkOMfUUrsTjU
+    short-id: 22adce68ed227a4a
+  server: 31.56.188.87
+  servername: site.rumedia-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 0c74ec62-91b3-4dbf-bf2f-d824e09980f0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_87
+  port: 443
+  reality-opts:
+    public-key: HOTVBbrNu_CXdYbnC8sumXQfZ_W7NG2vcN8o8SblTGI
+    short-id: e6b0240761f538e1
+  server: 2.26.125.51
+  servername: site.rumedia-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 320fb564-c329-4d32-8187-89d7058af0eb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_95
+  port: 2443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: 8f9d033ad6d2cebf
+  server: ge1.cyphervpn.pro
+  servername: ge1.cyphervpn.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_96
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: jdwacdi.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_105
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: jdwabxe.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_112
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_139
+  port: 443
+  reality-opts:
+    public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
+  server: ge-5.lemonbow.ru
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8516c47e-a7a1-42f7-9c14-ae9b14873cc8
+- name: 29|🇩🇪_德国_199
+  network: ws
+  port: 10006
+  server: 2.26.86.140
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ac3501f6-365f-4fbf-8ca0-8cd323d72b31
+  ws-opts:
+    path: /tunnel-5-ws
+- name: 29|🇩🇪_德国_202
+  network: ws
+  port: 10006
+  server: 2.26.86.140
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ac3501f6-365f-4fbf-8ca0-8cd323d72b31
+  ws-opts:
+    headers:
+      Host: 2.26.86.140
+    path: /tunnel-5-ws
+- name: 29|🇩🇪_德国_213
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  servername: 40t1.wxgqlfx.vip
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
+  ws-opts:
+    headers:
+      Host: 40t1.wxgqlfx.vip
+    path: /TG@wxgqlfx
+- name: 29|🇩🇪_德国_227
+  network: ws
+  port: 443
+  server: 88.198.82.156
+  servername: 40t1.wxgqlfx.vip
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
+  ws-opts:
+    headers:
+      Host: 40t1.wxgqlfx.vip
+    path: /TG@wxgqlfx
+- name: 29|🇩🇪_德国_251
+  network: ws
+  port: 443
+  server: 88.198.82.148
+  servername: 40t1.wxgqlfx.vip
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4dfa054-4b6e-405f-c439-6e4f0b6b700b
+  ws-opts:
+    headers:
+      Host: 40t1.wxgqlfx.vip
+    path: /TG@wxgqlfx
+- name: 29|🇩🇪_德国_260
+  network: ws
+  port: 80
+  server: 164.92.143.135
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f0e2e83d-d2b0-4e71-8da5-71306ad58e08
+  ws-opts:
+    headers:
+      Host: xU.aSaCO.sTorE
+    path: /
+- name: 29|🇩🇪_德国_366
+  network: ws
+  port: 443
+  server: 88.198.82.151
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_372
+  network: ws
+  port: 443
+  server: 88.198.82.155
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_373
+  network: ws
+  port: 443
+  server: 91.107.251.113
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_376
+  network: ws
+  port: 443
+  server: 91.107.158.77
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_384
+  network: ws
+  port: 443
+  server: 91.107.255.196
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_388
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_391
+  network: ws
+  port: 443
+  server: 88.198.82.157
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /
+- name: 29|🇩🇪_德国_393
+  network: ws
+  port: 443
+  server: 80.76.32.165
+  servername: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 152b1711-c74a-d177-ca11-efa3dc143145
+  ws-opts:
+    headers:
+      Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
+    path: /

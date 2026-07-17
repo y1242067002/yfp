@@ -103,44 +103,79 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_1|1.6MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 444
-  reality-opts:
-    public-key: n9tFDSBvLVWje_hxPG5QqEZIf-ZhqbNH-i1PfmAHYkQ
-    short-id: c226283c4de5b1ad
-  server: 138.16.184.123
-  servername: ads.x5.ru
-  tls: true
+- name: 29|🇫🇷_法国_32
+  port: 8882
+  server: gr1.fifapes.monster
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 81ef8e1d-4d31-4c1b-92e8-d2e65e7ffaf4
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇫🇷FR_2|2.2MB/s
-  network: xhttp
-  packet-encoding: xudp
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: 29|🇫🇷_法国_31
+  password: NQ26071394
   port: 443
-  server: 151.101.117.252
-  servername: manage.fastly.com
+  server: ready-kangaroo.rooster465.autos
+  skip-cert-verify: true
+  sni: ready-kangaroo.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_57
+  port: 443
+  reality-opts:
+    public-key: Gaa3Z1bqf5nat63qzrhxlw11R7qZckb5qfs5-eSW-Wg
+    short-id: 10d354c5485afe58
+  server: fr1.panel11.ru
+  servername: fr1.panel11.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f65bfa7c-1094-46b5-b7a9-a771499ea5d3
-  xhttp-opts:
-    host: oh1.global.ssl.fastly.net
-    mode: packet-up
-    path: /
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_76
+  port: 443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: 8f9d033ad6d2cebf
+  server: fr1.cyphervpn.pro
+  servername: fr1.cyphervpn.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_91
+  port: 8443
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: a20d3ed244c76426
+  server: 151.243.217.63
+  servername: fra.fastload.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 822cae5e-2fbf-4d4d-8f20-e9c89593e1ee
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_128
+  port: 443
+  reality-opts:
+    public-key: -cfh-rBjSYKhBeAgGzYLrcDiEfZc9xRqCvMB0kpOokQ
+    short-id: 253105aeda9e37a7
+  server: fr3.cyphervpn.pro
+  servername: fr3.cyphervpn.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - name: 37|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
