@@ -103,32 +103,97 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- encryption: none
-  name: 35|🇫🇷FR_1|3.2MB/s
-  network: tcp
+- alpn:
+  - h3
+  congestion-controller: cubic
+  disable-sni: false
+  name: 35|🇫🇷FR_1|2.6MB/s
+  password: dongtaiwang.com
+  port: 33888
+  reduce-rtt: false
+  request-timeout: 0
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  version: 5
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|🇫🇷FR_2|3.1MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 22224
-  server: 15.224.123.16
+  port: 443
+  reality-opts:
+    public-key: SK0KGyJuRjuijxlXfFIQ16DBIVRIMwYWUvYyS_CrWhA
+    short-id: ec092e19
+  server: 45.12.114.157
+  servername: www.samsung.com
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- encryption: none
-  name: 35|🇫🇷FR_2|4.1MB/s
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_3|2.1MB/s
+  network: raw
   packet-encoding: xudp
-  port: 22222
-  server: 13.39.152.119
+  port: 447
+  reality-opts:
+    public-key: fJd4UrCVRV4Al_Q5RdSavkgEseYBk2Ojly4lC7ZYK3I
+    short-id: c226283c4de5b1ad
+  server: 138.16.162.154
+  servername: ads.x5.ru
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 5ca41e39-0c15-45c4-9cba-5aa41039c6b3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_4|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 444
+  reality-opts:
+    public-key: n9tFDSBvLVWje_hxPG5QqEZIf-ZhqbNH-i1PfmAHYkQ
+    short-id: c226283c4de5b1ad
+  server: 138.16.184.123
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81ef8e1d-4d31-4c1b-92e8-d2e65e7ffaf4
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_5|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+    short-id: ''
+  server: 37.49.230.101
+  servername: fastsync.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 35|🇫🇷FR_3|2.7MB/s
+  name: 35|🇫🇷FR_6|2.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 16644
+  port: 16645
   server: planb.mojcn.com
   skip-cert-verify: false
   tls: false
