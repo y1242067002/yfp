@@ -67,7 +67,7 @@ proxies:
     headers:
       Host: shoutingtoutiao3.10010.com
     path: /images
-- name: 33,34|新加坡|@ripaojiedian
+- name: 33,34,35|🇸🇬SG_2|2.2MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -92,34 +92,20 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 35|🇸🇬SG_1|4.4MB/s
+  name: 35|🇸🇬SG_1|2.7MB/s
   network: ws
-  port: 2053
-  server: 198.41.223.189
-  servername: vp13.cc.cd
+  port: 2083
+  server: 8.35.211.66
+  servername: vp30.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp13.cc.cd
+      Host: vp30.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: 35|🇸🇬SG_2|3.8MB/s
-  network: ws
-  port: 2053
-  server: 104.18.33.139
-  servername: vp40.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp40.cc.cd
-    path: /
-- name: 35|🇸🇬SG_3|3.3MB/s
+- name: 35|🇸🇬SG_3|2.5MB/s
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -130,23 +116,35 @@ proxies:
   ws-opts:
     headers:
       Host: silent-cake-fb8d.69-a76.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: 35|🇸🇬SG_4|3.3MB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|🇸🇬SG_4|2.1MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+  port: 44443
+  reality-opts:
+    public-key: kk6t0xig_xZViUWnM-hjRGY_-P29fA6DUggL2eEkyRg
+    short-id: ''
+  server: 193.233.91.118
+  servername: 5post-gate.x5.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
+  uuid: a31da5f0-2f95-4fad-92c5-125f1dc4aff0
   xudp: true
+- client-fingerprint: chrome
+  name: 35|🇸🇬SG_5|3.5MB/s
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: upward-squid.rooster465.autos
+  skip-cert-verify: false
+  sni: upward-squid.rooster465.autos
+  type: trojan
+  udp: true

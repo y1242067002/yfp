@@ -49,9 +49,26 @@ proxies:
     headers:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: firefox
+- client-fingerprint: random
+  encryption: none
   flow: xtls-rprx-vision
   name: 35|🇸🇪SE_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1c7TsslPz_gsvzX4ENkEa36Pp3gm-M3SRLhvqtGaAz4
+    short-id: e8e019c424ccb765
+  server: st.onnstreaming.ru
+  servername: st.onnstreaming.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1c624fc-d0b0-49c7-8afa-e15a5949bc17
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇸🇪SE_2|1.7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443

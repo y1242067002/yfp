@@ -101,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
+- name: 33,34,35|🇭🇰HK_2|3.5MB/s
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -119,6 +119,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 35|🇭🇰HK_1|2.6MB/s
+  network: ws
+  port: 443
+  server: proxyip.hk.cmliussss.net
+  servername: vp10.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: web.max.ru
+  name: 35|🇭🇰HK_3|1.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 444
+  reality-opts:
+    public-key: lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ
+    short-id: 8622176789abcdef
+  server: hk.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  xudp: true
 - name: 37|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

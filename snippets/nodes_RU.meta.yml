@@ -49,7 +49,7 @@ proxies:
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: qq
-  name: 29,35|🇬🇧GB_2|2.5MB/s
+  name: 29,35|🇬🇧GB_2|2.4MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -74,3 +74,23 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- auth: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  name: 35|🇷🇺RU_1|3.4MB/s
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  skip-cert-verify: true
+  sni: fl02.auragg.org
+  type: hysteria2
+- encryption: none
+  grpc-opts:
+    grpc-service-name: zuugrpc
+  name: 35|🇷🇺RU_2|1.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 27700
+  server: 85.239.44.8
+  type: vless
+  udp: true
+  uuid: ce7dcd95-2f9a-431f-9c3e-0caaf6428798
+  xudp: true

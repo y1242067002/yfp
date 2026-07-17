@@ -7,7 +7,7 @@ proxies:
       - yahoo.com
     path:
     - /
-  name: 35|🇨🇭CH_1|2.9MB/s
+  name: 35|🇨🇭CH_1|2.1MB/s
   network: http
   packet-encoding: xudp
   port: 32875
@@ -20,4 +20,26 @@ proxies:
   type: vless
   udp: true
   uuid: 1961317f-5f2c-4346-e4b0-b767f0946138
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - yahoo.com
+    path:
+    - /
+  name: 35|🇨🇭CH_2|2.2MB/s
+  network: http
+  packet-encoding: xudp
+  port: 11596
+  reality-opts:
+    public-key: L6zEB5x8-kyr75lwmBNuz2S_UFo-GwVZvcyy0GY8QXA
+    short-id: ''
+  server: 179.237.75.28
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d1c9eccc-91b1-4185-e459-febe9c42ccd1
   xudp: true
