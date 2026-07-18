@@ -121,8 +121,11 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: qq
-  name: 28|🇷🇺_俄罗斯_93
+- client-fingerprint: chrome
+  encryption: none
+  name: 28,34|🇬🇧GB_2|2.7MB/s
+  network: raw
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
@@ -134,6 +137,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - name: 28|🇷🇺_俄罗斯_159
   network: ws
   port: 443
