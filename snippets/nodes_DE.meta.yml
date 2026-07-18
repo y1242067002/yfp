@@ -281,10 +281,9 @@ proxies:
   type: vless
   udp: true
   uuid: 7856eb14-06d6-423a-b4a6-353b3ce5c51a
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28,34|🇺🇦UA_1|1.8MB/s
-  network: tcp
+  name: 28|🇩🇪_德国_78
   port: 10443
   reality-opts:
     public-key: 6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0
@@ -324,9 +323,12 @@ proxies:
   type: vless
   udp: true
   uuid: 320fb564-c329-4d32-8187-89d7058af0eb
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_95
+  name: 28,34|🇬🇧GB_1|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 2443
   reality-opts:
     public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
@@ -338,10 +340,11 @@ proxies:
   type: vless
   udp: true
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 28,34|🇦🇹AT_1|3.0MB/s
+  name: 28,34|🇦🇹AT_1|2.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -358,8 +361,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28,34|🇦🇹AT_2|3.3MB/s
-  network: tcp
+  name: 28|🇩🇪_德国_105
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -387,10 +389,13 @@ proxies:
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_139
+  name: 28,34|🇩🇪DE_8|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
+    short-id: ''
   server: ge-5.lemonbow.ru
   servername: www.samsung.com
   skip-cert-verify: true
@@ -398,6 +403,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8516c47e-a7a1-42f7-9c14-ae9b14873cc8
+  xudp: true
 - name: 28|🇩🇪_德国_199
   network: ws
   port: 10006
@@ -589,51 +595,172 @@ proxies:
     headers:
       Host: 9.p.x.n.s.2.e.7.o.3.7.t.h.4.us.art-us.kdns.fr
     path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 34|🇩🇪DE_1|1.8MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_2|2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Tl-knDKTGEBOMpA8SGUcgipOu2kWybsbzeztMknYBD8
+  server: 5.175.178.61
+  servername: ipv6.flash.try-me.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: e93998e0-dd6a-4234-be21-362bcc66f926
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_3|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+    short-id: ''
+  server: 94.249.225.48
+  servername: ssl.cougarboardsstore.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_4|3.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_5|1.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
+    short-id: ''
+  server: 89.106.86.90
+  servername: ads.cardds.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇩🇪DE_6|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8380
+  reality-opts:
+    public-key: xtMO91xo5JUl2SvkUtozmSr2lLBFEkghyVALchFrYRY
+    short-id: 50acf6
+  server: 5.252.26.173
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2292e36-fafb-6634-051d-1d99f45503c7
+  xudp: true
+- cipher: aes-256-cfb
+  name: 34|🇩🇪DE_7|4.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.122.115.111
+  type: ss
+  udp: true
+- name: 34|🇩🇪DE_9|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+  ws-opts:
+    headers:
+      Host: tiny-feather-4c41.227.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 34|🇩🇪DE_10|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: www.zsu.gov.ua
+  type: vless
+  udp: true
+  uuid: 5c7a171d-de8a-446d-accc-4d3cf7d473f4
+  ws-opts:
+    headers:
+      Host: purple-forest-b185.467.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: api.v1.StreamService
-  name: 34|🇩🇪DE_1|2.6MB/s
+  name: 34|🇩🇪DE_11|3.2MB/s
   network: grpc
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs
     short-id: 335555b164619360
-  server: fetch.anotherok.com
+  server: 88.216.220.147
   servername: fetch.anotherok.com
   tls: true
   type: vless
   udp: true
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 34|🇩🇪DE_2|1.7MB/s
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 34|🇩🇪DE_3|3.7MB/s
+  name: 34|🇩🇪DE_12|2.7MB/s
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 51.91.103.142
-  servername: s5gydl.936.us.ci
+  port: 443
+  server: 199.232.249.110
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+      Host: pan1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
   xudp: true
