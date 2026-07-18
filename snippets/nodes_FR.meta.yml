@@ -103,7 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 28|🇫🇷_法国_32
+- name: 28|🇫🇷_法国_49
   port: 8882
   server: gr1.fifapes.monster
   skip-cert-verify: true
@@ -111,77 +111,67 @@ proxies:
   type: vless
   udp: true
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- name: 28|🇫🇷_法国_31
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  skip-cert-verify: true
-  sni: ready-kangaroo.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|🇫🇷_法国_57
-  port: 443
-  reality-opts:
-    public-key: Gaa3Z1bqf5nat63qzrhxlw11R7qZckb5qfs5-eSW-Wg
-    short-id: 10d354c5485afe58
-  server: fr1.panel11.ru
-  servername: fr1.panel11.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|🇫🇷_法国_76
-  port: 443
-  reality-opts:
-    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
-    short-id: 8f9d033ad6d2cebf
-  server: fr1.cyphervpn.pro
-  servername: fr1.cyphervpn.pro
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇫🇷_法国_91
+  name: 28|🇫🇷_法国_102
+  port: 2090
+  server: fn.fifapes.monster
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- client-fingerprint: chrome
+  name: 28,34|🇩🇪DE_2|4.2MB/s
+  network: ws
   port: 8443
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: a20d3ed244c76426
-  server: 151.243.217.63
-  servername: fra.fastload.site
+  server: 51.77.214.109
+  servername: s5gydl.936.us.ci
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 822cae5e-2fbf-4d4d-8f20-e9c89593e1ee
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|🇫🇷_法国_128
-  port: 443
-  reality-opts:
-    public-key: -cfh-rBjSYKhBeAgGzYLrcDiEfZc9xRqCvMB0kpOokQ
-    short-id: 253105aeda9e37a7
-  server: fr3.cyphervpn.pro
-  servername: fr3.cyphervpn.pro
+  name: 28|🇫🇷_法国_141
+  network: ws
+  port: 2053
+  server: 152.228.134.25
+  servername: s5gydl.936.us.ci
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: chrome
-  name: 34|🇫🇷FR_1|2.1MB/s
+  name: 28|🇫🇷_法国_142
+  network: ws
+  port: 443
+  server: 51.91.40.26
+  servername: s5gydl.936.us.ci
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇫🇷FR_1|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: cf8.466688.xyz
+  server: cf1.466688.xyz
   servername: cf-thfr-p.netnode.cc.cd
   tls: true
   type: vless
@@ -190,43 +180,49 @@ proxies:
   ws-opts:
     headers:
       Host: cf-thfr-p.netnode.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /t.me/QiangLieTuiJian-vl
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇫🇷FR_2|1.9MB/s
-  network: tcp
+  name: 34|🇫🇷FR_2|2.1MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0
-    short-id: ''
-  server: netherlands.vpnserverhub.com
-  servername: yahoo.com
+  server: cf3.466688.xyz
+  servername: cf-thfr-p.netnode.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 81a83e21-b587-49a9-8961-2fd4aa9f2d83
+  uuid: 4710eac8-f188-426a-a7d3-498c59de6503
+  ws-opts:
+    headers:
+      Host: cf-thfr-p.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /t.me/QiangLieTuiJian-vl
   xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇫🇷FR_3|2.4MB/s
-  network: tcp
+  name: 34|🇫🇷FR_3|2.8MB/s
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
-    short-id: ''
-  server: 37.49.230.101
-  servername: fastsync.xyz
+  server: 172.64.189.180
+  servername: nnnn.arashmokhtari.com
   tls: true
   type: vless
   udp: true
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  uuid: 93c6a4b8-0902-4af8-9b2e-b6ecb6a55df4
+  xhttp-opts:
+    host: nnnn.arashmokhtari.com
+    mode: auto
+    path: /persianvpn
+    x-padding-bytes: 100-1000
   xudp: true
 - name: 36|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b

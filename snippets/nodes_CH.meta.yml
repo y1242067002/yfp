@@ -1,21 +1,21 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇨🇭_瑞士_62
+  name: 28|🇨🇭_瑞士_46
   port: 443
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: nd03.myxasecure.space
-  servername: nd03.myxasecure.space
+    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
+    short-id: 12ec83857964f25e
+  server: es.monkeyvillage.pro
+  servername: es.monkeyvillage.pro
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: b79ada82-b394-4afd-828f-7eefecae3a97
-- client-fingerprint: chrome
+  uuid: 528ee6c3-7d3c-410e-b0de-0d5da09aeb14
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇨🇭_瑞士_92
+  name: 28|🇨🇭_瑞士_53
   port: 443
   reality-opts:
     public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
@@ -28,24 +28,21 @@ proxies:
   udp: true
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - client-fingerprint: chrome
-  encryption: none
   http-opts:
     headers:
       Host:
       - yahoo.com
+    method: GET
     path:
     - /
-  name: 34|🇨🇭CH_1|3.2MB/s
+  name: 34|🇨🇭CH_1|2.4MB/s
   network: http
-  packet-encoding: xudp
   port: 40084
   reality-opts:
     public-key: 9kgnhNCzQsfomFrK3nKlOCbmUyS2oPltp2gOnuFv7nY
-    short-id: ''
   server: 179.237.75.28
   servername: yahoo.com
   tls: true
   type: vless
   udp: true
   uuid: bcd7d69f-98d4-4622-8caf-db83b7af81da
-  xudp: true
