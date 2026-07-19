@@ -121,11 +121,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 24|美国(yudou789.top 玉豆免费节点)_14
+- name: 24,28|🏳️_未知_49
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
@@ -153,10 +153,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 24,28|🇩🇪_德国_84
+  name: 24|德国(yudou789.top 玉豆免费节点)_11
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -193,7 +193,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 24,28|🇨🇳_中国_112
+  name: 24,28|🇨🇳_中国_36
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -211,19 +211,36 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 28|🇺🇸_美国_101
-  port: 16025
-  server: c722s801.portablesubmarines.com
+- name: 28|🇺🇸_美国_6
+  password: KV63147582
+  port: 443
+  server: wondrous-dogfish.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: wondrous-dogfish.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- name: 28|🇺🇸_美国_7
+  password: HW85960347
+  port: 443
+  server: pretty-clam.rooster465.autos
+  skip-cert-verify: true
+  sni: pretty-clam.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_11
+  password: KV63147582
+  port: 443
+  server: hardy-seahorse.rooster465.autos
+  skip-cert-verify: true
+  sni: hardy-seahorse.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇺🇸_美国_105
+  name: 28|🇺🇸_美国_37
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -231,32 +248,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 28|🇺🇸_美国_161
-  password: MiTiVPN
-  port: 443
-  server: 151.101.1.194
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sws-s
-- name: 28|🇺🇸_美国_186
-  password: '!!str 521314'
-  port: 443
-  server: 198.177.57.9
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /Telegram🇨🇳+@WangCai2
 - name: 32,33|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -265,31 +256,22 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 34|🇺🇸US_3|1.6MB/s
-  network: ws
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: false
-  sni: unnes.ac.id.r3xxe.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /au-mt
-- client-fingerprint: chrome
-  name: 34|🇺🇸US_8|2.5MB/s
+- name: 32,33|美国2|@ripaojiedian
   network: tcp
-  password: KV63147582
-  port: 443
-  server: wondrous-dogfish.rooster465.autos
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 17005
+  server: 16.163.108.33
   skip-cert-verify: false
-  sni: wondrous-dogfish.rooster465.autos
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
+- name: 32,33|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 25651
+  server: 43.199.202.34
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 36|US_speednode_0063
   network: ws
   password: Mitivpn

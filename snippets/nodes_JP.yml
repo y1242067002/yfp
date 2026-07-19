@@ -1,23 +1,34 @@
 proxies:
-- name: 28|🇯🇵_日本_95
-  password: BxceQaOe
-  port: 6769
-  server: 35.78.192.10
+- name: 28|🇯🇵_日本_13
+  password: HW85960347
+  port: 443
+  server: normal-pika.rooster465.autos
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: normal-pika.rooster465.autos
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33|日本|@ripaojiedian
+- name: 28|🇯🇵_日本_57
+  password: '!!str 521314'
+  port: 443
+  server: 126.220.82.161
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 24397
   server: 54.238.245.134
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  tls: true
   type: trojan
-  udp: true
 - name: 32,33|日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -34,13 +45,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 34|🇯🇵JP_1|3.9MB/s
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: ultimate-cardinal.rooster465.autos
-  skip-cert-verify: false
-  sni: ultimate-cardinal.rooster465.autos
-  type: trojan
-  udp: true
