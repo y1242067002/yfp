@@ -179,7 +179,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 27|T.Me=V2RayyNGvpn🇩🇪
+- name: 27|🇩🇪115779 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IoFmkhjUlE
@@ -269,3 +269,53 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_1|2.6MB/s
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_2|2.6MB/s
+  network: xhttp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- encryption: none
+  name: 34|🇩🇪DE_3|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 445
+  server: snapp.ir.jetpingnet.com
+  type: vless
+  udp: true
+  uuid: c8b2807e-7d40-4e62-949b-b99a2fdbeb45
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snapp.ir.jetpingnet.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2048
+    path: /sdfskfjh
+  xudp: true

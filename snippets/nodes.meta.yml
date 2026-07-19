@@ -2039,7 +2039,7 @@ proxies:
   sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- name: 27|T.Me=V2RayyNGvpn🇩🇪
+- name: 27|🇩🇪115779 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IoFmkhjUlE
@@ -4297,8 +4297,10 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 28|🏳️_未知_181
+- encryption: none
+  name: 28,34|🇸🇬SG_2|3.7MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: 162.159.10.87
   servername: t1s1.rittbo.kdns.fr
@@ -4310,7 +4312,10 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
+  xudp: true
 - name: 28|🏳️_未知_182
   network: ws
   port: 2083
@@ -5947,7 +5952,7 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /Telegram🇨🇳+@WangCai2
-- name: 28|🇬🇧_英国_309
+- name: 28,34|🇺🇸US_2|2.5MB/s
   network: ws
   port: 80
   server: 91.193.59.205
@@ -6155,7 +6160,7 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /Telegram🇨🇳+@WangCai2
-- name: 28|🇬🇧_英国_325
+- name: 28,34|🇺🇸US_3|2.0MB/s
   network: ws
   port: 80
   server: 91.193.59.117
@@ -6696,6 +6701,184 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_1|2.6MB/s
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_2|2.6MB/s
+  network: xhttp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- auth: Apt1923_N9x234gn_Nal5Nx3j_s
+  name: 34|🇫🇮FI_1|2.4MB/s
+  password: Apt1923_N9x234gn_Nal5Nx3j_s
+  port: 8443
+  server: 81.27.102.215
+  skip-cert-verify: true
+  sni: grape-power-pl.ddnsguru.com
+  type: hysteria2
+- name: 34|🇸🇬SG_1|4.0MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- down: ''
+  fingerprint: ''
+  name: 34|🇺🇸US_1|2.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+  up: ''
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 34|🇺🇸US_4|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: marzban-node-production-mr58pge.up.railway.app
+  servername: marzban-node-production-mr58pge.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e667d3b-1557-44cc-9bcb-4d3c0c5b3b55
+  ws-opts:
+    headers:
+      Host: marzban-node-production-mr58pge.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /vless
+  xudp: true
+- encryption: none
+  name: 34|🇩🇪DE_3|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 445
+  server: snapp.ir.jetpingnet.com
+  type: vless
+  udp: true
+  uuid: c8b2807e-7d40-4e62-949b-b99a2fdbeb45
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snapp.ir.jetpingnet.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2048
+    path: /sdfskfjh
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇿🇦ZA_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
+    short-id: ''
+  server: 31.43.191.131
+  servername: tehno.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  xudp: true
+- name: 34|🇸🇬SG_3|4.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: deepl.com
+  type: vless
+  udp: true
+  uuid: f15a5586-23f6-453f-97f5-c301b949e699
+  ws-opts:
+    headers:
+      Host: mute-sunset-0849.40-aeb.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- encryption: none
+  name: 34|🇺🇸US_5|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 91.193.59.94
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s5gydl.936.us.ci
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /Telegram🇨🇳 @WangCai2
+  xudp: true
+- name: 34|🇺🇸US_6|2.0MB/s
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: harmless-akita.rooster465.autos
+  skip-cert-verify: false
+  sni: harmless-akita.rooster465.autos
+  type: trojan
+  udp: true
+- name: 34|🇸🇬SG_4|3.7MB/s
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: stable-python.rooster465.autos
+  skip-cert-verify: false
+  sni: stable-python.rooster465.autos
+  type: trojan
+  udp: true
+- name: 34|🇸🇬SG_5|3.6MB/s
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: crucial-moth.rooster465.autos
+  skip-cert-verify: false
+  sni: crucial-moth.rooster465.autos
+  type: trojan
+  udp: true
 - name: 36|AE_speednode_0001
   network: ws
   password: MITIVPN
