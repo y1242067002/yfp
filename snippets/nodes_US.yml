@@ -265,6 +265,31 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 34|🇺🇸US_3|1.6MB/s
+  network: ws
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: false
+  sni: unnes.ac.id.r3xxe.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /au-mt
+- client-fingerprint: chrome
+  name: 34|🇺🇸US_8|2.5MB/s
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: wondrous-dogfish.rooster465.autos
+  skip-cert-verify: false
+  sni: wondrous-dogfish.rooster465.autos
+  type: trojan
+  udp: true
 - name: 36|US_speednode_0063
   network: ws
   password: Mitivpn

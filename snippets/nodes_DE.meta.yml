@@ -378,3 +378,126 @@ proxies:
   type: vless
   udp: true
   uuid: 320fb564-c329-4d32-8187-89d7058af0eb
+- cipher: aes-256-cfb
+  name: 34|🇩🇪DE_1|4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.77.54.36
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_2|3.3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 34|🇩🇪DE_3|3.3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_4|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: 2e40144ddc07e8e1
+  server: us02.tunnely.ru
+  servername: us02.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+  xudp: true
+- encryption: none
+  name: 34|🇩🇪DE_5|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 172.66.132.196
+  type: vless
+  udp: true
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+  ws-opts:
+    headers:
+      Host: tiny-feather-4c41.227.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- encryption: none
+  name: 34|🇩🇪DE_6|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: cdnjs.com
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /fp=randomized
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_7|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: qm-zp2dNT8dDO9KWbfQrxN3IKT0JlNZkWT53aaCKfxM
+    short-id: d9662905
+  server: zaplio-gook.ru
+  servername: zaplio-gook.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 34|🇩🇪DE_8|2.5MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.56.197.160
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
