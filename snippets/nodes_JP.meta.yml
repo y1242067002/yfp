@@ -218,7 +218,7 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- name: 32,33|日本|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_5|3.4MB/s
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -226,7 +226,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本2|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_6|2.9MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -234,7 +234,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_7|3.4MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -242,3 +242,33 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 34|🇯🇵JP_1|3.7MB/s
+  network: ws
+  port: 12883
+  server: cs.ktmcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 34|🇯🇵JP_8|3.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 35544
+  reality-opts:
+    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+    short-id: 25c79e5856c7
+  server: apibgp.ianai.it.com
+  servername: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true

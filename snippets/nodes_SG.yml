@@ -64,7 +64,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 32,33|新加坡|@ripaojiedian
+- name: 32,33,34|🇸🇬SG_7|2.5MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -72,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|新加坡2|@ripaojiedian
+- name: 32,33,34|🇸🇬SG_5|3.4MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -80,7 +80,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|新加坡3|@ripaojiedian
+- name: 32,33,34|🇸🇬SG_8|2.5MB/s
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -88,13 +88,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 34|🇸🇬SG_1|1.9MB/s
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
+- name: 34|🇸🇬SG_1|3.8MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr

@@ -248,7 +248,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 32,33|美国|@ripaojiedian
+- name: 32,33,34|🇺🇸US_7|2.1MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -256,7 +256,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|美国2|@ripaojiedian
+- name: 32,33,34|🇺🇸US_8|1.6MB/s
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -272,19 +272,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 34|🇺🇸US_1|4.2MB/s
+- name: 34|🇺🇸US_3|2.7MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  password: XG59623478
+  port: 443
+  server: possible-pup.rooster465.autos
+  skip-cert-verify: true
+  sni: possible-pup.rooster465.autos
+  type: trojan
 - name: 36|US_speednode_0063
   network: ws
   password: Mitivpn

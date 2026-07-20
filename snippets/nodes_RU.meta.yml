@@ -62,9 +62,8 @@ proxies:
   type: vless
   udp: true
   uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- client-fingerprint: chrome
-  encryption: none
-  name: 28,34|🇬🇧GB_2|2.5MB/s
+- client-fingerprint: qq
+  name: 28,34|🇬🇧GB_1|2.0MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -106,3 +105,21 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 34|🇷🇺RU_1|1.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: ru.moktana.app
+  servername: ru.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
+  xudp: true
