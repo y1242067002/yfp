@@ -179,16 +179,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 27|@Surfboardv2ray
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: M4q4riAk3C
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 27|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -249,3 +239,58 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 34|🇩🇪DE_1|2.2MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 34|🇩🇪DE_2|2.0MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- encryption: none
+  name: 34|🇩🇪DE_3|3.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 57785
+  server: 136.244.95.190
+  type: vless
+  udp: true
+  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 34|🇩🇪DE_4|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 171.22.134.213
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
