@@ -47,47 +47,9 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 28|🇭🇰_香港_24
-  port: 443
-  reality-opts:
-    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
-    short-id: 54fc3827c8
-  server: 156.248.10.58
-  servername: nono.hhhkkhktt.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ec8bf5e-f30c-4c29-9197-6d96661cd36f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 28|🇭🇰_香港_25
-  port: 443
-  reality-opts:
-    public-key: qoTOEp2LhK7l-wid2I2M54HtNp6GE0hxLMzBx2XpsRQ
-    short-id: 86c86638b5bdf044
-  server: 156.248.10.47
-  servername: hkknono.bper2026.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ec8bf5e-f30c-4c29-9197-6d96661cd36f
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_38
-  port: 80
-  server: 47.83.221.185
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-- alterId: 0
-  cipher: auto
-  name: 28|🇭🇰_香港_40
+  name: 28|🇭🇰_香港_49
   port: 5566
   server: 47.76.127.88
   skip-cert-verify: true
@@ -95,7 +57,17 @@ proxies:
   type: vmess
   udp: true
   uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: 28|🇭🇰_香港_59
+- alterId: 0
+  cipher: auto
+  name: 28|🇭🇰_香港_52
+  port: 80
+  server: 47.83.221.185
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+- name: 28|🇭🇰_香港_53
   password: '!!str 521314'
   port: 443
   server: 122.10.119.252
@@ -109,7 +81,7 @@ proxies:
       Host: tjplay.lxdxo.kdns.fr
     path: /
 - client-fingerprint: chrome
-  name: 28|🇭🇰_香港_135
+  name: 28|🇭🇰_香港_117
   network: ws
   port: 8443
   server: 216.23.93.24
@@ -124,7 +96,7 @@ proxies:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: chrome
-  name: 28|🇭🇰_香港_172
+  name: 28|🇭🇰_香港_137
   network: ws
   port: 8443
   server: 216.23.86.105
@@ -140,7 +112,20 @@ proxies:
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_354
+  name: 28|🇭🇰_香港_278
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 28|🇭🇰_香港_279
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -151,7 +136,7 @@ proxies:
   uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_356
+  name: 28|🇭🇰_香港_280
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -160,7 +145,20 @@ proxies:
   type: vmess
   udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-- name: 32,33,34|🇭🇰HK_3|3.4MB/s
+- alterId: 0
+  cipher: auto
+  name: 28|🇭🇰_香港_282
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- name: 32,33|香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -168,7 +166,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33,34|🇭🇰HK_4|3.5MB/s
+- name: 32,33|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161

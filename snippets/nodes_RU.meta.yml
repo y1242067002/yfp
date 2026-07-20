@@ -48,78 +48,17 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_5
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: b7fc0f11dda97edb
-  server: 201.51.12.73
-  servername: corelink.su
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- client-fingerprint: qq
-  name: 28,34|🇬🇧GB_1|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
-    short-id: 1559b440
-  server: 77.110.113.188
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- name: 28|🇷🇺_俄罗斯_159
-  network: ws
-  port: 443
-  server: 213.219.247.20
-  servername: cf11.evan00.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: /Telegram🇨🇳+@WangCai2
-- name: 28|🇷🇺_俄罗斯_357
+- name: 28|🇷🇺_俄罗斯_107
   network: ws
   port: 4100
-  server: 5.129.194.34
+  server: tn.tmn141246.ru
+  servername: tn.tmn141246.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
   ws-opts:
     headers:
       Host: live.ok.ru
     path: /v1
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 34|🇷🇺RU_1|1.7MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 9e2a6f4c3b7d1e8a
-  server: ru.moktana.app
-  servername: ru.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
