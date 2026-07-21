@@ -1996,16 +1996,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '27|@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '27|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -4509,6 +4499,73 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 34|🇨🇭CH_1|1.7MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- name: 34|🇸🇬SG_1|4.0MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- encryption: none
+  name: 34|🇩🇪DE_1|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.38.119
+  servername: telegram.mxgrid.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3f8f570-3e53-4252-a01f-f95156680e39
+  ws-opts:
+    headers:
+      Host: telegram.mxgrid.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /-----MxGriD-----
+  xudp: true
+- name: 34|🇸🇬SG_2|3.3MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 18.163.84.233
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- encryption: none
+  name: 34|🇸🇬SG_3|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.26.86
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
 - name: 36|AE_speednode_0001
   network: ws
   password: MITIVPN
