@@ -32,96 +32,175 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 28|🇯🇵_日本_133
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 28|日期：07-21
   port: 443
-  server: 139.162.123.230
-  servername: s5gydl.936.us.ci
+  reality-opts:
+    public-key: cGEbFYzIFNKPNIYfu2gidJOgQv67sdsoSUbvmQ0fL28
+    short-id: 7e4f3e58d2c7
+  server: 147.90.12.48
+  servername: is1.sky-dragon.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 777bcc23-6bc8-5819-a40d-7f2a743419a1
+- name: 28|🇯🇵_日本_8
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: 154.31.114.10
+  skip-cert-verify: true
+  sni: 154.31.114.10
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_14
+  password: IQ68037294
+  port: 443
+  server: flexible-pony.rooster465.autos
+  skip-cert-verify: true
+  sni: flexible-pony.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 28,34|🇯🇵JP_1|2.1MB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: major-duckling.rooster465.autos
+  skip-cert-verify: false
+  sni: major-duckling.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 28,34|🇯🇵JP_2|2.7MB/s
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: new-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: new-antelope.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,32,33|日本2|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 35.77.80.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_151
+  network: ws
+  port: 7228
+  server: 151.241.129.98
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4de76f87-f523-46d4-b579-965ade6fe873
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 28|🇯🇵_日本_134
+  name: 28|🇯🇵_日本_152
+  network: ws
+  port: 4443
+  server: 54.248.196.211
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e8b798b-3300-475a-be70-8d09e20b1f82
+  ws-opts:
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_153
+  network: ws
+  port: 4443
+  server: 54.178.110.17
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca4f25f2-e3ff-47ed-ba35-ce0d02b6333d
+  ws-opts:
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_154
   network: ws
   port: 8443
-  server: 172.237.29.30
-  servername: s5gydl.936.us.ci
+  server: 45.76.222.52
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - client-fingerprint: chrome
-  name: 28|🇯🇵_日本_135
+  name: 28|🇯🇵_日本_155
+  network: ws
+  port: 2443
+  server: 43.165.183.74
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c53add3-e092-4b29-b0c0-fb4f784115d1
+  ws-opts:
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 28|🇯🇵_日本_156
   network: ws
   port: 443
-  server: 103.53.80.24
-  servername: s5gydl.936.us.ci
+  server: 66.245.220.81
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - client-fingerprint: chrome
-  name: 28|🇯🇵_日本_136
+  name: 28|🇯🇵_日本_157
   network: ws
   port: 8443
-  server: 172.238.22.36
-  servername: s5gydl.936.us.ci
+  server: 149.28.18.65
+  servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 28|🇯🇵_日本_138
-  network: ws
-  port: 8443
-  server: 43.163.238.201
-  servername: s5gydl.936.us.ci
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 28|🇯🇵_日本_139
-  network: ws
-  port: 443
-  server: 172.104.80.248
-  servername: s5gydl.936.us.ci
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -129,20 +208,4 @@ proxies:
   server: 18.163.84.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 32,33|日本2|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 35.77.80.32
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 32,33|日本3|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 95.40.51.248
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
