@@ -133,11 +133,42 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 32,33|新加坡|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 6357
+  server: 43.198.78.177
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 32,33|新加坡2|@ripaojiedian
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 6357
+  server: 18.167.84.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: 32,33|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 43.199.146.29
+  port: 45744
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 34|🇸🇬SG_1|2.9MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /in-pdr
