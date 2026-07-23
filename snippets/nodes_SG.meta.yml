@@ -119,7 +119,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 34|🇸🇬SG_1|2.2MB/s
+  name: 34|🇸🇬SG_1|4.7MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -130,6 +130,39 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /in-pdr
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 34|🇸🇬SG_2|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 29571
+  reality-opts:
+    public-key: Lb5d-h6L0bePdD9ehJe0sMwF2WDRWfWaVSf51k6uMXk
+    short-id: '7294'
+  server: tuno.papstore.xyz
+  servername: www.smu.edu.sg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 70289a41-983c-43bf-8331-c2c8cfb1ffa0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇸🇬SG_3|4.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
+    short-id: ddcd71ec09e5893a
+  server: sg3.miyazono-kaori.com
+  servername: www.changiairport.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b7de4b7-31fd-4af9-99a0-48a13604fe89
+  xudp: true
