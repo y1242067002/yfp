@@ -698,7 +698,7 @@ proxies:
       Host: cloudflare.vhub.pro
     path: /websocket
 - client-fingerprint: chrome
-  name: 28|🇩🇪_德国_239
+  name: 28,34|🇩🇪DE_5|2.4MB/s
   network: ws
   port: 443
   server: 138.201.170.108
@@ -883,27 +883,38 @@ proxies:
   type: vless
   udp: true
   uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
-- client-fingerprint: firefox
+- encryption: none
+  name: 34|🇩🇪DE_1|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 18.198.252.91
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: chrome
   grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 34|🇩🇪DE_1|2.7MB/s
+    grpc-service-name: grpc
+  name: 34|🇩🇪DE_2|1.6MB/s
   network: grpc
-  port: 443
+  packet-encoding: xudp
+  port: 7443
   reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: 5bc76436f2905fba
-  server: store.noneok.com
-  servername: store.noneok.com
+    public-key: HQHil8nG-HZlQ0wPWXJpX4VvbrauBlCRH26tu4yVFQ4
+    short-id: bfa2ebf4
+  server: 84.201.4.252
+  servername: www.telekom.de
   tls: true
   type: vless
   udp: true
-  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: api.v1.StreamService
-  name: 34|🇩🇪DE_2|1.8MB/s
+  name: 34|🇩🇪DE_3|2.7MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -917,76 +928,7 @@ proxies:
   udp: true
   uuid: 340e4de3-144b-49c4-ad72-b49b35713728
   xudp: true
-- encryption: none
-  name: 34|🇩🇪DE_3|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22223
-  server: 52.57.117.158
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 34|🇩🇪DE_4|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22224
-  server: 18.198.252.91
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 34|🇩🇪DE_5|3.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22223
-  server: 18.198.252.91
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 34|🇩🇪DE_6|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22224
-  server: 52.57.117.158
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 34|🇩🇪DE_7|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1080
-  reality-opts:
-    public-key: kSR18CNj6e3pYOGXrUJWYHyYHyrc9imttzMwYus0PkU
-    short-id: 020ec8fa5086ffc4
-  server: out.mamad-imnix.ir
-  servername: www.samsung.com:443
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b1d65b5-ede6-49f1-8c6e-8d15bb76da61
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 34|🇩🇪DE_8|1.9MB/s
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- name: 34|🇩🇪DE_9|2.5MB/s
+- name: 34|🇩🇪DE_4|1.9MB/s
   network: ws
   port: 8443
   server: ad-005.novayjr9g.info
@@ -1000,7 +942,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 34|🇩🇪DE_10|2.5MB/s
+  name: 34|🇩🇪DE_6|1.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1014,12 +956,83 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: mAhaNrEaliteAm.MaHkHan.iR
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
-- name: 34|🇩🇪DE_11|4.1MB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_7|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
+    short-id: 76132b3b39704c44
+  server: 77.91.66.178
+  servername: ger.hatvpn.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 109c13c0-5ef7-47a3-b278-3d47a35136e5
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_8|2.4MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: I56FBt8L2Zcm4xXJC1sOA8WlBxSIjA2IC0IK_DXlEiQ
+    short-id: 15affa0af66dfc79
+  server: 176.108.243.37
+  servername: sun6-20.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc9fa69-37d3-4d46-82ce-d71c567c8c9a
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_9|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  server: 2.27.25.13
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇩🇪DE_10|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.speedtest.net
+  servername: mAhaNrEaliteAm.MaHkHan.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mAhaNrEaliteAm.MaHkHan.iR
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- name: 34|🇩🇪DE_11|3.4MB/s
   password: ''
   port: 1080
   server: 152.89.104.11
