@@ -63,8 +63,7 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 28,34|🇻🇳VN_1|3.8MB/s
-  network: tcp
+  name: 28|🇭🇰_香港_9
   port: 63090
   reality-opts:
     public-key: dyEHdjgb6uB286_LVJdXIACwS50gdCr3fbhkAtC4_DY
@@ -78,7 +77,8 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 28|🇭🇰_香港_11
+  name: 28,34|🇦🇺AU_1|3.5MB/s
+  network: tcp
   port: 62286
   reality-opts:
     public-key: DQDN2w0aoQnx-T3qF1fQnA2-stCUzVbBwmayI1smO0g
@@ -92,7 +92,7 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 28,34|🇺🇸US_6|1.9MB/s
+  name: 28,34|🇺🇸US_8|2.7MB/s
   network: tcp
   port: 59589
   reality-opts:
@@ -107,7 +107,8 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 28|🇭🇰_香港_14
+  name: 28,34|🇮🇩ID_1|3.6MB/s
+  network: tcp
   port: 34641
   reality-opts:
     public-key: wP6GcwZEkfpPp5aa4DELqaqWt2YnKC1t0XZ_v7j_WEo
@@ -186,24 +187,24 @@ proxies:
 - name: 32,33|香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 47867
-  server: 43.198.78.177
-  skip-cert-verify: false
+  port: 13118
+  server: 16.162.122.228
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 32,33|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.198.11.229
+  port: 11035
+  server: 95.40.21.67
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 32,33|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.198.17.21
+  port: 29443
+  server: 16.162.217.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -217,6 +218,32 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 34|🇭🇰HK_1|3.0MB/s
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: hkgb707.ifastcdncache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 34|🇭🇰HK_2|3.2MB/s
+  network: ws
+  port: 18243
+  server: imghk302.igcaches.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  ws-opts:
+    headers:
+      Host: imghk302.igcaches.com
+    path: /
 - name: 36|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
