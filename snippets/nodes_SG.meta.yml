@@ -24,6 +24,76 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 28|🇸🇬_新加坡_144
+  password: '!!str 123123'
+  port: 443
+  server: 64.120.94.225
+  skip-cert-verify: true
+  sni: hhgy.hh0mg.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhgy.hh0mg.kdns.fr
+    path: /
+- name: 28|🇸🇬_新加坡_188
+  network: ws
+  port: 443
+  server: 188.239.9.91
+  servername: hhgy.hh0mg.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f54c3ae8-d80f-46ff-b967-cd6d4a2b93e1
+  ws-opts:
+    headers:
+      Host: hhgy.hh0mg.kdns.fr
+    path: /
+- name: 28|🇸🇬_新加坡_212
+  password: '!!str 123123'
+  port: 443
+  server: 188.239.9.91
+  skip-cert-verify: true
+  sni: hhgy.hh0mg.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhgy.hh0mg.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 28|🇸🇬_新加坡_450
+  network: ws
+  port: 8443
+  server: 152.42.198.52
+  servername: s5gydl.936.us.ci
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  name: 28|🇸🇬_新加坡_451
+  network: ws
+  port: 8443
+  server: 43.160.246.223
+  servername: s5gydl.936.us.ci
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - name: 32,33|新加坡|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -48,15 +118,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 34|🇸🇬SG_1|4.5MB/s
+- client-fingerprint: chrome
+  name: 34|🇸🇬SG_1|2.2MB/s
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /in-pdr

@@ -1,17 +1,74 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 34|🇨🇭CH_1|2.0MB/s
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 152.233.31.72
-  servername: api-maps.yandex.ru
+  name: 28|🇨🇭_瑞士_50
+  network: ws
+  port: 443
+  server: 38.180.85.203
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: da986116-4cb4-4b34-a738-4680949213b8
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 28|🇨🇭_瑞士_62
+  network: ws
+  port: 443
+  server: 140.238.208.210
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0e9802-3a94-4cb0-83e3-293b94a1ee2e
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- client-fingerprint: chrome
+  name: 28|🇨🇭_瑞士_102
+  network: ws
+  port: 443
+  server: 38.180.85.203
+  servername: ger.wafer.fun
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  ws-opts:
+    headers:
+      Host: ger.wafer.fun
+    path: /Ts7kIzm7a8mYEOrQCXl1
+- name: 28|🇨🇭_瑞士_143
+  network: ws
+  port: 443
+  server: 140.238.208.210
+  servername: hhgy.hh0mg.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f54c3ae8-d80f-46ff-b967-cd6d4a2b93e1
+  ws-opts:
+    headers:
+      Host: hhgy.hh0mg.kdns.fr
+    path: /
+- name: 28|🇨🇭_瑞士_252
+  network: ws
+  port: 443
+  server: 38.180.85.203
+  servername: hhgy.hh0mg.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f54c3ae8-d80f-46ff-b967-cd6d4a2b93e1
+  ws-opts:
+    headers:
+      Host: hhgy.hh0mg.kdns.fr
+    path: /

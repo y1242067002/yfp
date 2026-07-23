@@ -48,63 +48,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_24
-  port: 33729
-  reality-opts:
-    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
-    short-id: 0bd4698a48
-  server: 195.58.49.41
-  servername: ymail.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_19
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: b7fc0f11dda97edb
-  server: corelink.su
-  servername: corelink.su
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_25
-  port: 59978
-  reality-opts:
-    public-key: zU3_YlbtgNxg4_mPQzmz3aBCET3vUNbBMYrEztVFs0Q
-    short-id: c3a0d1
-  server: 195.58.49.41
-  servername: ymail.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1136f25a-4925-4ba6-9620-771dd9553f92
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_26
-  port: 443
-  reality-opts:
-    public-key: wlCVdU8TCIBjIKRPWA6kpmptW0MV9rCP8WfWLSapsjU
-    short-id: cc7dc5fb
-  server: 92.223.109.89
-  servername: tunnel.vk-apps.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c436d7dc-170d-40bf-b2b8-6cf468db5e65
-- name: 28|🇷🇺_俄罗斯_122
+- name: 28|🇷🇺_俄罗斯_409
   network: ws
   port: 4100
   server: 194.87.161.60
@@ -116,7 +60,7 @@ proxies:
   uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
   ws-opts:
     path: /v1
-- name: 28|🇷🇺_俄罗斯_123
+- name: 28|🇷🇺_俄罗斯_410
   network: ws
   port: 4100
   server: 5.129.194.34
@@ -128,44 +72,43 @@ proxies:
   uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
   ws-opts:
     path: /v1
-- name: 28|🇷🇺_俄罗斯_145
+- name: 28|🇷🇺_俄罗斯_416
   network: ws
   port: 4100
-  server: 194.87.161.60
+  server: tn.tmn141246.ru
+  servername: tn.tmn141246.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 28|🇷🇺_俄罗斯_152
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
   ws-opts:
     headers:
       Host: live.ok.ru
     path: /v1
 - client-fingerprint: firefox
-  name: 28|🇷🇺_俄罗斯_164
-  network: ws
+  flow: xtls-rprx-vision
+  name: 28|🇷🇺_俄罗斯_486
   port: 443
-  server: 78.159.245.32
-  servername: furrycdn.net
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 87.242.85.102
+  servername: abuse.sellflow.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  ws-opts:
-    headers:
-      Host: furrycdn.net
-    path: /api/v1/video-stream
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 28|🇷🇺_俄罗斯_490
+  port: 443
+  reality-opts:
+    public-key: KSwAhIG_dYucte4eHyaRpywMZU0yaxXrdwDrUZ6qz2M
+  server: 31.177.111.140
+  servername: wargm.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0cbfddd-772a-4c8f-b2e1-08cba9e247d8
