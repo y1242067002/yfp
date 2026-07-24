@@ -7,36 +7,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 28|🇹🇼_台湾_428
-  network: ws
-  port: 2087
-  server: 220.135.92.105
-  servername: s5gydl.936.us.ci
-  skip-cert-verify: true
+- name: 34|🇹🇼TW_1|1.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: chrome
-  name: 28|🇹🇼_台湾_429
-  network: ws
-  port: 8443
-  server: 103.137.22.71
-  servername: s5gydl.936.us.ci
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 36|TW_speednode_0053
