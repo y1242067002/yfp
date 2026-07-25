@@ -479,9 +479,9 @@ proxies:
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
 - name: 32,33|香港3|@ripaojiedian
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 43.199.147.225
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 47867
+  server: 54.46.11.134
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -489,15 +489,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29443
-  server: 16.163.106.206
+  server: 43.198.94.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 32,33|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35151
-  server: 18.167.224.152
+  port: 29443
+  server: 18.166.69.73
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -511,6 +511,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇭🇰HK_1|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: yFdgeRvZ7pYNp7C5v3sOq1x3gwHxWYem62W2tB9RJ0k
+    short-id: ''
+  server: 201.51.12.199
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3a8da6e-9557-43e3-b8d6-44350d0dc6f7
+  xudp: true
 - name: 36|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

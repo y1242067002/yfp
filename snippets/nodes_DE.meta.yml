@@ -159,21 +159,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 27|@V2RayyNGvpn🇩🇪
+- name: 27|🇩🇪 Telegram = V2RayyNGvpn 🇪
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 5NLxoNSwj0
-  port: 40837
-  server: 162.19.181.176
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: V2RayyNGvpn
+  port: 443
+  server: 91.107.178.22
   skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: 27|88@oneclickvpnkeys
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 93.114.194.117
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  sni: www.refersion.com
   tls: false
   type: hysteria2
 - name: 27|🇩🇪121178 | ⚡️Telegram = t.me/S...
@@ -413,75 +406,73 @@ proxies:
       Host: furrycdn.net
     path: /api/v1/video-stream
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 34|🇩🇪DE_1|2.7MB/s
-  network: xhttp
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 34|🇩🇪DE_1|2.1MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- encryption: none
+  name: 34|🇩🇪DE_2|3.7MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 2083
-  server: securitytrails.com
-  servername: cpn.moniablue.dpdns.org
-  tls: true
+  port: 22223
+  server: 63.182.37.174
   type: vless
   udp: true
-  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
-  xhttp-opts:
-    host: cpn.moniablue.dpdns.org
-    mode: auto
-    path: /forall
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 34|🇩🇪DE_2|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  type: vless
-  udp: true
-  uuid: ed984f53-b003-4940-b6b2-db22362801e7
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
 - encryption: none
-  name: 34|🇩🇪DE_3|1.7MB/s
+  name: 34|🇩🇪DE_3|3.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 63.182.37.174
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- name: 34|🇩🇪DE_4|2.6MB/s
   network: ws
   packet-encoding: xudp
   port: 80
   server: 151.101.193.54
   type: vless
   udp: true
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  uuid: 4b1d39f2-42d4-4850-8b8a-fd4fa2f1ae55
   ws-opts:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 34|🇩🇪DE_4|1.8MB/s
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
+- name: 34|🇩🇪DE_6|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.17
+  type: vless
   udp: true
-  up: '11'
+  uuid: 66ea0b4c-8c39-4e8b-92f0-0a9065218d37
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 34|🇩🇪DE_5|2.1MB/s
+  name: 34|🇩🇪DE_7|2.5MB/s
   network: grpc
   packet-encoding: xudp
   port: 443

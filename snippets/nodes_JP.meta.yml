@@ -133,32 +133,64 @@ proxies:
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 18.164.124.189
+  port: 45691
+  server: 18.162.149.22
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 32,33|日本2|@ripaojiedian
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.163.55.76
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.166.52.50
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 32,33|日本3|@ripaojiedian
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
+  password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.183.93.55
+  server: 54.46.11.134
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 34|🇯🇵JP_1|2.1MB/s
+  name: 34|🇯🇵JP_1|4.8MB/s
   network: ws
   port: 443
   server: cf.877774.xyz
+  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 34|🇯🇵JP_2|2.8MB/s
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 34|🇯🇵JP_3|3.9MB/s
+  network: ws
+  port: 443
+  server: cdn.9889888.xyz
   servername: jwvze.f40g.szo.hh.vavava.kdns.fr
   tls: true
   type: vless

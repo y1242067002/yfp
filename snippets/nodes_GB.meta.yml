@@ -128,6 +128,22 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- encryption: none
+  name: 34|🇬🇧GB_1|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: cd18.almas-cloud.ir
+  type: vless
+  udp: true
+  uuid: 94d1b793-0670-405a-af31-d1270b582427
+  ws-opts:
+    headers:
+      Host: cd18.almas-cloud.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /
+  xudp: true
 - name: 36|GB_speednode_0005
   network: ws
   password: MITIVPN
