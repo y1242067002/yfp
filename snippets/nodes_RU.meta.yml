@@ -127,6 +127,21 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 34,36|RU_speednode_0111
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: d67ec5a8fc40ebea
+  server: ger03.myxasecure.space
+  servername: ger03.myxasecure.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 36|RU_speednode_0109
   port: 443
   reality-opts:
@@ -151,20 +166,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|RU_speednode_0111
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: ger03.myxasecure.space
-  servername: ger03.myxasecure.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 36|RU_speednode_0112
