@@ -778,34 +778,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 34|🇺🇸US_1|1.7MB/s
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- name: 34|🇸🇬SG_1|3.1MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+    path: /in-pdr
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /x
-  name: 34|🇺🇸US_2|2.0MB/s
+  name: 34|🇺🇸US_2|2.1MB/s
   network: http
-  port: 52080
+  port: 1001
   server: 154.36.128.61
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
-  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
 - cipher: aes-128-gcm
-  name: 34|🇺🇸US_7|2.2MB/s
+  name: 34|🇺🇸US_6|3.4MB/s
   password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
   port: 40031
   server: permission_level_01.unclemanco.com
