@@ -159,24 +159,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 27|🇩🇪 Telegram = V2RayyNGvpn 🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: V2RayyNGvpn
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 27|🇩🇪121178 | ⚡️Telegram = t.me/S...
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 28|🇩🇪_德国_11
@@ -405,84 +387,94 @@ proxies:
     headers:
       Host: furrycdn.net
     path: /api/v1/video-stream
+- client-fingerprint: safari
+  name: 34|🇩🇪DE_1|2.3MB/s
+  network: tcp
+  port: 5039
+  reality-opts:
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: 2e8424a2696cb606
+  server: 5.75.196.139
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6749f13-cd63-4bc4-b165-5d120b7a1ff4
+- cipher: chacha20-ietf-poly1305
+  name: 34|🇩🇪DE_2|3.2MB/s
+  password: tunnel-hamid32
+  port: 8444
+  server: 179.61.251.63
+  type: ss
+  udp: true
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 34|🇩🇪DE_1|2.1MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- encryption: none
-  name: 34|🇩🇪DE_2|3.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22223
-  server: 63.182.37.174
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 34|🇩🇪DE_3|3.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22222
-  server: 63.182.37.174
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- name: 34|🇩🇪DE_4|2.6MB/s
+  - http/1.1
+  client-fingerprint: edge
+  name: 34|🇩🇪DE_3|2.1MB/s
   network: ws
   packet-encoding: xudp
-  port: 80
-  server: 151.101.193.54
+  port: 8443
+  server: 46.8.209.220
+  servername: cloudflare.vhub.pro
+  tls: true
   type: vless
   udp: true
-  uuid: 4b1d39f2-42d4-4850-8b8a-fd4fa2f1ae55
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
+      Host: cloudflare.vhub.pro
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /websocket
   xudp: true
-- name: 34|🇩🇪DE_6|1.5MB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_4|1.7MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 80
-  server: 167.82.0.17
+  port: 2053
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: ee-t3.vinnypuxtomoon.today
+  servername: ee-t3.vinnypuxtomoon.today
+  tls: true
   type: vless
   udp: true
-  uuid: 66ea0b4c-8c39-4e8b-92f0-0a9065218d37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
+  uuid: f7024ef7-dd35-4fe8-a18d-4186a0ae910c
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-service-name: grpc
-  name: 34|🇩🇪DE_7|2.5MB/s
+    grpc-service-name: api.v1.StreamService
+  name: 34|🇩🇪DE_5|1.6MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: 5bc76436f2905fba
+  server: store.noneok.com
+  servername: store.noneok.com
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 34|🇩🇪DE_6|2.4MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 31.56.197.217
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   xudp: true
