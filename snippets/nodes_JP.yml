@@ -1,26 +1,44 @@
 proxies:
-- name: 32|🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 45691
-  server: 18.162.149.22
+- name: 28|🇯🇵_日本_238
+  password: '!!str 521314'
+  port: 2053
+  server: 103.106.228.126
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
   type: trojan
-- name: 32|🇯🇵 日本2|@ripaojiedian
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.166.52.50
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /
+- name: 28|🇯🇵_日本_365
+  password: '!!str 521314'
+  port: 443
+  server: 154.197.121.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
   type: trojan
-- name: 32|🇯🇵 日本3|@ripaojiedian
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 54.46.11.134
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇯🇵_日本_402
+  password: '!!str 521314'
+  port: 443
+  server: 154.197.108.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
   type: trojan
-- name: 33|日本|@ripaojiedian
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27826
@@ -28,17 +46,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 33|日本2|@ripaojiedian
+- name: 32,33|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 13.158.67.26
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 33|日本3|@ripaojiedian
+- name: 32,33|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 18.163.181.97
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

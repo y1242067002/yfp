@@ -50,101 +50,244 @@ proxies:
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_22
+  name: 28|🇷🇺_俄罗斯_115
   port: 443
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: vl10.myxasecure.space
-  servername: vl10.myxasecure.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_44
-  port: 443
-  reality-opts:
-    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
-  server: 188.225.46.217
+    public-key: 6mJCHm8NH4ZjqX7H59W0yMr5TfbEvaFWIDEDoFWP2HU
+  server: 51.250.17.23
   servername: api-maps.yandex.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 28|🇷🇺_俄罗斯_170
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: edge
+  name: 28|🇷🇺_俄罗斯_216
   network: ws
-  port: 4100
-  server: 194.87.161.60
-  servername: live.ok.ru
+  port: 8443
+  server: 46.8.209.220
+  servername: cloudflare.vhub.pro
   skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    path: /v1
-- name: 28|🇷🇺_俄罗斯_171
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 28|🇷🇺_俄罗斯_172
-  network: ws
-  port: 4100
-  server: 194.87.161.60
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 28|🇷🇺_俄罗斯_175
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  servername: live.ok.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    path: /v1
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇷🇺RU_1|3.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 193.233.255.5
-  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-  xudp: true
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560
+- client-fingerprint: edge
+  name: 28,34|🇩🇪DE_3|2.3MB/s
+  network: ws
+  port: 8443
+  server: 46.8.209.220
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket
+- name: 28|🇷🇺_俄罗斯_230
+  network: ws
+  port: 4100
+  server: 194.87.161.60
+  servername: live.ok.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  ws-opts:
+    path: /v1
+- name: 28|🇷🇺_俄罗斯_231
+  network: ws
+  port: 4100
+  server: 5.129.194.34
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: /v1
+- name: 28|🇷🇺_俄罗斯_233
+  network: ws
+  port: 4100
+  server: 5.129.194.34
+  servername: live.ok.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  ws-opts:
+    path: /v1
+- name: 28|🇷🇺_俄罗斯_244
+  password: '!!str 521314'
+  port: 443
+  server: 185.148.106.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_266
+  password: '!!str 521314'
+  port: 443
+  server: 31.12.75.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_283
+  password: '!!str 521314'
+  port: 443
+  server: 45.8.211.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_298
+  password: '!!str 521314'
+  port: 443
+  server: 213.219.247.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_312
+  password: '!!str 521314'
+  port: 443
+  server: 193.233.21.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_315
+  password: '!!str 521314'
+  port: 443
+  server: 45.142.120.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_321
+  password: '!!str 521314'
+  port: 443
+  server: 193.233.132.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_328
+  password: '!!str 521314'
+  port: 443
+  server: 193.9.49.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_356
+  password: '!!str 521314'
+  port: 443
+  server: 194.53.53.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_364
+  password: '!!str 521314'
+  port: 443
+  server: 185.148.107.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_379
+  password: '!!str 521314'
+  port: 443
+  server: 176.124.223.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇷🇺_俄罗斯_383
+  password: '!!str 521314'
+  port: 443
+  server: 185.148.105.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - down: ''
   fingerprint: ''
-  name: 34|🇷🇺RU_2|3.4MB/s
+  name: 34|🇷🇺RU_1|3.4MB/s
   obfs: ''
   obfs-password: ''
   password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
@@ -154,27 +297,10 @@ proxies:
   sni: usa1.spectrumproxy.shop
   type: hysteria2
   up: ''
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇷🇺RU_3|2.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 147.45.47.15
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e19e2c5-2f0c-4330-8c79-2fb13fd49928
-  xudp: true
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 34|🇷🇺RU_7|2.2MB/s
+  name: 34|🇷🇺RU_2|2.2MB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -188,57 +314,28 @@ proxies:
   udp: true
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
   xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 34|🇷🇺RU_5|2.1MB/s
+  name: 34|🇷🇺RU_3|2.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 91.224.87.25
-  servername: sellflow.org
+    public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc
+    short-id: bef240e96a8474a3
+  server: 45.12.4.103
+  servername: russia.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1bf44cb7-f947-441c-abb5-242c47e78292
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 34|🇷🇺RU_6|3.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 9e2a6f4c3b7d1e8a
-  server: ru.moktana.app
-  servername: ru.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 36|RU_speednode_0109
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 91.224.87.98
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|RU_speednode_0110
+  name: 36|RU_speednode_0101
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -251,7 +348,7 @@ proxies:
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 36|RU_speednode_0111
+  name: 36|RU_speednode_0102
   port: 443
   reality-opts:
     public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
@@ -263,31 +360,12 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|RU_speednode_0112
+- name: 36|RU_speednode_0103
+  network: ws
   port: 443
-  reality-opts:
-    public-key: eth9HWGNkEJfM_CCXzUp2nnStCzdqQoAXflbM7mYqjc
-    short-id: 32d4105801456617
-  server: 213.171.25.248
-  servername: external-api.mediabilling.kinopoisk.ru
+  server: 95.182.90.218
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: aed30ddf-5a1c-4f4f-9056-253c7df518ed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|RU_speednode_0113
-  port: 443
-  reality-opts:
-    public-key: pPzR1XhpFrEIwevI7lPPvw4faRcRQmqiNySYHkSdVBU
-    short-id: 2a552b0d4d15e0f7
-  server: 62.152.59.193
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: db904cbc-0292-469a-a356-eb02527af59a
+  uuid: c85e3845-37f5-4a63-88f8-7ca5f613da54

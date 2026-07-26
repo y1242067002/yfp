@@ -103,20 +103,29 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇫🇷FR_1|3.2MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 28|🇫🇷_法国_353
+  password: '!!str 521314'
   port: 443
-  reality-opts:
-    public-key: ZA-uARnWouiLN6A2ixv52zEAAw2L7Oa3nFN5qEBQqxQ
-    short-id: f6dd5183f535
-  server: 45.38.228.148
-  servername: www.speedtest.net
+  server: 141.11.203.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 2cc99ce2-186b-4cfd-83fe-df5bf5484519
-  xudp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇫🇷_法国_419
+  password: '!!str 521314'
+  port: 443
+  server: 141.11.202.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳

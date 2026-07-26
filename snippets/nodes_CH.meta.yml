@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.yckLlN-VzDeh6pgODr7-KW69as1tzkpHy05Pgoh3UFI
+  flow: xtls-rprx-vision
+  name: 34|🇨🇭CH_1|1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vg43fiz32nRwXq8vKPd9gkeL5kc16cfd-ToD5lXjjCs
+    short-id: 2be362
+  server: 83.228.224.216
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 36|CH_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: bbc68cec8bb8d2e3
+  server: node5.mxvpn.dev
+  servername: node5.mxvpn.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
