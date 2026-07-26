@@ -181,7 +181,7 @@ proxies:
   type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 27,34|🇩🇪DE_4|3.4MB/s
+  name: 27,34|🇩🇪DE_2|3.2MB/s
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: qfcdqzQundefinedRh
@@ -206,76 +206,66 @@ proxies:
   type: vless
   udp: true
   uuid: 18bb7397-9f8c-4c26-a316-69b38515e8e6
-- encryption: none
-  name: 34|🇩🇪DE_1|2.7MB/s
+- name: 34|🇩🇪DE_1|2.1MB/s
   network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
+  port: 8443
+  server: 46.8.209.220
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
   udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /
-  xudp: true
+      Host: cloudflare.vhub.pro
+    path: /websocket
 - client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
+  flow: xtls-rprx-vision
+  http-opts:
+    headers:
+      Host:
+      - bale.ai,web.igap.net,web.splus.ir
+    path:
+    - /@ProxyVPNVip
+  name: 34|🇩🇪DE_3|1.8MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8080
+  reality-opts:
+    public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
+    short-id: 49d12a
+  server: 95.38.197.126
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 34|🇩🇪DE_2|2.9MB/s
+  name: 34|🇩🇪DE_4|1.7MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 193.233.255.4
-  servername: de.sellflow.org
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: d67ec5a8fc40ebea
+  server: ger12.myxasecure.space
+  servername: ger12.myxasecure.space
   tls: true
   type: vless
   udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-  xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 34|🇩🇪DE_3|2.6MB/s
-  password: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  port: 27947
-  server: 83.243.86.109
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  version: 5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇩🇪DE_5|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: N2H6Y5aEVwq2yUY1GL5fL6HKaiYUvve-tgImQAIAT0U
-    short-id: 0d77f881
-  server: 185.204.170.235
-  servername: npav.havray2025.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 326f45c1-0a69-4150-a3b9-42f282a3c34c
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 34|🇩🇪DE_6|2.6MB/s
+  name: 34|🇩🇪DE_5|2.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -288,24 +278,26 @@ proxies:
   ws-opts:
     headers:
       Host: free5.playon.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /fc-IUogfnggoAwFApwkOKpyK00h
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 34|🇩🇪DE_7|2.0MB/s
-  obfs: ''
-  port: 26691
-  protocol: ''
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '11'
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_6|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1RBDC1A2wH9u4Xdw-cwX1uzps0R7ddpZBhWUJnhpUkI
+    short-id: 56f7781a40e5cced
+  server: vs-de3.vibesignal.space
+  servername: ajax.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf0899bc-5abd-40b8-b376-f108e2d8cb6f
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 36|DE_speednode_0003
