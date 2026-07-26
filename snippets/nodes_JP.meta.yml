@@ -56,9 +56,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6059a6e0-6ccc-43dc-a287-1a4084a78a92
-- name: 28,34|🇯🇵JP_2|3.7MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 28|🇯🇵_日本_45
   port: 10000
   server: 14.137.238.17
   skip-cert-verify: true
@@ -66,7 +64,6 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 28|🇯🇵_日本_52
@@ -204,12 +201,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 34|🇯🇵JP_1|1.5MB/s
-  network: tcp
-  password: AQ71834695
-  port: 443
-  server: concise-lacewing.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-lacewing.rooster465.autos
-  type: trojan
-  udp: true
