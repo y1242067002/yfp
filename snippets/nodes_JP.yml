@@ -1,5 +1,21 @@
 proxies:
-- name: 28|🇯🇵_日本_238
+- name: 28|🇯🇵_日本_8
+  password: HK78346019
+  port: 443
+  server: harmless-lab.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_16
+  password: AQ71834695
+  port: 443
+  server: possible-pup.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_265
   password: '!!str 521314'
   port: 2053
   server: 103.106.228.126
@@ -12,33 +28,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: /
-- name: 28|🇯🇵_日本_365
-  password: '!!str 521314'
-  port: 443
-  server: 154.197.121.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇯🇵_日本_402
-  password: '!!str 521314'
-  port: 443
-  server: 154.197.108.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 32,33|日本|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_6|2.3MB/s
   network: tcp
   password: BxceQaOe
   port: 6102
@@ -46,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本2|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_7|3.4MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -54,7 +44,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_8|2.8MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138

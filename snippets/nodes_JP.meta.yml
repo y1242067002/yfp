@@ -32,69 +32,65 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 28|🇺🇸_美国_17
+  name: 28|🇨🇿_捷克_30
   port: 443
-  server: s2317.ccgfw.top
-  servername: u695099ub023e5f3s2316.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇯🇵_日本_38
-  port: 30730
   reality-opts:
-    public-key: JPECJNaF-1TAFwR-6T1i4SP-VdNeDWsl9pplsaxgT2s
-  server: 45.192.198.213
-  servername: aws.amazon.com
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 46.8.113.190
+  servername: eu-central.cendora.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6059a6e0-6ccc-43dc-a287-1a4084a78a92
-- name: 28|🇯🇵_日本_45
-  port: 10000
-  server: 14.137.238.17
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 28|🇯🇵_日本_52
-  port: 55489
-  reality-opts:
-    public-key: 0Z53IxSia-XcWP-pWp0_Zf4vqlUL3bba1YpqndXjEwU
-    short-id: c0651179
-  server: 193.111.30.24
-  servername: apple.com
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+- name: 28|🇯🇵_日本_8
+  password: HK78346019
+  port: 443
+  server: harmless-lab.rooster465.autos
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 98584e41-e68f-413a-b46a-141984528599
-- client-fingerprint: chrome
-  name: 28|🇯🇵_日本_137
+- name: 28|🇯🇵_日本_16
+  password: AQ71834695
+  port: 443
+  server: possible-pup.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_196
   network: ws
   port: 443
-  server: 45.32.16.54
-  servername: t1s1.rittbo.kdns.fr
+  server: 147.79.20.227
+  servername: n4lci.c7ih.ydz.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: n4lci.c7ih.ydz.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 28|🇯🇵_日本_265
+  password: '!!str 521314'
+  port: 2053
+  server: 103.106.228.126
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
     path: /
 - client-fingerprint: chrome
-  name: 28|🇯🇵_日本_185
+  name: 28|🇯🇵_日本_271
   network: ws
   port: 56789
   server: 212.135.210.133
@@ -109,22 +105,7 @@ proxies:
       Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 28|🇯🇵_日本_186
-  network: ws
-  port: 443
-  server: 45.77.21.148
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  name: 28|🇯🇵_日本_187
+  name: 28|🇯🇵_日本_330
   network: ws
   port: 443
   server: 45.32.39.53
@@ -138,46 +119,7 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 28|🇯🇵_日本_238
-  password: '!!str 521314'
-  port: 2053
-  server: 103.106.228.126
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
-- name: 28|🇯🇵_日本_365
-  password: '!!str 521314'
-  port: 443
-  server: 154.197.121.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇯🇵_日本_402
-  password: '!!str 521314'
-  port: 443
-  server: 154.197.108.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 32,33|日本|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_6|2.3MB/s
   network: tcp
   password: BxceQaOe
   port: 6102
@@ -185,7 +127,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本2|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_7|3.4MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -193,7 +135,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_8|2.8MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -201,3 +143,35 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 34|🇯🇵JP_1|4.9MB/s
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 34|🇯🇵JP_2|5.9MB/s
+  network: grpc
+  port: 10034
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
