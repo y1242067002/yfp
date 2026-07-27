@@ -215,10 +215,9 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 28,34|🇩🇪DE_2|2.9MB/s
-  network: tcp
+  name: 28|🇩🇪_德国_65
   port: 2027
   reality-opts:
     public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
@@ -294,26 +293,70 @@ proxies:
   uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
   ws-opts:
     path: /xray
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 34|🇩🇪DE_1|2.1MB/s
-  network: tcp
+- encryption: none
+  name: 34|🇩🇪DE_3|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 199.232.170.246
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?Telegram-WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇩🇪DE_4|2.3MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: 3c9c5d01c6f824dd
-  server: 155.117.137.201
-  servername: cdn9-33.yahoo.com
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+  uuid: 92516598-6427-4db1-b627-eea0365bdc8d
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 34|🇩🇪DE_5|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.193.54
+  type: vless
+  udp: true
+  uuid: c32c0a52-8dad-44b9-a376-0a9fad55e1fe
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
+  xudp: true
+- name: 34|🇩🇪DE_6|3.2MB/s
+  password: ''
+  port: 1080
+  server: 152.89.104.11
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '1000'
-  name: 34|🇩🇪DE_3|2.1MB/s
+  name: 34|🇩🇪DE_9|2.0MB/s
   obfs: ''
   port: 54177
   protocol: udp
@@ -321,21 +364,25 @@ proxies:
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  up: '500'
-- name: 34|🇩🇪DE_4|2.0MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
   udp: true
+  up: '500'
+- down: ''
+  fingerprint: ''
+  name: 34|🇩🇪DE_10|1.6MB/s
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: 4z2oldt85p494bgb
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: neurex
-  name: 34|🇩🇪DE_5|1.9MB/s
+  name: 34|🇩🇪DE_11|3.1MB/s
   network: grpc
   packet-encoding: xudp
   port: 16923
@@ -351,19 +398,18 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 34|🇩🇪DE_6|2.4MB/s
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_12|2.4MB/s
+  network: raw
   packet-encoding: xudp
-  port: 16923
+  port: 443
   reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 89.222.123.209
-  servername: api-maps.yandex.ru
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.201
+  servername: cdn9-33.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 3df0d1ae-a205-4602-a9a1-f0d518dcc826
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
   xudp: true
