@@ -131,16 +131,16 @@ proxies:
 - name: 32,33|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.166.29.24
+  port: 6357
+  server: 18.166.67.128
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 32,33|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.163.181.97
+  port: 6357
+  server: 16.162.91.50
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -152,3 +152,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 34,36|NL_speednode_0006
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 34|🇸🇬SG_2|2.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2053
+  server: about.com
+  servername: www.myanmartwo.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c7b26ae-f0da-4ae7-8f70-a9553ea07458
+  xhttp-opts:
+    host: www.myanmartwo.site
+    mode: auto
+    path: /v2ray
+    x-padding-bytes: 100-1000
+  xudp: true
