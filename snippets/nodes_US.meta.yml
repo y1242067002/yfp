@@ -756,21 +756,22 @@ proxies:
   uuid: 9d1f3ed0-7426-4100-ac06-21ec1f01c51b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇺🇸_美国_130
+  name: 28,36|KR_speednode_0003
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
     short-id: c76ba2c2fb172e8b
   server: 154.193.55.183
   servername: storage.yandex.net
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28|🇺🇸_美国_142
+  name: 28,36|KR_speednode_0004
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -814,12 +815,12 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 28|🇺🇸_美国_263
+- name: 28,36|US_speednode_0071
   network: ws
   port: 80
   server: 167.82.0.1
-  servername: 167.82.0.1
-  skip-cert-verify: true
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -841,11 +842,12 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_181
+- name: 28,36|US_speednode_0072
   network: ws
   port: 80
   server: 151.101.56.7
-  skip-cert-verify: true
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -1059,7 +1061,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 28|🇺🇸_美国_336
+- name: 28,36|US_speednode_0073
   network: ws
   port: 80
   server: 151.101.56.7
@@ -1162,15 +1164,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 36|US_speednode_0085
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+- auth: b78b3b0c-8b89-4a95-94f4-42a3edf9f1b3
+  name: 34|🇺🇸US_1|3.3MB/s
+  password: b78b3b0c-8b89-4a95-94f4-42a3edf9f1b3
+  port: 8992
+  server: 95.181.189.42
+  skip-cert-verify: true
+  sni: 95.181.189.42
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 34|🇺🇸US_2|1.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
   port: 443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 36|US_speednode_0086
+  server: 72.56.22.209
+  skip-cert-verify: false
+  sni: h1.fogplay-mts.ru
+  type: hysteria2
+  up: ''
+- name: 36|US_speednode_0068
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -1178,24 +1192,43 @@ proxies:
   type: http
   udp: true
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 36|US_speednode_0087
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 5443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 36|US_speednode_0090
+- name: 36|US_speednode_0069
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 172.64.152.23
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
     path: /assignment
+- name: 36|US_speednode_0070
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 36|US_speednode_0075
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 140.233.160.24
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
