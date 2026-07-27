@@ -141,14 +141,6 @@ proxies:
   type: vless
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
-- name: 26|DE
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
 - name: 26,27|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -209,11 +201,9 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- client-fingerprint: edge
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28,34|🇩🇪DE_2|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 28|🇩🇪_德国_15
   port: 443
   reality-opts:
     public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
@@ -225,7 +215,6 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 28|🇩🇪_德国_65
@@ -304,19 +293,3 @@ proxies:
   uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
   ws-opts:
     path: /xray
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 34|🇩🇪DE_1|2.7MB/s
-  password: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  port: 27947
-  reduce-rtt: false
-  request-timeout: 0
-  server: 83.243.86.109
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 261d95d4-73c0-4c33-957a-04b6d407bea2
-  version: 5
