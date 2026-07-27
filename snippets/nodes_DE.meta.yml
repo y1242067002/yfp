@@ -225,9 +225,10 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: qq
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇩🇪_德国_65
+  name: 28,34|🇩🇪DE_2|2.9MB/s
+  network: tcp
   port: 2027
   reality-opts:
     public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
@@ -303,19 +304,76 @@ proxies:
   uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
   ws-opts:
     path: /xray
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-    path:
-    - /
-  name: 34|🇩🇪DE_1|1.6MB/s
-  network: http
-  packet-encoding: xudp
-  port: 8882
-  server: 31.56.204.209
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_1|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.201
+  servername: cdn9-33.yahoo.com
+  tls: true
   type: vless
   udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 34|🇩🇪DE_3|2.1MB/s
+  obfs: ''
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- name: 34|🇩🇪DE_4|2.0MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 34|🇩🇪DE_5|1.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 156d4820-1ec2-4491-a644-36b1941d4d57
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 34|🇩🇪DE_6|2.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3df0d1ae-a205-4602-a9a1-f0d518dcc826
   xudp: true
