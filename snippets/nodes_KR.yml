@@ -1,14 +1,23 @@
 proxies:
-- name: 28|🇰🇷_韩国_332
-  password: '!!str 521314'
-  port: 443
-  server: 118.218.10.159
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
+- cipher: aes-128-gcm
+  name: 34|🇰🇷KR_3|2.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: 9035
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
+- cipher: aes-128-gcm
+  name: 34|🇰🇷KR_4|3.0MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: 9019
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true

@@ -1,34 +1,37 @@
 proxies:
-- name: 28|🇯🇵_日本_8
-  password: HK78346019
+- name: 28|日期：07-28
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20031
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_35
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_60
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_174
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
   port: 443
-  server: harmless-lab.rooster465.autos
+  server: 154.31.114.10
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_16
-  password: AQ71834695
-  port: 443
-  server: possible-pup.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_265
-  password: '!!str 521314'
-  port: 2053
-  server: 103.106.228.126
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
-- name: 32,33|日本|@ripaojiedian
+- name: 32,33,34|🇯🇵JP_2|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 45691
@@ -52,3 +55,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 34|🇯🇵JP_3|3.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 45691
+  server: 18.163.208.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

@@ -16,80 +16,25 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 28|🇸🇬_新加坡_28
-  port: 443
-  reality-opts:
-    public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8
-    short-id: 764f497dda21c4fc
-  server: 45.198.96.153
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83ab4443-ec22-4b3d-a587-53090be7beb2
-- name: 28|🇸🇬_新加坡_151
-  network: ws
-  port: 57137
-  server: 104.64.206.42
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4476eabb-509c-42d3-bb42-6838bf6fcd1e
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /FREE By Tharuwa (0767597317)
-- name: 28|🇸🇬_新加坡_195
-  network: ws
-  port: 443
-  server: 64.120.94.225
-  servername: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 28|🇸🇬_新加坡_236
-  network: ws
-  port: 443
-  server: 188.239.9.91
-  servername: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 28|🇸🇬_新加坡_240
-  network: ws
-  port: 443
-  server: 168.144.36.249
-  servername: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: n4lci.c7ih.ydz.hh.vavava.kdns.fr
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 28|🇸🇬_新加坡_292
+  flow: xtls-rprx-vision
+  name: 28|🇸🇬_新加坡_132
+  port: 49113
+  reality-opts:
+    public-key: p94VkLh01Osf0u4lfB2XZEDDc6fc3Reh-6bLC4I8_ls
+    short-id: 03a83136
+  server: dsm5.473221.xyz
+  servername: v1-dy.ixigua.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a15843f-c194-4625-b058-29833674acc0
+- client-fingerprint: chrome
+  name: 28|🇸🇬_新加坡_294
   network: ws
-  port: 2053
-  server: 149.118.55.215
+  port: 443
+  server: 13.250.131.37
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   tls: true
@@ -100,6 +45,21 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  name: 28|🇸🇬_新加坡_368
+  network: ws
+  port: 53646
+  server: 54.179.79.12
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d57b9436-a238-4066-8b11-d23ae57c5982
+  ws-opts:
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+    path: /@Marisa_kristi
 - name: 32,33|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -124,3 +84,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 34|🇸🇬SG_1|4.0MB/s
+  network: ws
+  port: 443
+  server: 104.18.44.151
+  servername: 871bl.pm3j.mhn.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 871bl.pm3j.mhn.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 34|🇸🇬SG_2|4.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: da.mfa.gov.ua
+  servername: 871bl.pm3j.mhn.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 871bl.pm3j.mhn.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
