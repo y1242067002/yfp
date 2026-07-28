@@ -96,7 +96,8 @@ proxies:
   udp: true
   uuid: 817c009c-bfaa-47b4-b5b8-2930f83568ca
 - client-fingerprint: chrome
-  name: 28,36|GB_speednode_0002
+  name: 28,36|GB_speednode_0001
+  network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -337,3 +338,16 @@ proxies:
     headers:
       Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 34|🇬🇧GB_1|1.9MB/s
+  network: grpc
+  port: 46784
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b

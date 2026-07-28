@@ -748,7 +748,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34|🇩🇪DE_2|3.0MB/s
+- name: 28,34|🇩🇪DE_2|2.1MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -934,15 +934,14 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28,36|KR_speednode_0005
-  packet-encoding: xudp
+  name: 28|🇺🇸_美国_143
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
     short-id: c76ba2c2fb172e8b
   server: 154.193.55.183
   servername: storage.yandex.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -997,9 +996,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 28,34|🇺🇦UA_2|2.4MB/s
-  network: tcp
+- name: 28|🇺🇸_美国_78
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -1118,7 +1115,7 @@ proxies:
   uuid: 1dd5f2be-f124-4f35-9239-8abc042829c2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28,36|KR_speednode_0006
+  name: 28|🇺🇸_美国_201
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -1151,14 +1148,14 @@ proxies:
   udp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28,36|US_speednode_0081
+  name: 28|🇺🇸_美国_204
   port: 443
   reality-opts:
     public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
     short-id: abcd
   server: 140.233.160.24
   servername: ya.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -1370,12 +1367,11 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: 28,36|US_speednode_0079
+- name: 28|🇺🇸_美国_332
   network: ws
   port: 80
   server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -1412,11 +1408,10 @@ proxies:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
 - client-fingerprint: chrome
-  name: 28,36|US_speednode_0080
+  name: 28|🇺🇸_美国_481
   network: ws
   port: 80
   server: 151.101.193.54
-  servername: BankMelat.glObal.ssl.faStly.nEt.
   skip-cert-verify: true
   tls: false
   type: vless
@@ -1584,21 +1579,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  auth: 1ecqm05bcdfcckq5
-  name: 34|🇺🇸US_1|1.5MB/s
-  obfs: salamander
-  obfs-password: bjmye80g9o99qohl
-  password: 1ecqm05bcdfcckq5
-  port: 59265
-  server: apic.dnso.ccwu.cc
-  skip-cert-verify: true
-  sni: apic.dnso.ccwu.cc
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 34|🇺🇸US_2|2.5MB/s
+  name: 34|🇺🇸US_1|2.4MB/s
   network: ws
   port: 443
   server: 192.204.57.30
@@ -1610,7 +1593,7 @@ proxies:
     path: /speed
 - down: ''
   fingerprint: ''
-  name: 34|🇺🇸US_3|2.1MB/s
+  name: 34|🇺🇸US_2|2.1MB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1620,17 +1603,3 @@ proxies:
   sni: vpn-us-004.fastervpn.world
   type: hysteria2
   up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|US_speednode_0078
-  port: 443
-  reality-opts:
-    public-key: 4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM
-    short-id: 808a7e8a2e32c697
-  server: 130.49.185.196
-  servername: site.rumedia-cdn.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
