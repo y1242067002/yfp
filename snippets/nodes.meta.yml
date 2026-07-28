@@ -2016,30 +2016,10 @@ proxies:
   sni: 5.255.102.165
   tls: false
   type: hysteria2
-- name: 27| Telegram = V2RayyNGvpn 🇧
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: RWn1s1QBjJ
-  port: 2087
-  server: 212.74.39.202
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
 - name: 27|🇩🇪 Telegram = V2RayyNGvpn 2🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: T-me-V2RayyNGvpn
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 27|🇩🇪 Telegram = V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: V2RayyNGvpn
   port: 443
   server: 91.107.178.22
   skip-cert-verify: true
@@ -2105,21 +2085,12 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 27|70@oneclickvpnkeys
+- name: 27|📯70@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: o3774es6cfv74kaf
   port: 8443
   server: musicclips.videolinks.ru
-  sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: 27|🇫🇮124877 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: o3774es6cfv74kaf
-  port: 8443
-  server: soskeynets.videolinks.ru
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
@@ -2141,6 +2112,16 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: true
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: pBrV8FUdJf
+  port: 43913
+  server: 91.107.178.22
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 27|🇩🇪 Telegram = V2RayyNGvpn 3🇩🇪
@@ -2258,7 +2239,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34|🇩🇪DE_4|2.6MB/s
+- name: 28,34|🇩🇪DE_3|2.6MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -2635,8 +2616,7 @@ proxies:
   uuid: bae4696f-d439-4532-89ed-6e03c8d6467f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 28,34|🇬🇧GB_3|2.8MB/s
-  network: tcp
+  name: 28|🇩🇪_德国_39
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -2736,8 +2716,7 @@ proxies:
   type: vless
   udp: true
   uuid: 817c009c-bfaa-47b4-b5b8-2930f83568ca
-- name: 28,34,36|US_speednode_0031
-  network: tcp
+- name: 28,36|US_speednode_0031
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20056
   server: oplosgru-c.catcat321.com
@@ -2938,7 +2917,7 @@ proxies:
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 28,36|RU_speednode_0025
+  name: 28,34,36|RU_speednode_0025
   network: tcp
   port: 443
   reality-opts:
@@ -3095,8 +3074,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34,36|US_speednode_0032
-  network: tcp
+- name: 28,36|US_speednode_0032
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -3312,10 +3290,14 @@ proxies:
   type: vless
   udp: true
   uuid: 42c3337e-57f5-48d8-b7ad-46f75f5e7e8a
-- name: 28|🇫🇷_法国_124
+- encryption: none
+  name: 28,34|🇪🇸ES_1|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM
+    short-id: ''
   server: 130.49.77.3
   servername: download.nvidia.com
   skip-cert-verify: true
@@ -3323,6 +3305,9 @@ proxies:
   type: vless
   udp: true
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    mode: auto
+  xudp: true
 - client-fingerprint: firefox
   name: 28|🇺🇸_美国_101
   port: 443
@@ -4563,8 +4548,9 @@ proxies:
     headers:
       Host: ov186.ochmaybrooooo.online
     path: /
-- name: 28,36|RO_speednode_0015
+- name: 28,34,36|RO_speednode_0015
   network: ws
+  packet-encoding: xudp
   port: 2053
   server: 188.241.241.32
   servername: forfreeuse.sub-flow.online
@@ -4738,7 +4724,7 @@ proxies:
     headers:
       Host: ov186.ochmaybrooooo.online
     path: /
-- name: 28,34,36|AE_speednode_0001
+- name: 28,36|AE_speednode_0001
   network: ws
   port: 2053
   server: 31.59.120.124
@@ -4891,7 +4877,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 28|🇨🇿_捷克_258
+- name: 28,34|🇫🇮FI_5|1.5MB/s
   network: ws
   port: 2053
   server: 195.133.94.188
@@ -4919,7 +4905,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 28,36|FR_speednode_0008
+- name: 28,34,36|FR_speednode_0008
   network: ws
   port: 2053
   server: 152.228.134.105
@@ -4933,7 +4919,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 28,34|🇫🇮FI_2|1.6MB/s
+- name: 28,34|🇫🇮FI_4|1.5MB/s
   network: ws
   port: 2053
   server: 72.18.132.149
@@ -6845,7 +6831,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28|🇫🇷_法国_406
+- name: 28,34|Other_1|1.6MB/s
   network: ws
   port: 80
   server: 199.232.170.160
@@ -7925,36 +7911,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: 92e82460-9a6f-4a1d-b455-d96e036eee4a
-  name: 34|🇩🇪DE_1|3.8MB/s
-  password: 92e82460-9a6f-4a1d-b455-d96e036eee4a
-  port: 8443
-  server: s1.monitoring-msk.online
-  skip-cert-verify: true
-  sni: s1.monitoring-msk.online
-  type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: 34|🇩🇪DE_2|2.6MB/s
-  network: grpc
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 34|🇨🇦CA_1|2.2MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: 8foPheDUi9ULJfe5UuxfspzwQ7J5JZg-2J1XkhL1B1I
-    short-id: 0768452b5e736e7f
-  server: get.noneok.com
-  servername: get.noneok.com
-  tls: true
-  type: vless
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-002.fastervpn.world
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 34|🇩🇪DE_1|1.7MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
+  up: 500
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 34|🇩🇪DE_3|1.6MB/s
+  name: 34|🇩🇪DE_2|2.0MB/s
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -7962,32 +7946,33 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: 34|🇫🇷FR_1|3.0MB/s
-  network: tcp
-  port: 22223
-  server: 13.37.25.15
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
+- grpc-opts:
     grpc-mode: gun
-    grpc-service-name: sync.v2.PushService
-  name: 34|🇬🇧GB_1|2.4MB/s
+    grpc-service-name: ljfxz
+  name: 34|🇬🇧GB_1|1.8MB/s
   network: grpc
-  port: 443
-  server: status.capitaloneok.com
-  servername: status.capitaloneok.com
+  port: 46784
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
   tls: true
   type: vless
   udp: true
-  uuid: 649291ba-27db-423a-a34b-6ddade44973f
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 34|🇰🇷KR_1|1.7MB/s
+  network: grpc
+  port: 46785
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
 - alpn:
   - http/1.1
-  name: 34|🇫🇷FR_2|2.0MB/s
+  name: 34|🇫🇷FR_1|2.2MB/s
   network: ws
   port: 443
   server: 77.105.163.46
@@ -8000,63 +7985,95 @@ proxies:
     headers:
       Host: ov186.ochmaybrooooo.online
     path: /
-- cipher: aes-256-gcm
-  name: 34|🇷🇺RU_1|2.6MB/s
-  password: fbaf33bcffe53cf9
-  port: 10921
-  server: 195.58.48.19
-  type: ss
-- alpn:
-  - http/1.1
-  name: 34|🇺🇸US_1|2.5MB/s
-  network: ws
-  password: MITIVPN
-  port: 2053
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 34|🇪🇪EE_1|2.3MB/s
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: ljfxz
+  name: 34|🇻🇳VN_1|2.0MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 8443
-  server: 95.85.228.161
+  port: 36798
+  server: t1.hhaakk9922.com
+  servername: t1.hhaakk9922.com
+  tls: true
   type: vless
   udp: true
-  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
-  xudp: true
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
 - alpn:
   - http/1.1
-  encryption: none
-  name: 34|🇺🇸US_2|2.2MB/s
+  client-fingerprint: qq
+  name: 34|🇺🇸US_1|2.9MB/s
   network: ws
-  packet-encoding: xudp
   port: 443
-  server: 104.18.16.56
-  servername: l-j--vMiTiVPN---MiTiVPN-pp-o.KingCloud-1.ir
+  server: 104.18.152.246
+  servername: ldggej--MiTiVPN---MiTiVPN-o.KingCloud-1.ir
   tls: true
   type: vless
   udp: true
   uuid: c19735a7-ff97-a112-3f07-60e500f7719b
   ws-opts:
     headers:
-      Host: l-j-v-MiTiVPN---MiTiVPN-oo.KingCloud-1.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL
+      Host: l-j-pjj-MiTiVPN---MiTiVPN-o.KingCloud-1.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/De
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 34|🇩🇪DE_4|1.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 34|🇺🇸US_2|2.4MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- cipher: chacha20-ietf-poly1305
+  name: 34|🇨🇭CH_1|2.0MB/s
+  password: kvrov4vd4iszb3aw
+  port: 25026
+  server: koviraaa.kovira2.ir
+  type: ss
+  udp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 34|🇩🇪DE_5|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8foPheDUi9ULJfe5UuxfspzwQ7J5JZg-2J1XkhL1B1I
+    short-id: 0768452b5e736e7f
+  server: get.noneok.com
+  servername: get.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
   xudp: true
 - encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 34|🇬🇧GB_2|2.3MB/s
+  name: 34|🇬🇧GB_2|1.9MB/s
   network: grpc
   packet-encoding: xudp
   port: 2053
@@ -8072,387 +8089,508 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 34|🇺🇸US_3|2.7MB/s
+  encryption: none
+  name: 34|🇺🇸US_3|2.5MB/s
   network: ws
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-  type: trojan
+  packet-encoding: xudp
+  port: 443
+  server: 69.46.46.251
+  servername: x4g-production-5121.up.railway.app
+  tls: true
+  type: vless
   udp: true
+  uuid: 9eb665b1-0ebd-9764-a6ad-d940fe82a6c9
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- cipher: aes-256-cfb
-  name: 34|🇺🇸US_4|3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.226.105.188
-  type: ss
-  udp: true
-- name: 34|🇮🇩ID_3|2.4MB/s
+      Host: x4g-production-5121.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /ws/9eb665b1-0ebd-9764-a6ad-d940fe82a6c9
+  xudp: true
+- encryption: none
+  name: 34|🇩🇪DE_6|2.6MB/s
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-  udp: true
-- name: 34|🇩🇪DE_5|2.1MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 34|🇷🇴RO_1|2.5MB/s
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
+  packet-encoding: xudp
+  port: 31911
+  reality-opts:
+    public-key: p1V7w_ax6Zq_Hd8eQnYisYSvfffmxu-t4KVDy6tVFGE
+    short-id: ec
+  server: ray1.gogoli.xyz
+  servername: www.yahoo.com
   tls: true
-  type: http
-- name: 34|🇷🇴RO_2|2.4MB/s
+  type: vless
+  udp: true
+  uuid: 9e1eaf7f-97e8-4465-9de6-0cc55e106c3e
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 34|🇳🇱NL_1|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 188.114.97.6
+  servername: Nll-l--sS--Nl.Kingcloud-1.Ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: Nll-l--sS--Aa.Kingcloud-1.Ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nlwin
+  xudp: true
+- name: 34|🇰🇷KR_2|1.9MB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- fingerprint: ''
+  name: 34|🇭🇰HK_1|2.4MB/s
+  password: c90afede-81f8-439d-9a20-f45579f623ec
+  port: 28680
+  server: tw76.jdvipkuai.cc
+  skip-cert-verify: false
+  sni: hk15.nynet2026.shop
+  type: anytls
+  udp: true
+  username: c90afede-81f8-439d-9a20-f45579f623ec
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇯🇵JP_1|5.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18007
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  xudp: true
+- name: 34|🇰🇷KR_3|2.9MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
+- name: 34|🇷🇴RO_34|1.5MB/s
   port: 9002
-  server: 193.176.84.31
+  server: 84.239.49.175
   skip-cert-verify: true
   sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_2|2.5MB/s
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 34|🇷🇴RO_3|2.1MB/s
   port: 9002
-  server: 84.239.49.176
+  server: 84.239.49.234
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_4|2.5MB/s
+- name: 34|🇷🇴RO_4|2.6MB/s
   port: 9002
-  server: 84.239.49.199
+  server: 84.239.49.231
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_33|2.5MB/s
-  password: ''
+- name: 34|🇷🇴RO_5|2.3MB/s
   port: 9002
-  server: 84.239.49.249
+  server: 84.239.49.240
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-  username: ''
-- name: 34|🇷🇴RO_45|2.5MB/s
-  port: 9002
-  server: 84.239.49.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_7|2.4MB/s
-  port: 9002
-  server: 84.239.49.254
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_8|2.3MB/s
+- name: 34|🇷🇴RO_6|3.2MB/s
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
-- name: 34|🇷🇴RO_9|2.5MB/s
+- name: 34|🇷🇴RO_7|3.2MB/s
   port: 9002
-  server: 84.239.49.155
+  server: 84.239.14.159
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_10|1.8MB/s
+- name: 34|🇷🇴RO_8|2.4MB/s
+  port: 9002
+  server: 84.239.49.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_9|2.5MB/s
   port: 9002
   server: 84.239.49.227
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_11|1.6MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 34|🇺🇸US_4|2.3MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 34|🇷🇴RO_10|1.5MB/s
   port: 9002
-  server: 84.239.49.180
+  server: 84.239.49.235
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_43|2.6MB/s
+- name: 34|🇷🇴RO_11|1.9MB/s
   port: 9002
-  server: 84.239.49.183
+  server: 84.239.49.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_13|1.5MB/s
-  port: 9002
-  server: 84.239.49.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_14|2.4MB/s
+- name: 34|🇷🇴RO_12|2.1MB/s
   port: 9002
   server: 84.239.49.38
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_15|2.5MB/s
-  port: 9002
-  server: 84.239.49.55
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_16|2.4MB/s
+- name: 34|🇷🇴RO_13|3.2MB/s
   port: 9002
   server: 84.239.49.184
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+- name: 34|🇷🇴RO_14|2.5MB/s
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_15|2.5MB/s
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_16|3.2MB/s
+  port: 9002
+  server: 84.239.49.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 34|🇷🇴RO_17|2.5MB/s
-  port: 9002
-  server: 84.239.49.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_18|2.1MB/s
-  port: 9002
-  server: 84.239.49.191
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_19|1.7MB/s
-  port: 9002
-  server: 84.239.49.224
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_20|2.5MB/s
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_21|2.6MB/s
-  port: 9002
-  server: 84.239.49.187
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_22|2.5MB/s
-  port: 9002
-  server: 84.239.49.212
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_23|2.5MB/s
-  port: 9002
-  server: 84.239.49.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_24|2.5MB/s
   port: 9002
   server: 84.239.49.225
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_25|1.9MB/s
+- name: 34|🇷🇴RO_18|2.5MB/s
   port: 9002
-  server: 84.239.49.164
+  server: 84.239.49.161
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_26|2.5MB/s
+- name: 34|🇷🇴RO_19|3.2MB/s
+  port: 9002
+  server: 84.239.49.166
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_20|2.4MB/s
   port: 9002
   server: 84.239.49.42
   skip-cert-verify: true
   tls: true
   type: http
-- name: 34|🇷🇴RO_27|2.0MB/s
+- name: 34|🇷🇴RO_21|1.8MB/s
   port: 9002
-  server: 84.239.49.157
+  server: 193.176.84.27
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 34|🇷🇴RO_28|2.4MB/s
-  port: 9002
-  server: 84.239.49.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_29|2.5MB/s
-  port: 9002
-  server: 84.239.49.196
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_30|1.6MB/s
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_31|2.1MB/s
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇹🇼TW_1|2.5MB/s
+- name: 34|🇺🇦UA_1|2.7MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20025
+  port: 20066
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: tw.catxstar.com
+  sni: hk.catxstar.com
   type: trojan
   udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 34|🇩🇪DE_6|1.8MB/s
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- name: 34|🇷🇴RO_32|3.2MB/s
+- name: 34|🇷🇴RO_22|1.5MB/s
   port: 9002
-  server: 84.239.49.58
+  server: 193.176.84.19
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-- grpc-opts:
-    grpc-service-name: TunService
-  name: 34|🇷🇺RU_2|2.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-    short-id: ''
-  server: 88.218.44.4
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 34|🇬🇧GB_4|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
-    short-id: ''
-  server: pro-us.emrata.top
-  servername: pro-us.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 138bfe7f-a2c4-443e-befe-6a9d13e1550b
-  xudp: true
-- name: 34|🇩🇪DE_7|2.6MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: 34|🇰🇷KR_4|1.5MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alpn:
   - http/1.1
+  client-fingerprint: ios
   encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇸🇬SG_1|3.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 55800
-  reality-opts:
-    public-key: rSPI3JPZZzglA7O6j7S46HtUFExLN_x71LUAY4OJj2w
-    short-id: 54462e21
-  server: ly.gaaaa015.top
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
-  xudp: true
-- alpn:
-  - http/1.1
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇸🇬SG_2|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 55830
-  reality-opts:
-    public-key: hsLPTul4P6ckya6Nbb_OiZnIL0EKIY4AoX6fowxlejY
-    short-id: 0ccd43a4
-  server: ly.gaaaa015.top
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  name: 34|🇫🇷FR_3|2.4MB/s
+  name: 34|🇺🇸US_5|2.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: fr-1.bnc-gt.co.uk
-  servername: fr-1.bnc-gt.co.uk
+  server: 69.46.46.3
+  servername: rvg-production-3100.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 2400a6f1-c074-49a6-8255-a3b10ba35d9e
+  uuid: 5835d646-e713-89be-00a5-5567ec246abc
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /ws/
+      Host: rvg-production-3100.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /ws/5835d646-e713-89be-00a5-5567ec246abc
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  name: 34|🇸🇪SE_1|2.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 4ltYIatUJFFjrW8ZBDGLJaun0BnYIgxn-jmpmTEDGyc
+    short-id: ''
+  server: yandexcdn1.ookcdn.ru
+  servername: yandexcdn1.ookcdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9fd3106b-287f-41e3-9cea-c3a9fd223c49
+  xhttp-opts:
+    mode: auto
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-keep-alive-period: 0
+      h-max-request-times: 400-600
+      h-max-reusable-secs: 1800-3600
+      max-concurrency: 8-16
+      max-connections: '0'
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 34|🇫🇮FI_6|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 31.59.185.123
+  servername: forfreeuse.sub-flow.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇬🇧GB_3|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 55880
+  reality-opts:
+    public-key: BibMDEe05xV7nGF6eUhylxgry-JoWCCwrGdyAasOuyU
+    short-id: 69b0ac6c
+  server: ly.gaaaa015.top
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
+  xudp: true
+- cipher: aes-128-gcm
+  name: 34|🇯🇵JP_2|4.7MB/s
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 1313
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇺🇸US_6|2.6MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 857
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇺🇸US_7|3.7MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 911
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇯🇵JP_3|4.9MB/s
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 909
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇺🇸US_8|3.2MB/s
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 906
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇭🇰HK_2|5.3MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 8001
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇭🇰HK_3|2.2MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9022
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇸🇨SC_1|2.5MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇯🇵JP_4|3.5MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 819
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇸🇨SC_2|5.7MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇭🇰HK_4|2.2MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 9047
+  server: 260323.1.0.l2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 34|🇺🇸US_9|2.7MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: 812
+  server: 260323.1.0.l2.unclemanco.com
+  type: ss
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇯🇵JP_5|4.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10583
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: ios
   encryption: none
-  name: 34|🇺🇸US_5|2.1MB/s
+  name: 34|🇺🇸US_10|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8465,145 +8603,255 @@ proxies:
   ws-opts:
     headers:
       Host: rvg-production-1176f.up.railway.app
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /ws/2fa33163-12a8-f4b2-c3bd-4d5506d97b5d
   xudp: true
-- encryption: none
-  name: 34|Other_1|2.1MB/s
+- name: 34|🇩🇪DE_7|2.6MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+  port: 2052
+  server: 172.67.157.241
   type: vless
   udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 5cdcbd83-0742-4f45-a098-02340aa18f2b
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /sg-melbi
+      Host: n5.droonix.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: qq
-  encryption: none
+- encryption: none
   flow: xtls-rprx-vision
-  name: 34|🇸🇪SE_1|2.1MB/s
+  name: 34|🇷🇺RU_1|2.4MB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
+  port: 993
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  server: se.faygo.bot
-  servername: enterprisekitten.com
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+    short-id: ''
+  server: 88.218.44.4
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - varzesh3.com
-    path:
-    - /
-  name: 34|🇺🇸US_6|1.7MB/s
-  network: http
-  packet-encoding: xudp
-  port: 38001
-  server: 191.101.130.131
-  type: vless
-  udp: true
-  uuid: d38fb586-bec2-4892-f774-7789068e32d5
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
 - alpn:
   - http/1.1
-  client-fingerprint: ios
-  name: 34|🇫🇷FR_4|2.0MB/s
+  encryption: none
+  name: 34|🇺🇸US_11|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 89.124.251.28.tyr-agentstvo.tech
-  servername: 89.124.251.28.tyr-agentstvo.tech
+  server: web-production-bc324.up.railway.app
+  servername: web-production-bc324.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 3f728ce3-766d-4652-ac2f-0e7e74e975be
+  uuid: 819a56fd-8e66-4f04-8343-83c24a0e10ff
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 89.124.251.28.tyr-agentstvo.tech
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    max-early-data: 2560
-    path: /websocket
-  xudp: true
-- client-fingerprint: firefox
-  name: 34|🇩🇪DE_8|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22006
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: c6e19c434dc87df7
-  server: de.sv.temas-bor.ir
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
+      Host: web-production-bc324.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /ws/819a56fd-8e66-4f04-8343-83c24a0e10ff
   xudp: true
 - encryption: none
-  name: 34|🇩🇪DE_9|2.5MB/s
+  name: 34|🇫🇷FR_2|3.4MB/s
   network: tcp
   packet-encoding: xudp
-  port: 1824
+  port: 22224
+  server: 13.36.44.201
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- encryption: none
+  name: 34|🇫🇷FR_3|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22223
+  server: 35.181.156.38
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 34|🇳🇱NL_3|1.9MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
-    short-id: 8390ee7a5996648b
-  server: ger7.fastcodz.ir
-  servername: www.icloud.com
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: 82f5d3a1e9c0b661
+  server: getsavesafe.net
+  servername: getsavesafe.net
   tls: true
   type: vless
   udp: true
-  uuid: f5496502-7a89-4099-9a49-835382ec951a
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
   xudp: true
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: neurex
-  name: 34|🇩🇪DE_10|3.5MB/s
+  name: 34|🇩🇪DE_8|1.8MB/s
   network: grpc
   packet-encoding: xudp
   port: 16923
   reality-opts:
     public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
     short-id: 10ffb85da1c2d986
-  server: 89.222.123.209
+  server: 159.195.12.98
   servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
+  uuid: 753dd705-f4ae-4f76-9b78-0362a3039035
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 34|🇺🇸US_7|3.2MB/s
-  network: none
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: 34|🇺🇸US_12|2.2MB/s
+  network: ws
   packet-encoding: xudp
-  port: 24548
-  server: dsl081-033-205.lax1.dsl.speakeasy.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: 443
+  server: ezaccess1-x4g-ezaccess1-c619.up.railway.app
+  servername: ezaccess1-x4g-ezaccess1-c619.up.railway.app
+  tls: true
+  type: vless
   udp: true
-  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+  uuid: 5a832c52-da28-b23c-ba24-d8a900e3982e
+  ws-opts:
+    headers:
+      Host: ezaccess1-x4g-ezaccess1-c619.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /ws/5a832c52-da28-b23c-ba24-d8a900e3982e
   xudp: true
-- name: 34|🇺🇸US_8|1.5MB/s
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: /api/v1/sync
+  name: 34|🇳🇱NL_4|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: Il_wxsWno5XDSTU92FWqalsH7hhGBQA_GYkxznUiBH4
+    short-id: a2b213d4
+  server: 31.59.39.195
+  servername: m1.vk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8575efe8-a73f-4e02-b94c-fa215ba4a6c7
+  xudp: true
+- name: 34|🇳🇱NL_5|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 62145
+  server: 141.148.232.142
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  xudp: true
+- name: 34|🇷🇴RO_23|2.8MB/s
+  password: ''
+  port: 9002
+  server: 84.239.49.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 34|🇷🇴RO_24|2.6MB/s
+  port: 9002
+  server: 84.239.49.62
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_25|2.3MB/s
+  port: 9002
+  server: 84.239.49.253
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_26|1.8MB/s
+  port: 9002
+  server: 84.239.49.219
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_27|1.5MB/s
+  port: 9002
+  server: 84.239.49.54
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_28|1.5MB/s
+  port: 9002
+  server: 84.239.49.48
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_29|2.4MB/s
+  port: 9002
+  server: 84.239.49.58
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_30|2.8MB/s
+  port: 9002
+  server: 84.239.49.170
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_31|2.0MB/s
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_32|2.5MB/s
+  port: 9002
+  server: 193.176.84.33
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_33|2.5MB/s
+  port: 9002
+  server: 84.239.49.244
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_35|2.3MB/s
+  port: 9002
+  server: 84.239.49.159
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇷🇴RO_36|3.2MB/s
+  port: 9002
+  server: 84.239.49.198
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 34|🇺🇸US_13|3.7MB/s
   password: ''
   port: 9002
   server: 138.199.35.196
@@ -8611,16 +8859,23 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 34|🇷🇴RO_41|2.5MB/s
+- name: 34|🇷🇴RO_37|1.6MB/s
+  password: ''
+  port: 9002
+  server: 84.239.49.249
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 34|🇷🇴RO_38|1.9MB/s
   password: ''
   port: 9002
   server: 84.239.49.192
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   username: ''
-- name: 34|🇷🇴RO_35|2.5MB/s
+- name: 34|🇷🇴RO_39|2.1MB/s
   password: ''
   port: 9002
   server: 84.239.49.182
@@ -8628,161 +8883,6 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: 34|🇺🇸US_9|1.7MB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  skip-cert-verify: true
-  type: socks5
-  username: test123
-- name: 34|🇺🇸US_10|2.5MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 34|🇷🇴RO_36|2.4MB/s
-  port: 9002
-  server: 84.239.49.62
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_37|2.1MB/s
-  port: 9002
-  server: 84.239.49.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_38|2.6MB/s
-  port: 9002
-  server: 84.239.49.219
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_39|3.0MB/s
-  port: 9002
-  server: 84.239.49.54
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_40|1.8MB/s
-  port: 9002
-  server: 84.239.49.60
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_42|2.7MB/s
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_44|2.1MB/s
-  port: 9002
-  server: 84.239.49.170
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_46|1.8MB/s
-  port: 9002
-  server: 84.239.14.159
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_47|2.3MB/s
-  port: 9002
-  server: 84.239.49.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_48|2.4MB/s
-  port: 9002
-  server: 84.239.49.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_49|2.3MB/s
-  port: 9002
-  server: 84.239.49.248
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_50|2.6MB/s
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_51|2.6MB/s
-  port: 9002
-  server: 84.239.49.165
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_52|3.2MB/s
-  port: 9002
-  server: 84.239.49.229
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_53|2.0MB/s
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_54|2.6MB/s
-  port: 9002
-  server: 84.239.49.41
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_55|2.7MB/s
-  port: 9002
-  server: 84.239.49.159
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_56|2.5MB/s
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_57|2.0MB/s
-  port: 9002
-  server: 84.239.49.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 34|🇷🇴RO_58|2.6MB/s
-  port: 9002
-  server: 84.239.49.198
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
 - name: 36|FR_speednode_0009
   network: ws
   port: 80

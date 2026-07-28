@@ -114,10 +114,14 @@ proxies:
   udp: true
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - client-fingerprint: chrome
-  name: 28|🇫🇷_法国_124
+  encryption: none
+  name: 28,34|🇪🇸ES_1|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM
+    short-id: ''
   server: 130.49.77.3
   servername: download.nvidia.com
   skip-cert-verify: true
@@ -125,6 +129,9 @@ proxies:
   type: vless
   udp: true
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    mode: auto
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 28|🇫🇷_法国_149
@@ -187,7 +194,7 @@ proxies:
       Host: ov186.ochmaybrooooo.online
     path: /
 - client-fingerprint: chrome
-  name: 28,34,36|AE_speednode_0001
+  name: 28,36|AE_speednode_0001
   network: ws
   port: 2053
   server: 31.59.120.124
@@ -202,7 +209,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 28,36|FR_speednode_0008
+  name: 28,34,36|FR_speednode_0008
   network: ws
   port: 2053
   server: 152.228.134.105
@@ -658,7 +665,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28|🇫🇷_法国_406
+- name: 28,34|Other_1|1.6MB/s
   network: ws
   port: 80
   server: 199.232.170.160
@@ -1412,18 +1419,10 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 34|🇫🇷FR_1|3.0MB/s
-  network: tcp
-  port: 22223
-  server: 13.37.25.15
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 34|🇫🇷FR_2|2.0MB/s
+  name: 34|🇫🇷FR_1|2.2MB/s
   network: ws
   port: 443
   server: 77.105.163.46
@@ -1436,46 +1435,25 @@ proxies:
     headers:
       Host: ov186.ochmaybrooooo.online
     path: /
-- client-fingerprint: qq
-  encryption: none
-  name: 34|🇫🇷FR_3|2.4MB/s
-  network: ws
+- encryption: none
+  name: 34|🇫🇷FR_2|3.4MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 443
-  server: fr-1.bnc-gt.co.uk
-  servername: fr-1.bnc-gt.co.uk
-  tls: true
+  port: 22224
+  server: 13.36.44.201
   type: vless
   udp: true
-  uuid: 2400a6f1-c074-49a6-8255-a3b10ba35d9e
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /ws/
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  name: 34|🇫🇷FR_4|2.0MB/s
-  network: ws
+- encryption: none
+  name: 34|🇫🇷FR_3|2.6MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 443
-  server: 89.124.251.28.tyr-agentstvo.tech
-  servername: 89.124.251.28.tyr-agentstvo.tech
-  tls: true
+  port: 22223
+  server: 35.181.156.38
   type: vless
   udp: true
-  uuid: 3f728ce3-766d-4652-ac2f-0e7e74e975be
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 89.124.251.28.tyr-agentstvo.tech
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    max-early-data: 2560
-    path: /websocket
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
 - name: 36|FR_speednode_0009
   network: ws
