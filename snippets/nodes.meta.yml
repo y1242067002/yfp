@@ -1959,7 +1959,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 27|124270 | Telegram = t.me/SOSke...
+- name: 27|@IRan_V2ray1 | VIP15
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 4z2oldt85p494bgb
@@ -1975,16 +1975,6 @@ proxies:
   password: 4z2oldt85p494bgb
   port: 52061
   server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 27|🇫🇮124270 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: l960g2kn19nphlra
-  password: 4z2oldt85p494bgb
-  port: 52060
-  server: soskeynets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
@@ -2035,7 +2025,11 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 27|⛲99@oneclickvpnkeys
+- down: ''
+  fingerprint: ''
+  name: 27,34|🇳🇱NL_1|2.0MB/s
+  obfs: ''
+  obfs-password: ''
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
@@ -2043,6 +2037,7 @@ proxies:
   sni: 5.255.102.165
   tls: false
   type: hysteria2
+  up: ''
 - name: 27| Telegram = V2RayyNGvpn 🇧
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -2103,7 +2098,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 27|@prrofile_purple  ️👈 تلگرام
+- name: 27|@prrofile_purple  👈 تلگرام
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -2258,7 +2253,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_8
+- name: 28,34|🇩🇪DE_2|3.0MB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -3082,7 +3078,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34|🇺🇦UA_1|2.6MB/s
+- name: 28,34|🇺🇦UA_2|2.4MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
@@ -7911,32 +7907,61 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  name: 34|🇳🇱NL_1|3.4MB/s
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- name: 34|🇳🇴NO_1|2.1MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-- name: 34|🇩🇪DE_1|1.9MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 34|🇩🇪DE_4|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33208
+  server: cu2.ainivp.com
+  servername: cu2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-- name: 34|🇳🇴NO_2|2.1MB/s
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 34|🇭🇰HK_5|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33409
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 34|🇯🇵JP_6|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33203
+  server: cu2.ainivp.com
+  servername: cu2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+  xudp: true
+- name: 34|🇳🇴NO_1|2.5MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
@@ -7945,16 +7970,31 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 34|🇲🇴MO_1|1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 34|🇸🇬SG_3|2.1MB/s
+  network: ws
+  port: 33402
+  server: cu4.ainivp.com
+  servername: cu4.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu4.ainivp.com
+    path: /ray
+- name: 34|🇹🇼TW_1|2.6MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20068
-  server: oplosgru-c.catcat321.com
+  port: 20025
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  sni: tw.catxstar.com
   type: trojan
   udp: true
-- name: 34|🇺🇦UA_3|2.1MB/s
+- name: 34|🇺🇦UA_1|2.5MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
@@ -7962,55 +8002,111 @@ proxies:
   skip-cert-verify: true
   sni: hkdcrtc-e.catcat321.com
   type: trojan
-  udp: true
-- name: 34|🇦🇺AU_1|1.6MB/s
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alpn:
-  - http/1.1
-  encryption: none
-  name: 34|🇺🇸US_1|1.6MB/s
+  - h3
+  auth: 1ecqm05bcdfcckq5
+  name: 34|🇺🇸US_1|1.5MB/s
+  obfs: salamander
+  obfs-password: bjmye80g9o99qohl
+  password: 1ecqm05bcdfcckq5
+  port: 59265
+  server: apic.dnso.ccwu.cc
+  skip-cert-verify: true
+  sni: apic.dnso.ccwu.cc
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 34|🇺🇸US_2|2.5MB/s
   network: ws
-  packet-encoding: xudp
   port: 443
-  server: 69.46.46.24
-  servername: luffypanel-production-c404.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d10e64e-43b0-4f8c-b1b9-8e81d275eb67
+  server: 192.204.57.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: luffypanel-production-c404.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2048
-    path: /ws/vless/7d10e64e-43b0-4f8c-b1b9-8e81d275eb67
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  name: 34|🇩🇪DE_2|2.1MB/s
-  network: xhttp
-  packet-encoding: xudp
+    path: /speed
+- name: 34|🇩🇪DE_3|1.9MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 34|🇳🇴NO_2|2.4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+  udp: true
+- name: 34|🇳🇴NO_4|2.0MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 34|🇺🇸US_3|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: top1272307106.mwscdn.ru
-  servername: top1272307106.mwscdn.ru
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 34|🇳🇱NL_2|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: 443
+  server: 5.255.102.165
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  up: ''
+- name: 34|🇲🇴MO_1|1.5MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20068
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇯🇵JP_5|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 34761
+  reality-opts:
+    public-key: vpyTFpAW_aDyAozpeWyB4Q5orhkbdxZ82V0ZPt7A9U8
+    short-id: ad568d7e89114c24
+  server: dsm7.473221.xyz
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 140f954a-7ab9-437c-be3a-248c269117f1
-  xhttp-opts:
-    mode: auto
-    path: /xhttppath
+  uuid: 9a15843f-c194-4625-b058-29833674acc0
   xudp: true
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: 34|🇭🇰HK_1|3.5MB/s
+  name: 34|🇭🇰HK_4|3.4MB/s
   network: tcp
   packet-encoding: xudp
   port: 34819
@@ -8024,13 +8120,49 @@ proxies:
   udp: true
   uuid: 9a15843f-c194-4625-b058-29833674acc0
   xudp: true
-- name: 34|🇳🇴NO_3|2.3MB/s
+- alterId: '0'
+  cipher: auto
+  name: 34|🇰🇷KR_4|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33200
+  server: cu2.ainivp.com
+  servername: cu2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-direct
+  name: 34|🇰🇿KZ_1|2.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
+    short-id: 4b685844d0b4f724
+  server: 89.208.229.243
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
+  xudp: true
+- name: 34|🇩🇪DE_5|2.6MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: hkdcrtc-e.catcat321.com
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: de.catxstar.com
   type: trojan
   udp: true
 - flow: xtls-rprx-vision
