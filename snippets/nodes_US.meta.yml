@@ -842,7 +842,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28,34,36|US_speednode_0072
+- name: 28,36|US_speednode_0072
   network: ws
   port: 80
   server: 151.101.56.7
@@ -993,10 +993,8 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
-- encryption: none
-  name: 28,34|🇩🇪DE_2|2.4MB/s
+- name: 28|🇺🇸_美国_243
   network: ws
-  packet-encoding: xudp
   port: 80
   server: 167.82.0.17
   skip-cert-verify: true
@@ -1007,10 +1005,7 @@ proxies:
   ws-opts:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
-  xudp: true
 - client-fingerprint: chrome
   name: 28|🇦🇲_亚美尼亚_264
   network: ws
@@ -1039,7 +1034,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: 28,34|🇩🇪DE_8|2.2MB/s
+- name: 28|🇺🇸_美国_255
   network: ws
   port: 80
   server: 167.82.0.1
@@ -1149,7 +1144,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
-  server: 18.163.123.29
+  server: 16.162.105.149
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1157,126 +1152,18 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 18.163.123.29
+  server: 16.162.105.149
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 32,33|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.183.93.4
+  port: 29085
+  server: 95.41.27.1
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  auth: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  name: 34|🇺🇸US_1|3.4MB/s
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  type: hysteria2
-- auth: 3f3da036-ab8f-405e-a5fd-e7223cb39866
-  name: 34|🇺🇸US_2|2.6MB/s
-  password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
-  port: 443
-  server: h1.fogplay-mts.ru
-  skip-cert-verify: true
-  sni: h1.fogplay-mts.ru
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 34|🇺🇸US_3|2.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.58.124.178
-  type: ss
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 34|🇺🇸US_4|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.232
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  name: 34|🇺🇸US_5|2.2MB/s
-  network: ws
-  port: 2087
-  server: 91.193.59.37
-  servername: vlso.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso.1d.mom
-    path: /socks5=888:888@8.210.127.248:1080
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 34|🇺🇸US_6|3.6MB/s
-  network: grpc
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  server: 72.56.38.194
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- multiplexing: MULTIPLEXING_LOW
-  name: 34|🇺🇸US_7|3.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇺🇸US_8|2.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
-    short-id: 122218f4c1f172e4
-  server: 189.74.117.4
-  servername: api.yandex-api.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6949d13a-6695-4ef6-95a6-59f5a17c0978
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇺🇸US_9|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 24665
-  reality-opts:
-    public-key: U1wgcKgoj-pgHELpRRsg1ghhsfgAlwkoPY-yu694VkY
-    short-id: 6ba85179e30d4fc2
-  server: 167.99.48.117
-  servername: www.mysql.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f421241e-572f-481e-93ab-961812437fe6
-  xudp: true
 - name: 36|US_speednode_0068
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
@@ -1311,3 +1198,17 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 36|US_speednode_0075
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 140.233.160.24
+  servername: ya.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
