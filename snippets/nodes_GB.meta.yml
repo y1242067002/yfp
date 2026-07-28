@@ -336,3 +336,52 @@ proxies:
     headers:
       Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
     path: /@Marisa_kristi
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: sync.v2.PushService
+  name: 34|🇬🇧GB_1|2.4MB/s
+  network: grpc
+  port: 443
+  server: status.capitaloneok.com
+  servername: status.capitaloneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 649291ba-27db-423a-a34b-6ddade44973f
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 34|🇬🇧GB_2|2.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: 5c766813929a1fdd
+  server: 31.76.122.42
+  servername: play.overcloud.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 34|🇬🇧GB_4|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
+    short-id: ''
+  server: pro-us.emrata.top
+  servername: pro-us.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 138bfe7f-a2c4-443e-befe-6a9d13e1550b
+  xudp: true
