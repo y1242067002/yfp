@@ -464,7 +464,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_7
+- name: 28,36|US_speednode_0029
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20056
   server: oplosgru-c.catcat321.com
@@ -472,8 +472,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34|🇩🇪DE_2|2.1MB/s
-  network: tcp
+- name: 28|🇺🇸_美国_8
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -539,7 +538,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_196
+- name: 28,36|US_speednode_0030
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -548,7 +547,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_47
+- name: 28,36|US_speednode_0031
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20056
   server: oplosgru-c.catcat321.com
@@ -566,7 +565,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_60
+- name: 28,36|CN_speednode_0002
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -592,7 +591,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_78
+- name: 28,36|US_speednode_0032
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -1589,78 +1588,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34|🇳🇴NO_1|2.0MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: Hkdcrtc-e.catcat321.com
+- alpn:
+  - http/1.1
+  name: 34|🇺🇸US_1|1.5MB/s
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 34|🇺🇸US_1|2.4MB/s
-  network: ws
-  port: 443
-  server: 192.204.57.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
-  ws-opts:
-    path: /speed
-- alterId: '0'
-  cipher: auto
-  name: 34|🇩🇪DE_1|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 33208
-  server: cu2.ainivp.com
-  servername: cu2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
   ws-opts:
     headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 34|🇸🇬SG_1|2.0MB/s
+      Host: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- name: 36|US_speednode_0027
   network: ws
-  packet-encoding: xudp
-  port: 33402
-  server: cu4.ainivp.com
-  servername: cu4.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  password: MITIVPN
+  port: 2053
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
   udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
   ws-opts:
     headers:
-      Host: cu4.ainivp.com
-    path: /ray
-  xudp: true
-- name: 34|🇳🇴NO_2|2.3MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: hkdcrtc-e.catcat321.com
+      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: 36|US_speednode_0028
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 104.18.6.178
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
   type: trojan
   udp: true
-- name: 34|🇩🇪DE_3|2.1MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl

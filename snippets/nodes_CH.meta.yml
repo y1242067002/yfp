@@ -1,7 +1,8 @@
 proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28|🇨🇭_瑞士_49
+  name: 28,36|DE_speednode_0003
+  network: tcp
   port: 1443
   reality-opts:
     public-key: rvOPhBAT3c5Uok7UDuxVfML3j4mib3Y9MU_Cd9M822c
@@ -13,3 +14,18 @@ proxies:
   type: vless
   udp: true
   uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
+- encryption: none
+  name: 34|🇨🇭CH_1|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: koviraaa.kovira2.ir
+  type: vless
+  udp: true
+  uuid: f5f77177-4937-4f40-b6fc-7c4278151f01
+  xhttp-opts:
+    host: chatgpt.com
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
