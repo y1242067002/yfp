@@ -859,17 +859,21 @@ proxies:
   uuid: 677ecfdc-3e25-4abc-89d2-5f7f3b92c680
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇺🇸_美国_94
+  name: 28,34|🇳🇱NL_3|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 993
   reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    short-id: ''
   server: 88.218.44.4
-  servername: dl.google.com
+  servername: download.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 28|🇺🇸_美国_34
@@ -1652,6 +1656,107 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 34|🇺🇸US_1|2.5MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga2.api3-max.ru
+  skip-cert-verify: true
+  sni: taga2.api3-max.ru
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇺🇸US_2|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  xudp: true
+- name: 34|🇺🇸US_3|3.6MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_4|3.1MB/s
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_5|2.1MB/s
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_6|1.6MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_7|2.5MB/s
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_8|3.2MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_9|2.4MB/s
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_10|1.8MB/s
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_11|2.3MB/s
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_12|2.1MB/s
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 34|🇺🇸US_13|2.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 34|🇺🇸US_14|2.6MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: 36|US_speednode_0085
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
