@@ -419,7 +419,7 @@ proxies:
       Host: cloudflare.vhub.pro
     path: /websocket?ed=2560
 - client-fingerprint: chrome
-  name: 28,36|DE_speednode_0004
+  name: 28,34,36|DE_speednode_0004
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -464,7 +464,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 28,34,36|DE_speednode_0006
+  name: 28,36|DE_speednode_0006
   network: ws
   port: 2053
   server: 150.230.146.170
@@ -594,12 +594,29 @@ proxies:
     headers:
       Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: firefox
+  name: 34|🇩🇪DE_1|3.4MB/s
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
+    short-id: 6a480648c1
+  server: 169.40.32.216
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb71a24c-85bf-4251-8a42-7300f5122067
+  xhttp-opts:
+    host: www.samsung.com
+    mode: auto
+    path: /api/v2/sync
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 34|🇩🇪DE_1|1.7MB/s
+  name: 34|🇩🇪DE_2|2.2MB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -608,24 +625,20 @@ proxies:
   type: hysteria
   udp: true
   up: 500
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 34|🇩🇪DE_2|2.0MB/s
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
+- name: 34|🇩🇪DE_3|2.1MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: chrome
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: safari
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 34|🇩🇪DE_4|1.7MB/s
+  name: 34|🇩🇪DE_5|2.1MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
@@ -639,70 +652,63 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 34|🇩🇪DE_5|2.6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 8foPheDUi9ULJfe5UuxfspzwQ7J5JZg-2J1XkhL1B1I
-    short-id: 0768452b5e736e7f
-  server: get.noneok.com
-  servername: get.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 34|🇩🇪DE_6|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 31911
-  reality-opts:
-    public-key: p1V7w_ax6Zq_Hd8eQnYisYSvfffmxu-t4KVDy6tVFGE
-    short-id: ec
-  server: ray1.gogoli.xyz
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e1eaf7f-97e8-4465-9de6-0cc55e106c3e
-  xudp: true
-- name: 34|🇩🇪DE_7|2.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2052
-  server: 172.67.157.241
-  type: vless
-  udp: true
-  uuid: 5cdcbd83-0742-4f45-a098-02340aa18f2b
-  ws-opts:
-    headers:
-      Host: n5.droonix.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: neurex
-  name: 34|🇩🇪DE_8|1.8MB/s
+  name: 34|🇩🇪DE_7|3.4MB/s
   network: grpc
   packet-encoding: xudp
   port: 16923
   reality-opts:
     public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
     short-id: 10ffb85da1c2d986
-  server: 159.195.12.98
+  server: 89.222.123.209
   servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 753dd705-f4ae-4f76-9b78-0362a3039035
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 34|🇩🇪DE_8|1.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: 5bc76436f2905fba
+  server: store.noneok.com
+  servername: store.noneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 34|🇩🇪DE_9|2.2MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8882
+  server: 91.108.189.5
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- client-fingerprint: chrome
+  name: 34|🇩🇪DE_11|1.9MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true

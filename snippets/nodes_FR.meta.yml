@@ -115,7 +115,7 @@ proxies:
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - client-fingerprint: chrome
   encryption: none
-  name: 28,34|🇪🇸ES_1|2.1MB/s
+  name: 28,34|🇪🇸ES_1|2.6MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -209,7 +209,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 28,34,36|FR_speednode_0008
+  name: 28,36|FR_speednode_0008
   network: ws
   port: 2053
   server: 152.228.134.105
@@ -665,7 +665,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28,34|Other_1|1.6MB/s
+- name: 28|🇫🇷_法国_406
   network: ws
   port: 80
   server: 199.232.170.160
@@ -756,7 +756,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28|🇫🇷_法国_413
+- name: 28,34|🇫🇮FI_3|2.5MB/s
   network: ws
   port: 80
   server: 199.232.170.80
@@ -912,7 +912,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28|🇫🇷_法国_425
+- name: 28,34|🇩🇪DE_6|2.7MB/s
   network: ws
   port: 80
   server: 199.232.170.57
@@ -1276,7 +1276,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 28|🇫🇷_法国_453
+- name: 28,34|Other_1|2.6MB/s
   network: ws
   port: 80
   server: 199.232.170.71
@@ -1419,41 +1419,21 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- encryption: none
   name: 34|🇫🇷FR_1|2.2MB/s
   network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  tls: true
+  packet-encoding: xudp
+  port: 8880
+  server: 45.80.111.175
   type: vless
   udp: true
-  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
   ws-opts:
     headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
-- encryption: none
-  name: 34|🇫🇷FR_2|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22224
-  server: 13.36.44.201
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: 34|🇫🇷FR_3|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22223
-  server: 35.181.156.38
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      Host: cnd.poland.myfilecdn.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /cdn/assets/stream
   xudp: true
 - name: 36|FR_speednode_0009
   network: ws
