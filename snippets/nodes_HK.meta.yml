@@ -42,7 +42,35 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28|🇭🇰_香港_139
+  name: 28|🇭🇰_香港_15
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: dfa28122
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d54c235c-5fc6-401c-ad93-5d0fb1a2c50b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇭🇰_香港_18
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: dfa28122
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71ab852b-93e0-4c02-8de3-fd47fd4125c9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇭🇰_香港_91
   port: 40118
   reality-opts:
     public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
@@ -54,36 +82,98 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- alterId: 0
-  cipher: auto
-  name: 28|🇭🇰_香港_167
-  port: 800
-  server: 47.86.167.194
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇭🇰_香港_37
+  port: 443
+  reality-opts:
+    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+    short-id: 6ba85179e30d4fc2
+  server: fh4.freechatup2.com
+  servername: hihidress.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: 28|🇭🇰_香港_168
-  port: 2044
-  server: us---ee--us.belamona.ir
-  skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 79f92090-4395-4d15-a093-5a524324b9eb
-- name: 28|🇭🇰_香港_192
-  password: 20ddf7dc-26ba-457c-8486-f754664f3087
-  port: 30112
-  server: hk2.moonbase.life
+  uuid: bfad812b-4f2b-4075-bd9a-9c9a6fb12511
+- name: 28,32,33,36|US_speednode_0162
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 54.46.75.237
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
   udp: true
+- name: 28,32,33,36|HK_speednode_0029
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.163.111.105
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇭🇰_香港_140
+  network: ws
+  port: 443
+  server: 103.74.192.178
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 28|🇭🇰_香港_163
+  network: ws
+  port: 443
+  server: 103.74.192.228
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 28|🇭🇰_香港_280
+  network: ws
+  port: 443
+  server: 43.198.204.35
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_477
+  name: 28|🇭🇰_香港_428
+  network: ws
+  port: 443
+  server: 7timuei1uufoixbf.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 28|🇭🇰_香港_436
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -100,15 +190,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33,36|US_speednode_0162
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 54.46.75.237
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 32,33|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -127,3 +208,85 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: '0'
+  cipher: auto
+  name: 34|🇭🇰HK_6|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33410
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+  xudp: true
+- name: 34|🇭🇰HK_2|3.7MB/s
+  network: ws
+  port: 443
+  server: 103.74.192.228
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇭🇰HK_3|4.3MB/s
+  network: ws
+  port: 443
+  server: 43.198.204.35
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 34|🇭🇰HK_4|3.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 793
+  reality-opts:
+    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
+    short-id: bf92e87fff488bd3
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 34|🇭🇰HK_5|3.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 796
+  reality-opts:
+    public-key: TF0cpYzynl9KBdRfExFyNGoQn-l0XHmTkvRMgwf4VV8
+    short-id: e62d7339ead9eb13
+  server: hk03.ccdn3.work
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  xudp: true

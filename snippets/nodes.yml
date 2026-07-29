@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 24,32|🇭🇰 香港|@ripaojiedian
+  name: 24,28,32|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -440,58 +440,41 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 28|电报群：https://t.me/vvkj11
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20006
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_43
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20068
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 28|日期：07-28
+- name: 28|🇺🇸_美国_44
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20031
+  port: 20068
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|免费VPN：https://tt.vg/FJOE2Mm
+- name: 28|🇺🇸_美国_9
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20025
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: tw.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_7
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
+  port: 20004
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_8
+- name: 28,36|US_speednode_0140
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_27
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20048
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_28
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20006
+  port: 20066
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   tls: true
@@ -505,34 +488,100 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_30
+- name: 28|🇯🇵_日本_23
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20068
-  server: oplosgru-c.catcat321.com
+  port: 9450
+  server: rr2.tube-cat.com
   skip-cert-verify: true
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_31
+- name: 28|🇺🇸_美国_24
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20025
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_40
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28,36|CN_speednode_0008
+- name: 28|🇺🇸_美国_80
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
+  port: 20056
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_197
+- name: 28,34,36|CN_speednode_0009
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20048
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,34|🇩🇪DE_1|2.4MB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_62
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
   server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_42
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_46
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|🇺🇸_美国_48
+  port: 24548
+  server: dsl081-033-205.lax1.dsl.speakeasy.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ed81c339-eca0-463a-c671-fce729a683b3
+- name: 28|🇺🇸_美国_95
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
@@ -547,50 +596,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,36|US_speednode_0165
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_53
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20031
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_60
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 28|🇫🇷_法国_63
-  port: 27343
-  server: 46.226.166.205
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
-- name: 28|🇺🇸_美国_77
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
 - name: 28,36|US_speednode_0145
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
@@ -600,15 +605,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_86
+- name: 28,36|CN_speednode_0008
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: oplosgru-c.catcat321.com
+  port: 9450
+  server: rr1.tube-cat.com
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_87
+- name: 28|🇺🇸_美国_70
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -616,858 +621,160 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_88
+- name: 28|🇯🇵_日本_79
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🏳️_未知_87
+  password: HW85960347
+  port: 443
+  server: pretty-clam.rooster465.autos
+  skip-cert-verify: true
+  sni: pretty-clam.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,36|US_speednode_0165
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
+- name: 28,32,33,36|US_speednode_0162
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 54.46.75.237
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,32,33,36|HK_speednode_0029
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.163.111.105
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_167
-  port: 800
-  server: 47.86.167.194
+  name: 28|🇩🇪_德国_137
+  network: ws
+  port: 443
+  server: jeffptrade.com
+  servername: jeffptrade.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
+  ws-opts:
+    headers:
+      Host: jeffptrade.com
+    path: /odixvws
+- name: 28|🏳️_未知_290
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- name: 28|🏳️_未知_291
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- alterId: 0
+  cipher: auto
+  name: 28|🇲🇽_墨西哥_292
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 28|🇷🇺_俄罗斯_398
+  password: '521314'
+  port: 443
+  server: 45.142.120.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🇬🇧_英国_399
+  password: '521314'
+  port: 443
+  server: 164.38.155.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 28|🏳️_未知_420
+  password: a27cdec6-ade8-4152-b080-496fe7cc61b4
+  port: 443
+  server: cfn-aq7.pages.dev
+  skip-cert-verify: true
+  sni: cfn-aq7.pages.dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cfn-aq7.pages.dev
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 28|🇺🇸_美国_173
+  name: 28|🇭🇰_香港_428
+  network: ws
   port: 443
-  server: guanwang.awsno.com
+  server: 7timuei1uufoixbf.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 28|🇯🇵_日本_174
-  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
-  port: 443
-  server: 154.31.114.10
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_176
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253068841.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_177
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2053
-  server: 1.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17850253062323.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_178
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253065915.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_179
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253064037.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_180
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2087
-  server: 1.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17850253065910.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_181
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253063778.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_182
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253069373.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_183
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253065064.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_184
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253067499.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_185
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253066001.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_186
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253067510.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_187
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253063610.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_188
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253061618.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_189
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253065660.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_190
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17850253061644.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_191
-  password: 24665064-6c6b-46c9-8c43-cc437aa80219
-  port: 2096
-  server: 1.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17850253064401.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇭🇰_香港_192
-  password: 20ddf7dc-26ba-457c-8486-f754664f3087
-  port: 30112
-  server: hk2.moonbase.life
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_195
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_205
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016059831.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers:
-      Host: 17852016051247.206353.xyz
-    path: /agrbniuh
-- name: 28|🏳️_未知_206
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016054557.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016055119.168381.xyz
-    path: /tianboephth
-- name: 28|🏳️_未知_207
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016054409.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016059027.206353.xyz
-    path: /agrbniuh
-- name: 28|🏳️_未知_209
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016051024.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016054080.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_211
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016058610.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016055975.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_212
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016059303.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016051710.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_213
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016051098.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016055084.206356.xyz
-    path: /dmusicmuaawe
-- name: 28|🏳️_未知_214
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016053088.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016052836.206356.xyz
-    path: /dmusicmuaawe
-- name: 28|🏳️_未知_217
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016056996.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016053598.206355.xyz
-    path: /videomuaawe
-- name: 28|🏳️_未知_220
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016053557.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016056386.168381.xyz
-    path: /tianboephth
-- name: 28|🏳️_未知_221
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016052710.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016054494.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_222
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016055646.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016051683.206355.xyz
-    path: /videomuaawe
-- name: 28|🏳️_未知_225
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016055613.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016052806.206352.xyz
-    path: /agraeabtegrrh
-- name: 28|🏳️_未知_229
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: 28|🏳️_未知_234
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016055226.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016057106.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_235
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016053141.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016057733.206352.xyz
-    path: /agraeabtegrrh
-- name: 28|🏳️_未知_237
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016056811.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016052190.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_238
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016059913.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016058233.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_239
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016052273.682637.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016051753.682637.xyz
-    path: /ahyrtuyjykl
-- name: 28|🏳️_未知_251
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: //assignment
-- name: 28|🏳️_未知_262
-  password: 75e0b93e-efbe-4df3-a1b0-3ab45654d55f
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17852016057794.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17852016054158.206352.xyz
-    path: /agraeabtegrrh
-- name: 28|🇷🇺_俄罗斯_265
-  password: '521314'
-  port: 443
-  server: 185.148.106.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_266
-  password: '521314'
-  port: 443
-  server: 91.193.58.173
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇸🇨_塞舌尔_267
-  password: '521314'
-  port: 443
-  server: 154.194.12.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇷🇺_俄罗斯_268
-  password: '521314'
-  port: 443
-  server: 45.8.211.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇱🇹_立陶宛_269
-  password: '521314'
-  port: 443
-  server: 88.216.66.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇮🇲_马恩岛_270
-  password: '521314'
-  port: 443
-  server: 185.162.229.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇦🇪_阿拉伯联合酋长国_271
-  password: '521314'
-  port: 443
-  server: 181.214.1.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_272
-  password: '521314'
-  port: 443
-  server: 104.129.167.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_273
-  password: '521314'
-  port: 443
-  server: 167.68.4.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇦🇪_阿拉伯联合酋长国_274
-  password: '521314'
-  port: 443
-  server: 94.140.0.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇯🇴_约旦_275
-  password: '521314'
-  port: 443
-  server: 62.72.166.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇳🇱_荷兰_276
-  password: '521314'
-  port: 443
-  server: 5.10.245.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇸🇨_塞舌尔_277
-  password: '521314'
-  port: 443
-  server: 45.192.223.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇷🇺_俄罗斯_278
-  password: '521314'
-  port: 443
-  server: 185.148.107.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇱🇺_卢森堡_279
-  password: '521314'
-  port: 443
-  server: 188.42.88.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇨🇾_塞浦路斯_280
-  password: '521314'
-  port: 443
-  server: 195.85.59.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇷🇺_俄罗斯_281
-  password: '521314'
-  port: 443
-  server: 176.124.223.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇸🇮_斯洛文尼亚_282
-  password: '521314'
-  port: 443
-  server: 92.53.188.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇧🇿_伯利兹_283
-  password: '521314'
-  port: 443
-  server: 45.135.235.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇱🇺_卢森堡_284
-  password: '521314'
-  port: 443
-  server: 188.42.89.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_285
-  password: '521314'
-  port: 443
-  server: 170.114.45.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_286
-  password: '521314'
-  port: 443
-  server: 216.205.52.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇺🇸_美国_287
-  password: '521314'
-  port: 443
-  server: 166.62.110.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇦🇪_阿拉伯联合酋长国_288
-  password: '521314'
-  port: 443
-  server: 185.225.195.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_289
-  password: '521314'
-  port: 443
-  server: 91.193.58.237
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_290
-  password: '521314'
-  port: 443
-  server: 91.193.58.209
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_291
-  password: '521314'
-  port: 443
-  server: 91.193.58.111
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_292
-  password: '521314'
-  port: 443
-  server: 91.193.58.67
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: 28|🇬🇧_英国_293
-  password: '521314'
-  port: 443
-  server: 91.193.58.80
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 28|🇭🇰_香港_477
+  name: 28|🇭🇰_香港_436
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -1490,15 +797,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33,36|US_speednode_0162
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 54.46.75.237
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: 32,33|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1515,15 +813,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33,36|HK_speednode_0029
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.163.111.105
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - name: 32,33|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -1556,7 +845,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33,36|US_speednode_0163
+- name: 32,33,34,36|US_speednode_0163
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -1591,7 +880,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 36|CN_speednode_0005
+- name: 34,36|CN_speednode_0005
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -1599,7 +889,26 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 36|CN_speednode_0007
+- alterId: '0'
+  cipher: auto
+  name: 34|🇭🇰HK_6|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 33410
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+  xudp: true
+- name: 34,36|CN_speednode_0007
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -1607,12 +916,13 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: 36|CN_speednode_0009
+- name: 34|🇺🇦UA_4|2.6MB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
-  server: hkdcrtc-e.catcat321.com
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: oplosgru-c.catcat321.com
   type: trojan
   udp: true
 - name: 36|US_speednode_0134
@@ -1641,10 +951,3 @@ proxies:
     headers:
       Host: mehrosaboran---mehrosaboran-7.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- name: 36|US_speednode_0140
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
