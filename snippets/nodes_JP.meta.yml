@@ -25,21 +25,7 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|日期：07-29
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: site.top-connect.online
-  servername: site.top-connect.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- name: 28|🇯🇵_日本_23
+- name: 28|🇯🇵_日本_84
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -48,15 +34,33 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_67
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
+- name: 28|🇯🇵_日本_38
+  password: NQ26071394
+  port: 443
+  server: correct-starfish.rooster465.autos
+  skip-cert-verify: true
+  sni: correct-starfish.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_40
+  password: NQ26071394
+  port: 443
+  server: thankful-piranha.rooster465.autos
+  skip-cert-verify: true
+  sni: thankful-piranha.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_47
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: 154.31.114.10
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_79
+- name: 28|🇯🇵_日本_76
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -64,34 +68,27 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 28|🇯🇵_日本_98
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
 - name: 28|🇯🇵_日本_142
-  network: ws
-  port: 443
-  server: 140.235.37.114
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
   skip-cert-verify: true
+  sni: 185.220.238.77
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 28|🇯🇵_日本_225
-  network: ws
-  port: 443
-  server: 64.176.36.17
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: 185.220.238.77
+    path: /api
 - name: 32,33,36|US_speednode_0115
   network: tcp
   password: BxceQaOe
