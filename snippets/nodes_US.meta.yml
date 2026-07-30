@@ -811,7 +811,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_111
+- client-fingerprint: chrome
+  name: 28,34|🇩🇪DE_1|2.0MB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -1176,6 +1178,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 34|🇺🇸US_1|2.8MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - name: 36|US_speednode_0114
   network: ws
   port: 80
