@@ -92,21 +92,7 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 32|🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 45691
-  server: 18.163.208.174
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 32|🇯🇵 日本3|@ripaojiedian
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 4099
-  server: 18.167.12.183
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 33|日本|@ripaojiedian
+- name: 32,33,36|US_speednode_0115
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -114,17 +100,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 33|日本2|@ripaojiedian
+  udp: true
+- name: 32,33,36|HK_speednode_0012
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 43.199.32.78
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 33|日本3|@ripaojiedian
+  udp: true
+- name: 32,33,36|JP_speednode_0015
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 18.181.205.36
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
