@@ -141,13 +141,13 @@ proxies:
   type: vless
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
-- name: 26,27|@KAFING_2
+- name: '26,27|کانال را : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -278,7 +278,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 28,34|🇫🇮FI_2|3.1MB/s
+  name: 28|🇩🇪_德国_108
   network: ws
   port: 2053
   server: 57.129.47.15
@@ -467,98 +467,3 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 34|🇩🇪DE_1|3.0MB/s
-  network: xhttp
-  port: 2087
-  server: v2.gafe-rezvan.ir
-  servername: sdcards.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee25c4ce-2071-4ffd-a541-4e2615118d32
-  xhttp-opts:
-    host: sdcards.ir
-    mode: auto
-    path: /
-- name: 34|🇩🇪DE_2|2.1MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 34|🇩🇪DE_3|1.6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 34|🇩🇪DE_4|2.1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.38.119
-  servername: argentinavsspain.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: argentinavsspain.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 34|🇩🇪DE_5|2.7MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 34|🇩🇪DE_6|2.1MB/s
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇩🇪DE_7|2.6MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.114.133
-  type: ss
-  udp: true

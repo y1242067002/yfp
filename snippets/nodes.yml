@@ -497,8 +497,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,34|🇺🇦UA_2|2.5MB/s
-  network: tcp
+- name: 28|🇺🇸_美国_24
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: hkdcrtc-e.catcat321.com
@@ -646,8 +645,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33|香港4|@ripaojiedian
-  network: tcp
+- name: 28,32|🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 27161
   server: 54.46.75.237
@@ -656,8 +654,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33|日本2|@ripaojiedian
-  network: tcp
+- name: 28,32|🇯🇵 日本2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 18.163.111.105
@@ -788,80 +785,70 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: 32,33|香港3|@ripaojiedian
-  network: tcp
+- name: 32|🇭🇰 香港3|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
   server: 16.162.55.106
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|香港5|@ripaojiedian
-  network: tcp
+- name: 32|🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 11035
   server: 16.162.34.239
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 32,33|日本|@ripaojiedian
-  network: tcp
+- name: 32|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 45691
   server: 18.163.208.174
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
-  network: tcp
+- name: 32|🇯🇵 日本3|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 4099
   server: 18.167.12.183
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|新加坡|@ripaojiedian
-  network: tcp
+- name: 32|🇸🇬 新加坡|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 16.162.55.106
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|新加坡2|@ripaojiedian
-  network: tcp
+- name: 32|🇸🇬 新加坡2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 57.183.19.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|新加坡3|@ripaojiedian
-  network: tcp
+- name: 32|🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 45744
   server: 18.166.236.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|美国|@ripaojiedian
-  network: tcp
+- name: 32|🇺🇸 美国|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
   server: 54.46.50.201
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|美国2|@ripaojiedian
-  network: tcp
+- name: 32|🇺🇸 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 57.183.19.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|美国3|@ripaojiedian
-  network: tcp
+- name: 32|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 38961
   server: 18.166.236.71
@@ -878,68 +865,94 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34|🇩🇪DE_2|2.1MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
+- name: 33|香港3|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 13118
+  server: 43.199.32.78
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- alterId: 2
-  cipher: auto
-  name: 34|🇺🇸US_5|2.1MB/s
+- name: 33|香港4|@ripaojiedian
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.122.92
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34,36|US_speednode_0085
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33|香港5|@ripaojiedian
   network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 54.46.46.228
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 33|日本2|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 43.199.32.78
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|日本3|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.181.205.36
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|新加坡|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 43.199.32.78
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|新加坡2|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 48738
+  server: 43.199.32.78
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 32434
+  server: 43.198.12.180
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 33|美国2|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 18.181.205.36
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 15775
+  server: 54.46.46.228
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 36|US_speednode_0085
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: oplosgru-c.catcat321.com
   type: trojan
-  udp: true
-- name: 34|🇯🇵JP_1|1.6MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  type: trojan
-  udp: true
-- name: 34|🇩🇪DE_5|2.7MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇩🇪DE_7|2.6MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.114.133
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇳🇱NL_3|1.7MB/s
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 134.98.141.145
-  type: ss
   udp: true

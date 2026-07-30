@@ -24,28 +24,39 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 32,33|日本|@ripaojiedian
-  network: tcp
+- name: 32|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 45691
   server: 18.163.208.174
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
-  network: tcp
+- name: 32|🇯🇵 日本3|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 4099
   server: 18.167.12.183
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 34|🇯🇵JP_1|1.6MB/s
+- name: 33|日本|@ripaojiedian
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
+  password: BxceQaOe
+  port: 41421
+  server: 54.46.46.228
   skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
+- name: 33|日本2|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 43.199.32.78
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33|日本3|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.181.205.36
+  sni: www.nintendogames.net
+  type: trojan
