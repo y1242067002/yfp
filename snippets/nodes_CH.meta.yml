@@ -21,3 +21,46 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  name: 28|🇨🇭_瑞士_99
+  port: 443
+  reality-opts:
+    public-key: a28gKquRbugXlI13fv5HeiiZ2yTPrqtQfNFqcAiHE1I
+    short-id: 76f547961a8ca082
+  server: 138.124.60.95
+  servername: api.max.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+- client-fingerprint: chrome
+  name: 28|🇨🇭_瑞士_255
+  network: ws
+  port: 2053
+  server: 185.195.69.119
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 28|🇨🇭_瑞士_297
+  network: ws
+  port: 2053
+  server: 45.95.232.18
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /

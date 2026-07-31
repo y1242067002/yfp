@@ -172,7 +172,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 20,24,28|🇨🇳_中国_118
+  name: 20,24,28|🇨🇳_中国_152
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 24,28,32|🇭🇰 香港|@ripaojiedian
+  name: 24,32|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -438,53 +438,131 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 28|免费VPN：https://tt.vg/FJOE2Mm
-  password: VPNCUSTOMIZE
-  port: 443
-  server: 104.18.16.56
+- name: 28,36|HK_speednode_0015
+  password: BxceQaOe
+  port: 38961
+  server: 16.162.122.119
   skip-cert-verify: true
-  sni: ww.gameserver.de5.net
+  sni: t.me/ripaojiedian
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_73
+- name: 28,32,33,36|JP_speednode_0018
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_38
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_32
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_118
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: hkdcrtc-e.catcat321.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_26
+- name: 28|🇺🇸_美国_31
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_33
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_94
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_126
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_84
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_34
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28,34|🇩🇪DE_1|3.0MB/s
+- name: 28,32,33|日本3|@ripaojiedian
   network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,32,33,36|HK_speednode_0012
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.167.20.3
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_45
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,36|US_speednode_0204
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_48
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇺🇸_美国_154
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -493,139 +571,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🏳️_未知_36
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_37
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_38
-  password: NQ26071394
-  port: 443
-  server: correct-starfish.rooster465.autos
-  skip-cert-verify: true
-  sni: correct-starfish.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇦🇺_澳大利亚_39
-  password: XG59623478
-  port: 443
-  server: stirring-dane.rooster465.autos
-  skip-cert-verify: true
-  sni: stirring-dane.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_40
-  password: NQ26071394
-  port: 443
-  server: thankful-piranha.rooster465.autos
-  skip-cert-verify: true
-  sni: thankful-piranha.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇳🇱_荷兰_41
-  password: NQ26071394
-  port: 443
-  server: thorough-falcon.rooster465.autos
-  skip-cert-verify: true
-  sni: thorough-falcon.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_42
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20025
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_43
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇳🇱_荷兰_44
-  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
-  port: 32029
-  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
-  skip-cert-verify: true
-  sni: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇳🇱_荷兰_45
-  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
-  port: 32019
-  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
-  skip-cert-verify: true
-  sni: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🏳️_未知_46
-  password: MITIVPN
-  port: 2053
-  server: 104.17.147.22
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_47
-  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
-  port: 443
-  server: 154.31.114.10
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_48
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20023
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_114
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_50
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_112
+- name: 28|🇺🇸_美国_155
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20120
   server: oplosgru-c.catcat321.com
@@ -634,84 +580,18 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_60
+- name: 28|🇯🇵_日本_125
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_117
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
+  port: 9450
+  server: rr2.tube-cat.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_66
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_70
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_76
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_98
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_104
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_108
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇺🇸_美国_109
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20023
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇺🇸_美国_120
+  name: 28|🇺🇸_美国_151
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -719,183 +599,66 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 28|🏳️_未知_122
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 28|🏳️_未知_123
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
 - alterId: 0
   cipher: auto
-  name: 28|🇲🇾_马来西亚_126
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
+  name: 28|🇭🇰_香港_153
+  port: 800
+  server: 47.86.167.194
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 28|🏳️_未知_197
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 28|🇺🇸_美国_134
-  network: ws
-  port: 36822
-  server: sylva51.ceoiii.com
+  name: 28|🇮🇷_伊朗_156
+  port: 2078
+  server: tun1.wizardx1.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 28|🇯🇵_日本_142
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 185.220.238.77
-    path: /api
-- alterId: 0
-  cipher: auto
-  name: 28|🇭🇰_香港_146
-  network: ws
-  port: 443
-  server: 43.198.204.35
-  servername: cE0gedPXwOU6cqoN.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: cE0gedPXwOU6cqoN.v.3dns.vip
-    path: /ws-vmess
-- name: 28|🇺🇸_美国_155
+  uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+- name: 28|🏳️_未知_159
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 172.64.147.224
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.gossipglove.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.gossipglove.com
     path: /assignment
-- name: 28|🇺🇸_美国_158
+- name: 28|🏳️_未知_180
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 104.19.229.21
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: www.multiplydose.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 28|🇺🇸_美国_160
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+      Host: www.multiplydose.com
+    path: //assignment
+- name: 28|🇭🇰_香港_185
+  password: 20ddf7dc-26ba-457c-8486-f754664f3087
+  port: 30114
+  server: hk4.moonbase.life
   skip-cert-verify: true
-  sni: www.creationlong.org
+  sni: www.microsoft.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 28|🏳️_未知_194
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 28|🏳️_未知_196
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 28|🏳️_未知_198
-  password: humanity
-  port: 443
-  server: sourceforge.net
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 28|🏳️_未知_199
+      Host: www.microsoft.com
+    path: /home
+- name: 28|🏳️_未知_187
   password: humanity
   port: 443
   server: 104.19.229.21
@@ -908,20 +671,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: //assignment
-- name: 28|🏳️_未知_201
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 28|🏳️_未知_202
+- name: 28|🏳️_未知_189
   password: humanity
   port: 443
   server: 104.19.229.21
@@ -934,35 +684,35 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: /assignment
-- name: 28|🏳️_未知_203
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: //assignment
-- name: 28|🏳️_未知_204
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: //assignment
 - alterId: 0
   cipher: auto
-  name: 28|🇲🇽_墨西哥_205
+  name: 28|🇲🇾_马来西亚_190
+  network: ws
+  port: 36803
+  server: cindy52.ceoiii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 28|🏳️_未知_195
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 28|🇲🇽_墨西哥_203
   network: ws
   port: 36801
   server: cindy50.ceoiii.com
@@ -975,37 +725,13 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 28|🇭🇰_香港_213
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 28|🇭🇰_香港_215
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
 - cipher: aes-256-cfb
   name: 32|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
-- name: 32,33|香港3|@ripaojiedian
+- name: 32,33,36|HK_speednode_0010
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -1013,6 +739,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 32,33|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1037,30 +764,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 32,33|日本3|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 32,33|新加坡|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 32,33|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -1077,7 +780,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|美国|@ripaojiedian
+- name: 32,33,36|HK_speednode_0011
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -1085,7 +788,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|美国2|@ripaojiedian
+  udp: true
+- name: 32,33,36|HK_speednode_0014
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -1093,7 +797,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|美国3|@ripaojiedian
+  udp: true
+- name: 32,33,36|HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 38961
@@ -1101,6 +806,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 33|香港|@ripaojiedian

@@ -25,7 +25,57 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: 28|🇯🇵_日本_84
+- name: 28,32,33,36|JP_speednode_0018
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_38
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_32
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28,32,33|日本3|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇯🇵_日本_50
+  port: 10585
+  reality-opts:
+    public-key: lhoXl9e1t-WDwli-STyOSMXJv8ZSNVwU6uVqt1TbhAY
+    short-id: 6ba85179e30d4fc2
+  server: 191.223.220.115
+  servername: vuejs-jp.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0659abf6-b784-4421-be09-1eea5b703510
+- name: 28|🇯🇵_日本_125
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -34,61 +84,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_38
-  password: NQ26071394
-  port: 443
-  server: correct-starfish.rooster465.autos
-  skip-cert-verify: true
-  sni: correct-starfish.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_40
-  password: NQ26071394
-  port: 443
-  server: thankful-piranha.rooster465.autos
-  skip-cert-verify: true
-  sni: thankful-piranha.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_47
-  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
-  port: 443
-  server: 154.31.114.10
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_76
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_98
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇯🇵_日本_142
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 185.220.238.77
-    path: /api
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -96,20 +91,4 @@ proxies:
   server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 32,33|日本2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 32,33|日本3|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
