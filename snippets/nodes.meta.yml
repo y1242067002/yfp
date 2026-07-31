@@ -1955,6 +1955,14 @@ proxies:
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
+- name: '27|Germany '
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
 - name: 27|🇫🇮@V2rayng_Fast
   obfs: salamander
   obfs-password: w0tx1ju9iix6913p
@@ -2084,16 +2092,6 @@ proxies:
   sni: vhd.nth.gelzaro.ir
   tls: false
   type: hysteria2
-- name: 27|🇪 t.me.V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: EaDTeupk9I
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '27|France '
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -2161,16 +2159,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: 27|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: c8L7Asi4ur
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 27|🦄79@oneclickvpnkeys
   password: dongtaiwang.com
   port: 44356
@@ -2196,7 +2184,7 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪5
+- name: 27|🇪 Telegram= V2RayyNGvpn 🇩🇪5
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: im0McIgBXw
@@ -5048,6 +5036,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 34|GB_1|2.6MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa8.api3-max.ru
+  type: hysteria2
+  udp: true
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 34|TR_1|2.2MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga3.api3-max.ru
+  skip-cert-verify: true
+  sni: taga3.api3-max.ru
+  type: hysteria2
+  udp: true
+- name: 34|🇷KR_1|1.9MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - name: 36|DE_speednode_0004
   network: ws
   port: 8880
