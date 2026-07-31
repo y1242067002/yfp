@@ -75,10 +75,9 @@ proxies:
   type: vless
   udp: true
   uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
-- client-fingerprint: firefox
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28,34|🇧🇷BR_2|3.2MB/s
-  network: tcp
+  name: 28|🇷🇺_俄罗斯_86
   port: 443
   reality-opts:
     public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
@@ -116,12 +115,9 @@ proxies:
   type: vless
   udp: true
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 28,34|🇷BR_3|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 28|🇷🇺_俄罗斯_39
   port: 443
   reality-opts:
     public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
@@ -133,7 +129,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 28|🇷🇺_俄罗斯_85
@@ -149,7 +144,7 @@ proxies:
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 28,34,36|BR_speednode_0003
+  name: 28,36|BR_speednode_0003
   network: tcp
   port: 40443
   reality-opts:
@@ -363,41 +358,6 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: 34|🇷🇺RU_2|2.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  server: 88.218.44.4
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: chrome
-  encryption: none
-  name: 34|🇺RU_4|1.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-    short-id: ''
-  server: 88.218.44.4
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome

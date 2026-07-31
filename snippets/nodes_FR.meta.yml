@@ -415,3 +415,35 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
+- cipher: aes-128-gcm
+  name: 34|FR_1|2.1MB/s
+  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
+  port: 8443
+  server: Killian.athforce.ir
+  type: ss
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇷FR_2|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: f34818a561dfd1fe
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9b764b5-49cf-4400-9540-f56f7c09a87a
+  xudp: true
+- name: 34|🇫🇷FR_3|3.0MB/s
+  password: ''
+  port: 1088
+  server: 144.91.111.48
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''

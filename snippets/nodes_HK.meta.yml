@@ -189,7 +189,7 @@ proxies:
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 34|🇰HK_1|2.7MB/s
+  name: 34|🇰HK_1|3.1MB/s
   network: xhttp
   port: 443
   server: hk.denverpresents.top
@@ -202,26 +202,12 @@ proxies:
     host: hk.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: 34|🇰HK_2|1012KB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com
-  skip-cert-verify: true
-  sni: c17b5a81-tdups0-tf8z9r-1pr35.hk2.hyhuawei.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 36|HK_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.80
-  servername: storage.yandex.net
-  skip-cert-verify: false
+- name: 34|🇰HK_2|1.1MB/s
+  password: <password>
+  port: 8443
+  server: 61711f60-tdups0-tf8z9r-1pr35.hkt.cdnhuawei.com
+  sni: 61711f60-tdups0-tf8z9r-1pr35.hkt.cdnhuawei.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
