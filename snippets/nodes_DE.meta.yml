@@ -212,10 +212,14 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 28|🇩🇪_德国_7
+  encryption: none
+  name: 28,34|🇸🇪SE_1|3.2MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+    short-id: ''
   server: 170.168.99.3
   servername: cdn.steamstatic.com
   skip-cert-verify: true
@@ -223,6 +227,10 @@ proxies:
   type: vless
   udp: true
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: 28|🇩🇪_德国_96
   port: 53996
@@ -265,3 +273,16 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 34|🇩🇪DE_2|2.6MB/s
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
