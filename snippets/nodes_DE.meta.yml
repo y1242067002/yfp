@@ -222,15 +222,14 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  name: 28,36|GB_speednode_0009
-  network: tcp
+  name: 28|🇩🇪_德国_49
   port: 443
   reality-opts:
     public-key: agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA
     short-id: aefe467c7b22f190
   server: 31.76.249.31
   servername: cdn.shopify.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -414,7 +413,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: 28,36|DE_speednode_0006
+  name: 28|🇩🇪_德国_291
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -469,3 +468,17 @@ proxies:
   uuid: c19cbde1-4177-4dc5-9e2f-cbae45f5dbc1
   ws-opts:
     path: /free
+- name: 36|DE_speednode_0004
+  network: ws
+  port: 8880
+  server: 45.80.111.175
+  servername: cnd.poland.myfilecdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
+  ws-opts:
+    headers:
+      Host: cnd.poland.myfilecdn.com
+    path: /cdn/assets/stream
