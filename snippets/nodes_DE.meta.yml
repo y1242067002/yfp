@@ -151,26 +151,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 27| Telegram= V2RayyNGvpn 🇩🇪3
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: 1Tm8undefinedEG5fl
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪4
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: 4IGOAN2QIY
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
 - name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪7
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -179,16 +159,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 27|🇪 Telegram= V2RayyNGvpn 🇩🇪5
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: im0McIgBXw
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪6
@@ -218,29 +188,27 @@ proxies:
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 28,36|CZ_speednode_0007
-  network: tcp
+  name: 28|🇩🇪_德国_26
   port: 443
   reality-opts:
     public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
   server: de22.kubservice.icu
   servername: de22.kubservice.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28,36|DE_speednode_0010
-  network: tcp
+  name: 28|🇩🇪_德国_45
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: 3c9c5d01c6f824dd
   server: 109.163.239.208
   servername: cdn9-78.yahoo.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -261,8 +229,7 @@ proxies:
   uuid: 55f7d143-a594-4a91-b030-f227039f85ef
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 28,36|DE_speednode_0009
-  network: tcp
+  name: 28|🇩🇪_德国_67
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -315,17 +282,42 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 34|DE_1|2.0MB/s
-  network: tcp
-  port: 44003
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-direct
+  name: 34|DE_1|1.1MB/s
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
-    short-id: dbd745
-  server: ru.pool-b.netcenter-cdn.com
-  servername: pool-b.pools.netcenter-cdn.com
+    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
+    short-id: 5b9dc5fe4ad87cc2
+  server: 95.163.183.109
+  servername: hh.ru
   tls: true
   type: vless
   udp: true
-  uuid: ee2f3100-512d-4ef1-9c8b-5725244aa740
+  uuid: fb258f28-89a0-11f1-9ca5-1e6febe3e1df
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 34|🇩🇪DE_2|2.0MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  version: 5
+- name: 36|DE_speednode_0004
+  port: 443
+  server: secdn-105.nem-osh-rkp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6daae99a-82f8-4675-9069-a34a165b6c6b

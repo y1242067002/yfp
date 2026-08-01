@@ -46,7 +46,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,36|JP_speednode_0032
+- name: 28|🇯🇵_日本_14
   password: BxceQaOe
   port: 29443
   server: 35.76.126.253
@@ -119,7 +119,7 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- name: 32,33,36|JP_speednode_0029
+- name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -127,7 +127,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 32,33|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -144,11 +143,49 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 36|JP_speednode_0030
-  password: BxceQaOe
-  port: 9408
-  server: 35.76.126.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- client-fingerprint: chrome
+  name: 34|JP_1|1001KB/s
+  network: ws
+  port: 25535
+  server: 193.111.30.245
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- auth: 4861843a-3187-4885-83d9-2f69fed13fc9
+  name: 34|🇯🇵JP_2|2.9MB/s
+  password: 4861843a-3187-4885-83d9-2f69fed13fc9
+  port: 20005
+  server: hkt2.nekohub.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 34|🇯🇵JP_3|4.9MB/s
+  network: tcp
+  port: 46482
+  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: 34|🇯🇵JP_4|4.5MB/s
+  network: tcp
+  port: 21581
+  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  servername: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8

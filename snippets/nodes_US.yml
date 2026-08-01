@@ -289,7 +289,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33,36|HK_speednode_0023
+- name: 32,33|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -297,8 +297,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 34|🇸US_3|1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.81.132.97
+  type: ss
   udp: true
-- name: 36|US_speednode_0199
+- cipher: aes-256-cfb
+  name: 34|🇸US_4|1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.226.30.144
+  type: ss
+  udp: true
+- name: 36|US_speednode_0176
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   port: 2096
