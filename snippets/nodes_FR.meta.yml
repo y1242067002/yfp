@@ -116,40 +116,17 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 34|FR_1|1.0MB/s
+- client-fingerprint: chrome
+  name: 36|FR_speednode_0012
   network: tcp
-  port: 443
+  port: 5039
   reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: f34818a561dfd1fe
-  server: 45.192.2.51
-  servername: yandex.net
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: 2e8424a2696cb606
+  server: taoccqyacf7e.dop66.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 44a6901d-6675-41b1-9a80-ee3308699e1d
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 34|🇫FR_2|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.174.41
-  servername: pinalo.zenvorix.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
-  ws-opts:
-    headers:
-      Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /nova-geo-psiphon-fr
-  xudp: true
+  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
