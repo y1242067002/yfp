@@ -50,31 +50,13 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  name: 34|KR_1|1.6MB/s
-  network: ws
-  port: 11019
-  server: 211.104.99.209
-  servername: sni.ehb.cc.cd
+- name: 34|🇷KR_1|1.2MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 34|🇰🇷KR_2|2.6MB/s
-  network: ws
-  port: 12545
-  server: 211.220.53.131
-  servername: sni.ehb.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  username: test

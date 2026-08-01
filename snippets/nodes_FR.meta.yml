@@ -116,32 +116,36 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: firefox
-  encryption: none
-  name: 34|🇫FR_1|2.9MB/s
+- encryption: none
+  name: 34|FR_1|2.3MB/s
   network: tcp
   packet-encoding: xudp
-  port: 2026
-  reality-opts:
-    public-key: 484wYbkS2hs2WSdXmk2-bOeKZkdBbzdD7uZ1WmRIEj8
-    short-id: ca930e5d4a603c6a
-  server: frd.nomac.ir
-  servername: yahoo.com
-  tls: true
+  port: 22224
+  server: 15.224.64.110
   type: vless
   udp: true
-  uuid: a3477577-4b1e-4046-a121-d3268585c4c6
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
-- name: 34|🇫🇷FR_2|1.2MB/s
-  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+- name: 34|🇫FR_2|1.3MB/s
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
   port: 443
-  server: a57aec87-t9zts0-tiaexf-ufc0.fr.oshuawei.com
+  server: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
   skip-cert-verify: true
-  sni: a57aec87-t9zts0-tiaexf-ufc0.fr.oshuawei.com
+  sni: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- name: 34|🇷FR_3|1.0MB/s
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  port: 443
+  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
 - name: 36|FR_speednode_0005
   port: 22223
   server: 13.38.194.199
