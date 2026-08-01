@@ -116,6 +116,39 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 34,36|GB_speednode_0015
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: 5a8e1a04f3d92b67
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: firefox
+  name: 34|🇫🇷FR_2|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: love.ns.cloudflare.com
+  servername: oekja.megacitylab-nomt.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  ws-opts:
+    headers:
+      Host: oekja.megacitylab-nomt.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /carbon
+  xudp: true
 - client-fingerprint: chrome
   name: 36|FR_speednode_0012
   network: tcp

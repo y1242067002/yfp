@@ -1167,6 +1167,20 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- encryption: none
+  name: 34|🇸US_1|1010KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 6110
+  server: sibche.torexa.ir
+  type: vless
+  udp: true
+  uuid: eb3e31c5-d423-4bf1-b104-4f6d3fe94a8a
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /
+  xudp: true
 - name: 36|US_speednode_0175
   port: 9002
   server: 138.199.35.196
@@ -1194,12 +1208,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: 36|US_speednode_0179
-  port: 50161
-  server: 168.107.13.220
-  tls: false
-  type: socks5
   udp: true
 - name: 36|US_speednode_0181
   port: 9002
