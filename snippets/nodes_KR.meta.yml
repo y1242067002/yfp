@@ -51,10 +51,10 @@ proxies:
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - client-fingerprint: chrome
-  name: 34|KR_1|1.3MB/s
+  name: 34|KR_1|1.6MB/s
   network: ws
-  port: 19222
-  server: 220.79.9.247
+  port: 11019
+  server: 211.104.99.209
   servername: sni.ehb.cc.cd
   tls: true
   type: vless
@@ -64,9 +64,17 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 34,36|US_speednode_0150
-  port: 50161
-  server: 168.107.13.220
-  tls: false
-  type: socks5
+- client-fingerprint: chrome
+  name: 34|🇰🇷KR_2|2.6MB/s
+  network: ws
+  port: 12545
+  server: 211.220.53.131
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
   udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
