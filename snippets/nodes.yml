@@ -772,34 +772,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 34|SE_1|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
+- cipher: chacha20-ietf-poly1305
+  name: 34|🇱NL_4|1017KB/s
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 84.235.160.109
   type: ss
   udp: true
 - grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: 34|🇱PL_1|3.2MB/s
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 34|🇪DE_2|3.0MB/s
   network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
+  password: 32b2m2w7hsdd93z7
   port: 443
-  server: 31.76.251.127.cdn-one.org
+  server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  sni: 31.76.251.127.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: 34|FI_1|1.2MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 34|SG_1|4.1MB/s
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 161.118.224.85
+  type: ss
   udp: true
 - name: 36|US_speednode_0176
   network: ws

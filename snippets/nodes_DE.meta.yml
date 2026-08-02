@@ -282,35 +282,121 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 34|🇪DE_1|1.9MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
-  name: 34|🇪DE_2|1.3MB/s
-  network: xhttp
+  name: 34|DE_1|2.6MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  server: 185.126.93.17
-  servername: wx-deu-037.cdnphotos.org
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+  uuid: c6666ab2-c3e4-4504-bf2f-8b6672b00927
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 34|🇪DE_2|3.0MB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 34|🇩🇪DE_3|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-direct
+  name: 34|🇩🇪DE_4|2.8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: utgdPt7rKKTisRZC22NVMW6lBBu0DXrfJVJIJ8r8Xww
+    short-id: ed61ef32710cbde0
+  server: 147.45.157.113
+  servername: cam-msk-5.videomonitor.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a95bfac-2a72-11f1-92cb-12ba70109d32
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 34|🇪DE_5|2.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 442
+  server: 159.194.220.5
+  servername: ru-msk.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2d71d05-dd22-4bd0-bb02-1fceaccad963
   xhttp-opts:
-    host: wx-deu-037.cdnphotos.org
-    mode: auto
-    path: /api/v1/
+    host: ru-msk.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 34|🇩🇪DE_6|1.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
+    short-id: 530db35e324c3aa5
+  server: 152.236.3.10
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api.v1.telemetry.EventStream
+  name: 34|🇩🇪DE_7|3.2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
+    short-id: 530db35e324c3aa5
+  server: 152.236.3.20
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
   xudp: true
 - name: 36|DE_speednode_0004
   port: 443
