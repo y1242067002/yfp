@@ -12,7 +12,7 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  name: 28|🇰🇷_韩国_134
+  name: 28,34|🇷KR_2|1.8MB/s
   network: ws
   port: 443
   server: 211.49.57.179
@@ -42,7 +42,7 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: chrome
-  name: 28|🇰🇷_韩国_138
+  name: 28,34|🇰🇷KR_3|1.3MB/s
   network: ws
   port: 28973
   server: 218.155.85.44
@@ -131,3 +131,62 @@ proxies:
     headers:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
+- name: 34|🇷KR_1|1.1MB/s
+  port: 50161
+  server: 168.107.13.220
+  tls: false
+  type: socks5
+  udp: true
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 34|🇷KR_4|4.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
+- client-fingerprint: chrome
+  name: 36|KR_speednode_0069
+  network: ws
+  port: 443
+  server: 211.49.57.179
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- name: 36|KR_speednode_0070
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- client-fingerprint: chrome
+  name: 36|KR_speednode_0071
+  network: ws
+  port: 28973
+  server: 218.155.85.44
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
