@@ -165,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33,34,36|HK_speednode_0051
+- name: 32,33,36|HK_speednode_0051
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -192,16 +192,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 34|🇰HK_3|3.5MB/s
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇰HK_1|4.8MB/s
   network: tcp
-  password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  packet-encoding: xudp
+  port: 62465
+  reality-opts:
+    public-key: 8PNGcHyjiOUwhr_f9jsIGlDQ4Z3jOL1Zk6lS3gjrgEs
+    short-id: c8ee2434
+  server: 52.192.136.69
+  servername: 16personalities.wwwnav.com
+  tls: true
+  type: vless
   udp: true
+  uuid: d9c33eaf-a175-4902-b892-93ea6fdf2c99
+  xudp: true
 - name: 36|HK_speednode_0050
   password: BxceQaOe
   port: 29443
@@ -221,6 +228,21 @@ proxies:
   server: 45.196.201.236
   servername: storage.yandex.net
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 36|HK_speednode_0054
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  server: 45.196.201.80
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
