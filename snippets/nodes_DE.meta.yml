@@ -153,7 +153,7 @@ proxies:
   type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 27,34|🇪DE_4|3.7MB/s
+  name: 27,34|🇩🇪DE_3|2.8MB/s
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HChdbj6duc
@@ -165,9 +165,7 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- down: ''
-  fingerprint: ''
-  name: 27,34|🇩🇪DE_5|3.4MB/s
+- name: 27|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪7
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: hSKnm6Byp7
@@ -177,8 +175,16 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
+- name: '27|🇩🇪 t-me-V2RayyNGvpn '
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: jeLq05gFPe
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 28,36|FR_speednode_0026
@@ -417,38 +423,11 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - best.athforce.ir
-    path:
-    - /
-  name: 34|DE_1|1.2MB/s
-  network: http
-  packet-encoding: xudp
-  port: 2214
-  server: best.athforce.ir
-  type: vless
-  udp: true
-  uuid: 0671a383-81d9-40d4-84f4-0e44ff30c2ca
-  xudp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: 34,36|GB_speednode_0034
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 34,36|GB_speednode_0035
-  network: grpc
-  password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
