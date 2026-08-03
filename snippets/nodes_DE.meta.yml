@@ -246,16 +246,115 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
-- name: 34|DE_1|3.2MB/s
+- name: 34|DE_1|2.8MB/s
   network: ws
-  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 172.67.78.22
+  server: 104.25.242.132
   skip-cert-verify: true
-  sni: kamonka.eu.org
+  sni: yks-dd9.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kamonka.eu.org
+      Host: yks-dd9.pages.dev
     path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 34|🇩🇪DE_2|1.8MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 34|🇪DE_3|3.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: false
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 34|🇩🇪DE_4|2.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: 3303c7a5
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇪DE_5|2.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 6443
+  reality-opts:
+    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
+    short-id: 41444f03bd84a905
+  server: 144.31.218.26
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇩🇪DE_6|1.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 6443
+  reality-opts:
+    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
+    short-id: 81e89aa47ec96f1c
+  server: 144.31.219.151
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇪DE_7|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: f55c53dfd45cfc6d
+  server: kakaG.tempfast.ir
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+  xudp: true
