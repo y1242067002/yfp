@@ -1,15 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 28|日期：08-02
-  port: 1233
-  server: 143.110.145.0
-  servername: p05.rghvf.sbs
+- name: 28|🇯🇵_日本_112
+  password: JT80563429
+  port: 443
+  server: champion-alien.rooster465.autos
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+- name: 28|🇯🇵_日本_113
+  password: JT80563429
+  port: 443
+  server: smart-pup.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 28|🇯🇵_日本_114
+  password: JT80563429
+  port: 443
+  server: champion-alien.rooster465.autos
+  skip-cert-verify: true
+  sni: champion-alien.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
