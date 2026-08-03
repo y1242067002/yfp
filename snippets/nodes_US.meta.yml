@@ -1237,98 +1237,175 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 34|US_1|1.4MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: /
-- name: 34|🇺🇸US_2|4.1MB/s
-  network: ws
-  port: 57878
-  server: 38.246.226.240
+- alterId: 2
+  cipher: auto
+  name: 34|🇸US_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
-  ws-opts:
-    path: /535f0e03
-- name: 34,36|US_speednode_0092
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 34|🇺🇸US_2|3.4MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
   udp: true
-- name: 34|🇺🇸US_4|1.5MB/s
+  username: dongtaiwang.com
+- name: 34|🇸US_3|3.0MB/s
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇺🇸US_5|2.5MB/s
+- name: 34|🇸US_4|4.4MB/s
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇺🇸US_6|1.1MB/s
+- name: 34|🇺🇸US_5|2.3MB/s
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇺🇸US_7|3.0MB/s
+- name: 34|🇺🇸US_6|1.0MB/s
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇸US_8|1.3MB/s
+- name: 34|🇸US_7|1.7MB/s
   port: 9002
-  server: 138.199.35.197
+  server: 156.146.59.19
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇸US_9|1.4MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 34|🇸US_8|1.9MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.16.6.189
+  skip-cert-verify: true
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  encryption: none
+  name: 34|🇸US_9|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: ''
+  server: 2.26.79.32
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 34|🇸US_10|3.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 48000
+  reality-opts:
+    public-key: PoUfJmVVX55emqbNeJhwVu0lnljFGpZU56SqsY1PuQU
+    short-id: 748834c8dcf42d0e
+  server: 144.225.65.214
+  servername: stg-ru-images.shop.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: media.v2.RelayService
+  name: 34|🇸US_11|1.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Jxwj8rNcJnXop1Xk9Ydst_wFPJsQOtZ74g50saIgokU
+    short-id: a5668d2759baa4ac
+  server: us.differentok.com
+  servername: us.differentok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb1c3a3c-c828-404d-bf98-b878c5435600
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 34|🇺🇸US_12|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 2.26.78.151
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c0a91de-5250-0032-9922-f3594d99f096
+  xudp: true
+- name: 34|🇺🇸US_13|2.5MB/s
+  password: 'null'
   port: 9002
-  server: 156.146.59.39
+  server: 156.146.59.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇸US_10|1.9MB/s
+  username: 'null'
+- name: 34|🇺🇸US_14|2.1MB/s
+  password: 'null'
   port: 9002
-  server: 156.146.59.7
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 34|🇺🇸US_11|1.8MB/s
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-  udp: true
-- name: 34|🇺🇸US_12|2.8MB/s
+  username: 'null'
+- name: 34|🇸US_15|2.6MB/s
+  password: ''
   port: 9002
-  server: 138.199.35.211
+  server: 156.146.59.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+  username: ''
 - name: 36|US_speednode_0086
   port: 9002
   server: 138.199.35.218
@@ -1347,6 +1424,14 @@ proxies:
 - name: 36|US_speednode_0089
   port: 9002
   server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 36|US_speednode_0092
+  password: None
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http

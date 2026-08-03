@@ -883,7 +883,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 34|DE_1|2.8MB/s
+- name: 34|🇩🇪DE_2|1.2MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -896,26 +896,18 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 34|Other_1|3.3MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 34|MY_1|4.5MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40006
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- name: 34|US_1|1.4MB/s
+- name: 34|SG_1|1.3MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 162.159.82.246
+  server: 172.64.146.75
   skip-cert-verify: true
   sni: yks-dd9.pages.dev
   type: trojan
@@ -924,68 +916,51 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- alpn:
-  - http/1.1
-  name: 34|🇪DE_3|3.0MB/s
+- name: 34|🇸🇬SG_2|2.5MB/s
   network: ws
-  password: MiTiVPN
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.26.2.173
-  skip-cert-verify: false
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  server: 162.159.24.245
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 34|🇵JP_9|3.1MB/s
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 34|🇯🇵JP_3|2.3MB/s
   network: tcp
   password: ND91608427
   port: 443
-  server: picked-guinea.rooster465.autos
+  server: stunning-mite.rooster465.autos
   skip-cert-verify: true
-  sni: picked-guinea.rooster465.autos
+  sni: stunning-mite.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇯🇵JP_2|1.9MB/s
+- alterId: 2
+  cipher: auto
+  name: 34|🇸US_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 34|🇬SG_3|1.1MB/s
   network: tcp
   password: ND91608427
   port: 443
-  server: right-seahorse.rooster465.autos
+  server: sacred-treefrog.rooster465.autos
   skip-cert-verify: true
-  sni: right-seahorse.rooster465.autos
+  sni: sacred-treefrog.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇯🇵JP_3|5.9MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: smart-pup.rooster465.autos
-  skip-cert-verify: true
-  sni: smart-pup.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_10|2.8MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: sensible-mongrel.rooster465.autos
-  skip-cert-verify: true
-  sni: sensible-mongrel.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_5|5.4MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: thankful-mustang.rooster465.autos
-  skip-cert-verify: true
-  sni: thankful-mustang.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_6|1.2MB/s
+- name: 34|🇯🇵JP_2|2.7MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -994,95 +969,41 @@ proxies:
   sni: becoming-hare.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇯🇵JP_7|2.9MB/s
+- name: 34|🇺LU_1|2.6MB/s
   network: tcp
   password: ND91608427
   port: 443
-  server: internal-sunbird.rooster465.autos
+  server: discrete-basilisk.rooster465.autos
   skip-cert-verify: true
-  sni: internal-sunbird.rooster465.autos
+  sni: discrete-basilisk.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇯🇵JP_8|3.4MB/s
+- alpn:
+  - http/1.1
+  name: 34|🇸US_8|1.9MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.16.6.189
+  skip-cert-verify: true
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 34|🇯🇵JP_5|3.5MB/s
   network: tcp
   password: ND91608427
   port: 443
-  server: immense-gnu.rooster465.autos
-  skip-cert-verify: true
+  server: 13.192.236.67
+  skip-cert-verify: false
   sni: immense-gnu.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇷KR_1|1.5MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  skip-cert-verify: true
-  sni: communal-sunbird.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇰🇷KR_2|2.9MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: select-ferret.rooster465.autos
-  skip-cert-verify: true
-  sni: select-ferret.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|UA_1|3.4MB/s
-  network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇺AU_1|3.4MB/s
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40045
-  server: xunlinknode.csdjhajkshdjkas.com
-  type: ss
-  udp: true
-- name: 34|🇯🇵JP_11|3.5MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: nearby-egret.rooster465.autos
-  skip-cert-verify: true
-  sni: nearby-egret.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇷KR_3|2.1MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  skip-cert-verify: true
-  sni: distinct-llama.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_12|1.6MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 18.179.31.199
-  skip-cert-verify: false
-  sni: prompt-duckling.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_13|2.1MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 18.182.4.232
-  skip-cert-verify: false
-  sni: becoming-hare.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇰🇷KR_4|5.4MB/s
+- name: 34|🇷KR_1|1.6MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -1091,52 +1012,7 @@ proxies:
   sni: uncommon-feline.rooster465.autos
   type: trojan
   udp: true
-- name: 34|🇰🇷KR_5|1.1MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 43.203.244.203
-  skip-cert-verify: false
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_14|1013KB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 43.207.140.98
-  skip-cert-verify: false
-  sni: right-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_15|1.1MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 43.207.155.134
-  skip-cert-verify: false
-  sni: smart-pup.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_16|1.8MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 54.65.167.167
-  skip-cert-verify: false
-  sni: tough-robin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇯🇵JP_17|5.9MB/s
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 57.180.13.78
-  skip-cert-verify: false
-  sni: healthy-louse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 34|🇷FR_4|2.6MB/s
+- name: 34|🇷FR_3|3.3MB/s
   network: raw
   password: QV31589740
   port: 443
@@ -1144,13 +1020,6 @@ proxies:
   skip-cert-verify: false
   sni: great-krill.rooster465.autos
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇧GB_2|1.4MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.231.192
-  type: ss
   udp: true
 - name: 36|HK_speednode_0007
   password: BxceQaOe

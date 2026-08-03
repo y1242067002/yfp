@@ -1,5 +1,5 @@
 proxies:
-- name: 34|DE_1|2.8MB/s
+- name: 34|🇩🇪DE_2|1.2MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -12,20 +12,3 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 34|🇪DE_3|3.0MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: false
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN

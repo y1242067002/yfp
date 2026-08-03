@@ -274,25 +274,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 34|HK_1|3.3MB/s
-  network: tcp
-  port: 56444
-  reality-opts:
-    public-key: DR17bSi5Ekgozz98Fvjw9avipgrOxHUxeoFEpUjDhXE
-    short-id: a1371e3f
-  server: 3.112.61.18
-  servername: 16personalities.wwwnav.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15e5476b-12f3-42a7-9c70-a1400e83f4ef
-- name: 34|🇰HK_2|1.3MB/s
-  port: 10800
-  server: 47.75.116.41
+- name: 34|🇰HK_1|2.6MB/s
+  password: '!!str 2222'
+  port: 2222
+  server: 43.100.106.218
+  skip-cert-verify: true
   type: socks5
   udp: true
+  username: '2222'
 - name: 36|HK_speednode_0007
   password: BxceQaOe
   port: 9149

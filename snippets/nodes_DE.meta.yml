@@ -258,7 +258,19 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
-- name: 34|DE_1|2.8MB/s
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 34|DE_1|1.3MB/s
+  network: tcp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- name: 34|🇩🇪DE_2|1.2MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
@@ -272,101 +284,49 @@ proxies:
       Host: yks-dd9.pages.dev
     path: /
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 34|🇩🇪DE_2|1.8MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 34|🇪DE_3|3.0MB/s
-  network: ws
-  password: MiTiVPN
+  - h2
+  client-fingerprint: firefox
+  name: 34,36|AE_speednode_0003
+  network: tcp
   port: 443
-  server: 104.26.2.173
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
   skip-cert-verify: false
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- alpn:
+  - h3
+  disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 34|🇪DE_4|3.9MB/s
+  obfs: salamander
+  obfs-password: 4693t4m6i5ebs8ha
+  password: dac7qy87teimbiq4
+  port: 8443
+  server: v.dianawmoon.dpdns.org
+  skip-cert-verify: false
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
 - client-fingerprint: safari
   encryption: none
   grpc-opts:
-    grpc-service-name: grpc
-  name: 34|🇩🇪DE_4|2.4MB/s
+    grpc-service-name: neurex
+  name: 34|🇩🇪DE_5|3.9MB/s
   network: grpc
   packet-encoding: xudp
-  port: 443
+  port: 16923
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  server: usd.kosmosapp.ru
+  servername: market.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇪DE_5|2.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 6443
-  reality-opts:
-    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
-    short-id: 41444f03bd84a905
-  server: 144.31.218.26
-  servername: ign.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 34|🇩🇪DE_6|1.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 6443
-  reality-opts:
-    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
-    short-id: 81e89aa47ec96f1c
-  server: 144.31.219.151
-  servername: ign.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 34|🇪DE_7|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33786
-  reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: f55c53dfd45cfc6d
-  server: kakaG.tempfast.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+  uuid: 28863986-75fb-4b2f-b006-65e62194358d
   xudp: true
