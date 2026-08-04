@@ -26,7 +26,7 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: 28,36|AE_speednode_0002
+  name: 28|🇦🇪_阿拉伯联合酋长国_77
   port: 443
   server: ddc-akn.astralweb.tech
   servername: ddc-akn.astralweb.tech
@@ -169,26 +169,33 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 34|🇯🇵JP_2|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
-  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 36|JP_speednode_0010
+  network: tcp
+  port: 10053
+  reality-opts:
+    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+    short-id: cbbf64
+  server: family.bucket.9.kfc-520.com
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 36|JP_speednode_0010
-  password: ND91608427
-  port: 443
-  server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
-  type: trojan
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 36|JP_speednode_0011
+  network: tcp
+  port: 10005
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: 1974efea3b2148
+  server: family.bucket.4.kfc-520.com
+  servername: www.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 36|JP_speednode_0011
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
