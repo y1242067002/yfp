@@ -61,16 +61,22 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 34|KR_1|2.7MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 34|KR_1|4.7MB/s
+  network: grpc
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
 - name: 36|KR_speednode_0012
   password: ND91608427
   port: 443
