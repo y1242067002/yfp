@@ -1,29 +1,30 @@
 proxies:
-- name: 28|🇯🇵_日本_112
-  password: JT80563429
-  port: 443
-  server: champion-alien.rooster465.autos
+- name: 28|🇯🇵_日本_94
+  password: '!!str 521314'
+  port: 8443
+  server: 138.3.212.160
   skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_113
-  password: JT80563429
-  port: 443
-  server: smart-pup.rooster465.autos
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 28|🇯🇵_日本_197
+  password: 20ddf7dc-26ba-457c-8486-f754664f3087
+  port: 30311
+  server: jp1.moonbase.life
   skip-cert-verify: true
+  sni: www.microsoft.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_114
-  password: JT80563429
-  port: 443
-  server: champion-alien.rooster465.autos
-  skip-cert-verify: true
-  sni: champion-alien.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -48,6 +49,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: 34|🇯🇵JP_17|4.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.164
+  type: ss
+  udp: true
 - name: 36|JP_speednode_0010
   password: ND91608427
   port: 443

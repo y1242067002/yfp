@@ -25,45 +25,126 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 28|日期：08-03
+- client-fingerprint: chrome
+  name: 28,36|AE_speednode_0002
   port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  server: 45.196.201.33
-  servername: storage.yandex.net
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- name: 28|🇯🇵_日本_112
-  password: JT80563429
-  port: 443
-  server: champion-alien.rooster465.autos
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇯🇵_日本_13
+  port: 32327
+  reality-opts:
+    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+    short-id: cf61f7f0
+  server: www.hjzhiliancafe.world
+  servername: www.bing.com
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇯🇵_日本_14
+  port: 443
+  reality-opts:
+    public-key: g6ymPalDlQLlPI4hnKY03T2cuQRhe2bk7aysdTpy1ys
+    short-id: cf61f7f0
+  server: www.hjzhiliancafe.world
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇯🇵_日本_16
+  port: 8443
+  reality-opts:
+    public-key: 6rwYiIkFeAvFmuAZv8ZclWjn5SmTU1ex4U4KTRRQ2DI
+    short-id: 12206db5fe8b1dd4
+  server: 45.202.254.53
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 28|🇯🇵_日本_18
+  port: 443
+  reality-opts:
+    public-key: kPWsR7ZqLC1gADJKZCEJYMUI3_wgWGcZYbLJvTvRMB4
+    short-id: d61bf3ec8054f8de
+  server: 45.202.254.53
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+- name: 28|🇯🇵_日本_94
+  password: '!!str 521314'
+  port: 8443
+  server: 138.3.212.160
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_113
-  password: JT80563429
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
+- name: 28|🇯🇵_日本_167
+  network: ws
   port: 443
-  server: smart-pup.rooster465.autos
+  server: 64.176.36.17
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 28|🇯🇵_日本_191
+  network: ws
+  port: 443
+  server: 118.156.166.251
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 28|🇯🇵_日本_197
+  password: 20ddf7dc-26ba-457c-8486-f754664f3087
+  port: 30311
+  server: jp1.moonbase.life
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇯🇵_日本_114
-  password: JT80563429
-  port: 443
-  server: champion-alien.rooster465.autos
-  skip-cert-verify: true
-  sni: champion-alien.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /home
 - name: 32,33|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -88,6 +169,253 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 34|🇯🇵JP_2|4.3MB/s
+  network: ws
+  port: 443
+  server: youxuan.cf.090227.xyz
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_3|5.4MB/s
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_4|4.7MB/s
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_5|4.5MB/s
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_6|5.2MB/s
+  network: ws
+  port: 443
+  server: 172.64.229.68
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_7|5.1MB/s
+  network: ws
+  port: 443
+  server: 162.159.39.47
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_8|5.3MB/s
+  network: ws
+  port: 443
+  server: 172.64.53.183
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_9|5.4MB/s
+  network: ws
+  port: 443
+  server: 162.159.39.64
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_10|4.5MB/s
+  network: ws
+  port: 443
+  server: 162.159.39.191
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_11|5.2MB/s
+  network: ws
+  port: 443
+  server: 172.64.52.53
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_12|3.3MB/s
+  network: ws
+  port: 443
+  server: 162.159.39.72
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_13|4.4MB/s
+  network: ws
+  port: 443
+  server: 108.162.198.73
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_14|1.8MB/s
+  network: ws
+  port: 443
+  server: 162.159.45.224
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_15|4.0MB/s
+  network: ws
+  port: 443
+  server: 108.162.198.200
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- name: 34|🇯🇵JP_16|2.0MB/s
+  network: ws
+  port: 443
+  server: 162.159.44.143
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  name: 34|🇯🇵JP_17|4.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.164
+  type: ss
+  udp: true
 - name: 36|JP_speednode_0010
   password: ND91608427
   port: 443

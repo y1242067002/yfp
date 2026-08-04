@@ -10,6 +10,19 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
+- name: 28|🇸🇬_新加坡_93
+  password: '!!str 521314'
+  port: 8443
+  server: 116.251.216.23
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
 - name: 32,33|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
