@@ -301,18 +301,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: chrome
-  name: 28,34|🇺UA_1|1.2MB/s
-  network: raw
+- name: 28|🇺🇸_美国_67
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 28|🇺🇸_美国_70
+- client-fingerprint: chrome
+  name: 28,34|🇺UA_1|3.6MB/s
+  network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -362,41 +362,8 @@ proxies:
 - name: 32,33|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 34|US_1|1.9MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
-  skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 34|🇺🇸US_14|2.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 23142
-  server: la.2555555.xyz
-  servername: la.2555555.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
-  ws-opts:
-    headers:
-      Host: la.2555555.xyz
-    path: /pfrq
-  xudp: true

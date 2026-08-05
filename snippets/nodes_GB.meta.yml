@@ -168,6 +168,45 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 34|GB_1|2.8MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 34|🇧GB_2|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: 31.76.123.45
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
+  xudp: true
+- client-fingerprint: firefox
+  name: 34|🇧GB_3|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
 - name: 36|GB_speednode_0005
   password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   port: 443
