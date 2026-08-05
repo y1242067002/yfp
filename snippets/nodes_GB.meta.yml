@@ -141,7 +141,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  name: 29|🇬🇧_英国_64
+  name: 29,35|GB_1|2.3MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -166,6 +167,30 @@ proxies:
     headers:
       Host: vms.lifetime08.workers.dev
     path: /?ed=2560
+- auth: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
+  name: 35|🇧GB_2|1.1MB/s
+  password: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
+  port: 443
+  server: imbaisk3.duckdns.org
+  skip-cert-verify: true
+  sni: imbaisk3.duckdns.org
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇧GB_3|3.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
+  xudp: true
 - name: 37|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
