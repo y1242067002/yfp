@@ -81,7 +81,14 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '27|🇬🇧英国 #1'
+- name: 27|🇬🇧英国
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '27|🇬🇧英国 #2'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa4.api3-max.ru
@@ -89,33 +96,26 @@ proxies:
   sni: wopa4.api3-max.ru
   tls: false
   type: hysteria2
-- name: '27|🇺俄罗斯 #1'
+- name: 27|🇺俄罗斯
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa5.api3-max.ru
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
-- name: '27|🇧英国 #1'
+- name: 27|🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa6.api3-max.ru
   sni: wopa6.api3-max.ru
   tls: false
   type: hysteria2
-- name: '27|🇧英国 #2'
+- name: '27|🇧英国 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa8.api3-max.ru
   skip-cert-verify: true
   sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '27|🇬🇧英国 #3'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa9.api3-max.ru
-  sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
 - name: '27|英国 #1'
