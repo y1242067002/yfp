@@ -70,62 +70,54 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 28|🇷🇺_俄罗斯_72
-  port: 443
+  name: 28|🇷🇺_俄罗斯_61
+  port: 33729
   reality-opts:
-    public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
-    short-id: 27e53bbcab7593d7
-  server: 62.152.56.243
-  servername: smartcaptcha.yandexcloud.net
+    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
+    short-id: 0bd4698a48
+  server: kino.memhd.store
+  servername: ymail.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
-- name: 28|🇷🇺_俄罗斯_232
+  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
+- name: 28|🇷🇺_俄罗斯_220
   network: ws
-  port: 443
-  server: 79.174.13.53
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  port: 4100
+  server: 104.171.132.185
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 112912a9-cedf-485d-b8ed-d8f8d4774437
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 34|RU_1|3.0MB/s
-  network: xhttp
-  port: 443
-  server: 159.194.238.114
-  servername: ru.node.sillyvpn.cc
-  tls: true
+      Host: live.ok.ru
+    path: /v1
+- name: 28|🇷🇺_俄罗斯_222
+  network: ws
+  port: 2200
+  server: 104.171.137.148
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  xhttp-opts:
-    host: ru.node.sillyvpn.cc
-    mode: packet-up
-    path: /api/burmalda.json
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 34|🇷🇺RU_2|1.4MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 7443
-  reality-opts:
-    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
-    short-id: 89136b6e
-  server: 193.233.74.57
-  servername: www.telekom.de
-  tls: true
+  uuid: a484645e-59df-4980-b649-92b71250ec60
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- name: 28|🇷🇺_俄罗斯_224
+  network: ws
+  port: 2200
+  server: 72.56.7.195
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
+  uuid: 31c2a8e8-0ab2-4f3f-8767-11f3a35d4228
+  ws-opts:
+    path: /v1

@@ -27,11 +27,26 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
-- name: 28|🇰🇷_韩国_150
+- client-fingerprint: chrome
+  name: 28|🇰🇷_韩国_90
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: /@Marisa_kristi
+- name: 28|🇰🇷_韩国_124
   network: ws
   port: 443
-  server: 211.49.57.178
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 211.49.57.175
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -39,33 +54,21 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 28|🇰🇷_韩国_152
+- name: 34|KR_1|1.8MB/s
   network: ws
   port: 443
-  server: 211.49.57.179
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 211.49.57.175
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 28|🇰🇷_韩国_153
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    max-early-data: 2560
+    path: /

@@ -1,65 +1,7 @@
 proxies:
-- name: 28|🇩🇪_德国_25
-  password: ND91608427
-  port: 443
-  server: gentle-raptor.rooster465.autos
-  skip-cert-verify: true
-  sni: gentle-raptor.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇩🇪_德国_29
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: next-turkey.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇩🇪_德国_35
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  skip-cert-verify: true
-  sni: large-baboon.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇩🇪_德国_36
-  password: ND91608427
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  skip-cert-verify: true
-  sni: informed-alpaca.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇩🇪_德国_49
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  skip-cert-verify: true
-  sni: rapid-firefly.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 28|🇩🇪_德国_88
-  password: '!!str 521314'
-  port: 443
-  server: 5.10.215.9
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /Telegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪_德国_207
+  name: 28|🇩🇪_德国_89
   network: ws
   port: 443
   server: 18.197.218.69
@@ -75,7 +17,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪_德国_222
+  name: 28|🇩🇪_德国_105
   network: ws
   port: 443
   server: 194.164.192.16
@@ -91,10 +33,10 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 28|🇩🇪_德国_281
+  name: 28|🇩🇪_德国_218
   network: ws
   port: 443
-  server: 88.198.82.149
+  server: 38.180.219.131
   servername: apjhdggyx.com
   skip-cert-verify: true
   tls: true
@@ -105,11 +47,45 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 34|🇩🇪DE_6|1.3MB/s
+- alterId: 0
+  cipher: auto
+  name: 28|🇩🇪_德国_221
+  network: ws
+  port: 443
+  server: 94.159.108.42
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 28|🇩🇪_德国_228
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alpn:
+  - http/1.1
+  name: 34|DE_1|1.4MB/s
   network: ws
   password: ersi13mjahoao8e6
   port: 443
-  server: hikvision-plus.com
+  server: nexigen.pro
   skip-cert-verify: true
   sni: ramz.xuithree.dpdns.org
   type: trojan
@@ -117,61 +93,4 @@ proxies:
   ws-opts:
     headers:
       Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: 34|🇩🇪DE_9|1.9MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- cipher: chacha20-ietf-poly1305
-  name: 34|🇪DE_10|3.4MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.229.160
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 34|🇪DE_14|1.8MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: nexigen.pro
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 34|🇩🇪DE_15|1.3MB/s
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: undef.network
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /dksk
