@@ -87,33 +87,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 35|SG_1|1.1MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸🇬SG_3|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2096
-  server: 104.17.70.206
-  servername: freenet.sahanwickramasinghevip.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
-  ws-opts:
-    headers:
-      Host: freenet.sahanwickramasinghevip.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /
-  xudp: true
