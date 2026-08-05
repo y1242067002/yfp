@@ -1,5 +1,5 @@
 proxies:
-- name: 18|日本
+- name: 19|日本
   network: tcp
   port: 443
   server: 160.187.111.222
@@ -9,7 +9,7 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 20|_JP_
+- name: 21|_JP_
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-002.fastervpn.world
@@ -17,7 +17,7 @@ proxies:
   sni: vpn-jp-002.fastervpn.world
   type: hysteria2
   udp: true
-- name: 20|🇵_JP_日本_1
+- name: 21|🇵_JP_日本_1
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-001.fastervpn.world
@@ -27,7 +27,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 28|🇯🇵_日本_94
+  name: 29|🇯🇵_日本_94
   network: ws
   port: 443
   server: 210.138.37.53
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
     path: /ws-vmess
-- name: 32,33|日本|@ripaojiedian
+- name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -49,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 32,33|日本2|@ripaojiedian
+- name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -57,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 32,33|日本3|@ripaojiedian
+- name: 33,34|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -65,23 +65,9 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 34|JP_1|5.2MB/s
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
-  ws-opts:
-    headers:
-      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
-    path: /glasspanel/92298abb_0_5744c010dde7/
 - down: ''
   fingerprint: ''
-  name: 34|🇯🇵JP_2|4.2MB/s
+  name: 35|JP_1|4.0MB/s
   obfs: ''
   obfs-password: ''
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
@@ -92,198 +78,3 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- cipher: aes-128-gcm
-  name: 34|🇵JP_3|4.0MB/s
-  password: fjlfjafl231303831
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 1313
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 34|🇵JP_4|4.9MB/s
-  network: ws
-  port: 443
-  server: cf.877774.xyz
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_5|4.7MB/s
-  network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_6|4.5MB/s
-  network: ws
-  port: 443
-  server: 162.159.45.215
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_7|4.8MB/s
-  network: ws
-  port: 443
-  server: 162.159.39.228
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_8|5.2MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.204
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_9|5.3MB/s
-  network: ws
-  port: 443
-  server: 172.64.229.125
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_10|5.3MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.238
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_11|3.4MB/s
-  network: ws
-  port: 443
-  server: 172.64.52.151
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_12|5.7MB/s
-  network: ws
-  port: 443
-  server: 162.159.38.233
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_13|4.0MB/s
-  network: ws
-  port: 443
-  server: 108.162.198.39
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- name: 34|🇯🇵JP_14|1.2MB/s
-  network: ws
-  port: 443
-  server: cf.008500.xyz
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    max-early-data: 2560
-    path: /
-- cipher: aes-256-cfb
-  name: 34|🇯🇵JP_15|6.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true

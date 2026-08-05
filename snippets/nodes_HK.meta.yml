@@ -1,5 +1,5 @@
 proxies:
-- name: 17|香港_1
+- name: 18|香港_1
   network: ws
   port: 443
   server: s1.db-link.in
@@ -13,7 +13,7 @@ proxies:
     headers:
       host: dabaihk.webn.cc
     path: /db1024a105975707
-- name: 17|香港_2
+- name: 18|香港_2
   network: tcp
   password: BxceQaOe
   port: 443
@@ -21,7 +21,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 18|香港
+- name: 19|香港
   network: tcp
   password: ef269dbc-0486-451f-b94b-d0c354bc3f1c
   port: 443
@@ -32,7 +32,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 20|_HK_国
+  name: 21|_HK_国
   port: 56698
   server: 47.239.69.43
   skip-cert-verify: false
@@ -40,7 +40,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- name: 28,32,33|香港4|@ripaojiedian
+- name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -50,7 +50,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33,34|🇸🇬SG_4|4.4MB/s
+- name: 29,33,34,35|🇸🇬SG_2|3.1MB/s
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -60,7 +60,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33|香港5|@ripaojiedian
+- name: 29,33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -70,7 +70,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 28,32,33|美国3|@ripaojiedian
+- name: 29,33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -80,7 +80,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 32,33|香港3|@ripaojiedian
+- name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -90,7 +90,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 33|香港|@ripaojiedian
+  name: 34|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -102,25 +102,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 34|HK_1|4.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 34|🇭🇰HK_2|4.8MB/s
+  name: 35|HK_1|2.9MB/s
   network: grpc
   packet-encoding: xudp
   port: 10126
@@ -134,46 +116,7 @@ proxies:
   udp: true
   uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
   xudp: true
-- cipher: aes-128-gcm
-  name: 34|🇰HK_3|3.3MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 9052
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 34|🇰HK_4|1.8MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 20012
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 34|🇰HK_5|3.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
-    short-id: ec2c7091fe76336c
-  server: 35.241.98.220
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
-  xudp: true
-- name: 36|HK_speednode_0008
+- name: 37|HK_speednode_0008
   password: ND91608427
   port: 443
   server: upright-hamster.rooster465.autos
