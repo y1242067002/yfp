@@ -814,55 +814,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇩🇪DE_5|3.4MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇳🇱NL_5|1.9MB/s
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 92.5.238.186
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇳🇱NL_6|1.7MB/s
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 92.5.226.189
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇳🇱NL_8|2.6MB/s
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 134.98.141.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇬SG_4|2.6MB/s
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 168.107.80.31
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 35|🇺🇸US_8|3.1MB/s
+  name: 35|JP_1|6.1MB/s
   password: amazonskr05
   port: 443
-  server: 100.31.139.112
+  server: 13.115.57.197
   type: ss
   udp: true
-- name: 35|🇺🇸US_17|2.8MB/s
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 35|SG_1|4.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: me.khantry.net
+  servername: me.khantry.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
+  ws-opts:
+    headers:
+      Host: me.khantry.net
+    path: /khantri
+  xudp: true
+- name: 35|🇺🇸US_4|1.5MB/s
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 53199
@@ -871,25 +850,7 @@ proxies:
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: 35|🇼TW_2|1.2MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 39221
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
-- name: 35|🇪DE_7|1.6MB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: Hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 35|🇬SG_6|1.4MB/s
+- name: 35|🇬SG_3|1.4MB/s
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 29072

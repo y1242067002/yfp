@@ -742,14 +742,6 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 27|🇸美国
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: 27|🇺🇸美国
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 23.95.75.151
   sni: hopp-us.yyuyy.com
@@ -1469,75 +1461,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 35|🇸US_1|4.2MB/s
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-  udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_2|3.5MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- name: 35|🇸US_3|3.1MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸US_4|1016KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: usamd1.95318.cf
-  servername: usamd1.95318.cf
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb968e21-757f-4c99-afd7-c936e67e1766
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇸US_5|2.2MB/s
-  network: ws
-  port: 443
-  server: 104.16.106.217
-  servername: dr.evanjson.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95470b1b-2164-4243-b977-ab6784f468e6
-  ws-opts:
-    headers:
-      Host: dr.evanjson.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /uhznws
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇸US_6|2.1MB/s
-  network: tcp
-  port: 443
-  server: usamd2.95318.cf
-  servername: usamd2.95318.cf
-  tls: true
-  type: vless
-  udp: true
-  uuid: de515b65-ad6f-4dfa-b3a2-405a7eef71be
 - client-fingerprint: random
-  name: 35|🇺🇸US_7|4.4MB/s
+  name: 35|🇸US_1|4.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1553,140 +1478,63 @@ proxies:
       Host: us-lax.862400.xyz
     max-early-data: 2048
     path: /announcement
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_8|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  type: ss
-  udp: true
-- name: 35|🇸US_9|2.0MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|4.3MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_11|3.7MB/s
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_12|3.1MB/s
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_13|2.8MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_14|2.4MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_15|3.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇺🇸US_16|1.3MB/s
+  name: 35|🇸US_2|1.2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: line-vpn-production-2a4e.up.railway.app
-  servername: line-vpn-production-2a4e.up.railway.app
+  server: 104.18.152.229
+  servername: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
   tls: true
   type: vless
   udp: true
-  uuid: 5c8ffc0e-a044-cc52-3b60-4f3b15d9b6d3
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
   ws-opts:
     headers:
-      Host: line-vpn-production-2a4e.up.railway.app
-    path: /ws/5c8ffc0e-a044-cc52-3b60-4f3b15d9b6d3
+      Host: Hk-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  xudp: true
 - client-fingerprint: chrome
-  name: 35|🇺🇸US_17|2.8MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  name: 35|🇸US_18|1.4MB/s
-  network: tcp
+  name: 35|🇺🇸US_3|1.6MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
-  server: pro-de.emrata.top
-  servername: pro-de.emrata.top
+  server: 104.17.126.160
+  servername: ohxnj.75kt.gdl.hh.vavava.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: da86df16-a80c-0032-90be-3e174fe0076d
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ohxnj.75kt.gdl.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
-- name: 35|🇺🇸US_19|1.8MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 37|US_speednode_0021
+  network: tcp
+  port: 40724
+  reality-opts:
+    public-key: k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw
+    short-id: 0d17feea
+  server: evacuee.papstore.xyz
+  servername: www.e-japannavi.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
-- name: 35|🇺🇸US_20|4.1MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_21|1021KB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
+  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
 - name: 37|US_speednode_0022
   port: 9002
   server: 138.199.35.214

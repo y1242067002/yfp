@@ -40,6 +40,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+- name: 27|🇭🇰HK
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -98,11 +105,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|HK_1|5.1MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true

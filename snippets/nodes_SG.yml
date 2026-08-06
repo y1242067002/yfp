@@ -26,15 +26,28 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇬SG_4|2.6MB/s
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 168.107.80.31
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 35|SG_1|4.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: me.khantry.net
+  servername: me.khantry.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
+  ws-opts:
+    headers:
+      Host: me.khantry.net
+    path: /khantri
+  xudp: true
 - client-fingerprint: chrome
-  name: 35|🇬SG_6|1.4MB/s
+  name: 35|🇬SG_3|1.4MB/s
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: 29072

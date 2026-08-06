@@ -166,76 +166,7 @@ proxies:
     headers:
       Host: vms.lifetime08.workers.dev
     path: /?ed=2560
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|GB_1|2.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 31.76.123.47
-  servername: pro-fi.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
-- client-fingerprint: chrome
-  name: 35|🇧GB_2|1008KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-it.emrata.top
-  servername: pro-it.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 35|🇬🇧GB_3|3.1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 188.72.103.3
-  servername: cherry.benzogangmoney.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49e9efa4-5f59-448a-ba61-374317aeea70
-  xhttp-opts:
-    host: cherry.benzogangmoney.space
-    mode: packet-up
-    path: /media/cache/thumbs-b82f/
-    seq-key: chunk_id
-    seq-placement: query
-    session-key: X-Upload-Token
-    session-placement: header
-    uplink-chunk-size: 0
-    uplink-http-method: GET
-    x-padding-header: X-Client-Version
-    x-padding-key: hash
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇬🇧GB_4|1.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-fi.emrata.top
-  servername: pro-fi.emrata.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
-- name: 35|🇬🇧GB_5|2.8MB/s
+- name: 35|GB_1|1.7MB/s
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
