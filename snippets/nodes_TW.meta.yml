@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- name: 35|TW_1|5.0MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17964
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇼TW_2|1.2MB/s
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 39221
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
