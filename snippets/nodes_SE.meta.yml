@@ -49,39 +49,18 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 28|️️16@SHAHSERVER1
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_36
-  port: 40443
-  reality-opts:
-    public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0
-    short-id: e6bbe5cbfd3a1c9f
-  server: sw.deeplcdn.com
-  servername: tv.apple.com
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_203
+  network: ws
+  port: 443
+  server: 94.242.59.190
+  servername: 31.76.11.46.cdn-one.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_41
-  port: 40443
-  reality-opts:
-    public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0
-    short-id: e6bbe5cbfd3a1c9f
-  server: 185.189.44.201
-  servername: tv.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr

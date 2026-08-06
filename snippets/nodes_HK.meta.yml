@@ -47,43 +47,43 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 29,33,34|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 50115
-  server: 16.162.3.64
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_24
+  port: 443
+  reality-opts:
+    public-key: bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo
+    short-id: ec2c7091fe76336c
+  server: 35.241.98.220
+  servername: www.cloudflare.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96563f88-f743-4395-a3b2-27ec462ae45e
+- name: 29|🇭🇰_香港_78
+  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
+  port: 32029
+  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
+  skip-cert-verify: true
+  sni: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 26704
-  server: 95.40.205.94
+- name: 29|🇭🇰_香港_79
+  password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
+  port: 32019
+  server: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: 25c5dffa-d858-4b58-bbbb-bfc08e375d23.bnsepserv.com
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11231
-  server: 16.162.3.64
+- name: 29|🇭🇰_香港_98
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  port: 443
+  server: kaizen-hk-11.gocmydns.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29,33,34|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: images.apple.com
   tls: true
   type: trojan
   udp: true
@@ -95,6 +95,22 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 33,34|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 50115
+  server: 16.162.3.64
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11231
+  server: 16.162.3.64
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -105,3 +121,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|HK_1|4.9MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17960
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: hk.jjznodenode.top
+  type: anytls
+  udp: true

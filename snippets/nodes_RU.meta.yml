@@ -63,54 +63,56 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_61
-  port: 33729
+  name: 29|🇷🇺_俄罗斯_6
+  port: 443
   reality-opts:
-    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
-    short-id: 0bd4698a48
-  server: kino.memhd.store
-  servername: ymail.com
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: a1b2c4d4a1b2c5d5
+  server: 85.209.135.10
+  servername: www.sciencedirect.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
-- name: 29|🇷🇺_俄罗斯_220
-  network: ws
-  port: 4100
-  server: 104.171.132.185
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 112912a9-cedf-485d-b8ed-d8f8d4774437
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_222
+  uuid: 25284d30-b4e6-4f86-b214-a78d4365ed05
+- name: 29|🇷🇺_俄罗斯_161
   network: ws
   port: 2200
-  server: 104.171.137.148
+  server: 168.222.141.146
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: a484645e-59df-4980-b649-92b71250ec60
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
   ws-opts:
     headers:
       Host: rzd.ru
     path: /v1
-- name: 29|🇷🇺_俄罗斯_224
+- name: 29|🇷🇺_俄罗斯_176
   network: ws
   port: 2200
-  server: 72.56.7.195
+  server: 109.73.196.160
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 31c2a8e8-0ab2-4f3f-8767-11f3a35d4228
+  uuid: 5d0206d9-fb42-4c8b-a84b-3d95ab0f42c7
   ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_222
+  network: ws
+  port: 4100
+  server: 83.217.192.58
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a08968c9-6301-459c-b047-ac7c7be57c40
+  ws-opts:
+    headers:
+      Host: live.ok.ru
     path: /v1

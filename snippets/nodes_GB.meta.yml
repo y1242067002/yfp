@@ -140,8 +140,8 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 29|🇬🇧_英国_64
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_152
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -153,26 +153,35 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: 29|🇬🇧_英国_240
+- name: 29|🇬🇧_英国_211
   network: ws
-  port: 8880
-  server: 185.193.29.40
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime08.workers.dev
-    path: /?ed=2560
-- name: 35|GB_1|1.7MB/s
-  port: 9443
-  server: 37.120.233.34
+  port: 2096
+  server: 91.193.58.99
+  servername: free-server.techsonic.dev
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_212
+  network: ws
+  port: 2053
+  server: 91.193.58.217
+  servername: vlso200.1d.mom
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso200.1d.mom
+    path: /socks5=888:888@hkip.1d.mom:1080
 - name: 37|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
