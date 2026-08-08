@@ -99,35 +99,13 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 35|🇷KR_1|3.6MB/s
-  network: grpc
-  port: 10050
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr5-r.link-t7.com
-  servername: s0.awsstatic.com
+- name: 35|🇷KR_1|2.5MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 35|🇰🇷KR_2|4.6MB/s
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  username: test

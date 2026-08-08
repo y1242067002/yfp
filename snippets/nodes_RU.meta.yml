@@ -48,34 +48,23 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: '27|🇷土耳其 #1'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga4.api3-max.ru
-  sni: taga4.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '27|🇷🇺俄罗斯 #1'
+- name: 27|🇷🇺俄罗斯
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa5.api3-max.ru
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
-- name: '27|🇷🇺俄罗斯 #3'
+- name: '27|🇷🇺俄罗斯 #1'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 8443
   server: 82.117.87.248
-  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇺RU_2|2.2MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 29|🇷🇺_俄罗斯_9
   port: 43000
   reality-opts:
     public-key: CH7SpnfklhoBKYhez8VhcLzr9wzFkvbKAThOU_3y9lE
@@ -87,7 +76,6 @@ proxies:
   type: vless
   udp: true
   uuid: 25d25f21-7a9e-426f-8c14-0c06782585ff
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_26
@@ -270,12 +258,11 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇺RU_1|3.4MB/s
+- client-fingerprint: edge
+  encryption: none
+  name: 35|RU_1|1.0MB/s
   network: xhttp
+  packet-encoding: xudp
   port: 443
   server: 135.106.140.23
   servername: qwesd.rutendingaltos.top
@@ -285,20 +272,5 @@ proxies:
   uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
   xhttp-opts:
     host: qwesd.rutendingaltos.top
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- client-fingerprint: qq
-  encryption: none
-  name: 35|🇷🇺RU_3|1.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 178.72.162.73
-  servername: ru6.ethicsdinnerpave.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: ru6.ethicsdinnerpave.online
     path: /assets/build/_app/immutable/chunks/stream-one/
   xudp: true

@@ -81,14 +81,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '27|🇬🇧英国 #1'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: true
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
 - name: '27|英国 #1'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -103,7 +95,7 @@ proxies:
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
-- name: '27|🇬🇧英国 #2'
+- name: 27|🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 5.183.102.113
@@ -112,11 +104,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|CH_1|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇬🇧_英国_6
   port: 443
   reality-opts:
     public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
@@ -128,7 +117,6 @@ proxies:
   type: vless
   udp: true
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  xudp: true
 - client-fingerprint: chrome
   name: 29|🇬🇧_英国_147
   port: 443
@@ -183,59 +171,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1e973bda-3a02-4431-9df8-83595f6f65d8
-- auth: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  name: 35|GB_1|2.1MB/s
-  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  port: 8443
-  server: 78.159.240.69
-  skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇧GB_2|1.9MB/s
-  network: xhttp
-  port: 443
-  server: www.speedtest.net
-  servername: sazeg.bEwiNja.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: sazeg.bEwiNja.ir.
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬🇧GB_4|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: it1-akn.astralweb.tech
-  servername: it1-akn.astralweb.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬🇧GB_5|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 31.76.113.187
-  servername: it1-akn.astralweb.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd1673b3-7cec-4fe6-bedf-b534eb54e647
-  xudp: true
 - name: 37|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
