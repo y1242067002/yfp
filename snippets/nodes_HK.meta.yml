@@ -102,10 +102,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇰HK_1|4.2MB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
+- fingerprint: ''
+  name: 35|HK_1|1.5MB/s
+  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  port: 443
+  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: anytls
   udp: true
-  username: '123'
+  username: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
