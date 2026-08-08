@@ -64,6 +64,47 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_92
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: sw4.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_93
+  port: 443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+  server: sw2.fi1-cosmostechnology.ru
+  servername: fi1-cosmostechnology.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f692629b-3557-488a-9c9b-60775331e423
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_172
+  network: ws
+  port: 8443
+  server: 193.232.178.149
+  servername: edge.yzkvm.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: /
 - cipher: aes-256-cfb
   name: 35|🇪SE_1|4.0MB/s
   password: amazonskr05

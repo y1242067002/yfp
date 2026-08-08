@@ -111,8 +111,26 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 29,35|CH_1|3.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: fdda9806fe5d8584
+  server: 185.232.117.115
+  servername: vl05.skorostnet.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_82
+  name: 29|🇬🇧_英国_147
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -126,7 +144,7 @@ proxies:
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_50
+  name: 29|🇬🇧_英国_36
   port: 443
   reality-opts:
     public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
@@ -140,7 +158,7 @@ proxies:
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_51
+  name: 29|🇬🇧_英国_37
   port: 443
   reality-opts:
     public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
@@ -152,20 +170,19 @@ proxies:
   type: vless
   udp: true
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- name: 29|🇬🇧_英国_96
-  network: ws
-  port: 2096
-  server: 91.193.58.131
-  servername: free-server.techsonic.dev
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_105
+  port: 443
+  reality-opts:
+    public-key: b75SrHI--As9QxOVfRIPkGmGfXjs53CGAjbws2K99Rs
+  server: 194.150.166.12
+  servername: www.avito.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
+  uuid: 1e973bda-3a02-4431-9df8-83595f6f65d8
 - auth: 7836b28e-8451-4596-ad3e-e3601b2335ba
   name: 35|GB_1|2.1MB/s
   password: 7836b28e-8451-4596-ad3e-e3601b2335ba
@@ -193,23 +210,6 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇧GB_3|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: italy.funvideorus.net
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: 35|🇬🇧GB_4|1.1MB/s
