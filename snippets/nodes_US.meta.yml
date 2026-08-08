@@ -1228,29 +1228,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: random
-  name: 35|🇸US_1|3.8MB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: us-lax.862400.xyz
-  tls: true
-  type: vless
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇸US_1|1006KB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
   udp: true
-  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
-  ws-opts:
-    headers:
-      Host: us-lax.862400.xyz
-    path: /announcement
-- name: 35|🇺🇸US_2|3.0MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17963
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: 35|🇺🇸US_3|4.1MB/s
+  username: dongtaiwang.com
+- name: 35|🇸US_2|4.4MB/s
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -1258,28 +1245,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: qq
-  encryption: none
-  name: 35|🇸US_4|1.0MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: c1cdebeccbb470ae
-  server: sa-84018978331c4eaf.sr-37f423695609b2ef.r.vpvpn.club
-  servername: obrienteamnissan.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c7ac0ea-b1e4-4c20-bc16-1437559f3ac4
-  xhttp-opts:
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0021
