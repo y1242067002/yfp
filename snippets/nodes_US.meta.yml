@@ -796,13 +796,12 @@ proxies:
   uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|RU_1|1.7MB/s
-  network: tcp
+  name: 29|🇺🇸_美国_135
   port: 993
   reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   server: 88.218.44.4
-  servername: swcdn.apple.com
+  servername: download.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1215,216 +1214,143 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: fi1cosmos
-  name: 35|US_1|2.2MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-  server: dk1.de1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_2|3.9MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: fi1cosmos
-  name: 35|🇺🇸US_3|1.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-    short-id: ''
-  server: 144.31.243.240
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_4|2.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 69.46.46.11
-  servername: rvg-production-9c73.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfea48aa-797e-e043-5f0b-9ac16aeeecca
-  ws-opts:
-    headers:
-      Host: rvg-production-9c73.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /ws/dfea48aa-797e-e043-5f0b-9ac16aeeecca
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: fi1cosmos
-  name: 35|🇺🇸US_5|3.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA
-    short-id: ''
-  server: it2.fi1-cosmostechnology.ru
-  servername: fi1-cosmostechnology.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f692629b-3557-488a-9c9b-60775331e423
-  xudp: true
-- name: 35,37|US_speednode_0026
+- name: 35,37|US_speednode_0022
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_7|2.7MB/s
+- name: 35,37|US_speednode_0025
+  password: 'null'
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_8|3.5MB/s
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_9|4.6MB/s
+  username: 'null'
+- name: 35|🇸US_3|1.1MB/s
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_10|3.7MB/s
-  password: None
+- name: 35|🇺🇸US_4|4.1MB/s
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_11|3.7MB/s
+- name: 35|🇺🇸US_5|4.0MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_6|4.4MB/s
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_7|3.1MB/s
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_8|2.7MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_12|2.2MB/s
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|4.3MB/s
+- name: 35|🇺🇸US_9|1.6MB/s
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_14|2.4MB/s
-  password: 'null'
+- name: 35|🇸US_10|1.3MB/s
+  password: None
   port: 9002
-  server: 156.146.59.41
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 35|🇸US_15|1.9MB/s
+- name: 35|🇺🇸US_11|1.0MB/s
   password: ''
   port: 9002
-  server: 156.146.59.7
+  server: 156.146.59.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 35|🇺🇸US_16|3.2MB/s
+- name: 35|🇸US_12|3.0MB/s
   port: 9002
-  server: 156.146.59.28
+  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_17|2.9MB/s
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
-  sni: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-- name: 35|🇺🇸US_18|1.6MB/s
+- name: 35|🇺🇸US_13|1.7MB/s
+  password: ''
   port: 9002
-  server: 156.146.59.49
+  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_19|1.8MB/s
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_20|2.5MB/s
-  network: ws
+  username: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 35|🇸US_14|2.1MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 443
-  server: 69.46.46.30
-  servername: rvg-production-4a7f.up.railway.app
+  port: 25565
+  reality-opts:
+    public-key: pBd5IOD_sCDpIDqgi6EtZ6DAAMGns9n2C3qPH0i3Tno
+    short-id: '52'
+  server: 77.110.115.8
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 930cfa02-05f0-4a38-3f6b-cdbe2fa59e78
-  ws-opts:
-    headers:
-      Host: rvg-production-4a7f.up.railway.app
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /ws/930cfa02-05f0-4a38-3f6b-cdbe2fa59e78
+  uuid: 086422b2-3347-45f8-b527-d9e1be25dc56
   xudp: true
-- name: 35|🇺🇸US_21|1.0MB/s
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  name: 35|🇺🇸US_15|1.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: gr7DAOBqoNiHEUhWZQh3nSqBOmg6QwmRC0HKj7TOsUk
+    short-id: 2da4299da566b7
+  server: 45.151.101.103
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  xudp: true
+- name: 35|🇸US_16|3.3MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.213
@@ -1448,13 +1374,6 @@ proxies:
   type: vless
   udp: true
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
-- name: 37|US_speednode_0022
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|US_speednode_0023
   port: 9002
   server: 138.199.35.199
@@ -1462,12 +1381,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0025
-  password: 'null'
+- name: 37|US_speednode_0026
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
