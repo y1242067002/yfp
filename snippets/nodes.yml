@@ -930,7 +930,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇰HK_1|2.4MB/s
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -938,6 +938,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1028,3 +1029,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 35|🇪SE_1|4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.61.189.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇸🇪SE_2|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.21.130.209
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇸US_4|3.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 35|🇸🇬SG_4|4.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: aes-256-cfb
+  name: 35|🇵JP_3|6.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss
+  udp: true
+- name: 35|🇰HK_2|3.0MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 43.198.109.39
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

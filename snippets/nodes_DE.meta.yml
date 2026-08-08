@@ -282,3 +282,30 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
+- name: 35|DE_1|3.7MB/s
+  network: ws
+  port: 8880
+  server: cd-site.benomiz.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: ba8511c3-66b3-496a-b30f-4c870c87754f
+  ws-opts:
+    headers:
+      Host: gr.gadawebi.ir
+    path: /
+    v2ray-http-upgrade: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 35|🇪DE_2|2.2MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
