@@ -241,31 +241,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 35|JP_1|3.4MB/s
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇵JP_2|1.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
-  port: 11000
-  server: jpa.nnpy.org
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  up: ''
 - client-fingerprint: chrome
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇵JP_3|6.0MB/s
+  name: 35|JP_1|4.9MB/s
   network: grpc
   port: 10035
   reality-opts:
@@ -279,8 +259,9 @@ proxies:
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - client-fingerprint: chrome
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇯🇵JP_4|4.9MB/s
+  name: 35|🇯🇵JP_2|4.5MB/s
   network: grpc
   port: 10035
   reality-opts:
@@ -292,3 +273,11 @@ proxies:
   type: vless
   udp: true
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 35|🇵JP_3|4.9MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17968
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
