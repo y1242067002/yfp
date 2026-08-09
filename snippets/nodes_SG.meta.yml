@@ -65,31 +65,50 @@ proxies:
 - name: 33,34|新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 36580
-  server: 18.163.100.58
+  port: 45747
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 32434
-  server: 57.183.7.187
+  port: 45744
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.166.178.40
+  port: 32434
+  server: 18.163.120.239
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 35|🇬SG_1|1.8MB/s
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: 35|🇬SG_1|1.0MB/s
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4466
+  server: sg3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  type: hysteria2
   udp: true
-  username: n17sMRE7S
+- name: 35|🇬SG_2|5.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: cf.090227.xyz
+  type: vless
+  udp: true
+  uuid: 3496fc54-209f-4932-93b8-37375e2f20dd
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: new.204240.cyou
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2048
+    path: /
+  xudp: true
