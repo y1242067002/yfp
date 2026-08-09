@@ -27,13 +27,20 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
-- name: 35|🇷KR_1|1.1MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷KR_1|5.4MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: 54.116.42.24
+  servername: www.coway.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  xudp: true
