@@ -47,6 +47,42 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_12
+  port: 55555
+  reality-opts:
+    public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
+    short-id: 59ff141b
+  server: ak-hk01.ziyoufly.xyz
+  servername: www.hkexpress.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 107d414f-3418-490d-bb3b-bafa8d21882a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_22
+  port: 55555
+  reality-opts:
+    public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
+    short-id: 59ff141b
+  server: ak-hk01.ziyoufly.xyz
+  servername: www.hkexpress.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c377ce9c-0c8b-479a-9838-c9ac4ebe7297
+- name: 29|🇭🇰_香港_94
+  port: 45647
+  server: 182.16.61.4
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
