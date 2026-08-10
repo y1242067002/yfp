@@ -117,14 +117,6 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
-- name: 28|30@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇫🇷_法国_148
@@ -278,3 +270,10 @@ proxies:
   type: vless
   udp: true
   uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+- name: 37|FR_speednode_0004
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
