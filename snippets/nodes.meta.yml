@@ -2238,6 +2238,13 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
+- name: '27|荷兰 #7'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 86.107.178.69
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 27|🇯🇵JP
   password: STYyftThFn
   port: 12765
@@ -2288,8 +2295,7 @@ proxies:
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
-- auth: cd74c0a406664a5bc0bac098220a2468
-  name: 27,35|NL_1|1.1MB/s
+- name: '27|荷兰 #8'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -2299,7 +2305,6 @@ proxies:
   sni: nl2.sferavpn.pro
   tls: false
   type: hysteria2
-  udp: true
 - name: '27|法国 #1'
   password: d1a0857bc1eb833a9edf96be4c1f999e
   port: 55443
@@ -2374,7 +2379,7 @@ proxies:
   sni: www.amazon.com
   tls: false
   type: hysteria2
-- name: '27|荷兰 #8'
+- name: '27|荷兰 #9'
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -2420,7 +2425,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '27|荷兰 #9'
+- name: '27|荷兰 #10'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.219
@@ -2431,6 +2436,13 @@ proxies:
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.220
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: '27|国 #4'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.221
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
@@ -7579,7 +7591,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34,37|HK_speednode_0013
+- name: 33,34,35,37|HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -7670,35 +7682,8 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 35|DE_1|1.3MB/s
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- client-fingerprint: firefox
-  name: 35|FI_1|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg
-    short-id: 29fd3dc0210c
-  server: 95.216.165.65
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22199ed8-5f22-4906-9917-67e3609d8776
 - flow: xtls-rprx-vision
-  name: 35|🇫FR_1|1.6MB/s
+  name: 35|FR_1|2.1MB/s
   network: tcp
   port: 39313
   reality-opts:
@@ -7725,19 +7710,6 @@ proxies:
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - flow: xtls-rprx-vision
-  name: 35|Other_1|1.2MB/s
-  network: tcp
-  port: 29717
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- flow: xtls-rprx-vision
   name: 35,37|US_speednode_0127
   network: tcp
   packet-encoding: xudp
@@ -7752,66 +7724,8 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 35|JP_1|3.6MB/s
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: 18.179.40.96
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 35|🇯🇵JP_2|1.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
 - flow: xtls-rprx-vision
-  name: 35,37|US_speednode_0137
-  network: tcp
-  port: 29709
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- flow: xtls-rprx-vision
-  name: 35|SG_1|1.8MB/s
-  network: tcp
-  port: 31871
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- flow: xtls-rprx-vision
-  name: 35|🇸🇬SG_2|2.1MB/s
+  name: 35|SG_1|1.3MB/s
   network: tcp
   packet-encoding: xudp
   port: 31875
@@ -7839,62 +7753,74 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- flow: xtls-rprx-vision
-  name: 35|🇸🇬SG_4|2.3MB/s
+- down: ''
+  fingerprint: ''
+  name: 35|RU_1|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: usa1.spectrumproxy.shop
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 35|🇬SG_3|5.4MB/s
   network: tcp
-  port: 39561
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 35|🇫🇷FR_3|1.1MB/s
-  network: ws
-  password: humanity
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_4|2.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+  server: starlink-sg6.251313.xyz
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_5|1.9MB/s
-  network: ws
-  password: humanity
+- name: 35|🇸🇬SG_4|1.4MB/s
+  network: tcp
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: starlink-sg5.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- name: 35|🇸US_1|4.2MB/s
+- name: 35|🇰HK_4|1.8MB/s
+  network: tcp
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21521
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 35|MO_1|4.6MB/s
+  network: tcp
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21523
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 35|JP_1|1.3MB/s
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: 35|BD_1|1.0MB/s
+  network: tcp
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10010
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 35|🇸US_1|2.1MB/s
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -7902,21 +7828,69 @@ proxies:
   tls: true
   type: http
   udp: true
+- auth: 53b59cb5-c741-3399-9065-93dc34685f5b
+  name: 35|🇺🇸US_2|2.7MB/s
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: 53b59cb5-c741-3399-9065-93dc34685f5b
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  type: hysteria2
+  udp: true
 - flow: xtls-rprx-vision
-  name: 35|🇰HK_2|1.1MB/s
+  name: 35|🇫🇷FR_4|1.9MB/s
   network: tcp
   packet-encoding: xudp
-  port: 39569
+  port: 29893
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
-  server: 188.253.123.164
+  server: 155.117.199.12
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  xudp: true
+- flow: xtls-rprx-vision
+  name: 35|Other_1|1.4MB/s
+  network: tcp
+  port: 39201
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: 35|TW_1|1.1MB/s
+  network: tcp
+  port: 39205
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- flow: xtls-rprx-vision
+  name: 35|🇬SG_5|1.0MB/s
+  network: tcp
+  port: 31873
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
@@ -8864,6 +8838,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- flow: xtls-rprx-vision
+  name: 37|US_speednode_0137
+  network: tcp
+  port: 29709
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
 - name: 37|US_speednode_0138
   port: 9002
   server: 138.199.35.211

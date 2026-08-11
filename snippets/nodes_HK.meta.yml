@@ -131,7 +131,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34,37|HK_speednode_0013
+- name: 33,34,35,37|HK_speednode_0013
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -174,22 +174,15 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇰HK_2|1.1MB/s
+- name: 35|🇰HK_4|1.8MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 39569
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21521
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161
