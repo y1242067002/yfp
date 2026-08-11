@@ -1280,7 +1280,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇸US_5|3.0MB/s
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -1288,8 +1288,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 35|US_1|1.2MB/s
+  name: 35|🇸US_1|1.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -1297,23 +1298,8 @@ proxies:
   type: mieru
   udp: true
   username: dongtaiwang.com
-- name: 35|🇺🇸US_2|4.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 57878
-  server: 38.246.226.240
-  type: vless
-  udp: true
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /535f0e03
-  xudp: true
 - client-fingerprint: chrome
-  name: 35|🇺🇸US_3|2.9MB/s
+  name: 35|🇸US_2|1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -1322,11 +1308,11 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 35|🇺🇸US_4|1.1MB/s
+- name: 35|🇺🇸US_4|3.5MB/s
   port: 443
-  server: goedkoopgeluid.icu
+  server: fan.365747.xyz
   skip-cert-verify: true
-  sni: goedkoopgeluid.icu
+  sni: fan.365747.xyz
   tls: true
   type: http
   udp: true

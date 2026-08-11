@@ -514,7 +514,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
-- name: 33,34,35|🇵JP_2|4.1MB/s
+- name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -522,7 +522,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -539,7 +538,23 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 35|JP_1|1.7MB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|JP_1|1.6MB/s
+  network: grpc
+  port: 10035
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 18.179.40.96
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+- name: 35|🇯🇵JP_2|1.5MB/s
   password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
   server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
