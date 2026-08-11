@@ -217,7 +217,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
-  name: 29,35|DE_1|2.1MB/s
+  name: 29,37|US_speednode_0117
   network: tcp
   port: 443
   reality-opts:
@@ -225,7 +225,7 @@ proxies:
     short-id: 9d3734f3ff471b68
   server: 150.241.70.0
   servername: stats.vk-portal.net
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -393,32 +393,12 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳+@VPNine1
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_2|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: n8.loyalemu.sbs
-  servername: n8.loyalemu.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6df75f42-4447-4ade-a53e-350f4eb69858
-  ws-opts:
-    headers:
-      Host: n8.loyalemu.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /ws8
-  xudp: true
-- name: 35|🇪DE_3|1.0MB/s
-  password: ''
-  port: 1080
-  server: 159.195.49.27
+- name: 37|DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
   udp: true
-  username: ''
+  username: testuser1

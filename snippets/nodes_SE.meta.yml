@@ -211,8 +211,7 @@ proxies:
   uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,37|IE_speednode_0016
-  network: tcp
+  name: 29|🇸🇪_瑞典_248
   port: 443
   reality-opts:
     public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
@@ -281,3 +280,17 @@ proxies:
     headers:
       Host: edge.yzkvm.top
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 37|SE_speednode_0116
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
+  server: 164.37.105.38
+  servername: gb.cdn.cachefleet.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
