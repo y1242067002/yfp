@@ -49,7 +49,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_12
+  name: 29|🇭🇰_香港_15
   port: 55555
   reality-opts:
     public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
@@ -63,7 +63,7 @@ proxies:
   uuid: 107d414f-3418-490d-bb3b-bafa8d21882a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_22
+  name: 29|🇭🇰_香港_38
   port: 55555
   reality-opts:
     public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
@@ -75,14 +75,54 @@ proxies:
   type: vless
   udp: true
   uuid: c377ce9c-0c8b-479a-9838-c9ac4ebe7297
-- name: 29|🇭🇰_香港_94
-  port: 45647
-  server: 182.16.61.4
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港_124
+  port: 800
+  server: 47.83.247.150
   skip-cert-verify: true
   tls: false
+  type: vmess
+  udp: true
+  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_169
+  port: 30100
+  server: xiweini.dpdns.org
+  servername: xiweini.dpdns.org
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  uuid: 19bb341c-ee57-4899-b1e7-e9d3ebdf23df
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_282
+  port: 55555
+  reality-opts:
+    public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
+    short-id: 59ff141b
+  server: ak-hk01.ziyoufly.xyz
+  servername: www.hkexpress.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4de520cf-ccee-4a18-ab5a-e66d969c7872
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_294
+  port: 55555
+  reality-opts:
+    public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
+    short-id: 59ff141b
+  server: ak-hk01.ziyoufly.xyz
+  servername: www.hkexpress.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -119,7 +159,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|HK_1|1.3MB/s
+  name: 35|HK_1|2.0MB/s
   network: tcp
   port: 9713
   reality-opts:
@@ -131,24 +171,9 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- alterId: 0
-  cipher: auto
-  name: 35|🇭🇰HK_3|5.6MB/s
-  network: ws
-  port: 16632
-  server: m.cnmjin.net.xiaoyan.io
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇭🇰HK_4|4.7MB/s
+  name: 35|🇭🇰HK_2|2.2MB/s
   network: tcp
   port: 29715
   reality-opts:
@@ -160,3 +185,29 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- client-fingerprint: chrome
+  name: 35|🇰HK_3|3.8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_4|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 29717
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  xudp: true

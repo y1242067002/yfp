@@ -121,7 +121,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_369
+- name: 25,29|🏳️_未知_327
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -211,7 +211,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_108
+- name: 29|🇺🇸_美国_133
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -220,7 +220,72 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇺🇸_美国_403
+- name: 29|🇺🇸_美国_134
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国_136
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国_314
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_315
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_324
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 29,35|🇸US_2|1.4MB/s
+  network: ws
+  port: 2054
+  server: 132.145.200.43
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
+  ws-opts:
+    path: /p
+- name: 29|🇺🇸_美国_378
   password: MiTiVPN
   port: 443
   server: 151.101.56.7
@@ -233,30 +298,19 @@ proxies:
     headers:
       Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 29|🇺🇸_美国_361
-  password: MiTiVPN
+- name: 29|🇺🇸_美国_397
+  password: e0ab846b-8eb2-4042-96dd-7c695e467fbf
   port: 443
-  server: 151.101.56.172
+  server: visa.com.sg
   skip-cert-verify: true
-  sni: default.fastly.com
+  sni: px8r9i1b4k.bpusfaster2.top
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: s4b-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 29|🇺🇸_美国_479
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
+      Host: px8r9i1b4k.bpusfaster2.top
+    path: /images
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -265,7 +319,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇸US_10|2.8MB/s
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -273,33 +327,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 35|US_1|1.7MB/s
-  network: ws
-  port: 2054
-  server: 132.145.200.43
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
-  ws-opts:
-    path: /p
-- alterId: 0
-  cipher: auto
-  name: 35|🇸US_2|3.8MB/s
-  network: ws
-  port: 16648
-  server: m.cnmjin.net.xiaoyan.io
+- client-fingerprint: chrome
+  name: 35|🇸US_11|3.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 18.166.226.204
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
