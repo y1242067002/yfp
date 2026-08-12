@@ -32,13 +32,28 @@ proxies:
   type: vless
   udp: true
   uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
-- name: 35|🇷KR_1|1.9MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 35|🇷KR_1|3.6MB/s
+  network: tcp
+  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
+  port: 20088
+  server: a8zbx9xj.catcat321.com
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
+  sni: iepl.krz3.cat.bilibili.com
+  type: trojan
   udp: true
-  username: test
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇰🇷KR_2|5.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: nNohnS45XyaEcSAKchLKkCTEBzVUc-PZ6UfbKo83z0E
+    short-id: 44e0e12bb5fcebe2
+  server: 151.245.106.49
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6d7619a-6b7b-4a80-bd8c-5ddb645eba4a
+  xudp: true

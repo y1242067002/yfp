@@ -11,3 +11,27 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 35|CH_1|4.1MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇭CH_2|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0
+    short-id: e2e66f4537770cef
+  server: 45.90.56.231
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0
+  xudp: true
