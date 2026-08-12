@@ -89,8 +89,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 29,35|GB_1|1.1MB/s
-  network: tcp
+  name: 29|🇬🇧_英国_171
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -116,6 +115,13 @@ proxies:
   type: vless
   udp: true
   uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- name: 35|GB_1|1.7MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

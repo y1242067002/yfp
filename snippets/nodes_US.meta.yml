@@ -935,7 +935,8 @@ proxies:
   type: vless
   udp: true
   uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- name: 29|🇺🇸_美国_168
+- name: 29,35|🇺🇸US_2|4.6MB/s
+  network: tcp
   password: 2EXii6JlhaDvgSiTsC
   port: 8444
   server: ggboy.ggboyz.online
@@ -1288,81 +1289,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35,37|US_speednode_0129
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0130
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0142
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0143
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_6|2.1MB/s
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 35|US_1|2.8MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: fullmanfirm.icu
+  server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
   udp: true
-- name: 35|🇺🇸US_7|1.7MB/s
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇺🇸US_3|1.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
   udp: true
-- name: 35|🇺🇸US_8|1.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_9|2.3MB/s
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|1.4MB/s
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_11|2.7MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1473,6 +1417,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0129
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0130
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0131
   password: None
   port: 9002
@@ -1557,6 +1515,20 @@ proxies:
 - name: 37|US_speednode_0141
   port: 443
   server: fan.226278.xyz
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0142
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0143
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
