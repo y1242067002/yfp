@@ -342,8 +342,10 @@ proxies:
   udp: true
   uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_346
+  encryption: none
+  name: 29,35|🇩🇪DE_4|1016KB/s
   network: ws
+  packet-encoding: xudp
   port: 2083
   server: 46.101.253.244
   servername: edge.yzkvm.top
@@ -355,7 +357,10 @@ proxies:
   ws-opts:
     headers:
       Host: edge.yzkvm.top
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
+  xudp: true
 - client-fingerprint: chrome
   name: 29|🇩🇪_德国_373
   network: ws
@@ -386,57 +391,66 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳+@VPNine1
+- client-fingerprint: chrome
+  name: 35|DE_1|4.0MB/s
+  network: tcp
+  port: 7190
+  reality-opts:
+    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
+    short-id: 7398e0c72f7d5c0e
+  server: 5.75.202.32
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23bda1f5-da85-4de6-aacb-ce77acb88808
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 35|DE_1|4.2MB/s
+  name: 35|🇩🇪DE_2|1.9MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
-  server: 152.53.173.90
+  server: 152.53.173.93
   servername: fastsync.xyz
   tls: true
   type: vless
   udp: true
   uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
-- name: 35|🇪DE_2|1.2MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_3|2.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
-    short-id: 3f40efc7
-  server: germany1.banovano.space
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_4|3.2MB/s
+- encryption: none
+  name: 35|🇪DE_3|1.7MB/s
   network: ws
   packet-encoding: xudp
+  port: 80
+  server: 104.27.110.37
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  ws-opts:
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /api/ws
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 35|🇪DE_5|4.5MB/s
+  network: grpc
+  packet-encoding: xudp
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1c7fd652-42a0-4f77-85a3-dfb0dec40d97
-  ws-opts:
-    headers:
-      Host: SvnTeamChannel.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
+  uuid: 1f0b6835-58e1-4448-a7db-1dcdd5ae9538
   xudp: true
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519
