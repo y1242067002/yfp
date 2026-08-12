@@ -88,100 +88,9 @@ proxies:
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_34
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.142
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_47
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.159
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 946c6aca-a672-4113-8aa1-55b3fb1a4369
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_48
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.83.226.151
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1995a4e0-fd85-4de2-94f1-f86829e44308
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_50
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.83.226.51
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1995a4e0-fd85-4de2-94f1-f86829e44308
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_254
-  port: 443
-  reality-opts:
-    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 178.83.121.19
-  servername: hk.cdn-global.pro
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_75
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.159
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_94
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.142
-  servername: sellflow.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
-- client-fingerprint: firefox
-  name: 29|🇬🇧_英国_175
+- client-fingerprint: chrome
+  name: 29,35|GB_1|1.1MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -193,13 +102,20 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: 35|GB_1|2.2MB/s
-  port: 9443
-  server: 37.120.233.34
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_121
+  port: 443
+  reality-opts:
+    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 178.83.121.19
+  servername: hk.cdn-global.pro
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
