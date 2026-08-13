@@ -96,8 +96,22 @@ proxies:
   sni: nl7.unlockvpn.online
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_112
+  port: 443
+  reality-opts:
+    public-key: lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ
+    short-id: bc609efa3b2d052f
+  server: pnnsh.falsemirrov.com
+  servername: pnnsh.falsemirrov.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_171
+  name: 29|🇬🇧_英国_201
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
@@ -109,24 +123,10 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_121
-  port: 443
-  reality-opts:
-    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 178.83.121.19
-  servername: hk.cdn-global.pro
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 35|GB_1|1.5MB/s
+  name: 35|GB_1|2.7MB/s
   network: ws
   port: 8443
   server: 50.7.197.2
@@ -137,6 +137,23 @@ proxies:
   uuid: e83af88a-a884-48ba-b462-a1edccff15e7
   ws-opts:
     path: /api/connect
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_2|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8
+    short-id: 3c88b649989ffa95
+  server: 194.238.79.235
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  xudp: true
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

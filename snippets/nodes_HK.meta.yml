@@ -47,31 +47,73 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_158
-  port: 800
-  server: 47.83.247.150
+- name: 29|🇭🇰_香港_76
+  password: AE62539071
+  port: 443
+  server: smiling-ray.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
-- name: 29|🇭🇰_香港_173
-  password: BxceQaOe
-  port: 26704
-  server: 18.163.126.92
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   tls: true
   type: trojan
   udp: true
-- name: 29|🇭🇰_香港_178
-  password: BxceQaOe
-  port: 11035
-  server: 18.162.244.203
+- name: 29|🇭🇰_香港_83
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_86
+  password: AE62539071
+  port: 443
+  server: wealthy-loon.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_87
+  password: AE62539071
+  port: 443
+  server: novel-mouse.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_88
+  password: AE62539071
+  port: 443
+  server: magical-kodiak.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港_89
+  password: AE62539071
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_157
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 23.249.19.91
+  servername: tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 29|🇭🇰_香港_158
+  password: AE62539071
+  port: 443
+  server: modest-foal.rooster465.autos
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
@@ -83,7 +125,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇭🇰HK_3|4.7MB/s
   network: tcp
   password: BxceQaOe
   port: 29444
@@ -91,6 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -109,6 +152,50 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 35|HK_1|4.8MB/s
+  network: grpc
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- client-fingerprint: chrome
+  name: 35|🇰HK_4|4.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 18.162.156.145
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 35|🇭🇰HK_5|4.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 18.166.223.140
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161
