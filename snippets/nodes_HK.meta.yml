@@ -40,14 +40,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- name: 27|🇰HK
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 27|🇭🇰 HK
+- name: 27| HK
   password: ec19e705-c8fe-4e9c-8cbe-c47038da0620
   port: 18385
   server: hk1.ktmhyld.com
@@ -64,8 +57,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
-- name: 29,33,34|新加坡3|@ripaojiedian
-  network: tcp
+- name: 29|🇭🇰_香港_173
   password: BxceQaOe
   port: 26704
   server: 18.163.126.92
@@ -74,8 +66,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34|香港4|@ripaojiedian
-  network: tcp
+- name: 29|🇭🇰_香港_178
   password: BxceQaOe
   port: 11035
   server: 18.162.244.203
@@ -87,10 +78,18 @@ proxies:
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 11231
-  server: 16.162.100.124
+  port: 50887
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 18.162.156.145
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 33,34|香港5|@ripaojiedian
   network: tcp

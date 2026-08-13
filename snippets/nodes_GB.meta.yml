@@ -123,6 +123,20 @@ proxies:
   type: vless
   udp: true
   uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 35|GB_1|1.5MB/s
+  network: ws
+  port: 8443
+  server: 50.7.197.2
+  servername: apkav-6.bosx.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
+  ws-opts:
+    path: /api/connect
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

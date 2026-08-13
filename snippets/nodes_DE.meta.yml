@@ -155,14 +155,6 @@ proxies:
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: 27|DE
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: dg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: dg1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: '27|德国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -223,15 +215,20 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 28|🇩🇪DE-@VPNine1
+- down: ''
+  fingerprint: ''
+  name: 28,35|🇩🇪DE_7|4.5MB/s
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: de2.sferavpn.pro
+  skip-cert-verify: false
   sni: de2.sferavpn.pro
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_18
@@ -423,9 +420,38 @@ proxies:
     headers:
       Host: edge.yzkvm.top
     path: /
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 5post.gate.v1
+  name: 35|DE_1|2.9MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: abcd
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5329ce60-8b95-4439-95fb-62cca20bd109
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_2|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lFP2ImTpt15m2yw6EivkehLp6smfaH8GRDoXdmcJbVM
+    short-id: f070801a38d9f30e
+  server: 2.27.18.136
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7bd8e88e-56d3-4396-87b3-854315db88f5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|DE_1|2.8MB/s
+  name: 35|🇪DE_3|2.4MB/s
   network: tcp
   port: 443
   server: de151.mechvpn.online
@@ -435,21 +461,57 @@ proxies:
   udp: true
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪DE_2|1.5MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 35|🇪DE_4|2.8MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: nTyGEX99oLzIlXTD12u9fvk2rsByCP2XAjoskFV2Qx8
-    short-id: a3f8c2d1e4b70956
-  server: 159.194.233.16
+    short-id: 7b2e9f4a1c830d5e
+  server: 2.56.178.136
   servername: userapi.com
   tls: true
   type: vless
   udp: true
   uuid: 47975fcf-1f4c-4808-9012-114569b081e4
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 35|🇩🇪DE_5|2.5MB/s
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- name: 35|🇪DE_6|2.7MB/s
+  password: su2j2TfjY
+  port: 64200
+  server: 154.195.173.209
+  type: http
+  udp: true
+  username: WwDyfLyzH
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|🇪DE_8|1.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 18443
+  reality-opts:
+    public-key: YvhcuqXRqPigT7_rp9vsV5LAdxXHN8eWB_17SchS_S8
+    short-id: ''
+  server: 193.233.91.177
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
   xudp: true
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519
