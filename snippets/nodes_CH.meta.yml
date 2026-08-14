@@ -11,3 +11,62 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|瑞士_🇨🇭_19
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: 5a8e1a04f3d92b67
+  server: 2.26.129.247
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5eddeef-737a-4126-8d1e-527f85d7ed18
+- client-fingerprint: chrome
+  name: 29|瑞士_🇨🇭_123
+  network: ws
+  port: 443
+  server: 194.147.173.116
+  servername: vod.ensf.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+- client-fingerprint: chrome
+  name: 29|瑞士_🇨🇭_149
+  network: ws
+  port: 443
+  server: 140.238.208.210
+  servername: vod.ensf.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+- client-fingerprint: chrome
+  name: 29|瑞士_🇨🇭_324
+  network: ws
+  port: 443
+  server: 45.143.200.245
+  servername: vod.ensf.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
