@@ -871,8 +871,7 @@ proxies:
   uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|US_1|2.5MB/s
-  network: tcp
+  name: 29|美国_🇺🇸_82
   port: 443
   reality-opts:
     public-key: oYo4UjPmIVNSFTLYR7wuadY2v44sVuckzRAKyzi0UAE
@@ -1232,86 +1231,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_2|2.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- name: 35,37|US_speednode_0126
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 35|🇸US_1|1016KB/s
   port: 443
-  server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
-  sni: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
   tls: true
   type: http
   udp: true
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- name: 35,37|US_speednode_0131
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0143
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0144
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0148
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_8|3.3MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_9|1.9MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.42
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: firefox
-  encryption: none
-  name: 35|🇸US_10|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: uO6RPMi31-Q2JwZ1YALarJplhlBRVhpA7NsXDW3KTyk
-    short-id: 4104ca12a90b4285
-  server: 198.251.78.29
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
-  xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1405,6 +1331,14 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 37|US_speednode_0126
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0127
@@ -1438,6 +1372,14 @@ proxies:
 - name: 37|US_speednode_0130
   port: 9002
   server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0131
+  password: None
+  port: 9002
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
@@ -1528,6 +1470,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0143
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0144
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0145
   password: None
   port: 9002
@@ -1546,6 +1502,13 @@ proxies:
 - name: 37|US_speednode_0147
   port: 9002
   server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0148
+  port: 9002
+  server: 156.146.59.9
   skip-cert-verify: true
   tls: true
   type: http
