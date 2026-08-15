@@ -1787,6 +1787,67 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|🇷KR_2|4.8MB/s
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: star-shrimp.rooster465.autos
+  skip-cert-verify: true
+  sni: star-shrimp.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_2|1.7MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭PH_1|2.8MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8232
+  server: cn06.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇵🇭PH_2|2.2MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8233
+  server: cn06.somethingstranges.com
+  type: ss
+  udp: true
+- name: 35|🇰🇷KR_3|3.8MB/s
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: enough-lamb.rooster465.autos
+  sni: enough-lamb.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸US_2|1.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+  udp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161

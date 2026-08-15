@@ -2401,7 +2401,7 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: 28|142960 | ⚡️Telegram = t.me/SOS...
+- name: 28|⚛️49@oneclickvpnkeys
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: 109.176.30.146
@@ -2664,6 +2664,18 @@ proxies:
   obfs-password: txwr28j1lntoy0sj
   password: d86efa900c2f4bb6bde662f1ef6413b8
   port: 52067
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '28|🇫🇮FI-🚀@VPNine1 #3'
+  obfs: salamander
+  obfs-password: ene2f0oo4n8i3inf
+  password: d86efa900c2f4bb6bde662f1ef6413b8
+  port: 52068
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
@@ -4714,6 +4726,143 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|🇷KR_2|4.8MB/s
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: star-shrimp.rooster465.autos
+  skip-cert-verify: true
+  sni: star-shrimp.rooster465.autos
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 35|US_1|1.9MB/s
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
+    short-id: 2bad4cafb9965963
+  server: 154.17.0.91
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+- encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 35|🇰HK_1|2.8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 95.40.100.129
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+  xudp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_2|1.7MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭PH_1|2.8MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8232
+  server: cn06.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇵🇭PH_2|2.2MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8233
+  server: cn06.somethingstranges.com
+  type: ss
+  udp: true
+- name: 35|SG_1|1.9MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 45647
+  server: yazhouany02.twzq59.cc
+  sni: yazhou11ak.2uuzhe.com
+  type: anytls
+  udp: true
+- name: 35|🇰🇷KR_3|3.8MB/s
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: enough-lamb.rooster465.autos
+  sni: enough-lamb.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸US_2|1.9MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+  udp: true
+- name: 35|🇺🇸US_3|4.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
+    short-id: 660d5a6915710e6e
+  server: 38.47.113.204
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+- name: 35|ZA_1|1.2MB/s
+  password: aa
+  port: 89
+  server: 160.124.240.188
+  type: http
+  udp: true
+  username: aa
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 35|🇺🇸US_4|1023KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: mina-production-f048.up.railway.app
+  servername: mina-production-f048.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/4c27fd46-708c-1af6-8a69-136a2bf8c847
+  xudp: true
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
