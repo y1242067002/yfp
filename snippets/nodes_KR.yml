@@ -7,7 +7,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇰🇷_韩国_83
+- name: 29,35|🇰🇷KR_3|1.4MB/s
+  network: tcp
   password: FH72359861
   port: 443
   server: complete-narwhal.rooster465.autos
@@ -125,23 +126,30 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 35|🇷KR_2|5.5MB/s
+- name: 35|KR_1|5.1MB/s
   network: tcp
-  password: FH72359861
+  password: HC04361579
   port: 443
-  server: 43.202.61.210
-  skip-cert-verify: false
-  sni: loyal-molly.rooster465.autos
+  server: key-barnacle.rooster465.autos
+  skip-cert-verify: true
+  sni: key-barnacle.rooster465.autos
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 35|🇰🇷KR_3|5.0MB/s
+- name: 35|🇰🇷KR_4|4.5MB/s
   network: tcp
   password: FH72359861
   port: 443
-  server: 54.180.158.231
-  skip-cert-verify: false
-  sni: precise-locust.rooster465.autos
+  server: one-dove.rooster465.autos
+  skip-cert-verify: true
+  sni: one-dove.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇰🇷KR_5|2.0MB/s
+  network: tcp
+  password: FH72359861
+  port: 443
+  server: aware-coyote.rooster465.autos
+  skip-cert-verify: true
+  sni: aware-coyote.rooster465.autos
   type: trojan
   udp: true

@@ -1021,158 +1021,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 35|🇸US_1|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_2|1.4MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: api.ferrin.uk
-  servername: e7e90e6b.ferrin.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇸US_1|3.0MB/s
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 192.26.51.202
+  servername: tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- encryption: none
-  name: 35|🇺🇸US_3|1.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 91.206.71.8
-  type: vless
-  udp: true
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=Telegram🇳 @WangCai2
-  xudp: true
-- name: 35|🇺🇸US_4|1.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vms.lifetime38.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- name: 35,37|US_speednode_0135
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0140
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0143
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0151
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0155
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_10|2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.189.171.163
-  type: ss
-  udp: true
-- name: 35|🇺🇸US_11|3.0MB/s
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_12|1.0MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|2.4MB/s
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_14|4.1MB/s
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_15|1.1MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_16|2.8MB/s
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 35|🇺🇸US_2|1008KB/s
   port: 443
   server: jewelscollecti.icu
   skip-cert-verify: true
@@ -1180,60 +1043,40 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_17|1.2MB/s
+- name: 35|🇺🇸US_3|1.9MB/s
   port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_18|3.0MB/s
+- name: 35|🇺🇸US_4|1.2MB/s
   port: 443
-  server: goedkoopgeluid.icu
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇸US_5|4.3MB/s
+  network: tcp
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20041
+  server: oss-shanghai.micron-qwer.com
   skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
+  sni: mpvideo.qpic.cn
+  type: trojan
   udp: true
-- name: 35|🇺🇸US_19|4.4MB/s
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_20|3.7MB/s
-  port: 443
-  server: fullmanfirm.icu
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_6|4.9MB/s
+  network: tcp
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20046
+  server: oss-shanghai.micron-qwer.com
   skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
+  sni: mpvideo.qpic.cn
+  type: trojan
   udp: true
-- name: 35|🇸US_21|2.3MB/s
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 35|🇺🇸US_22|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 45.80.111.175
-  type: vless
-  udp: true
-  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
-  ws-opts:
-    headers:
-      Host: cnd.uk.newwaycdn.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /cdn/assets/stream
-  xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1417,6 +1260,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0135
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0136
   port: 9002
   server: 138.199.35.195
@@ -1453,6 +1304,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0140
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0141
   port: 443
   server: fan.226278.xyz
@@ -1462,6 +1320,13 @@ proxies:
 - name: 37|US_speednode_0142
   port: 9002
   server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0143
+  port: 9002
+  server: 156.146.59.28
   skip-cert-verify: true
   tls: true
   type: http
@@ -1517,6 +1382,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0151
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0152
   port: 9002
   server: 156.146.59.8
@@ -1534,6 +1406,13 @@ proxies:
 - name: 37|US_speednode_0154
   port: 9002
   server: 156.146.59.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0155
+  port: 9002
+  server: 156.146.59.27
   skip-cert-verify: true
   tls: true
   type: http
