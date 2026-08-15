@@ -140,75 +140,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 35|HK_1|3.5MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    path:
+    - /x
+  name: 35|🇰HK_2|3.5MB/s
+  network: http
+  packet-encoding: xudp
+  port: 800
+  server: 47.83.247.150
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
+  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
+  xudp: true
+- cipher: chacha20-ietf
+  name: 35|🇰HK_3|4.6MB/s
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8104
+  server: cn02.somethingstranges.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇰HK_6|4.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
-      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf
-  name: 35|🇰HK_2|3.5MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_4|4.4MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8108
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_5|1.3MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8102
-  server: cn01.somethingstranges.com
-  type: ss
-  udp: true
-- name: 35|🇰HK_6|1.8MB/s
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: eminent-lamb.rooster465.autos
-  sni: eminent-lamb.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_7|3.4MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8106
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
+  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161

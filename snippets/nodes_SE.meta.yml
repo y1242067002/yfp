@@ -49,6 +49,21 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: rpc.v1.SyncService
+  name: 35|SE_1|3.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 164.37.100.59
+  servername: edge1.numberoneok.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dcdf114b-e2db-4cc1-bfa4-f30a0a47da7a
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|SE_speednode_0116
