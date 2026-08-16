@@ -748,8 +748,7 @@ proxies:
   sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 27,28,35|🇺🇸US_3|3.1MB/s
+- name: 27,28|🇺|US|@wxgqlfx|16
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.226.172.222
@@ -757,7 +756,6 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-  udp: true
 - name: '27|美国 #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -1177,8 +1175,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|US_1|3.4MB/s
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: HxDIQIyhKA6Ac57hT9ZNoFU2kT1_82y61gbIW7KvuFo
+    short-id: 4b7d2b4d8f6d5cf2
+  server: 45.62.118.37
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb6b8710-97a5-4bff-9658-f265b0ea34e5
 - auth: ed77b662dbdf1a817d5eb75ae940cac4
-  name: 35|🇸US_1|1.9MB/s
+  name: 35|🇺🇸US_2|1.8MB/s
   password: ed77b662dbdf1a817d5eb75ae940cac4
   port: 50160
   server: 198-46-188-116.liao.kdns.fr
@@ -1187,7 +1199,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 2630a66444286f47ce591752f28adf5e
-  name: 35|🇺🇸US_2|3.2MB/s
+  name: 35|🇺🇸US_3|2.5MB/s
   password: 2630a66444286f47ce591752f28adf5e
   port: 50160
   server: 154-49-127-140.liao.kdns.fr
@@ -1195,19 +1207,6 @@ proxies:
   sni: 154-49-127-140.liao.kdns.fr
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 35|🇺🇸US_4|1.9MB/s
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 154.17.4.70
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
