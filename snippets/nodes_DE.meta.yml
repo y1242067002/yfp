@@ -172,6 +172,16 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 28||DE|@wxgqlfx|223
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr131.mechvpn.online
+  skip-cert-verify: true
+  sni: fr131.mechvpn.online
+  tls: false
+  type: hysteria2
 - name: 28|𝐧  𝐞𝐧  🇩🇪-@vpnserverrr
   obfs: salamander
   obfs-password: w086cefx0803sepr
@@ -182,98 +192,169 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
-- name: 29|🇩🇪_德国_154
-  password: FH72359861
+- alpn:
+  - h3
+  name: 28|🇪|DE|@wxgqlfx|213
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
-  server: summary-lemming.rooster465.autos
+  server: de.1.22.washing.help
   skip-cert-verify: true
-  sni: summary-lemming.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国_108
-  password: FH72359861
-  port: 443
-  server: summary-lemming.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_110
-  port: 5000
-  reality-opts:
-    public-key: ImZszpFLaRorXOn0ISNH4V1YN71lwaLJzzvqqnFwPHk
-    short-id: fc10
-  server: 89.125.168.45
-  servername: yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 526c4eb2-9b4e-563a-b9e4-7fd6d0f28733
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_150
-  port: 443
-  reality-opts:
-    public-key: IhbpvWBZmJEzDs4eI2zoFmL_a-1J_7Z7Sepyrn7-xF8
-    short-id: 6547735997055a35
-  server: 64.188.112.82
-  servername: nodefulcrum.mooo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4d4d103-5074-47e9-96e6-5431f4e35c57
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_115
-  port: 443
-  reality-opts:
-    public-key: vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A
-    short-id: bd8a588cebc3395a
-  server: bel-03.node.lumixnet.com
-  servername: bel-03.node.lumixnet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
-- name: 29|🇩🇪_德国_142
-  port: 1000
-  server: 5.75.197.25
-  skip-cert-verify: true
+  sni: germany1.h2corp.local
   tls: false
-  type: vless
-  udp: true
-  uuid: 97ee39cc-cb22-42fd-9476-0c1a5f5a9621
-- name: 29|🇩🇪_德国_145
-  port: 22579
-  server: 89.167.12.115
+  type: hysteria2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29,35|🇺US_1|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 39ad12ba-914a-4aa1-a825-3ee4db7c0a52
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_88
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.231
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_89
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.229
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: firefox
+  name: 29|🇩🇪_德国_31
+  port: 443
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  server: de.monkora.org
+  servername: de.monkora.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 921db318-1694-4408-9cc7-c93df39f7f8e
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_32
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 2.26.48.130
+  servername: eu-central.cendora.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_169
-  network: ws
+  name: 29|🇩🇪_德国_34
+  port: 443
+  server: de2.mehab.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58a38ebd-30e6-48bd-a1ab-d0babb1da37f
+- name: 29|🇩🇪_德国_37
+  password: bptHV5U91mWneB61rRKhCQ8f
+  port: 443
+  server: 87.121.218.169
+  skip-cert-verify: true
+  sni: 87.121.218.169
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_47
+  port: 443
+  server: 194.24.161.140
+  servername: fr140.mechvpn.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_69
   port: 2053
-  server: 150.230.146.170
-  servername: forfreeuse.rtqa.ru
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: nl-t3.vinnypuxtomoon.today
+  servername: nl-t3.vinnypuxtomoon.today
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29,35|🇺🇸US_22|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_90
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 29|🇩🇪_德国_101
+  port: 22224
+  server: 3.124.227.195
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_171
+  name: 29|🇩🇪_德国_355
   network: ws
   port: 2053
   server: 163.5.187.118
@@ -288,10 +369,10 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_172
+  name: 29|🇩🇪_德国_362
   network: ws
   port: 2053
-  server: 5.187.6.30
+  server: 87.106.141.152
   servername: forfreeuse.rtqa.ru
   skip-cert-verify: true
   tls: true
@@ -303,18 +384,44 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: 35|🇪DE_1|2.3MB/s
+  name: 29|🇩🇪_德国_360
   network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  port: 2053
+  server: 57.129.47.4
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 0a12328a-572e-46a5-9332-84d21a986407
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: SvnTeamChannel.global.ssl.fastly.net
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: 29|🇩🇪_德国_363
+  network: ws
+  port: 2053
+  server: 147.45.197.233
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: 29|🇩🇪_德国_392
+  network: ws
+  port: 1324
+  server: apn.zyro-lab.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7d3963b5-4029-4878-a251-2437deaebcd7
+  ws-opts:
     path: /
 - client-fingerprint: firefox
   encryption: none
