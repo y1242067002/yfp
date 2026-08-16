@@ -98,26 +98,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 35|🇬SG_1|5.3MB/s
+- name: 35|🇬SG_1|5.6MB/s
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60572
-  server: sivp666.ipad1el.com
-  sni: yzhou015.jdvipkuai.cc
+  port: 56277
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: true
+  sni: xjp03.ascwt179.com
   type: anytls
   udp: true
 - cipher: rc4-md5
-  name: 35|🇸🇬SG_2|4.9MB/s
-  obfs: tls1.2_ticket_auth
+  name: 35|🇬SG_2|2.8MB/s
+  obfs: plain
   obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 28150
+  port: 63699
   protocol: auth_aes128_md5
   protocol-param: 203463:YMo3sn
   server: api.meituan88.com
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇬SG_3|1.8MB/s
+  name: 35|🇸🇬SG_3|2.5MB/s
   obfs: plain
   obfs-param: 665203463.douyin.com
   password: di15PV
@@ -127,3 +128,22 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇸🇬SG_4|4.3MB/s
+  password: f7493282-492a-4a96-8582-0ea9e1d9c268
+  port: 27045
+  server: a.salirukou.shop
+  skip-cert-verify: true
+  sni: svaasx.yfftftf.shop
+  type: anytls
+  udp: true
+- name: 35|🇬SG_5|2.1MB/s
+  password: ESfDSCxpD
+  port: 64462
+  server: 154.219.254.66
+  type: http
+  udp: true
+  username: n17sMRE7S

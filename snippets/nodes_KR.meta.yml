@@ -28,19 +28,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇷KR_1|1.8MB/s
-  obfs: plain
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 35798
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
+- name: 35|KR_1|5.0MB/s
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 47901
+  server: sivp555.ipad1el.com
+  skip-cert-verify: true
+  sni: kr06.nyssl.cc
+  type: anytls
   udp: true
 - cipher: rc4-md5
-  name: 35|🇷KR_2|3.8MB/s
+  name: 35|🇷KR_2|3.1MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
