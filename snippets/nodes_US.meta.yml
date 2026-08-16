@@ -772,11 +772,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 28,35|🇸US_3|2.7MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 28|🇺|US|@wxgqlfx|16
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.226.172.222
@@ -784,8 +780,6 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
 - name: 28|🇺🇸|US|@wxgqlfx|219
   password: b41ad7f941ffce755cb8601bfd0f02ca
   port: 50160
@@ -1181,41 +1175,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸US_1|1010KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: rvg-production-8c74.up.railway.app
-  servername: rvg-production-8c74.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19f13499-842e-e495-73cf-f52b10816e6e
-  xhttp-opts:
-    host: rvg-production-8c74.up.railway.app
-    mode: stream-up
-    path: /xhttp-siz10/stream-up/19f13499-842e-e495-73cf-f52b10816e6e
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇺🇸US_2|2.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-  udp: true
-  up: ''
 - cipher: chacha20-ietf
-  name: 35|🇸US_4|3.5MB/s
+  name: 35|🇸US_1|2.5MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -1225,20 +1186,15 @@ proxies:
   server: cn18.somethingstranges.com
   type: ss
   udp: true
-- name: 35|🇺🇸US_5|1.4MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇺🇸US_2|1007KB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
   udp: true
-- name: 35|🇸US_6|1.7MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-  udp: true
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp

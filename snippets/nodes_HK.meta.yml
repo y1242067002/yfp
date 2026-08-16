@@ -81,8 +81,7 @@ proxies:
   type: vless
   udp: true
   uuid: 921db318-1694-4408-9cc7-c93df39f7f8e
-- name: 29,35|🇭🇰HK_4|1.8MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_96
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
   server: 2c.fast9988.com
@@ -127,7 +126,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 35|🇰HK_1|5.6MB/s
+  name: 35|HK_1|4.3MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -140,7 +139,7 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: 35|🇭🇰HK_2|1.4MB/s
+- name: 35|🇭🇰HK_2|1.1MB/s
   password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
   port: 448
   server: 119.147.134.47
@@ -152,7 +151,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: 35|🇭🇰HK_3|2.5MB/s
+  name: 35|🇭🇰HK_3|1.6MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -165,9 +164,27 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 35|🇭🇰HK_4|3.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 95.40.100.129
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+  xudp: true
 - alterId: '0'
   cipher: auto
-  name: 35|🇭🇰HK_5|1.1MB/s
+  name: 35|🇭🇰HK_5|4.7MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
@@ -182,26 +199,8 @@ proxies:
       Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 35|🇰HK_6|3.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-  xudp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_7|2.5MB/s
+  name: 35|🇭🇰HK_6|1.2MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -212,18 +211,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_8|2.9MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8115
-  server: cn03.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_9|5.2MB/s
+  name: 35|🇭🇰HK_7|1.5MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -234,7 +222,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_10|4.4MB/s
+  name: 35|🇭🇰HK_8|1.6MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -245,48 +233,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_11|3.3MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_12|4.8MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_13|3.4MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8105
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
-- name: 35|🇭🇰HK_14|2.9MB/s
-  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a4
-  port: 448
-  server: 119.147.134.47
-  skip-cert-verify: true
-  sni: ssp.vivo.com.cn
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_15|4.3MB/s
+  name: 35|🇰HK_9|2.1MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -297,7 +244,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_16|4.3MB/s
+  name: 35|🇭🇰HK_10|1.6MB/s
   password: passwd
   plugin: obfs
   plugin-opts:
