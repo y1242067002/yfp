@@ -17,7 +17,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: rc4-md5
-  name: 35|🇷KR_2|3.1MB/s
+  name: 35|🇷KR_2|5.5MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
@@ -26,4 +26,14 @@ proxies:
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇷KR_3|2.9MB/s
+  network: tcp
+  password: PQ05174892
+  port: 443
+  server: rare-lion.rooster465.autos
+  skip-cert-verify: false
+  sni: rare-lion.rooster465.autos
+  type: trojan
   udp: true
