@@ -109,16 +109,16 @@ proxies:
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 17111
-  server: 18.163.126.92
+  port: 1138
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 95.40.111.110
+  port: 11035
+  server: 43.198.248.121
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -126,7 +126,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 27161
-  server: 95.40.95.57
+  server: 18.163.122.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -140,53 +140,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    path:
-    - /x
-  name: 35|🇰HK_2|3.5MB/s
-  network: http
-  packet-encoding: xudp
-  port: 800
-  server: 47.83.247.150
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
-  xudp: true
-- cipher: chacha20-ietf
-  name: 35|🇰HK_3|4.6MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇰HK_6|4.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161

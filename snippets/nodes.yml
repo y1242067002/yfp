@@ -1692,16 +1692,16 @@ proxies:
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 17111
-  server: 18.163.126.92
+  port: 1138
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 95.40.111.110
+  port: 11035
+  server: 43.198.248.121
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1709,7 +1709,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 27161
-  server: 95.40.95.57
+  server: 18.163.122.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1717,23 +1717,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 16.162.93.233
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.100.124
+  port: 44229
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 16.162.100.29
+  port: 54876
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1741,7 +1741,7 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
-  server: 16.162.109.29
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1749,31 +1749,39 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
-  server: 16.162.109.29
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44900
-  server: 18.162.154.22
+  port: 26704
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 33,34|美国|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 16.162.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 18.163.126.92
+  port: 10418
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1431
-  server: 18.162.154.22
+  port: 10418
+  server: 95.40.29.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1787,126 +1795,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|FR_1|3.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
-- alterId: 2
-  cipher: auto
-  name: 35|🇺🇸US_2|3.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    path:
-    - /x
-  name: 35|🇰HK_2|3.5MB/s
-  network: http
-  packet-encoding: xudp
-  port: 800
-  server: 47.83.247.150
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
-  xudp: true
-- name: 35|🇫🇷FR_2|1.4MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
-- cipher: chacha20-ietf
-  name: 35|🇭PH_1|4.2MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8233
-  server: cn06.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇰HK_3|4.6MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭PH_2|4.2MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8231
-  server: cn06.somethingstranges.com
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  name: 35|🇪EE_1|2.7MB/s
-  network: tcp
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  port: 449
-  server: 109.206.241.10
-  skip-cert-verify: false
-  sni: russiapower.accesscam.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇰HK_6|4.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161
