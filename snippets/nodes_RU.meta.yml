@@ -177,21 +177,16 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|RU_1|4.2MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  tls: true
-  type: vless
+- down: ''
+  fingerprint: ''
+  name: 35|🇺RU_1|3.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  type: hysteria2
   udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
+  up: ''

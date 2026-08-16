@@ -83,8 +83,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇪SE_1|1.7MB/s
-  network: tcp
+  name: 29|🇬🇧_英国_49
   port: 443
   reality-opts:
     public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
@@ -136,52 +135,6 @@ proxies:
   type: vless
   udp: true
   uuid: 27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4
-- name: 35|🇬🇧GB_2|3.4MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 35|🇬🇧GB_3|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 138.199.46.65
-  servername: s3whlhf3.b-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99476b8e-517a-4fc2-815e-6f2061c9e22d
-  ws-opts:
-    headers:
-      Host: s3whlhf3.b-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /assets/sync
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇧GB_4|2.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8444
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  server: brdg.geodema.network
-  servername: cdn.byteark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78eb4455-0d07-1bbc-93e3-7c8654f11d74
-  xudp: true
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
