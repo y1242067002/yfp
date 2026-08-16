@@ -147,3 +147,21 @@ proxies:
   uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
   ws-opts:
     path: /v1
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|RU_1|4.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true

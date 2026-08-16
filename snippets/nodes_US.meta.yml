@@ -887,7 +887,7 @@ proxies:
   ws-opts:
     path: /v1
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_163
+  name: 29,35|🇳🇱NL_2|3.2MB/s
   network: ws
   port: 443
   server: 199.232.78.159
@@ -1039,6 +1039,236 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 35|🇺US_1|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  name: 35|🇸US_2|3.0MB/s
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 104.223.73.149
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇺🇸US_3|1.8MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  udp: true
+  username: dongtaiwang.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_4|1.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: api.ferrin.uk
+  servername: e7e90e6b.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- encryption: none
+  name: 35|🇺🇸US_5|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 154.197.75.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime37.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇺🇸US_6|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 35,37|US_speednode_0124
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0128
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0130
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0136
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0140
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0142
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0150
+  port: 9002
+  server: 156.146.59.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35,37|US_speednode_0157
+  port: 9002
+  server: 156.146.59.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_15|3.3MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_16|3.1MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_17|3.7MB/s
+  port: 443
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_18|2.9MB/s
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_19|3.2MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: none
+  name: 35|🇺🇸US_20|1.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 104.19.145.222
+  type: vless
+  udp: true
+  uuid: 288bb3f1-8994-47cf-8bd8-9b7d4d716461
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: newvless2026.nova-b0f3f5.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_21|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 150.241.73.137
+  servername: eu-central.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_22|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1125,13 +1355,6 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 37|US_speednode_0124
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0125
@@ -1171,23 +1394,9 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 37|US_speednode_0128
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|US_speednode_0129
   port: 9002
   server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0130
-  port: 9002
-  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
@@ -1230,13 +1439,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0136
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0137
@@ -1266,23 +1468,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0140
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|US_speednode_0141
   port: 443
   server: fan.226278.xyz
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0142
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -1337,13 +1525,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0150
-  port: 9002
-  server: 156.146.59.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|US_speednode_0151
   port: 9002
   server: 156.146.59.41
@@ -1382,13 +1563,6 @@ proxies:
 - name: 37|US_speednode_0156
   port: 9002
   server: 156.146.59.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0157
-  port: 9002
-  server: 156.146.59.10
   skip-cert-verify: true
   tls: true
   type: http
