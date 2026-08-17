@@ -26,11 +26,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- name: 29|🇭🇰_香港_96
+- client-fingerprint: chrome
+  name: 29,35|🇰HK_4|4.2MB/s
+  network: raw
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
   server: 2c.fast9988.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -38,24 +40,24 @@ proxies:
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 1138
-  server: 43.198.107.164
+  port: 14684
+  server: 16.163.156.207
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.248.121
+  port: 29444
+  server: 43.198.240.223
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 18.163.122.95
+  port: 14684
+  server: 43.198.109.134
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -69,9 +71,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 35|HK_1|5.5MB/s
+  name: 35|HK_1|5.7MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -79,41 +83,36 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-- cipher: aes-256-cfb
-  name: 35|🇰HK_5|3.8MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 2106
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_2|4.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
+  ws-opts:
+    headers:
+      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_6|1.2MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
+  name: 35|🇰HK_3|1.3MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 59382
+  port: 18589
   protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 35|🇭🇰HK_8|2.4MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-  password: di15PV
-  port: 2111
-  protocol: auth_aes128_md5
-  protocol-param: 276924:CPFGip
+  protocol-param: 203463:YMo3sn
   server: api.meituan88.com
   type: ssr
   udp: true

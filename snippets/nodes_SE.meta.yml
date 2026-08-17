@@ -34,6 +34,22 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+- name: 28|🇪|SE|@wxgqlfx|238
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us63.mechvpn.online
+  skip-cert-verify: true
+  sni: us63.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 28|🇸🇪|SE|@wxgqlfx|213
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  skip-cert-verify: true
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 29|🇸🇪_瑞典_84
@@ -48,6 +64,24 @@ proxies:
   type: vless
   udp: true
   uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 35|SE_1|2.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: se.moktana.app
+  servername: se.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|SE_speednode_0116
