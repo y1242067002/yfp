@@ -25,7 +25,8 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: 28|🇵|JP|@wxgqlfx|15
+- auth: bc751c4c5c80f17dfbc05785c368b613
+  name: 28,35|🇵JP_5|4.3MB/s
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
@@ -33,7 +34,9 @@ proxies:
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 29|日期：08-17
+  udp: true
+- name: 29,35|🇯🇵JP_3|5.6MB/s
+  network: tcp
   password: PQ05174892
   port: 443
   server: witty-duckling.rooster465.autos
@@ -60,7 +63,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇯🇵_日本_39
+- name: 29,35|🇯🇵JP_4|4.7MB/s
+  network: tcp
   password: PQ05174892
   port: 443
   server: sterling-vervet.rooster465.autos
@@ -111,6 +115,44 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 35|JP_1|4.2MB/s
+  network: tcp
+  password: PQ05174892
+  port: 443
+  server: concise-guinea.rooster465.autos
+  skip-cert-verify: true
+  sni: concise-guinea.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇵JP_6|1.8MB/s
+  network: raw
+  password: PQ05174892
+  port: 443
+  server: champion-alien.rooster465.autos
+  skip-cert-verify: false
+  sni: champion-alien.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇵JP_7|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /sg-orcl
+  xudp: true
 - name: 37|JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
