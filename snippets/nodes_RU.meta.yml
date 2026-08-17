@@ -56,53 +56,47 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_14
+  port: 9444
+  reality-opts:
+    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
+    short-id: 12b9ecabbf3a3b88
+  server: 176.109.85.141
+  servername: max.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 694fbac8-56da-4ecd-be68-59c57b700e93
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_6
+  name: 29|🇷🇺_俄罗斯_26
   port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: polbridge1.frost-api.com
-  servername: eh.vk.com
+  server: begin.magazinetut.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
+  uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_18
-  port: 5000
-  reality-opts:
-    public-key: 0XUuWS1x6kswbVN0rgXLpZ1pTCgnyhk7ItuoklaNoHI
-    short-id: 9e
-  server: 185.72.145.121
-  servername: www.vk.com
+  name: 29|🇷🇺_俄罗斯_28
+  port: 8443
+  server: 185.244.163.223
+  servername: id.tutdesignstudio.site
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 1cf0f330-88c6-5b9b-866e-607e08cf87d6
+  uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_38
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  server: 217.19.122.234
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_78
+  name: 29|🇷🇺_俄罗斯_74
   port: 8443
   server: id.tutdesignstudio.site
+  servername: id.tutdesignstudio.site
   skip-cert-verify: true
   tls: true
   type: vless
@@ -110,87 +104,110 @@ proxies:
   uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_83
-  port: 443
+  name: 29|🇷🇺_俄罗斯_65
+  port: 2027
   reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: node3.frost-api.com
-  servername: max.ru
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 78.159.247.253
+  servername: storage.yandex.net
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- name: 29|🇷🇺_俄罗斯_141
+  network: ws
+  port: 2200
+  server: 80.93.62.207
+  servername: rzd.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 020530ec-acf3-41a3-b93e-838e6860bd74
+  ws-opts:
+    path: /v1
 - client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_274
-  network: ws
-  port: 14443
-  server: mws.tunnelgate.org
-  servername: mws.tunnelgate.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: mws.tunnelgate.org
-    path: /ru
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_291
+  name: 29|🇷🇺_俄罗斯_142
   network: ws
   port: 2200
-  server: 77.222.32.201
+  server: 194.26.229.222
   servername: rzd.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: c366f788-ea31-4a3a-897e-794c9f935896
+  uuid: a738eec8-f24f-422c-8eba-3538f93fdab1
   ws-opts:
     path: /v1
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯_320
+- client-fingerprint: android
+  name: 29|🇷🇺_俄罗斯_143
   network: ws
   port: 2200
-  server: 31.177.83.226
+  server: 186.246.12.81
   servername: rzd.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 3e530a2c-7fad-42b9-9fde-ea88d9f8ffb3
+  uuid: 6ccb5e10-5758-4e08-aa7e-290b887f458b
   ws-opts:
     path: /v1
-- name: 29|🇷🇺_俄罗斯_366
+- name: 29|🇷🇺_俄罗斯_145
   network: ws
-  port: 2053
-  server: 45.139.184.183
-  servername: forfreeuse.rtqa.ru
+  port: 2200
+  server: 168.222.140.205
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
   ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: bridge-akenai-grpc-max
-  name: 35|🇷RU_1|2.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: dg-XAKwtCTyYz0HN94sbNCM8xLwY4lBHkUa883nTFn8
-    short-id: be7d4026
-  server: 213.178.155.239
-  servername: max.ru
-  tls: true
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_147
+  network: ws
+  port: 4100
+  server: 104.171.135.186
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 87b320fe-2329-498d-997b-7b956a99eecb
-  xudp: true
+  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
+  ws-opts:
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_148
+  network: ws
+  port: 2200
+  server: 186.246.6.234
+  servername: rzd.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 82ae728b-49a7-4b86-8976-1125da20cd6b
+  ws-opts:
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_215
+  network: ws
+  port: 2200
+  server: 201.24.118.145
+  servername: rzd.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
+  ws-opts:
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_367
+  network: ws
+  port: 2200
+  server: 104.171.137.185
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b037295-b93f-4ed1-b3ee-0efb8bc2f093
+  ws-opts:
+    path: /v1

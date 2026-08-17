@@ -89,94 +89,47 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_49
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: eng3.helper-internet.com
-  servername: eng3.helper-internet.com
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_177
+  network: ws
+  port: 2053
+  server: 91.193.58.125
+  servername: vlso5.1d.mom
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_48
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 146.185.211.2
-  servername: max.ru
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_178
+  network: ws
+  port: 2053
+  server: 91.193.58.125
+  servername: vlso5.1d.mom
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
-- client-fingerprint: firefox
-  name: 29|🇬🇧_英国_51
-  port: 443
-  reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  server: uk.monkora.org
-  servername: uk.monkora.org
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    path: /
+- name: 29|🇬🇧_英国_180
+  network: ws
+  port: 80
+  server: 91.193.58.24
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 921db318-1694-4408-9cc7-c93df39f7f8e
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_52
-  port: 1443
-  reality-opts:
-    public-key: Yf10DFHbCihRVIDaxQkkib1kEBy4uIf2vCiPml7M2AI
-    short-id: 0441f3e34348cb15
-  server: 151.243.28.59
-  servername: unitking.snowfalls.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|GB_1|1.6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 61443
-  reality-opts:
-    public-key: RnSMVp5KuKRxvnHm5fyhqicDZa3cBTZ-PN82_6RV2AA
-    short-id: ''
-  server: 89.23.116.27
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6688ef96-b385-48a6-9094-ed1a42b95066
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|🇬🇧GB_2|2.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
-    short-id: 6ba85179e30d4fc2
-  server: 31.77.154.46
-  servername: 360.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62a08ea5-0564-47b4-a92c-25be07ad6358
-  xudp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443

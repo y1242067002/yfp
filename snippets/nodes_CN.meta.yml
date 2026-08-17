@@ -35,21 +35,52 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: 29|🇨🇳_中国_95
-  port: 12528
-  server: 120.227.1.43
+- name: 29|🇨🇳_中国_19
+  port: 52683
+  server: jp.sofast.live
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
-- alterId: 2
-  cipher: auto
-  name: 29|🇨🇳_中国_100
-  port: 30806
-  server: v6.hdacd.com
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: 29|🇨🇳_中国_21
+  port: 58011
+  server: us22.sofast.live
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: 29|🇨🇳_中国_40
+  port: 52683
+  server: jp.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇨🇳_中国_66
+  port: 443
+  reality-opts:
+    public-key: wUt_1p8mZs72gjDPEC9S4afPBU44Ev2blujLvXGEeVs
+    short-id: 21c9a9b2ebd67e4a
+  server: 110.110.110.110
+  servername: www.sme.com.au
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0332488-02a5-4cb3-8a64-d1e9d9f4b798
+- name: 29|🇨🇳_中国_366
+  network: ws
+  port: 13565
+  server: 125.77.20.210
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 65500794-99b4-0343-bd18-a12453257a2b
+  ws-opts:
+    path: /
