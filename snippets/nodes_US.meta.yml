@@ -740,16 +740,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|🇸US
-  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: true
-  sni: srvhy1.ezcon24.online
-  tls: false
-  type: hysteria2
-- auth: 90af65ff00ef2ff089d28d6a11fc10de
-  name: 27,28,35|🇸US_1|2.3MB/s
+- name: 27,28|🇺🇸|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
@@ -757,7 +748,6 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-  udp: true
 - name: 27,28|🇸|US|@wxgqlfx|16
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -788,6 +778,14 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 28|🇺🇸|US|@wxgqlfx|251
+  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
+  port: 443
+  server: node3.vpnushka.lol
+  skip-cert-verify: true
+  sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
 - name: 28|🇺🇸|US|@wxgqlfx|219
@@ -1216,54 +1214,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: edge
-  name: 35|🇺🇸US_2|3.4MB/s
-  network: ws
-  port: 443
-  server: xmmct.130209.xyz
-  servername: usa.811350.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: usa.811350.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- down: ''
-  fingerprint: ''
-  name: 35|🇸US_3|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 2630a66444286f47ce591752f28adf5e
-  port: 50160
-  server: 154-49-127-140.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 154-49-127-140.liao.kdns.fr
-  type: hysteria2
-  udp: true
-  up: ''
-- name: 35|🇺🇸US_4|2.0MB/s
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- disable-sni: true
-  down: ''
-  fingerprint: ''
-  name: 35|🇺🇸US_7|2.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 76c1579d-e996-473c-b23f-2c8301082602
-  port: 11683
-  server: 40t1.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  udp: true
-  up: ''
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp

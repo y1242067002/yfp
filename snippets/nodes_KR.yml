@@ -1,6 +1,5 @@
 proxies:
-- name: 29,35|KR_1|3.8MB/s
-  network: tcp
+- name: 29|🇰🇷_韩国_8
   password: PQ05174892
   port: 443
   server: regular-raptor.rooster465.autos
@@ -17,24 +16,4 @@ proxies:
   sni: enough-lamb.rooster465.autos
   tls: true
   type: trojan
-  udp: true
-- name: 35|🇰🇷KR_3|5.3MB/s
-  network: tcp
-  password: PQ05174892
-  port: 443
-  server: precious-stag.rooster465.autos
-  skip-cert-verify: true
-  sni: precious-stag.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 35|🇷KR_5|1.8MB/s
-  obfs: plain
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 44593
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
   udp: true
