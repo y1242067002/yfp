@@ -1222,6 +1222,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- down: ''
+  fingerprint: ''
+  name: 35|🇸US_1|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+  udp: true
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 35|🇺🇸US_2|2.3MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: B86A0475-AB74-44BE-8209-A67F85CBF52C
+  port: 21000
+  ports: 21000-21199
+  server: us6.dexlos.com
+  skip-cert-verify: false
+  sni: us6.dexlos.com
+  type: hysteria2
+  udp: true
+  up: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇸US_3|4.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 37735
+  reality-opts:
+    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
+    short-id: 42fe6ac8
+  server: rm-us-04.409648.xyz
+  servername: d1--ov-gotcha07.bilivideo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
