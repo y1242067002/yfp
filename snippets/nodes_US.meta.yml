@@ -780,7 +780,11 @@ proxies:
   sni: hy2.frdmhere.com
   tls: false
   type: hysteria2
-- name: '27|美国 #3'
+- down: ''
+  fingerprint: ''
+  name: 27,35|🇺🇸US_11|2.9MB/s
+  obfs: ''
+  obfs-password: ''
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -788,6 +792,8 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - name: 27|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -1222,21 +1228,266 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: safari
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 35|🇸US_1|1.6MB/s
+  network: grpc
+  port: 10239
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 35|🇺🇸US_2|1.3MB/s
+  network: grpc
+  port: 10238
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- name: 35,37|US_speednode_0153
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: auto
+  name: 35|🇺🇸US_7|1.1MB/s
+  network: none
+  port: 47212
+  server: 216.167.54.75
+  tls: false
+  type: vless
+  udp: true
+  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
+- name: 35|🇺🇸US_8|2.8MB/s
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_9|3.4MB/s
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+- name: 35|🇺🇸US_10|4.3MB/s
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_12|1.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: inetchnl-production-48d6.up.railway.app
+  servername: inetchnl-production-48d6.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01479a99-4222-6bec-8093-47353b3991b9
+  xhttp-opts:
+    host: inetchnl-production-48d6.up.railway.app
+    mode: packet-up
+    path: /xhttp-siz10/packet-up/01479a99-4222-6bec-8093-47353b3991b9
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_13|1.3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: inetchnl-production-6101.up.railway.app
+  servername: inetchnl-production-6101.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44a23aca-1eda-22f3-5303-82e34b321fca
+  xhttp-opts:
+    host: inetchnl-production-6101.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/44a23aca-1eda-22f3-5303-82e34b321fca
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_14|1.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: x4g-production-cfa09.up.railway.app
+  servername: x4g-production-cfa09.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44c3be3c-de94-7e63-dd70-885ed7ccfe83
+  xhttp-opts:
+    host: x4g-production-cfa09.up.railway.app
+    mode: packet-up
+    path: /xhttp-siz10/packet-up/44c3be3c-de94-7e63-dd70-885ed7ccfe83
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_15|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 69.46.46.111
+  servername: rvg-production-7dfb.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b44c0f43-6824-b02f-4827-2ac84bfa6802
+  ws-opts:
+    headers:
+      Host: rvg-production-7dfb.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws/b44c0f43-6824-b02f-4827-2ac84bfa6802
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_16|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 69.46.46.114
+  servername: rvg-production-97ae.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: dcf890f8-2557-854a-f170-ac50dd0a4d1c
+  ws-opts:
+    headers:
+      Host: rvg-production-97ae.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws/dcf890f8-2557-854a-f170-ac50dd0a4d1c
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 35|US_1|4.2MB/s
+  name: 35|🇸US_17|2.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
-    short-id: 289c74e0
-  server: pq.aws66.yydjc.top
-  servername: iosapps.itunes.apple.com
+    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
+    short-id: e4f6a3446ac34a24
+  server: 140.99.223.19
+  servername: savesafe.run
   tls: true
   type: vless
   udp: true
-  uuid: f30663a7-a924-4211-870f-a5e0bd0948aa
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_18|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
+    short-id: e4f6a3446ac34a24
+  server: 140.99.223.20
+  servername: savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺US_19|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
+    short-id: e4f6a3446ac34a24
+  server: 140.99.223.35
+  servername: savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_20|3.3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 69.46.46.107
+  servername: rvg-production-2aea.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
+  xhttp-opts:
+    host: rvg-production-2aea.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_21|4.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 50159
+  reality-opts:
+    public-key: HxDIQIyhKA6Ac57hT9ZNoFU2kT1_82y61gbIW7KvuFo
+    short-id: 4b7d2b4d8f6d5cf2
+  server: 45.62.118.37
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb6b8710-97a5-4bff-9658-f265b0ea34e5
   xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
@@ -1553,13 +1804,6 @@ proxies:
 - name: 37|US_speednode_0152
   port: 9002
   server: 156.146.59.8
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0153
-  port: 9002
-  server: 156.146.59.25
   skip-cert-verify: true
   tls: true
   type: http

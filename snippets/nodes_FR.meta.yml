@@ -118,6 +118,38 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
+- name: 35|🇷FR_1|3.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇷FR_2|1.2MB/s
+  network: ws
+  port: 8443
+  server: 31.59.121.155
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 35|🇫🇷FR_3|1.3MB/s
+  network: tcp
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  sni: lucky-marmot.rooster465.autos
+  type: trojan
+  udp: true
 - name: 37|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
