@@ -60,9 +60,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 35|🇭🇰HK_2|5.1MB/s
+  name: 35|🇭🇰HK_2|1.8MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
@@ -76,6 +78,34 @@ proxies:
   ws-opts:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_3|1.3MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 39514
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_6|5.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8693fed9-62e2-48ba-9819-380acb01923d
+  ws-opts:
+    headers:
+      Host: 5dcc4161bbb1a6ad65f913e6d5725639.mobgslb.tbcache.com
     path: /
   xudp: true
 - name: 37|HK_speednode_0012
