@@ -740,14 +740,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|🇸US
-  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: true
-  sni: srvhy1.ezcon24.online
-  tls: false
-  type: hysteria2
 - name: 27,28|🇺🇸|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
@@ -922,8 +914,7 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|US_1|1.0MB/s
-  network: tcp
+  name: 29|🇺🇸_美国_79
   port: 11094
   reality-opts:
     public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
@@ -1223,164 +1214,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸US_4|2.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 91.193.58.125
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /socks5=888:888@hkip.1d.mom:1080
-  xudp: true
-- name: 35,37|US_speednode_0129
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0136
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0144
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇸US_8|2.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.191.198.248
-  type: ss
-  udp: true
-- name: 35|🇸US_9|1.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_10|1.7MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_11|4.5MB/s
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_12|2.4MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|3.7MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_14|2.9MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_15|2.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_16|4.1MB/s
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_17|2.3MB/s
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_18|2.3MB/s
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸US_19|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-  server: savesafe.co
-  servername: savesafe.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_20|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10877
-  reality-opts:
-    public-key: zX35soHloTc-mNt8U2GiZQaRZuKr4v_GjMEV7SMyiUw
-    short-id: ''
-  server: 104.225.232.25
-  servername: www.paypal.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42613786-2036-4a79-ad64-cc65d4e60a8d
-  xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1520,6 +1353,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0129
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0130
   port: 9002
   server: 138.199.35.214
@@ -1561,6 +1401,13 @@ proxies:
   password: None
   port: 9002
   server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0136
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
@@ -1617,6 +1464,13 @@ proxies:
 - name: 37|US_speednode_0143
   port: 9002
   server: 156.146.59.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0144
+  port: 9002
+  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
