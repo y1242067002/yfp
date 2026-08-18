@@ -56,15 +56,15 @@ proxies:
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49811
-  server: 16.163.139.175
+  port: 9408
+  server: 54.46.126.133
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 55564
+  port: 18617
   server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -72,11 +72,22 @@ proxies:
 - name: 33,34|日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.192.182
+  port: 26704
+  server: 18.163.114.228
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: rc4-md5
+  name: 35|🇵JP_2|1.6MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 9051
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
 - name: 37|JP_speednode_0014
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682

@@ -29,24 +29,24 @@ proxies:
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 14684
-  server: 16.163.156.207
+  port: 50887
+  server: 18.162.156.145
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29444
-  server: 43.198.240.223
+  port: 7674
+  server: 18.163.114.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14684
-  server: 43.198.109.134
+  port: 7674
+  server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -60,6 +60,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf
+  name: 35|🇰HK_2|1.1MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 7001
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇰HK_3|3.3MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+  password: di15PV
+  port: 2105
+  protocol: auth_aes128_md5
+  protocol-param: 276924:CPFGip
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇭🇰HK_4|3.3MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+  password: di15PV
+  port: 2103
+  protocol: auth_aes128_md5
+  protocol-param: 276924:CPFGip
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_5|2.2MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 59430
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 35|🇰HK_6|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 29008
+  server: 366-1095.rabbitpro-in-3.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161

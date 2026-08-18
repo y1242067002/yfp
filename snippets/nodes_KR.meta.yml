@@ -45,3 +45,41 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  name: 35|🇷KR_1|3.6MB/s
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 35798
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|🇰🇷KR_2|4.5MB/s
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- cipher: rc4-md5
+  name: 35|🇷KR_3|1.7MB/s
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 44593
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true

@@ -100,18 +100,10 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 33,34|新加坡|@ripaojiedian
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7375
+  port: 51396
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -124,3 +116,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: 35|SG_1|2.0MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 3207
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 35|🇬SG_2|2.6MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 28150
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
