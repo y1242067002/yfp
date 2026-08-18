@@ -815,8 +815,11 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_8
+  name: 29,35|🇸US_7|2.8MB/s
+  network: raw
+  packet-encoding: xudp
   port: 37735
   reality-opts:
     public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
@@ -828,6 +831,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_45
@@ -1350,6 +1354,67 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇸US_1|1.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  udp: true
+  username: dongtaiwang.com
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_2|1.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: inetchnl-production-48d6.up.railway.app
+  servername: inetchnl-production-48d6.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01479a99-4222-6bec-8093-47353b3991b9
+  xhttp-opts:
+    host: inetchnl-production-48d6.up.railway.app
+    mode: packet-up
+    path: /xhttp-siz10/packet-up/01479a99-4222-6bec-8093-47353b3991b9
+  xudp: true
+- name: 35|🇸US_3|1.2MB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 35|🇺🇸US_4|1.6MB/s
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_5|1.6MB/s
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+- name: 35|🇸US_6|1.2MB/s
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
