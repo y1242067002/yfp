@@ -58,53 +58,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_14
-  port: 9444
-  reality-opts:
-    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
-    short-id: 12b9ecabbf3a3b88
-  server: 176.109.85.141
-  servername: max.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 694fbac8-56da-4ecd-be68-59c57b700e93
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_26
-  port: 443
-  server: begin.magazinetut.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_28
-  port: 8443
-  server: 185.244.163.223
-  servername: id.tutdesignstudio.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_74
-  port: 8443
-  server: id.tutdesignstudio.site
-  servername: id.tutdesignstudio.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_65
   port: 2027
   reality-opts:
     public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
@@ -116,98 +70,72 @@ proxies:
   type: vless
   udp: true
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- name: 29|🇷🇺_俄罗斯_141
-  network: ws
-  port: 2200
-  server: 80.93.62.207
-  servername: rzd.ru
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_14
+  port: 443
+  reality-opts:
+    public-key: s3DBlh5fMi4ykEZPRv4kq806W9sqiITthW5rlueic10
+    short-id: f4027ed0947859d3
+  server: 79.174.93.202
+  servername: max.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_30
+  port: 443
+  server: begin.magazinetut.online
+  servername: begin.magazinetut.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
+- name: 29|🇷🇺_俄罗斯_37
+  port: 301
+  server: 135.106.187.106
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 020530ec-acf3-41a3-b93e-838e6860bd74
-  ws-opts:
-    path: /v1
-- client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_142
-  network: ws
-  port: 2200
-  server: 194.26.229.222
-  servername: rzd.ru
+  uuid: c52733b5-7482-4972-a785-af2b5d49698a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_47
+  port: 13868
+  reality-opts:
+    public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk
+    short-id: e852dc
+  server: 145.249.115.201
+  servername: booking.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- name: 29|🇷🇺_俄罗斯_59
+  port: 989
+  server: 80.76.60.120
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: a738eec8-f24f-422c-8eba-3538f93fdab1
-  ws-opts:
-    path: /v1
-- client-fingerprint: android
-  name: 29|🇷🇺_俄罗斯_143
-  network: ws
-  port: 2200
-  server: 186.246.12.81
-  servername: rzd.ru
+  uuid: ab19e2eb-e025-4a8c-aa75-8f5324bdafc9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_70
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 104.171.137.146
+  servername: rf2.helper-internet.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 6ccb5e10-5758-4e08-aa7e-290b887f458b
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_145
-  network: ws
-  port: 2200
-  server: 168.222.140.205
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_147
-  network: ws
-  port: 4100
-  server: 104.171.135.186
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_148
-  network: ws
-  port: 2200
-  server: 186.246.6.234
-  servername: rzd.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 82ae728b-49a7-4b86-8976-1125da20cd6b
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_215
-  network: ws
-  port: 2200
-  server: 201.24.118.145
-  servername: rzd.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_367
-  network: ws
-  port: 2200
-  server: 104.171.137.185
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b037295-b93f-4ed1-b3ee-0efb8bc2f093
-  ws-opts:
-    path: /v1
+  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb

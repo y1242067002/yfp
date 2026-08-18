@@ -73,10 +73,10 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_72
+  name: 25|美国(yudou789.top 玉豆免费节点)_3
   port: 30824
   server: v24.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -113,15 +113,15 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_81
+  name: 25|美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_319
+- name: 25,29|🏳️_未知_116
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -211,46 +211,22 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_34
-  password: PQ05174892
-  port: 443
-  server: lucky-chimp.rooster465.autos
-  skip-cert-verify: true
-  sni: lucky-chimp.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_38
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
-  skip-cert-verify: true
-  sni: mature-lamprey.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_78
-  port: 443
-  server: guanwang.awsno.com
+  name: 29|🇺🇸_美国_74
+  network: ws
+  port: 80
+  server: www.true.th
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇺🇸_美国_88
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
   ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_102
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- name: 29|🇺🇸_美国_88
   password: humanity
   port: 443
   server: 130.250.137.171
@@ -261,29 +237,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_113
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_101
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_114
+- name: 29|🇺🇸_美国_87
   password: humanity
   port: 443
   server: render.com
@@ -294,19 +248,39 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_167
-  password: 9c71e3bf-d79c-41ad-ba08-1028aff0eaa5
+- name: 29|🇺🇸_美国_143
+  password: humanity
   port: 443
-  server: visa.com.sg
+  server: 216.24.57.1
   skip-cert-verify: true
-  sni: px8r9i1b4k.bpusfaster2.top
+  sni: www.ignitelimit.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: px8r9i1b4k.bpusfaster2.top
-    path: /images
+    path: /assignment
+- name: 29|🇺🇸_美国_147
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_230
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
 - name: 33,34|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e

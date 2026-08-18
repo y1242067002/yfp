@@ -33,60 +33,59 @@ proxies:
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 29|日期：08-17
-  password: PQ05174892
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_56
   port: 443
-  server: witty-duckling.rooster465.autos
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
   skip-cert-verify: true
-  sni: witty-duckling.rooster465.autos
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 29|🇯🇵_日本_19
+  password: HC04361579
+  port: 443
+  server: exact-sawfish.rooster465.autos
+  skip-cert-verify: true
+  sni: exact-sawfish.rooster465.autos
   tls: true
   type: trojan
   udp: true
-- name: 29|🇯🇵_日本_5
-  password: PQ05174892
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_320
+  network: ws
   port: 443
-  server: aware-puma.rooster465.autos
+  server: 150.230.2.165
+  servername: yellow-base-c45b.rafiyaislam4000.workers.dev
   skip-cert-verify: true
-  sni: aware-puma.rooster465.autos
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: 29|🇯🇵_日本_13
-  password: PQ05174892
-  port: 443
-  server: key-sponge.rooster465.autos
+  uuid: 8dd3770c-034e-4396-84aa-b2eed0d6f2ce
+  ws-opts:
+    headers:
+      Host: yellow-base-c45b.rafiyaislam4000.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_332
+  network: ws
+  port: 7002
+  server: 139.162.102.152
+  servername: yellow-base-c45b.rafiyaislam4000.workers.dev
   skip-cert-verify: true
-  sni: key-sponge.rooster465.autos
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: 29|🇯🇵_日本_39
-  password: PQ05174892
-  port: 443
-  server: sterling-vervet.rooster465.autos
-  skip-cert-verify: true
-  sni: sterling-vervet.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇯🇵_日本_41
-  password: PQ05174892
-  port: 443
-  server: proud-escargot.rooster465.autos
-  skip-cert-verify: true
-  sni: proud-escargot.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇯🇵_日本_42
-  password: PQ05174892
-  port: 443
-  server: open-caribou.rooster465.autos
-  skip-cert-verify: true
-  sni: open-caribou.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 8dd3770c-034e-4396-84aa-b2eed0d6f2ce
+  ws-opts:
+    headers:
+      Host: yellow-base-c45b.rafiyaislam4000.workers.dev
+    path: /
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

@@ -118,6 +118,51 @@ proxies:
   sni: host-vds2-fr.kvncococ.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_18
+  port: 2096
+  reality-opts:
+    public-key: jqDgERbgQ5DVnJvw4p_j8XnM4GXUSXvPEn2t0TOtMms
+    short-id: c2b19b0e0e625d01
+  server: djuc1.rapidmesh.ir
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16569657-116c-46ed-8920-758ab8abaac4
+- name: 29|🇫🇷_法国_35
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇫🇷_法国_66
+  port: 8880
+  server: 163.172.185.55
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 16bc33b0-49c9-4e61-931e-ec2baf36cefe
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_315
+  network: ws
+  port: 443
+  server: 158.178.215.52
+  servername: yellow-base-c45b.rafiyaislam4000.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dd3770c-034e-4396-84aa-b2eed0d6f2ce
+  ws-opts:
+    headers:
+      Host: yellow-base-c45b.rafiyaislam4000.workers.dev
+    path: /
 - name: 37|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
