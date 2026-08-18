@@ -2249,7 +2249,7 @@ proxies:
   sni: nl4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: 27|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 27|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -2277,14 +2277,6 @@ proxies:
   server: cabinet.wwwinternetvideo.click
   skip-cert-verify: true
   sni: cabinet.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: 28|@GozargahAzad|🇳🇱
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 150.241.102.127
-  skip-cert-verify: true
-  sni: ''
   tls: false
   type: hysteria2
 - name: 28|76@oneclickvpnkeys
@@ -2349,7 +2341,7 @@ proxies:
   sni: h2.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 28||US|@wxgqlfx|251
+- name: 28|🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -2357,7 +2349,11 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 28|🇩🇪|DE|@wxgqlfx|22
+- down: ''
+  fingerprint: ''
+  name: 28,35|DE_1|1.9MB/s
+  obfs: ''
+  obfs-password: ''
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -2365,6 +2361,8 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - name: 28||KR|@wxgqlfx|23
   password: 3d7634af8cb2c6cb4bac1c0efad8b43d
   port: 50160
@@ -2731,6 +2729,14 @@ proxies:
   sni: 155.248.209.237
   tls: false
   type: hysteria2
+- name: 28|🇰146151 | ⚡️Telegram = t.me/SO...
+  password: c2601f6c59ed832f9129533608eea8eb
+  port: 50160
+  server: 8-210-142-69.liao.kdns.fr
+  skip-cert-verify: false
+  sni: 8-210-142-69.liao.kdns.fr
+  tls: false
+  type: hysteria2
 - name: 28|🇱|NL|@wxgqlfx|18
   password: c4a4d98d-8d64-4e76-bc50-096b07d82382
   port: 443
@@ -2747,7 +2753,7 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 28|🇰|HK|@wxgqlfx|222
+- name: 28|🇭🇰|HK|@wxgqlfx|222
   password: d325f389-7bc9-4d6a-8a2b-7dd4f7ab6e9f
   port: 443
   server: ru.h.topbelka.ru
@@ -5333,42 +5339,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|BN_1|2.3MB/s
-  password: 7038662c-1698-4737-84bc-2b29caee84ed
-  port: 32033
-  server: tttttt.luoyun2.com
-  skip-cert-verify: true
-  sni: wenlai000202.ly123.edu.kg
-  type: anytls
-  udp: true
-- auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  name: 35|CY_1|1.1MB/s
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: xby.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-  udp: true
-- name: 35|HK_1|4.8MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 33782
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk06.nynet.shop
-  type: anytls
-  udp: true
-- name: 35|🇭🇰HK_2|4.2MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 24318
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk08.alytest.cc
-  type: anytls
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 35|🇰HK_3|2.6MB/s
+  name: 35|HK_1|1.2MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -5381,148 +5354,88 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 35|DE_1|1.1MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  reduce-rtt: false
-  request-timeout: 0
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  version: 5
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  encryption: none
-  name: 35|TR_1|1.2MB/s
-  network: xhttp
-  packet-encoding: xudp
+- name: 35|JP_1|5.5MB/s
+  network: tcp
+  password: HC04361579
   port: 443
-  server: 212.104.128.107
-  servername: turk.sub017.dpdns.org
-  tls: true
-  type: vless
+  server: legible-ocelot.rooster465.autos
+  skip-cert-verify: true
+  sni: legible-ocelot.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 5770093c-4b70-4847-8eb5-c5fe195f4f21
-  xhttp-opts:
-    host: turk.sub017.dpdns.org
-    mode: auto
-    path: /api
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '6'
-    x-padding-bytes: 100-1000
-  xudp: true
-- fingerprint: ''
-  name: 35|🇬SG_1|4.6MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60572
-  server: sivp666.ipad1el.com
-  skip-cert-verify: false
-  sni: yzhou015.jdvipkuai.cc
-  type: anytls
-  udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- fingerprint: ''
-  name: 35|🇷KR_1|2.5MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47901
-  server: sivp555.ipad1el.com
-  skip-cert-verify: false
-  sni: kr06.nyssl.cc
-  type: anytls
-  udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- fingerprint: ''
-  name: 35|🇬SG_2|1.3MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47053
-  server: yazhouany02.twzq59.cc
-  skip-cert-verify: false
-  sni: xjp0202.asgg2026.vip
-  type: anytls
-  udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 35|🇺🇸US_2|4.3MB/s
-  network: http
+  name: 35|🇭🇰HK_2|2.0MB/s
+  network: ws
   packet-encoding: xudp
-  port: 52080
-  server: 38.246.226.240
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|JP_1|2.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.24
-  type: ss
+- down: ''
+  fingerprint: ''
+  name: 35|US_1|1.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
   udp: true
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 35|🇸US_2|1.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 35|🇩🇪DE_3|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇷KR_2|5.2MB/s
+  name: 35|KR_1|1.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21114
   server: 211.91.158.24
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_3|5.1MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_2|2.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_3|4.7MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_4|4.8MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_4|2.4MB/s
+  name: 35|🇵JP_2|2.8MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21119
   server: 211.91.158.27
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇹TW_1|3.8MB/s
+  name: 35|TW_1|2.2MB/s
   obfs: plain
   obfs-param: 99e144391.douyin.com
   password: di15PV
@@ -5532,30 +5445,41 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
-- cipher: rc4-md5
-  name: 35|Other_1|2.4MB/s
+- cipher: chacha20-ietf
+  name: 35|🇰HK_3|1.1MB/s
   obfs: plain
   obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 63699
+  port: 7001
   protocol: auth_aes128_md5
   protocol-param: 203463:YMo3sn
   server: api.meituan88.com
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇰HK_4|2.8MB/s
-  obfs: plain
+  name: 35|🇭🇰HK_4|3.3MB/s
+  obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 7003
+  port: 7004
   protocol: auth_aes128_md5
   protocol-param: 203463:YMo3sn
   server: api.meituan88.com
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇬SG_3|2.2MB/s
+  name: 35|🇭🇰HK_5|4.6MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 55962
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|SG_1|1.0MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
   password: di15PV
@@ -5565,84 +5489,41 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇭🇰HK_5|2.7MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-  password: di15PV
-  port: 2107
-  protocol: auth_aes128_md5
-  protocol-param: 276924:CPFGip
-  server: api.meituan88.com
-  type: ssr
-  udp: true
 - cipher: chacha20-ietf
-  name: 35|🇼TW_2|4.0MB/s
-  obfs: plain
-  obfs-param: 665203463.douyin.com
-  password: di15PV
-  port: 7018
-  protocol: auth_aes128_md5
-  protocol-param: 203463:YMo3sn
-  server: api.meituan88.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 35|🇰🇷KR_5|4.9MB/s
-  obfs: plain
+  name: 35|🇭🇰HK_6|2.0MB/s
+  obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 32414
+  port: 37398
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇭🇰HK_6|3.9MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 45883
-  server: yzany01.jdoanst2026.com
-  skip-cert-verify: true
-  sni: hk35.ascwt179.com
-  type: anytls
-  udp: true
-- cipher: auto
-  name: 35|🇸US_3|2.5MB/s
-  network: none
-  port: 47212
-  server: 216.167.54.75
-  tls: false
-  type: vless
-  udp: true
-  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
-- name: 35|🇷FR_1|1.1MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  udp: true
-- name: 35|🇺🇸US_4|1.2MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 35|🇺🇸US_5|1.0MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_7|1.1MB/s
+  name: 35|🇼TW_2|1.1MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 7015
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_7|2.4MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 60213
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_8|1.1MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
   password: di15PV
@@ -5652,128 +5533,33 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇺🇸US_6|2.6MB/s
-  password: None
+- down: ''
+  fingerprint: ''
+  name: 35|🇺🇸US_3|2.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: purecambogiasl.live
+  server: 3.149.228.246
   skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
   udp: true
-- name: 35|🇯🇵JP_5|4.9MB/s
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: driven-doberman.rooster465.autos
-  skip-cert-verify: false
-  sni: driven-doberman.rooster465.autos
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 35|FI_1|1.1MB/s
+  up: ''
+- encryption: none
+  name: 35|🇷KR_2|1.1MB/s
   network: tcp
   packet-encoding: xudp
-  port: 1234
+  port: 8686
   reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store1.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇫🇮FI_2|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store10.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇫🇮FI_3|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store15.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇫🇮FI_4|1.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store2.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇫🇮FI_5|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store5.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇫FI_6|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1234
-  reality-opts:
-    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
-    short-id: 4844fb0c077b20b7
-  server: store8.vevluma.ir
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0cc3a24a-1e51-44ae-92c7-83102c8f0392
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 35|🇸US_7|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: HR2aptN8hqi90SHqL28BEsHnJGiZ18TQ6bdz8kyPyik
-    short-id: 72bc30ab684705ed
-  server: 38.244.21.190
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: 628b3c90c98ead4f
+  server: 15.164.48.173
   servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: f51be481-3bcb-4b69-b149-3c1f2e1cb3f8
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   xudp: true
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519

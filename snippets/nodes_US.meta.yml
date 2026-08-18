@@ -740,14 +740,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27,28|🇺🇸|US|@wxgqlfx|16
-  password: 90af65ff00ef2ff089d28d6a11fc10de
-  port: 50160
-  server: 23-19-231-152.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 23-19-231-152.liao.kdns.fr
-  tls: false
-  type: hysteria2
 - name: '27,28|🇺🇸|US|@wxgqlfx|16 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -773,7 +765,7 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 27|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 27|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -781,7 +773,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 28||US|@wxgqlfx|251
+- name: 28|🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -1343,75 +1335,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 35|🇺🇸US_2|4.3MB/s
-  network: http
-  packet-encoding: xudp
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- cipher: auto
-  name: 35|🇸US_3|2.5MB/s
-  network: none
-  port: 47212
-  server: 216.167.54.75
-  tls: false
-  type: vless
-  udp: true
-  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
-- name: 35|🇺🇸US_4|1.2MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+- down: ''
+  fingerprint: ''
+  name: 35|US_1|1.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 35|🇺🇸US_5|1.0MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
+  server: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
   udp: true
-  username: 'null'
-- name: 35|🇺🇸US_6|2.6MB/s
-  password: None
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 35|🇸US_2|1.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: purecambogiasl.live
+  server: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
+  sni: 127.0.0.1
+  type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇸US_7|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 35|🇺🇸US_3|2.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: HR2aptN8hqi90SHqL28BEsHnJGiZ18TQ6bdz8kyPyik
-    short-id: 72bc30ab684705ed
-  server: 38.244.21.190
-  servername: www.apple.com
-  tls: true
-  type: vless
+  server: 3.149.228.246
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
   udp: true
-  uuid: f51be481-3bcb-4b69-b149-3c1f2e1cb3f8
-  xudp: true
+  up: ''
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp

@@ -27,45 +27,26 @@ proxies:
   sni: 152-67-200-82.liao.kdns.fr
   tls: false
   type: hysteria2
-- fingerprint: ''
-  name: 35|🇷KR_1|2.5MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 47901
-  server: sivp555.ipad1el.com
-  skip-cert-verify: false
-  sni: kr06.nyssl.cc
-  type: anytls
-  udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇷KR_2|5.2MB/s
+  name: 35|KR_1|1.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21114
   server: 211.91.158.24
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_3|5.1MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.24
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇷KR_2|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8686
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: 628b3c90c98ead4f
+  server: 15.164.48.173
+  servername: www.apple.com
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_4|4.8MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 35|🇰🇷KR_5|4.9MB/s
-  obfs: plain
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 32414
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
-  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true
