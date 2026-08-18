@@ -11,7 +11,7 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- name: 27,28|рҹҮ°рҹҮ·|KR|@wxgqlfx|24
+- name: 27,28|🇰🇷|KR|@wxgqlfx|24
   password: dfb54e674104158210fdfcac45e5679d
   port: 50160
   server: 193.122.104.200
@@ -19,7 +19,7 @@ proxies:
   sni: 193-122-104-200.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 28|рҹҮрҹҮ|KR|@wxgqlfx|23
+- name: 28||KR|@wxgqlfx|23
   password: 3d7634af8cb2c6cb4bac1c0efad8b43d
   port: 50160
   server: 152.67.200.82
@@ -28,23 +28,45 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: rc4-md5
-  name: 35|🇷KR_1|4.4MB/s
+  name: 35|KR_1|2.8MB/s
   obfs: plain
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 44593
+  port: 32414
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
-- client-fingerprint: chrome
-  name: 35|🇷KR_2|3.7MB/s
-  network: tcp
-  password: HC04361579
-  port: 443
-  server: quick-ant.rooster465.autos
-  skip-cert-verify: false
-  sni: quick-ant.rooster465.autos
-  type: trojan
+- cipher: rc4-md5
+  name: 35|🇰🇷KR_2|2.8MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 17348
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇷KR_3|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.24
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇰🇷KR_4|5.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.24
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇰🇷KR_5|4.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.27
+  type: ss
   udp: true

@@ -78,8 +78,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: rc4-md5
+  name: 35|🇸🇬SG_2|3.8MB/s
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+  password: di15PV
+  port: 63699
+  protocol: auth_aes128_md5
+  protocol-param: 203463:YMo3sn
+  server: api.meituan88.com
+  type: ssr
+  udp: true
 - cipher: chacha20-ietf
-  name: 35|🇬SG_3|4.1MB/s
+  name: 35|🇬SG_3|3.5MB/s
   obfs: plain
   obfs-param: 665203463.douyin.com
   password: di15PV
@@ -90,29 +101,29 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇸🇬SG_4|1.6MB/s
+  name: 35|🇬SG_4|4.3MB/s
   obfs: plain
   obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 3207
-  protocol: auth_aes128_md5
-  protocol-param: 203463:YMo3sn
-  server: api.meituan88.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 35|🇸🇬SG_5|4.5MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 665203463.douyin.com
-  password: di15PV
-  port: 28150
+  port: 18566
   protocol: auth_aes128_md5
   protocol-param: 203463:YMo3sn
   server: api.meituan88.com
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇬SG_6|3.5MB/s
+  name: 35|🇸🇬SG_5|1.1MB/s
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 2205
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_6|3.0MB/s
   obfs: plain
   obfs-param: 99e144391.douyin.com
   password: di15PV
@@ -122,12 +133,12 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇸🇬SG_7|4.8MB/s
-  obfs: plain
+- cipher: rc4-md5
+  name: 35|🇬SG_7|1.6MB/s
+  obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
   password: di15PV
-  port: 3206
+  port: 3210
   protocol: auth_aes128_md5
   protocol-param: 203463:YMo3sn
   server: api.meituan88.com
