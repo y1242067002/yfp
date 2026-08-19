@@ -60,11 +60,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 35|HK_1|3.8MB/s
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
+  ws-opts:
+    headers:
+      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
+    path: /
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 35|🇭🇰HK_3|3.8MB/s
+  name: 35|🇭🇰HK_2|2.0MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
@@ -79,28 +94,23 @@ proxies:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
   xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇰HK_4|3.2MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-  password: di15PV
-  port: 2105
-  protocol: auth_aes128_md5
-  protocol-param: 276924:CPFGip
-  server: api.meituan88.com
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 35|🇭🇰HK_4|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  name: 35|🇭🇰HK_5|2.0MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-  password: di15PV
-  port: 2111
-  protocol: auth_aes128_md5
-  protocol-param: 276924:CPFGip
-  server: api.meituan88.com
-  type: ssr
-  udp: true
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  ws-opts:
+    headers:
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161
