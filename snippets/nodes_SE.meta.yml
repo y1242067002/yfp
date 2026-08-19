@@ -58,16 +58,22 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 37|SE_speednode_0116
-  network: tcp
-  port: 443
+  encryption: none
+  name: 35|🇪SE_1|1.5MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8444
   reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-  server: 164.37.105.38
-  servername: gb.cdn.cachefleet.com
-  skip-cert-verify: false
+    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
+    short-id: 635a76c25a4b1820
+  server: 81.90.21.59
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  uuid: 15e83ced-7544-422e-863d-deafe29a1dbe
+  xhttp-opts:
+    mode: stream-one
+    path: /xh
+    x-padding-bytes: 100-1000
+  xudp: true
