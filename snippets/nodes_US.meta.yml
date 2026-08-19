@@ -765,7 +765,7 @@ proxies:
   sni: node1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '27|美国 #2'
+- name: 27|🇺🇸146663 | ⚡️Telegram = t.me/S...
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -781,6 +781,13 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 28|🇺🇸146567 | ⚡️Telegram = t.me/S...
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 9080
+  server: 139.28.168.55
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 28|🇺🇸|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
@@ -789,6 +796,23 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
+- name: 28|🇺🇸146624 | ⚡️Telegram = t.me/S...
+  password: 6f65680b8d4de72e9f7c030e92e27a32
+  port: 50160
+  server: 166-0-16-52.liao.kdns.fr
+  sni: 166-0-16-52.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- auth: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
+  name: 28,35|US_1|3.5MB/s
+  password: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
+  port: 8443
+  server: 31.76.70.78
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
+  udp: true
 - name: 28|🇺🇸|US|@wxgqlfx|219
   password: b41ad7f941ffce755cb8601bfd0f02ca
   port: 50160
@@ -1343,56 +1367,50 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|US_1|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: abc-production-bf72.up.railway.app
-  servername: abc-production-bf72.up.railway.app
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: 35|🇸US_2|2.7MB/s
+  network: grpc
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.109.108.83
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: c711d66c-021b-4644-b6b4-1b507bbeeac2
-  ws-opts:
-    headers:
-      Host: abc-production-bf72.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /ws/vless/c711d66c-021b-4644-b6b4-1b507bbeeac2?ed
-  xudp: true
-- encryption: none
-  name: 35|🇺🇸US_2|2.4MB/s
-  network: tcp
+  uuid: 553e3253-c454-431d-a7e6-42bc06ea5e14
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇺🇸US_3|3.0MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 64584
-  server: usa.zelnora.ir
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.109.108.83
+  servername: dl.google.com
+  tls: true
   type: vless
   udp: true
-  uuid: a8307b5d-2d9e-4d34-912d-5b5dd8340082
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
   xudp: true
-- name: 35|🇺🇸US_3|2.2MB/s
-  password: ''
-  port: 38182
-  server: 69.55.49.177
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
-- name: 35,37|US_speednode_0133
+- name: 35,37|US_speednode_0147
   port: 9002
-  server: 138.199.35.197
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35,37|US_speednode_0145
-  password: None
+- name: 35,37|US_speednode_0152
   port: 9002
-  server: 156.146.59.21
+  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
@@ -1404,158 +1422,92 @@ proxies:
   tls: true
   type: http
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 35|🇺🇸US_7|2.0MB/s
-  network: http
-  packet-encoding: xudp
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- name: 35|🇺🇸US_8|3.7MB/s
+- name: 35,37|US_speednode_0159
   port: 9002
-  server: 138.199.35.219
+  server: 156.146.59.11
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_9|3.4MB/s
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|3.9MB/s
+- name: 35|🇺🇸US_8|2.1MB/s
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_11|2.7MB/s
+- name: 35|🇸US_9|3.3MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_10|1.7MB/s
   password: 'null'
   port: 9002
-  server: 156.146.59.41
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 'null'
-- down: ''
-  fingerprint: ''
-  name: 35|🇸US_12|3.8MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: 143.246.208.86
-  skip-cert-verify: true
-  sni: iq5ny.pleiades.codes
-  type: hysteria2
-  udp: true
-  up: ''
-- client-fingerprint: chrome
-  name: 35|🇸US_13|2.6MB/s
-  network: tcp
-  password: EQ30679154
+- name: 35|🇺🇸US_11|2.5MB/s
   port: 443
-  server: 34.223.2.163
-  skip-cert-verify: false
-  sni: active-hippo.rooster465.autos
-  type: trojan
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
   udp: true
-- client-fingerprint: chrome
+- name: 35|🇺🇸US_12|3.0MB/s
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_13|1.7MB/s
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: qq
   encryption: none
-  name: 35|🇺🇸US_14|2.3MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇺🇸US_14|4.3MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 38444
+  port: 9892
   reality-opts:
-    public-key: z6CzPNecp20sehGM6VjzL2C-vvKXqfiDKbfsTiUbJW0
-    short-id: aaaa
-  server: 45.9.14.159
-  servername: max.ru
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  server: 176.109.108.196
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 994fcbac-4433-4ea3-b42b-9073037ab5fa
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/f11e6a35d9be8565dc73bbb1
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
   xudp: true
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸US_15|1.5MB/s
-  network: tcp
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|🇺🇸US_15|3.2MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 443
+  port: 2054
   reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-  server: 195.184.247.220
-  servername: savesafe.co
+    public-key: z8O-5nI4-3eKexufSrkEUvAubPw7a73cQtTGNDp3Uxo
+    short-id: 6ffc74326185d4d6
+  server: 143.246.198.91
+  servername: www.ibm.com
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇸US_16|2.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: GYD0NwdNDlDIAkRGIMqRC7RuhZTScmSw2SlknoRNrDo
-    short-id: 521959f62377e2fa
-  server: 154.29.155.211
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e1588d14-0a16-483f-9d54-cf521541035b
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇺🇸US_17|4.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 896b0648-861c-41b9-bdbf-f0494748d44c
-  port: 35193
-  server: uswx3.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: uswx3.wxgqlfx.vip
-  type: hysteria2
-  udp: true
-  up: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_18|2.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 44571
-  reality-opts:
-    public-key: 0e170mEy43TNARHNG2wkpZD0sfDiosX03F5SQeqNHTU
-    short-id: ''
-  server: fuck.p1d2.com
-  servername: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+  uuid: f6da8274-44be-4599-a8d8-66929c980677
   xudp: true
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
@@ -1725,6 +1677,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0133
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0134
   password: None
   port: 9002
@@ -1811,16 +1770,17 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0146
+- name: 37|US_speednode_0145
+  password: None
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 37|US_speednode_0147
+- name: 37|US_speednode_0146
   port: 9002
-  server: 156.146.59.33
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
@@ -1850,13 +1810,6 @@ proxies:
 - name: 37|US_speednode_0151
   port: 9002
   server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0152
-  port: 9002
-  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
@@ -1892,13 +1845,6 @@ proxies:
 - name: 37|US_speednode_0158
   port: 9002
   server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0159
-  port: 9002
-  server: 156.146.59.11
   skip-cert-verify: true
   tls: true
   type: http

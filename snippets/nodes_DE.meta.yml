@@ -399,72 +399,83 @@ proxies:
     headers:
       Host: yellow-base-c45b.rafiyaislam4000.workers.dev
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|DE_1|1.8MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 18443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: 5c766813929a1fdd
-  server: 104.167.24.227
-  servername: gp1.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_2|2.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8086
-  reality-opts:
-    public-key: nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo
-    short-id: 64523ae2
-  server: record.sinafc.ir
-  servername: explore.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98586561-43ac-435d-9bfd-b5780eb9e771
-  xudp: true
 - alpn:
   - h2
-  client-fingerprint: chrome
-  encryption: none
+  client-fingerprint: edge
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: mygrpc
-  name: 35|🇩🇪DE_3|2.6MB/s
+  name: 35|DE_1|3.5MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 2096
-  server: 46.182.24.112
+  port: 443
+  server: 212.41.26.84
   servername: v1.api2.ttpservers.ru
   tls: true
   type: vless
   udp: true
   uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
-  xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪DE_4|4.0MB/s
+  name: 35|🇪DE_2|2.8MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
-    short-id: 2694d28edfdd2c38
-  server: jwut-19a9lvb.univanta.top
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: 4c0be5bf40e9f5ce
+  server: 43.224.150.71
   servername: www.bing.com
   tls: true
   type: vless
   udp: true
-  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
+  xudp: true
+- encryption: mlkem768x25519plus.random.0rtt.swY_aKEuuHUHKO0BHVV2uot-UFbtrXpLWr7g8uZk0xk
+  http-opts:
+    headers:
+      Host:
+      - us.demonware.net
+    path:
+    - /
+  name: 35|🇩🇪DE_3|1.2MB/s
+  network: http
+  packet-encoding: xudp
+  port: 42538
+  server: 91.107.158.251
+  type: vless
+  udp: true
+  uuid: 5d07b438-63c1-43fa-aa45-b6810de6d030
+  xudp: true
+- name: 35|🇩🇪DE_4|1.2MB/s
+  password: LBuHKNUpT
+  port: 63062
+  server: 185.78.79.39
+  type: http
+  udp: true
+  username: kdEWXsS2E
+- cipher: aes-256-cfb
+  name: 35|🇪DE_5|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.250.163
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_6|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU
+    short-id: 4c0be5bf40e9f5ce
+  server: qeip-c6a0cn.wealthix.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a31984d-b06f-4e79-b255-0dc64ee5d419
   xudp: true
 - name: 37|DE_speednode_0001
   password: e4b72b531a2d10900519

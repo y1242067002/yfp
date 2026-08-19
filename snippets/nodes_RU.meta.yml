@@ -139,39 +139,27 @@ proxies:
   type: vless
   udp: true
   uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇷RU_1|1.8MB/s
+  name: 35|🇺RU_1|1.0MB/s
   network: tcp
-  packet-encoding: xudp
+  port: 443
+  server: translate.magazinetut.online
+  servername: translate.magazinetut.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
+- client-fingerprint: chrome
+  name: 35|🇷🇺RU_2|1.5MB/s
+  network: tcp
   port: 443
   reality-opts:
-    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
-    short-id: 5e6f7a8b
-  server: 92.255.78.9
-  servername: max.ru
+    public-key: FfcdBaTRPP5DDUiPmDRFOOghIw8h6-i9j_QyHQI3FUw
+    short-id: acc4dfcc
+  server: russia.cloudpath.live
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: f6da8274-44be-4599-a8d8-66929c980677
-  xudp: true
-- client-fingerprint: android
-  encryption: none
-  name: 35|🇷🇺RU_2|2.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 72.56.236.219
-  servername: usa1.wba-pn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd3ff7be-f277-494b-a651-c210b93f2c19
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
+  uuid: b8783764-ad60-58bb-b2c9-349bfd373a72

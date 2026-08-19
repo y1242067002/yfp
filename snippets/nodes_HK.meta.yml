@@ -82,78 +82,74 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇰HK_1|3.1MB/s
+  network: tcp
+  port: 28144
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzsasfreuivcluie44.gxsdfewocinexuxiqee.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
+- client-fingerprint: chrome
+  name: 35|🇰HK_2|1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TOYZKAyAsQu10u4nK5EeoAw3_z0FIfLTPVqBiD0A01s
+    short-id: beb1ebec
+  server: hong-kong.cloudpath.live
+  servername: microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8783764-ad60-58bb-b2c9-349bfd373a72
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 35|🇭🇰HK_2|1.8MB/s
+  name: 35|🇭🇰HK_3|3.8MB/s
   network: ws
   packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
   xudp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_3|1.3MB/s
+- cipher: aes-256-cfb
+  name: 35|🇰HK_4|3.2MB/s
   obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
+  obfs-param: 87c276924.douyin.com
   password: di15PV
-  port: 39514
+  port: 2105
   protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
+  protocol-param: 276924:CPFGip
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇰HK_4|3.5MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
+- cipher: rc4-md5
+  name: 35|🇭🇰HK_5|2.0MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+  password: di15PV
+  port: 2111
+  protocol: auth_aes128_md5
+  protocol-param: 276924:CPFGip
+  server: api.meituan88.com
+  type: ssr
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇰HK_5|2.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 4vnK2LLhfy9-plqFrSE3Di9fqTXlajXtll7NoYZYQ28
-    short-id: 05ac92984da91336
-  server: cr36-zili01.infraix.top
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86ff5721-87f2-4682-9bc2-b1b34a8ca91f
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇭🇰HK_6|5.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16622
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8693fed9-62e2-48ba-9819-380acb01923d
-  ws-opts:
-    headers:
-      Host: 5dcc4161bbb1a6ad65f913e6d5725639.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe
   port: 27161

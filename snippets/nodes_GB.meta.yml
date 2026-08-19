@@ -162,30 +162,42 @@ proxies:
     headers:
       Host: yellow-base-c45b.rafiyaislam4000.workers.dev
     path: /
-- name: 35|GB_1|1.8MB/s
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: sync.v2.SyncService
+  name: 35|🇧GB_1|1.5MB/s
+  network: grpc
   port: 443
-  server: 193.36.118.210
+  server: 213.193.254.131
+  servername: video.she-happ.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea6db8fa-7e15-4eb2-87f1-22004ac00061
+- name: 35|🇧GB_2|2.2MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: qq
-  name: 35|🇧GB_2|1.4MB/s
-  network: ws
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_3|2.5MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: gb1.wba-pn.ru
-  servername: gb1.wba-pn.ru
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: f63805c3ecc7a483
+  server: 195.184.247.225
+  servername: savesafe.co
   tls: true
   type: vless
   udp: true
-  uuid: 4bc8ff7a-20b4-41b2-9751-dfca869f0553
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xudp: true
 - name: 37|GB_speednode_0003
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
