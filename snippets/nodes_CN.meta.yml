@@ -35,27 +35,17 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: 29|🇨🇳_中国_26
-  port: 52683
-  server: jp.sofast.live
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇨🇳_中国_8
+  port: 12878
+  reality-opts:
+    public-key: oRpiuzgpCJp1KJYbpaQ46wt5QdaHXs4yHkyYxaG9600
+    short-id: b94602998b
+  server: 36.151.187.225
+  servername: www.spotify.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 29|🇨🇳_中国_44
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 29|🇨🇳_中国_48
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6

@@ -1,12 +1,23 @@
 proxies:
-- name: 29|🇫🇷_法国_35
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 29,35|🇭🇰HK_2|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: 35|🇷FR_1|1.3MB/s
   network: ws
@@ -41,16 +52,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_3|1.6MB/s
-  network: tcp
-  password: fg20mtCFHy
-  port: 5577
-  server: 172.232.42.44
-  skip-cert-verify: true
-  sni: gtyxz.southbyte.xyz
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 35|🇫🇷FR_5|1.1MB/s
   network: ws
