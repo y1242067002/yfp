@@ -1,11 +1,14 @@
 proxies:
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 29|🇫🇷_法国_47
+  name: 29,35|🇰HK_1|1.0MB/s
   network: ws
+  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -14,18 +17,4 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 35|FR_1|1.5MB/s
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
-  ws-opts:
-    headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
-    path: /
+  xudp: true

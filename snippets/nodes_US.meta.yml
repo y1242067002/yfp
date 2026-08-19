@@ -1122,52 +1122,61 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
-  name: 35|US_1|2.3MB/s
-  password: 74fbbe74-906d-45a8-a27c-a85fc758bc9f
-  port: 8443
-  server: 31.76.70.78
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 35|🇸US_1|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
   skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
+  tls: false
+  type: vmess
   udp: true
-- auth: daca6264-bd96-48d4-a0ff-c96e50a00aa0
-  name: 35|🇺🇸US_2|2.0MB/s
-  password: daca6264-bd96-48d4-a0ff-c96e50a00aa0
-  port: 35193
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: uswx4.wxgqlfx.vip
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇸US_3|2.4MB/s
-  network: tcp
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 35|🇺🇸US_2|2.0MB/s
   port: 443
-  reality-opts:
-    public-key: ExoLmgvra4OkUzW08_tkUKCOpqZ-fp-sur_NqpRui1s
-  server: 66.112.214.26
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 490a11eb-e38a-4a85-b391-7175de597b80
-- name: 35|🇺🇸US_4|1009KB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_5|1.3MB/s
+- name: 35|🇺🇸US_3|1.2MB/s
   port: 443
-  server: kimberlymilano.icu
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_4|1.4MB/s
+  port: 443
+  server: purposebydesig.club
   skip-cert-verify: false
-  sni: kimberlymilano.icu
+  sni: purposebydesig.club
   tls: true
   type: http
   udp: true
+- name: 35|🇺🇸US_5|2.1MB/s
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 35|🇸US_6|1.1MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  udp: true
+  username: dongtaiwang.com
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp

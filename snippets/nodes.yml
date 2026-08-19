@@ -538,13 +538,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 29|🇫🇷_法国_47
+  name: 29,35|🇰HK_1|1.0MB/s
   network: ws
+  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -553,6 +556,7 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
+  xudp: true
 - name: 29|🏳️_未知_67
   password: humanity
   port: 443
@@ -1428,79 +1432,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 35|FR_1|1.5MB/s
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
-  ws-opts:
-    headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 35|HK_1|4.8MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 83c25eab-8461-4b6a-b714-f4279535b316
-  ws-opts:
-    headers:
-      Host: a5f19060282ba7516bdd6ce8dd04528b.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
-  name: 35|🇷KR_1|1.9MB/s
+  name: 35|KR_1|2.8MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.235
   type: ss
   udp: true
-- name: 35|🇰🇷KR_5|5.7MB/s
+- name: 35|🇸🇬SG_3|3.5MB/s
   network: tcp
   password: EQ30679154
   port: 443
-  server: novel-kodiak.rooster465.autos
+  server: 47.129.160.142
   skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇰🇷KR_4|5.2MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 3.36.124.155
-  skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 35|🇭🇰HK_2|4.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16622
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 35|🇸US_1|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
-  ws-opts:
-    headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 35|🇸🇬SG_3|4.1MB/s
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 35|🇸🇬SG_5|3.8MB/s
   network: tcp
   password: EQ30679154
   port: 443
@@ -1509,7 +1472,34 @@ proxies:
   sni: direct-hawk.rooster465.autos
   type: trojan
   udp: true
-- name: 35|🇸🇬SG_4|4.7MB/s
+- name: 35|🇵JP_3|4.7MB/s
+  network: tcp
+  password: EQ30679154
+  port: 443
+  server: definite-gazelle.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-gazelle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇬SG_9|4.5MB/s
+  network: tcp
+  password: EQ30679154
+  port: 443
+  server: well-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: well-goshawk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇷KR_3|1.9MB/s
+  network: tcp
+  password: EQ30679154
+  port: 443
+  server: 54.116.195.76
+  skip-cert-verify: false
+  sni: gentle-mastiff.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇸🇬SG_6|1.9MB/s
   network: tcp
   password: EQ30679154
   port: 443
@@ -1518,8 +1508,17 @@ proxies:
   sni: moved-bass.rooster465.autos
   type: trojan
   udp: true
+- name: 35|🇯🇵JP_4|5.5MB/s
+  network: tcp
+  password: EQ30679154
+  port: 443
+  server: open-octopus.rooster465.autos
+  skip-cert-verify: false
+  sni: open-octopus.rooster465.autos
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf
-  name: 35|🇰HK_3|2.4MB/s
+  name: 35|🇰HK_2|3.8MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
@@ -1530,73 +1529,28 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_4|1.3MB/s
+  name: 35|🇭🇰HK_3|4.2MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 37398
+  port: 59430
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇰HK_5|1.6MB/s
+- cipher: rc4-md5
+  name: 35|🇰🇷KR_4|4.0MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 2106
+  port: 17348
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇵JP_3|4.7MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 3.112.44.90
-  skip-cert-verify: false
-  sni: brave-tomcat.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇷KR_6|4.6MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 54.116.195.76
-  skip-cert-verify: false
-  sni: gentle-mastiff.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇵JP_4|2.6MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 54.199.234.4
-  skip-cert-verify: false
-  sni: liked-eft.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇵JP_5|6.1MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: definite-gazelle.rooster465.autos
-  skip-cert-verify: false
-  sni: definite-gazelle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇸🇬SG_6|1.4MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: well-goshawk.rooster465.autos
-  skip-cert-verify: false
-  sni: well-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 35|🇰🇷KR_7|3.8MB/s
+- name: 35|🇰🇷KR_5|1.9MB/s
   network: tcp
   password: EQ30679154
   port: 443
@@ -1605,21 +1559,19 @@ proxies:
   sni: gentle-mastiff.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇭🇰HK_6|4.4MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.250.161
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇰HK_5|1.8MB/s
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 32060
+  server: 82.38.46.65
   type: ss
   udp: true
-- name: 35|🇯🇵JP_6|5.0MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: open-octopus.rooster465.autos
-  skip-cert-verify: false
-  sni: open-octopus.rooster465.autos
-  type: trojan
+- cipher: aes-256-cfb
+  name: 35|🇬SG_10|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.90
+  type: ss
   udp: true
 - name: 37|HK_speednode_0012
   password: BxceQaOe

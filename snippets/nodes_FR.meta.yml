@@ -111,13 +111,16 @@ proxies:
   type: vless
   udp: true
   uuid: 16bc33b0-49c9-4e61-931e-ec2baf36cefe
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 29|🇫🇷_法国_47
+  name: 29,35|🇰HK_1|1.0MB/s
   network: ws
+  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -126,21 +129,24 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 35|FR_1|1.5MB/s
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷FR_1|2.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
   udp: true
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
-  ws-opts:
-    headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
-    path: /
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  xudp: true
 - name: 37|FR_speednode_0002
   port: 23856
   server: 51.159.225.196

@@ -71,24 +71,20 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|JP_1|2.1MB/s
+- client-fingerprint: chrome
+  name: 35|🇵JP_3|4.7MB/s
   network: tcp
+  password: EQ30679154
   port: 443
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: b91a73752053b039
-  server: 142.91.105.104
-  servername: jp.servers.gracevpnbuy.com
-  tls: true
-  type: vless
+  server: definite-gazelle.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-gazelle.rooster465.autos
+  type: trojan
   udp: true
-  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇵JP_2|2.2MB/s
+  name: 35|🇵JP_2|1.2MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -103,37 +99,7 @@ proxies:
   uuid: 696338ec-091d-4b41-b855-8f88d5b5d873
   xudp: true
 - client-fingerprint: chrome
-  name: 35|🇵JP_3|4.7MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 3.112.44.90
-  skip-cert-verify: false
-  sni: brave-tomcat.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇵JP_4|2.6MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: 54.199.234.4
-  skip-cert-verify: false
-  sni: liked-eft.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇵JP_5|6.1MB/s
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: definite-gazelle.rooster465.autos
-  skip-cert-verify: false
-  sni: definite-gazelle.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇯🇵JP_6|5.0MB/s
+  name: 35|🇯🇵JP_4|5.5MB/s
   network: tcp
   password: EQ30679154
   port: 443
