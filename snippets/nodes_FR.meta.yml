@@ -111,16 +111,13 @@ proxies:
   type: vless
   udp: true
   uuid: 16bc33b0-49c9-4e61-931e-ec2baf36cefe
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 29,35|🇭🇰HK_2|2.0MB/s
+  name: 29|🇫🇷_法国_47
   network: ws
-  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -129,94 +126,21 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇷FR_1|1.3MB/s
+- alterId: 0
+  cipher: auto
+  name: 35|FR_1|1.5MB/s
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇫🇷FR_2|1.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: 35|🇷FR_4|1.4MB/s
-  port: 8888
-  server: 37.59.125.131
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_5|1.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|🇫🇷FR_6|1.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 3f2qE54FhkEMnNUTVwxtSWWPJG9ZrQoxF-dyq3IQpQk
-    short-id: 558d5f07
-  server: 81.90.31.221
-  servername: ea.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇷FR_7|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 39399
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-  xudp: true
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
 - name: 37|FR_speednode_0002
   port: 23856
   server: 51.159.225.196

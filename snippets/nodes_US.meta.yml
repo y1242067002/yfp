@@ -740,7 +740,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27,28|рҹҮәрҹҮё|US|@wxgqlfx|16
+- name: 27,28|ًں‡؛ًں‡¸|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
@@ -748,7 +748,7 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 28|рҹҮәрҹҮё|US|@wxgqlfx|251
+- name: 28|ًں‡ًں‡|US|@wxgqlfx|251
   password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
   server: node3.vpnushka.lol
@@ -785,11 +785,8 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|RU_1|2.9MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 29|🇺🇸_美国_14
   port: 443
   server: translate.magazinetut.online
   servername: translate.magazinetut.online
@@ -798,7 +795,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇺🇸_美国_23
@@ -1126,130 +1122,36 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: ios
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: 35|🇺🇸US_2|2.4MB/s
-  network: grpc
-  port: 9830
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.109.108.83
-  servername: dl.google.com
-  tls: true
-  type: vless
+- auth: daca6264-bd96-48d4-a0ff-c96e50a00aa0
+  name: 35|🇺🇸US_2|2.0MB/s
+  password: daca6264-bd96-48d4-a0ff-c96e50a00aa0
+  port: 35193
+  server: uswx4.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: uswx4.wxgqlfx.vip
+  type: hysteria2
   udp: true
-  uuid: f4685d27-73e3-4588-9622-add50b84046a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇸US_3|1.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 58fbcddfaae3ade9
-  server: test.lte.anti-zapret.com
-  servername: us.srv.anti-zapret.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f82332b2-dc8c-4196-ac12-f276e37e278a
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇺🇸US_4|1.2MB/s
+  name: 35|🇸US_3|2.4MB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
+    public-key: ExoLmgvra4OkUzW08_tkUKCOpqZ-fp-sur_NqpRui1s
+  server: 66.112.214.26
+  servername: www.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
-- name: 35,37|US_speednode_0128
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0133
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0146
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0154
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_9|1.1MB/s
+  uuid: 490a11eb-e38a-4a85-b391-7175de597b80
+- name: 35|🇺🇸US_4|1009KB/s
   port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_10|3.9MB/s
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_11|3.1MB/s
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_12|3.9MB/s
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|2.5MB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_14|2.9MB/s
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_15|2.5MB/s
-  password: None
+- name: 35|🇺🇸US_5|1.3MB/s
   port: 443
   server: kimberlymilano.icu
   skip-cert-verify: false
@@ -1257,80 +1159,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_17|3.3MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|🇺🇸US_18|3.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸US_19|3.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-  server: 195.184.247.229
-  servername: savesafe.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|🇸US_20|2.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2054
-  reality-opts:
-    public-key: LxfBal4zumw8Un0P9G-F8auThUm_6jzJviu5jsZ2qGw
-    short-id: 2d8775cc
-  server: 13.143.141.28
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6da8274-44be-4599-a8d8-66929c980677
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_21|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: s2318.okgg.top
-  servername: u643766u75eebf99s2316.kukuss.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  xudp: true
-- name: 35|🇺🇸US_22|4.0MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: firefox
   name: 37|US_speednode_0117
   network: tcp
@@ -1448,6 +1276,13 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 37|US_speednode_0128
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0129
   port: 9002
   server: 138.199.35.208
@@ -1473,6 +1308,13 @@ proxies:
 - name: 37|US_speednode_0132
   port: 9002
   server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0133
+  port: 9002
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
@@ -1571,6 +1413,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 37|US_speednode_0146
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0147
   port: 9002
   server: 156.146.59.33
@@ -1617,6 +1466,13 @@ proxies:
 - name: 37|US_speednode_0153
   port: 9002
   server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0154
+  port: 9002
+  server: 156.146.59.15
   skip-cert-verify: true
   tls: true
   type: http
