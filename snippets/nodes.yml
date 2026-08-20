@@ -1436,161 +1436,141 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|FR_1|2.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.33
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
 - cipher: aes-256-cfb
-  name: 35|🇷KR_1|2.2MB/s
+  name: 35|HK_1|1.6MB/s
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.235
+  server: 120.232.250.161
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|JP_1|6.1MB/s
+  name: 35|DE_1|3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.178.246.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇩🇪DE_2|4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.153.64.41
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇭🇰HK_2|3.9MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.96
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|JP_1|3.9MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.136
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇪DE_1|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.250.163
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|TW_1|1.3MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.94
-  type: ss
-  udp: true
-- name: 35|🇫🇷FR_2|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 35|🇫🇷FR_3|1.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_4|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_5|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /assignment
-- cipher: aes-256-cfb
-  name: 35|🇰HK_1|5.8MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.96
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_2|3.4MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 37398
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_3|4.2MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 39514
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_2|3.5MB/s
+  name: 35|🇸US_2|3.5MB/s
   password: amazonskr05
   port: 443
-  server: 3.79.230.55
+  server: 3.145.35.194
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇭🇰HK_4|3.6MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 59430
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇩🇪DE_3|3.1MB/s
+  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
+  port: 30874
+  server: e2.cover20.ir
+  type: ss
   udp: true
-- cipher: rc4-md5
-  name: 35|🇰🇷KR_2|4.1MB/s
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-  password: di15PV
-  port: 17348
-  protocol: auth_aes128_md5
-  protocol-param: 144391:uBtVcY
-  server: api.meituan88.com
-  type: ssr
+- name: 35|FR_1|1.8MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 35|🇷KR_1|4.2MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.235
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 35|🇫🇷FR_2|2.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- name: 35|🇫🇷FR_3|1.3MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- name: 35|🇯🇵JP_6|2.4MB/s
+  network: tcp
+  password: AE62539071
+  port: 443
+  server: whole-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: whole-perch.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_3|5.2MB/s
+  network: tcp
+  password: AE62539071
+  port: 443
+  server: 18.183.135.94
+  skip-cert-verify: false
+  sni: central-jawfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_4|5.6MB/s
+  network: tcp
+  password: AE62539071
+  port: 443
+  server: 54.249.33.71
+  skip-cert-verify: false
+  sni: outgoing-ladybird.rooster465.autos
+  type: trojan
+  udp: true
+- name: 35|🇯🇵JP_5|4.8MB/s
+  network: tcp
+  password: AE62539071
+  port: 443
+  server: real-cardinal.rooster465.autos
+  skip-cert-verify: false
+  sni: real-cardinal.rooster465.autos
+  type: trojan
   udp: true

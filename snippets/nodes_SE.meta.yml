@@ -34,14 +34,7 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: '27|瑞典 #1'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: 28|🇪|SE|@wxgqlfx|238
+- name: 28|рҹҮёрҹҮӘ|SE|@wxgqlfx|238
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us63.mechvpn.online
@@ -49,7 +42,7 @@ proxies:
   sni: us63.mechvpn.online
   tls: false
   type: hysteria2
-- name: 28|🇸🇪|SE|@wxgqlfx|213
+- name: 28|рҹҮёрҹҮӘ|SE|@wxgqlfx|213
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online
@@ -59,19 +52,36 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   encryption: none
+  flow: xtls-rprx-vision
+  name: 35|SE_1|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '4326'
+  server: 144.31.179.21
+  servername: get4s.skystreamgame.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2569614f-879b-43de-9cd9-9bb304b68856
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
   grpc-opts:
     grpc-service-name: moktana.net.v1.StreamService
-  name: 35|🇪SE_1|3.4MB/s
+  name: 35|🇪SE_2|1.4MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 8b6f2e4d7c1a5b9f
-  server: ser.moktana.app
+    short-id: 7c4b9a2e8d5f3c1b
+  server: 201.51.8.8
   servername: ser.moktana.app
   tls: true
   type: vless
   udp: true
-  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  uuid: 27b16a66-95e0-4c20-b00b-5dff91d9c9f5
   xudp: true
