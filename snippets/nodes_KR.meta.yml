@@ -27,28 +27,17 @@ proxies:
   sni: 193-122-104-200.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 29|🇰🇷_韩国_20
-  password: PQ05174892
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_8
   port: 443
-  server: awake-redbird.rooster465.autos
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
   skip-cert-verify: true
-  sni: awake-redbird.rooster465.autos
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: 29|🇰🇷_韩国_37
-  password: StO6w4Osht9ZcK2mIv3U14
-  port: 8444
-  server: 43.133.253.211
-  skip-cert-verify: true
-  sni: 43.133.253.211
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇷KR_1|4.2MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.235
-  type: ss
-  udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7

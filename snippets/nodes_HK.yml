@@ -26,6 +26,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+- name: 29|🇭🇰_香港_57
+  password: fg20mtCFHy
+  port: 5443
+  server: 47.86.107.20
+  skip-cert-verify: true
+  sni: hytfes.southbyte.xyz
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 7674
+  server: 95.40.89.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -42,14 +61,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -60,17 +71,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 35|HK_1|1.6MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.250.161
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇭🇰HK_2|3.9MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.96
-  type: ss
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_3|2.7MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 59430
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
   udp: true

@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾_6
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: e6d59aff03e5b0
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+- client-fingerprint: chrome
+  name: 29|🇹🇼_台湾_81
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 166.0.198.65
+  servername: navi.bankrate.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dfd4ca4-dd85-4ee0-96d7-fa2900d76f65

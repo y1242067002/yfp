@@ -121,11 +121,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_248
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -211,58 +211,26 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 29|🇺🇸_美国_87
+  password: fg20mtCFHy
+  port: 5531
+  server: 128.14.148.84
+  skip-cert-verify: true
+  sni: ycgsc.southbyte.xyz
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_23
-  port: 443
-  server: 64.83.12.153
+  name: 29|🇺🇸_美国_196
+  network: ws
+  port: 8080
+  server: 185.227.252.204
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
-- name: 29|🇺🇸_美国_35
-  password: fg20mtCFHy
-  port: 5674
-  server: 172.233.237.139
-  skip-cert-verify: true
-  sni: tdvnh.southbyte.xyz
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_94
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_88
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_93
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
+  uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526
 - name: 33,34|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -287,10 +255,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 35|🇸US_2|3.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.145.35.194
-  type: ss
-  udp: true

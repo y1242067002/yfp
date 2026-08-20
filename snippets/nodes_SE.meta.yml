@@ -58,37 +58,116 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|SE_1|3.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: '4326'
-  server: 144.31.179.21
-  servername: get4s.skystreamgame.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2569614f-879b-43de-9cd9-9bb304b68856
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 35|🇪SE_2|1.4MB/s
-  network: grpc
-  packet-encoding: xudp
+  name: 29|🇸🇪_瑞典_12
   port: 443
   reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 7c4b9a2e8d5f3c1b
-  server: 201.51.8.8
-  servername: ser.moktana.app
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.89
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 27b16a66-95e0-4c20-b00b-5dff91d9c9f5
-  xudp: true
+  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_19
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.97
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_24
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 89.125.37.151
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_28
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.94
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_29
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.93
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_74
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 31.207.7.144
+  servername: se1.se-cdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_128
+  network: ws
+  port: 2053
+  server: 89.22.234.164
+  servername: 1lhcl.2mja.otp.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 1lhcl.2mja.otp.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_159
+  network: ws
+  port: 2053
+  server: 89.22.234.164
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /

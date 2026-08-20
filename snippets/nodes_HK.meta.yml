@@ -49,6 +49,82 @@ proxies:
   sni: xk7qhk307.ckpfef.top
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29,35|🇭🇰HK_5|3.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
+    short-id: a273e9ee6ac0a466
+  server: hk5.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_20
+  port: 443
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: a2d13d677624197e
+  server: hk6.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+- name: 29|🇭🇰_香港_57
+  password: fg20mtCFHy
+  port: 5443
+  server: 47.86.107.20
+  skip-cert-verify: true
+  sni: hytfes.southbyte.xyz
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_80
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 64.90.28.237
+  servername: navi.bankrate.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dfd4ca4-dd85-4ee0-96d7-fa2900d76f65
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_86
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 156.224.79.35
+  servername: navi.bankrate.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dfd4ca4-dd85-4ee0-96d7-fa2900d76f65
+- name: 29,33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 7674
+  server: 95.40.89.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -65,14 +141,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -83,17 +151,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 35|HK_1|1.6MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.250.161
-  type: ss
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_3|2.7MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 59430
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇭🇰HK_2|3.9MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.96
-  type: ss
+- name: 35|🇭🇰HK_4|1.4MB/s
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: hk2.xiaoliyu.cyou
+  type: hysteria2
   udp: true
