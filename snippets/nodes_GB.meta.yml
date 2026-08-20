@@ -117,3 +117,45 @@ proxies:
   uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|GB_1|3.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: 62b6d6e64d461d78
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- name: 35|🇧GB_2|2.2MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_3|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 445
+  reality-opts:
+    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
+    short-id: c226283c4de5b1ad
+  server: 2.26.100.192
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
+  xudp: true
