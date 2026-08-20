@@ -1988,7 +1988,11 @@ proxies:
   sni: pl6.lckdwn.ru
   tls: false
   type: hysteria2
-- name: '27|未命名 #2'
+- down: ''
+  fingerprint: ''
+  name: 27,35|AE_1|1.3MB/s
+  obfs: ''
+  obfs-password: ''
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
   server: pixelcast.wwwinternetvideo.click
@@ -1996,6 +2000,8 @@ proxies:
   sni: pixelcast.wwwinternetvideo.click
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - name: '27|未命名 #3'
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 8443
@@ -2916,9 +2922,7 @@ proxies:
   udp: true
   uuid: dc174401-1aed-4eef-9084-8dfddbe4f390
 - flow: xtls-rprx-vision
-  name: 29,35|🇭🇰HK_5|3.6MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇭🇰_香港_5
   port: 443
   reality-opts:
     public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
@@ -2930,7 +2934,6 @@ proxies:
   type: vless
   udp: true
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
-  xudp: true
 - flow: xtls-rprx-vision
   name: 29|🇹🇼_台湾_6
   port: 443
@@ -3039,7 +3042,9 @@ proxies:
   udp: true
   uuid: ada01ec8-a49e-4223-82dd-e1abe768b767
 - flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_14
+  name: 29,35|🇺🇸US_4|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: s8LsdrKbLX2USYl-t9Olxo4yYUlJXjmbbjBh1OONTCE
@@ -3051,8 +3056,10 @@ proxies:
   type: vless
   udp: true
   uuid: 05a582ec-e74b-46fe-b131-6e9e5575a836
+  xudp: true
 - flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_15
+  name: 29,35|US_1|1.1MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: tOWJAWnCPaJZvqorglX2JAuT5mDrSSA9VPCd90DSZRY
@@ -3445,9 +3452,7 @@ proxies:
   udp: true
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
 - flow: xtls-rprx-vision
-  name: 29,35|🇪DE_2|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_51
   port: 443
   reality-opts:
     public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
@@ -3459,7 +3464,6 @@ proxies:
   type: vless
   udp: true
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_52
@@ -4026,7 +4030,7 @@ proxies:
     headers:
       Host: yellow-hall-d482.260-d22.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 29|🏳️_未知_101
+- name: 29,35|NL_1|1.1MB/s
   network: ws
   port: 443
   server: ed8d.wdz.de5.net
@@ -4940,7 +4944,7 @@ proxies:
     headers:
       Host: hys40.wba-pn.ru
     path: /
-- name: 29|🇩🇪_德国_172
+- name: 29,35|BR_1|1.3MB/s
   network: ws
   port: 443
   server: 185.243.10.109
@@ -5315,110 +5319,174 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|NL_1|1.8MB/s
-  network: tcp
-  port: 62145
-  server: 84.235.164.183
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 35|🇬SG_1|3.3MB/s
-  password: bfc4ae39-232a-437d-b6d2-3b611e40219f
-  port: 54012
-  server: awsxjpbqwmxdnsh.jiedddym.com
+- auth: 1dcc3b89-0b45-3908-9120-19741361d55d
+  name: 35|HK_1|2.5MB/s
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: 10030
+  server: fg7xl1div.d33tqmk.cc
   skip-cert-verify: true
-  sni: awsxjpbqwmxdnsh.jiedddym.com
-  type: anytls
+  sni: xk7q3.ckpfef.top
+  type: hysteria2
   udp: true
 - down: ''
   fingerprint: ''
-  name: 35|🇺RU_1|3.3MB/s
+  name: 35|SG_1|2.7MB/s
   obfs: ''
   obfs-password: ''
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4466
+  server: 140.99.130.34
   skip-cert-verify: true
-  sni: els1.mangshe.xyz
+  sni: sg3.xiaoliyu.cyou
   type: hysteria2
   udp: true
   up: ''
-- name: 35|JP_1|4.1MB/s
+- name: 35|JP_1|6.0MB/s
   network: tcp
-  password: AE62539071
+  password: PQ05174892
   port: 443
-  server: game-thrush.rooster465.autos
+  server: ideal-phoenix.rooster465.autos
   skip-cert-verify: false
-  sni: game-thrush.rooster465.autos
+  sni: ideal-phoenix.rooster465.autos
   type: trojan
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_3|2.7MB/s
+  name: 35|🇭🇰HK_2|3.9MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 59430
+  port: 59382
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇸US_1|1.2MB/s
+- cipher: rc4-md5
+  name: 35|🇷KR_1|2.9MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 17348
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- name: 35|🇺🇸US_2|1.2MB/s
   port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_2|1.1MB/s
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇭🇰HK_4|1.4MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
-- name: 35|🇦ZA_1|1.3MB/s
+- name: 35|ZA_1|1.3MB/s
   password: aa
   port: 89
   server: 160.124.240.188
   type: http
   udp: true
   username: aa
-- multiplexing: MULTIPLEXING_LOW
-  name: 35|Other_1|3.5MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  udp: true
-  username: dongtaiwang.com
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|DE_1|1.8MB/s
-  network: grpc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|FI_1|1.1MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 2087
+  port: 443
   reality-opts:
-    public-key: G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI
-    short-id: 57c26f52
-  server: 46.225.156.169
-  servername: www.bing.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: 4a7b1c8d
+  server: 5.61.91.221
+  servername: cdn-up.perecbass.ru
   tls: true
   type: vless
   udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  uuid: 03446511-2806-0021-b02f-f10d2d3a33c6
+  xudp: true
+- name: 35|🇳🇱NL_2|1.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 62145
+  server: 141.148.236.108
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: 35|🇪DE_1|1.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: meshbuzz.bond
+  servername: kt5ttul9.cendro.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  ws-opts:
+    headers:
+      Host: kt5ttul9.cendro.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /ws-vlees
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇬SG_2|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: resolution-secretary-presence-amazing.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
+  ws-opts:
+    headers:
+      Host: resolution-secretary-presence-amazing.trycloudflare.com
+    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸🇬SG_3|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: willing-relative-las-legislative.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
+  ws-opts:
+    headers:
+      Host: willing-relative-las-legislative.trycloudflare.com
+    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸US_5|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: pas-seo-delays-safe.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
+  ws-opts:
+    headers:
+      Host: pas-seo-delays-safe.trycloudflare.com
+    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
   xudp: true
 - name: 37|NL_speednode_0004
   port: 9002

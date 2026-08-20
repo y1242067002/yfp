@@ -249,9 +249,7 @@ proxies:
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇪DE_2|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_51
   port: 443
   reality-opts:
     public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
@@ -263,7 +261,6 @@ proxies:
   type: vless
   udp: true
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
-  xudp: true
 - client-fingerprint: chrome
   name: 29|🇩🇪_德国_83
   port: 443
@@ -481,7 +478,7 @@ proxies:
       Host: hys40.wba-pn.ru
     path: /
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_172
+  name: 29,35|BR_1|1.3MB/s
   network: ws
   port: 443
   server: 185.243.10.109
@@ -510,21 +507,24 @@ proxies:
     headers:
       Host: hys40.wba-pn.ru
     path: /
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 35|DE_1|1.8MB/s
-  network: grpc
+  name: 35|🇪DE_1|1.0MB/s
+  network: ws
   packet-encoding: xudp
-  port: 2087
-  reality-opts:
-    public-key: G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI
-    short-id: 57c26f52
-  server: 46.225.156.169
-  servername: www.bing.com
+  port: 443
+  server: meshbuzz.bond
+  servername: kt5ttul9.cendro.ir
   tls: true
   type: vless
   udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  ws-opts:
+    headers:
+      Host: kt5ttul9.cendro.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /ws-vlees
   xudp: true

@@ -51,9 +51,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇭🇰HK_5|3.6MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇭🇰_香港_5
   port: 443
   reality-opts:
     public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
@@ -65,7 +63,6 @@ proxies:
   type: vless
   udp: true
   uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇭🇰_香港_20
@@ -151,22 +148,25 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- auth: 1dcc3b89-0b45-3908-9120-19741361d55d
+  name: 35|HK_1|2.5MB/s
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: 10030
+  server: fg7xl1div.d33tqmk.cc
+  skip-cert-verify: true
+  sni: xk7q3.ckpfef.top
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_3|2.7MB/s
+  name: 35|🇭🇰HK_2|3.9MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 59430
+  port: 59382
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
-  udp: true
-- name: 35|🇭🇰HK_4|1.4MB/s
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk2.xiaoliyu.cyou
-  type: hysteria2
   udp: true

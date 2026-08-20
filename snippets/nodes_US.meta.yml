@@ -807,7 +807,9 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_14
+  name: 29,35|🇺🇸US_4|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: s8LsdrKbLX2USYl-t9Olxo4yYUlJXjmbbjBh1OONTCE
@@ -819,9 +821,11 @@ proxies:
   type: vless
   udp: true
   uuid: 05a582ec-e74b-46fe-b131-6e9e5575a836
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_15
+  name: 29,35|US_1|1.1MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: tOWJAWnCPaJZvqorglX2JAuT5mDrSSA9VPCd90DSZRY
@@ -1247,21 +1251,31 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|🇸US_1|1.2MB/s
+- name: 35|🇺🇸US_2|1.2MB/s
   port: 443
-  server: efr-marktplatz.club
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸US_5|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: pas-seo-delays-safe.trycloudflare.com
   skip-cert-verify: false
-  sni: efr-marktplatz.club
   tls: true
-  type: http
+  type: vmess
   udp: true
-- name: 35|🇺🇸US_2|1.1MB/s
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
+  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
+  ws-opts:
+    headers:
+      Host: pas-seo-delays-safe.trycloudflare.com
+    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130

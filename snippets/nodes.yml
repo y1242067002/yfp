@@ -727,23 +727,88 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|JP_1|4.1MB/s
+- name: 35|JP_1|6.0MB/s
   network: tcp
-  password: AE62539071
+  password: PQ05174892
   port: 443
-  server: game-thrush.rooster465.autos
+  server: ideal-phoenix.rooster465.autos
   skip-cert-verify: false
-  sni: game-thrush.rooster465.autos
+  sni: ideal-phoenix.rooster465.autos
   type: trojan
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_3|2.7MB/s
+  name: 35|🇭🇰HK_2|3.9MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
   password: di15PV
-  port: 59430
+  port: 59382
   protocol: auth_aes128_md5
   protocol-param: 144391:uBtVcY
   server: api.meituan88.com
   type: ssr
   udp: true
+- cipher: rc4-md5
+  name: 35|🇷KR_1|2.9MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+  password: di15PV
+  port: 17348
+  protocol: auth_aes128_md5
+  protocol-param: 144391:uBtVcY
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇬SG_2|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: resolution-secretary-presence-amazing.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3d69d9bc-eaae-42bd-828f-6894c7d7edbf
+  ws-opts:
+    headers:
+      Host: resolution-secretary-presence-amazing.trycloudflare.com
+    path: /3d69d9bc-eaae-42bd-828f-6894c7d7edbf-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸🇬SG_3|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: willing-relative-las-legislative.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
+  ws-opts:
+    headers:
+      Host: willing-relative-las-legislative.trycloudflare.com
+    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸US_5|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: pas-seo-delays-safe.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
+  ws-opts:
+    headers:
+      Host: pas-seo-delays-safe.trycloudflare.com
+    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
+  xudp: true
