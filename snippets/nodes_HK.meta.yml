@@ -139,7 +139,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇰HK_3|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -147,7 +147,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
+  udp: true
+- name: 33,34,35|🇭🇰HK_4|4.5MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -155,6 +156,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -165,3 +167,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|HK_1|4.9MB/s
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 25135
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk27.pulsarcore.site
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 35|🇰HK_2|3.7MB/s
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 443
+  reduce-rtt: false
+  request-timeout: 0
+  server: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  version: 5
+- client-fingerprint: chrome
+  name: 35|🇰HK_5|4.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

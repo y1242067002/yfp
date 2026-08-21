@@ -636,7 +636,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇰HK_3|1.6MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -644,7 +644,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
+  udp: true
+- name: 33,34,35|🇭🇰HK_4|4.5MB/s
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -652,6 +653,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -716,7 +718,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇺🇸US_7|3.4MB/s
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -724,6 +726,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
@@ -734,3 +737,113 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|🇫FR_1|1.9MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- cipher: aes-128-gcm
+  name: 35|SC_1|3.0MB/s
+  password: a12cloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 904
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 35|🇸🇨SC_2|3.7MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9054
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇪DE_2|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.75.226.122
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 35|🇵JP_2|4.3MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9059
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 35|🇸SG_3|2.7MB/s
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9060
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 35|🇸🇬SG_4|2.5MB/s
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 19999
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- name: 35|🇰HK_5|4.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 35|🇵JP_3|2.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 16691
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 35|🇸US_24|2.8MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 53001
+  server: 43.199.47.78
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇩🇪DE_4|1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.76.102.125
+  type: ss
+  udp: true

@@ -34,3 +34,24 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-128-gcm
+  name: 35|🇵JP_2|4.3MB/s
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9059
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇵JP_3|2.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 16691
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
