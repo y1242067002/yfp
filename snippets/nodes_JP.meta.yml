@@ -223,9 +223,10 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇴MO_2|5.0MB/s
-  network: tcp
+  name: 29,35|🇴MO_1|4.3MB/s
+  network: raw
   packet-encoding: xudp
   port: 6897
   reality-opts:
@@ -255,9 +256,8 @@ proxies:
   uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇯🇵JP_5|5.4MB/s
+  name: 29,35|🇵JP_2|5.4MB/s
   network: tcp
-  packet-encoding: xudp
   port: 53113
   reality-opts:
     public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
@@ -269,7 +269,6 @@ proxies:
   type: vless
   udp: true
   uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇯🇵_日本_283
@@ -407,42 +406,25 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_2|5.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.26
-  type: ss
+- name: 35|JP_1|3.9MB/s
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 64088
+  server: sivp555.ascwt179.com
+  skip-cert-verify: true
+  sni: yz13.jdddyy01.cc
+  type: anytls
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇯🇵JP_3|5.9MB/s
+  name: 35|🇵JP_3|5.0MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21119
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_4|5.7MB/s
+  name: 35|🇵JP_4|2.7MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21119
   server: 211.91.158.44
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇵JP_6|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: former-investments-vip-gem.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1d24b4c4-95ed-4763-ab31-cfccb10df9a2
-  ws-opts:
-    headers:
-      Host: former-investments-vip-gem.trycloudflare.com
-    path: /1d24b4c4-95ed-4763-ab31-cfccb10df9a2-vm
-  xudp: true
