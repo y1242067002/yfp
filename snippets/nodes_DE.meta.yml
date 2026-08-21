@@ -142,7 +142,7 @@ proxies:
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
 - auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  name: 27,35|🇩🇪DE_7|3.6MB/s
+  name: 27,35|DE_1|3.3MB/s
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -151,8 +151,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  name: 27,28,35|AE_1|1.4MB/s
+- name: 27,28|75@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.169
@@ -160,8 +159,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-  udp: true
-- name: '27,28|ا ا : Free_VPN_CH@'
+- name: '27,28|کانال ا : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -650,8 +648,7 @@ proxies:
   uuid: 97883b3a-f0b5-4e88-a61b-e9b24e18423d
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|DE_1|1.2MB/s
-  network: tcp
+  name: 29|🇩🇪_德国_259
   port: 443
   reality-opts:
     public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
@@ -823,45 +820,31 @@ proxies:
     headers:
       Host: node2.onepanel123.ru
     path: /de-vless-ws
-- alterId: 0
-  cipher: auto
-  name: 35|🇪DE_2|3.0MB/s
-  network: tcp
-  port: 53225
-  server: jpaws.ccwink.photos
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇪DE_3|3.5MB/s
+  name: 35|🇪DE_2|2.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21118
   server: 211.91.158.26
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇪DE_4|3.7MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_8|1.7MB/s
-  network: tcp
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - www.apple.com
+    path:
+    - /
+  name: 35|🇩🇪DE_4|1.2MB/s
+  network: http
   packet-encoding: xudp
-  port: 10037
-  reality-opts:
-    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
-    short-id: f0
-  server: family.bucket.9.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
+  port: 80
+  server: 167.233.242.189
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
+  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
   xudp: true
