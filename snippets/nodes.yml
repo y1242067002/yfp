@@ -456,8 +456,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,35|🇸US_2|2.3MB/s
-  network: tcp
+- name: 29|🇺🇸_美国_87
   password: fg20mtCFHy
   port: 5531
   server: 128.14.148.84
@@ -493,8 +492,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34|香港5|@ripaojiedian
-  network: tcp
+- name: 29|🇭🇰_香港_96
   password: BxceQaOe
   port: 7674
   server: 95.40.89.31
@@ -632,57 +630,65 @@ proxies:
   type: ss
 - name: 33,34|香港3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|日本3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|新加坡2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -690,31 +696,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 33,34|美国|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -728,182 +734,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|FR_1|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_2|1.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.33
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_3|3.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- alterId: '0'
-  cipher: auto
-  name: 35|🇬🇧GB_2|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: smaller-independently-ball-mil.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 36dba83c-5b10-48aa-aee3-6d85790a9bf3
-  ws-opts:
-    headers:
-      Host: smaller-independently-ball-mil.trycloudflare.com
-    path: /36dba83c-5b10-48aa-aee3-6d85790a9bf3-vm
-  xudp: true
-- name: 35|🇫🇷FR_4|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_5|1.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_6|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: 35|🇫🇷FR_7|2.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: 35|🇫FR_8|3.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 51.44.167.151
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇫🇷FR_9|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 51.44.170.194
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇸US_3|3.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.145.61.0
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 35|🇸US_14|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: chest-own-llp-collections.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
-  ws-opts:
-    headers:
-      Host: chest-own-llp-collections.trycloudflare.com
-    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇬SG_3|3.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: brake-substance-shared-dual.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
-  ws-opts:
-    headers:
-      Host: brake-substance-shared-dual.trycloudflare.com
-    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
-  xudp: true
