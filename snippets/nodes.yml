@@ -1801,7 +1801,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇺🇸US_7|3.4MB/s
+- name: 29,33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -1811,7 +1811,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇰HK_3|1.6MB/s
+- name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -1821,7 +1821,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇭🇰HK_4|4.5MB/s
+- name: 29,33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -1831,8 +1831,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,35|🇰HK_5|4.4MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_241
   password: BxceQaOe
   port: 27161
   server: 43.198.21.141
@@ -1841,8 +1840,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,35|🇵JP_3|2.1MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_242
   password: BxceQaOe
   port: 16691
   server: 43.198.21.141
@@ -1851,8 +1849,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,35|🇸US_24|2.8MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_243
   password: BxceQaOe
   port: 53001
   server: 43.199.47.78
@@ -3179,86 +3176,426 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇫FR_1|1.9MB/s
+- cipher: aes-256-cfb
+  name: 35|DE_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.176.139.123
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|KR_1|1.6MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|JP_1|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+  udp: true
+- name: 35|🇷FR_1|1.9MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.246
+  server: 104.17.111.8
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- cipher: aes-128-gcm
-  name: 35|SC_1|3.0MB/s
-  password: a12cloud1
-  plugin: obfs
-  plugin-opts:
-    host: fad7f33618.download.windowsupdate.com
-    mode: http
-  port: 904
-  server: 260323.1.0.l3.unclemanco.com
+- name: 35|🇫🇷FR_2|1.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 35|🇫🇷FR_3|1.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- name: 35|🇫🇷FR_4|1.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  name: 35|🇫🇷FR_5|1.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /assignment
+- cipher: chacha20-ietf
+  name: 35|🇰HK_2|3.9MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1310
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: a83jb3sztjnqd4.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_3|3.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1308
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: qd8vhtgktk4hkg.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_4|1.7MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1303
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 32s9mpp3zb5wg2.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_5|2.5MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1306
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: hqux7dvs9tftys.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_6|2.0MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1326
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: k92vnke3356ns4.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_7|1.4MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1322
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 5zkpq9sentjnah.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_8|2.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1302
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: qcg8fhp6y6v9wn.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_9|1.5MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1307
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: kxftjn8bz7upwj.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_10|1.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1327
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: xr9btkx2uwygfb.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_11|2.4MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1329
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: b82gubf8e7m3ar.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_12|2.3MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1305
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: zxyczyb58dx6s3.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|SG_1|1.1MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1358
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 894azjvakdy9t7.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_2|2.8MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1352
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: fdemtyhemkjdc2.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_3|1.8MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1350
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: zuyvqthn5jzjbh.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_4|2.7MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1359
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 7cnsbeetbcdfs2.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_5|3.1MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1356
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: waa3g8tqb78k85.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_6|2.5MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1351
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: zuyvqthn5jzjbh.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_7|1.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1357
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 7yz6ba4ygjvcq6.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇵JP_2|2.7MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1333
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: gtcpse4ptcm46h.server927871.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇵JP_3|3.0MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1332
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 9q2z57eqtbgqvf.server927871.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇯🇵JP_4|2.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1337
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: eg24u58d52pbyr.server927871.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇯🇵JP_5|3.1MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1336
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: pvpyhrpmm4wste.server927871.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇯🇵JP_6|2.9MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1339
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: mqyrg42tdc888n.server927871.com
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇩🇪DE_3|1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.181.36.211
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸🇬SG_8|3.0MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1354
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: shx57c8k2zb9bj.node897828.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇸US_6|1016KB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1383
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 2n2m2r8gkvr7kx.server927871.com
+  type: ssr
+  udp: true
 - cipher: aes-128-gcm
-  name: 35|🇸🇨SC_2|3.7MB/s
+  name: 35|🇷KR_2|1.2MB/s
   password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: fad7f33618.download.windowsupdate.com
+    host: 049b718464.download.windowsupdate.com
     mode: http
-  port: 9054
+  port: 806
   server: 260323.1.0.l3.unclemanco.com
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇪DE_2|2.6MB/s
-  password: amazonskr05
+- alterId: '0'
+  cipher: auto
+  name: 35|🇵JP_7|2.3MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 3.75.226.122
+  server: node.socks5.kdns.fr
+  servername: instructor-theme-persons-clients.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e98ae327-f7b8-4984-bb96-8f021c36a9ed
+  ws-opts:
+    headers:
+      Host: instructor-theme-persons-clients.trycloudflare.com
+    path: /e98ae327-f7b8-4984-bb96-8f021c36a9ed-vm
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇰🇷KR_3|3.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 35|🇵JP_2|4.3MB/s
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: fad7f33618.download.windowsupdate.com
-    mode: http
-  port: 9059
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 35|🇸SG_3|2.7MB/s
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: fad7f33618.download.windowsupdate.com
-    mode: http
-  port: 9060
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 35|🇸🇬SG_4|2.5MB/s
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: fad7f33618.download.windowsupdate.com
-    mode: http
-  port: 19999
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_4|1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.76.102.125
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇳IN_1|3.3MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.44
   type: ss
   udp: true

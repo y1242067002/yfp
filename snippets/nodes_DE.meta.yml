@@ -562,11 +562,8 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇮FI_2|3.5MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_244
   port: 1234
   reality-opts:
     public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
@@ -578,13 +575,9 @@ proxies:
   type: vless
   udp: true
   uuid: 1a2cd392-0b8f-4295-ba23-30f8ac173aad
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇱NL_8|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_252
   port: 1000
   reality-opts:
     public-key: NLmekXQAhK-GC7wZhk2RcDHFI41iq6ojzZea1ppEazM
@@ -596,7 +589,6 @@ proxies:
   type: vless
   udp: true
   uuid: 97883b3a-f0b5-4e88-a61b-e9b24e18423d
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_259
@@ -613,7 +605,8 @@ proxies:
   uuid: 22419260-5475-49d8-a29c-01905c54d1b8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_260
+  name: 29,35|🇩🇪DE_2|1.9MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
@@ -771,60 +764,92 @@ proxies:
     headers:
       Host: node2.onepanel123.ru
     path: /de-vless-ws
+- cipher: aes-256-cfb
+  name: 35|DE_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.176.139.123
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇩🇪DE_3|1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.181.36.211
+  type: ss
+  udp: true
+- auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  name: 35|🇪DE_4|2.6MB/s
+  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  port: 443
+  server: replay.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: replay.wwwinternetvideo.click
+  type: hysteria2
+  udp: true
+- auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  name: 35|🇩🇪DE_5|1.6MB/s
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: deu0003ntrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: deu0003ntrhy01.tcp-reset-club.net
+  type: hysteria2
+  udp: true
+- encryption: none
+  name: 35|🇩🇪DE_6|1.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 104.17.108.69
+  type: vless
+  udp: true
+  uuid: 9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b
+  ws-opts:
+    headers:
+      Host: free-hzr21-cdn.sabzi.name.ng.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /
+  xudp: true
 - alpn:
-  - h3
-  - h2
   - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 35|🇪DE_1|1.2MB/s
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
+  name: 35|🇩🇪DE_7|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: www.speedtest.net
-  servername: ptr.cyberbear.io
+  server: 104.18.114.47
+  servername: arvan2.dearhossein-taktaz.ir
   tls: true
   type: vless
   udp: true
-  uuid: 903daa6f-534c-4f4a-bbc8-024993f5cb01
+  uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
   ws-opts:
     headers:
-      Host: ptr.cyberbear.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /CMlsadnCISdss
+      Host: arvan2.dearhossein-taktaz.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
   xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇪DE_2|2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.75.226.122
-  type: ss
-  udp: true
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   encryption: none
-  name: 35|🇩🇪DE_3|1.3MB/s
+  name: 35|🇩🇪DE_8|1.7MB/s
   network: xhttp
   packet-encoding: xudp
-  port: 8444
-  reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: 635a76c25a4b1820
-  server: 2.26.224.100
-  servername: www.amd.com
+  port: 443
+  server: 85.117.243.19
+  servername: de8.gracefultun.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 15e83ced-7544-422e-863d-deafe29a1dbe
+  uuid: f5bc9b13-53dc-4e1a-b8e3-c9985b31ed97
   xhttp-opts:
-    mode: stream-one
-    path: /xh
-    x-padding-bytes: 100-1000
+    host: de8.gracefultun.xyz
+    path: /assets/build/_app/immutable/chunks/stream-one/
   xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_4|1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.76.102.125
-  type: ss
-  udp: true

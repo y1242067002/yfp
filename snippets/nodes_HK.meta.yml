@@ -190,7 +190,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇺🇸US_7|3.4MB/s
+- name: 29,33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -200,7 +200,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇰HK_3|1.6MB/s
+- name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -210,7 +210,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇭🇰HK_4|4.5MB/s
+- name: 29,33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -220,9 +220,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29,35|🇰HK_5|4.4MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_241
   password: BxceQaOe
   port: 27161
   server: 43.198.21.141
@@ -231,9 +229,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29,35|🇵JP_3|2.1MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_242
   password: BxceQaOe
   port: 16691
   server: 43.198.21.141
@@ -242,9 +238,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29,35|🇸US_24|2.8MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_243
   password: BxceQaOe
   port: 53001
   server: 43.199.47.78
@@ -255,7 +249,8 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_265
+  name: 29,35|HK_1|1.4MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: ZmT8Tizn4Dw0-f7H3yUN5gpNJTWqtq248U4Qpk16lXw
@@ -315,19 +310,132 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|HK_1|4.9MB/s
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 25135
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: hk27.pulsarcore.site
-  type: anytls
+- cipher: chacha20-ietf
+  name: 35|🇰HK_2|3.9MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1310
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: a83jb3sztjnqd4.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_3|3.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1308
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: qd8vhtgktk4hkg.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_4|1.7MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1303
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 32s9mpp3zb5wg2.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_5|2.5MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1306
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: hqux7dvs9tftys.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_6|2.0MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1326
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: k92vnke3356ns4.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_7|1.4MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1322
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: 5zkpq9sentjnah.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_8|2.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1302
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: qcg8fhp6y6v9wn.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_9|1.5MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1307
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: kxftjn8bz7upwj.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_10|1.2MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1327
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: xr9btkx2uwygfb.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_11|2.4MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1329
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: b82gubf8e7m3ar.cache872671.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_12|2.3MB/s
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1305
+  protocol: auth_aes128_md5
+  protocol-param: 31296:U2T93o
+  server: zxyczyb58dx6s3.cache872671.com
+  type: ssr
   udp: true
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 35|🇰HK_2|3.7MB/s
+  name: 35|🇭🇰HK_14|2.0MB/s
   password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
   port: 443
   reduce-rtt: false
