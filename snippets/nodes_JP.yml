@@ -230,83 +230,42 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 35|JP_1|1.5MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇵JP_2|5.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21109
+  server: 211.91.158.26
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇵JP_2|2.7MB/s
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1333
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: gtcpse4ptcm46h.server927871.com
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇯🇵JP_3|5.9MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇵JP_3|3.0MB/s
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1332
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: 9q2z57eqtbgqvf.server927871.com
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇵JP_4|5.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 35|🇯🇵JP_4|2.2MB/s
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1337
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: eg24u58d52pbyr.server927871.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇯🇵JP_5|3.1MB/s
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1336
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: pvpyhrpmm4wste.server927871.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇯🇵JP_6|2.9MB/s
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1339
-  protocol: auth_aes128_md5
-  protocol-param: 31296:U2T93o
-  server: mqyrg42tdc888n.server927871.com
-  type: ssr
-  udp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 35|🇵JP_7|2.3MB/s
+  name: 35|🇵JP_6|1.3MB/s
   network: ws
   packet-encoding: xudp
   port: 443
   server: node.socks5.kdns.fr
-  servername: instructor-theme-persons-clients.trycloudflare.com
+  servername: former-investments-vip-gem.trycloudflare.com
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: e98ae327-f7b8-4984-bb96-8f021c36a9ed
+  uuid: 1d24b4c4-95ed-4763-ab31-cfccb10df9a2
   ws-opts:
     headers:
-      Host: instructor-theme-persons-clients.trycloudflare.com
-    path: /e98ae327-f7b8-4984-bb96-8f021c36a9ed-vm
+      Host: former-investments-vip-gem.trycloudflare.com
+    path: /1d24b4c4-95ed-4763-ab31-cfccb10df9a2-vm
   xudp: true

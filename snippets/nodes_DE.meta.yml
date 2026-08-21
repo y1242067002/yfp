@@ -141,8 +141,7 @@ proxies:
   type: vless
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
-- auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  name: 27,35|🇩🇪DE_5|1.6MB/s
+- name: 27|德国
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -150,9 +149,8 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-  udp: true
 - auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  name: 27,35|🇪AE_1|2.6MB/s
+  name: 27,35|🇦🇪AE_2|1.4MB/s
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.169
@@ -656,8 +654,7 @@ proxies:
   uuid: 22419260-5475-49d8-a29c-01905c54d1b8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇩🇪DE_2|1.9MB/s
-  network: tcp
+  name: 29|🇩🇪_德国_260
   port: 443
   reality-opts:
     public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
@@ -815,83 +812,40 @@ proxies:
     headers:
       Host: node2.onepanel123.ru
     path: /de-vless-ws
-- cipher: aes-256-cfb
-  name: 35|DE_1|1.6MB/s
-  password: amazonskr05
+- name: 35|🇪DE_1|1.1MB/s
   port: 443
-  server: 63.176.139.123
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇩🇪DE_3|1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.181.36.211
-  type: ss
-  udp: true
-- auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  name: 35|🇪DE_4|2.6MB/s
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-  port: 443
-  server: replay.wwwinternetvideo.click
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: replay.wwwinternetvideo.click
-  type: hysteria2
+  tls: true
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇪DE_2|4.5MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇪DE_3|1.7MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  type: ss
   udp: true
 - encryption: none
-  name: 35|🇩🇪DE_6|1.2MB/s
+  name: 35|🇩🇪DE_4|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 80
-  server: 104.17.108.69
+  server: 172.66.47.69
   type: vless
   udp: true
   uuid: 9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b
   ws-opts:
     headers:
-      Host: free-hzr21-cdn.sabzi.name.ng.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
+      Host: free-hzr26-cdn.sabzi.name.ng.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
-  name: 35|🇩🇪DE_7|1.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.114.47
-  servername: arvan2.dearhossein-taktaz.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
-  ws-opts:
-    headers:
-      Host: arvan2.dearhossein-taktaz.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  encryption: none
-  name: 35|🇩🇪DE_8|1.7MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 85.117.243.19
-  servername: de8.gracefultun.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5bc9b13-53dc-4e1a-b8e3-c9985b31ed97
-  xhttp-opts:
-    host: de8.gracefultun.xyz
-    path: /assets/build/_app/immutable/chunks/stream-one/
   xudp: true
