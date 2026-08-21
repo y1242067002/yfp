@@ -34,124 +34,45 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: '27|瑞典 #1'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_26
   port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
+  server: sw1-chr.astralweb.tech
+  servername: sw1-chr.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- name: 29|🇸🇪_瑞典_191
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-se.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇸🇪_瑞典_217
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-il.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_12
+  name: 29|🇸🇪_瑞典_269
   port: 443
   reality-opts:
     public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
     short-id: 2d6d073dc88f22a8
-  server: 132.243.231.89
+  server: se1.se-cdn.ru
   servername: se1.se-cdn.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_19
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 132.243.231.97
-  servername: se1.se-cdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_24
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 89.125.37.151
-  servername: se1.se-cdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_28
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 132.243.231.94
-  servername: se1.se-cdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_29
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 132.243.231.93
-  servername: se1.se-cdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_74
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 31.207.7.144
-  servername: se1.se-cdn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_128
-  network: ws
-  port: 2053
-  server: 89.22.234.164
-  servername: 1lhcl.2mja.otp.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 1lhcl.2mja.otp.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_159
-  network: ws
-  port: 2053
-  server: 89.22.234.164
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /

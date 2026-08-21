@@ -1,38 +1,36 @@
 proxies:
-- client-fingerprint: chrome
-  name: 29|🇪🇪_爱沙尼亚_151
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚_21
   port: 443
-  server: 5.101.116.108
-  servername: fin4.wba-pn.ru
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: 7b1c7d9a3f2a
+  server: 64.188.82.57
+  servername: ee-download.spectrum.vu
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 20595050-84c7-40e6-b9e3-cf90c99f8a4c
-  ws-opts:
-    headers:
-      Host: fin4.wba-pn.ru
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇪🇪_爱沙尼亚_156
-  network: ws
-  port: 443
-  server: 95.85.242.159
-  servername: fin4.wba-pn.ru
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚_32
+  port: 49001
+  reality-opts:
+    public-key: _LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo
+    short-id: 1a6b1f9d0e
+  server: 185.123.53.221
+  servername: de-7.techprovide.icu
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 20595050-84c7-40e6-b9e3-cf90c99f8a4c
-  ws-opts:
-    headers:
-      Host: fin4.wba-pn.ru
-    path: /
+  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪EE_1|4.1MB/s
+  name: 29,35|🇪EE_1|4.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -41,8 +39,35 @@ proxies:
     short-id: ''
   server: 5.181.202.180
   servername: ads.x5.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚_262
+  port: 443
+  reality-opts:
+    public-key: 9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc
+  server: 185.155.222.61
+  servername: ee.convert-cloud.guru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚_263
+  port: 443
+  reality-opts:
+    public-key: ydBPFq0-0WNisTBp8mT-Q42wCgcbKEvyEebSIwCuBDs
+  server: 5.181.201.25
+  servername: eenew.horizonless.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
