@@ -97,32 +97,20 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_16
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
+- name: 29|🇬🇧_英国_60
+  password: fg20mtCFHy
+  port: 5448
+  server: londhtc.southbyte.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: 29|🇬🇧_英国_180
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-uk.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: londhtc.southbyte.xyz
   tls: true
   type: trojan
   udp: true
-- name: 29|🇬🇧_英国_386
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_95
   network: ws
-  port: 2053
-  server: 143.110.163.137
+  port: 443
+  server: 212.135.37.169
   servername: forfreeuse.rtqa.ru
   skip-cert-verify: true
   tls: true
@@ -133,19 +121,81 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
-- name: 29|🇬🇧_英国_672
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_217
   network: ws
-  port: 80
-  server: 91.193.58.159
+  port: 2053
+  server: 94.72.108.133
+  servername: forfreeuse.rtqa.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_133
+  network: ws
+  port: 443
+  server: 103.179.143.215
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_162
+  network: ws
+  port: 443
+  server: 94.72.108.133
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_187
+  network: ws
+  port: 2053
+  server: 91.245.226.122
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_248
+  network: ws
+  port: 443
+  server: 165.232.108.151
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - name: 35|🇧GB_4|2.1MB/s
   port: 443
   server: 185.235.0.66

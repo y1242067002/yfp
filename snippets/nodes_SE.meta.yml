@@ -41,45 +41,72 @@ proxies:
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_26
-  port: 443
-  server: sw1-chr.astralweb.tech
-  servername: sw1-chr.astralweb.tech
+- name: 29|🇸🇪_瑞典_17
+  password: fg20mtCFHy
+  port: 5443
+  server: 172.234.103.243
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- name: 29|🇸🇪_瑞典_191
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-se.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇸🇪_瑞典_217
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-il.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: www.bing.com
   tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_269
+  name: 29|🇸🇪_瑞典_111
+  network: ws
   port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: se1.se-cdn.ru
-  servername: se1.se-cdn.ru
+  server: 70.34.197.112
+  servername: forfreeuse.rtqa.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_115
+  network: ws
+  port: 443
+  server: 65.20.113.2
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_123
+  network: ws
+  port: 443
+  server: 138.124.124.97
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_219
+  network: ws
+  port: 443
+  server: 51.21.18.89
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
