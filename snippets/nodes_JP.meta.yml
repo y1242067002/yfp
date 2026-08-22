@@ -25,6 +25,14 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
+- name: '27|日本 #1'
+  password: ef18d810-719c-4bf1-83c6-615d01f217eb
+  port: 443
+  server: jp.cryptoofarm.com
+  skip-cert-verify: true
+  sni: jp.cryptoofarm.com
+  tls: false
+  type: hysteria2
 - name: 27|JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -88,3 +96,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: 35|JP_1|4.0MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+  udp: true
