@@ -2340,14 +2340,20 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 27,28|🧮60@oneclickvpnkeys
+- down: ''
+  fingerprint: ''
+  name: 27,28,35|GL_1|1.8MB/s
+  obfs: ''
+  obfs-password: ''
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - name: '27|英国 #3'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
@@ -2432,14 +2438,6 @@ proxies:
   sni: gorbachev-new-th.kvnfreetest.uk
   tls: false
   type: hysteria2
-- name: 28|🧮37@oneclickvpnkeys
-  password: 083417772bc618cd61f0cca23dd91680
-  port: 55443
-  server: gorbachev-new-th.kvnfreetest.uk
-  skip-cert-verify: true
-  sni: gorbachev-new-th.kvnfreetest.uk
-  tls: false
-  type: hysteria2
 - name: 28|@confiig_hub
   obfs: salamander
   obfs-password: dnwx30hvcobf7xcf
@@ -2448,14 +2446,6 @@ proxies:
   server: 185.47.172.226
   skip-cert-verify: false
   sni: 185.47.172.226
-  tls: false
-  type: hysteria2
-- name: 28|@GozargahAzad|
-  password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-  port: 443
-  server: 194.135.34.207
-  skip-cert-verify: true
-  sni: ''
   tls: false
   type: hysteria2
 - name: 28|58@oneclickvpnkeys
@@ -2496,14 +2486,6 @@ proxies:
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.124.108
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: 28|🧮3@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.109
   skip-cert-verify: true
   sni: hopp-germany-new.ddnsguru.com
   tls: false
@@ -2682,17 +2664,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 28|@GozargahAzad|🇱
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: 130.49.161.70
-  skip-cert-verify: false
-  sni: hy2.aspidnet.xyzAMIRVPN`
-  tls: false
-  type: hysteria2
-- name: '28|@prrofile_purple |  '
+- name: 28|🇳🇱150460 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -2736,7 +2708,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '28|@v2ray313 کانالمون '
+- name: 28|@v2ray313 کانالمون ️
   obfs: salamander
   obfs-password: kf1lypzqidy6pimt
   password: t8t2qojzsykqazfu
@@ -6203,17 +6175,198 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- flow: xtls-rprx-vision
+  name: 35|AE_1|2.6MB/s
+  network: tcp
+  port: 749
+  reality-opts:
+    public-key: ONLHjUWWv77ovNCrMmckWc0N-1Lc5LEZCMoXbqd20SQ
+    short-id: 00c76c51392e7812
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- cipher: aes-128-gcm
+  name: 35|🇦AU_1|3.1MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10927
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 35|🇪DE_2|1.2MB/s
+  network: tcp
+  port: 2568
+  reality-opts:
+    public-key: P4Rhf1bJUHLv0QI7J4UkqFiUpzabUccvAbKSe7Z0BiM
+    short-id: dd55bfc8
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: s0a3u.biliimg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
 - cipher: aes-256-cfb
-  name: 35|JP_1|1.9MB/s
+  name: 35|GB_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.178.103.18
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|FR_1|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.41
+  servername: gb.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+- flow: xtls-rprx-vision
+  name: 35|HK_1|2.7MB/s
+  network: tcp
+  port: 2543
+  reality-opts:
+    public-key: svngaFnmuMlrqedVBi6z6VR24xjcpEJwSD5hzFn0ryc
+    short-id: 681e6419
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: k0g2h.biliimg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_2|2.6MB/s
+  network: tcp
+  port: 794
+  reality-opts:
+    public-key: 3lku6KkzR158dLknyyPMHzccKrnxczDPddvah1lt92s
+    short-id: 3ef5bc1a9876e667
+  server: hk02.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇷KR_1|2.6MB/s
+  network: tcp
+  port: 20159
+  reality-opts:
+    public-key: KLE79o1tQq-bvGbD4ocK5FVfBL_knSsoB_weR77dIgw
+    short-id: eb8225cafad99147
+  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_3|4.2MB/s
+  network: tcp
+  port: 793
+  reality-opts:
+    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
+    short-id: bf92e87fff488bd3
+  server: hk04.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- cipher: aes-128-gcm
+  name: 35|JP_1|4.9MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10937
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 35|NL_1|1.2MB/s
+  network: tcp
+  port: 2573
+  reality-opts:
+    public-key: _7Rny3Mn7XI1JIXVssKTuXAIOO6N6CZWIY0CmSt5LyQ
+    short-id: 8aa634d2
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: s0a1u.biliimg.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- cipher: aes-128-gcm
+  name: 35|🇬SG_1|4.5MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10934
+  server: mn.qwer-cn.org
+  type: ss
+  udp: true
+- name: 35|🇭TH_1|2.0MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20006
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 35|🇱PL_1|1.6MB/s
+  network: ws
+  port: 8443
+  server: 50.7.249.218
+  servername: apkav-5.bosx.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ede262c-37f9-4363-82cd-9802dafe9e1f
+  ws-opts:
+    path: /api/connect
+- flow: xtls-rprx-vision
+  name: 35|🇸US_1|1.8MB/s
+  network: tcp
+  port: 20132
+  reality-opts:
+    public-key: eArO61_5sdHyxJvTm0iRZ6fx4qHGOIg6LQqcjMekZGY
+    short-id: f8de9610860bb6e8
+  server: transit01.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- flow: xtls-rprx-vision
+  name: 35|🇺🇸US_2|3.1MB/s
+  network: tcp
+  port: 733
+  reality-opts:
+    public-key: HYgpFMGD32D4WsZUct6VMxgEax13DGzP_bLykxAnwQo
+    short-id: 056feca4a91fdc96
+  server: hk03.ccdn3.work
+  servername: www.bilibili.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- cipher: aes-256-cfb
+  name: 35|🇵JP_2|1.5MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.136
   type: ss
   udp: true
-- auth: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  down: ''
+- down: ''
   fingerprint: ''
-  name: 35|🇷🇴RO_2|1.5MB/s
+  name: 35|RO_1|2.5MB/s
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -6224,16 +6377,9 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- cipher: aes-256-cfb
-  name: 35|🇷KR_1|4.1MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - down: ''
   fingerprint: ''
-  name: 35|NL_1|1.3MB/s
+  name: 35|🇱NL_2|1.8MB/s
   obfs: ''
   obfs-password: ''
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
@@ -6244,54 +6390,36 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_3|4.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 53113
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: 238ba3b9e8
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: 35|Other_1|5.5MB/s
+  name: 35|🇪DE_3|4.1MB/s
   obfs: ''
   obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.75.123
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  skip-cert-verify: false
+  sni: 185.230.44.170
   type: hysteria2
   udp: true
   up: ''
-- alterId: '0'
-  cipher: auto
-  name: 35|🇰HK_1|4.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d52b72b0-a509-490a-adae-23da2348d29c
-  ws-opts:
-    headers:
-      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 35|TW_1|1.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 35|GB_1|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.252.176
-  type: ss
-  udp: true
-- name: 35|ID_1|3.0MB/s
+- name: 35|🇩ID_1|3.1MB/s
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20056
@@ -6300,182 +6428,247 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 35|🇷FR_1|2.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 35|🇬🇧GB_2|1.6MB/s
-  port: 443
-  server: 185.235.0.2
+- name: 35|🇺🇸US_3|1.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- auth: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  name: 35|LV_1|3.3MB/s
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-netherlands.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-netherlands.unlimited-access.ru
-  type: hysteria2
-  udp: true
-- name: 35|🇷FR_2|1.0MB/s
-  password: None
-  port: 5060
-  server: 145.239.41.4
-  type: http
-  udp: true
-- auth: e5gqbtu97umt992j
-  name: 35|DE_1|1.7MB/s
-  password: e5gqbtu97umt992j
-  port: 9443
-  server: 185.230.44.170
-  sni: 185.230.44.170
-  type: hysteria2
-  udp: true
-- name: 35|IT_1|1006KB/s
+- name: 35|🇮IT_1|1.2MB/s
   port: 443
   server: 185.183.105.130
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  encryption: mlkem768x25519plus.native.0rtt.8mYSI2mSW-DbxDiXo3Lc0pB-C1nwW6HgSQVebc0SWTs
-  name: 35|🇩🇪DE_2|1.0MB/s
-  network: xhttp
-  packet-encoding: xudp
+- name: 35|SE_1|2.7MB/s
   port: 443
-  server: 172.67.156.192
-  servername: daaailycoooonfigs.dodfun.ir
+  server: 149.50.216.65
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 1ab3d304-568e-4d0b-b347-24038012fc10
-  xhttp-opts:
-    host: daaailycoooonfigs.dodfun.ir.
-    mode: auto
-    path: /engineering/465426-self-healing-roman-concrete-featured
-    x-padding-bytes: 100-1000
-  xudp: true
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 35|🇷🇴RO_2|2.4MB/s
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇩🇪DE_3|2.3MB/s
+  name: 35|🇧GB_2|3.1MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
+  port: 21104
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|US_1|4.2MB/s
+  name: 35|🇵JP_4|1.6MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇪DE_4|4.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_2|1.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|TH_1|3.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21123
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇷FR_3|1.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇫🇷FR_4|2.1MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
+  port: 21109
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇺🇸US_2|4.4MB/s
+  name: 35|🇹IT_2|3.1MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
+  port: 21113
+  server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|IN_1|2.9MB/s
+  name: 35|🇷KR_2|1.5MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.44
+  port: 21114
+  server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇬SG_1|1.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇧GB_3|3.6MB/s
+  name: 35|🇧GB_3|2.6MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21117
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|IL_1|1.5MB/s
+  name: 35|🇯🇵JP_5|1.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21116
-  server: 211.91.158.44
+  port: 21119
+  server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇹IT_2|3.6MB/s
+  name: 35|🇮🇹IT_3|2.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21120
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇬SG_2|5.9MB/s
+  name: 35|🇷FR_2|1.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
+  port: 21126
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇺🇸US_3|3.4MB/s
+  name: 35|🇮IN_1|3.9MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.26
+  port: 21103
+  server: 211.91.158.44
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇬🇧GB_4|2.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇸US_4|3.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇺🇸US_5|2.6MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21108
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇷KR_3|1.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇬🇧GB_5|1.2MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇬SG_2|1.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21121
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇷FR_3|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21122
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇭TH_2|2.1MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21123
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- flow: xtls-rprx-vision
+  name: 35|🇳🇱NL_3|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: 82f5d3a1e9c0b661
+  server: 85.155.226.122
+  servername: getsavesafe.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 35|🇱NL_4|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: 82f5d3a1e9c0b661
+  server: 85.155.226.92
+  servername: getsavesafe.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  xudp: true
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 35|🇺🇸US_6|1.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: hgvh-production.up.railway.app
+  servername: hgvh-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a09b051-3e49-425a-9fd3-1f074d7e587a
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /ws/4a09b051-3e49-425a-9fd3-1f074d7e587a
+  xudp: true
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
-  name: 35|🇬🇧GB_4|1.1MB/s
+  name: 35|🇬🇧GB_6|1.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2054
+  reality-opts:
+    public-key: Re5uQKjLVnOpmsyTQKCiqh8LLJ-UAyZy0s3KO6PRtEY
+    short-id: 300580005a374a9f
+  server: 85.137.249.157
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4fe19d97-7b1d-4cb2-99ee-4bd8658a4c34
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 35|🇸US_7|3.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: HCa-dCIFGG7LF3wPOBlrRzk_T1m-YIkhmupepQy0bzI
+    short-id: 616ead1cdc4486ca
+  server: 192.220.55.133
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a54fec73-26a1-4c05-b948-6a01c157927e
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|🇬🇧GB_7|1.6MB/s
   network: grpc
   packet-encoding: xudp
   port: 2054
@@ -6489,114 +6682,56 @@ proxies:
   udp: true
   uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇯🇵JP_3|1.2MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇧GB_5|3.7MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇮🇳IN_2|1.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇷KR_2|1.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_3|1.7MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_4|3.6MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇹IT_3|1.2MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇷KR_4|1.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇮🇹IT_4|4.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21113
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇬🇧GB_6|1.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇮🇳IN_3|4.9MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21103
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇳IN_4|1.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21103
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇰🇷KR_5|4.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇷FR_5|1.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21122
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- name: 35|🇺🇸US_4|1.0MB/s
-  password: ''
+- flow: xtls-rprx-vision
+  name: 35|🇺🇸US_8|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
+  reality-opts:
+    public-key: RR_ziRYgWg-MGdK-7E3NGVwwqKSOsJlQiH1TGLBYESE
+    short-id: 72003ac19ea6cb2f
+  server: 216.36.83.150
+  servername: www.apple.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
+  uuid: e2e71114-5bae-48ab-a69b-4a091d03b112
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇵JP_6|4.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: b4c65d3711d27d46f32263f1dd9caf48
+  port: 50160
+  server: 151.145.65.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 35|🇷KR_4|4.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: c86222db9b5784ef6a2c0ab13f6ef658
+  port: 50160
+  server: 168.107.13.220
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 35|🇩🇪DE_4|2.9MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20022
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - name: 37|NL_speednode_0004
   port: 9002
   server: 84.17.47.125

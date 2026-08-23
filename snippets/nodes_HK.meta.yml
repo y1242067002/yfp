@@ -192,20 +192,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 35|🇰HK_1|4.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 16632
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|HK_1|2.7MB/s
+  network: tcp
+  port: 2543
+  reality-opts:
+    public-key: svngaFnmuMlrqedVBi6z6VR24xjcpEJwSD5hzFn0ryc
+    short-id: 681e6419
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: k0g2h.biliimg.com
+  tls: true
+  type: vless
   udp: true
-  uuid: d52b72b0-a509-490a-adae-23da2348d29c
-  ws-opts:
-    headers:
-      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
-    path: /
-  xudp: true
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_2|2.6MB/s
+  network: tcp
+  port: 794
+  reality-opts:
+    public-key: 3lku6KkzR158dLknyyPMHzccKrnxczDPddvah1lt92s
+    short-id: 3ef5bc1a9876e667
+  server: hk02.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇭🇰HK_3|4.2MB/s
+  network: tcp
+  port: 793
+  reality-opts:
+    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
+    short-id: bf92e87fff488bd3
+  server: hk04.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6

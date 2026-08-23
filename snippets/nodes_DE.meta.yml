@@ -290,47 +290,40 @@ proxies:
   type: vless
   udp: true
   uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-- auth: e5gqbtu97umt992j
-  name: 35|DE_1|1.7MB/s
-  password: e5gqbtu97umt992j
-  port: 9443
-  server: 185.230.44.170
-  sni: 185.230.44.170
-  type: hysteria2
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.8mYSI2mSW-DbxDiXo3Lc0pB-C1nwW6HgSQVebc0SWTs
-  name: 35|🇩🇪DE_2|1.0MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 172.67.156.192
-  servername: daaailycoooonfigs.dodfun.ir
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_2|1.2MB/s
+  network: tcp
+  port: 2568
+  reality-opts:
+    public-key: P4Rhf1bJUHLv0QI7J4UkqFiUpzabUccvAbKSe7Z0BiM
+    short-id: dd55bfc8
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: s0a3u.biliimg.com
   tls: true
   type: vless
   udp: true
-  uuid: 1ab3d304-568e-4d0b-b347-24038012fc10
-  xhttp-opts:
-    host: daaailycoooonfigs.dodfun.ir.
-    mode: auto
-    path: /engineering/465426-self-healing-roman-concrete-featured
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇩🇪DE_3|2.3MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.26
-  type: ss
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- down: ''
+  fingerprint: ''
+  name: 35|🇪DE_3|4.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  skip-cert-verify: false
+  sni: 185.230.44.170
+  type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇪DE_4|4.4MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21118
-  server: 211.91.158.44
-  type: ss
+  up: ''
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_4|2.9MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20022
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
   udp: true
