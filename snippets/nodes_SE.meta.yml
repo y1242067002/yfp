@@ -41,90 +41,66 @@ proxies:
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: 29|🇸🇪_瑞典_17
-  password: fg20mtCFHy
-  port: 5443
-  server: 172.234.103.243
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_111
-  network: ws
-  port: 443
-  server: 70.34.197.112
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_115
-  network: ws
-  port: 443
-  server: 65.20.113.2
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_123
-  network: ws
-  port: 443
-  server: 138.124.124.97
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_219
-  network: ws
-  port: 443
-  server: 51.21.18.89
-  servername: forfreeuse.rtqa.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: 35|SE_1|2.6MB/s
-  network: grpc
-  packet-encoding: xudp
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_49
   port: 443
   reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 9e2a6f4c3b7d1e8a
-  server: se.moktana.app
-  servername: se.moktana.app
+    public-key: aGfmkYXXpXS7wU_Ev9kHbGFT1_6EH0zB1VTA84MUZm4
+    short-id: b6a194fa06abc355
+  server: errorsw.zapret-tg.ru
+  servername: errorsw.zapret-tg.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
-  xudp: true
+  uuid: 57a9cf7d-bb6c-414e-97be-1985f7123c61
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_63
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 5d08d7c6e0132d2d
+  server: node-22.optmarketshali.ru
+  servername: node-22.optmarketshali.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8ddbec7-05c3-4669-934f-65df92b7694e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_82
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: f0cf473295b5632d
+  server: node-25.optmarketshali.ru
+  servername: node-25.optmarketshali.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8ddbec7-05c3-4669-934f-65df92b7694e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_91
+  port: 443
+  reality-opts:
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: cbb0a5c1dc905505
+  server: restore.anti-zapret.com
+  servername: restore.anti-zapret.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
+- name: 35|SE_1|1.6MB/s
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
