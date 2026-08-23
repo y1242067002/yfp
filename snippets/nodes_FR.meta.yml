@@ -126,18 +126,27 @@ proxies:
     headers:
       Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  name: 35|🇫FR_1|1.2MB/s
-  network: ws
-  password: humanity
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇷FR_1|2.3MB/s
+  network: tcp
   port: 443
-  server: 104.16.174.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 88.218.196.178
+  servername: lapa4.api3-max.ru
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_2|1.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 88.218.196.243
+  servername: lapa10.api3-max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  xudp: true
