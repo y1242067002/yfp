@@ -110,3 +110,21 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 35|SE_1|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 9e2a6f4c3b7d1e8a
+  server: se.moktana.app
+  servername: se.moktana.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  xudp: true

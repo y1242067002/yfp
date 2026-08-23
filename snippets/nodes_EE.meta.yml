@@ -59,3 +59,24 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 35|🇪EE_1|1.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 185.223.170.196
+  servername: ab-v1.bosx.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f35afa9c-ed40-4b94-93c1-af420931fd91
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /api/connect
+  xudp: true
