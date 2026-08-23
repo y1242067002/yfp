@@ -282,17 +282,61 @@ proxies:
   type: vless
   udp: true
   uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|DE_1|3.0MB/s
-  network: tcp
-  port: 757
-  reality-opts:
-    public-key: TOEfmCDbdYjHFdzEAsMTMfXRB-k80zZ5uZV45g3SJRI
-    short-id: cd0cfab98411cbb7
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
+- name: 35|🇪DE_1|2.2MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_2|1.9MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - fcbbcc4fc4.freeino.ir
+    path:
+    - /
+  name: 35|🇪DE_3|2.5MB/s
+  network: http
+  packet-encoding: xudp
+  port: 7080
+  server: fcbbcc4fc4.freeino.ir
+  type: vless
+  udp: true
+  uuid: 2b44a12a-2a00-48aa-a8db-0d182e34d888
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇪DE_4|1.4MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 35|🇪DE_5|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 94.20.154.22
+  servername: kotakbla.b-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+  uuid: a5194487-9b9a-462f-a047-ac7580d80201
+  ws-opts:
+    headers:
+      Host: kotakbla.b-cdn.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+  xudp: true

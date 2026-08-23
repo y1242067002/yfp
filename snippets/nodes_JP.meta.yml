@@ -420,31 +420,32 @@ proxies:
     headers:
       Host: UcKniXjfd2JOKBmx.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-128-gcm
-  name: 35|JP_1|3.7MB/s
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
-  port: 10925
-  server: mn.qwer-cn.org
-  type: ss
+- name: 35|JP_1|1.0MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: as-jp39.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-jp39.y1static-content-distribution.shop
+  type: anytls
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇵JP_2|1.1MB/s
-  network: tcp
-  port: 771
-  reality-opts:
-    public-key: 8lVH2hOKaovzzmCn6DVEHI8CoEn-0AxbQgsMbtToi38
-    short-id: e89440e56ecf6255
-  server: hk04.ccdn3.work
-  servername: i1.hdslb.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
 - cipher: chacha20-ietf-poly1305
-  name: 35|🇵JP_3|1.7MB/s
+  name: 35|🇵JP_2|4.2MB/s
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: 21109
   server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇯🇵JP_3|1.8MB/s
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 35|🇵JP_4|3.5MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10937
+  server: mn.qwer-cn.org
   type: ss
   udp: true
