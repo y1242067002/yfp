@@ -81,26 +81,10 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 27|🇺UKraine
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-germany.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-germany.unlimited-access.ru
-  tls: false
-  type: hysteria2
-- name: '27|英国 #2'
+- name: 27|čĪŚõĹ
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- name: '27|英国 #3'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 222.167.212.81
   skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   tls: false
@@ -175,33 +159,3 @@ proxies:
   type: vless
   udp: true
   uuid: 4c44adcd-d4ff-48fc-a35d-8c882381a9ef
-- name: 35|🇧GB_2|1.1MB/s
-  port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 35|🇧GB_3|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8080
-  server: snapp.ir
-  type: vless
-  udp: true
-  uuid: aad5bbbe-5c87-4af3-bc72-f36986f7e9ea
-  ws-opts:
-    headers:
-      Host: rt.orvexa.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇧GB_4|3.5MB/s
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.26
-  type: ss
-  udp: true
