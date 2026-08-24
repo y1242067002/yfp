@@ -168,13 +168,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '27|德国 #2'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: bel-03.node.lumixnet.com
-  sni: bel-03.node.lumixnet.com
-  tls: false
-  type: hysteria2
-- name: '27|德国 #3'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.104
@@ -182,7 +175,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '27|德国 #4'
+- name: '27|德国 #3'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.97
@@ -190,7 +183,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '27|德国 #5'
+- name: '27|德国 #4'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -198,69 +191,11 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 35|DE_1|4.1MB/s
-  password: r1/f/3g123mW0/6i08mSMJ5bOhYWAnTlmoYK+NqVTuo=
-  port: 16156
-  server: e4.cover20.ir
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_2|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /
-  xudp: true
-- name: 35|🇪DE_3|1.3MB/s
-  port: 9443
-  server: 87.249.132.97
+- name: 28|10@oneclickvpnkeys
+  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
+  port: 8443
+  server: 193.41.5.243
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 35|🇩🇪DE_4|1.0MB/s
-  network: ws
-  port: 443
-  server: 94.20.154.22
-  servername: kotakbla.b-cdn.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    headers:
-      Host: kotakbla.b-cdn.net
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 35|🇪DE_5|3.1MB/s
-  obfs: salamander
-  obfs-password: Xydh1mcz51VQHbbJ
-  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
-  port: 443
-  server: 157.228.137.81
-  skip-cert-verify: true
-  sni: msk2.nebuchadnezzar.ink
+  sni: hy2-germany.unlimited-access.ru
+  tls: false
   type: hysteria2
-  udp: true
-  up: ''

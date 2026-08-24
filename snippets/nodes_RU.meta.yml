@@ -48,12 +48,9 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|NL_1|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇷🇺_俄罗斯_36
   port: 14406
   reality-opts:
     public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
@@ -65,7 +62,6 @@ proxies:
   type: vless
   udp: true
   uuid: 237f91bf-102e-4077-8cc3-baebccb42936
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_35
@@ -119,10 +115,3 @@ proxies:
     headers:
       Host: mws.tunnelgate.org
     path: /ru
-- cipher: chacha20-ietf-poly1305
-  name: 35|RU_1|1.1MB/s
-  password: MTFlN
-  port: 8388
-  server: 194.147.35.56
-  type: ss
-  udp: true
