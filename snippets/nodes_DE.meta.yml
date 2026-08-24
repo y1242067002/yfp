@@ -141,7 +141,7 @@ proxies:
   type: vless
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
-- name: 27,28|75@oneclickvpnkeys
+- name: '27,28,31|🏓75@oneclickvpnkeys #1'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -149,7 +149,7 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '27|德国 #1'
+- name: '27,31|德国 #3 #1'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge4.whit3.net
@@ -157,7 +157,7 @@ proxies:
   sni: ndge4.whit3.net
   tls: false
   type: hysteria2
-- name: '27,28|کانال ا : Free_VPN_CH@'
+- name: '27,28,31|ا ا : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -167,7 +167,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '27|德国 #2'
+- name: '27,31|国 #4 #1'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.104
@@ -175,7 +175,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '27|德国 #3'
+- name: '27,31|德国 #5'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.97
@@ -183,7 +183,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '27|德国 #4'
+- name: '27,31|德国 #6'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -191,7 +191,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 28|62@oneclickvpnkeys
+- name: 28,31|🏓62@oneclickvpnkeys
   password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
   port: 443
   server: 144.31.221.57
@@ -199,8 +199,32 @@ proxies:
   sni: player.wwwinternetvideo.click
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 31|Telegram@VPNjey🇩🇪
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 1.1.1.1
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '31|Telegram@VPNjey🇩🇪🇩🇪 #1'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
 - encryption: none
-  name: 35|DE_1|1.7MB/s
+  name: 31,35|DE_1|1.7MB/s
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -222,7 +246,7 @@ proxies:
       - xb9ndpq97jn.jqpl97malmz.kajpqxmmdlel.freeino.org
     path:
     - /
-  name: 35|🇪DE_2|1.2MB/s
+  name: '31,35|🇪DE_2|1.2MB/s #1'
   network: http
   packet-encoding: xudp
   port: 7080
@@ -231,15 +255,16 @@ proxies:
   udp: true
   uuid: b5c36be7-c0dc-4b72-904e-ba840cba7c49
   xudp: true
-- name: 35|🇩🇪DE_3|1.1MB/s
+- name: '31,35|🇩🇪DE_3|1.1MB/s #1'
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
   udp: true
+  username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 35|🇪DE_4|3.1MB/s
+  name: '31,35|🇪DE_4|3.1MB/s #1'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -256,7 +281,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless
-  name: 35|🇩🇪DE_5|1.7MB/s
+  name: '31,35|🇩🇪DE_5|1.7MB/s #1'
   network: grpc
   packet-encoding: xudp
   port: 7443
