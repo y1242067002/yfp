@@ -103,7 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: '27,31|国 #1 #1'
+- name: 27|法国
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
   server: dora3.api3-max.ru
@@ -111,7 +111,7 @@ proxies:
   sni: dora3.api3-max.ru
   tls: false
   type: hysteria2
-- name: '27,31|法国 #2'
+- name: '27|法国 #1'
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
   server: dora4.api3-max.ru
@@ -119,13 +119,3 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- name: 31|FR_1|1.2MB/s
-  port: 1972
-  server: 51.210.241.123
-  type: http
-- name: 31|🇷FR_2|1.5MB/s
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http

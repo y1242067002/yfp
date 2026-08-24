@@ -740,7 +740,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '27,31|US #1'
+- name: 27|US
   password: 17aVvwmiSU
   port: 10929
   server: do.aigh.store
@@ -748,7 +748,7 @@ proxies:
   sni: do.aigh.store
   tls: false
   type: hysteria2
-- name: '27,31|🇺🇸US #1'
+- name: 27|🇺🇸US
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -756,14 +756,14 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '27,31|美国 #1 #1'
+- name: 27|美国
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
   server: 82.39.214.98
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '27,31|美国 #2 #1'
+- name: '27|美国 #1'
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -771,7 +771,7 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 27,31|🇺🇸139909 | Telegram = t.me/S.....
+- name: 27|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -779,7 +779,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '27,31|美国 #3'
+- name: '27|美国 #2'
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: faq.wwwinternetvideo.click
@@ -1127,18 +1127,18 @@ proxies:
       Host: chatbuzzteam.ir
     path: /ayve3q7z
 - cipher: aes-256-gcm
-  name: 31,33|🇺🇸 美国2|@ripaojiedian
+  name: 33|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: 31,33|🇺🇸 美国|@ripaojiedian
+  name: 33|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '31,33,34|美国3|@ripaojiedian #1'
+- name: 33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 34039
@@ -1146,80 +1146,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 31|🇺🇸US_1|1.3MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 11447
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: us25.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- alpn:
-  - http/1.1
-  name: 31|🇺🇸US_2|3.0MB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: true
-  sni: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sg@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 31|🇸US_3|1.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 31|🇺🇸US_4|3.6MB/s
-  port: 16062
-  server: 104.218.199.26
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 31|🇺US_5|1.3MB/s
-  network: tcp
-  port: '50159'
-  reality-opts:
-    public-key: fA8KdkY7jCafUCTaenwYSg7KrrGwsg7jnq6niEj2qGs
-    short-id: 504d5cc3bd52e49e
-  server: 144.34.170.18
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07ada3a7-b17b-42fb-bb59-267f4c24f525
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 31|🇺US_6|2.6MB/s
-  network: ws
-  port: '443'
-  server: 152.55.184.218marzban-node-production-672a.up.railway.app
-  servername: marzban-node-production-672a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7613bf1c-920e-420d-9029-3610733d514d
-  ws-opts:
-    headers:
-      Host: marzban-node-production-672a.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /vless
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0130 #1'
+  name: 37|US_speednode_0130
   network: tcp
   port: 443
   reality-opts:
@@ -1232,7 +1161,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: '31,37|US_speednode_0131 #1'
+- name: 37|US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -1243,7 +1172,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0132 #1'
+  name: 37|US_speednode_0132
   network: tcp
   port: 11094
   reality-opts:
@@ -1256,14 +1185,14 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: '31,37|US_speednode_0133 #1'
+- name: 37|US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '31,37|US_speednode_0134 #1'
+- name: 37|US_speednode_0134
   port: 443
   server: voteshirleysew.club
   tls: true
@@ -1271,7 +1200,7 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0135 #1'
+  name: 37|US_speednode_0135
   network: tcp
   port: 443
   reality-opts:
@@ -1286,7 +1215,7 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0136 #1'
+  name: 37|US_speednode_0136
   network: tcp
   port: 29893
   reality-opts:
@@ -1301,7 +1230,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0137 #1'
+  name: 37|US_speednode_0137
   network: tcp
   port: 39399
   reality-opts:
@@ -1316,7 +1245,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0138 #1'
+  name: 37|US_speednode_0138
   network: tcp
   port: 443
   reality-opts:
@@ -1331,7 +1260,7 @@ proxies:
   uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0139 #1'
+  name: 37|US_speednode_0139
   network: tcp
   port: 443
   reality-opts:
@@ -1344,14 +1273,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: '31,37|US_speednode_0140 #1'
+- name: 37|US_speednode_0140
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-- name: '31,37|US_speednode_0141 #1'
+- name: 37|US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -1360,7 +1289,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0142 #1'
+  name: 37|US_speednode_0142
   network: tcp
   port: 39211
   reality-opts:
@@ -1373,7 +1302,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: '31,37|US_speednode_0143 #1'
+- name: 37|US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -1382,7 +1311,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '31,37|US_speednode_0144 #1'
+  name: 37|US_speednode_0144
   network: tcp
   port: 443
   reality-opts:
