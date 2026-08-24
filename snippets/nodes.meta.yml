@@ -4433,11 +4433,12 @@ proxies:
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: 33|🇯🇵 日本3|@ripaojiedian
+  name: 33,35|JP_1|1.4MB/s
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
+  udp: true
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -4447,11 +4448,12 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: 33|🇺🇸 美国2|@ripaojiedian
+  name: 33,35|US_1|2.4MB/s
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 33|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -4482,6 +4484,64 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|GB_1|5.0MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 53991
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: jp03.pulsarcore.site
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|KR_1|4.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- name: 35|🇴NO_2|3.3MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 35|🇦UA_2|2.6MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- auth: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  name: 35|🇺🇸US_2|2.1MB/s
+  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  port: 443
+  server: dora1.api3-max.ru
+  skip-cert-verify: true
+  sni: dora1.api3-max.ru
+  type: hysteria2
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 35|TW_1|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 32178
+  reality-opts:
+    public-key: MrBX-OPkFMp19rzgSbungdUFdoUSXAg7phFfeowkvxo
+    short-id: 9c01c7e98b93e683
+  server: wwhgbmxaycrqwzxhfa.cfooov.xyz
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d05cda5-c9ba-43cf-846e-b9521b872c71
+  xudp: true
 - name: 37|NL_speednode_0004
   port: 9002
   server: 84.17.47.125
