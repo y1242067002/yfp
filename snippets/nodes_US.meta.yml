@@ -1128,11 +1128,12 @@ proxies:
       Host: chatbuzzteam.ir
     path: /ayve3q7z
 - cipher: aes-256-gcm
-  name: 33|🇺🇸 美国2|@ripaojiedian
+  name: 33,35|🇸US_1|1.9MB/s
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 33|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -1147,6 +1148,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 35|🇺🇸US_2|1.7MB/s
+  port: 443
+  server: purposebydesig.club
+  skip-cert-verify: false
+  sni: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_3|1.0MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
