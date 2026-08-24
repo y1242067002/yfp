@@ -282,3 +282,38 @@ proxies:
   type: vless
   udp: true
   uuid: 419f25c1-bc35-412e-93fb-258efee859b5
+- auth: Germany2026hy
+  name: 35|🇩🇪DE_2|1.6MB/s
+  obfs: salamander
+  obfs-password: SalamanderDE2026
+  password: Germany2026hy
+  port: 8443
+  server: 45.128.99.14
+  skip-cert-verify: true
+  sni: de.nobelchat.ru
+  type: hysteria2
+  udp: true
+- name: 35|🇩🇪DE_3|1.7MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpcacc225ca6bcafad270c1c0e69972889a7f90c58f
+  name: 35|🇪DE_4|1.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 36443
+  reality-opts:
+    public-key: 4P8qDGM9uWFSHNl2t7SuD2h8gkmD5evMcidqn-0p9Qk
+    short-id: 645f272a4cfa6a17
+  server: 72.60.129.96
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37d0a39c-6f46-49cb-bc30-5327702abe83
+  xudp: true
