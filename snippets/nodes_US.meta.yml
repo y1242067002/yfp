@@ -763,7 +763,7 @@ proxies:
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '27,31|美国 #2'
+- name: '27,31|美国 #2 #1'
   password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
   port: 11683
   server: uswx4.wxgqlfx.vip
@@ -777,6 +777,14 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '27,31|美国 #3'
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: faq.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -1138,7 +1146,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 31,35|US_1|1.3MB/s
+- name: 31|🇺🇸US_1|1.3MB/s
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 11447
   server: yazhouany02.downapptwo.cc
@@ -1148,7 +1156,7 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 31,35|🇸US_2|3.0MB/s
+  name: 31|🇺🇸US_2|3.0MB/s
   network: ws
   password: MiTiVPN
   port: 443
@@ -1161,7 +1169,7 @@ proxies:
     headers:
       Host: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sg@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '31,35|🇸US_3|1.0MB/s #1'
+- name: 31|🇸US_3|1.0MB/s
   password: ''
   port: 9002
   server: 138.199.35.201
@@ -1170,18 +1178,16 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '31,35|🇺🇸US_4|3.6MB/s #1'
+- name: 31|🇺🇸US_4|3.6MB/s
   port: 16062
   server: 104.218.199.26
   type: http
-  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '31,35|🇺US_5|1.3MB/s #1'
+  name: 31|🇺US_5|1.3MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 50159
+  port: '50159'
   reality-opts:
     public-key: fA8KdkY7jCafUCTaenwYSg7KrrGwsg7jnq6niEj2qGs
     short-id: 504d5cc3bd52e49e
@@ -1195,10 +1201,9 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '31,35|🇺US_6|2.6MB/s #1'
+  name: 31|🇺US_6|2.6MB/s
   network: ws
-  packet-encoding: xudp
-  port: 443
+  port: '443'
   server: 152.55.184.218marzban-node-production-672a.up.railway.app
   servername: marzban-node-production-672a.up.railway.app
   tls: true

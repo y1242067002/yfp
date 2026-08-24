@@ -216,10 +216,9 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: 31,35|DE_1|1.7MB/s
+  name: 31|🇪DE_1|1.7MB/s
   network: ws
-  packet-encoding: xudp
-  port: 8080
+  port: '8080'
   server: snapp.ir
   type: vless
   udp: true
@@ -233,33 +232,28 @@ proxies:
   xudp: true
 - encryption: none
   http-opts:
-    headers:
-      Host:
-      - xb9ndpq97jn.jqpl97malmz.kajpqxmmdlel.freeino.org
+    headers: {}
     path:
     - /
-  name: '31,35|🇪DE_2|1.2MB/s #1'
+  name: 31|🇪DE_2|1.2MB/s
   network: http
-  packet-encoding: xudp
-  port: 7080
+  port: '7080'
   server: xb9ndpq97jn.jqpl97malmz.kajpqxmmdlel.freeino.org
   type: vless
   udp: true
   uuid: b5c36be7-c0dc-4b72-904e-ba840cba7c49
   xudp: true
-- name: '31,35|🇩🇪DE_3|1.1MB/s #1'
+- name: 31|🇩🇪DE_3|1.1MB/s
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
-  udp: true
   username: null
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '31,35|🇪DE_4|3.1MB/s #1'
+  name: 31|🇪DE_4|3.1MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
     short-id: 43dcff53849b81e6
@@ -273,10 +267,9 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless
-  name: '31,35|🇩🇪DE_5|1.7MB/s #1'
+  name: 31|🇩🇪DE_5|1.7MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 7443
+  port: '7443'
   reality-opts:
     public-key: fYyYNkbi8gAi12cu0bLDPzatCm8taK4dpBG86o6Ggxk
     short-id: a1b2c3d4e5f60708
