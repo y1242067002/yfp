@@ -90,9 +90,12 @@ proxies:
   type: vless
   udp: true
   uuid: 663836b2-f676-43fb-977f-47c495b1b383
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_79
+  name: 29,35|NL_1|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 14406
   reality-opts:
     public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
@@ -104,6 +107,7 @@ proxies:
   type: vless
   udp: true
   uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_140
@@ -118,20 +122,10 @@ proxies:
   type: vless
   udp: true
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|RU_1|1.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: L5qLDM9pWlBV6gU9yCT4_yc7jz982FiLi2CZWLo3Ki0
-    short-id: dcbf3f13ce2dbe37
-  server: 46.8.41.42
-  servername: uk1.panel11.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 35|RU_1|1.1MB/s
+  password: MTFlN
+  port: 8388
+  server: 194.147.35.56
+  type: ss
   udp: true
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-  xudp: true

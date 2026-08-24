@@ -90,3 +90,19 @@ proxies:
   type: vless
   udp: true
   uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇸SE_1|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 45.91.54.73
+  servername: line.repaironline.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f463819c-5e64-458a-808b-6693afb47aa4
+  xudp: true
