@@ -224,3 +224,27 @@ proxies:
   uuid: 09f2e2f4-3225-4342-bc92-cb58ee841f72
   ws-opts:
     path: /v1
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇷RU_1|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 185.147.27.183
+  servername: user-6a8d949a.noooo.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
+  xudp: true
+- name: 35|🇷RU_2|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 445
+  server: 212.67.10.55
+  type: vless
+  udp: true
+  uuid: d0471048-b677-48a4-94d1-50c0a4fb7191
+  xudp: true

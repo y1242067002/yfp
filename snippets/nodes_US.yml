@@ -220,7 +220,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇺🇸_美国_65
+- name: 29,35|🇦UA_1|2.5MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
   server: hkdcrtc-e.catcat321.com
@@ -273,7 +274,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇺🇸_美国_122
+- client-fingerprint: chrome
+  name: 29,35|🇳NO_1|3.2MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20085
   server: kkvlvvq-a.catcat321.com
@@ -442,3 +445,16 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 35|🇺🇸US_2|3.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
