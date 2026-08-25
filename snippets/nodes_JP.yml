@@ -1,4 +1,92 @@
 proxies:
+- name: 29|🇯🇵_日本_105
+  password: 058f2d7a59044e87
+  port: 20030
+  server: jpcn206.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本_109
+  password: 6519a715da174466
+  port: 101
+  server: jcnp178.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34,35|🇰HK_2|4.2MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 2944
+  server: 18.181.83.46
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34,35|HK_1|1.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 43.206.117.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本_205
+  password: 5cc264ad-92a8-46cc-85b0-82dca5b12faf
+  port: 43102
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_206
+  password: 1b08ff16-ca9c-4500-ba13-9a82a70f8b08
+  port: 45764
+  server: 172.237.28.252
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_207
+  password: c5298159-b9cf-41ae-bf4e-8855375fdcf1
+  port: 47096
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_217
+  password: 662c065f-0495-4598-9a95-2e2fcb38b7b1
+  port: 42423
+  server: 57.180.10.65
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

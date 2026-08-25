@@ -41,19 +41,157 @@ proxies:
   sni: vip-jp-4.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- name: 29|日期：08-24
-  port: 62145
-  server: 193.123.60.203
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_14
+  port: 443
+  reality-opts:
+    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
+  server: 2.27.27.80
+  servername: www.ray-balance.space
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 710fc22f-06b2-4b6d-bb3e-f57c17b670a6
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_53
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_46
+  port: 443
+  reality-opts:
+    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
+  server: bc-jp-hn.ray-balance.space
+  servername: www.ray-balance.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 710fc22f-06b2-4b6d-bb3e-f57c17b670a6
+- name: 29|🇯🇵_日本_105
+  password: 058f2d7a59044e87
+  port: 20030
+  server: jpcn206.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本_109
+  password: 6519a715da174466
+  port: 101
+  server: jcnp178.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34,35|🇰HK_2|4.2MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 2944
+  server: 18.181.83.46
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34,35|HK_1|1.4MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 43.206.117.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本_131
+  network: ws
+  port: 443
+  server: 82.108.155.248
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_133
+  network: ws
+  port: 443
+  server: 43.163.244.175
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_136
+  network: ws
+  port: 443
+  server: 43.167.224.16
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_137
+  network: ws
+  port: 443
+  server: 43.133.206.45
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_139
+  network: ws
+  port: 443
+  server: 43.167.9.109
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_165
+  network: ws
+  port: 443
+  server: 156.231.115.246
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_182
   network: ws
   port: 8443
-  server: 206.251.53.91
+  server: 170.205.39.165
   servername: rubifen.adaspoloandco.com
   skip-cert-verify: true
   tls: true
@@ -65,25 +203,91 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: /GOrbEh
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_56
+  name: 29|🇯🇵_日本_184
+  network: ws
+  port: 8443
+  server: 74.222.12.165
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- name: 29|🇯🇵_日本_186
+  network: ws
+  port: 443
+  server: 82.22.26.202
+  servername: 571x2.r4bn.bim.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 571x2.r4bn.bim.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 29|🇯🇵_日本_205
+  password: 5cc264ad-92a8-46cc-85b0-82dca5b12faf
+  port: 43102
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_206
+  password: 1b08ff16-ca9c-4500-ba13-9a82a70f8b08
+  port: 45764
+  server: 172.237.28.252
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_207
+  password: c5298159-b9cf-41ae-bf4e-8855375fdcf1
+  port: 47096
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 29|🇯🇵_日本_217
+  password: 662c065f-0495-4598-9a95-2e2fcb38b7b1
+  port: 42423
+  server: 57.180.10.65
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_386
   network: ws
   port: 8443
   server: 45.76.54.46
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: /GOrbEh
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_59
-  network: ws
-  port: 8443
-  server: 43.224.33.225
   servername: rubifen.adaspoloandco.com
   skip-cert-verify: true
   tls: true

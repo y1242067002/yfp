@@ -191,20 +191,140 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 35|DE_1|1.9MB/s
-  network: tcp
-  port: 7777
+  name: 29|🇩🇪_德国_11
+  port: 443
   reality-opts:
-    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
-    short-id: a8b9c0d1e2f34567
-  server: 31.76.111.113
-  servername: console.cloud.yandex.ru
+    public-key: 03MJy26A8kc5c8aMMdkY3s_CX3qiw0eTmjrc3UCBLm0
+  server: pl.node.ghostsyvpn.org
+  servername: pl.node.ghostsyvpn.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+  uuid: 026ee970-e645-4062-899a-383d75767b48
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_13
+  port: 2087
+  reality-opts:
+    public-key: MbSfYN0EDX7TaqYNUlx4eMfd_ablcmFVHKxW8Oy10iQ
+    short-id: a7b8c9d0e1f20d14
+  server: 89.39.121.186
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29,35|🇩🇪DE_5|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 3444
+  reality-opts:
+    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
+    short-id: 274c4ebf488820b1
+  server: 89.39.121.186
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
+  xudp: true
+- client-fingerprint: firefox
+  name: 29|🇩🇪_德国_17
+  port: 8443
+  reality-opts:
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: 17faf32cb516c9cb
+  server: bla-bla-bla-de.anti-zapret.com
+  servername: bla-bla-bla-de.anti-zapret.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d11613a1-2e1f-eac4-a275-aabd986b7ad1
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_30
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+  server: node-fra01.rkitman.ru
+  servername: node-fra01.rkitman.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_21
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+  server: 157.173.7.200
+  servername: node-fra02.rkitman.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_26
+  port: 3444
+  reality-opts:
+    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
+    short-id: 274c4ebf488820b1
+  server: 89.39.121.186
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_43
+  port: 2087
+  reality-opts:
+    public-key: MbSfYN0EDX7TaqYNUlx4eMfd_ablcmFVHKxW8Oy10iQ
+    short-id: a7b8c9d0e1f20d14
+  server: 89.39.121.186
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90e12a40-ea12-4951-a0ef-142a1fb164ec
+- name: 29|🇩🇪_德国_108
+  password: 97f1b09b11a34ace
+  port: 20062
+  server: de0408aa.pacemakere.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇩🇪_德国_176
+  network: ws
+  port: 10444
+  server: 94.228.168.18
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
+  ws-opts:
+    headers:
+      Host: vpnpolar.online
+    path: /beeline
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -221,22 +341,6 @@ proxies:
   type: vless
   udp: true
   uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
-  xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_5|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 3444
-  reality-opts:
-    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
-    short-id: 274c4ebf488820b1
-  server: 89.39.121.186
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision

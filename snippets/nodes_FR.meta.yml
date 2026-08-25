@@ -120,6 +120,41 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  name: 29|🇫🇷_法国_18
+  port: 22216
+  reality-opts:
+    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
+    short-id: 0f4412d42129f080
+  server: frannoad.whooisthebest.ir
+  servername: amp-api-edge.apps.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+- name: 29|🇫🇷_法国_66
+  password: kakashka13222
+  port: 1105
+  server: 194.9.172.236
+  skip-cert-verify: true
+  sni: 194.9.172.236
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇫🇷_法国_208
+  password: 46a9aba0-3486-4ec2-96b2-781bc9a96742
+  port: 28443
+  server: 172.239.19.94
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- client-fingerprint: chrome
   name: 35|FR_1|2.7MB/s
   network: ws
   password: humanity
