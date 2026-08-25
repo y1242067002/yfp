@@ -42,7 +42,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇸US_13|3.3MB/s
+- name: 29,33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -74,3 +74,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|HK_1|1.5MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 43.206.117.36
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

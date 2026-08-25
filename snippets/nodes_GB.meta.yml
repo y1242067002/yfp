@@ -81,7 +81,7 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 27,28|🏓33@oneclickvpnkeys
+- name: 27,28|рҹҸ“33@oneclickvpnkeys
   password: 0bacdaea-099b-462b-b625-d7d44c89aace
   port: 55000
   server: 94.156.250.67
@@ -89,30 +89,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 27|🇺UKraine
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-germany.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-germany.unlimited-access.ru
-  tls: false
-  type: hysteria2
-- name: '27|英国 #2'
+- down: ''
+  fingerprint: ''
+  name: 27,35|🇬🇧GB_2|1.3MB/s
+  obfs: ''
+  obfs-password: ''
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '27|英国 #3'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 222.167.212.81
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
+  udp: true
+  up: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇬🇧_英国_20
@@ -205,95 +195,10 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: /GOrbEh
-- name: 35|🇬🇧GB_3|1.5MB/s
-  password: None
+- cipher: aes-256-cfb
+  name: 35|GB_1|1.6MB/s
+  password: amazonskr05
   port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: 13.135.73.3
+  type: ss
   udp: true
-- name: 35|🇬🇧GB_4|3.5MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_5|1.9MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇧GB_6|1.9MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇧GB_7|4.2MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
-    short-id: 1dc6d8a2045a7c9d
-  server: 109.169.85.141
-  servername: slashdot.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbc164a1-b246-456b-aefd-95c5e5f877d4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇬🇧GB_8|3.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇬🇧GB_9|1.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-    short-id: ''
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
-  xudp: true

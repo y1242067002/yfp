@@ -25,14 +25,6 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: '27|日本 #1'
-  password: ef18d810-719c-4bf1-83c6-615d01f217eb
-  port: 443
-  server: jp.cryptoofarm.com
-  skip-cert-verify: true
-  sni: jp.cryptoofarm.com
-  tls: false
-  type: hysteria2
 - name: 27|JP
   password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
   port: 32135
@@ -83,7 +75,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇰HK_2|4.2MB/s
+- name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -93,7 +85,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|HK_1|1.4MB/s
+- name: 29,33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -318,3 +310,12 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- name: 35|JP_1|2.8MB/s
+  network: tcp
+  password: 6519a715da174466
+  port: 101
+  server: jcnp178.pacemakere.com
+  skip-cert-verify: true
+  sni: jcnp178.pacemakere.com
+  type: trojan
+  udp: true
