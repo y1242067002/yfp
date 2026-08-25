@@ -856,7 +856,8 @@ proxies:
   type: vless
   udp: true
   uuid: a0942d92-28c9-4ff2-bc9f-0d79577b858f
-- name: 29|🇺🇸_美国_27
+- name: 29,35|🇩ID_1|1.1MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20056
   server: kkvlvvq-a.catcat321.com
@@ -1138,7 +1139,7 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇸US_13|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -1146,6 +1147,157 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 35|🇺🇸US_15|1.2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: eeb.mythos-wargame.fun
+  servername: eeb.mythos-wargame.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇸US_2|2.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: 17faf32cb516c9cb
+  server: us-backup-ssh.anti-zapret.com
+  servername: us.srv.anti-zapret.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
+- alterId: 2
+  cipher: auto
+  name: 35|🇺🇸US_3|2.2MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- down: ''
+  fingerprint: ''
+  name: 35|🇺🇸US_4|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 35|🇸US_5|4.1MB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: dg2.mangshe.xyz
+  type: hysteria2
+  udp: true
+- name: 35|🇸US_6|1019KB/s
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_7|4.3MB/s
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+  udp: true
+- name: 35|🇺🇸US_8|2.7MB/s
+  password: 752a9aac-91a7-4284-9d6e-234efae318b6
+  port: 17963
+  server: jjz.jjznodenode.top
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: 35|🇺🇸US_9|3.6MB/s
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_10|1.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 35|🇺🇸US_11|2.5MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: plb.webinarly.fun
+  servername: plb.webinarly.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 35|🇺🇸US_12|1.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: usa.mythos-wargame.fun
+  servername: usa.mythos-wargame.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇸US_14|1.6MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+    short-id: 812609fa663c57fb
+  server: gets.savesafe.run
+  servername: gets.savesafe.run
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: net.savesafe.run
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130

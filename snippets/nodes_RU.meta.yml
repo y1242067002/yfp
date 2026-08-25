@@ -115,3 +115,14 @@ proxies:
     headers:
       Host: mws.tunnelgate.org
     path: /ru
+- grpc-opts:
+    grpc-service-name: zuugrpc
+  name: 35|🇷RU_1|1.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 27700
+  server: 46.149.66.9
+  type: vless
+  udp: true
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+  xudp: true

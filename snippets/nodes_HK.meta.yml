@@ -88,7 +88,7 @@ proxies:
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇰HK_2|4.2MB/s
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -96,7 +96,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
+  udp: true
+- name: 33,34,35|HK_1|1.4MB/s
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -104,6 +105,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian

@@ -191,3 +191,122 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|DE_1|1.9MB/s
+  network: tcp
+  port: 7777
+  reality-opts:
+    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
+    short-id: a8b9c0d1e2f34567
+  server: 31.76.111.113
+  servername: console.cloud.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_2|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  server: 152.53.33.73
+  servername: at.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_5|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 3444
+  reality-opts:
+    public-key: FbVQL4BtNGLa_0gFjedYc1caA7Ouvygbn4VCHj5uSQk
+    short-id: 274c4ebf488820b1
+  server: 89.39.121.186
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43f45b5a-a514-423a-b610-7660e62741a9
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_6|2.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JceeRYV6A6gZp0wyPP6ddvwOUGlOYpCzNiw47KeFn0k
+  server: 185.136.12.28
+  servername: gimba.shhflow.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f919a1e-f00e-4538-b0a9-cf190721d578
+- name: 35|🇪DE_7|1.5MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇪DE_8|1.7MB/s
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  port: 443
+  server: 157.228.137.81
+  skip-cert-verify: true
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
+  udp: true
+  up: ''
+- encryption: none
+  name: 35|🇪DE_9|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2052
+  server: cctvhikvision.center
+  type: vless
+  udp: true
+  uuid: b3a9b22a-bf5c-476f-9eb7-224c42294fcf
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /@BlueKnight_net--@BlueKnight_net
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_10|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: freesocks.work
+  servername: uwu.blueknightnet.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: b3a9b22a-bf5c-476f-9eb7-224c42294fcf
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+  xudp: true

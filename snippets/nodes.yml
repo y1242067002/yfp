@@ -438,7 +438,8 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_27
+- name: 29,35|🇩ID_1|1.1MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20056
   server: kkvlvvq-a.catcat321.com
@@ -1481,7 +1482,7 @@ proxies:
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: 33,34|香港4|@ripaojiedian
+- name: 33,34,35|🇰HK_2|4.2MB/s
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -1489,7 +1490,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 33,34|香港5|@ripaojiedian
+  udp: true
+- name: 33,34,35|HK_1|1.4MB/s
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -1497,6 +1499,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1537,7 +1540,7 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: 33,34|美国3|@ripaojiedian
+- name: 33,34,35|🇸US_13|3.3MB/s
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -1545,6 +1548,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: 33|🇨🇳 台湾|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -1561,3 +1565,94 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 35|Other_1|1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.177.76.120
+  type: ss
+  udp: true
+- name: 35|NO_1|3.0MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 35|🇺🇸US_3|2.2MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 35|FR_1|2.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- name: 35|🇫🇷FR_2|1.3MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- name: 35|🇴MO_1|2.0MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20068
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 35|TW_1|3.2MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20115
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 35|🇹🇼TW_2|3.6MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 18372
+  server: rrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.tw3.cat.bilibili.com
+  type: trojan
+  udp: true
+- name: 35|🇺UA_1|3.4MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
