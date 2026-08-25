@@ -89,20 +89,14 @@ proxies:
   sni: hy2-germany.unlimited-access.ru
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 27,35|🇬🇧GB_2|1.3MB/s
-  obfs: ''
-  obfs-password: ''
+- name: '27|英国 #2'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-  udp: true
-  up: ''
 - name: '27|英国 #3'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
@@ -203,10 +197,3 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: /GOrbEh
-- cipher: aes-256-cfb
-  name: 35|GB_1|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.3
-  type: ss
-  udp: true
