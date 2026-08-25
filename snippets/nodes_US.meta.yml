@@ -748,14 +748,6 @@ proxies:
   sni: do.aigh.store
   tls: false
   type: hysteria2
-- name: 27|🇺🇸US
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 27|美国
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
@@ -1020,7 +1012,8 @@ proxies:
   type: vmess
   udp: true
   uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
-- name: 29|🇺🇸_美国_115
+- name: 29,35|🇩ID_1|1.3MB/s
+  network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20056
   server: kkvlvvq-a.catcat321.com
@@ -1495,6 +1488,60 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
+- name: 35|🇸US_2|1.0MB/s
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_3|1.6MB/s
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_4|1.1MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇺🇸US_5|1.2MB/s
+  network: ws
+  port: 8443
+  server: 104.19.144.140
+  servername: wzknb.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: wzknb.pages.dev
+    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 35|🇺🇸US_6|2.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 13.143.139.174
+  servername: plb.webinarly.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
