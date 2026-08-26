@@ -113,19 +113,19 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_13
+  name: 25,29|🇨🇳_中国_11
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_418
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -211,15 +211,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_64
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20068
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 29,35|🇦UA_3|2.7MB/s
   network: tcp
@@ -231,133 +222,46 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇺🇸_美国_67
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20115
+- client-fingerprint: chrome
+  name: 29,35|🇹IT_4|3.2MB/s
+  network: raw
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20065
   server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 29|🇺🇸_美国_99
-  password: 1215e2b3af8f4f3f
-  port: 99
-  server: lisa89.zxom.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_100
-  password: c857562678594197
-  port: 20063
-  server: saj2000e.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_113
-  port: 50269
-  server: 103.179.142.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
-- name: 29|🇺🇸_美国_115
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20056
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_122
+- name: 29|🇺🇸_美国_34
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20085
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国_37
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20068
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_125
-  port: 443
-  server: guanwang.awsno.com
+- name: 29,35|🇺🇦UA_2|1.2MB/s
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇺🇸_美国_209
-  password: 2d013f81-a2bb-4fd0-9c48-8201dcd41f85
-  port: 28443
-  server: 69.164.205.61
-  skip-cert-verify: true
-  sni: vpn-node.internal
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 29|🇺🇸_美国_210
-  password: 8e2d98af-de70-470d-a766-01c883add647
-  port: 28443
-  server: 45.56.108.97
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 29|🇺🇸_美国_212
-  password: 8f4a24de-58da-4a61-9529-94234292b62c
-  port: 28443
-  server: 128.14.146.132
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 29|🇺🇸_美国_214
-  password: 8b809212-9697-4053-a8fc-9a3ae7c4bacb
-  port: 28443
-  server: 50.7.177.42
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- name: 29|🇺🇸_美国_334
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_301
+- name: 29|🇺🇸_美国_215
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -367,19 +271,10 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_421
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_258
+- name: 29|🇺🇸_美国_229
   password: humanity
   port: 443
   server: 216.24.57.1
@@ -392,7 +287,31 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_327
+- name: 29|🇺🇸_美国_221
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_307
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🇺🇸_美国_323
   password: humanity
   port: 443
   server: 130.250.137.171
@@ -402,36 +321,9 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_325
-  password: MiTiVPN
-  port: 443
-  server: 140.248.185.253
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_498
-  network: ws
-  port: 443
-  server: us-23.hihu.net
-  servername: us-23.hihu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e9674560-9d1a-11f1-b333-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: chatbuzzteam.ir
-    path: /ayve3q7z
 - cipher: aes-256-gcm
   name: 33|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -444,15 +336,6 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: 33,34,35|🇸US_5|4.0MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 35|🇺🇸US_4|4.1MB/s
@@ -464,13 +347,3 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 35|🇸US_9|2.4MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
