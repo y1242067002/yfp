@@ -33,9 +33,7 @@ proxies:
   sni: jp.cryptoofarm.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29,35|🇰HK_7|4.6MB/s
-  network: tcp
+- name: 29|🇯🇵_日本_16
   password: BxceQaOe
   port: 4117
   server: 54.250.197.209
@@ -44,9 +42,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29,35|🇬SG_3|4.3MB/s
-  network: tcp
+- name: 29|🇯🇵_日本_17
   password: BxceQaOe
   port: 41421
   server: 3.115.9.60
@@ -55,7 +51,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇰HK_5|4.6MB/s
+- name: 29,33,34|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4117
@@ -65,7 +61,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇬SG_2|4.7MB/s
+- name: 29,33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -167,21 +163,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: 35|JP_1|2.9MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10034
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
-  xudp: true

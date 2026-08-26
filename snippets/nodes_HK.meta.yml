@@ -57,9 +57,7 @@ proxies:
   sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29,35|🇰HK_6|3.5MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_15
   password: BxceQaOe
   port: 1103
   server: 95.40.24.109
@@ -68,9 +66,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29,35|🇸US_9|2.4MB/s
-  network: tcp
+- name: 29|🇭🇰_香港_18
   password: BxceQaOe
   port: 53001
   server: 95.40.24.249
@@ -92,7 +88,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5b23f73a-1f63-4618-a8f4-40ade38f7bff
-- name: 29,33,34,35|🇸US_5|4.0MB/s
+- name: 29,33,34|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -102,7 +98,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29,33,34,35|🇭🇰HK_4|3.0MB/s
+- name: 29,33,34|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -162,28 +158,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|🇭🇰HK_3|2.2MB/s
-  password: 5b2012ba-d040-4281-b92c-4f005badd179
-  port: 55102
-  server: dafeizhu.xxxyun.top
-  sni: atlhk2.jueduibupao.top
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 35|🇰HK_8|1.2MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 104.171.138.4
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
-  xhttp-opts:
-    mode: auto
-  xudp: true
