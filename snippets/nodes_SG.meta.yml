@@ -107,29 +107,39 @@ proxies:
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 95.40.27.43
+  port: 41421
+  server: 3.115.9.60
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 35|🇸SG_1|2.6MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 47053
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: xjp202.pulsarcore.site
-  type: anytls
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 35|🇸🇬SG_3|4.2MB/s
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: update
+  name: 35|🇸SG_1|3.6MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇬SG_2|3.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.144.53
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  udp: true
+  up: ''
