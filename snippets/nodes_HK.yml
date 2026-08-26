@@ -26,44 +26,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- name: 29|🇭🇰_香港_15
-  password: BxceQaOe
-  port: 1103
-  server: 95.40.24.109
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港_18
-  password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29,33,34|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 29,33,34|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1103
-  server: 95.40.24.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 33|🇭🇰 香港2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -76,6 +38,22 @@ proxies:
   port: 10006
   server: 112.28.141.77
   type: ss
+- name: 33,34|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 95.40.24.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4117
+  server: 54.250.197.209
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 34|香港|@ripaojiedian
