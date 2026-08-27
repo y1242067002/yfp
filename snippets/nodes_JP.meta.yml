@@ -26,6 +26,14 @@ proxies:
   type: hysteria2
   udp: true
 - name: '27|日本 #1'
+  password: a9081889-1949-49ba-a2aa-7054515716de
+  port: 3488
+  server: c2.bestai.beauty
+  skip-cert-verify: true
+  sni: c2.bestai.beauty
+  tls: false
+  type: hysteria2
+- name: '27|日本 #2'
   password: ef18d810-719c-4bf1-83c6-615d01f217eb
   port: 443
   server: jp.cryptoofarm.com
@@ -80,3 +88,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|JP_1|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: nian.001.url111.kcloud02.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
+- name: 35|🇵JP_2|1.4MB/s
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: as-jp39.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: as-jp39.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_3|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+    short-id: 21fa8a1ebf
+  server: jp2.miyazono-kaori.com
+  servername: www.capcom.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbef76ca-9bf2-415d-9872-4700c8ca7673
+  xudp: true

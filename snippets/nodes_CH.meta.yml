@@ -26,3 +26,17 @@ proxies:
     headers:
       Host: vod.ensf.top
     path: /api/v1/irc
+- name: 35|🇭CH_1|4.0MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇭CH_2|3.0MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
