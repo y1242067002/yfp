@@ -113,7 +113,7 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_30
+  name: 25,29|🇸🇬_新加坡_17
   port: 30829
   server: v29.hdacd.com
   skip-cert-verify: true
@@ -193,10 +193,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_53
+  name: 25,29|🇸🇬_新加坡_20
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -213,25 +213,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_26
+  name: 29|🇺🇸_美国_29
   port: 443
-  server: guanwang.awsno.com
+  server: 192.227.247.27
+  servername: 192.227.247.27
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_33
-  port: 50269
-  server: 103.179.142.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
-- name: 29|🇺🇸_美国_55
+- name: 29|🇺🇸_美国_66
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -241,7 +232,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_56
+- name: 29|🇺🇸_美国_62
   password: humanity
   port: 443
   server: 130.250.137.171
@@ -251,30 +242,20 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_40
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_52
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_64
+- name: 29|🇺🇸_美国_69
   password: humanity
   port: 443
   server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_71
+  password: humanity
+  port: 443
+  server: render.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -301,7 +282,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|🇺🇸US_27|4.1MB/s
+- cipher: aes-256-cfb
+  name: 35|🇸US_3|2.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: 35|🇺🇸US_14|2.5MB/s
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
   port: 20230

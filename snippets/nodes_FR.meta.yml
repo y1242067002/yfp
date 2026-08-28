@@ -111,31 +111,62 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 35|🇷FR_1|1010KB/s
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国_294
   network: ws
-  password: humanity
-  port: 443
-  server: 176.97.66.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 35|🇷FR_2|1.4MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 35|FR_1|1.2MB/s
+  network: xhttp
+  port: 2096
+  server: 193.227.99.253
+  servername: tf.monister.ir
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: b07fa744-dd60-4a35-afbe-bd84e2dc86af
+  xhttp-opts:
+    host: tf.monister.ir
+    path: /
 - client-fingerprint: qq
-  name: 35|🇷FR_3|2.6MB/s
+  name: 35|🇷FR_2|1.6MB/s
+  network: ws
+  port: 8443
+  server: chopin.adaspoloandco.com
+  servername: chopin.adaspoloandco.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+  ws-opts:
+    headers:
+      Host: chopin.adaspoloandco.com
+    path: /download.php
+- name: 35|🇫🇷FR_3|2.9MB/s
+  password: ''
+  port: 49153
+  server: 37.187.57.177
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: qq
+  name: 35|🇫🇷FR_4|1.5MB/s
   network: ws
   port: 8443
   server: chopin.adaspoloandco.com
@@ -147,6 +178,23 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
     path: /download.php
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇷FR_6|2.4MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: 5a8e1a04f3d92b67
+  server: 2.26.129.246
+  servername: ukrop.mycdn-me.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f9b1ec3-b3d7-4dcc-8035-d813ab89785f
+  xudp: true

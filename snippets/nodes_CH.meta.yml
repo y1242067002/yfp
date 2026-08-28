@@ -1,7 +1,7 @@
 proxies:
 - alpn:
   - h3
-  name: '28|کانال تلگرام : Free_VPN_CH@'
+  name: '28|کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -11,32 +11,34 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士_65
-  network: ws
-  port: 443
-  server: 185.195.69.158
-  servername: vod.ensf.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
-- name: 35|🇭CH_1|4.0MB/s
+- name: 35|🇭CH_1|2.2MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇭CH_2|3.0MB/s
+- name: 35|🇭CH_2|1.2MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇭CH_3|1.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: ''
+  server: lv03.tranzit-net.ru
+  servername: d.tranzit-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 618acefa-2ff1-41b0-a295-f8a08858a897
+  xudp: true

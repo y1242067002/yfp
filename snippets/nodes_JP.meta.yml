@@ -53,14 +53,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 29|日期：08-27
-  port: 62145
-  server: 152.70.49.181
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|日期：08-28
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 33|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 9408
@@ -89,43 +95,34 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
+  name: 35|🇵JP_1|3.0MB/s
+  network: ws
+  password: ba19c9d6-3fc0-4085-9f47-465c5d7cceef
+  port: 443
+  server: 108.162.198.99
+  skip-cert-verify: false
+  sni: ajp.hyas.space
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /x7f9k2m4p8
+- client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|JP_1|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: 2c4d005b
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-  xudp: true
-- name: 35|🇵JP_2|1.4MB/s
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 443
-  server: as-jp39.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-jp39.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇯🇵JP_3|2.8MB/s
+  name: 35|🇵JP_2|1.2MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
-    short-id: 21fa8a1ebf
-  server: jp2.miyazono-kaori.com
-  servername: www.capcom.co.jp
+    public-key: L7uycVxXYfpb7hNqiRlVlWYDhsevQNGs5eLi2idL6wc
+    short-id: 7e67f3f5a007bdc2
+  server: jp-vlss.w-mebel.pro
+  servername: w-mebel.pro
   tls: true
   type: vless
   udp: true
-  uuid: fbef76ca-9bf2-415d-9872-4700c8ca7673
+  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
   xudp: true

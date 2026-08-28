@@ -48,16 +48,88 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 29|🇷🇺_俄罗斯_35
+- name: 29|🇷🇺_俄罗斯_38
   network: ws
-  port: 2200
-  server: 91.222.237.55
+  port: 4100
+  server: 201.24.49.233
+  servername: live.ok.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
+  ws-opts:
+    path: /v1
+- name: 29|🇷🇺_俄罗斯_41
+  network: ws
+  port: 4100
+  server: 200.165.234.45
+  servername: live.ok.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39e0f41b-180b-4f7e-a607-37b135f0fd83
+  ws-opts:
+    path: /v1
+- client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯_194
+  network: ws
+  port: 8443
+  server: 5.42.109.42
+  servername: run5.wba-pn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
+  ws-opts:
+    path: /
+- client-fingerprint: qq
+  name: 35|🇺RU_1|1.9MB/s
+  network: ws
+  port: 443
+  server: wsnl7.wba-pn.ru
+  servername: wsnl7.wba-pn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
   ws-opts:
     headers:
-      Host: rzd.ru
-    path: /v1
+      Host: wsnl7.wba-pn.ru
+    path: /
+- encryption: none
+  name: 35|🇺RU_2|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 89.104.74.45
+  type: vless
+  udp: true
+  uuid: 0036ae55-1684-4ebc-a52c-32f1fcf0e044
+  ws-opts:
+    headers:
+      Host: rutube.serverssharecdn.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /rutube
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺RU_3|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: wsnl7.wba-pn.ru
+  servername: wsnl7.wba-pn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /
+  xudp: true
