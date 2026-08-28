@@ -159,7 +159,7 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: 27,28|📍68@oneclickvpnkeys
+- name: '27|德国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.174
@@ -209,6 +209,14 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- name: 28|18@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: 130.61.50.75
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_5
@@ -239,8 +247,7 @@ proxies:
   type: vless
   udp: true
   uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
-- name: 29,35|UA_1|4.5MB/s
-  network: tcp
+- name: 29|🇩🇪_德国_27
   password: '!!str 123123'
   port: 25830
   server: node5.quaxly.com
@@ -275,149 +282,3 @@ proxies:
     headers:
       Host: vod.ensf.top
     path: /api/v1/irc
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|DE_1|2.5MB/s
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: fast.iqiraq.shop.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
-  ws-opts:
-    headers:
-      Host: fast.iqiraq.shop.
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: qq
-  name: 35|🇩🇪DE_3|1.5MB/s
-  network: ws
-  port: 443
-  server: panel.homelanderwins.com
-  servername: panel.homelanderwins.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f81362b3-ba06-467e-8d3e-821bdf4ffd8d
-  ws-opts:
-    headers:
-      Host: panel.homelanderwins.com
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_4|2.3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: sitoman.info
-  servername: lw-5.injaadvie.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
-  xhttp-opts:
-    host: lw-5.injaadvie.ir
-    mode: stream-one
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_5|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1824
-  reality-opts:
-    public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
-    short-id: 8390ee7a5996648b
-  server: ger22.orangesms.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 708f0033-c6c0-4359-8bc6-a18bc8300f9c
-  xudp: true
-- name: 35|🇪DE_6|2.1MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_7|1.1MB/s
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_8|2.1MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 35|🇩🇪DE_9|1.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 185.46.11.61
-  type: vless
-  udp: true
-  uuid: 0036ae55-1684-4ebc-a52c-32f1fcf0e044
-  ws-opts:
-    headers:
-      Host: cnd.germany.dialler.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /cdn/assets/stream
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: qq
-  name: 35|🇩🇪DE_10|4.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: fast.iqiraq.shop
-  servername: fast.iqiraq.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_11|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: N9q4N5H1CODTTDUjjXs6-AfDTQ1eSGEU7zEC0F9YUkU
-    short-id: 05f4f85fdc6c1379
-  server: 84.32.100.110
-  servername: w-mebel.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
-  xudp: true
