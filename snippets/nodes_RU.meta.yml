@@ -85,3 +85,33 @@ proxies:
   uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
   ws-opts:
     path: /
+- auth: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  name: 35|RU_1|2.6MB/s
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: els2.mangshe.xyz
+  skip-cert-verify: true
+  sni: els2.mangshe.xyz
+  type: hysteria2
+  udp: true
+- name: 35|🇷RU_2|1.3MB/s
+  port: 8120
+  server: 46.148.234.53
+  type: http
+  udp: true
+- client-fingerprint: android
+  name: 35|🇷🇺RU_3|1.1MB/s
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket

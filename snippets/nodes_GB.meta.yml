@@ -128,8 +128,7 @@ proxies:
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇰HK_3|1.2MB/s
-  network: tcp
+  name: 29|🇬🇧_英国_28
   port: 15003
   reality-opts:
     public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
@@ -141,3 +140,41 @@ proxies:
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- name: 35|GB_1|2.6MB/s
+  port: 3118
+  server: 154.61.56.215
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_2|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 51847
+  reality-opts:
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: 0eec442e7b34d2f2
+  server: 3.9.135.156
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_3|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: 535a3304
+  server: 50.7.193.131
+  servername: app5.jarvesitw.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  xudp: true
