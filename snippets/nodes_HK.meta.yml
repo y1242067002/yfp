@@ -47,21 +47,6 @@ proxies:
   sni: h.zz2233.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_211
-  network: ws
-  port: 16027
-  server: 107.148.239.178
-  servername: vod.ensf.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
 - cipher: aes-256-gcm
   name: 33|🇭🇰 香港2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -107,3 +92,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|🇰HK_1|4.8MB/s
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31

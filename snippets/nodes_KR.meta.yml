@@ -11,56 +11,18 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_104
-  network: ws
-  port: 12386
-  server: 220.77.188.107
-  servername: vod.ensf.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 35|KR_1|1.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
   udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_117
-  network: ws
-  port: 12150
-  server: 61.85.1.77
-  servername: vod.ensf.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_230
-  network: ws
-  port: 12259
-  server: 121.166.39.76
-  servername: vod.ensf.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|KR_1|5.1MB/s
+  name: 35|🇷KR_2|5.1MB/s
   network: grpc
   port: 10050
   reality-opts:
@@ -76,7 +38,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇰🇷KR_2|5.2MB/s
+  name: 35|🇰🇷KR_3|5.1MB/s
   network: grpc
   port: 10049
   reality-opts:
@@ -92,7 +54,23 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇰🇷KR_3|5.0MB/s
+  name: 35|🇰🇷KR_4|4.8MB/s
+  network: grpc
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|🇰🇷KR_5|1.3MB/s
   network: grpc
   port: 10046
   reality-opts:
@@ -104,19 +82,3 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇷KR_4|5.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 28482
-  reality-opts:
-    public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
-    short-id: fa1e592603c283
-  server: 43.202.46.25
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
-  xudp: true
