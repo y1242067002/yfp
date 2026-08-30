@@ -48,6 +48,14 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 28|🇷🇺156888 | ⚡️Telegram = t.me/S...
+  password: hysteria2_fastlane_f6dt3q19m
+  port: 443
+  server: 87.239.111.109
+  skip-cert-verify: false
+  sni: ru2.h.smartaisupport.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_37
@@ -708,3 +716,26 @@ proxies:
   uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
   ws-opts:
     path: /v1
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺RU_1|2.8MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 40000
+  reality-opts:
+    public-key: vqnE1wKOqp4JXotgCl4SI2CBJ7ys3080cZjL83r9pmE
+    short-id: 49443d1a
+  server: rua02.333210.best
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e103b504-eb8c-4ddb-8c60-9921133e77d4
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- name: 35|🇺RU_2|1.6MB/s
+  port: 8120
+  server: 46.148.234.53
+  type: http
+  udp: true
