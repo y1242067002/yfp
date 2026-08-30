@@ -113,15 +113,15 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_17
+  name: 25|美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_252
+- name: 25,29|🏳️_未知_261
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -193,7 +193,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_19
+  name: 25,29|🇨🇳_中国_138
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -211,41 +211,9 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_9
-  password: c9618d0e-edc9-46f5-a948-96a3781fc3e9
-  port: 50000
-  server: us200m.jiasu.asia
-  skip-cert-verify: true
-  sni: us200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_10
-  password: c9618d0e-edc9-46f5-a948-96a3781fc3e9
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: true
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_12
-  password: 24ef7cf6-9997-4886-9ef7-9e8233c6766f
-  port: 50000
-  server: us200m.jiasu.asia
-  skip-cert-verify: true
-  sni: us200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国_13
-  password: 24ef7cf6-9997-4886-9ef7-9e8233c6766f
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: true
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_18
+  name: 29|🇺🇸_美国_144
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -255,7 +223,7 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_24
+  name: 29|🇺🇸_美国_145
   port: 443
   server: 192.227.247.27
   servername: 192.227.247.27
@@ -264,7 +232,29 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇺🇸_美国_50
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国_148
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: 29|🇺🇸_美国_173
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: default.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_208
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -273,10 +263,8 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_48
+- name: 29|🇺🇸_美国_204
   password: humanity
   port: 443
   server: 216.24.57.1
@@ -285,21 +273,33 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_53
+- name: 29|🇺🇸_美国_198
   password: humanity
   port: 443
-  server: 130.250.137.171
+  server: render.com
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_58
+- name: 29|🇺🇸_美国_207
   password: humanity
   port: 443
-  server: render.com
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_214
+  password: humanity
+  port: 443
+  server: 130.250.137.171
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan

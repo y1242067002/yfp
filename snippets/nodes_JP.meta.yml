@@ -53,36 +53,48 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|日期：08-29
-  port: 38218
+  name: 29|日期：08-30
+  port: 30666
   reality-opts:
-    public-key: 03hWBp-xwElEmilVxbhasf1Al0MZnvARUr4zclCV6S0
-    short-id: 30752ffd01a85649
-  server: hkayydswnnds.cfooov.xyz
-  servername: www.apple.com
+    public-key: 3fKobetnIIC1NFGtQEPkBx75UdTMmq886OAr9bOt2S4
+    short-id: c919090e3c660c
+  server: 13.212.10.131
+  servername: www.sony.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-- name: 29|🇯🇵_日本_8
-  password: c9618d0e-edc9-46f5-a948-96a3781fc3e9
-  port: 50000
-  server: jp200m.jiasu.asia
+  uuid: 37834c00-7fa5-46ba-a4b9-7e13c8fcdf8f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_11
+  port: 47571
+  reality-opts:
+    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
+    short-id: 4c8b46e500b0f3ad
+  server: 35.78.59.6
+  servername: www.amd.com
   skip-cert-verify: true
-  sni: jp200m.jiasu.asia
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 29|🇯🇵_日本_11
-  password: 24ef7cf6-9997-4886-9ef7-9e8233c6766f
-  port: 50000
-  server: jp200m.jiasu.asia
+  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_133
+  port: 27898
+  reality-opts:
+    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
+    short-id: 9e638ff3d3d9265c
+  server: 54.95.137.141
+  servername: www.amd.com
   skip-cert-verify: true
-  sni: jp200m.jiasu.asia
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c
 - name: 33|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 9408

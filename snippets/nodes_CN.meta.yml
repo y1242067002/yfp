@@ -35,17 +35,35 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: 29|🇨🇳_中国_15
+- name: 29|🇨🇳_中国_128
   port: 52683
   server: jp.sofast.live
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- alterId: 2
+  cipher: auto
+  name: 29|🇨🇳_中国_141
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 29|🇨🇳_中国_143
+  port: 58011
+  server: us22.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - alterId: 64
   cipher: auto
-  name: 29|🇨🇳_中国_21
+  name: 29|🇨🇳_中国_146
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -55,7 +73,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 29|🇨🇳_中国_22
+  name: 29|🇨🇳_中国_150
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: true
@@ -63,3 +81,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 29|🇨🇳_中国_151
+  port: 52683
+  server: jp.sofast.live
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
