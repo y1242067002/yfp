@@ -81,37 +81,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 27|UK
-  password: 0bacdaea-099b-462b-b625-d7d44c89aace
-  port: 55000
-  server: 94.156.250.67
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '27|英国 #1'
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-germany.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-germany.unlimited-access.ru
-  tls: false
-  type: hysteria2
-- name: '27|英国 #2'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.234
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- name: '27|英国 #3'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 138.124.0.168
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇬🇧_英国_24
@@ -128,8 +97,7 @@ proxies:
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|JP_1|3.0MB/s
-  network: tcp
+  name: 29|🇬🇧_英国_26
   port: 15007
   reality-opts:
     public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
@@ -236,55 +204,59 @@ proxies:
   uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
   ws-opts:
     path: /vless/
-- name: 35|GB_1|2.4MB/s
+- name: 35|GB_1|1.5MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_2|2.1MB/s
-  port: 443
-  server: 185.235.0.66
+- name: 35|🇬🇧GB_2|1.3MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|1.5MB/s
+- name: 35|🇧GB_3|3.9MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_4|3.3MB/s
-  port: 3118
-  server: 154.61.56.215
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_5|2.8MB/s
+- name: 35|🇧GB_4|1.3MB/s
   port: 443
-  server: 185.235.0.2
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
+- client-fingerprint: safari
   encryption: none
-  name: 35|🇧GB_6|1.3MB/s
+  name: 35|🇧GB_5|1.0MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
-    short-id: b4c823
-  server: 31.76.88.150
-  servername: www.yandex.ru
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  server: 178.236.254.174
+  servername: ya.ru
   tls: true
   type: vless
   udp: true
-  uuid: 13b54a52-a29f-4737-9941-26f54a4f87c4
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xhttp-opts:
-    host: evovpn.pro
-    path: /video/download
+    host: ya.ru
+    path: /web/cdn/v2/assets
   xudp: true
+- name: 35|🇬🇧GB_6|1.1MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  sni: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b

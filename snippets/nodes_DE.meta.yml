@@ -190,12 +190,23 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- name: 28|🇩🇪All | @BigSmoke_Config
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_5
+  name: 29,35|🇨🇭CH_5|3.4MB/s
+  network: raw
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: ''
   server: de48.tranzit-net.ru
   servername: d.tranzit-net.ru
   skip-cert-verify: true
@@ -203,9 +214,10 @@ proxies:
   type: vless
   udp: true
   uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|FI_1|4.0MB/s
+  name: 29,35|🇫FI_1|1.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -398,53 +410,9 @@ proxies:
   uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
   ws-opts:
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|DE_1|1.7MB/s
-  network: tcp
-  port: 5000
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 80.96.109.223
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: 35|🇪DE_2|2.5MB/s
-  network: ws
+- name: 35|🇪DE_1|2.0MB/s
   port: 443
-  server: 104.21.70.21
-  servername: cloudflare.vhub.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cloudflare.vhub.pro
-    max-early-data: 2560
-    path: /websocket
-- name: 35|🇪DE_3|4.4MB/s
-  port: 11000
-  server: 116.202.172.187
-  type: http
-  udp: true
-- name: 35|🇪DE_4|2.8MB/s
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_5|1.8MB/s
-  port: 443
-  server: 141.17.83.73
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
