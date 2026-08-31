@@ -197,16 +197,29 @@ proxies:
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
+- name: 28|🇩🇪157437 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 2.27.59.206
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: '28|🇩🇪All | @BigSmoke_Config #1'
+  password: jbmuokj7p4kg4h4s
+  port: 52029
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇨🇭CH_5|3.4MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_5
   port: 443
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-    short-id: ''
   server: de48.tranzit-net.ru
   servername: d.tranzit-net.ru
   skip-cert-verify: true
@@ -214,11 +227,9 @@ proxies:
   type: vless
   udp: true
   uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇫FI_1|1.1MB/s
-  network: tcp
+  name: 29|🇩🇪_德国_8
   port: 443
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
@@ -410,10 +421,3 @@ proxies:
   uuid: 5d8fae5f-0427-4da3-99ab-242905fa5c69
   ws-opts:
     path: /
-- name: 35|🇪DE_1|2.0MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

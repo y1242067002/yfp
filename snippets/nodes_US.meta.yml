@@ -748,7 +748,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: '27|美国 #1'
+- name: 27,28|🪆74@oneclickvpnkeys
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -764,6 +764,19 @@ proxies:
   server: faq.wwwinternetvideo.click
   skip-cert-verify: true
   sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '28|🇫🇮ConfigV2RayNG #3'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52078
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -1220,174 +1233,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 35|US_1|3.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  name: 35|🇺🇸US_2|3.2MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_3|3.1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2096
-  server: www.speedtest.net
-  servername: zahra2011.tr
-  tls: true
-  type: vless
-  udp: true
-  uuid: a491b1c4-1141-4f59-9731-e0621f6e452f
-  xhttp-opts:
-    host: zahra2011.tr
-    mode: auto
-    path: /@mahdi_383ir
-    x-padding-bytes: 100-1000
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    path:
-    - /
-  name: 35|🇺🇸US_4|4.0MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- name: 35,37|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_6|1.5MB/s
-  port: 36451
-  server: 38.246.226.240
-  type: http
-  udp: true
-- name: 35|🇸US_7|3.9MB/s
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_8|4.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_9|4.2MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_10|4.4MB/s
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_11|4.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_12|3.2MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 35|🇸US_13|2.4MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 35|🇺🇸US_14|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: stan-production-19cc.up.railway.app
-  servername: stan-production-19cc.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88a2a55b-06b9-4b60-9987-88b45a8db990
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /vl-ws
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 35|🇺🇸US_15|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: stan-production-19cc.up.railway.app
-  servername: stan-production-19cc.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88a2a55b-06b9-4b60-9987-88b45a8db990
-  ws-opts:
-    headers:
-      Host: stan-production-19cc.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /vl-ws
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1403,6 +1248,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 37|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0132
