@@ -128,9 +128,10 @@ proxies:
   type: vless
   udp: true
   uuid: ba895ce4-8c24-0003-9f22-81ee227c89d0
-- client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_174
+- client-fingerprint: chrome
+  name: 29,35|🇺RU_1|3.4MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -142,7 +143,10 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /websocket
+  xudp: true
 - name: 29|🇷🇺_俄罗斯_362
   network: ws
   port: 2200
