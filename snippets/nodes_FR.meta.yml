@@ -125,6 +125,18 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  name: 28|🇫🇮158096 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 4savc5ig1n3549e4
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   name: '28|VCONFING #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -165,27 +177,3 @@ proxies:
     headers:
       Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
     path: /
-- name: 35|🇷FR_1|2.0MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 51133
-  server: ip4.934618.xyz
-  sni: ip4.934618.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷FR_2|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-    short-id: 5a8e1a04f3d92b67
-  server: 2.26.129.245
-  servername: ukrop.mycdn-me.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 015b83b4-53a3-4719-8553-3a7c03c4128d
-  xudp: true
