@@ -73,28 +73,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: 19f72087-4591-4d72-930b-2697078ec2be
-  name: 35|SG_1|1.8MB/s
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇬SG_2|5.5MB/s
+  name: 35|SG_1|5.4MB/s
   network: grpc
-  port: 10036
+  port: 10040
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
   udp: true
@@ -104,15 +94,14 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇸🇬SG_3|5.0MB/s
+  name: 35|🇸🇬SG_3|5.6MB/s
   network: grpc
-  packet-encoding: xudp
-  port: 10040
+  port: 10036
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true

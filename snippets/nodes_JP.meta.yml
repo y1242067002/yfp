@@ -47,7 +47,8 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|日期：09-01
+  name: 29,35|🇰HK_4|1.4MB/s
+  network: tcp
   port: 15003
   reality-opts:
     public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
@@ -79,3 +80,20 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_1|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: 82.38.46.66
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  xudp: true
