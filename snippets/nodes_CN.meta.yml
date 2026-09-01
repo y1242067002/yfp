@@ -35,17 +35,7 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- alterId: 2
-  cipher: auto
-  name: 29|🇨🇳_中国_63
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇨🇳_中国_69
+- name: 29|🇨🇳_中国_16
   port: 58011
   server: us22.sofast.live
   skip-cert-verify: true
@@ -53,17 +43,9 @@ proxies:
   type: vless
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 29|🇨🇳_中国_73
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - alterId: 64
   cipher: auto
-  name: 29|🇨🇳_中国_74
+  name: 29|🇨🇳_中国_17
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -71,3 +53,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_中国_437
+  network: ws
+  port: 80
+  server: 120.24.60.59
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a4040c61-d8a8-4ded-8c07-98aabafcdcac
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /

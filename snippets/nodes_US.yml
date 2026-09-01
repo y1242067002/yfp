@@ -113,19 +113,19 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_64
+  name: 25|美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25|美国(yudou789.top 玉豆免费节点)_14
+- name: 25,29|🏳️_未知_124
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
@@ -213,55 +213,16 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国_20
-  port: 443
-  server: 165.140.216.142
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_21
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_71
-  port: 443
-  server: 192.227.247.27
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_75
+  name: 29|🇺🇸_美国_14
   port: 443
   server: guanwang.awsno.com
+  servername: guanwang.awsno.com
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇺🇸_美国_101
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_96
+- name: 29|🇺🇸_美国_42
   password: humanity
   port: 443
   server: 130.250.137.171
@@ -271,7 +232,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_93
+- name: 29|🇺🇸_美国_35
   password: humanity
   port: 443
   server: 216.24.57.1
@@ -281,17 +242,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_116
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_161
+- name: 29|🇺🇸_美国_49
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -300,32 +251,28 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_382
-  password: humanity
-  port: 443
-  server: 198.62.62.23
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇺🇸_美国_393
+- name: 29|🇺🇸_美国_32
   password: humanity
   port: 443
   server: 165.215.250.14
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🇺🇸_美国_56
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
     path: /assignment
 - cipher: aes-256-gcm
   name: 33|🇺🇸 美国2|@ripaojiedian
@@ -347,19 +294,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: '0'
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_3|3.5MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_7|2.8MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 35|🇸US_24|3.1MB/s
+  name: 35|🇸US_21|4.5MB/s
   network: ws
   packet-encoding: xudp
-  port: 24187
-  server: 23.236.69.39
+  port: 46945
+  server: 189.24.106.165
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
   ws-opts:
-    headers: {}
+    headers:
+      Host: gw.alicdn.com
     path: /
   xudp: true

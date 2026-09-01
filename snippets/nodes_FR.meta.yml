@@ -111,147 +111,95 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_16
-  port: 8444
-  reality-opts:
-    public-key: U2BHsyRo3bF289dW-3sDOyBxgAicl2AgoMjLpyIjNRo
-  server: 158.178.198.63
-  servername: tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6dd07ff-5c19-415b-bbad-7b6450527b82
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_18
-  port: 8444
-  reality-opts:
-    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-  server: 129.151.239.170
-  servername: tesla.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88e2f72e-954f-41ec-8948-5089dff38d1c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_45
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: 77.221.152.100
-  servername: node14.mxvpn.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0772109c-a680-4896-b005-d86513194f96
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_46
-  port: 443
-  server: nasnet-162191099-direct.mbghalibaf.com
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- name: 29|🇫🇷_法国_395
+- alpn:
+  - h3
+  name: '28|VCONFING #1'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1w61o8j0slf0q9yj
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '28|VCONFING #2'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: clz08qwil91241w7
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 29,35|🇰HK_1|1.5MB/s
   network: ws
-  port: 80
-  server: 152.228.162.19
+  packet-encoding: xudp
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 56174c24-a84b-4caf-b033-739728cc2773
+  ws-opts:
+    headers:
+      Host: af47ea9d24759da2ccb4dbdb6c4bb073.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国_439
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
   ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国_407
-  network: ws
-  port: 80
-  server: ov-france1.09vpn.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  ws-opts:
-    path: /vless/
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_410
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    path: /vws/
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_438
-  network: ws
-  port: 8443
-  server: chopin.adaspoloandco.com
-  servername: chopin.adaspoloandco.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-  ws-opts:
-    path: /download.php
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_443
-  network: ws
-  port: 8443
-  server: 146.59.35.134
-  servername: chopin.adaspoloandco.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-  ws-opts:
-    path: /download.php
-- name: 29|🇫🇷_法国_450
-  network: ws
-  port: 443
-  server: finite-node.rtxconfigz.com
-  servername: telegram.us
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
-  ws-opts:
+    headers:
+      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
     path: /
-- name: 29|🇫🇷_法国_451
-  network: ws
-  port: 443
-  server: 169.58.143.21
-  servername: telegram.us
+- name: 35|FR_1|4.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 51133
+  server: ip4.934618.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: ip4.934618.xyz
+  type: anytls
   udp: true
-  uuid: 25f3beef-a4b6-40bc-aa74-17a0f89f683c
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
-  name: 35|FR_1|3.2MB/s
+  name: 35|🇫🇷FR_2|1.1MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: 104.18.152.113
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: 35|🇫🇷FR_3|3.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -259,20 +207,5 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_2|4.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment

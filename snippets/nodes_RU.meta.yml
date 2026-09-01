@@ -58,80 +58,31 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_17
-  port: 9443
-  reality-opts:
-    public-key: atgfpCNlrnX_AGy2bPpIXyOhNRNkx2l2Ne-a_OvC8Q0
-    short-id: 0123456789abcdef
-  server: 72.56.7.25
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1031c52b-a421-4afa-9ca5-94be0912ed6d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_28
-  port: 2053
-  reality-opts:
-    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
-    short-id: beff3ff061a64cfd
-  server: 94.228.166.247
-  servername: fi-one.quiet-rogue.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_31
-  port: 16445
-  reality-opts:
-    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
-    short-id: a1b2c3d4
-  server: 159.194.234.196
-  servername: fr.aeternavpn.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_56
-  port: 8449
-  reality-opts:
-    public-key: XF3wXFapd311fC0M0APxbrf3cIaGnyKU7BR4Pv_l7Rs
-    short-id: 15954a1c5a3d5bfc
-  server: 46.243.234.213
-  servername: akashi.vk-portal.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dfd0db2-cd4e-4c09-97fc-67c3d8ee9409
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_60
+  name: 29|🇷🇺_俄罗斯_18
   port: 443
   reality-opts:
-    public-key: jwT3lcIzJQMjzBKRNsmyRGrgaa1qNfE7pQF_nAKu0GA
-    short-id: a73cf719b624
-  server: ru9.aimodelhub.top
-  servername: ru9.aimodelhub.top
+    public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc
+    short-id: bef240e96a8474a3
+  server: 31.76.34.121
+  servername: russia.cendora.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ba895ce4-8c24-0003-9f22-81ee227c89d0
-- client-fingerprint: chrome
-  name: 29,35|🇺RU_1|3.4MB/s
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 29|🇷🇺_俄罗斯_19
+  password: 47SXGr72f1wpGNkZzLUUExRDHuVQypaW
+  port: 2223
+  server: 90.156.218.126
+  skip-cert-verify: true
+  sni: vkc7.secured-by-tenzo.sbs
+  type: trojan
+  udp: true
+- client-fingerprint: edge
+  name: 29|🇷🇺_俄罗斯_71
   network: ws
-  packet-encoding: xudp
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -143,116 +94,4 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
     path: /websocket
-  xudp: true
-- name: 29|🇷🇺_俄罗斯_362
-  network: ws
-  port: 2200
-  server: 194.26.229.157
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c05888f0-4029-45c8-bea7-ea5eff564462
-  ws-opts:
-    path: /v1
-- client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_363
-  network: ws
-  port: 4100
-  server: 201.24.49.240
-  servername: live.ok.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_365
-  network: ws
-  port: 2200
-  server: 5.42.121.52
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 64bd5231-8c49-44f4-8bc0-998eef787d05
-  ws-opts:
-    path: /v1
-- name: 29|🇷🇺_俄罗斯_371
-  network: ws
-  port: 2200
-  server: 201.24.49.79
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
-  ws-opts:
-    path: /v1
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_421
-  network: ws
-  port: 8443
-  server: 147.45.226.155
-  servername: wsnl24.wba-pn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ffaf9f7-a2ad-47ef-9256-f607b3b3c6cc
-  ws-opts:
-    path: /
-- name: 29|🇷🇺_俄罗斯_422
-  network: ws
-  port: 443
-  server: wsnl7.wba-pn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_426
-  network: ws
-  port: 8443
-  server: wsnl24.wba-pn.ru
-  servername: wsnl24.wba-pn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ffaf9f7-a2ad-47ef-9256-f607b3b3c6cc
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_429
-  network: ws
-  port: 443
-  server: 46.19.69.201
-  servername: wsnl7.wba-pn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯_453
-  network: ws
-  port: 443
-  server: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    path: /api/v1/gpu-stream/socket

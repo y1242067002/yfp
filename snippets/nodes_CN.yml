@@ -17,19 +17,9 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 29|🇨🇳_中国_63
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
-  name: 29|🇨🇳_中国_74
+  name: 29|🇨🇳_中国_17
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -37,3 +27,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_中国_437
+  network: ws
+  port: 80
+  server: 120.24.60.59
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a4040c61-d8a8-4ded-8c07-98aabafcdcac
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
