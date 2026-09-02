@@ -81,8 +81,10 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_71
+  encryption: none
+  name: 29,35|RU_1|3.2MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -94,22 +96,7 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
-    path: /websocket
-- client-fingerprint: edge
-  name: 35|🇷RU_1|3.6MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /websocket
   xudp: true
