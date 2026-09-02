@@ -37,20 +37,49 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|日期：09-01
-  port: 15003
+  name: 29|🇺🇸_美国_5
+  port: 443
   reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
-  server: 82.38.46.66
-  servername: www.cloudflare.com
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_8
+  port: 443
+  reality-opts:
+    public-key: SQ2YV9d0aD0HE3n01a-TMftltBBta2rVo8gaEKNxiAE
+    short-id: 6e98d95f15
+  server: vu2jp26vdi.87544899.xyz
+  servername: reonpocket.sony.co.jp
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+- client-fingerprint: firefox
+  name: 29|🇯🇵_日本_284
+  network: ws
+  port: 443
+  server: 64.204.49.68
+  servername: vp10.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+    path: /
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -71,18 +100,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 35|JP_1|5.8MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 35|🇵JP_2|4.8MB/s
+  name: 35|JP_1|5.5MB/s
   network: grpc
   port: 10032
   reality-opts:
@@ -94,16 +116,10 @@ proxies:
   type: vless
   udp: true
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- encryption: none
-  name: 35|🇵JP_3|1.7MB/s
-  network: ws
-  port: 49152
-  server: qp.lichao0223.cn
-  servername: qp.lichao0223.cn
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 35|🇵JP_2|4.4MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
   udp: true
-  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
-  ws-opts:
-    path: /

@@ -58,33 +58,45 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- name: 28|🇺🇸US-@VPNine1
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 144.31.49.138
+  skip-cert-verify: false
+  sni: ru1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_18
+  name: 29|🇷🇺_俄罗斯_6
   port: 443
   reality-opts:
-    public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc
-    short-id: bef240e96a8474a3
-  server: 31.76.34.121
-  servername: russia.cendora.ru
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 29|🇷🇺_俄罗斯_19
-  password: 47SXGr72f1wpGNkZzLUUExRDHuVQypaW
-  port: 2223
-  server: 90.156.218.126
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29,35|RU_1|1.3MB/s
+  network: tcp
+  port: 8443
+  server: 185.147.27.183
+  servername: user-6a917f32.noooo.win
   skip-cert-verify: true
-  sni: vkc7.secured-by-tenzo.sbs
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
 - client-fingerprint: edge
-  encryption: none
-  name: 29,35|RU_1|3.2MB/s
+  name: 29|🇷🇺_俄罗斯_19
   network: ws
-  packet-encoding: xudp
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -96,7 +108,33 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /websocket
+- name: 29|🇷🇺_俄罗斯_286
+  network: ws
+  port: 2200
+  server: 201.24.49.228
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 09f2e2f4-3225-4342-bc92-cb58ee841f72
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇺RU_2|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0
+    short-id: 3e70d4cbb01bddfd
+  server: ru.opngtr.nl
+  servername: cdn.savesafe.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
   xudp: true

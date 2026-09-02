@@ -81,63 +81,91 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_11
-  port: 15006
+  name: 29|🇬🇧_英国_17
+  port: 15003
   reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: 82.38.46.66
-  servername: www.adobe.com
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: 4c517b9e
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_21
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
+  name: 29|🇬🇧_英国_281
+  network: ws
+  port: 2087
+  server: 188.220.67.198
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 35|GB_1|2.3MB/s
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- encryption: none
+  name: 29,35|🇩🇪DE_11|1.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 188.220.67.161
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 29,35|DE_1|1.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 188.220.67.140
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- name: 35|GB_1|2.6MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_2|3.7MB/s
+- name: 35|🇬🇧GB_2|2.7MB/s
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_3|2.2MB/s
+- name: 35|🇬🇧GB_3|3.0MB/s
+  password: None
   port: 443
-  server: 37.120.233.50
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_4|2.2MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_5|1.2MB/s
+- name: 35|🇧GB_4|2.3MB/s
   password: None
   port: 443
   server: 212.102.63.31
@@ -145,3 +173,39 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇧GB_5|2.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2054
+  reality-opts:
+    public-key: zZ3j8Cw2soL_X2yrp5hOiN-Y5l0RdkY523LYkKYfQhM
+    short-id: ''
+  server: 31.76.0.105
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇬🇧GB_6|1.1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 3O__mdy-whzI07V-QEyR6GQnag1FNwtHijDxt2_jkDQ
+    short-id: ''
+  server: 31.77.154.14
+  servername: swscan.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
+  xudp: true
