@@ -135,6 +135,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 28|🇫🇷 AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nob86hyaj5rm0en
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '28|VCONFING #3'
@@ -147,13 +157,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 29|🇫🇷_法国_39
+  name: 29,35|IN_1|2.2MB/s
   network: ws
+  packet-encoding: xudp
   port: 16626
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -162,6 +173,7 @@ proxies:
     headers:
       Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
     path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇫🇷_法国_58
