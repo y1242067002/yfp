@@ -1039,59 +1039,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    path:
-    - /
-  name: 35|🇸US_1|1.2MB/s
-  network: http
-  port: 52080
-  server: 38.246.226.240
+- name: 35|US_1|1.5MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 19620
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
   skip-cert-verify: true
-  type: vmess
+  sni: us32.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- name: 35,37|US_speednode_0134
+- name: 35|🇺🇸US_2|2.1MB/s
   port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
+  server: webdrone.club
+  sni: webdrone.club
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_3|2.5MB/s
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_4|1.4MB/s
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_5|4.5MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_6|1.3MB/s
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_7|2.1MB/s
+- name: 35|🇸US_3|1.5MB/s
   port: 443
   server: purposebydesig.club
   skip-cert-verify: false
@@ -1099,52 +1062,65 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_8|3.1MB/s
+- name: 35|🇺🇸US_4|1.1MB/s
+  password: 'null'
   port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
+  server: purecambogiasl.live
+  sni: purecambogiasl.live
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_9|3.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_10|2.1MB/s
+  username: 'null'
+- name: 35|🇺🇸US_5|1.1MB/s
   password: None
   port: 443
-  server: crosscards.site
+  server: webdrone.club
   skip-cert-verify: false
-  sni: crosscards.site
+  sni: webdrone.club
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_11|3.8MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇺🇸US_6|1.1MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  reality-opts:
+    public-key: q-8lriuP627DilumgJAvbowp7YGzWBZg9gSDgbmowjk
+    short-id: 9f3df965329a8e7f
+  server: usa.savesafe.co
+  servername: usa.savesafe.co
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 35|🇺🇸US_12|2.6MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 5443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  xhttp-opts:
+    host: usa.savesafe.co
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_7|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.155.141
+  servername: 6-M23.CHIANG-MAI2030.kdns.FR
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+  uuid: 8a2ae83c-0327-4703-a847-535a972bc636
+  ws-opts:
+    headers:
+      Host: 6-M23.ChIANg-MAi2030.kDns.fR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇸US_13|4.0MB/s
+  name: 35|🇺🇸US_8|3.0MB/s
   network: tcp
   packet-encoding: xudp
   port: 13779
@@ -1157,6 +1133,23 @@ proxies:
   type: vless
   udp: true
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_9|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
+    short-id: ''
+  server: 138.124.60.146
+  servername: usa.oblaco.bet
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -1201,6 +1194,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
