@@ -25,16 +25,22 @@ proxies:
   type: vless
   udp: true
   uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-- name: 35|🇭CH_1|3.2MB/s
-  port: 7272
-  server: 212.65.190.199
-  type: http
-  udp: true
-- name: 35|🇭CH_2|3.3MB/s
-  password: None
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|CH_1|2.8MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  server: ch-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/v2/pkg
+  xudp: true
