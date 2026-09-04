@@ -97,10 +97,12 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 29|🇬🇧_英国_72
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_127
   network: ws
   port: 2087
   server: 188.220.67.245
+  servername: 188.220.67.245
   skip-cert-verify: true
   tls: false
   type: vless
@@ -108,15 +110,7 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- name: 35|🇧GB_1|2.5MB/s
-  password: None
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_2|1.0MB/s
+- name: 35|🇧GB_1|1.0MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -124,64 +118,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|2.6MB/s
+- name: 35|🇬🇧GB_2|1.0MB/s
+  password: None
   port: 443
-  server: 37.120.233.34
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_4|2.6MB/s
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 443
-  server: 81878291-tk59c0-tll9n7-1l0qa.uk.oshuawei.com
-  sni: 81878291-tk59c0-tll9n7-1l0qa.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 35|🇬GB_5|2.7MB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
-  skip-cert-verify: true
-  sni: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 35|🇬🇧GB_6|2.6MB/s
+- name: 35|🇬🇧GB_3|1.5MB/s
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇧GB_8|1.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2054
-  reality-opts:
-    public-key: zZ3j8Cw2soL_X2yrp5hOiN-Y5l0RdkY523LYkKYfQhM
-    short-id: ''
-  server: 31.76.0.105
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- name: 35|🇧GB_9|1.4MB/s
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
-  skip-cert-verify: true
-  sni: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b

@@ -58,23 +58,37 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 29|🇷🇺_俄罗斯_69
+- client-fingerprint: edge
+  name: 29|🇷🇺_俄罗斯_51
   network: ws
-  port: 4100
-  server: 168.222.203.14
-  servername: live.ok.ru
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 2e79f3ca-b8db-4d4d-a96e-8f7313480696
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
-    path: /v1
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
 - client-fingerprint: edge
-  encryption: none
-  name: 29,35|🇺RU_1|2.0MB/s
+  name: 29|🇷🇺_俄罗斯_52
   network: ws
-  packet-encoding: xudp
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- client-fingerprint: edge
+  name: 29|🇷🇺_俄罗斯_171
+  network: ws
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -86,42 +100,11 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /websocket
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯_81
-  network: ws
-  port: 443
-  server: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯_119
-  network: ws
-  port: 443
-  server: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇺RU_2|4.1MB/s
+  name: 35|🇺RU_1|2.2MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -134,20 +117,4 @@ proxies:
   type: vless
   udp: true
   uuid: 0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_3|1.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: ru-i.monkeyisland.xyz
-  servername: ru-i.monkeyisland.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf80b5fc-c445-4373-87e6-f8a22ad10d81
   xudp: true
