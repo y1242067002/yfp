@@ -110,25 +110,33 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- name: 35|🇧GB_1|1.0MB/s
-  password: None
+- name: 35|GB_1|1.3MB/s
   port: 443
-  server: 185.235.0.2
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_2|1.0MB/s
-  password: None
+- name: 35|🇧GB_2|1.3MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_3|1.4MB/s
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  skip-cert-verify: true
+  sni: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 35|🇬🇧GB_4|1.9MB/s
   port: 443
   server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_3|1.5MB/s
-  port: 443
-  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
