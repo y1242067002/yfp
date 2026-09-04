@@ -48,27 +48,18 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
+- name: 28|[🇷🇺]t.me/ConfigV2RayNG
   obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 144.31.49.138
   skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 28|🇷🇺161328 | ⚡️Telegram = t.me/S...
-  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
-  port: 24444
-  server: give.internet-card.sbs
-  sni: bel7bel.internet-card.sbs
+  sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
 - client-fingerprint: edge
-  name: 29,35|🇺RU_1|1.1MB/s
+  name: 29|🇷🇺_俄罗斯_51
   network: ws
   port: 443
   server: 45.9.15.206
@@ -110,20 +101,3 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇺RU_2|1.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 7444
-  reality-opts:
-    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
-    short-id: ''
-  server: 78.159.247.123
-  servername: akamai.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
-  xudp: true
