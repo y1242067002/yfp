@@ -12,16 +12,49 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇰🇷_韩国_32
+  name: 29|🇰🇷_韩国_20
+  network: ws
   port: 443
-  reality-opts:
-    public-key: lQmGSphKsWB-pO-xKkjj_dE3fPAIeSHSsFqsAJvq-lA
-    short-id: e1696a6e2520fdb1
-  server: lgkr.87544899.xyz
-  servername: maps.apple.com
+  server: kr.mkdir.kdns.fr
+  servername: ai-verps.pages.dev
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: ai-verps.pages.dev
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|KR_1|5.0MB/s
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 35|🇰🇷KR_2|5.4MB/s
+  network: grpc
+  port: 10048
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3

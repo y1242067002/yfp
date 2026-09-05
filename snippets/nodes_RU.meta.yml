@@ -59,7 +59,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_51
+  name: 29|🇷🇺_俄罗斯_92
   network: ws
   port: 443
   server: 45.9.15.206
@@ -74,7 +74,7 @@ proxies:
       Host: ru05.abvpn.ru
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_52
+  name: 29|🇷🇺_俄罗斯_94
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -87,7 +87,7 @@ proxies:
   ws-opts:
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_171
+  name: 29|🇷🇺_俄罗斯_109
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -100,4 +100,17 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
+    path: /websocket
+- client-fingerprint: edge
+  name: 29|🇷🇺_俄罗斯_138
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
     path: /websocket

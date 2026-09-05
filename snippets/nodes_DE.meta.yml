@@ -237,7 +237,60 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 29|🇩🇪_德国_77
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_5
+  port: 443
+  reality-opts:
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: sv9.jarvesitw.ru
+  servername: apiv91.jarvesitw.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_6
+  port: 443
+  reality-opts:
+    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
+    short-id: b0ffeec3
+  server: 88.216.190.205
+  servername: apiv91.jarvesitw.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_14
+  port: 443
+  reality-opts:
+    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
+  server: 176.96.138.122
+  servername: plucky-xenon.cdn.cachefleet.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+- name: 29|🇩🇪_德国_88
+  network: ws
+  port: 2087
+  server: 163.8.195.241
+  servername: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  ws-opts:
+    path: /29c8fed7ca22
+- name: 29|🇩🇪_德国_89
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -250,14 +303,10 @@ proxies:
     headers:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
     path: /29c8fed7ca22
-- name: 29|🇩🇪_德国_99
-  network: ws
-  port: 2087
-  server: 163.8.195.241
+- name: 35|DE_1|1.0MB/s
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
-  tls: false
-  type: vless
+  tls: true
+  type: http
   udp: true
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  ws-opts:
-    path: /29c8fed7ca22
