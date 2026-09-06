@@ -804,8 +804,7 @@ proxies:
   uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29,35|🇵🇱PL_3|1.2MB/s
-  network: tcp
+  name: 29|🇺🇸_美国_38
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -1000,100 +999,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|US_1|1.3MB/s
+- alterId: 0
+  cipher: auto
+  name: 35|US_1|2.0MB/s
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: ccs2g.pai50288.uk
-  servername: ccs2g.pai50288.uk
-  tls: true
-  type: vless
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  uuid: 21af4a11-cf99-4370-bdd7-8a50cd0c6c49
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /pai50288
-  xudp: true
-- name: 35|🇺🇸US_2|1.4MB/s
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_3|2.3MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_4|1.6MB/s
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_5|1.3MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_6|2.4MB/s
-  password: None
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_7|3.2MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_8|1.1MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇸US_9|4.1MB/s
-  obfs: salamander
-  obfs-password: ba30dfb1828334e12c5f5068df5680a4
-  password: 6483ecc41890f37033911d0facc8abf5
-  port: 443
-  server: 166.0.16.142
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  up: ''
+      Host: e176d51869ea80390a96391ec8361f3f.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
