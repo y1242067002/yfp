@@ -12,33 +12,30 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_20
-  network: ws
-  port: 443
-  server: kr.mkdir.kdns.fr
-  servername: ai-verps.pages.dev
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_27
+  port: 50159
+  reality-opts:
+    public-key: k8nAYo1-IaxhdMI4CLPK0BcjD7TiFoBCwpB0CqUSHg0
+    short-id: effd22907e2bf94f
+  server: 168.110.121.199
+  servername: www.ibm.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: ai-verps.pages.dev
-    path: /
-- cipher: aes-256-cfb
-  name: 35|KR_1|2.4MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- name: 35|🇷KR_2|4.6MB/s
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 31433
-  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
-  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  uuid: 23aa3d7e-039b-4c21-a8f7-0f7d1ddbbbb6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_28
+  port: 2053
+  reality-opts:
+    public-key: oBYxqt4GNTWrmvHRHM_6SAVj_yy95lXtQ0NLd1QWQDU
+    short-id: dea6d68a3f6f96e3
+  server: 129.154.192.50
+  servername: www.ibm.com
+  skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  uuid: 48e84fcc-ecb1-48a3-a596-88fea84887f5

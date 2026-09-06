@@ -113,19 +113,19 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_13
+  name: 25,29|🇭🇰_香港_51
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_268
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -183,7 +183,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 25,29|🇭🇰_香港_17
+  name: 25,29|🇭🇰_香港_50
   port: 30836
   server: v36.hdacd.com
   skip-cert-verify: true
@@ -193,10 +193,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_53
+  name: 25,29|🇭🇰_香港_58
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -211,7 +211,41 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_28
+- name: 29|🇺🇸_美国_60
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_100
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_113
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_78
   password: humanity
   port: 443
   server: render.com
@@ -223,27 +257,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_42
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_66
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_64
+- name: 29|🇺🇸_美国_96
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -253,22 +267,10 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_46
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: '@mehrosaboran'
-- name: 29|🇺🇸_美国_57
+- name: 29|🇺🇸_美国_84
   password: humanity
   port: 443
-  server: 130.250.137.171
+  server: 216.24.57.7
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -295,3 +297,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 35|🇸US_2|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true

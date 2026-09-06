@@ -40,30 +40,61 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_9
-  port: 46899
-  reality-opts:
-    public-key: nbIa7R7_-I8T24U2C1Q3-wuiQVUmAahxdSo33AjKYiA
-    short-id: 63bdbd0662a3da
-  server: schkyydshktbgwxx.cfooov.xyz
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8738084-d3e4-457b-a15e-10d85709681f
 - alterId: 2
   cipher: auto
-  name: 29|🇭🇰_香港_13
-  port: 30807
-  server: v10.zgtfqs.click
+  name: 29|🇭🇰_香港_56
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_110
+  network: ws
+  port: 443
+  server: 202.155.155.41
+  servername: youxuan.xiaosa.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  ws-opts:
+    headers:
+      Host: youxuan.xiaosa.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_111
+  network: ws
+  port: 443
+  server: 16.163.98.204
+  servername: youxuan.xiaosa.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  ws-opts:
+    headers:
+      Host: youxuan.xiaosa.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_112
+  network: ws
+  port: 443
+  server: 155.117.224.193
+  servername: youxuan.xiaosa.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  ws-opts:
+    headers:
+      Host: youxuan.xiaosa.kdns.fr
+    path: /
 - cipher: aes-256-gcm
   name: 33|🇭🇰 香港2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -106,7 +137,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: movie
-  name: 35|🇰HK_1|5.1MB/s
+  name: 35|HK_1|5.0MB/s
   network: grpc
   packet-encoding: xudp
   port: 10136

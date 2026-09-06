@@ -273,7 +273,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 25,29,33|🇭🇰 香港|@ripaojiedian
+  name: 25,33|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -316,19 +316,19 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_13
+  name: 25,29|🇭🇰_香港_51
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_268
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -410,7 +410,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 25,29|🇭🇰_香港_17
+  name: 25,29|🇭🇰_香港_50
   port: 30836
   server: v36.hdacd.com
   skip-cert-verify: true
@@ -420,10 +420,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_53
+  name: 25,29|🇭🇰_香港_58
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -438,29 +438,53 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 29|🇭🇰_香港_13
-  port: 30807
-  server: v10.zgtfqs.click
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 29|🇨🇳_中国_15
-  port: 10001
-  server: 106.52.57.86
+  name: 29|🏳️_未知_6
+  port: 8443
+  server: cf1.2000601.xyz
+  servername: acckxg.2000601.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: f56b9a92-47d4-4d6e-b828-1aa3e96dae65
+  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
+- alterId: 0
+  cipher: auto
+  name: 29|🏳️_未知_7
+  port: 8443
+  server: cf3.2000601.xyz
+  servername: acckxg.2000601.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
+- alterId: 0
+  cipher: auto
+  name: 29|🏳️_未知_8
+  port: 8443
+  server: cf.2000601.xyz
+  servername: acckxg.2000601.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
+- alterId: 0
+  cipher: auto
+  name: 29|🏳️_未知_9
+  port: 8443
+  server: cf2.2000601.xyz
+  servername: acckxg.2000601.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0c655bc1-42d9-4f92-bf60-aec93087ea54
 - alterId: 64
   cipher: auto
-  name: 29|🇨🇳_中国_16
+  name: 29|🇨🇳_中国_52
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -468,7 +492,195 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 29|🇺🇸_美国_28
+- alterId: 2
+  cipher: auto
+  name: 29|🇭🇰_香港_56
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 29|🏳️_未知_59
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_60
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🏳️_未知_61
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_62
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_63
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_64
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_158
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_100
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🏳️_未知_68
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_69
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_95
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_71
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_72
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_73
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_113
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_75
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_98
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🇺🇸_美国_78
   password: humanity
   port: 443
   server: render.com
@@ -480,17 +692,181 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_42
+- name: 29|🇺🇸_美国_96
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: 165.215.250.14
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🏳️_未知_40
+- name: 29|🏳️_未知_80
+  password: humanity
+  port: 443
+  server: 104.16.174.148
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_82
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_83
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_84
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_85
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_86
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_87
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_88
+  password: humanity
+  port: 443
+  server: 104.18.152.230
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_89
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_90
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_92
+  password: humanity
+  port: 443
+  server: 104.17.111.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_93
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_94
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_97
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_99
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_101
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_109
   password: humanity
   port: 443
   server: 104.18.23.63
@@ -502,39 +878,69 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_66
+- name: 29|🏳️_未知_114
   password: humanity
   port: 443
-  server: 216.24.57.7
+  server: 104.16.174.72
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_64
+- name: 29|🏳️_未知_115
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 141.101.90.101
   skip-cert-verify: true
   sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_46
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: ssl.fastly.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: '@mehrosaboran'
-- name: 29|🏳️_未知_55
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 29|🏳️_未知_116
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇨_塞舌尔_122
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_121
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_123
+  password: humanity
+  port: 443
+  server: www.speedtest.net
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_124
   password: humanity
   port: 443
   server: 104.18.22.63
@@ -544,32 +950,70 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇺🇸_美国_57
+- name: 29|🏳️_未知_143
   password: humanity
   port: 443
-  server: 130.250.137.171
+  server: 104.16.174.34
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🏳️_未知_60
+- name: 29|🏳️_未知_144
   password: humanity
   port: 443
-  server: 172.67.221.242
+  server: 104.16.174.22
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_275
+    path: //assignment
+- name: 29|🏳️_未知_147
   password: humanity
   port: 443
-  server: 104.17.111.4
+  server: 104.16.174.121
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_148
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_149
+  password: humanity
+  port: 443
+  server: 104.16.174.124
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_150
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_154
+  password: humanity
+  port: 443
+  server: 104.18.152.161
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
@@ -578,7 +1022,102 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 29|🇳🇱_荷兰_73
+  name: 29|🇳🇱_荷兰_155
+  network: ws
+  port: 33736
+  server: 78.17.71.236
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: Telegram-Leviko_v2ray
+    path: /vmess-ws
+- name: 29|🏳️_未知_157
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_161
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_165
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_166
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_168
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_169
+  password: humanity
+  port: 443
+  server: 104.21.46.3
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_172
+  password: humanity
+  port: 443
+  server: 104.16.174.33
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🏳️_未知_181
+  password: humanity
+  port: 443
+  server: 172.67.188.109
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 29|🇳🇱_荷兰_200
   network: ws
   port: 33736
   server: 78.17.71.236
@@ -589,798 +1128,6 @@ proxies:
   uuid: b3a11068-1a7e-4643-85de-7c82cce46943
   ws-opts:
     path: /vmess-ws
-- name: 29|🏳️_未知_264
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_236
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇱🇹_立陶宛_238
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_221
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_209
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_246
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_207
-  password: humanity
-  port: 443
-  server: 104.16.174.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_254
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_125
-  password: humanity
-  port: 443
-  server: 104.16.174.185
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_194
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_171
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_240
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_104
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_141
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_244
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🇸🇨_塞舌尔_159
-  password: humanity
-  port: 443
-  server: 45.130.125.158
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_174
-  password: humanity
-  port: 443
-  server: 104.18.152.230
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_139
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_140
-  password: humanity
-  port: 443
-  server: 104.18.152.133
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_182
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_212
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_276
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_261
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_126
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_260
-  password: humanity
-  port: 443
-  server: 104.18.152.159
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_163
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_245
-  password: humanity
-  port: 443
-  server: 104.16.174.124
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_219
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_201
-  password: humanity
-  port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_214
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_255
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_179
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_144
-  password: humanity
-  port: 443
-  server: 104.18.152.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_237
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_228
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_168
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_270
-  password: humanity
-  port: 443
-  server: 104.16.174.109
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_262
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_232
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_250
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_265
-  password: humanity
-  port: 443
-  server: 104.17.111.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_248
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_200
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_243
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_225
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_269
-  password: humanity
-  port: 443
-  server: 104.18.152.108
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_204
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_192
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_220
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_191
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_185
-  password: humanity
-  port: 443
-  server: 104.18.152.161
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_180
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_218
-  password: humanity
-  port: 443
-  server: 104.18.152.208
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_230
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_217
-  password: humanity
-  port: 443
-  server: 104.18.152.179
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_176
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_205
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_253
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_267
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_234
-  password: humanity
-  port: 443
-  server: 104.16.174.148
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_206
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_259
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_272
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_222
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_227
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_257
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_252
-  password: humanity
-  port: 443
-  server: 104.16.174.143
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_273
-  password: humanity
-  port: 443
-  server: 104.18.152.244
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_263
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇱🇺_卢森堡_242
-  password: humanity
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: true
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_256
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🏳️_未知_278
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_271
-  password: humanity
-  port: 443
-  server: 104.18.152.140
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🏳️_未知_277
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
 - cipher: aes-256-cfb
   name: 33|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1480,86 +1227,44 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: 35|CA_1|4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.99.178.14
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|IE_1|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.250.40.89
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|KR_1|2.4MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- name: 35|🇫FR_1|2.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 35|🇫🇷FR_2|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: 35|🇵JP_1|2.0MB/s
+  name: 35|JP_1|1.4MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.137
   type: ss
   udp: true
-- name: 35|🇫🇷FR_3|1.5MB/s
+- cipher: aes-256-cfb
+  name: 35|🇸US_2|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- name: 35|🇫🇷FR_2|1.4MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
+  server: www.speedtest.org
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
-- name: 35|🇫🇷FR_4|1.6MB/s
+- name: 35|🇫🇷FR_3|1.4MB/s
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.18.152.113
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /assignment

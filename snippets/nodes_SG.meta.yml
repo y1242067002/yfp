@@ -32,6 +32,92 @@ proxies:
   sni: sg1.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_5
+  port: 443
+  reality-opts:
+    public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+    short-id: 8b6e932c
+  server: pq.aws67.yydjc.top
+  servername: updates.cdn-apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e9f1ff6-b661-481a-91da-39adb1b1b124
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_25
+  port: 26017
+  reality-opts:
+    public-key: cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA
+    short-id: af1c2e33b0c7dad7
+  server: 54.251.224.5
+  servername: www.amd.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d318cdac-0033-4b6e-98bf-35116e79c93f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_26
+  port: 443
+  reality-opts:
+    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
+    short-id: 5f2ca3da385c
+  server: sg2.miyazono-kaori.com
+  servername: sg-hyp-api.hoyoverse.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_49
+  port: 443
+  reality-opts:
+    public-key: hbbcQsDUAR-TCLLkdSOjXwnK6lI65RQQ4ZsAu9PQKF0
+    short-id: c73d58ac
+  server: 138.2.84.141
+  servername: updates.cdn-apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ac19657-8d09-483d-9490-73817bff52b0
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_137
+  network: ws
+  port: 443
+  server: 139.59.127.117
+  servername: youxuan.xiaosa.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  ws-opts:
+    headers:
+      Host: youxuan.xiaosa.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_138
+  network: ws
+  port: 443
+  server: 167.71.195.238
+  servername: youxuan.xiaosa.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
+  ws-opts:
+    headers:
+      Host: youxuan.xiaosa.kdns.fr
+    path: /
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
