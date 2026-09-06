@@ -188,16 +188,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 28|🇩🇪@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 6mk75ho4jzef3uuj
-  port: 52022
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 28|-🇩🇪 @VConfing
@@ -242,12 +232,23 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 28|🇩🇪1@JKVPN
+  name: '28|-🇩🇪 @VConfing #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52021
   server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 28|🇩🇪@AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -437,35 +438,65 @@ proxies:
     headers:
       Host: youxuan.xiaosa.kdns.fr
     path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  name: 35|DE_1|3.7MB/s
+  name: 35|🇩🇪DE_2|4.3MB/s
   network: xhttp
   packet-encoding: xudp
-  port: 443
-  server: 167.233.219.201
-  servername: fsn1.nordlinkcloud.com
+  port: 14639
+  reality-opts:
+    public-key: AL1Q34aEyaqV5FlCsQU75ga6XoKRLIktpytwS0jrtUA
+    short-id: c4659970
+  server: 91.107.174.203
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  uuid: 88888888-8888-8888-8888-888888888888
   xhttp-opts:
     mode: auto
-    path: /api/v3/stream/
+    path: /
   xudp: true
-- name: 35|🇪DE_3|2.1MB/s
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_3|3.7MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  reality-opts:
+    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
+    short-id: 4a1b0c7d
+  server: 91.233.8.31
+  servername: tnt-cloud.ru
   tls: true
+  type: vless
+  udp: true
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_4|2.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2087
+  server: cl.econeko.ir
+  servername: cdn-edge-static-assets-delivery-node-a7f2c9e4b1d8.esmahdi9.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf1d2ded-2472-483a-f2f2-12c83d1826dd
+  xhttp-opts:
+    mode: auto
+    path: /@v2_line
+  xudp: true
+- name: 35|🇪DE_6|1.3MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
   type: http
   udp: true
-- name: 35|🇪DE_4|1.1MB/s
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-  udp: true
+  username: None

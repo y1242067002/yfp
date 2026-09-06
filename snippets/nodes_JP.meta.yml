@@ -52,7 +52,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 28|dc-udp- Japan-Tokyo
+  name: 28|dc-udp-🇵 Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -166,10 +166,13 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 35|🇵JP_1|4.2MB/s
+- name: 35|🇵JP_1|1.4MB/s
+  password: ''
   port: 443
   server: fan.571589.xyz
+  skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
   udp: true
+  username: bnVsbDpudWxs
