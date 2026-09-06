@@ -181,7 +181,7 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 28|@Daily_Configs
+- name: 28|🇩🇪All | @BigSmoke_Config
   password: 4savc5ig1n3549e4
   port: 52023
   server: giftcard.gateway-stream.com
@@ -220,7 +220,7 @@ proxies:
   sni: de.vpnjey.store
   tls: false
   type: hysteria2
-- name: '28|@Daily_Configs #4'
+- name: '28|@Daily_Configs #3'
   password: fmaznn1lrzys7ddy
   port: 52050
   server: giftcard.gateway-stream.com
@@ -254,11 +254,8 @@ proxies:
   udp: true
   uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇪DE_7|2.1MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 29|🇩🇪_德国_37
   port: 40792
   reality-opts:
     public-key: CkuULNczLmaVd-vabRfj3UpPd__M7BlrXivZ728Toyg
@@ -270,7 +267,6 @@ proxies:
   type: vless
   udp: true
   uuid: c4121c07-f135-4695-b465-d6bcda24cc57
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_57
@@ -429,67 +425,3 @@ proxies:
     headers:
       Host: youxuan.xiaosa.kdns.fr
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 100 Mbps
-  name: 35|DE_1|2.8MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 50 Mbps
-- name: 35|🇩🇪DE_2|1.1MB/s
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  udp: true
-  username: None
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: gun
-  name: 35|🇪DE_3|3.5MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
-    short-id: 3fa234ea9feaa048
-  server: mageia.ubuntuhosting.host
-  servername: mageia.ubuntuhosting.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
-  xudp: true
-- name: 35|🇩🇪DE_4|1.7MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇪DE_5|4.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2054
-  reality-opts:
-    public-key: mlJSEX5zJodpeofSicXnd0tlrgonVCGJ3M-qqWF4FSU
-    short-id: ''
-  server: 159.195.192.169
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
