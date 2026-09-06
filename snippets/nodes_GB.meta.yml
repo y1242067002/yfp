@@ -140,8 +140,10 @@ proxies:
   udp: true
   uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_197
+  encryption: none
+  name: 29,35|🇩🇪DE_2|1.1MB/s
   network: ws
+  packet-encoding: xudp
   port: 2087
   server: 188.220.67.245
   servername: 188.220.67.245
@@ -151,7 +153,12 @@ proxies:
   udp: true
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /8f2690e2d016
+  xudp: true
 - name: 29|🇬🇧_英国_131
   network: ws
   port: 2087
@@ -196,3 +203,38 @@ proxies:
   uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
   ws-opts:
     path: /4de527ea5ed9
+- name: 35|GB_1|3.3MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_2|2.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_3|2.3MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_4|1.9MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_5|2.0MB/s
+  port: 32766
+  server: 178.62.83.124
+  type: http
+  udp: true

@@ -32,3 +32,24 @@ proxies:
   type: vless
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: 35|CA_1|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.21.33.59
+  servername: hk59.wxgqlfx.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: a36d383f-5ea0-4b5f-99ef-20e68cdbd32c
+  ws-opts:
+    headers:
+      Host: hk59.wxgqlfx.top
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /f004ff67-afbd-43c3-9db1-7b6a123e337d
+  xudp: true

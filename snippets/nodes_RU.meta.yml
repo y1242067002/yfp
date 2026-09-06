@@ -86,8 +86,10 @@ proxies:
   ws-opts:
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_119
+  encryption: none
+  name: 29,35|🇺RU_1|1.2MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
@@ -99,7 +101,10 @@ proxies:
   ws-opts:
     headers:
       Host: ru05.abvpn.ru
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /websocket
+  xudp: true
 - client-fingerprint: edge
   name: 29|🇷🇺_俄罗斯_120
   network: ws
@@ -128,3 +133,8 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
+- name: 35|🇷RU_2|2.0MB/s
+  port: 3139
+  server: 94.19.93.170
+  type: http
+  udp: true
