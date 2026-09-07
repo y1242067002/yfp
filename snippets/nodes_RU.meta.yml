@@ -58,25 +58,89 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_33
+  name: 29|🇷🇺_俄罗斯_31
   port: 443
   reality-opts:
-    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
-    short-id: ea1058117be12087
-  server: 46.173.25.146
-  servername: ru.crunch-crunch.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.5
+  servername: sellflow.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8d1a1b09-12d6-4b76-82f0-893cc805d9c0
+  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_32
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.13
+  servername: sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_34
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.44
+  servername: sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50e636af-b554-4526-94ad-d0f4b34adecc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_35
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.7
+  servername: fr.sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_36
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.233.255.13
+  servername: sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_102
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: pr-media.pepro.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: /ws
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_118
+  name: 29|🇷🇺_俄罗斯_276
   network: ws
   port: 443
-  server: 45.9.15.206
+  server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
   skip-cert-verify: true
   tls: true
@@ -86,10 +150,10 @@ proxies:
   ws-opts:
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_119
+  name: 29|🇷🇺_俄罗斯_291
   network: ws
   port: 443
-  server: ru05.abvpn.ru
+  server: 45.9.15.206
   servername: ru05.abvpn.ru
   skip-cert-verify: true
   tls: true
@@ -101,10 +165,10 @@ proxies:
       Host: ru05.abvpn.ru
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_120
+  name: 29|🇷🇺_俄罗斯_292
   network: ws
   port: 443
-  server: ru05.abvpn.ru
+  server: 45.9.15.206
   servername: ru05.abvpn.ru
   skip-cert-verify: true
   tls: true
@@ -114,10 +178,10 @@ proxies:
   ws-opts:
     path: /websocket
 - client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯_171
+  name: 29|🇷🇺_俄罗斯_327
   network: ws
   port: 443
-  server: 45.9.15.206
+  server: ru05.abvpn.ru
   servername: ru05.abvpn.ru
   skip-cert-verify: true
   tls: true

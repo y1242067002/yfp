@@ -61,91 +61,31 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|日期：09-06
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.224
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_23
-  port: 56449
-  reality-opts:
-    public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
-    short-id: 25a9435577670327
-  server: 52.194.211.43
-  servername: www.intel.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_24
+  name: 29,35|GB_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: df9232eff6
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: bf153712-deb4-4cdc-a6fe-aaa41d923342
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_41
-  port: 35000
-  reality-opts:
-    public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
-    short-id: bb9ab0d5242d53e9
-  server: pq.aws56.yydjc.top
-  servername: iosapps.itunes.apple.com
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+  xudp: true
+- name: 29|🇯🇵_日本_40
+  password: BxceQaOe
+  port: 3893
+  server: 35.73.128.210
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 9ac19657-8d09-483d-9490-73817bff52b0
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_43
-  port: 35000
-  reality-opts:
-    public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
-    short-id: bb9ab0d5242d53e9
-  server: pq.aws57.yydjc.top
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ac19657-8d09-483d-9490-73817bff52b0
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_135
-  network: ws
-  port: 443
-  server: 66.245.219.95
-  servername: youxuan.xiaosa.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ea4dcb-cd04-466c-bd43-f9ea10953803
-  ws-opts:
-    headers:
-      Host: youxuan.xiaosa.kdns.fr
-    path: /
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -166,13 +106,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 35|🇵JP_1|1.4MB/s
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  udp: true
-  username: bnVsbDpudWxs
