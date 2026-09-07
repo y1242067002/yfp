@@ -73,8 +73,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|GB_1|1.0MB/s
-  network: tcp
+  name: 29|日期：09-07
   port: 443
   reality-opts:
     public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
@@ -113,27 +112,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: 35|JP_1|1.2MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇵JP_2|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 55555
-  reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-jp01.ziyoufly.xyz
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5fce1c98-0192-4d03-a8b4-9ba8a8eef474
-  xudp: true
