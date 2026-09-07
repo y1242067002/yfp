@@ -156,7 +156,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '27,28|کانال ا : Free_VPN_CH@'
+- name: '27,28|کانال را : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -179,13 +179,6 @@ proxies:
   server: hold.wwwinternetvideo.click
   skip-cert-verify: true
   sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
-- name: 28|🇩🇪All⁴ | @BigSmoke_Config
-  password: 4savc5ig1n3549e4
-  port: 52023
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
@@ -397,46 +390,34 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳+@VPNine1
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  name: 35|DE_1|2.7MB/s
+  name: 35|DE_1|2.6MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
-  server: 188.114.97.2
-  servername: e9abdf3df549b59f-gr2.aliyoStd.sitE.
+  server: 167.233.219.201
+  servername: fsn1.nordlinkcloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: edge-dgskj2v37hkd82n-sslhost.aliyOstd.sitE.
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|2.5MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 14639
-  reality-opts:
-    public-key: AL1Q34aEyaqV5FlCsQU75ga6XoKRLIktpytwS0jrtUA
-    short-id: c4659970
-  server: 91.107.174.203
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
   xhttp-opts:
     mode: auto
-    path: /
+    path: /api/v3/stream/
   xudp: true
-- name: 35|🇪DE_3|2.4MB/s
+- name: 35|🇪DE_2|1.8MB/s
   port: 443
-  server: 149.36.50.1
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_3|2.3MB/s
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
