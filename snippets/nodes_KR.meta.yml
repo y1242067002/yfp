@@ -11,18 +11,19 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_44
-  network: ws
-  port: 443
-  server: kr.mkdir.kdns.fr
-  servername: ai-verps.pages.dev
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇷KR_1|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10038
+  reality-opts:
+    public-key: JddbQk5RNLhnZOTiod0E7JGcCTRNO69nrP1b8VtKS2c
+    short-id: 2a92
+  server: family.bucket.8.kfc-520.com
+  servername: www.adobe.com
   tls: true
   type: vless
   udp: true
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: ai-verps.pages.dev
-    path: /
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
+  xudp: true

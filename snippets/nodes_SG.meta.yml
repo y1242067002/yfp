@@ -36,22 +36,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|SG_1|1.3MB/s
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|SG_1|2.2MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8443
-  server: 104.17.73.206
-  servername: 8.sahanwickramasinghe.me
+  port: 10019
+  reality-opts:
+    public-key: pqXjD4or04GC_CbVnjNLFhJkfxcIXSAbxzLsBad2TCI
+    short-id: 6b4135b5fd
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
   tls: true
   type: vless
   udp: true
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  ws-opts:
-    headers:
-      Host: 8.sahanwickramasinghe.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
   xudp: true
