@@ -748,7 +748,9 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: 27|US
+- down: ''
+  fingerprint: ''
+  name: 27,35|🇺🇸US_25|1.5MB/s
   obfs: salamander
   obfs-password: 7a5537b116d923fe572f85f1db7fe501
   password: cbb5cf13f04b22883390f1a073753123
@@ -758,6 +760,8 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+  udp: true
+  up: ''
 - alpn:
   - h3
   fingerprint: chrome
@@ -964,7 +968,7 @@ proxies:
       Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_322
+  name: 29,35|US_1|3.0MB/s
   network: ws
   port: 80
   server: 18.239.134.69
@@ -1092,6 +1096,242 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- auth: 5319f194c3164cd0f0dce502e83d60aa
+  name: 35|🇸US_2|4.3MB/s
+  obfs: salamander
+  obfs-password: 73221641ddc56c49b02bf110ac85afdb
+  password: 5319f194c3164cd0f0dce502e83d60aa
+  port: 443
+  server: 23.95.28.131
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_3|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: sulgx-panel-production-ff31.up.railway.app
+  servername: sulgx-panel-production-ff31.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 294b2868-ec9a-4587-9181-9c1fe7558f05
+  ws-opts:
+    headers:
+      Host: sulgx-panel-production-ff31.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /ws/294b2868-ec9a-4587-9181-9c1fe7558f05
+  xudp: true
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_4|2.2MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇸US_5|3.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
+  port: 4434
+  server: 204.152.221.119
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+  up: ''
+- name: 35,37|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_7|1.4MB/s
+  password: None
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_8|4.4MB/s
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_9|2.5MB/s
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_10|4.5MB/s
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_11|3.4MB/s
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_12|4.3MB/s
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_13|3.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇺🇸US_14|2.3MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_15|4.7MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_16|4.4MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_17|3.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_18|4.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_19|4.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_20|1.2MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇺🇸US_21|4.2MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇺🇸US_22|4.6MB/s
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_23|4.3MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_24|3.7MB/s
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: 35|🇸US_26|2.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 151.101.1.242
+  servername: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29f6e96c-1ec2-47d3-8437-d1264e259d3a
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇸US_27|4.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: GmSrU6Wv8pYT96TE080sn1EzQnZ3j0Ea7usrxET7ol8
+    short-id: 8d008277
+  server: 104.194.74.14
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f56719f-d1dd-442d-a13c-ddbea23f1ab1
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1248,13 +1488,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 37|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0144
