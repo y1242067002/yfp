@@ -740,14 +740,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|美国
-  password: 6dcb725e-947e-4bbe-bb35-903374d57179
-  port: 443
-  server: rm-eco-us-01.409648.xyz
-  skip-cert-verify: true
-  sni: mkm.icu
-  tls: false
-  type: hysteria2
 - name: 27|US
   obfs: salamander
   obfs-password: 7a5537b116d923fe572f85f1db7fe501
@@ -1012,62 +1004,53 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 35|US_1|3.9MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: tICt4RT_Rw9KAU8hIf05_fzAMZnfUUyMfE-Ept6zcBY
-    short-id: ''
-  server: 64.49.38.4
-  servername: www.lenovo.com
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 35|US_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
   udp: true
-  uuid: f71957f3-29e0-d077-9b51-83da5cf31480
-  xudp: true
-- name: 35|🇺🇸US_2|1.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_2|1.4MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
   udp: true
-- name: 35|🇺🇸US_3|2.6MB/s
+- name: 35|🇺🇸US_3|2.8MB/s
   port: 443
   server: tzoa.fun
   sni: tzoa.fun
   tls: true
   type: http
   udp: true
-- name: 35,37|US_speednode_0134
+- name: 35|🇸US_4|2.6MB/s
   port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_5|1.5MB/s
+- name: 35|🇺🇸US_5|4.2MB/s
+  password: None
   port: 443
-  server: goedkoopgeluid.icu
+  server: mmgr.club
   skip-cert-verify: true
-  sni: goedkoopgeluid.icu
+  sni: mmgr.club
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_6|3.1MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
+- name: 35|🇺🇸US_6|1.4MB/s
+  password: None
+  port: 443
+  server: zebpay.site
+  skip-cert-verify: false
+  sni: zebpay.site
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_7|2.7MB/s
+- name: 35|🇺🇸US_7|1.4MB/s
   password: None
   port: 443
   server: carolinafreigh.fun
@@ -1076,56 +1059,50 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_8|1.1MB/s
-  port: 443
-  server: purecambogiasl.live
+- name: 35|🇺🇸US_8|2.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
-  sni: purecambogiasl.live
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_9|2.0MB/s
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|3.1MB/s
+  username: 'null'
+- name: 35|🇺🇸US_9|4.2MB/s
   password: ''
-  port: 8443
-  server: 104.219.236.83
+  port: 443
+  server: mmgr.club
   skip-cert-verify: true
+  sni: mmgr.club
   tls: true
   type: http
   udp: true
   username: ''
-- client-fingerprint: chrome
-  name: 35|🇺🇸US_11|2.4MB/s
-  network: ws
+- name: 35|🇸US_10|3.0MB/s
+  password: None
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_11|1011KB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: 172.67.149.248
-  servername: IMg-edGE-M16-3.HUAngsHANg.pP.UA
+  reality-opts:
+    public-key: SqArIWpSt5VG9HVrtcZQn1r0Tc_eRvYzca2OFDBkF24
+    short-id: 1fdea407109a1750
+  server: 152.232.57.99
+  servername: salam.ru
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  uuid: 90546412-d9c5-4442-831b-e9b7ca3643de
   xudp: true
-- cipher: aes-256-gcm
-  name: 35|🇺🇸US_12|2.0MB/s
-  password: wBYiDjDDyFqcBnNl
-  port: 8388
-  server: 64.177.32.29
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1169,6 +1146,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -1247,6 +1230,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 37|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0141
   port: 443
   server: 38.28.193.188
