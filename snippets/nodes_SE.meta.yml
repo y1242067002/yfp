@@ -36,39 +36,33 @@ proxies:
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_16
+  name: 29|🇸🇪_瑞典_8
   port: 443
   reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  server: 5.157.10.146
-  servername: sweb1.loozerp.wiki
+    public-key: fn0RLpDpJr5BJvYeX8W7OgGYoW4nARJ6jZg-sWIAozA
+  server: 213.21.250.193
+  servername: api.sream-rutube.shop
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
 - client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_296
+  name: 29|🇸🇪_瑞典_46
   network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
+  port: 443
+  server: 202.155.11.249
+  servername: cf2.rumedia-cdn.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   ws-opts:
-    path: /
-- name: 35|🇪SE_1|4.0MB/s
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸🇪SE_2|1.3MB/s
+    headers:
+      Host: cf2.rumedia-cdn.com
+    path: /cdn/v3/live
+- name: 35|🇪SE_1|1.9MB/s
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
