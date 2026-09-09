@@ -61,37 +61,17 @@ proxies:
   uuid: a5194487-9b9a-462f-a047-ac7580d80201
   ws-opts:
     path: /
-- name: 35|SE_1|3.4MB/s
+- name: 35|🇪SE_1|4.0MB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸🇪SE_2|1.3MB/s
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸🇪SE_2|2.0MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪SE_3|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ELFdNdI6NYwuEq5OqCkYwnUInHvIpsUhd4z2ud7pOCM
-    short-id: 0172b7681806bc97
-  server: eu-north-sw-1.hanvpn.biz
-  servername: eu-north-sw-1.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  xudp: true
