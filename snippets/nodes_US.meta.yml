@@ -750,6 +750,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 28|🇺🇸9@JKVPN
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52088
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_36
@@ -1004,7 +1016,7 @@ proxies:
       Host: vms.lifetime50.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 29,35|🇺🇸US_4|1.2MB/s
+  name: 29|🇺🇸_美国_324
   network: ws
   port: 2053
   server: 172.66.1.247
@@ -1054,20 +1066,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 35|US_1|1.5MB/s
-  network: ws
-  port: 2083
-  server: 104.17.118.35
-  servername: mianfei-73q.pages.dev
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 35|US_1|1.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
   udp: true
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  ws-opts:
-    headers:
-      Host: mianfei-73q.pages.dev
-    path: /proxyip=154.3.33.43
+- name: 35|🇸US_2|2.5MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+  udp: true
 - name: 35,37|US_speednode_0134
   port: 443
   server: voteshirleysew.club
@@ -1075,32 +1089,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_6|1.0MB/s
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_7|1.5MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_8|1.2MB/s
-  password: 'null'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
