@@ -763,8 +763,11 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_36
+  name: 29,35|🇧GB_5|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -775,6 +778,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_15
@@ -816,7 +820,7 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: chrome
-  name: 29,35|GB_1|3.5MB/s
+  name: 29,35|GB_1|4.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -1069,7 +1073,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇸US_1|2.6MB/s
+  name: 35|US_1|3.3MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -1081,23 +1085,15 @@ proxies:
   type: vless
   udp: true
   uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: 35|🇸US_2|4.2MB/s
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_3|4.1MB/s
+- name: 35|ID_1|4.0MB/s
   port: 443
   server: jgwynphotoarts.pro
+  skip-cert-verify: false
   sni: jgwynphotoarts.pro
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_4|4.1MB/s
+- name: 35|🇺🇸US_3|4.0MB/s
   password: 'null'
   port: 443
   server: jewelscollecti.icu
@@ -1116,28 +1112,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35,37|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_7|3.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
-    short-id: 9c904d85ab262d50
-  server: 38.244.20.152
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
-- name: 35|🇺🇸US_8|2.1MB/s
+- name: 35|🇺🇸US_5|5.1MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -1145,23 +1120,14 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: 35|🇺🇸US_9|2.8MB/s
+- name: 35|🇺🇸US_6|4.1MB/s
   port: 443
   server: carolinafreigh.fun
   sni: carolinafreigh.fun
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_10|4.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_11|3.5MB/s
+- name: 35|🇸US_7|4.4MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.209
@@ -1170,7 +1136,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_12|3.7MB/s
+- name: 35|🇺🇸US_8|4.5MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.205
@@ -1179,37 +1145,65 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_13|3.3MB/s
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇺🇸US_9|2.6MB/s
+  network: ws
+  port: 443
+  server: 104.17.159.189
+  servername: fq.jp188.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  ws-opts:
+    headers:
+      Host: fq.jp188.dpdns.org
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+- name: 35|🇺🇸US_10|4.6MB/s
+  password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_14|4.4MB/s
+- name: 35|🇺🇸US_11|4.4MB/s
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_12|3.4MB/s
   port: 9002
   server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_15|4.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
+- name: 35|🇺🇸US_13|3.1MB/s
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
   tls: true
   type: http
   udp: true
-  username: ''
-- name: 35|🇺🇸US_16|4.5MB/s
+  username: 'null'
+- name: 35|🇺🇸US_14|3.6MB/s
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_17|4.5MB/s
+- name: 35|🇺🇸US_15|4.5MB/s
   password: None
   port: 9002
   server: 138.199.35.201
@@ -1217,45 +1211,43 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_18|3.9MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_19|3.8MB/s
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_20|4.3MB/s
+- name: 35|🇺🇸US_16|4.0MB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_21|4.4MB/s
+- name: 35|🇸US_17|3.1MB/s
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_22|1.7MB/s
+- name: 35|🇺🇸US_18|4.5MB/s
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_23|1.8MB/s
+- name: 35|🇺🇸US_19|4.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_20|3.9MB/s
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_21|3.0MB/s
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -1264,14 +1256,14 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 35|🇸US_24|1.5MB/s
+- name: 35|🇺🇸US_22|4.0MB/s
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_25|4.5MB/s
+- name: 35|🇺🇸US_23|4.4MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -1280,24 +1272,23 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_26|4.4MB/s
-  password: 'null'
-  port: 443
-  server: jgwynphotoarts.pro
+- name: 35|🇺🇸US_24|3.6MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
-  sni: jgwynphotoarts.pro
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 35|🇺🇸US_27|4.5MB/s
+  username: ''
+- name: 35|🇺🇸US_25|3.9MB/s
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_28|3.7MB/s
+- name: 35|🇺🇸US_26|1.2MB/s
   password: None
   port: 9002
   server: 138.199.35.217
@@ -1305,51 +1296,33 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_29|3.4MB/s
-  port: 5252
-  server: 148.100.84.192
-  type: http
-  udp: true
-- name: 35|🇺🇸US_30|3.8MB/s
+- name: 35|🇺🇸US_27|3.6MB/s
+  password: 'null'
   port: 443
-  server: jewelscollecti.icu
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
-  sni: jewelscollecti.icu
+  sni: goedkoopgeluid.icu
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_31|4.5MB/s
-  password: ''
+  username: 'null'
+- name: 35|🇺🇸US_28|4.0MB/s
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- name: 35|🇺🇸US_32|1.4MB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_33|4.7MB/s
+- name: 35|🇺🇸US_29|3.9MB/s
+  password: None
   port: 443
   server: zebpay.site
+  skip-cert-verify: false
   sni: zebpay.site
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_34|3.2MB/s
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_35|3.0MB/s
+- name: 35|🇺🇸US_30|3.4MB/s
   password: ''
   port: 8443
   server: 104.219.236.83
@@ -1358,7 +1331,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 35|🇺🇸US_36|3.0MB/s
+- name: 35|🇸US_31|2.1MB/s
   password: None
   port: 443
   server: 149.88.21.129
@@ -1366,7 +1339,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_37|3.4MB/s
+- name: 35|🇺🇸US_32|1.8MB/s
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -1375,6 +1348,15 @@ proxies:
   type: http
   udp: true
   username: testuser1
+- name: 35|🇺🇸US_33|4.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1522,6 +1504,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 37|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0144
