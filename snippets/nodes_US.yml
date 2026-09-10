@@ -121,11 +121,11 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 25,29|🏳️_未知_269
+- name: 25|美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
@@ -193,10 +193,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_53
+  name: 25,29|🇭🇰_香港_32
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -211,39 +211,17 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇺🇸_美国_154
-  password: humanity
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国_39
   port: 443
-  server: 216.24.57.7
+  server: 165.140.217.2
   skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_155
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 29|🇺🇸_美国_228
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国_184
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- name: 29|🇺🇸_美国_280
   password: humanity
   port: 443
   server: 130.250.137.171
@@ -252,10 +230,8 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_220
+- name: 29|🇺🇸_美国_183
   password: humanity
   port: 443
   server: render.com
@@ -265,22 +241,36 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国_346
-  network: ws
+- name: 29|🇺🇸_美国_218
+  password: humanity
   port: 443
-  server: 2.27.16.177
-  servername: renderer-stream-2-62.mirra.now
+  server: 165.215.250.14
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
+    path: /assignment
+- name: 29|🇺🇸_美国_267
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国_311
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
 - cipher: aes-256-gcm
   name: 33|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527

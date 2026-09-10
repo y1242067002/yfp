@@ -64,26 +64,46 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 29|免费VPN：https://tt.vg/FJOE2Mm
-  port: 11437
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 29,35|🇬🇧GB_4|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-    short-id: 7de83d0e31eb75ef
-  server: fi.horlutr.ir
-  servername: amp-api-edge.apps.apple.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: brightharbor.download
+  servername: localhost
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-- name: 29|🇯🇵_日本_31
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10009
-  server: z-jp1.1card.cc
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_27
+  port: 443
+  reality-opts:
+    public-key: gj-WwJGn9OMgKeREW-gOPyl1YP88IXD5k4zunEl2-iE
+    short-id: 190378398fd796c3
+  server: 116.206.93.227
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 99ee7869-84e6-4e07-a7d2-1f56acd3a295
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_41
+  port: 49432
+  server: 38.47.121.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -104,3 +124,24 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇵JP_1|5.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: node1.jjjjjj.eu.cc
+  servername: jpb2.jjjjjj.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75bc1bab-ff62-4c7c-a946-ec49fd53f89f
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jpb2.jjjjjj.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    max-early-data: 2048
+    path: /jige
+  xudp: true

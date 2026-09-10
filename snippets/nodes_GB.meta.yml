@@ -97,94 +97,95 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_338
-  network: ws
-  port: 2087
-  server: 91.193.58.207
-  servername: mianfei-73q.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  ws-opts:
-    headers:
-      Host: mianfei-73q.pages.dev
-    path: /proxyip=154.3.33.43
-- client-fingerprint: chrome
-  encryption: none
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇧GB_2|4.2MB/s
+  name: 35|GB_1|4.0MB/s
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: ''
   server: 2.26.178.129
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- name: 35|🇧GB_8|3.0MB/s
+- name: 35|🇧GB_5|2.9MB/s
   port: 443
-  server: 212.102.63.31
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_9|4.1MB/s
+- name: 35|🇬🇧GB_6|1.3MB/s
   port: 443
-  server: 37.120.233.18
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_10|2.0MB/s
+- name: 35|🇬🇧GB_7|1.3MB/s
+  password: None
   port: 443
   server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_11|3.6MB/s
+- name: 35|🇧GB_8|2.9MB/s
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_12|3.2MB/s
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  udp: true
-- client-fingerprint: chrome
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇬🇧GB_13|3.7MB/s
+  name: 35|🇬🇧GB_10|1.3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
     short-id: ''
-  server: 2.26.178.172
+  server: 2.26.178.166
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
+- name: 35|🇧GB_13|2.3MB/s
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_14|2.3MB/s
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_15|2.2MB/s
+  port: 32766
+  server: 178.62.83.124
+  type: http
+  udp: true
 - alpn:
   - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇬🇧GB_14|3.5MB/s
+  name: 35|🇬🇧GB_16|3.0MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
