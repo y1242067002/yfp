@@ -805,10 +805,13 @@ proxies:
   uuid: f8c0e295-0036-4aeb-8263-f6c2ee3060fe
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_40
+  name: 29,35|GB_1|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
   server: 2.26.178.138
   servername: localhost
   skip-cert-verify: true
@@ -816,6 +819,7 @@ proxies:
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇺🇸_美国_30
@@ -1187,7 +1191,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|🇸US_1|4.0MB/s
+- name: 35|🇸US_1|1.3MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
@@ -1195,91 +1199,11 @@ proxies:
   sni: anytls2.864106.xyz
   type: anytls
   udp: true
-- name: 35|🇺🇸US_2|1.2MB/s
+- name: 35|🇺🇸US_2|1003KB/s
   port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_3|1.3MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_4|2.8MB/s
-  password: 'null'
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: true
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_5|1.1MB/s
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_8|1.1MB/s
-  port: 443
-  server: efr-marktplatz.club
+  server: kimberlymilano.icu
   skip-cert-verify: false
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_9|1.7MB/s
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|3.8MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_11|1.1MB/s
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: false
-  sni: webdrone.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_12|2.3MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  sni: berniesbodybla.fun
+  sni: kimberlymilano.icu
   tls: true
   type: http
   udp: true
@@ -1326,6 +1250,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -1404,6 +1334,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 37|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: 37|US_speednode_0141
   port: 443
   server: 38.28.193.188

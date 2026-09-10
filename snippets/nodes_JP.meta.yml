@@ -64,22 +64,18 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇬🇧GB_4|1023KB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇺🇸_美国_52
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: brightharbor.download
-  servername: brightharbor.download
+  servername: localhost
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 29|🇯🇵_日本_27
@@ -124,14 +120,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- alpn:
-  - h2
-  - http/1.1
-  name: 35|JP_1|4.1MB/s
-  password: 34da2119-c5ff-45df-870c-9ddb75d88d3b
-  port: 21123
-  server: xj.salirukou.shop
-  skip-cert-verify: true
-  sni: tdfycft.yfftftf.shop
-  type: anytls
-  udp: true
