@@ -529,12 +529,11 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 29,35|🇰HK_1|4.6MB/s
+  name: 29|🇫🇷_法国_58
   network: ws
-  packet-encoding: xudp
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -543,7 +542,6 @@ proxies:
     headers:
       Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
     path: /
-  xudp: true
 - name: 29|🏳️_未知_308
   password: humanity
   port: 443
@@ -1560,3 +1558,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 35|🇰🇷KR_2|1.1MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+  udp: true
