@@ -97,43 +97,18 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 35|GB_1|2.7MB/s
-  port: 443
-  server: 212.102.63.61
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_64
+  network: ws
+  port: 2096
+  server: 91.193.59.255
+  servername: fq.jp188.dpdns.org
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_2|3.0MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_3|3.2MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 35|🇧GB_4|2.6MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 9844
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  server: 95.143.191.92
-  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  xudp: true
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  ws-opts:
+    headers:
+      Host: fq.jp188.dpdns.org
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57

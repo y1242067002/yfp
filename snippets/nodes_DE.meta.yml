@@ -219,201 +219,46 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_11
-  port: 2083
-  reality-opts:
-    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
-    short-id: af04ff8094115e93
-  server: 178.105.61.61
-  servername: 178.105.61.61
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
 - client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_29
-  port: 443
+  name: 29|🇩🇪_德国_5
+  port: 8445
   reality-opts:
-    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
-  server: 2.59.134.226
-  servername: rich-falcon.cdn.cachefleet.com
+    public-key: TJJ4Zfq2KhZii_IP8J1EW4VNt3HBYnlIR5yn7JzbFXs
+    short-id: 498dde7df1bf79ab
+  server: germ6.velqixa.ir
+  servername: amp-api-edge.apps.apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_37
-  port: 443
-  reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|DE_1|1.5MB/s
+  uuid: f2900749-7cff-42b7-9566-dfb03840d374
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_53
   network: ws
-  packet-encoding: xudp
   port: 443
-  server: 172.64.152.23
-  servername: s2p.open-ml.ir
+  server: 111.88.74.167
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 02960dc5-ade0-4f85-a3ec-3e73b3599f0f
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
-      Host: s2p.open-ml.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: 35|🇪DE_2|2.9MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.KBrQxiiQpLoPmAj-s67EKMOiPKoxBnWiXDcPLKd2bVo
-  name: 35|🇪DE_3|4.2MB/s
-  network: xhttp
-  port: 2093
-  reality-opts:
-    public-key: 6xNHP5QQQjDfKaoolhZ79hjAfDUti50HzvQ0i-Rh3TU
-    short-id: b547393e603ff2ed
-  server: vnet.korluma.ir
-  servername: my-trip-online.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fa80d79a-0410-4e1c-8bc1-1f855e794860
-  xhttp-opts:
-    host: my-trip-online.com
-    mode: auto
-    path: /@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---@vnet_connect---
-- name: 35|🇩🇪DE_4|1.3MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_5|4.5MB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_6|2.7MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_7|4.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2434
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: 9de041877612a718
-  server: de5.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 999a8e4e-f13a-411e-b0db-e7753d982efd
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_8|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 1932
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 195.66.24.173
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_9|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 195.66.24.174
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_10|3.4MB/s
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_76
   network: ws
-  packet-encoding: xudp
   port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
+  server: 31.77.223.21
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_11|3.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: 195.66.24.172
-  servername: www.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea8eb632-7d56-4bfb-8195-dc34268b5844
-  xudp: true
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
