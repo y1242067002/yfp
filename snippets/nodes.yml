@@ -990,17 +990,13 @@ proxies:
   udp: true
   ws-opts:
     path: assignment
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 29,35|HK_1|3.2MB/s
+  name: 29|🏳️_未知_127
   network: ws
-  packet-encoding: xudp
   port: 443
   server: www.shopify.com
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
@@ -1009,7 +1005,6 @@ proxies:
     headers:
       Host: yoga-suggesting-recording-calls.trycloudflare.com
     path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-  xudp: true
 - name: 29|🏳️_未知_385
   password: humanity
   port: 443
@@ -2190,37 +2185,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 35|NP_1|3.1MB/s
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10044
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: 35|🇦QA_1|3.8MB/s
+- name: 35|QA_1|2.9MB/s
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10008
   server: z-jp2.1card.cc
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: z-jp2.1card.cc
   type: trojan
   udp: true
-- name: 35|🇫AF_1|3.9MB/s
+- name: 35|AF_1|2.4MB/s
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10009
-  server: z-jp1.1card.cc
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 35|🇬🇧GB_6|2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.130.133.149
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇧GB_4|1.4MB/s
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 35|🇳🇱NL_2|2.7MB/s
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  servername: mfyousheng.nl.eu.org
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
