@@ -815,11 +815,9 @@ proxies:
   type: vless
   udp: true
   uuid: e1be6b8f-a0f5-45a9-8aa6-634c26793325
-- client-fingerprint: chrome
-  encryption: none
-  name: 29,35|🇸SG_1|3.0MB/s
+- client-fingerprint: safari
+  name: 29|🇺🇸_美国_123
   network: ws
-  packet-encoding: xudp
   port: 8443
   server: news.zoom.us
   servername: u.srilankangrill.online
@@ -831,10 +829,7 @@ proxies:
   ws-opts:
     headers:
       Host: u.srilankangrill.online
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
-  xudp: true
 - name: 29|🇺🇸_美国_76
   password: a8f1f784-12f1-4223-9aa1-ca1e1ef3fcc7
   port: 2096
@@ -1159,44 +1154,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|🇸US_1|1.8MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_2|1.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- name: 35|🇺🇸US_3|1.5MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_4|1.6MB/s
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1240,6 +1197,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
