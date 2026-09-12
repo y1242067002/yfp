@@ -51,6 +51,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|日期：09-12
+  port: 8200
+  reality-opts:
+    public-key: 1KrzmnGnXweOpiuDle8bRNY6BPXWsD7ufzx1uFurl1c
+  server: 77.223.119.80
+  servername: ru01.arpanet-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfad3362-8534-4495-bf49-89f2ae229e7a
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -71,13 +84,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 35|🇵JP_1|3.9MB/s
-  password: ''
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  udp: true
-  username: bnVsbDpudWxs

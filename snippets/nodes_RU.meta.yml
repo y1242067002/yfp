@@ -48,8 +48,78 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_21
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: 52ccb3687fe0b7ec
+  server: 109.68.212.173
+  servername: api8.eaglors.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
 - client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_16
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_33
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: 52ccb3687fe0b7ec
+  server: 200.165.235.78
+  servername: api8.eaglors.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_18
+  port: 443
+  reality-opts:
+    public-key: NsTRRl4ofT64w0VwmkpOWE8yfiXLcEqgwgi-9SGnXTA
+    short-id: a1b2c3d4
+  server: 78.159.247.214
+  servername: kinopoisk.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_37
+  port: 443
+  reality-opts:
+    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
+    short-id: 52ccb3687fe0b7ec
+  server: 188.225.45.152
+  servername: api8.eaglors.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_44
+  port: 443
+  reality-opts:
+    public-key: 74pbcWZE8Ne6iYrsl_31qy_pWKRrILQiAWfZs2IuGR0
+    short-id: 7e0f2634090e768b
+  server: 5.23.53.234
+  servername: fin.sdssh-vid.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+- client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯_336
   network: ws
   port: 14443
   server: pr-media.pepro.site
@@ -61,22 +131,9 @@ proxies:
   uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
   ws-opts:
     path: /ws
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_17
-  network: ws
-  port: 14443
-  server: 95.163.232.171
-  servername: pr-media.pepro.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
-  ws-opts:
-    path: /ws
 - alterId: 0
   cipher: auto
-  name: 29|🇷🇺_俄罗斯_79
+  name: 29|🇷🇺_俄罗斯_236
   network: ws
   port: 443
   server: 5.188.26.85
@@ -89,3 +146,33 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_257
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: pr-media.pepro.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|RU_1|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
+    short-id: c3248f699ea5d8d0
+  server: 5.35.91.96
+  servername: rus1.baboon.digital
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
+  xudp: true

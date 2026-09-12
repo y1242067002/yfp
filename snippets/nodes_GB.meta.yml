@@ -98,7 +98,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_64
+  name: 29|🇬🇧_英国_233
   network: ws
   port: 2096
   server: 91.193.59.255
@@ -112,56 +112,56 @@ proxies:
     headers:
       Host: fq.jp188.dpdns.org
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
-- cipher: aes-256-gcm
-  name: 35|GB_1|3.1MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 82.110.60.9
-  type: ss
+- name: 35|🇬GB_1|2.9MB/s
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- name: 35|🇧GB_2|3.5MB/s
+- name: 35|🇧GB_2|2.4MB/s
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_3|3.4MB/s
+  password: None
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|3.3MB/s
-  password: None
+- name: 35|🇬GB_4|2.9MB/s
   port: 443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_4|2.7MB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_5|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI
+    short-id: beff3ff061a64cfd
+  server: 171.22.129.56
+  servername: fi-one.quiet-rogue.site
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇧GB_5|1.3MB/s
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+  xudp: true
+- cipher: aes-256-cfb
+  name: 35|🇬🇧GB_6|2.6MB/s
+  password: amazonskr05
   port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: 18.130.133.149
+  type: ss
   udp: true
-- name: 35|🇧GB_6|3.1MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_7|2.5MB/s
-  password: ''
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
