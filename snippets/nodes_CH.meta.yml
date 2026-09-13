@@ -11,32 +11,43 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - play-apps-features.googleusercontent.com
-    path:
-    - /
-  name: 35|CH_1|4.0MB/s
-  network: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|CH_1|1.3MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 8443
-  server: it.kanzelo.ir
+  port: 46280
+  reality-opts:
+    public-key: 3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ
+    short-id: e53690af52736850
+  server: 132.243.162.30
+  servername: amp-api-edge.apps.apple.com
+  tls: true
   type: vless
   udp: true
-  uuid: 0ecf2aa4-0ae7-1a4f-5455-b116c864542d
+  uuid: 12af43c3-84b4-4248-878b-b75f35835487
   xudp: true
-- name: 35|🇭CH_2|2.3MB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇨🇭CH_3|2.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: yg8AxPPiKD1wQ-AlxB8Iwo0w59A4QTVob_FVAl4iuRw
+    short-id: e7d8f0aa
+  server: fi.srv.safes-infrastructure.com
+  servername: fi.srv.safes-infrastructure.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 482aed33-c5ae-4e1d-bff4-8b0bdb72fb81
+  xudp: true
+- name: 35|🇭CH_4|3.7MB/s
   port: 9443
   server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇭CH_3|3.0MB/s
-  port: 443
-  server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
