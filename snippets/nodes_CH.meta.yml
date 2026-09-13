@@ -11,3 +11,33 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    path:
+    - /
+  name: 35|CH_1|4.0MB/s
+  network: http
+  packet-encoding: xudp
+  port: 8443
+  server: it.kanzelo.ir
+  type: vless
+  udp: true
+  uuid: 0ecf2aa4-0ae7-1a4f-5455-b116c864542d
+  xudp: true
+- name: 35|🇭CH_2|2.3MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇭CH_3|3.0MB/s
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
