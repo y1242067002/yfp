@@ -51,19 +51,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|日期：09-12
-  port: 8200
+  name: 29|🇯🇵_日本_32
+  port: 443
   reality-opts:
-    public-key: 1KrzmnGnXweOpiuDle8bRNY6BPXWsD7ufzx1uFurl1c
-  server: 77.223.119.80
-  servername: ru01.arpanet-cdn.com
+    public-key: kb1uhDsBcfsCD6acCuFcVERW29dscNGIjKPd67NArVk
+    short-id: ab3b914f0c9d9de5
+  server: 47.74.3.200
+  servername: www.logitech.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: dfad3362-8534-4495-bf49-89f2ae229e7a
+  uuid: 7fb42fab-ea8a-4f0f-af9e-55df8ae6cb1d
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -84,23 +85,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- auth: 0bffb8e71bca29788862f986caae97b3
-  name: 35|JP_1|1.1MB/s
-  obfs: salamander
-  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
-  password: 0bffb8e71bca29788862f986caae97b3
-  port: 443
-  server: 8.211.175.129
-  skip-cert-verify: true
-  sni: 8.211.175.129
-  type: hysteria2
-  udp: true
-- name: 35|🇯🇵JP_2|2.4MB/s
-  password: ''
-  port: 8094
-  server: 110.80.25.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
