@@ -89,28 +89,45 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 35|GB_1|3.8MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: rc4-md5
+  name: 35|GB_1|2.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.23.32
+  type: ss
   udp: true
-- name: 35|🇧GB_2|2.0MB/s
+- name: 35|🇬🇧GB_2|3.2MB/s
   port: 443
   server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|3.2MB/s
+- name: 35|🇧GB_3|2.1MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_4|2.7MB/s
+- name: 35|🇧GB_4|2.1MB/s
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_5|2.9MB/s
+  password: ''
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇬🇧GB_6|3.0MB/s
   password: None
   port: 443
   server: 185.235.0.2
@@ -118,31 +135,34 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_5|3.1MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_6|4.1MB/s
+- name: 35|🇬🇧GB_7|2.9MB/s
   port: 443
   server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_7|2.9MB/s
+- name: 35|🇧GB_8|2.9MB/s
   port: 443
-  server: 185.235.0.98
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_8|3.7MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_9|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 24443
+  reality-opts:
+    public-key: uUI9qoHBKhlrPy4BRJSQQygc4jstmLKLrhRI6jqhYxw
+    short-id: 8df4211d612176a5
+  server: 2.26.101.19
+  servername: se.chick-team.ru
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 15553b23-a621-4dfd-995e-2fe28d124526
+  xudp: true

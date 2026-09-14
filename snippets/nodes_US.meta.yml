@@ -844,7 +844,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: 29|🇺🇸_美国_44
+- name: 29,35|🇺🇸US_4|1.5MB/s
   network: ws
   port: 80
   server: 208.103.161.249
@@ -963,7 +963,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: TunService
-  name: 35|TR_1|4.0MB/s
+  name: 35|TR_1|3.6MB/s
   network: grpc
   packet-encoding: xudp
   port: 8443
@@ -978,90 +978,52 @@ proxies:
   uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   xudp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: 35|🇺🇸US_2|2.7MB/s
-  network: grpc
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
-- client-fingerprint: chrome
   encryption: none
-  name: 35|🇸US_3|3.0MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 35|🇸US_2|4.2MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: QzFNQqkvBnDKIyjXUHJQe9jruaw9G5AV44vDC-qvnlo
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
     short-id: ''
-  server: 170.168.97.8
-  servername: www.hp.com
+  server: 104.245.242.8
+  servername: download.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
-  xhttp-opts:
-    path: /
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   xudp: true
-- name: 35|🇸US_4|2.8MB/s
-  password: 'null'
+- client-fingerprint: chrome
+  name: 35|🇸US_3|2.1MB/s
+  network: ws
   port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
+  server: hongersv.pages.dev
+  servername: hongersv.pages.dev
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 'null'
-- name: 35,37|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_6|3.9MB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_7|4.6MB/s
+  uuid: 2410ac77-28a6-4f97-a9a2-7ea55ffdee1b
+  ws-opts:
+    headers:
+      Host: hongersv.pages.dev
+    path: /
+- name: 35|🇺🇸US_5|2.6MB/s
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_8|4.0MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_9|3.8MB/s
-  password: None
+- name: 35|🇸US_6|4.8MB/s
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_10|4.3MB/s
+- name: 35|🇸US_7|3.2MB/s
   password: None
   port: 9002
   server: 138.199.35.217
@@ -1069,23 +1031,38 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_11|3.7MB/s
+- name: 35|🇺🇸US_8|2.0MB/s
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_9|1.6MB/s
   password: ''
   port: 9002
-  server: 138.199.35.203
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-- name: 35|🇺🇸US_12|4.6MB/s
-  port: 9002
-  server: 138.199.35.206
+- name: 35|🇸US_10|3.9MB/s
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_11|3.4MB/s
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_13|1.7MB/s
+- name: 35|🇸US_12|4.5MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -1094,67 +1071,54 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_14|4.7MB/s
+- name: 35|🇺🇸US_13|4.5MB/s
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_15|4.1MB/s
+- name: 35|🇺🇸US_14|4.4MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇸US_15|4.3MB/s
   port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
+  server: purposebydesig.club
+  sni: purposebydesig.club
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_16|4.4MB/s
+- name: 35|🇺🇸US_16|4.7MB/s
+  password: 'null'
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_17|4.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_18|4.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇸US_19|4.5MB/s
+  username: 'null'
+- name: 35|🇺🇸US_17|3.3MB/s
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_20|3.1MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
+- name: 35|🇸US_18|1021KB/s
+  port: 443
+  server: tzoa.fun
+  skip-cert-verify: false
+  sni: tzoa.fun
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_21|4.1MB/s
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_22|2.8MB/s
+- name: 35|🇸US_19|3.0MB/s
   password: ''
   port: 8443
   server: 104.219.236.83
@@ -1163,48 +1127,62 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 35|🇺🇸US_23|3.2MB/s
+- name: 35|🇸US_20|3.3MB/s
+  password: e4b72b531a2d10900519
   port: 443
-  server: 149.88.21.129
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  udp: true
+  username: testuser1
+- name: 35|🇺🇸US_21|3.3MB/s
+  password: None
+  port: 443
+  server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_24|4.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- name: 35|🇺🇸US_22|2.7MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸US_25|4.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: pol2.pinkmoon.pro
-  servername: pol2.pinkmoon.pro
   tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇸US_23|1.2MB/s
+  network: ws
+  port: 8880
+  server: 80.93.202.40
   type: vless
   udp: true
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
-  xudp: true
-- name: 35|🇺🇸US_26|4.5MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+- encryption: none
+  name: 35|🇸US_24|2.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 72.167.25.30
+  type: vless
   udp: true
-  username: 'null'
-- name: 35|🇸US_27|3.4MB/s
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇺🇸US_25|3.2MB/s
   password: ''
   port: 443
   server: 52.55.81.168
@@ -1228,6 +1206,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 37|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0132
