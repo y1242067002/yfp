@@ -48,36 +48,22 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- client-fingerprint: qq
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_9
+  name: 29|🇷🇺_俄罗斯_27
   port: 443
   reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: 52ccb3687fe0b7ec
-  server: 200.165.235.78
-  servername: api8.eaglors.com
+    public-key: dDsLb439UEeGxb-z0NjPGbUR9LvyLZs_SQZNAWKCoHY
+    short-id: a7ecea927dfcdb35
+  server: app-ss-57.shopping-spb.com
+  servername: assets-ss-57.shopping-spb.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_12
-  port: 443
-  reality-opts:
-    public-key: NsTRRl4ofT64w0VwmkpOWE8yfiXLcEqgwgi-9SGnXTA
-    short-id: a1b2c3d4
-  server: 78.159.247.170
-  servername: kinopoisk.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
 - client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯_304
+  name: 29|🇷🇺_俄罗斯_300
   network: ws
   port: 14443
   server: pr-media.pepro.site
@@ -90,7 +76,7 @@ proxies:
   ws-opts:
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_78
+  name: 29|🇷🇺_俄罗斯_261
   network: ws
   port: 14443
   server: 95.163.232.171
@@ -102,3 +88,39 @@ proxies:
   uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
   ws-opts:
     path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺RU_1|2.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
+    short-id: ''
+  server: 170.168.99.8
+  servername: www.epson.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dca76b88-b038-e82b-45e1-1d76b476d7ca
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺RU_3|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 89.105.206.123
+  servername: nl.convert-flow.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a22ca95-bd99-0028-a799-f8f73930ea05
+  xudp: true

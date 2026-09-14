@@ -16,6 +16,36 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- client-fingerprint: edge
+  name: 29|🇸🇬_新加坡_333
+  network: ws
+  port: 443
+  server: 43.169.19.179
+  servername: tl.520783.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: tl.520783.xyz
+    path: /assets/dist/app-update-payload.dat
+- client-fingerprint: edge
+  name: 29|🇸🇬_新加坡_336
+  network: ws
+  port: 443
+  server: 168.138.165.174
+  servername: tl.520783.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: tl.520783.xyz
+    path: /assets/dist/app-update-payload.dat
 - name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -24,3 +54,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 35|🇸SG_1|2.3MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20562
+  server: mszz.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true

@@ -42,31 +42,21 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_18
+  name: 29|🇭🇰_香港_11
   port: 443
   reality-opts:
-    public-key: 9nukDgL8dc3PWV07DAwi-_FFj3Y25ifYnnrIp7uV0SI
-    short-id: 92ddbafbf38306f5
-  server: 47.76.172.190
-  servername: www.cloudflare.com
+    public-key: 4IeLDkxPTFecGeobLaxV9XaVW7oBgcqwW2dvfFtPQD4
+    short-id: 7771265f0b109528
+  server: 47.238.126.123
+  servername: www.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 60baeb19-560d-402d-b9c9-c062c2350e0b
+  uuid: bf41cc32-f0a2-4b27-ba9f-8026ce0aed84
 - alterId: 2
   cipher: auto
-  name: 29|🇭🇰_香港_24
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 29|🇭🇰_香港_29
+  name: 29|🇭🇰_香港_42
   port: 30835
   server: v35.hdacd.com
   skip-cert-verify: true
@@ -112,3 +102,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 35|HK_1|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: proxyip.hk.cmliussss.net
+  servername: vp10.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /fp=chrome
+  xudp: true

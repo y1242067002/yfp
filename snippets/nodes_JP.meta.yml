@@ -51,20 +51,49 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_32
+  name: 29|🇳🇱_荷兰_12
   port: 443
   reality-opts:
-    public-key: kb1uhDsBcfsCD6acCuFcVERW29dscNGIjKPd67NArVk
-    short-id: ab3b914f0c9d9de5
-  server: 47.74.3.200
-  servername: www.logitech.com
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: 8ffa160e608bf539
+  server: 144.124.252.13
+  servername: nid3.pinkmoon.pro
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7fb42fab-ea8a-4f0f-af9e-55df8ae6cb1d
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_21
+  port: 443
+  reality-opts:
+    public-key: SsqcoKQAh4wOwKVxQcS4QGb_8xiHJ_IgzsEoTsEPDj8
+    short-id: 41dd2ebdd7e0a61a
+  server: 103.76.85.156
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4082b282-dc67-40df-b114-f70d71d61f6f
+- client-fingerprint: edge
+  name: 29|🇯🇵_日本_326
+  network: ws
+  port: 443
+  server: 45.76.100.75
+  servername: tl.520783.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: tl.520783.xyz
+    path: /assets/dist/app-update-payload.dat
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
