@@ -295,7 +295,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
   flow: xtls-rprx-vision
-  name: 35|DE_1|3.4MB/s
+  name: 35|DE_1|1.5MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -311,43 +311,22 @@ proxies:
     path: /@UonVPN-*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
     x-padding-bytes: 100-1000
   xudp: true
-- name: 35|🇪DE_2|2.2MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_3|1.0MB/s
+- name: 35|🇪DE_2|1.1MB/s
   port: 11111
   server: 103.237.102.191
   type: http
   udp: true
-- name: 35|🇪DE_4|3.1MB/s
+- name: 35|🇩🇪DE_3|1001KB/s
   port: 443
-  server: 87.249.132.97
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_5|1.9MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_6|2.7MB/s
+- name: 35|🇪DE_4|2.6MB/s
   password: None
   port: 443
   server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩DE_7|2.4MB/s
-  port: 443
-  server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
