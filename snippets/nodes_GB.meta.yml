@@ -90,11 +90,8 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇳🇱NL_9|3.1MB/s
-  network: raw
-  packet-encoding: xudp
+  name: 29|🇬🇧_英国_25
   port: 61592
   reality-opts:
     public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
@@ -106,115 +103,62 @@ proxies:
   type: vless
   udp: true
   uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 35|GB_1|4.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 110
-  server: 31.77.8.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e8758bf0-c234-4809-89f7-25fd868316d0
-  xudp: true
-- name: 35|🇧GB_2|2.7MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_3|3.0MB/s
-  port: 443
-  server: 185.235.0.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_4|3.7MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_5|2.2MB/s
-  password: None
-  port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_6|2.6MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_7|3.1MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_8|1.2MB/s
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_9|3.6MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇧GB_10|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 4443
+  name: 29|🇬🇧_英国_31
+  port: 31068
   reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  server: 31.77.199.147
-  servername: images.unsplash.com
+    public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
+    short-id: 1359c9bf9f7442e5
+  server: 51.194.251.172
+  servername: snapshot.apple-mapkit.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  xudp: true
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.FMzsDHTFQeuALVUzD8uqH-NzPoYYu5TXFKroZ7aExHk
-  name: 35|🇬🇧GB_11|2.6MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 43054
-  reality-opts:
-    public-key: YhntgPILPFepw5l3EZwsODZ8AQbjyztiUNbC0DqB1SQ
-    short-id: be595a95ec409d13
-  server: loc1-cdn.mycarservhpdd10.ir
-  servername: translate.google.com
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_58
+  network: ws
+  port: 2053
+  server: 91.193.59.32
+  servername: feixiang1981.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 527462f9-95a9-4470-ba22-ba1c45903954
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /ws
-  xudp: true
+  uuid: 06fb2cc5-a777-4371-8a1d-c10205b4c85e
+  ws-opts:
+    headers:
+      Host: feixiang1981.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_355
+  network: ws
+  port: 31867
+  server: 129.151.64.169
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /files?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_358
+  network: ws
+  port: 52014
+  server: 57.129.130.57
+  servername: edg-2oo.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: edg-2oo.pages.dev
+    path: /travel?ed=2560

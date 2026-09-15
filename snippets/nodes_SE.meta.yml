@@ -34,7 +34,51 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: 35|🇪SE_1|2.5MB/s
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_354
+  network: ws
+  port: 12345
+  server: 213.21.229.126
+  servername: edg-2oo.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: edg-2oo.pages.dev
+    path: /note?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 35|SE_1|3.8MB/s
+  network: xhttp
+  port: 443
+  server: 188.72.103.4
+  servername: shop.tgcenterapp.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e43829fe-a157-46ff-a416-00cc97f91c64
+  xhttp-opts:
+    host: shop.tgcenterapp.ru
+    mode: packet-up
+    path: /api/cart/sync
+    seq-key: chunk
+    seq-placement: cookie
+    session-key: visitor_id
+    session-placement: path
+    uplink-data-placement: body
+    uplink-http-method: HEAD
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache-Status
+    x-padding-key: _ts
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+- name: 35|🇪SE_2|2.7MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -42,17 +86,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_2|2.8MB/s
+- name: 35|🇸🇪SE_3|1.6MB/s
   port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪SE_3|3.0MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
