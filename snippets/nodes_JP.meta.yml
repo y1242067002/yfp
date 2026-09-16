@@ -71,3 +71,23 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|JP_1|2.9MB/s
+  network: ws
+  port: 8443
+  server: 151.145.67.90
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /city/playlist/out.php
