@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士_6
+  port: 443
+  reality-opts:
+    public-key: 8IWU6IX0N1fGtdOrg4URBvF-7lNBUhxNJ-QP9juvAkk
+    short-id: b826977e630ea7b7
+  server: jap.mguard-pro.com
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef805ed2-2a94-4a8c-878c-18fb8a51f4ed
+- name: 35|CH_1|1.8MB/s
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

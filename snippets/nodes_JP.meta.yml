@@ -35,14 +35,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|免费VPN：https://tt.vg/FJOE2Mm
   port: 443
   reality-opts:
     public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
     short-id: 9c2378562188c3cb
-  server: pl.bubahero.com
+  server: 194.93.63.246
   servername: pl.bubahero.com
   skip-cert-verify: true
   tls: true
@@ -69,3 +69,31 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇵JP_1|5.0MB/s
+  network: ws
+  port: 443
+  server: 172.64.229.160
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /edu
+- name: 35|🇯🇵JP_2|3.2MB/s
+  password: rPJuaFd6KSODJoXz
+  port: 8888
+  server: 45.192.242.201
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: u7596550055

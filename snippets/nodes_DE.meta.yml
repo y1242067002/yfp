@@ -171,14 +171,6 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '28|[ 🇩🇪 ] | @Cfox_SerVer #1'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -215,21 +207,34 @@ proxies:
   type: vless
   udp: true
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_11
+  name: 29|🇩🇪_德国_18
   port: 443
   reality-opts:
-    public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
-    short-id: 3d475d331e49eee8
-  server: de1-web.mysoyka.online
-  servername: de1-web.mysoyka.online
+    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+  server: 2.59.134.226
+  servername: rich-falcon.cdn.cachefleet.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
-- name: 29|🇩🇪_德国_18
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+- name: 29|🇩🇪_德国_92
+  network: ws
+  port: 2096
+  server: 64.226.95.244
+  servername: cf3.schzyc.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: cf3.schzyc.cc.cd
+    path: /
+- name: 29|🇩🇪_德国_121
   password: humanity
   port: 443
   server: 88.198.82.150
@@ -239,3 +244,55 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
+- name: 35|DE_1|1.9MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_2|1.2MB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇪DE_3|4.3MB/s
+  password: VuR-wK82ssFWKyLbZAVtv6vAPY3Uh1Zt
+  port: 1080
+  server: config-germany.zelnora.ir
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇩🇪DE_4|4.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc
+    short-id: f373df45a687eaff
+  server: jsv-de1.jmovies.ir
+  servername: numpy.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c26fe2f0-5c69-000B-8a1a-bf116ceb9215
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇩🇪DE_5|1.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc
+    short-id: f373df45a687eaff
+  server: jsv-ir2.jmovies.ir
+  servername: aparat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c26fe2f0-5c69-000B-8a1a-bf116ceb9215
+  xudp: true
