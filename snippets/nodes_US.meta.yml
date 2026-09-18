@@ -740,14 +740,13 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 27|US
+- name: 28|🇺🇸US-@VPNine1
   obfs: salamander
-  obfs-password: 7a5537b116d923fe572f85f1db7fe501
-  password: cbb5cf13f04b22883390f1a073753123
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: d4a705d40356ef719212045528e04594
   port: 443
-  server: 147.224.12.19
+  server: 45.149.172.80
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -1086,85 +1085,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 35|US_1|1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
-  udp: true
-- name: 35|🇺🇸US_2|1.4MB/s
-  network: tcp
-  password: sg-trojan-2026
-  port: 443
-  server: 43.173.90.202
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  type: trojan
-  udp: true
-- name: 35,37|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_4|1.3MB/s
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_5|1.1MB/s
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_6|3.2MB/s
-  password: 'null'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_7|2.0MB/s
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_8|1.1MB/s
-  password: 'null'
-  port: 443
-  server: mmgr.club
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_9|1.2MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|1.0MB/s
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1208,6 +1128,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
