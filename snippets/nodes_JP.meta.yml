@@ -35,20 +35,109 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|免费VPN：https://tt.vg/FJOE2Mm
+- client-fingerprint: chrome
+  name: 29|日期：09-19
   port: 443
   reality-opts:
-    public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
-    short-id: 9c2378562188c3cb
-  server: 194.93.63.246
-  servername: pl.bubahero.com
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+    short-id: 64b3f192fc0669e1
+  server: 34.92.19.135
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_46
+  port: 443
+  reality-opts:
+    public-key: Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE
+    short-id: 8380ad05cd21a69f
+  server: 136.110.116.68
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_55
+  port: 443
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: 780152c21e234b5a
+  server: 34.84.179.36
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+- name: 29|🇯🇵_日本_63
+  port: 443
+  server: 137.220.221.179
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_366
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /episode/files?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_389
+  network: ws
+  port: 443
+  server: 108.160.136.71
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /doc/products/view?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_444
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: 168.138.43.75
+    path: /cctv13.m3u8
+- name: 29|🇯🇵_日本_445
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
+  ws-opts:
+    path: /vless/
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -70,13 +159,46 @@ proxies:
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
+  name: 35|JP_1|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.32.248.233
+  servername: mia12.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  ws-opts:
+    headers:
+      Host: mia12.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /TG:@MiaChatChannel
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_2|1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ycun6HN1qxz3fcfn15Bhut7loBGfohZ0wzTIkHKagyg
+    short-id: 89fdcf10a3cbd0b1
+  server: 8.211.152.47
+  servername: www.logitech.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87646ddd-a8b0-4fea-a65c-ad86b0501c54
+- client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 35|🇵JP_1|4.3MB/s
+  name: 35|🇯🇵JP_3|4.0MB/s
   network: ws
-  port: 8443
-  server: 206.251.53.91
+  port: 443
+  server: 104.156.238.23
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -88,20 +210,19 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /settings
+    path: /bt/image/categories
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇵JP_2|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
+  encryption: none
+  name: 35|🇵JP_4|1.2MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
-    short-id: 973bd4f3d8d217fd
-  server: 8.209.248.218
-  servername: www.amazon.com
+  server: 45.77.129.201
+  servername: mia3.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
-  xudp: true
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  ws-opts:
+    headers:
+      Host: mia3.pages.dev
+    path: /TG:@MiaChatChannel
