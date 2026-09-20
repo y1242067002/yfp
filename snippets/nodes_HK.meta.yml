@@ -78,22 +78,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|HK_1|4.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wjVcW5OqGoFbeqwEPiQHjf-uQTwRMBsOKlRnl5JmSzA
-    short-id: 1e5dd4542585
-  server: agroup.hk2.ilovegairport.com
-  servername: ap-east-1.console.aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: df2a259e-32cc-4b4d-bcca-3f8d8a28dc2a
 - cipher: chacha20-ietf
-  name: 35|🇭🇰HK_2|4.0MB/s
+  name: 35|HK_1|4.2MB/s
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+  password: di15PV
+  port: 26774
+  protocol: auth_aes128_md5
+  protocol-param: 313723:dCwrni
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_2|4.2MB/s
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+  password: di15PV
+  port: 7007
+  protocol: auth_aes128_md5
+  protocol-param: 313723:dCwrni
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇰HK_3|4.1MB/s
   obfs: plain
   obfs-param: 33f313723.douyin.com
   password: di15PV
@@ -103,7 +111,7 @@ proxies:
   server: api.meituan88.com
   type: ssr
   udp: true
-- name: 35|🇭🇰HK_3|3.2MB/s
+- name: 35|🇰HK_4|1.9MB/s
   password: dCwrni
   port: 7008
   server: api.meituan88.com
@@ -111,3 +119,27 @@ proxies:
   sni: globalnetworktraffic.com
   type: anytls
   udp: true
+- cipher: chacha20-ietf
+  name: 35|🇭🇰HK_5|4.2MB/s
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+  password: di15PV
+  port: 7001
+  protocol: auth_aes128_md5
+  protocol-param: 313723:dCwrni
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇰HK_6|2.1MB/s
+  network: tcp
+  port: 54030
+  reality-opts:
+    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
+  server: 103.143.81.60
+  servername: www.ebay.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 322c0364-b447-45c2-a27c-250376170dc0

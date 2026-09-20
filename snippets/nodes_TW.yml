@@ -42,7 +42,18 @@ proxies:
   udp: true
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
 - cipher: chacha20-ietf
-  name: 35|🇼TW_2|4.3MB/s
+  name: 35|TW_1|1.8MB/s
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+  password: di15PV
+  port: 7015
+  protocol: auth_aes128_md5
+  protocol-param: 313723:dCwrni
+  server: api.meituan88.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 35|🇹🇼TW_2|4.0MB/s
   obfs: tls1.2_ticket_auth
   obfs-param: 33f313723.douyin.com
   password: di15PV
@@ -53,13 +64,31 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇹🇼TW_3|1.4MB/s
+  name: 35|🇹🇼TW_3|3.5MB/s
   obfs: plain
   obfs-param: 33f313723.douyin.com
   password: di15PV
-  port: 7015
+  port: 7018
   protocol: auth_aes128_md5
   protocol-param: 313723:dCwrni
   server: api.meituan88.com
   type: ssr
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 35|🇹🇼TW_4|1.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  servername: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
+    path: /
+  xudp: true
