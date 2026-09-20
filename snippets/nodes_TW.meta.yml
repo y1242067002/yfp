@@ -41,19 +41,33 @@ proxies:
   type: vmess
   udp: true
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|TW_1|2.8MB/s
+  network: tcp
+  port: 30000
+  reality-opts:
+    public-key: Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc
+    short-id: a8
+  server: aws-jp.webprovider.top
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3180f311-16fb-445c-b129-4d946940c21a
 - cipher: chacha20-ietf
-  name: 35|TW_1|1.5MB/s
-  obfs: plain
+  name: 35|🇼TW_2|4.3MB/s
+  obfs: tls1.2_ticket_auth
   obfs-param: 33f313723.douyin.com
   password: di15PV
-  port: 7018
+  port: 61714
   protocol: auth_aes128_md5
   protocol-param: 313723:dCwrni
   server: api.meituan88.com
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 35|🇹🇼TW_2|1.5MB/s
+  name: 35|🇹🇼TW_3|1.4MB/s
   obfs: plain
   obfs-param: 33f313723.douyin.com
   password: di15PV
