@@ -35,55 +35,37 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|日期：09-19
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 29|日期：09-20
   port: 443
   reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: 64b3f192fc0669e1
-  server: 34.92.19.135
-  servername: www.cloudflare.com
+    public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
+    short-id: 266337e69bb1f189
+  server: core-data.gorekmas.online
+  servername: core-data.gorekmas.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_46
+  name: 29|🇯🇵_日本_27
+  network: ws
   port: 443
-  reality-opts:
-    public-key: Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE
-    short-id: 8380ad05cd21a69f
-  server: 136.110.116.68
-  servername: www.cloudflare.com
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /mall/china/doc?ed=2560
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_55
-  port: 443
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-    short-id: 780152c21e234b5a
-  server: 34.84.179.36
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
-- name: 29|🇯🇵_日本_63
-  port: 443
-  server: 137.220.221.179
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_366
+  name: 29|🇯🇵_日本_337
   network: ws
   port: 443
   server: 103.115.18.54
@@ -97,47 +79,6 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /episode/files?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_389
-  network: ws
-  port: 443
-  server: 108.160.136.71
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /doc/products/view?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本_444
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: 168.138.43.75
-    path: /cctv13.m3u8
-- name: 29|🇯🇵_日本_445
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  ws-opts:
-    path: /vless/
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -158,3 +99,23 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|JP_1|5.0MB/s
+  network: ws
+  port: 443
+  server: 172.64.229.31
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /events/code/zh-cn

@@ -151,9 +151,29 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 28|[ 🇩🇪 ] | @Cfox_SerVer
+  obfs: salamander
+  obfs-password: ue1s9nuqmy5fd9j5
+  password: hdgvcjrpa23fi9bk
+  port: 53033
+  server: mirage.ehsanazizi-speed-server.com
+  skip-cert-verify: false
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: '28|[ 🇩🇪 ] | @Cfox_SerVer #1'
+  obfs: salamander
+  obfs-password: ue1s9nuqmy5fd9j5
+  password: hdgvcjrpa23fi9bk
+  port: 53033
+  server: mirage.ehsanazizi-speed-server.com
+  skip-cert-verify: false
+  sni: mirage.ehsanazizi-speed-server.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_16
+  name: 29|🇩🇪_德国_12
   port: 443
   reality-opts:
     public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
@@ -167,7 +187,7 @@ proxies:
   uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_17
+  name: 29|🇩🇪_德国_13
   port: 443
   reality-opts:
     public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
@@ -179,98 +199,20 @@ proxies:
   type: vless
   udp: true
   uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-- client-fingerprint: chrome
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_25
   port: 443
   reality-opts:
-    public-key: -XH2d9x4wRi--KvR6XTcZW9HXbikI2_262zfYDr1uFw
-    short-id: 690ec9207866c84e
-  server: 34.159.123.6
-  servername: www.cloudflare.com
+    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
+  server: 2.59.134.226
+  servername: rich-falcon.cdn.cachefleet.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3255d065-119c-4103-a422-ea9d301b0707
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_50
-  port: 443
-  reality-opts:
-    public-key: XRYeVrK7q9baNj66NmBBIX_sllPJtxOBTjrxTaQMQ2U
-    short-id: 7394ea3cc2106697
-  server: 34.159.242.163
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 753fa5ef-0b08-4fd3-b688-173ff594b758
-- name: 29|🇩🇪_德国_78
-  port: 80
-  server: apps.navard.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8d23e60-d5aa-4556-b513-875e1e85d924
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_79
-  port: 443
-  server: 57.129.96.67
-  servername: nasnet-571299667-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 29|🇩🇪_德国_80
-  port: 80
-  server: music.navard.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8d23e60-d5aa-4556-b513-875e1e85d924
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_81
-  port: 443
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-  server: 144.31.168.59
-  servername: aotocon.ggisopi.su
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_85
-  port: 443
-  server: nasnet-571299667-direct.mbghalibaf.com
-  servername: nasnet-571299667-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 29|🇩🇪_德国_140
-  network: ws
-  port: 2096
-  server: 64.226.95.244
-  servername: cf3.schzyc.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /
-- name: 29|🇩🇪_德国_148
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+- name: 29|🇩🇪_德国_307
   password: humanity
   port: 443
   server: 88.198.82.150
@@ -280,205 +222,146 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇩🇪_德国_495
-  password: humanity
-  port: 443
-  server: 185.255.179.166
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|DE_1|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 2.26.125.38
+  servername: st3f6d.rumedia-cdn.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: qq
-  name: 29|🇩🇪_德国_497
+      Host: st3f6d.rumedia-cdn.com
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /cdn/v3/live
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇩🇪DE_2|4.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9830
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 176.108.246.110
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇪DE_3|3.9MB/s
   network: ws
-  port: 443
-  server: rubifen.adaspoloandco.com
-  servername: rubifen.adaspoloandco.com
+  port: 8443
+  server: 45.131.71.183
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
-    path: /GOrbEh
-- name: 29|🇩🇪_德国_510
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /player
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇩🇪DE_4|2.8MB/s
   network: ws
-  port: 80
-  server: ov-germany1.09vpn.com
-  servername: OV-Germany1.09vpn.com
+  port: 443
+  server: 130.17.27.204
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
-    path: /vless/
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_527
-  network: ws
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /player/shop
+- name: 35|🇪DE_5|1.3MB/s
   port: 443
-  server: 194.164.192.16
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: http
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_528
-  network: ws
+- name: 35|🇪DE_6|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_7|2.1MB/s
   port: 443
-  server: 108.165.236.142
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: http
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_531
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇩🇪DE_8|1.1MB/s
   network: ws
   port: 443
-  server: 94.159.105.148
+  server: 144.31.200.207
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_535
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /code/directory/ads
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇪DE_9|3.5MB/s
   network: ws
   port: 443
-  server: 111.88.74.167
+  server: 162.159.153.156
+  servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_546
-  network: ws
-  port: 443
-  server: 13.140.28.46
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /bd/thread/clips
+- name: 35|🇪DE_10|3.3MB/s
+  port: 1080
+  server: 135.125.232.151
+  skip-cert-verify: false
+  type: socks5
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_547
-  network: ws
-  port: 443
-  server: 89.127.218.61
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_550
-  network: ws
-  port: 443
-  server: 194.87.71.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_556
-  network: ws
-  port: 443
-  server: 94.159.110.41
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_563
-  network: ws
-  port: 443
-  server: 82.139.242.5
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_564
-  network: ws
-  port: 443
-  server: 85.215.41.19
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国_566
-  network: ws
-  port: 443
-  server: 64.188.106.254
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
