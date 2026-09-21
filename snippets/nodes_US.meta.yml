@@ -1046,7 +1046,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29|🇦🇲_亚美尼亚_243
+  name: 29,35|🇲AM_1|2.9MB/s
   network: ws
   port: 443
   server: 2.56.204.183
@@ -1095,74 +1095,164 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 35|US_1|1.7MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 35|🇸US_1|3.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 9873
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  server: 176.109.104.195
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  xudp: true
+- fingerprint: ''
+  name: 35|🇺🇸US_2|2.8MB/s
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
   skip-cert-verify: true
-  sni: anytls2.864106.xyz
+  sni: images.ctfassets.net
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇸US_2|1.1MB/s
-  network: ws
+  username: 9sK2mP8xQ7vL3nZ6
+- name: 35|🇸US_3|2.9MB/s
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35,37|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35,37|US_speednode_0134
   port: 443
-  server: 104.16.152.241
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /user/china
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇺🇸US_3|1.1MB/s
-  network: ws
-  port: 2053
-  server: 172.64.79.63
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /v/activity
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇺🇸US_4|1.3MB/s
-  network: ws
+- name: 35|🇺🇸US_6|4.0MB/s
   port: 443
-  server: 104.17.54.119
-  servername: cdn8848.776676.xyz
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_7|1018KB/s
+  password: ''
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇸US_8|3.8MB/s
+  password: 'null'
+  port: 443
+  server: fullmanfirm.icu
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇸US_9|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇸US_10|3.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_11|2.7MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_12|4.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_13|1.7MB/s
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_14|2.7MB/s
+  password: ''
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_15|1.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 172.67.130.159
+  servername: cdn-us.skyvora.app
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /album
+      Host: cdn-us.skyvora.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /0i027asku
+  xudp: true
+- name: 35|🇸US_16|3.4MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
@@ -1178,15 +1268,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 37|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0132
@@ -1206,12 +1287,6 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 37|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
