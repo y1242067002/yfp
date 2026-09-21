@@ -35,20 +35,34 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|日期：09-20
-  port: 443
+  name: 29|日期：09-21
+  port: 24681
   reality-opts:
-    public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
-    short-id: 266337e69bb1f189
-  server: core-data.gorekmas.online
-  servername: core-data.gorekmas.online
+    public-key: t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4
+  server: 38.207.177.203
+  servername: aws.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+  uuid: 5d2a0ea5-9563-4778-aed4-c97ec0e5f2a8
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_26
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /episode/files?ed=2560
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_27
   network: ws
@@ -65,20 +79,140 @@ proxies:
       Host: cdn8848.776676.xyz
     path: /mall/china/doc?ed=2560
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_337
+  name: 29|🇯🇵_日本_144
   network: ws
   port: 443
-  server: 103.115.18.54
-  servername: cdn8848.776676.xyz
+  server: 92.113.124.228
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   ws-opts:
     headers:
-      Host: cdn8848.776676.xyz
-    path: /episode/files?ed=2560
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_147
+  network: ws
+  port: 443
+  server: 132.226.5.163
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_148
+  network: ws
+  port: 8443
+  server: 102.134.49.108
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_152
+  network: ws
+  port: 443
+  server: 154.19.187.190
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29,35|🇵JP_2|2.7MB/s
+  network: ws
+  port: 443
+  server: 35.72.179.15
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29,35|🇯🇵JP_3|1.4MB/s
+  network: ws
+  port: 443
+  server: 161.33.29.51
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_160
+  network: ws
+  port: 443
+  server: 101.142.129.72
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_165
+  network: ws
+  port: 2053
+  server: 103.31.77.108
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_198
+  network: ws
+  port: 443
+  server: 45.202.254.133
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -99,56 +233,39 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 35|JP_1|4.7MB/s
-  network: ws
-  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  port: 443
-  server: jp3.998998.best
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 35|JP_1|2.5MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
   skip-cert-verify: true
-  sni: nat11.outsidemyheart.space
-  type: trojan
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      Host: nat11.outsidemyheart.space
-    path: /w4e5yh0p945y3
+- cipher: chacha20-ietf
+  name: 35|🇵JP_4|3.8MB/s
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+  password: di15PV
+  port: 7012
+  protocol: auth_aes128_md5
+  protocol-param: 313723:dCwrni
+  server: api.meituan88.com
+  type: ssr
+  udp: true
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇯🇵JP_2|5.0MB/s
-  network: ws
-  port: 443
-  server: 103.85.24.232
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_5|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 19001
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+    short-id: ''
+  server: jpga01.jumperservice.com
+  servername: www.speedtest.org
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /home
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇯🇵JP_3|4.5MB/s
-  network: ws
-  port: 57554
-  server: 203.137.165.164
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /p/docs/soft
+  uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
+  xudp: true

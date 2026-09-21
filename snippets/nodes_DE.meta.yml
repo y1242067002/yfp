@@ -151,48 +151,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_12
-  port: 443
-  reality-opts:
-    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
-    short-id: d4f6a8c1b2e3f9aa
-  server: api-4pda-k9x4m.xubi.org
-  servername: 4pda.to
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_13
-  port: 443
-  reality-opts:
-    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
-    short-id: d4f6a8c1b2e3f9aa
-  server: 2.26.51.75
-  servername: 4pda.to
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_25
-  port: 443
-  reality-opts:
-    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
-  server: 2.59.134.226
-  servername: rich-falcon.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
-- name: 29|🇩🇪_德国_307
+- name: 29|🇩🇪_德国_179
   password: humanity
   port: 443
   server: 88.198.82.150
@@ -202,30 +161,163 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 35|DE_1|4.0MB/s
-  network: xhttp
-  port: 2087
-  server: dee338dd.localip.ir
-  servername: denet1.17e1feeuzi.online
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_56
+  network: ws
+  port: 2096
+  server: 64.226.95.244
+  servername: cf3.schzyc.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: cf3.schzyc.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_173
+  network: ws
+  port: 443
+  server: 103.228.168.182
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_217
+  network: ws
+  port: 443
+  server: 144.31.217.95
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_234
+  network: ws
+  port: 443
+  server: 109.176.202.20
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_1|1.5MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.1.1
+  servername: usage.turbocenter.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed9baa1c-85cf-4a9e-8188-b2aa49c7fc39
   xhttp-opts:
-    host: denet1.17e1feeuzi.online
-    mode: stream-one
-    path: /meti
+    host: usage.turbocenter.shop
+    mode: auto
+    path: /hd7384hr
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '0'
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_2|1.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: 45.95.96.236
+  servername: gesmankos.sadiepinki.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_3|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: f7d0420b8ab26060
+  server: 31.77.220.190
+  servername: de3.global-cdn.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad181c5d-2998-408a-8706-003969e557a7
+  xudp: true
+- name: 35|🇩🇪DE_4|1.5MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_5|1.2MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_6|3.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: gesmankos.sadiepinki.com
+  servername: gesmankos.sadiepinki.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 35|🇪DE_2|4.1MB/s
+  name: 35|🇪DE_7|3.3MB/s
   network: ws
-  port: 2053
-  server: 5.104.107.80
+  port: 443
+  server: 161.35.18.70
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -237,51 +329,53 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     max-early-data: 2560
-    path: /act/clip/directory
-- client-fingerprint: firefox
+    path: /about
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪DE_3|3.4MB/s
+  name: 35|🇩🇪DE_8|3.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 42892
+  reality-opts:
+    public-key: GLKvvfUmBk3Y4fxmRCgvSaR73H2lE1eBGm2EwWPxtDY
+    short-id: a51c
+  server: 82.139.234.155
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53627d61-30b2-4333-9901-94cd457cbeaa
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_9|1023KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 7lzLmqQhcyU3lor7C3pW8cFDTQvufLgJ1SrGWC2JFCY
+    short-id: 451a555f948ef46c
+  server: 2.27.46.58
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cbc0c1f-9aa1-4a4c-a052-45ccc855df10
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇩🇪DE_10|1.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  server: 31.77.161.15
-  servername: nvidia.com
+    public-key: iSo20v7O_zNHG6EmG4jGxfUkdqARzC8nFlB-JR4q4BA
+    short-id: 1a0ec8752eeaf912
+  server: 72.56.105.228
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 4af298c3-5c2d-4cf1-af68-5261e482c4e7
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇪DE_4|3.4MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.8
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  type: hysteria2
-  udp: true
-  up: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 35|🇩🇪DE_5|2.3MB/s
-  network: ws
-  password: Km/pIG4AGCjCOiGWj5FsWA==
-  port: 25040
-  server: node8.quaxly.com
-  skip-cert-verify: true
-  sni: /gay-anal
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /node8.quaxly.com

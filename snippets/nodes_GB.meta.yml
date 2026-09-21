@@ -81,7 +81,78 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 35|GB_1|2.8MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_6
+  port: 11563
+  reality-opts:
+    public-key: WzLRxXsO23hehh3gwGkVYfGpAW_tV0QOpfza_Os5Cgg
+  server: 45.152.65.129
+  servername: aws.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d949020f-6ec6-455a-819b-7d7b32f9ff14
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_15
+  port: 27906
+  reality-opts:
+    public-key: zw-86s4VfPvHEbmPeIA_0U0rFYiNlkmR9ky2y23fvWk
+  server: 45.152.66.168
+  servername: dash.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1cbaa45-23ad-4113-8d9f-c66ec5ec3960
+- client-fingerprint: chrome
+  name: 29,35|🇧GB_3|1.3MB/s
+  network: ws
+  port: 443
+  server: 104.128.190.209
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_174
+  network: ws
+  port: 443
+  server: 104.194.140.26
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_216
+  network: ws
+  port: 8443
+  server: 46.250.250.48
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 35|GB_1|1.1MB/s
   password: None
   port: 443
   server: 37.120.233.50
@@ -89,41 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_2|2.9MB/s
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_3|3.0MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇧GB_4|3.2MB/s
-  network: ws
-  port: 443
-  server: 172.237.120.201
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /edu/group
-- name: 35|🇬🇧GB_5|3.0MB/s
+- name: 35|🇬🇧GB_2|1.2MB/s
   password: None
   port: 443
   server: 37.120.233.18
@@ -131,33 +168,51 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_6|2.9MB/s
+- name: 35|🇬🇧GB_4|1.2MB/s
   port: 443
-  server: 185.235.0.2
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_7|1.7MB/s
-  password: ''
+- name: 35|🇧GB_5|1.1MB/s
   port: 443
-  server: 212.102.63.61
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- name: 35|🇬🇧GB_8|2.9MB/s
+- name: 35|🇧GB_6|1.1MB/s
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_7|1.0MB/s
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_9|2.7MB/s
+- name: 35|🇬🇧GB_8|1.5MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_9|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 107.181.134.85
+  servername: roskaa6.api3-max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  xudp: true

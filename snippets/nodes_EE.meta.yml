@@ -1,21 +1,32 @@
 proxies:
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|EE_1|2.7MB/s
+  name: 29|🇪🇪_爱沙尼亚_220
   network: ws
-  port: 8443
-  server: 5.101.115.117
-  servername: cdn8848.776676.xyz
+  port: 443
+  server: 109.206.241.16
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /magnet/thread
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 35|EE_1|1.1MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 9443
+  server: 31.76.226.100
+  servername: hub-ee-01.hanvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  xhttp-opts:
+    host: hub-ee-01.hanvpn.cc
+    mode: auto
+    path: /ee01-xhttp-8e47a/
+  xudp: true
