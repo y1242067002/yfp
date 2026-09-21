@@ -139,7 +139,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29,35|🇵JP_2|2.7MB/s
+  name: 29|🇯🇵_日本_155
   network: ws
   port: 443
   server: 35.72.179.15
@@ -154,7 +154,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29,35|🇯🇵JP_3|1.4MB/s
+  name: 29|🇯🇵_日本_159
   network: ws
   port: 443
   server: 161.33.29.51
@@ -233,29 +233,26 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  name: 35|JP_1|2.5MB/s
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf
-  name: 35|🇵JP_4|3.8MB/s
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-  password: di15PV
-  port: 7012
-  protocol: auth_aes128_md5
-  protocol-param: 313723:dCwrni
-  server: api.meituan88.com
-  type: ssr
-  udp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇵JP_5|2.6MB/s
+  name: 35|JP_1|1.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 19011
+  reality-opts:
+    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
+    short-id: 0e7472e0ef2dc0a2
+  server: xxxnodeakjp1.jumpernode.online
+  servername: www.sony.co.nz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05453546-201f-4e8d-97ae-fd70da0e951f
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_2|2.6MB/s
   network: tcp
   packet-encoding: xudp
   port: 19001
@@ -267,5 +264,5 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
+  uuid: 61646a3c-e3e6-494b-8ae0-a98370ccff69
   xudp: true

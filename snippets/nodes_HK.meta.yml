@@ -229,31 +229,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|🇭HK_1|3.9MB/s
-  network: ws
-  port: 443
-  server: 68.64.178.52
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /downloads/posts/programs
-- name: 35|🇰HK_2|4.1MB/s
-  password: dCwrni
-  port: 7008
-  server: api.meituan88.com
-  skip-cert-verify: true
-  sni: globalnetworktraffic.com
-  type: anytls
-  udp: true
