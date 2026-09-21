@@ -234,35 +234,42 @@ proxies:
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|JP_1|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 19011
-  reality-opts:
-    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
-    short-id: 0e7472e0ef2dc0a2
-  server: xxxnodeakjp1.jumpernode.online
-  servername: www.sony.co.nz
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|JP_1|1.0MB/s
+  network: ws
+  port: 443
+  server: 45.77.180.114
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 05453546-201f-4e8d-97ae-fd70da0e951f
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇯🇵JP_2|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 19001
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-    short-id: ''
-  server: jpga01.jumperservice.com
-  servername: www.speedtest.org
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /intro/mall
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 35|🇯🇵JP_2|1.4MB/s
+  network: ws
+  port: 443
+  server: 104.156.238.23
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 61646a3c-e3e6-494b-8ae0-a98370ccff69
-  xudp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn8848.776676.xyz
+    max-early-data: 2560
+    path: /bt/image/categories
