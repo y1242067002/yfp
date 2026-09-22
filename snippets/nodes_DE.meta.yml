@@ -341,3 +341,72 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|DE_1|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 103.63.30.73
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /proxyip=us.xiabibi.cf
+  xudp: true
+- name: 35|🇪DE_2|2.6MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_3|1.2MB/s
+  password: udp-relay=true
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+  username: None
+- name: 35|🇪DE_4|2.0MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_5|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 7444
+  server: 185.121.179.105
+  servername: de777.lavivas.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇩🇪DE_6|3.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 9443
+  server: 82.117.87.129
+  servername: hub-vie-01.hanvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  xhttp-opts:
+    host: hub-vie-01.hanvpn.cc
+    path: /vie01-xhttp-8e47a/
+  xudp: true
