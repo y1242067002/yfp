@@ -12,7 +12,34 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_154
+  name: 29|🇰🇷_韩国_13
+  port: 443
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+  server: 34.64.149.137
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_35
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17c62519-b693-4744-963a-018308c342ca
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_343
   network: ws
   port: 2083
   server: 123.111.169.70

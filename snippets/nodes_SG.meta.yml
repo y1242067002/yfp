@@ -17,22 +17,49 @@ proxies:
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_157
-  network: ws
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_20
   port: 443
-  server: 43.174.195.1
-  servername: kv.074167.xyz
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: 1dd8558159ecd0
+  server: sg4.miyazono-kaori.com
+  servername: www.changiairport.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: /
+  uuid: 17c62519-b693-4744-963a-018308c342ca
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_150
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_21
+  port: 443
+  reality-opts:
+    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
+    short-id: ddcd71ec09e5893a
+  server: sg3.miyazono-kaori.com
+  servername: www.changiairport.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17c62519-b693-4744-963a-018308c342ca
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_51
+  port: 443
+  reality-opts:
+    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+    short-id: 37c94ae25b69a93a
+  server: sg1.miyazono-kaori.com
+  servername: sg-hyp-api.hoyoverse.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17c62519-b693-4744-963a-018308c342ca
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_389
   network: ws
   port: 443
   server: 103.195.188.206
@@ -47,7 +74,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_153
+  name: 29|🇸🇬_新加坡_390
   network: ws
   port: 443
   server: 103.195.188.192
@@ -62,10 +89,10 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_162
+  name: 29|🇸🇬_新加坡_433
   network: ws
   port: 443
-  server: 103.170.217.60
+  server: 168.138.165.174
   servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
@@ -84,42 +111,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 35|SG_1|2.1MB/s
-  network: ws
-  port: 443
-  server: 139.180.220.7
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cdn8848.776676.xyz
-    max-early-data: 2560
-    path: /hot/stream
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬SG_2|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2096
-  server: 172.67.130.159
-  servername: cdn-sg.skyvora.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /78bc8
-  xudp: true
