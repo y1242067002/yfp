@@ -34,7 +34,44 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: 35|🇪SE_1|3.2MB/s
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_112
+  network: ws
+  port: 8443
+  server: 129.151.198.3
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_136
+  network: ws
+  port: 443
+  server: 185.21.11.91
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- cipher: aes-256-cfb
+  name: 35|SE_1|2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 16.170.221.224
+  type: ss
+  udp: true
+- name: 35|🇪SE_2|2.0MB/s
   password: None
   port: 443
   server: 79.142.77.63
@@ -42,7 +79,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇸🇪SE_2|3.2MB/s
+- name: 35|🇸🇪SE_3|1.7MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -50,9 +87,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_3|2.7MB/s
+- name: 35|🇪SE_4|2.5MB/s
+  password: None
   port: 443
   server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸🇪SE_5|2.3MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
