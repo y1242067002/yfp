@@ -151,6 +151,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '28|V2RayyNGvpn 🇩🇪 #1'
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: v2rayyngvpn
+  port: 443
+  server: 168.222.43.35
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_22
@@ -357,73 +367,17 @@ proxies:
     headers:
       Host: free.sahanwickramasinghe.me
     path: /
-- name: 35|DE_1|3.0MB/s
+- name: 35|🇪DE_1|1.2MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_2|2.1MB/s
+- name: 35|🇩🇪DE_2|1023KB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_3|1.9MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: ios
-  encryption: none
-  name: 35|🇪DE_4|3.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  reality-opts:
-    public-key: UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE
-    short-id: 9791feaccc1ca4d8
-  server: 144.31.166.205
-  servername: zoom.us
-  tls: true
-  type: vless
-  udp: true
-  uuid: 135852be-3cfc-4551-b6bf-641911655174
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_5|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: 5c6481cdd4
-  server: 64.118.158.56
-  servername: buckeye-retail-website.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_6|2.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: 5c6481cdd4
-  server: defrnode.jumpernode.online
-  servername: buckeye-retail-website.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  xudp: true
