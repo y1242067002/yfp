@@ -354,7 +354,7 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
     path: /
-- name: 29|🇩🇪_德国_362
+- name: 29,35|LK_1|1.1MB/s
   network: ws
   port: 80
   server: free.sahanwickramasinghe.me
@@ -367,3 +367,63 @@ proxies:
     headers:
       Host: free.sahanwickramasinghe.me
     path: /
+- name: 35|🇩🇪DE_2|1.1MB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  udp: true
+- name: 35|🇪DE_3|2.6MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_4|2.0MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: mlkem768x25519plus.native.0rtt.Px0rEez31FH9Ten81Og17JMaeLuA6l3iAW-Bfu2_Rh0
+  name: 35|🇪DE_5|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2082
+  server: down.chaqalli.com
+  type: vless
+  udp: true
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  ws-opts:
+    headers:
+      Host: down.chaqalli.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_6|4.1MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 57160
+  reality-opts:
+    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+    short-id: 77b5
+  server: 77.91.76.156
+  servername: funpay.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
+  xudp: true
+- name: 35|🇩🇪DE_7|3.3MB/s
+  password: V2RayyNGvpn
+  port: 8443
+  server: 168.222.43.35
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: S8WJyKys
