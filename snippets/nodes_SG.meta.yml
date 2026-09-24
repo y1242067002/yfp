@@ -17,22 +17,33 @@ proxies:
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_47
-  network: ws
+  name: 29|🇸🇬_新加坡_82
   port: 443
-  server: 168.138.165.174
-  servername: shuma.ccwu.cc
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+  server: 35.185.179.62
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_140
+  name: 29|🇸🇬_新加坡_83
+  port: 443
+  reality-opts:
+    public-key: GqyMciP_v8rJZKLJd-EgzQmWbi_Qx_c_n1f-nlPkaEA
+    short-id: b1fef7a9181ea31d
+  server: 34.87.113.18
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50cbda48-00ce-4688-8b3d-0177ab8f177c
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_99
   network: ws
   port: 443
   server: 43.174.195.1
@@ -54,12 +65,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 35|SG_1|2.3MB/s
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''

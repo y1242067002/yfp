@@ -151,6 +151,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 28|🇩🇪179880 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: telegram-ID-conf0088
+  password: TELEGRAM-ID-conf0088
+  port: 25287
+  server: api.ohbah.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: '28|V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -161,9 +170,50 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_5
+  port: 443
+  reality-opts:
+    public-key: OmkXD1dMbfqjeIWqknjlLL2n02LEZWEofWwMN5S-K0g
+    short-id: d0c1
+  server: 5.75.202.167
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7f23d5e-87c9-4686-bfc1-9b68a90b6304
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_34
+  port: 443
+  reality-opts:
+    public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
+    short-id: 12a3b7681806bc97
+  server: 144.31.215.48
+  servername: eu-central-de2.hanvpn.biz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_38
+  port: 2083
+  reality-opts:
+    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
+    short-id: af04ff8094115e93
+  server: 178.105.61.61
+  servername: 178.105.61.61
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_22
+  name: 29|🇩🇪_德国_94
   port: 443
   reality-opts:
     public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
@@ -175,22 +225,7 @@ proxies:
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_37
-  network: ws
-  port: 443
-  server: 109.120.138.192
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_96
+  name: 29|🇩🇪_德国_135
   network: ws
   port: 2096
   server: 167.172.183.195
@@ -203,227 +238,121 @@ proxies:
   ws-opts:
     headers:
       Host: edge.yzkvm.top
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_103
-  network: ws
-  port: 443
-  server: 185.58.159.26
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_104
+  name: 29|🇩🇪_德国_346
   network: ws
-  port: 443
-  server: 38.180.165.83
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_105
-  network: ws
-  port: 443
-  server: 38.180.166.150
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_107
-  network: ws
-  port: 443
-  server: 167.233.120.184
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_111
-  network: ws
-  port: 443
-  server: 82.118.19.20
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_116
-  network: ws
-  port: 443
-  server: 192.248.189.94
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_118
-  network: ws
-  port: 443
-  server: 94.249.186.65
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_127
-  network: ws
-  port: 443
-  server: 166.88.225.128
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_132
-  network: ws
-  port: 443
-  server: 159.223.20.232
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_137
-  network: ws
-  port: 8443
-  server: 166.88.225.128
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- name: 29,35|LK_1|1.1MB/s
-  network: ws
-  port: 80
-  server: free.sahanwickramasinghe.me
+  port: 8880
+  server: 45.80.111.45
+  servername: 45.80.111.45
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
   ws-opts:
     headers:
-      Host: free.sahanwickramasinghe.me
-    path: /
-- name: 35|🇩🇪DE_2|1.1MB/s
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  udp: true
-- name: 35|🇪DE_3|2.6MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_4|2.0MB/s
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.Px0rEez31FH9Ten81Og17JMaeLuA6l3iAW-Bfu2_Rh0
-  name: 35|🇪DE_5|2.4MB/s
+      Host: cnd.singapure.mygold.stream
+    path: /cdn/assets/stream
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_369
   network: ws
-  packet-encoding: xudp
-  port: 2082
-  server: down.chaqalli.com
-  type: vless
+  port: 443
+  server: 13.140.28.46
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
-  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
-      Host: down.chaqalli.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_6|4.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 57160
-  reality-opts:
-    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
-    short-id: 77b5
-  server: 77.91.76.156
-  servername: funpay.com
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_399
+  network: ws
+  port: 443
+  server: 85.215.41.19
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_401
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_405
+  network: ws
+  port: 443
+  server: 89.127.218.61
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国_406
+  network: ws
+  port: 443
+  server: 31.77.223.21
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: 29|🇩🇪_德国_412
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_421
+  network: ws
+  port: 443
+  server: 150.241.68.208
+  servername: cf13.rumedia-cdn.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
-  xudp: true
-- name: 35|🇩🇪DE_7|3.3MB/s
-  password: V2RayyNGvpn
-  port: 8443
-  server: 168.222.43.35
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: S8WJyKys
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  ws-opts:
+    headers:
+      Host: cf13.rumedia-cdn.com
+    path: /cdn/v3/live

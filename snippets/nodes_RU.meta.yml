@@ -48,10 +48,41 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 29|🇷🇺_俄罗斯_365
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_28
+  port: 443
+  reality-opts:
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: 1067b23f928e7618
+  server: 200.165.229.159
+  servername: flarora.ferreo.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_334
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    headers:
+      Host: media-se.compressor.work
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_343
   network: ws
   port: 443
   server: tr3.wba-pn.ru
+  servername: tr3.wba-pn.ru
   skip-cert-verify: true
   tls: true
   type: vless
@@ -59,10 +90,99 @@ proxies:
   uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 35|RU_1|2.0MB/s
-  password: 81a20429165df87e
-  port: 10081
-  server: 195.133.23.200
-  type: ss
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_339
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    path: /ws
+- name: 29|🇷🇺_俄罗斯_355
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_356
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- name: 29|🇷🇺_俄罗斯_378
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
+- name: 29|🇷🇺_俄罗斯_382
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯_400
+  network: ws
+  port: 443
+  server: 5.188.26.85
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯_403
+  network: ws
+  port: 443
+  server: 80.240.252.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket

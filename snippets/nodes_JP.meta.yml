@@ -25,32 +25,62 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: '27|日本 #1'
-  obfs: salamander
-  obfs-password: d0dd99b2b4da604123ce17b6d17072a2
-  password: 07a4fcf5553a80cf300374d325386038
-  port: 443
-  server: 141.147.151.58
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|日期：09-23
+  name: 29|日期：09-24
   port: 443
   reality-opts:
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-  server: 31.76.113.212
-  servername: italia.superbuba.top
+    public-key: uAoKx_ePWGe_jowwFZt7x3oZSNU3VJl9dIQmeYG22FM
+    short-id: 9a4d61e8c2f735b0
+  server: 217.60.23.218
+  servername: www.bing.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  uuid: 0f11b72f-1af1-4f0a-b992-87a8241d9213
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_23
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_77
+  port: 443
+  reality-opts:
+    public-key: V94ws5oTIja_a6Hui3rSjomr7hZ-QCtYlsT7BWmxTzk
+    short-id: 973bd4f3d8d217fd
+  server: 8.209.248.218
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: caab26f1-c2e0-438d-8342-5d2125fb45df
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_84
+  port: 443
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: 780152c21e234b5a
+  server: 34.84.179.36
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_85
+  port: 443
+  reality-opts:
+    public-key: Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE
+    short-id: 8380ad05cd21a69f
+  server: 136.110.116.68
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_96
   network: ws
   port: 443
   server: 103.115.18.54
@@ -65,7 +95,7 @@ proxies:
       Host: cdn8848.776676.xyz
     path: /episode/files?ed=2560
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_24
+  name: 29|🇯🇵_日本_97
   network: ws
   port: 443
   server: 103.115.18.54
@@ -79,81 +109,6 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /mall/china/doc?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_30
-  network: ws
-  port: 443
-  server: 45.202.254.133
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_35
-  network: ws
-  port: 8443
-  server: 45.76.100.75
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_46
-  network: ws
-  port: 443
-  server: 64.176.34.130
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_51
-  network: ws
-  port: 443
-  server: 140.83.87.85
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_98
-  network: ws
-  port: 2053
-  server: 103.31.77.108
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
 - name: 33,34|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -174,21 +129,3 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- auth: my_super_password_123
-  name: 35|🇵JP_1|5.4MB/s
-  password: my_super_password_123
-  port: 443
-  server: open.w2m.ink
-  skip-cert-verify: true
-  sni: open.w2m.ink
-  type: hysteria2
-  udp: true
-- auth: my_super_password_123
-  name: 35|🇯🇵JP_2|5.3MB/s
-  password: my_super_password_123
-  port: 5443
-  server: open.w2m.ink
-  skip-cert-verify: true
-  sni: open.w2m.ink
-  type: hysteria2
-  udp: true
