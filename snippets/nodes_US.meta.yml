@@ -1142,6 +1142,54 @@ proxies:
   port: 36608
   server: gd.bjnet2.com
   type: ss
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇸US_1|4.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NB_j6YyAs0xI5881v6cfx2jGUKb065ErIrHdOf8ZhVU
+    short-id: 1ac9bcc4e8fd
+  server: 154.9.241.28
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
+- name: 35|🇸US_2|1.5MB/s
+  password: af24a0e4-f5a2-4b97-a678-992d45346147
+  port: 18634
+  server: 108.186.180.148
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- fingerprint: ''
+  name: 35|🇺🇸US_3|4.0MB/s
+  password: 1095c731-affa-4f85-a9c8-61e495e56aca
+  port: 51043
+  server: 03-e0.37662006-19e6-4858-ace1-df9d1a149332.abccba.top
+  skip-cert-verify: false
+  sni: dl.hu-yunpan.top
+  type: anytls
+  udp: true
+  username: 1095c731-affa-4f85-a9c8-61e495e56aca
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_4|3.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: 051f20c2344a2dfd
+  server: c10s3.portablesubmarines.com
+  servername: portal.citygrainla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88882ac2-0f7c-4907-9605-b847f79ec9d3
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
