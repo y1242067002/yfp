@@ -36,7 +36,7 @@ proxies:
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_17
+  name: 29|🇸🇪_瑞典_9
   port: 443
   reality-opts:
     public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
@@ -49,7 +49,20 @@ proxies:
   udp: true
   uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
 - client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_359
+  name: 29|🇸🇪_瑞典_86
+  port: 443
+  reality-opts:
+    public-key: SOvacyM6CABhBHYdOHvhXbkNLHJBHuAkoJj2Z13xKlE
+    short-id: b4a6faed784ff461
+  server: 34.51.172.152
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 788950f8-dbd9-4234-a42c-a7204665ce9f
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_126
   network: ws
   port: 8443
   server: 167.104.104.138
@@ -61,17 +74,25 @@ proxies:
   uuid: a5194487-9b9a-462f-a047-ac7580d80201
   ws-opts:
     path: /
-- name: 35|🇪SE_1|2.2MB/s
+- name: 35|🇪SE_1|3.0MB/s
+  password: None
   port: 443
-  server: 146.70.242.146
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_2|2.9MB/s
+- name: 35|🇸🇪SE_2|1.3MB/s
   password: None
   port: 443
   server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_3|2.9MB/s
+  port: 443
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http

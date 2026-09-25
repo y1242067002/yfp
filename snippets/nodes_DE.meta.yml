@@ -151,22 +151,9 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_5
-  port: 443
-  reality-opts:
-    public-key: OmkXD1dMbfqjeIWqknjlLL2n02LEZWEofWwMN5S-K0g
-    short-id: d0c1
-  server: 5.75.202.167
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7f23d5e-87c9-4686-bfc1-9b68a90b6304
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_34
+  name: 29|🇩🇪_德国_26
   port: 443
   reality-opts:
     public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
@@ -180,7 +167,7 @@ proxies:
   uuid: d9d0f208-d582-41d5-bb7b-742671402810
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_38
+  name: 29|🇩🇪_德国_30
   port: 2083
   reality-opts:
     public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
@@ -192,36 +179,21 @@ proxies:
   type: vless
   udp: true
   uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_94
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_92
   port: 443
   reality-opts:
-    public-key: 1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY
-  server: 2.59.134.226
-  servername: rich-falcon.cdn.cachefleet.com
+    public-key: XRYeVrK7q9baNj66NmBBIX_sllPJtxOBTjrxTaQMQ2U
+    short-id: 7394ea3cc2106697
+  server: 34.159.242.163
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+  uuid: 753fa5ef-0b08-4fd3-b688-173ff594b758
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_135
-  network: ws
-  port: 2096
-  server: 167.172.183.195
-  servername: edge.yzkvm.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_346
+  name: 29|🇩🇪_德国_112
   network: ws
   port: 8880
   server: 45.80.111.45
@@ -237,7 +209,7 @@ proxies:
     path: /cdn/assets/stream
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国_369
+  name: 29|🇩🇪_德国_135
   network: ws
   port: 443
   server: 13.140.28.46
@@ -252,7 +224,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国_399
+  name: 29|🇩🇪_德国_163
   network: ws
   port: 443
   server: 85.215.41.19
@@ -267,7 +239,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国_401
+  name: 29|🇩🇪_德国_165
   network: ws
   port: 443
   server: 111.88.74.167
@@ -282,7 +254,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国_405
+  name: 29|🇩🇪_德国_169
   network: ws
   port: 443
   server: 89.127.218.61
@@ -297,7 +269,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国_406
+  name: 29|🇩🇪_德国_170
   network: ws
   port: 443
   server: 31.77.223.21
@@ -310,7 +282,7 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: 29|🇩🇪_德国_412
+- name: 29|🇩🇪_德国_176
   password: humanity
   port: 443
   server: 185.220.100.168
@@ -323,7 +295,7 @@ proxies:
       Host: www.calmlunch.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_421
+  name: 29|🇩🇪_德国_185
   network: ws
   port: 443
   server: 150.241.68.208
@@ -341,11 +313,11 @@ proxies:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇪DE_1|3.3MB/s
+  name: 35|DE_1|3.1MB/s
   network: ws
   packet-encoding: xudp
   port: 2053
-  server: cctvhikvision.center
+  server: freesocks.work
   servername: uwu.blueknightnet.qzz.io
   tls: true
   type: vless
@@ -354,28 +326,37 @@ proxies:
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|1.1MB/s
+- encryption: none
+  name: 35|🇪DE_2|2.2MB/s
   network: ws
   packet-encoding: xudp
-  port: 2053
+  port: 2052
   server: hikvision-plus.com
-  servername: uwu.blueknightnet.qzz.io
-  tls: true
   type: vless
   udp: true
   uuid: b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df
   ws-opts:
     headers:
       Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
   xudp: true
+- name: 35|🇩DE_3|1.9MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_4|2.5MB/s
+  port: 443
+  server: 141.17.83.73
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
