@@ -12,3 +12,28 @@ proxies:
   type: vless
   udp: true
   uuid: a18f08dc-76ae-453a-98f5-d41eab7e649b
+- name: 35|CH_1|1.7MB/s
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇭CH_2|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: jcA9IJbcnbrkU-4hIZII-58SP0Z6c0BsjfD0l5Ns9ys
+    short-id: 7bfbb024
+  server: 157.22.187.17
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c260fba0-9609-4190-b0ba-1538c08c0d22
+  xudp: true
