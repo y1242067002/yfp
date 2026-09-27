@@ -34,7 +34,7 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- name: 35|SE_1|3.7MB/s
+- name: 35|🇪SE_1|2.9MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -42,7 +42,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_2|2.2MB/s
+- name: 35|🇪SE_2|2.8MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -50,3 +50,26 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 35|🇪SE_3|1.1MB/s
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇸SE_4|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2083
+  reality-opts:
+    public-key: wJgBZNx487TIQivnqGuyDyyN6iKcFTy64khGSOFbeyo
+    short-id: 4d123bebfae16562
+  server: 130.49.190.43
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
+  xudp: true
