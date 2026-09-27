@@ -101,3 +101,49 @@ proxies:
   port: 36609
   server: gd.bjnet2.com
   type: ss
+- cipher: aes-256-cfb
+  name: 35|JP_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.37.17
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_2|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33561
+  reality-opts:
+    public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
+    short-id: 6b9e61372a82002c
+  server: 13.158.67.183
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- auth: my_super_password_123
+  name: 35|🇯🇵JP_3|1.1MB/s
+  password: my_super_password_123
+  port: 443
+  server: open.2ml.bid
+  skip-cert-verify: true
+  sni: open.2ml.bid
+  type: hysteria2
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 35|🇵JP_4|2.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  skip-cert-verify: false
+  sni: open.2ml.cc.cd
+  type: hysteria2
+  udp: true
+  up: ''
