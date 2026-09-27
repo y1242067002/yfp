@@ -26,19 +26,71 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|日期：09-26
+  name: 29|日期：09-27
   port: 443
   reality-opts:
-    public-key: sg6UZorSKWbfwmfxh0SyfZ-SszlhitX43LHtRGTZU2Y
-    short-id: a4c4e97b89446dcd
-  server: 5.39.202.118
-  servername: cze1.somiki.best
+    public-key: nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA
+    short-id: 95ae4a39d3933191
+  server: 34.79.178.1
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
+  uuid: 51e493d4-b275-45e0-a714-e014f40b3c32
+- name: 29|🇯🇵_日本_8
+  port: 443
+  server: 137.220.221.179
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_92
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /episode/files?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_93
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /mall/china/doc?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_402
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers:
+      Host: 172.111.146.64
+    path: /vmess/
 - cipher: aes-128-gcm
   name: 33|🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400

@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_402
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers:
+      Host: 172.111.146.64
+    path: /vmess/
 - cipher: aes-128-gcm
   name: 33|🇯🇵 日本|@ripaojiedian
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
