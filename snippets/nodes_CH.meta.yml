@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士_37
-  port: 443
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 356a70f0d72b4e80
-  server: 84.75.255.49
-  servername: ch2.responsiblecare.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14af8b56-0f21-462b-95e5-6705bc6125db
-- name: 35|CH_1|2.6MB/s
+- name: 35|🇨CH_1|1.2MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -21,21 +7,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel_nl
-  name: 35|🇭CH_2|4.7MB/s
-  network: grpc
-  packet-encoding: xudp
+- name: 35|🇨CH_2|2.7MB/s
   port: 443
-  reality-opts:
-    public-key: 20kKpOl77grCupOod4O_X1u74fJT38yc2Nhxy8enywc
-    short-id: fd4f9db207ff64db
-  server: 45.90.57.251
-  servername: dl.google.com
+  server: 199.68.196.153
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 10b78ac4-d4ce-43d2-98c4-c62c96fcbdc2
-  xudp: true

@@ -81,103 +81,69 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 29|🇬🇧_英国_22
-  port: 22222
-  server: 18.169.206.105
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_33
-  port: 443
+  name: 29|🇬🇧_英国_9
+  port: 54865
   reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  server: 164.37.100.195
-  servername: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_36
-  port: 443
-  reality-opts:
-    public-key: s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk
-    short-id: 2e124af254a65e7c
-  server: tomaz1337shellbuy.vvzzkontaktezzvv.garden
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_61
-  port: 443
-  server: 186.190.211.188
-  servername: 186.190.211.188
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|GB_1|2.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22117
-  reality-opts:
-    public-key: Vqwhml0SG253PsBtx9xi3GJY-hhyA6sgGUJ_wVI7Q1g
-    short-id: c7994be0
-  server: 178.79.149.80
+    public-key: frK9LTk4kF7lh4-ZVCuHCQm87Oy6uboRtoS-o6Fb6WE
+    short-id: '7436'
+  server: 178.79.129.203
   servername: www.cloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
 - client-fingerprint: chrome
-  name: 35|🇧GB_2|3.0MB/s
+  name: 29|🇬🇧_英国_115
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 94.159.97.247
-  servername: vp58.cc.cd
+  port: 2096
+  server: 91.193.58.15
+  servername: free-server.techsonic.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   ws-opts:
-    headers:
-      Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /Telegram🇨 @VPNine1
-  xudp: true
-- name: 35|🇧GB_3|2.8MB/s
-  port: 443
-  server: 212.102.63.61
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_116
+  network: ws
+  port: 2096
+  server: 91.193.58.108
+  servername: free-server.techsonic.dev
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇧GB_4|2.9MB/s
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_117
+  network: ws
+  port: 2096
+  server: 91.193.58.52
+  servername: free-server.techsonic.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    path: /free-server.techsonic.dev
+- name: 35|GB_1|2.8MB/s
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_5|2.4MB/s
-  port: 443
-  server: 37.120.233.18
+- name: 35|🇧GB_2|1.1MB/s
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http

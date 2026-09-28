@@ -32,37 +32,17 @@ proxies:
   type: vless
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|CA_1|1.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 50181
-  reality-opts:
-    public-key: JVeVJbl4s1xB7afO1BpIvCsgULTmY3b__2wMxQQmW0s
-    short-id: ae5e3d8a99373629
-  server: 172.105.17.84
-  servername: www.cloudflare.com
+- name: 35|CA_1|2.5MB/s
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 24f17960-8b89-48fa-828f-edd2c048ed26
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇨🇦CA_2|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 27204
-  reality-opts:
-    public-key: tDCQIafB0NQjbKoef_8CU4rr_afYJUOKjY8KX4cIJj8
-    short-id: 4c1d
-  server: 172.105.20.134
-  servername: www.cloudflare.com
+- name: 35|🇨🇦CA_2|1.1MB/s
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 24f17960-8b89-48fa-828f-edd2c048ed26
-  xudp: true

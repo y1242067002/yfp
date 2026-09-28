@@ -49,33 +49,7 @@ proxies:
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_53
-  port: 443
-  reality-opts:
-    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
-    short-id: 65557338e1cd5605
-  server: 45.152.113.206
-  servername: 1.ru.oncloudnineservicestreang.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_63
-  port: 9992
-  reality-opts:
-    public-key: IelvZ9WsWF3WXZoJnaqQKByqwJoz1zsmmdnInzDYcyw
-  server: 92.53.104.65
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41164ee6-90ad-479a-ba3c-a152217ef34a
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯_118
+  name: 29|🇷🇺_俄罗斯_140
   network: ws
   port: 443
   server: fbsv6.guardora.pro
@@ -87,8 +61,8 @@ proxies:
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   ws-opts:
     path: /ws
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯_396
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_349
   network: ws
   port: 443
   server: fbsv6.guardora.pro
@@ -103,20 +77,7 @@ proxies:
       Host: fbsv6.guardora.pro
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_458
-  network: ws
-  port: 14443
-  server: 95.163.232.171
-  servername: media-se.compressor.work
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  ws-opts:
-    path: /ws
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_394
+  name: 29|🇷🇺_俄罗斯_143
   network: ws
   port: 14443
   server: 95.163.232.171
@@ -131,67 +92,29 @@ proxies:
       Host: media-se.compressor.work
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_482
+  name: 29|🇷🇺_俄罗斯_146
   network: ws
-  port: 443
-  server: 212.233.98.14
-  servername: chaurma.sowt.app
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9e4f675b-d6bf-42d1-be55-389f622783af
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   ws-opts:
-    path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_485
-  network: ws
-  port: 443
-  server: tr3.wba-pn.ru
-  servername: tr3.wba-pn.ru
+    path: /ws
+- name: 35|RU_1|1.1MB/s
+  port: 1446
+  server: 46.29.166.134
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|RU_1|2.7MB/s
-  network: xhttp
-  packet-encoding: xudp
+- name: 35|🇺RU_2|1002KB/s
   port: 443
-  reality-opts:
-    public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-    short-id: 8ba6e72ee60667f6
-  server: 161.104.38.98
-  servername: donatov.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 553d8193-d897-0032-bb46-f075b670f22a
-  xhttp-opts:
-    host: 161.104.38.98
-    mode: packet-up
-    path: /assets
-    reuse-settings:
-      c-max-reuse-times: '0'
-      h-keep-alive-period: 0
-      h-max-request-times: 600-900
-      h-max-reusable-secs: 1800-3000
-      max-connections: '2'
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 35|🇺RU_2|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
+  server: 82.147.71.46
   skip-cert-verify: true
-  sni: 91.240.86.70
-  type: hysteria2
+  tls: true
+  type: http
   udp: true
-  up: ''

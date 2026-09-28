@@ -16,39 +16,28 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- name: 29|🇸🇬_新加坡_12
-  port: 443
-  server: onhit.shalana.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡_5
+  port: 28243
+  reality-opts:
+    public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
+    short-id: 7996bf4dcf194d18
+  server: 18.139.227.162
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
-- name: 29|🇸🇬_新加坡_34
-  port: 443
-  server: 134.122.154.210
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-- cipher: aes-128-gcm
-  name: 33|🇸🇬 新加坡|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36604
-  server: gd.bjnet2.com
-  type: ss
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
 - alterId: 0
   cipher: auto
-  name: 34|新加坡|@ripaojiedian
+  name: 33,34|新加坡|@ripaojiedian
   network: ws
   port: '443'
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
   servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -58,11 +47,12 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 34|新加坡2|@ripaojiedian
+  name: 33,34|新加坡2|@ripaojiedian
   network: ws
   port: '443'
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
   servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -70,41 +60,3 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|SG_1|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 20975
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: 2bb0dc48
-  server: 18.136.119.69
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬SG_2|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 8.35.211.236
-  servername: kkkk-83j.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kkkk-83j.pages.dev
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    max-early-data: 2048
-    path: /
-  xudp: true

@@ -103,151 +103,54 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 29|🇫🇷_法国_10
-  port: 22223
-  server: 35.180.175.72
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 29|🇫🇷_法国_13
-  port: 22222
-  server: 35.180.175.72
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 29|🇫🇷_法国_16
-  port: 22224
-  server: 35.180.175.72
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_35
-  port: 443
+  name: 29,35|🇷FR_2|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 56890
   reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  server: fra.loozerp.wiki
-  servername: fra.loozerp.wiki
+    public-key: rLwUhSlO07MqPfOOvNjRfmFSHrByCO7r4NpgTt2YkCE
+    short-id: '13500590'
+  server: 172.239.19.53
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_39
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  xudp: true
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 35|FR_1|4.3MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  server: 185.171.202.105
-  servername: fra.loozerp.wiki
+  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: 127.0.0.1
+  type: hysteria2
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_42
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: 185.171.202.106
-  servername: fra2.loozerp.wiki
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_45
-  port: 443
-  server: nasnet-162191099-direct.mbghalibaf.com
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_50
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: fra2.loozerp.wiki
-  servername: fra2.loozerp.wiki
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
-- name: 29|🇫🇷_法国_450
-  network: ws
-  port: 80
-  server: 152.228.162.19
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国_481
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    path: /vws/
-- client-fingerprint: chrome
-  name: 35|FR_1|2.2MB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇫🇷FR_3|1017KB/s
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 104.21.46.3
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 35|🇫🇷FR_2|2.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_3|1.0MB/s
+  name: 35|🇫🇷FR_4|1.8MB/s
   network: ws
   password: humanity
   port: 443
@@ -258,41 +161,24 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_4|1.5MB/s
-  network: ws
-  password: humanity
+- down: ''
+  fingerprint: ''
+  name: 35|🇫🇷FR_5|3.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
+  up: ''
 - client-fingerprint: chrome
-  name: 35|🇫🇷FR_5|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇷FR_6|2.8MB/s
+  name: 35|🇫🇷FR_6|1.7MB/s
   network: ws
   password: humanity
   port: 443
@@ -303,73 +189,40 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- name: 35|🇷FR_7|1.9MB/s
-  password: ''
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  name: 35|🇫🇷FR_8|1.8MB/s
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: 35|🇫🇷FR_7|1.9MB/s
   network: ws
   password: humanity
   port: 443
-  server: 176.97.66.175
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /assignment
-- client-fingerprint: random
-  encryption: mlkem768x25519plus.native.0rtt.M31lXtWMr7Q3cpC56jAAXjc19LW_6x7fONGkK5_ovgk
-  flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_9|3.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 4489
-  reality-opts:
-    public-key: Zb5hC10blFFRMl6raHM7yJS_TWaMy3pMzrBLDm8RC1w
-    short-id: 3cace608cf980b78
-  server: 85.155.230.43
-  servername: www.tno.nl
-  tls: true
-  type: vless
+- name: 35|🇫🇷FR_8|1.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  sni: ip5.934618.xyz
+  type: anytls
   udp: true
-  uuid: 162ff214-21c8-4963-a80a-6200cbad787e
-  xudp: true
-- client-fingerprint: random
-  name: 35|🇫🇷FR_10|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 147.78.0.186
-  servername: free.cndyw.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: free.cndyw.ggff.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /pyip=bpb.yousef.isegaro.com
-  xudp: true
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-  name: 35|🇷FR_11|1.6MB/s
+  name: 35|🇷FR_9|1.9MB/s
   network: grpc
   packet-encoding: xudp
   port: 443
