@@ -40,11 +40,8 @@ proxies:
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|JP_1|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇯🇵_日本_7
   port: 38830
   reality-opts:
     public-key: 5E5p5boHrgCyBlt5qZPX1XozU9I90JoBgS4zmXngllI
@@ -56,13 +53,9 @@ proxies:
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇯🇵JP_3|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇯🇵_日本_12
   port: 33561
   reality-opts:
     public-key: 158SMilJQo8T-Fi8-T1354xZsVFCYxA8dXQstKbIdVs
@@ -74,7 +67,6 @@ proxies:
   type: vless
   udp: true
   uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_20
   network: ws
@@ -150,11 +142,12 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- auth: 96ab5cd282733fd4c312a61f972f330a
-  name: 35|🇯🇵JP_4|2.3MB/s
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
-  sni: vp3.yysyy.online
+- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  name: 35|JP_1|1.9MB/s
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
   udp: true
