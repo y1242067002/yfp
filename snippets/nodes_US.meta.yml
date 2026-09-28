@@ -755,11 +755,8 @@ proxies:
   udp: true
   uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.M31lXtWMr7Q3cpC56jAAXjc19LW_6x7fONGkK5_ovgk
   flow: xtls-rprx-vision
-  name: 29,35|FR_1|3.2MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇺🇸_美国_14
   port: 4489
   reality-opts:
     public-key: Zb5hC10blFFRMl6raHM7yJS_TWaMy3pMzrBLDm8RC1w
@@ -771,7 +768,6 @@ proxies:
   type: vless
   udp: true
   uuid: 162ff214-21c8-4963-a80a-6200cbad787e
-  xudp: true
 - name: 29|🇺🇸_美国_17
   password: M7v%w11Se*
   port: 443
@@ -1121,19 +1117,18 @@ proxies:
   uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
   ws-opts:
     path: /Ra-vl
-- name: 33,34|美国3|@ripaojiedian
-  network: tcp
+- name: 33|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 100.42.228.109
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 33,34|印尼
+  name: 33|🇮🇩 印尼
   network: ws
-  port: '443'
+  port: 443
   server: 24864168545164.oylfmxz.cn
   servername: 24864168545164.oylfmxz.cn
   skip-cert-verify: false
@@ -1164,163 +1159,56 @@ proxies:
   port: 36608
   server: gd.bjnet2.com
   type: ss
-- fingerprint: ''
-  name: 35|🇸US_1|3.0MB/s
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-  username: 9sK2mP8xQ7vL3nZ6
-- name: 35|🇸US_2|3.0MB/s
+- alterId: 0
+  cipher: auto
+  name: 34|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 34|美国2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
+- name: 35|🇸US_1|2.7MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_3|3.8MB/s
-  password: None
+- cipher: aes-256-cfb
+  name: 35|🇺🇸US_2|1.4MB/s
+  password: amazonskr05
   port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
+  server: 100.27.202.4
+  type: ss
   udp: true
-- name: 35|🇸US_4|2.2MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_5|3.7MB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_6|3.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_7|4.3MB/s
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_11|2.8MB/s
+- name: 35|🇸US_3|3.0MB/s
   port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  sni: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_9|1.0MB/s
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_10|3.8MB/s
-  port: 9002
-  server: 138.199.35.212
+  server: purecambogiasl.live
   skip-cert-verify: true
+  sni: purecambogiasl.live
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_12|2.9MB/s
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: false
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|1.8MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_14|3.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_15|2.5MB/s
-  password: 'null'
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_16|3.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇺🇸US_17|3.2MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_18|3.4MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺🇸US_19|1.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 33a8ff70-a5b4-4f44-b8f3-99a9904f7f34.fly.dev
-  servername: 33a8ff70-a5b4-4f44-b8f3-99a9904f7f34.fly.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1bf954db-7678-8c2f-7ca0-a01207012ec8
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/1bf954db-7678-8c2f-7ca0-a01207012ec8
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130
