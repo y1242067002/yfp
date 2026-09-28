@@ -142,12 +142,27 @@ proxies:
     headers:
       Host: kneNaKHeSXnZH259.v.3dns.vip
     path: /ws-vmess
-- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  name: 35|JP_1|1.9MB/s
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
+- alterId: 0
+  cipher: auto
+  name: 35|JP_1|2.6MB/s
+  network: ws
+  port: 2083
+  server: cdn.sfacg.uk
+  servername: or3.sfacg.uk
   skip-cert-verify: true
-  sni: www.bing.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: 35|🇵JP_2|4.1MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: rb.mangshe.xyz
+  skip-cert-verify: true
+  sni: rb.mangshe.xyz
   type: hysteria2
   udp: true
