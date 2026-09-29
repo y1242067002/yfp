@@ -2422,35 +2422,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 35|JP_1|2.7MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: w12.luoli.de
-  servername: w12.luoli.de
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      Host: w12.luoli.de
-    path: /v2ws
-  xudp: true
-- name: 35|🇫🇷FR_2|3.9MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /assignment
