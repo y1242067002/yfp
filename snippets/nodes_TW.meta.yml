@@ -1,6 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  name: 29|🇹🇼_台湾_107
+- client-fingerprint: ios
+  name: 29|🇹🇼_台湾_21
   port: 443
   reality-opts:
     public-key: PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0
@@ -12,17 +12,11 @@ proxies:
   type: vless
   udp: true
   uuid: 22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾_113
-  port: 44283
-  reality-opts:
-    public-key: V7nG-EqryxfDEHt5kPLTmACcR_-9FKa9W2uyBFiJSBw
-    short-id: 23a4d301
-  server: tw-01.pandanetwork.dpdns.org
-  servername: www.speedtest.net
+- name: 34|台湾|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12142
+  server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d677ec1d-e4bd-4d5d-94b7-16ff31089490
+  sni: m.ctrip.com
+  type: trojan

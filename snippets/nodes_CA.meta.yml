@@ -32,22 +32,8 @@ proxies:
   type: vless
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大_17
-  port: 443
-  reality-opts:
-    public-key: iWcv9Mp5jDdimzAm6I_SPG1MyViylpMRgkOoQi0_GX4
-    short-id: 4a96e3fc1c021283
-  server: 209.200.246.144
-  servername: ca.vpnskyline.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 46b3a70b-b99f-4c6e-aa83-df6d842bb954
 - client-fingerprint: chrome
-  name: 29|🇨🇦_加拿大_32
+  name: 29|🇨🇦_加拿大_17
   port: 443
   reality-opts:
     public-key: l4tGdE5Zn8ABfBQns3pRBcxy6CckHTLSIsw5JaBumTk
@@ -59,17 +45,3 @@ proxies:
   type: vless
   udp: true
   uuid: 448b76ac-c636-4303-bec1-0b2c22afee0c
-- name: 35|CA_1|2.7MB/s
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨CA_2|1.3MB/s
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

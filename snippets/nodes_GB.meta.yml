@@ -82,98 +82,17 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_37
-  port: 54865
-  reality-opts:
-    public-key: frK9LTk4kF7lh4-ZVCuHCQm87Oy6uboRtoS-o6Fb6WE
-    short-id: '7436'
-  server: 178.79.129.203
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_40
-  port: 22117
-  reality-opts:
-    public-key: Vqwhml0SG253PsBtx9xi3GJY-hhyA6sgGUJ_wVI7Q1g
-    short-id: c7994be0
-  server: 178.79.149.80
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_61
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: freshjuniper.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_471
+  name: 29|🇬🇧_英国_294
   network: ws
-  port: 2096
-  server: 91.193.58.118
-  servername: free-server.techsonic.dev
+  port: 80
+  server: 194.36.55.146
+  servername: 194.36.55.146
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: 964e6322-afad-4594-8508-86d634d732e6
   ws-opts:
-    path: /free-server.techsonic.dev
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_473
-  network: ws
-  port: 2096
-  server: 91.193.58.15
-  servername: free-server.techsonic.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    path: /free-server.techsonic.dev
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_474
-  network: ws
-  port: 2096
-  server: 91.193.58.45
-  servername: free-server.techsonic.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    path: /free-server.techsonic.dev
-- name: 35|🇧GB_1|3.2MB/s
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 35|🇧GB_3|2.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 41432
-  server: BatManAli.Savfasf.ir
-  type: vless
-  udp: true
-  uuid: 79f0aac8-656a-435b-b092-c973a3f85e02
-  xudp: true
+    headers:
+      Host: blacklegends.umc-mansur13.workers.dev
+    path: /

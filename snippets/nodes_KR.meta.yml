@@ -11,26 +11,41 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- client-fingerprint: random
-  name: 29|🇰🇷_韩国_561
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_105
   network: ws
   port: 443
-  server: 123.111.169.70
-  servername: vip.868068.xyz
+  server: 158.247.222.168
+  servername: spjd.cbc.qzz.io
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  uuid: 37665857-8b6e-4daa-8231-3e2927221558
   ws-opts:
     headers:
-      Host: vip.868068.xyz
-    path: /proxyip=us.xiabibi.cf
+      Host: spjd.cbc.qzz.io
+    path: /proxyip=ProxyIP.US.CMLiussss.net
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_162
+  network: ws
+  port: 443
+  server: 158.247.222.168
+  servername: spjd.cbc.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37665857-8b6e-4daa-8231-3e2927221558
+  ws-opts:
+    headers:
+      Host: spjd.cbc.qzz.io
+    path: /
 - alterId: 0
   cipher: auto
-  name: 33,34|韩国|@ripaojiedian
+  name: 33|🇰🇷 韩国|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
   servername: 8nTzyR5KNivfabaT.v.3dns.vip
   skip-cert-verify: false
@@ -41,16 +56,11 @@ proxies:
     headers:
       Host: 8nTzyR5KNivfabaT.v.3dns.vip
     path: /ws-vmess
-- down: ''
-  fingerprint: ''
-  name: 35|🇷KR_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1671a252e2a97dc2bda4e515475931da
-  port: 50160
-  server: 132.226.226.189
+- name: 34|韩国|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 11171
+  server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  up: ''
+  sni: m.ctrip.com
+  type: trojan
