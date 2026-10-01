@@ -1,1 +1,69 @@
-proxies: []
+proxies:
+- name: 18|🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
+- name: 19|俄羅斯_2
+  port: 443
+  server: 92.112.22.117
+  skip-cert-verify: true
+  type: vless
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- client-fingerprint: qq
+  name: 29|🇸🇬_新加坡_12
+  port: 443
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+  server: 136.85.2.50
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+- alterId: 0
+  cipher: auto
+  name: 33|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 33|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 443
+  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    path: /ws-vmess
+- name: 34|新加坡|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10135
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan

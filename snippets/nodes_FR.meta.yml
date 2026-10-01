@@ -1,1 +1,130 @@
-proxies: []
+proxies:
+- name: 18|🇫🇷FR_7|⬇️3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 18|🇫🇷FR_3|⬇️6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: 18|FRVLESS-75|free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 18|🇫🇷FR_1|⬇️4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 18|🇫🇷FR_6|⬇️1.2MB/s
+  network: ws
+  port: 443
+  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
+  ws-opts:
+    headers:
+      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+    path: /@Arshiacomplus
+- flow: xtls-rprx-vision
+  name: 18|🇫🇷FR_4|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+- flow: xtls-rprx-vision
+  name: 19|法国_2
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 19|法國_2
+  network: grpc
+  port: 22808
+  server: 51.178.253.133
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+- client-fingerprint: qq
+  name: 29|🇫🇷_法国_49
+  port: 443
+  reality-opts:
+    public-key: SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4
+    short-id: 3f95392a418ec8fd
+  server: 34.155.146.201
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
+- name: 29|🇫🇷_法国_149
+  network: ws
+  port: 443
+  server: www.csgo.com
+  servername: v6.bangfw.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 599798e2-5eed-40f3-a5cf-cbda9a4baad1
+  ws-opts:
+    path: /
