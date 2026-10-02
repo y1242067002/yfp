@@ -25,36 +25,16 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: safari
-  name: 29|🇸🇪_瑞典_42
-  port: 443
-  reality-opts:
-    public-key: SOvacyM6CABhBHYdOHvhXbkNLHJBHuAkoJj2Z13xKlE
-    short-id: b4a6faed784ff461
-  server: 34.51.240.236
-  servername: www.cloudflare.com
+- name: 29|日期：10-03
+  password: ymk9eBP4Ams3-ncYCV4kDAezUzBfkR8x
+  port: 8443
+  server: 194.55.239.121
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: api-v2.captaingold.app
+  type: trojan
   udp: true
-  uuid: 788950f8-dbd9-4234-a42c-a7204665ce9f
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_128
-  network: ws
-  port: 443
-  server: 103.115.18.54
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /episode/files?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_129
+  name: 29|🇯🇵_日本_55
   network: ws
   port: 443
   server: 103.115.18.54
@@ -68,6 +48,21 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /mall/china/doc?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_56
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /episode/files?ed=2560
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
