@@ -25,31 +25,48 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: 29|日期：10-03
-  password: ymk9eBP4Ams3-ncYCV4kDAezUzBfkR8x
-  port: 8443
-  server: 194.55.239.121
-  skip-cert-verify: true
-  sni: api-v2.captaingold.app
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_55
-  network: ws
+- client-fingerprint: firefox
+  name: 29|日期：10-03
   port: 443
-  server: 103.115.18.54
-  servername: cdn8848.776676.xyz
+  reality-opts:
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  server: de.monkora.org
+  servername: example.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /mall/china/doc?ed=2560
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_56
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_45
+  port: 27170
+  reality-opts:
+    public-key: 3DywNdgCmlfWVHYjrjfXjIj2h2NCMr8EgnnECjYzKCo
+    short-id: bc54582341279a34
+  server: 141.11.138.136
+  servername: www.tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24d33df0-6949-40e4-8902-271778719a5e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_46
+  port: 38276
+  reality-opts:
+    public-key: 3DywNdgCmlfWVHYjrjfXjIj2h2NCMr8EgnnECjYzKCo
+    short-id: bc54582341279a34
+  server: 141.11.138.136
+  servername: www.tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24d33df0-6949-40e4-8902-271778719a5e
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_50
   network: ws
   port: 443
   server: 103.115.18.54
@@ -63,6 +80,21 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /episode/files?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_51
+  network: ws
+  port: 443
+  server: 103.115.18.54
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /mall/china/doc?ed=2560
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian

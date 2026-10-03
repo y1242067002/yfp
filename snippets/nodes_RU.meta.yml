@@ -48,13 +48,97 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_40
+  port: 443
+  reality-opts:
+    public-key: XrgbY2hKJQG8QOZO2J1pGmZsbvjSsSWoM9iULIMGK00
+  server: 31.76.34.216
+  servername: ru-c-1.minzt.su
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_29
+  port: 30007
+  reality-opts:
+    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
+    short-id: 54861d36
+  server: files-d1c1.julsapart.com
+  servername: storage.yandexcloud.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bba3558-ad1c-4d97-a360-7d993d503abd
+- client-fingerprint: edge
+  name: 29|🇷🇺_俄罗斯_67
+  network: ws
+  port: 5002
+  server: 176.108.242.55
+  servername: lm.centermass.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e8ea5d2-6941-40fb-9efe-f9062b11b2b9
+  ws-opts:
+    path: media.playback.v1.SessionGateway
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_72
+  network: ws
+  port: 443
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    path: /ws
+- client-fingerprint: android
+  name: 29|🇷🇺_俄罗斯_95
+  network: ws
+  port: 5002
+  server: 213.171.31.34
+  servername: us.centermass.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e8ea5d2-6941-40fb-9efe-f9062b11b2b9
+  ws-opts:
+    path: media.playback.v1.SessionGateway
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_111
+  network: ws
+  port: 443
+  server: 78.159.246.110
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    path: /ws
+- client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯_133
+  network: ws
+  port: 443
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    headers:
+      Host: fbsv6.guardora.pro
+    path: /ws

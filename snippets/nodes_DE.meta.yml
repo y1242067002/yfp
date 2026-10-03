@@ -151,27 +151,44 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_14
+  port: 443
+  reality-opts:
+    public-key: 4hvjCaGIMlFeWxMYoAWTNHQOaZkGvGQREOjB3Unn7iE
+    short-id: 29455a3a790acbd0
+  server: 177.1.186.44
+  servername: mcde.67resserv67.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_5
-  port: 8545
+  name: 29|🇩🇪_德国_22
+  port: 7443
   reality-opts:
-    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
-    short-id: e98c63b3c1a5d204
-  server: 193.222.99.226
+    public-key: 0BVxZKOt6wO0jIB1xRkAAtaFUkmyFAbVWfkkKSJBfEI
+    short-id: 570ffeb12f6e4635
+  server: node.remnagecsp.ru
+  servername: node.remnagecsp.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81a227e3-cb97-40fe-b7b6-45a60ed065cf
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_36
+  port: 443
+  reality-opts:
+    public-key: XRYeVrK7q9baNj66NmBBIX_sllPJtxOBTjrxTaQMQ2U
+    short-id: 7394ea3cc2106697
+  server: 34.159.242.163
   servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
-- name: 29|🇩🇪_德国_44
-  password: humanity
-  port: 443
-  server: 45.80.111.7
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
+  uuid: 753fa5ef-0b08-4fd3-b688-173ff594b758
