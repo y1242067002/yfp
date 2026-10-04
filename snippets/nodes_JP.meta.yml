@@ -26,8 +26,11 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|日期：10-04
+  name: 29,35|🇸🇬SG_2|1.3MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
@@ -36,6 +39,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
 - name: 29|🇯🇵_日本_5
   password: UX82473651
   port: 443
@@ -197,3 +201,17 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: 35|JP_1|5.0MB/s
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /

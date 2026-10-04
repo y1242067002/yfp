@@ -1960,14 +1960,6 @@ proxies:
   sni: ru1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 28|🪙31@oneclickvpnkeys
-  password: 3a92b39a-5f02-415e-a908-783ec320e83f
-  port: 8443
-  server: 153.76.190.41
-  skip-cert-verify: true
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
 - name: 28|🪙70@oneclickvpnkeys
   password: 4291c983-c520-46ac-82cc-48f14bef573f
   port: 35013
@@ -2074,7 +2066,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 28|🆔️@ATLAS_V2VPN️️597
+- name: 28|️🆔️@ATLAS_V2VPN️️597
   obfs: salamander
   obfs-password: 6ccfcef2e116b03ce9047333
   password: TPey1Zqj9th9y2JKyiuqVPRTvfjQC-nB
@@ -2124,7 +2116,7 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 28|US-@VPNine1
+- name: 28|🇷🇺@FreakConfig
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -2298,8 +2290,11 @@ proxies:
   type: vless
   udp: true
   uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
-- flow: xtls-rprx-vision
-  name: 29|日期：10-04
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 29,35|🇸🇬SG_2|1.3MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 33102
   server: 112.49.63.11
   servername: sgg.knhqf.com
@@ -2308,6 +2303,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
 - name: 29|免费VPN：https://tt.vg/FJOE2Mm
   password: UX82473651
   port: 443
@@ -5475,6 +5471,42 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- auth: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  name: 35|Other_1|1.5MB/s
+  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  port: 443
+  server: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  type: hysteria2
+  udp: true
+- name: 35|JP_1|5.0MB/s
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: 35|🇸US_1|3.5MB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|DE_1|3.5MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1026
+  server: 8vvewsmo.zf-mix.9999231.xyz
+  sni: nl-wy.9999231.xyz
+  type: anytls
+  udp: true
 - name: 37|NL_speednode_0004
   port: 9002
   server: 84.17.47.125
