@@ -35,26 +35,41 @@ proxies:
   type: vless
   udp: true
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: 29|🇨🇳_中国_47
-  port: 52683
-  server: jp.sofast.live
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇨🇳_中国_51
+  port: 14343
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- alterId: 2
-  cipher: auto
-  name: 29|🇨🇳_中国_49
-  port: 11244
-  server: silversbgfgov.vip44.wogbcnmnagfwgov.com
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇨🇳_中国_80
+  port: 14343
+  server: 27.44.143.169
+  servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇨🇳_中国_45
+  port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: unsafe
-  name: 29|🇨🇳_中国_99
+  name: 29|🇨🇳_中国_148
   network: ws
   port: 8443
   server: 129.211.188.184

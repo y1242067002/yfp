@@ -479,11 +479,11 @@ proxies:
     headers:
       Host: fu.baiproxy.us.ci
     path: /?ed=2560
-- name: 25|美国(yudou789.top 玉豆免费节点)_11
+- name: 25,29|🏳️_未知_156
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
   server: blackshadow.dpdns.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: blackshadow.dpdns.org
   tls: true
   type: trojan
@@ -740,21 +740,98 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  name: 29|🇺🇸_美国_27
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_6
   port: 443
   reality-opts:
-    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
-  server: 78.153.155.149
-  servername: example.org
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: f1955f72763eb2fb
+  server: 136.86.230.49
+  servername: www.cloudflare.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国_7
+  port: 20808
+  reality-opts:
+    public-key: WIZniiSMNsJ82J5Ee4YthKavyreqYxxz1PyqKbWbQQI
+    short-id: b4
+  server: 23.172.40.108
+  servername: shop-eu-en.amd.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f79cb3fa-70b7-4dc5-86ce-a02e9528c3c3
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_16
+  port: 443
+  reality-opts:
+    public-key: VL1ZiaWxae8teZWJeBAIHadbo7z1Ezu1KA2kIA1TDmk
+    short-id: 7dfdbf323c4ef0a8
+  server: 34.29.203.135
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_28
+  name: 29|🇺🇸_美国_33
+  port: 443
+  reality-opts:
+    public-key: FuKGULeQ9xZMJN8hWz6J_49tDJKT9HA-nsAXOOVRmyM
+    short-id: ff867ed245c73f43
+  server: 13.143.166.71
+  servername: cdn.jsdelivr.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0afdcc75-e449-418d-8eac-c5b657363443
+- name: 29|🇺🇸_美国_52
+  password: UX82473651
+  port: 443
+  server: ultimate-jaguar.rooster465.autos
+  skip-cert-verify: true
+  sni: ultimate-jaguar.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_58
+  port: 443
+  reality-opts:
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+  server: 34.48.220.167
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国_76
+  port: 443
+  reality-opts:
+    public-key: 9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws
+    short-id: f8
+  server: 31.76.64.248
+  servername: blog.api.www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a322246-8c1a-47cd-9865-cccebbb2e5c1
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国_77
   port: 443
   reality-opts:
     public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
@@ -766,116 +843,113 @@ proxies:
   type: vless
   udp: true
   uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
-- name: 29|🇺🇸_美国_33
-  port: 18802
-  server: 198.23.208.102
+- name: 29|🇺🇸_美国_100
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vless
+  sni: guided-ferret.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 12f491be-2fd4-423f-856c-dda2195d718a
-- client-fingerprint: chrome
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_43
+  name: 29|🇺🇸_美国_101
   port: 443
   reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  server: yaruss.stopingiphatered.shop
-  servername: yaruss.stopingiphatered.shop
+    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
+    short-id: e0ccc8c2f487d913
+  server: 185.53.209.67
+  servername: us-2.srv.dvzh.net
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- client-fingerprint: chrome
+  uuid: 4e3ba5d7-377c-4199-8c18-00e36ff036ff
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_44
+  name: 29|🇺🇸_美国_103
   port: 443
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  server: 31.76.84.174
-  servername: yaruss.stopingiphatered.shop
+  server: chubby0.failspace.top
+  servername: chubby0.failspace.top
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- name: 29|🇺🇸_美国_70
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: //assignment
-- name: 29|🇺🇸_美国_85
-  password: 3afe8b10-1179-43e5-b905-2e867fc7a0cf
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17909923119949.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17909923112690.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国_86
-  password: 3afe8b10-1179-43e5-b905-2e867fc7a0cf
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17909923116871.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17909923117015.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国_87
-  password: 3afe8b10-1179-43e5-b905-2e867fc7a0cf
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17909923119227.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17909923114378.206355.xyz
-    path: /videomuaawe
-- name: 29|🇺🇸_美国_88
-  password: 3afe8b10-1179-43e5-b905-2e867fc7a0cf
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17909923117587.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17909923113104.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🇺🇸_美国_89
-  password: 3afe8b10-1179-43e5-b905-2e867fc7a0cf
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17909923112005.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17909923119356.168381.xyz
-    path: /tianboephth
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_98
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国_109
+  port: 443
+  server: at-nick.failspace.top
+  servername: at-nick.failspace.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- name: 29|🇺🇸_美国_131
+  network: ws
+  port: 443
+  server: node-production-8717.up.railway.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0fd4bb28-f542-414e-8c6c-d78afdd781b7
+  ws-opts:
+    headers:
+      Host: node-production-8717.up.railway.app
+    path: /ws
+- name: 29|🇺🇸_美国_136
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_138
+  password: mitivpn
+  port: 443
+  server: 199.232.78.101
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_140
+  password: mitivpn
+  port: 443
+  server: 167.82.76.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国_141
+  password: mitivpn
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_144
   network: ws
   port: 443
   server: 199.232.78.160
@@ -889,21 +963,71 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 29|🇺🇸_美国_113
+- name: 29|🇺🇸_美国_147
   network: ws
-  port: 443
-  server: 162.159.135.32
-  servername: sub-ny.995677.xyz
+  port: 80
+  server: psf-2.weedly.top
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 12f491be-2fd4-423f-856c-dda2195d718a
+  uuid: 33016f3d-8509-493c-bd8b-d26447d48135
   ws-opts:
     headers:
-      Host: sub-ny.995677.xyz
-    path: /vless/12f491be-2fd4-423f-856c-dda2195d718a
-- name: 29|🇺🇸_美国_114
+      Host: stigmata.ir
+    path: /
+- name: 29|🇺🇸_美国_153
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: 29|🇺🇸_美国_162
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: //assignment
+- name: 29|🇺🇸_美国_173
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /
+- name: 29|🇺🇸_美国_175
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: /
+- name: 29|🇺🇸_美国_177
   password: eaf47668-5442-4355-8c92-12cc5cee8468
   port: 2096
   server: x.com
@@ -915,20 +1039,138 @@ proxies:
     headers:
       Host: avengers5.yang-1989.xyz
     path: /o42w
-- name: 29|🇺🇸_美国_115
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_206
   network: ws
-  port: 443
-  server: 162.159.148.74
-  servername: sub-ny.995677.xyz
+  port: 8443
+  server: 141.193.213.21
+  servername: u.srilankangrill.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 12f491be-2fd4-423f-856c-dda2195d718a
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    path: /
+- name: 29|🇺🇸_美国_207
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: speed.dulacloud.store
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
+  ws-opts:
+    path: /dula
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_209
+  network: ws
+  port: 443
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+- name: 29|🇺🇸_美国_213
+  network: ws
+  port: 80
+  server: 3h-unitedstates1.09vpn.com
+  servername: 3h-unitedstates1.09vpn.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
+  ws-opts:
+    path: /vless/
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国_215
+  network: ws
+  port: 443
+  server: vspeedfast.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: sub-ny.995677.xyz
-    path: /vless/12f491be-2fd4-423f-856c-dda2195d718a
+      Host: vspeedfast.org
+    path: /linkvws
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_240
+  network: ws
+  port: 443
+  server: ahbpanel-production-293c.up.railway.app
+  servername: ahbpanel-production-293c.up.railway.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 860ff461-629a-9b23-d2f8-2cdab8751e72
+  ws-opts:
+    path: /ws/860ff461-629a-9b23-d2f8-2cdab8751e72
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_246
+  network: ws
+  port: 443
+  server: multipanel-production-622b.up.railway.app
+  servername: multipanel-production-622b.up.railway.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 094fef96-fae0-db37-85f8-29db7412b5f6
+  ws-opts:
+    path: /ws/094fef96-fae0-db37-85f8-29db7412b5f6
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_268
+  network: ws
+  port: 443
+  server: 198.202.211.1
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    path: /GOrbEh
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国_273
+  network: ws
+  port: 443
+  server: 216.106.183.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aksai.org
+    path: /linkvws
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_284
+  network: ws
+  port: 443
+  server: 207.57.131.171
+  servername: api.w2m.ink
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  ws-opts:
+    path: /v2
 - alterId: 0
   cipher: auto
   name: 33|🇺🇸 美国|@ripaojiedian

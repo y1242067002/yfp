@@ -103,16 +103,75 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_31
+- name: 29|🇫🇷_法国_121
+  port: 8080
+  server: bulbul.color-panel.ir
+  servername: play.google.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fdc1206a-9d2e-42b7-b615-9ccea8cf70ee
+- flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_110
   port: 443
-  reality-opts:
-    public-key: SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4
-    short-id: 3f95392a418ec8fd
-  server: 34.155.54.237
-  servername: www.cloudflare.com
+  server: nasnet-162191099-direct.mbghalibaf.com
+  servername: nasnet-162191099-direct.mbghalibaf.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_112
+  port: 443
+  server: 162.19.10.99
+  servername: nasnet-162191099-direct.mbghalibaf.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+- name: 29|🇫🇷_法国_129
+  port: 8080
+  server: milo.rubinaz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+- name: 29|🇫🇷_法国_234
+  network: ws
+  port: 80
+  server: 152.228.162.19
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  ws-opts:
+    path: /vless/
+- name: 29|🇫🇷_法国_262
+  network: ws
+  port: 80
+  server: ov-france1.09vpn.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  ws-opts:
+    path: /vless/
+- name: 29|🇫🇷_法国_283
+  network: ws
+  port: 443
+  server: 149.202.58.99
+  servername: bab-6.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    path: /vws/
