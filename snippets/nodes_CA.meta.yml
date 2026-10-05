@@ -33,35 +33,36 @@ proxies:
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
 - client-fingerprint: chrome
-  name: 29|🇨🇦_加拿大_186
-  network: ws
+  flow: xtls-rprx-vision
+  name: 29|🇨🇦_加拿大_86
   port: 443
-  server: 172.93.167.45
-  servername: api.w2m.ink
+  reality-opts:
+    public-key: TsUbtUAeEG2WvSJaS-LOnI9Zx8i-QWI8bfvI212caG4
+  server: www.microsoft.com
+  servername: microsoft.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8344360f-0349-4784-a19f-33fd92e89389
-  ws-opts:
-    path: /v2
-- name: 35|CA_1|1.9MB/s
-  port: 443
-  server: 206.223.183.21
+  uuid: 8f9dc380-fa9e-46e1-93c5-016987cbd17c
+- client-fingerprint: chrome
+  name: 29|🇨🇦_加拿大_200
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  servername: old-violet-a5ce.29-440.workers.dev
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: vless
   udp: true
-- name: 35|🇨🇦CA_2|1.4MB/s
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: 35|CA_1|1.1MB/s
   port: 443
   server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨🇦CA_3|1.7MB/s
-  port: 443
-  server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http

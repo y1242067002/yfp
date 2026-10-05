@@ -103,109 +103,16 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 29|🇫🇷_法国_121
-  port: 8080
-  server: bulbul.color-panel.ir
-  servername: play.google.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdc1206a-9d2e-42b7-b615-9ccea8cf70ee
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_110
-  port: 443
-  server: nasnet-162191099-direct.mbghalibaf.com
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_112
-  port: 443
-  server: 162.19.10.99
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-- name: 29|🇫🇷_法国_129
-  port: 8080
-  server: milo.rubinaz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-- name: 29|🇫🇷_法国_234
+- name: 29|🇫🇷_法国_214
   network: ws
-  port: 80
-  server: 152.228.162.19
+  port: 20295
+  server: 51.75.118.75
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  uuid: 2974b6b4-6184-9239-4e43-2f73c04509ed
   ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国_262
-  network: ws
-  port: 80
-  server: ov-france1.09vpn.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国_283
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    path: /vws/
-- name: 35|🇷FR_1|4.3MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
-  server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
-  type: anytls
-  udp: true
-- name: 35|🇫🇷FR_2|1.8MB/s
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: android
-  encryption: none
-  name: 35|🇷FR_3|2.3MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 50.7.216.172
-  servername: 24f9d11d.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: api.ferrin.uk
-    path: /fr
-    reuse-settings:
-      h-max-reusable-secs: 1140-1260
-      max-connections: '3'
-  xudp: true
+    headers:
+      Host: 51.75.118.75
+    path: /ws/2974b6b4-6184-9239-4e43-2f73c04509ed
