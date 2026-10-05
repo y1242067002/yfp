@@ -37,7 +37,8 @@ proxies:
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇨🇳_中国_7
+  name: 29,35|🇰HK_2|1.7MB/s
+  network: tcp
   port: 14343
   server: 36.248.14.90
   servername: thuk.huaweiyouxuan.com
@@ -48,7 +49,9 @@ proxies:
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇨🇳_中国_58
+  name: 29,35|🇬SG_2|4.6MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 33102
   server: 27.44.143.169
   servername: sgg.knhqf.com
@@ -57,6 +60,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇨🇳_中国_53
@@ -69,8 +73,11 @@ proxies:
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇨🇳_中国_55
+  name: 29,35|🇰HK_4|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 14343
   server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
@@ -79,6 +86,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇨🇳_中国_52

@@ -9,3 +9,16 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: grpcbeast
+  name: 35|🇩🇪DE_9|2.7MB/s
+  network: grpc
+  password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
+  port: 443
+  server: cz-musicc.moritech.net
+  skip-cert-verify: true
+  sni: cz-musicc.moritech.net
+  type: trojan
+  udp: true
