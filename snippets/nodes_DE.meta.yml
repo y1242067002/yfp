@@ -151,6 +151,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 28|🇩🇪187621 | Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: migrated-d730e46f5c1b
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
+- name: 28|️15@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.104
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 28|️13@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.105
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_67
@@ -348,36 +373,3 @@ proxies:
     headers:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
     path: /@Marisa_kristi
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 35|DE_1|2.5MB/s
-  network: http
-  packet-encoding: xudp
-  port: 2052
-  server: k4direct.lynch.ir
-  type: vless
-  udp: true
-  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 35|🇩🇪DE_2|1.0MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 50.7.28.210
-  servername: id-24f9d11d.ferrin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
-  xhttp-opts:
-    host: de.vmagnum.win
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
