@@ -12,10 +12,10 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_129
+  name: 29|🇰🇷_韩国_118
   network: ws
-  port: 2053
-  server: 49.238.238.154
+  port: 2096
+  server: 49.238.238.156
   servername: and-75r.pages.dev
   skip-cert-verify: true
   tls: true
@@ -27,10 +27,10 @@ proxies:
       Host: and-75r.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_131
+  name: 29|🇰🇷_韩国_119
   network: ws
-  port: 2096
-  server: 49.238.238.156
+  port: 2053
+  server: 49.238.238.154
   servername: and-75r.pages.dev
   skip-cert-verify: true
   tls: true
@@ -64,3 +64,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 35|🇷KR_1|5.1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c828cd-3eba-46f9-b297-16003d7a6e68
+  xudp: true

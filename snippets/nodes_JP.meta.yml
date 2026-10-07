@@ -25,49 +25,22 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 29|日期：10-06
+  name: 29|🇺🇸_美国_6
   port: 443
-  server: s251.wagahaha.xyz
-  servername: u695098u47d2e9bes71.gogocs.xyz
+  reality-opts:
+    public-key: C8Qz7kuyHo9O0oBV9W7ltzL8aPLPzdb1vvt3UkJjtF0
+    short-id: ea29b7b15bb24d49
+  server: 154.21.94.246
+  servername: frost.sigy.me
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_59
-  network: ws
-  port: 443
-  server: 103.115.18.54
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /episode/files?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_60
-  network: ws
-  port: 443
-  server: 103.115.18.54
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /mall/china/doc?ed=2560
+  uuid: ab1249da-9ac8-44c7-89a3-2d337ab25cb2
 - client-fingerprint: android
-  name: 29|🇯🇵_日本_107
+  name: 29|🇯🇵_日本_130
   network: ws
   port: 443
   server: 152.69.199.75
@@ -134,3 +107,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|JP_1|3.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/39.0.2171.95 Safari/537.36
+    max-early-data: 2560
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458
+  xudp: true

@@ -49,20 +49,71 @@ proxies:
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯_37
-  port: 25895
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_16
+  port: 443
   reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: ee.h1cloud.net
-  servername: www.samsung.com
+    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
+  server: 159.194.250.154
+  servername: api-maps.yandex.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_30
+  port: 8443
+  reality-opts:
+    public-key: PcqdAYAQmAvcqfSSL1EQl6oHuz1SOVL9fUrzM_5t_Uw
+    short-id: 0da7e14db353e7d0
+  server: 159.194.204.113
+  servername: sbp.nztvpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_31
+  port: 8448
+  reality-opts:
+    public-key: jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U
+    short-id: d681ac08
+  server: 217.19.122.214
+  servername: cdp.x5.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_116
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_43
+  port: 8451
+  reality-opts:
+    public-key: 4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg
+    short-id: 5ea112e8
+  server: 155.212.187.222
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_66
+  port: 8443
+  server: nl.alpheratzz.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_144
   network: ws
   port: 8880
   server: 185.148.104.30
