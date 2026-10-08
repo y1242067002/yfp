@@ -12,10 +12,39 @@ proxies:
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_118
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_34
+  port: 2053
+  reality-opts:
+    public-key: DfFU5OG93GxB1x25Dl2BTkxKsBTFF4Su4PXYPbYvmms
+    short-id: 3c4041d3
+  server: 47.80.19.173
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 319d5ffb-57e8-4bbd-ac0c-5d55d0c253de
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_90
   network: ws
-  port: 2096
-  server: 49.238.238.156
+  port: 443
+  server: 161.118.153.136
+  servername: s4ws.ragingbull.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_133
+  network: ws
+  port: 2053
+  server: 49.238.238.154
   servername: and-75r.pages.dev
   skip-cert-verify: true
   tls: true
@@ -27,10 +56,10 @@ proxies:
       Host: and-75r.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_119
+  name: 29|🇰🇷_韩国_135
   network: ws
-  port: 2053
-  server: 49.238.238.154
+  port: 2096
+  server: 49.238.238.156
   servername: and-75r.pages.dev
   skip-cert-verify: true
   tls: true
