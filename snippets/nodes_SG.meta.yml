@@ -99,3 +99,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  name: 35|SG_1|3.4MB/s
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: ap-south.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f57dfd20-fdf4-4967-9599-aca8433ebd5c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ap-south.862400.xyz
+    max-early-data: 2048
+    path: /announcement
