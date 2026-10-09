@@ -48,31 +48,8 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- flow: xtls-rprx-vision
-  name: 29|🇧🇾_白俄罗斯_10
-  port: 443
-  server: 189.74.124.83
-  servername: console.surfweb.club
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b5e4cbf-2366-499a-8327-0cd9918c687d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_28
-  port: 443
-  reality-opts:
-    public-key: x9yfMdHRe9ZAJJUF9kZnDnO3Y7otoyFBCS9RoaIG3Es
-  server: 159.194.250.154
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0482c9d-ff67-4a43-af8e-76fc5d55c250
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_122
+  name: 29|🇷🇺_俄罗斯_250
   network: ws
   port: 8880
   server: 185.148.104.30
@@ -86,44 +63,28 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /
-- name: 35|RU_1|2.0MB/s
-  port: 443
-  server: 178.219.43.226
+- name: 35|RU_1|1.0MB/s
+  port: 1446
+  server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: random
+- client-fingerprint: safari
   encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇺RU_2|2.6MB/s
-  network: raw
+  grpc-opts:
+    grpc-service-name: astracat
+  name: 35|🇺RU_2|1.2MB/s
+  network: grpc
   packet-encoding: xudp
-  port: 444
+  port: 2088
   reality-opts:
-    public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
-    short-id: ''
-  server: 188.130.209.227
-  servername: vextor.win
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
+  server: 31.59.210.26
+  servername: www.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: a6be94fc-e742-4714-8a38-c8d7410ae066
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_3|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: a62QCCV2nLMEq9Z3Y5IqW4r0EijtioUrbYavzWg901E
-    short-id: 52409c59e2a1167d
-  server: 85.209.135.119
-  servername: srv-1d3e4e.vless.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ee5246a-3995-4676-a77e-c16d208a4f2d
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
   xudp: true

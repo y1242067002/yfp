@@ -40,8 +40,58 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_29
+  port: 443
+  server: s299.kukuss.top
+  servername: u695098u54d73951s298.kukuss.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_30
+  port: 443
+  server: 212.192.15.191
+  servername: u695098u54d73951s298.kukuss.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_105
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_54
+  port: 443
+  reality-opts:
+    public-key: KkSH2hoA6PuNJL5ZNUDGuWoAYe5kIwcGbrbCYuxHTx8
+    short-id: f39ad9d9eb26df47
+  server: 154.37.216.186
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebdec762-050b-4d54-b7bf-0406ce22f734
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_133
+  port: 443
+  reality-opts:
+    public-key: 09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g
+    short-id: ac3342a709db
+  server: 82.29.36.250
+  servername: aws.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41a7af38-0bb1-4493-aa8d-634af0c2548b
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_264
   network: ws
   port: 8443
   server: 103.253.42.37
@@ -55,21 +105,20 @@ proxies:
     headers:
       Host: vlso5.1d.mom
     path: /socks5=888:888@hkip.1d.mom:1080
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_152
+- name: 29|🇭🇰_香港_269
   network: ws
   port: 8443
-  server: 103.253.42.37
-  servername: vlso5.1d.mom
+  server: 103.148.73.173
+  servername: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
   ws-opts:
     headers:
-      Host: vlso5.1d.mom
-    path: /
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - alterId: 0
   cipher: auto
   name: 33|🇭🇰 香港3|@ripaojiedian
@@ -172,3 +221,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|HK_1|3.3MB/s
+  password: ''
+  port: 5555
+  server: 49.0.245.175
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''

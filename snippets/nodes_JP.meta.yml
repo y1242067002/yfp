@@ -25,32 +25,78 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: firefox
+- client-fingerprint: qq
+  name: 29|日期：10-09
+  port: 35306
+  reality-opts:
+    public-key: NHurz_4uphCHgIbrnr3HRzfsq-LmIaPaUopWwHNJ8HU
+    short-id: ceb4496ab0cc7a9f
+  server: f0b7.n9ne.com.tr
+  servername: n9ne.com.tr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e81e1114-99b5-4fea-aafc-84426e845a14
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_7
+  name: 29|🇯🇵_日本_131
   port: 443
-  server: s249.freessr.bid
-  servername: u695098u47d2e9bes71.gogocs.xyz
+  reality-opts:
+    public-key: OlT1w68tTi7XNzNMATIT3O8iPPAB2nSWzbt5R8Nue3c
+    short-id: 8a1f6ded
+  server: 74.82.203.163
+  servername: www.yahoo.co.jp
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- client-fingerprint: android
-  name: 29|🇯🇵_日本_115
+  uuid: dabfcf88-0a4b-43ca-ac7a-a4f44d877bbc
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_140
   network: ws
-  port: 443
-  server: 152.69.199.75
-  servername: proxy-1cu.pages.dev
+  port: 11704
+  server: 36.50.84.115
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  uuid: 74407380-038c-417d-a404-9a9fc1e832fb
   ws-opts:
     headers:
-      Host: proxy-1cu.pages.dev
-    path: /
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_144
+  network: ws
+  port: 4798
+  server: 107.191.53.86
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_164
+  network: ws
+  port: 26418
+  server: 154.31.112.237
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab2a5cc0-11d1-4bc4-a9d4-b5654ad18dc4
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
@@ -104,27 +150,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇵JP_1|2.9MB/s
+- name: 35|JP_1|4.8MB/s
   network: ws
-  packet-encoding: xudp
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
+  server: jp3.998998.best
+  skip-cert-verify: true
+  sni: nat11.outsidemyheart.space
+  type: trojan
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      Host: nat11.outsidemyheart.space
     max-early-data: 2560
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458
-  xudp: true
+    path: /w4e5yh0p945y3

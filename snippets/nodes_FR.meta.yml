@@ -103,46 +103,26 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|FR_1|1.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33303
-  reality-opts:
-    public-key: p6B2mBPsdjNOY64TTplBXRcsrh3sL0SzqVlbyCRR8Us
-    short-id: dd4ef91df2f00d60
-  server: 382d.n9ne.com.tr
-  servername: n9ne.com.tr
+- flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_24
+  port: 443
+  server: tyxyrytyro-51255165170-direct.araghchy.com
+  servername: tyxyrytyro-51255165170-direct.araghchy.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e81e1114-99b5-4fea-aafc-84426e845a14
-  xudp: true
-- name: 35|🇷FR_2|1.9MB/s
-  port: 443
-  server: 82.65.162.76
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 35|🇷FR_1|1.0MB/s
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_3|1.3MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_4|2.8MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_5|2.7MB/s
-  port: 443
-  server: 82.64.255.151
+- name: 35|🇫🇷FR_2|1.1MB/s
+  port: 9443
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
