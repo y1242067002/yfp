@@ -151,6 +151,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 28|🇩🇪190889 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 1vwbgf5t1k61nxmi
+  password: b967bc328fcf453f18d46518f486283b
+  port: 8397
+  server: 193.42.11.245
+  skip-cert-verify: false
+  sni: 193.42.11.245
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_6
@@ -349,18 +359,114 @@ proxies:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_1|1.5MB/s
-  network: raw
+  name: 35|DE_1|1.3MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
-  server: ge-s-1.pythonmakemigreat.wiki
-  servername: ge-s-1.pythonmakemigreat.wiki
+  server: 61.18.134.10
+  servername: mswo-gy191m.zhiyuantech.cloud
   tls: true
   type: vless
   udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  uuid: e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+  ws-opts:
+    headers:
+      Host: mswo-gy191m.zhiyuantech.cloud
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_2|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  server: 13.143.137.206
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_3|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 192.0.63.150
+  servername: bomb.pasta-makers.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f073591-ad53-4f73-89da-bca5379b9b1b
+  ws-opts:
+    headers:
+      Host: bomb.pasta-makers.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws
+  xudp: true
+- name: 35|🇪DE_4|1.8MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_5|3.0MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_6|1.7MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_7|3.4MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩DE_8|1.8MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_9|2.8MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_10|3.0MB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_11|2.4MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
