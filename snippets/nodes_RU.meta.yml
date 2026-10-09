@@ -48,16 +48,6 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
 - flow: xtls-rprx-vision
   name: 29|🇧🇾_白俄罗斯_10
   port: 443
@@ -96,3 +86,44 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /
+- name: 35|RU_1|2.0MB/s
+  port: 443
+  server: 178.219.43.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺RU_2|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 444
+  reality-opts:
+    public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
+    short-id: ''
+  server: 188.130.209.227
+  servername: vextor.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6be94fc-e742-4714-8a38-c8d7410ae066
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_3|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: a62QCCV2nLMEq9Z3Y5IqW4r0EijtioUrbYavzWg901E
+    short-id: 52409c59e2a1167d
+  server: 85.209.135.119
+  servername: srv-1d3e4e.vless.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ee5246a-3995-4676-a77e-c16d208a4f2d
+  xudp: true

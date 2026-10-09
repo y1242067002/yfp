@@ -245,86 +245,97 @@ proxies:
     path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
-  name: 35|DE_1|3.9MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  name: 35|DE_1|1.5MB/s
+  network: tcp
   packet-encoding: xudp
   port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
+  reality-opts:
+    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
+    short-id: ''
+  server: swidenlanzerotte.live
+  servername: swidenlanzerotte.live
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+  uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b
   xudp: true
-- name: 35|🇪DE_2|1.2MB/s
+- name: 35|🇩🇪DE_2|1.7MB/s
   port: 9002
-  server: 158.173.154.1
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_3|2.1MB/s
+- name: 35|🇩🇪DE_3|2.8MB/s
   port: 443
-  server: 149.36.50.129
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_4|3.4MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_5|2.0MB/s
+- name: 35|🇩🇪DE_4|2.3MB/s
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_6|3.3MB/s
-  port: 443
-  server: 193.233.75.115
+- name: 35|🇪DE_5|2.3MB/s
+  port: 9443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_7|3.3MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_8|2.2MB/s
-  network: tcp
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.Ka32K71kTtj9l4beNomUMXKZ1kjfOFCPrgjBuFf90Aw
+  name: 35|🇪DE_6|1.8MB/s
+  network: ws
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: l9b1AQuRbk4WA3hUVHI3mGBW-X5gNKFF72fWvismAS0
-    short-id: ''
-  server: ru-001.zapretu.net
-  servername: ru-001.zapretu.net
+  port: 8443
+  server: dashmaku.jafarghasemiturkk.ir
+  servername: dashmaku.jafarghasemiturkk.ir
   tls: true
   type: vless
   udp: true
-  uuid: eac04622-531b-0007-b85f-3c2ee67565c6
+  uuid: 1623f7dd-b293-4a11-8b80-f7e355c4ccc5
+  ws-opts:
+    headers:
+      Host: dashmaku.jafarghasemiturkk.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  name: 35|🇪DE_7|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 172.67.78.150
+  servername: kv.074167.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kv.074167.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_9|2.0MB/s
+  name: 35|🇩🇪DE_8|3.2MB/s
   network: raw
   packet-encoding: xudp
   port: 443
