@@ -48,6 +48,24 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 28|Telegram @cnetvpn 🇷🇺
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
+- name: 28|🇷🇺190698 | ⚡️Telegram = t.me/S...
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: 94.198.54.132
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 29|🇷🇺_俄罗斯_250
   network: ws
@@ -63,28 +81,30 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /
-- name: 35|RU_1|1.0MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
+- down: ''
+  fingerprint: ''
+  name: 35|🇺RU_1|2.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  type: hysteria2
   udp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: astracat
-  name: 35|🇺RU_2|1.2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2088
-  reality-opts:
-    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
-    short-id: b1ad165f903c62fe
-  server: 31.59.210.26
-  servername: www.yandex.ru
-  tls: true
-  type: vless
+  up: ''
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 35|🇷🇺RU_2|2.9MB/s
+  obfs: ''
+  obfs-password: ''
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: 127.0.0.1
+  type: hysteria2
   udp: true
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  xudp: true
+  up: ''
