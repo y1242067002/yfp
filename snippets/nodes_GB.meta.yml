@@ -81,31 +81,36 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 29|🇬🇧_英国_52
-  password: Trojan@82164024
-  port: 443
-  server: gb.tronsg.com
-  skip-cert-verify: true
-  sni: gb.tronsg.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_139
-  network: ws
-  port: 52014
-  server: 57.129.130.34
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_15
+  port: 26460
+  reality-opts:
+    public-key: rnykCyLboP7HiOwx0Tfo5OSUVaJXbSMOB9MKkEZ_Xh8
+  server: 40.120.36.23
+  servername: addons.mozilla.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 53367702-4b8d-431a-a193-34d7d057a065
+  uuid: 234ff65c-35e8-4ff6-a1e7-cce6acb2f3e2
+- client-fingerprint: firefox
+  name: 29|🇬🇧_英国_96
+  network: ws
+  port: 443
+  server: 5.199.0.226
+  servername: rnxq-1lpi3m.linmeisoft.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
   ws-opts:
     headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
+      Host: rnxq-1lpi3m.linmeisoft.com
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_155
+  name: 29|🇬🇧_英国_106
   network: ws
   port: 31867
   server: 129.151.64.169
@@ -120,7 +125,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_234
+  name: 29|🇬🇧_英国_137
   network: ws
   port: 80
   server: 194.36.55.146
@@ -134,6 +139,21 @@ proxies:
     headers:
       Host: blacklegends.umc-mansur13.workers.dev
     path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_187
+  network: ws
+  port: 52014
+  server: 57.129.130.34
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53367702-4b8d-431a-a193-34d7d057a065
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
 - name: 35|GB_1|2.7MB/s
   port: 443
   server: 84.17.50.193
@@ -141,23 +161,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_2|2.4MB/s
+- name: 35|🇧GB_2|1.9MB/s
   port: 9443
-  server: 84.233.178.33
+  server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|1.7MB/s
+- name: 35|🇬🇧GB_3|1.0MB/s
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_4|1.6MB/s
+- name: 35|🇬🇧GB_4|1.2MB/s
+  password: None
   port: 443
-  server: 212.102.63.31
+  server: 37.120.233.50
   skip-cert-verify: true
   tls: true
   type: http

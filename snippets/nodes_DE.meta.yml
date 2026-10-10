@@ -151,9 +151,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 29|🇩🇪_德国_8
+  port: 2053
+  server: test.keoplentuio.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_21
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_6
+  name: 29|🇩🇪_德国_20
   port: 443
   reality-opts:
     public-key: 9J5SrrBYJ4Tz_zpSM3n-EWuin5jmUqEI8LJ5htsGZy8
@@ -164,50 +186,9 @@ proxies:
   type: vless
   udp: true
   uuid: 579b72a5-785a-4fb6-ac64-1de2f8c49601
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_20
-  port: 443
-  server: s251.wagahaha.xyz
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_22
-  port: 443
-  server: 179.61.138.177
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_19
-  port: 443
-  server: s249.freessr.bid
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: 29|🇩🇪_德国_23
-  port: 45021
-  server: 31.77.148.89
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_34
+  name: 29|🇩🇪_德国_35
   port: 443
   reality-opts:
     public-key: HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY
@@ -221,7 +202,7 @@ proxies:
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_35
+  name: 29|🇩🇪_德国_36
   port: 443
   reality-opts:
     public-key: HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY
@@ -235,7 +216,7 @@ proxies:
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_50
+  name: 29|🇩🇪_德国_64
   port: 443
   reality-opts:
     public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
@@ -247,82 +228,43 @@ proxies:
   type: vless
   udp: true
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: 29|🇩🇪_德国_71
+  port: 8080
+  server: milo.rubinaz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国_55
-  port: 59719
+  name: 29|🇩🇪_德国_74
+  port: 443
   reality-opts:
-    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
-    short-id: 6e6f9fa5decc02
-  server: 189.24.108.152
-  servername: www.sony.lu
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: 2c9a2790ad5900b2
+  server: ge-s-1.pythonmakemigreat.wiki
+  servername: ge-s-1.pythonmakemigreat.wiki
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_142
-  network: ws
-  port: 56879
-  server: 5.75.195.83
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国_89
+  port: 443
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: 0fa4a0e2493392
+  server: defrnode.xyy123.bid
+  servername: p-y3-www-amazon-com-kalias.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 7b0f8733-03cc-472b-9c50-ed159b48ef59
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_149
-  network: ws
-  port: 4443
-  server: 178.105.133.160
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb0818b3-4031-4843-b5f7-1d75177a1758
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_150
-  network: ws
-  port: 7443
-  server: 179.61.251.244
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 635e8406-9253-4444-88a2-dad1f0826034
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国_160
-  network: ws
-  port: 2040
-  server: 188.245.191.19
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d30ba47d-596b-4087-9fa6-a2c9bf4dbe1d
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- name: 29|🇩🇪_德国_200
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+- name: 29|🇩🇪_德国_105
   password: humanity
   port: 443
   server: 45.80.111.7
@@ -333,7 +275,7 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国_263
+  name: 29|🇩🇪_德国_151
   network: ws
   port: 2040
   server: 188.245.191.19
@@ -348,105 +290,69 @@ proxies:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|DE_1|1.7MB/s
+  name: 29|🇩🇪_德国_152
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 61.18.134.10
-  servername: mswo-gy191m.zhiyuantech.cloud
+  port: 56879
+  server: 5.75.195.83
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+  uuid: 7b0f8733-03cc-472b-9c50-ed159b48ef59
   ws-opts:
     headers:
-      Host: mswo-gy191m.zhiyuantech.cloud
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
-  xudp: true
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|3.1MB/s
+  name: 29|🇩🇪_德国_153
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
+  port: 4443
+  server: 178.105.133.160
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: fb0818b3-4031-4843-b5f7-1d75177a1758
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  xudp: true
-- name: 35|🇩🇪DE_3|2.5MB/s
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_155
+  network: ws
+  port: 2040
+  server: 188.245.191.19
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d30ba47d-596b-4087-9fa6-a2c9bf4dbe1d
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国_206
+  network: ws
+  port: 7443
+  server: 179.61.251.244
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 635e8406-9253-4444-88a2-dad1f0826034
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- name: 35|🇩DE_1|2.3MB/s
   password: None
   port: 443
   server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_4|1.5MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_5|2.4MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_6|3.4MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_7|2.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_8|3.0MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_9|2.0MB/s
-  port: 8443
-  server: 188.120.225.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_10|1.9MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_11|2.3MB/s
-  port: 443
-  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http

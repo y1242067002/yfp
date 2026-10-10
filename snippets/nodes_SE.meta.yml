@@ -34,9 +34,9 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_10
+  name: 29|🇸🇪_瑞典_33
   port: 443
   reality-opts:
     public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
@@ -47,9 +47,17 @@ proxies:
   type: vless
   udp: true
   uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b
-- name: 35|🇪SE_1|2.7MB/s
+- name: 35|🇪SE_1|1.5MB/s
+  password: None
   port: 443
-  server: 149.50.216.65
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_2|2.9MB/s
+  port: 443
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http

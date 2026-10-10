@@ -1,6 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 29|🇯🇵_日本_37
+  port: 10001
+  server: jp7.vatilon.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- name: 29|🇯🇵_日本_39
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: jp7.vatilon.cc
+  skip-cert-verify: true
+  sni: jp7.vatilon.cc
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
   network: ws
   port: 443

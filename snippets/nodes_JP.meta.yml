@@ -25,35 +25,74 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- client-fingerprint: qq
-  name: 29|日期：10-09
-  port: 35306
-  reality-opts:
-    public-key: NHurz_4uphCHgIbrnr3HRzfsq-LmIaPaUopWwHNJ8HU
-    short-id: ceb4496ab0cc7a9f
-  server: f0b7.n9ne.com.tr
-  servername: n9ne.com.tr
+- flow: xtls-rprx-vision
+  name: 29|日期：10-10
+  port: 443
+  server: rgiw5k0gg5-1492025789-direct.kheibarr.com
+  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e81e1114-99b5-4fea-aafc-84426e845a14
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_37
+  port: 10001
+  server: jp7.vatilon.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_131
+  name: 29|🇯🇵_日本_38
   port: 443
   reality-opts:
-    public-key: OlT1w68tTi7XNzNMATIT3O8iPPAB2nSWzbt5R8Nue3c
-    short-id: 8a1f6ded
-  server: 74.82.203.163
-  servername: www.yahoo.co.jp
+    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
+    short-id: cfffc6b65acb2ad3
+  server: jpga01.xyy123.bid
+  servername: shop.business.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: dabfcf88-0a4b-43ca-ac7a-a4f44d877bbc
+  uuid: 05453546-201f-4e8d-97ae-fd70da0e951f
+- name: 29|🇯🇵_日本_39
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: jp7.vatilon.cc
+  skip-cert-verify: true
+  sni: jp7.vatilon.cc
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_140
+  name: 29|🇯🇵_日本_42
+  port: 10002
+  server: jp7.vatilon.cc
+  servername: jp7.vatilon.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_88
+  port: 443
+  reality-opts:
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 6d962e8d8a0dce
+  server: japro02.xyy123.bid
+  servername: shop.business.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 440f986b-9469-4d80-adf0-01ba37af73c5
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_134
   network: ws
   port: 11704
   server: 36.50.84.115
@@ -68,22 +107,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_144
-  network: ws
-  port: 4798
-  server: 107.191.53.86
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_164
+  name: 29|🇯🇵_日本_145
   network: ws
   port: 26418
   server: 154.31.112.237
@@ -93,6 +117,21 @@ proxies:
   type: vless
   udp: true
   uuid: ab2a5cc0-11d1-4bc4-a9d4-b5654ad18dc4
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_204
+  network: ws
+  port: 4798
+  server: 107.191.53.86
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
   ws-opts:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
@@ -150,27 +189,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|JP_1|5.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    max-early-data: 2560
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458
-  xudp: true

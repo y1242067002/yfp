@@ -48,8 +48,19 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_13
+  port: 8443
+  server: 196.240.125.251
+  servername: api-v1-6ac7858f.vmagnum.win
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_250
+  name: 29|🇷🇺_俄罗斯_167
   network: ws
   port: 8880
   server: 185.148.104.30
@@ -63,17 +74,49 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /
-- name: 35|🇷RU_1|3.4MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 35|RU_1|1002KB/s
+  network: xhttp
+  port: 2053
+  server: 78.159.246.85
+  servername: fitindoor.net
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇺RU_2|3.0MB/s
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇷🇺RU_2|1.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 2053
+  server: fitindoor.net
+  servername: fitindoor.net
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true

@@ -103,58 +103,10 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_24
-  port: 443
-  server: tyxyrytyro-51255165170-direct.araghchy.com
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  name: 35|FR_1|3.3MB/s
-  network: ws
-  port: 995
-  server: 95.133.247.98
-  servername: love-paris.roxa.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
-  ws-opts:
-    headers:
-      Host: love-paris.roxa.org
-    path: /api/v1
-    v2ray-http-upgrade: true
-- name: 35|🇷FR_2|1.5MB/s
-  port: 443
-  server: 82.66.235.221
+- name: 35|🇷FR_1|1.8MB/s
+  port: 9443
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_3|3.5MB/s
-  port: 443
-  server: 82.64.255.151
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_4|2.4MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_5|2.0MB/s
-  password: ''
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
