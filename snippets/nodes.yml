@@ -1071,17 +1071,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    path:
-    - /
-  name: 35|KR_1|4.0MB/s
-  network: http
-  port: 123
-  server: 43.108.103.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 35|TW_1|4.5MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 211.72.214.20
+  type: ss
   udp: true
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
