@@ -151,14 +151,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 28|🇩🇪191753 | ⚡️Telegram = t.me/S...
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_15
@@ -371,3 +363,77 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: VideoRenderer
+  name: 35|DE_1|1.3MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: renderer-bridge-2-114.mirra.now
+  servername: renderer-bridge-2-114.mirra.now
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  xudp: true
+- name: 35|🇪DE_2|3.8MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_3|2.4MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_4|2.8MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_5|3.4MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_6|3.3MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_7|2.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_8|2.4MB/s
+  port: 443
+  server: 37.203.35.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_9|1.9MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
