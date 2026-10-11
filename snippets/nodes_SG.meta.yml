@@ -17,21 +17,7 @@ proxies:
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡_16
-  port: 443
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: feedbacc
-  server: sg.fasti.win
-  servername: sg.fasti.win
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_40
+  name: 29|🇸🇬_新加坡_26
   port: 443
   reality-opts:
     public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
@@ -43,29 +29,9 @@ proxies:
   type: vless
   udp: true
   uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡_58
-  port: 10001
-  server: sy.australiacaregroup.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡_69
-  port: 10001
-  server: 62.146.233.139
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡_79
+  name: 29|🇸🇬_新加坡_28
   port: 41202
   reality-opts:
     public-key: Qy3mbHGSK-cWrJ_Dsaj-R8ydGtWo4lr3EtAvrEWv3mo
@@ -76,23 +42,28 @@ proxies:
   type: vless
   udp: true
   uuid: f0e2feb9-cbe0-49fc-a148-8ec97cb0f948
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_108
-  network: ws
-  port: 10002
-  server: 159.australiacaregroup.site
-  servername: 159.australiacaregroup.site
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡_35
+  port: 36031
+  server: gz2.vatilon.cc
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
   uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  ws-opts:
-    headers:
-      Host: 159.australiacaregroup.site
-    path: /vless
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡_39
+  port: 10001
+  server: 62.146.233.139
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_148
+  name: 29|🇸🇬_新加坡_102
   network: ws
   port: 51262
   server: 175.41.179.37
@@ -107,37 +78,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_168
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: kv.074167.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_173
-  network: ws
-  port: 627
-  server: 142.91.101.39
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8199228b-e84b-42a2-9268-e400391e483a
-  ws-opts:
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_182
+  name: 29|🇸🇬_新加坡_122
   network: ws
   port: 627
   server: 142.91.101.39
@@ -151,21 +92,21 @@ proxies:
     headers:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
     path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡_183
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_128
   network: ws
-  port: 10001
-  server: 159.australiacaregroup.site
+  port: 627
+  server: 142.91.101.39
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  uuid: 8199228b-e84b-42a2-9268-e400391e483a
   ws-opts:
     headers:
-      Host: 159.australiacaregroup.site
-    path: /vmess
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 33|🇸🇬 新加坡|@ripaojiedian
@@ -204,3 +145,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|🇬SG_1|1.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.151.242.187
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'

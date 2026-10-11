@@ -25,41 +25,63 @@ proxies:
   sni: vpn-jp-001.fastervpn.world
   type: hysteria2
   udp: true
-- flow: xtls-rprx-vision
-  name: 29|日期：10-10
-  port: 443
-  server: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  servername: rgiw5k0gg5-1492025789-direct.kheibarr.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本_37
-  port: 10001
-  server: jp7.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_38
+  name: 29|🇯🇵_日本_7
   port: 443
   reality-opts:
-    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
-    short-id: cfffc6b65acb2ad3
-  server: jpga01.xyy123.bid
-  servername: shop.business.amazon.com
+    public-key: DbiBFFM_s7eBSN20U4fxvliZdcBfV2_41T_PWX2mrj0
+    short-id: 708f353722c36d17
+  server: 158.179.191.37
+  servername: www.apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 05453546-201f-4e8d-97ae-fd70da0e951f
-- name: 29|🇯🇵_日本_39
+  uuid: 53f1e11a-2b55-43f0-953f-d44c5fba92b6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_8
+  port: 443
+  reality-opts:
+    public-key: FE18081Cm-WUzpu6JyGpmlJqHEZpDmeWCAcisuRKtX4
+    short-id: e295fe30ac8e9c41
+  server: 141.147.150.232
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf6f8771-654f-4072-a1c9-dadb3b36da56
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_9
+  port: 443
+  reality-opts:
+    public-key: zRYILDpfkddIbXYu10kE3d-NouoDNvQR_Rq9UPx-lyM
+    short-id: ed9e79c488173f57
+  server: 161.33.37.121
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fea92fee-3202-43bf-bca5-ff06db0f95c0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_10
+  port: 2053
+  reality-opts:
+    public-key: FE18081Cm-WUzpu6JyGpmlJqHEZpDmeWCAcisuRKtX4
+    short-id: 2235c8526bc59d67
+  server: 141.147.150.232
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fa13a9f7-5cba-4dca-b6b7-c14953f0ac65
+- name: 29|🇯🇵_日本_27
   password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
   port: 10003
   server: jp7.vatilon.cc
@@ -68,46 +90,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_42
-  port: 10002
-  server: jp7.vatilon.cc
-  servername: jp7.vatilon.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_88
-  port: 443
-  reality-opts:
-    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
-    short-id: 6d962e8d8a0dce
-  server: japro02.xyy123.bid
-  servername: shop.business.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 440f986b-9469-4d80-adf0-01ba37af73c5
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_134
-  network: ws
-  port: 11704
-  server: 36.50.84.115
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74407380-038c-417d-a404-9a9fc1e832fb
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_145
+  name: 29|🇯🇵_日本_97
   network: ws
   port: 26418
   server: 154.31.112.237
@@ -122,7 +105,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_204
+  name: 29|🇯🇵_日本_127
   network: ws
   port: 4798
   server: 107.191.53.86
@@ -189,3 +172,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|JP_1|5.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2560
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458
+  xudp: true

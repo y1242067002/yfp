@@ -32,64 +32,9 @@ proxies:
   type: vless
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大_29
-  port: 443
-  reality-opts:
-    public-key: NO3w10fOUvwK8L7vzCVPDLWIKYCHDaB6ealdMnv4jS4
-    short-id: e287e3906e3c
-  server: 209.200.246.61
-  servername: ca.vpnskyline.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab9929fd-ab22-48e3-8723-480733c0eca9
-- client-fingerprint: chrome
-  name: 29|🇨🇦_加拿大_176
-  network: ws
-  port: 443
-  server: 23.227.39.171
-  servername: c379b284.vs-494.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|CA_1|2.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.21.70.22
-  servername: brightlux.forum
-  tls: true
-  type: vless
-  udp: true
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  ws-opts:
-    headers:
-      Host: brightlux.forum
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /raccoonwsvless
-  xudp: true
-- name: 35|🇦CA_2|2.4MB/s
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_4|2.5MB/s
+- name: 35|CA_1|1.0MB/s
   port: 9443
-  server: 149.88.98.81
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http

@@ -58,56 +58,100 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_13
-  port: 8443
-  server: 196.240.125.251
-  servername: api-v1-6ac7858f.vmagnum.win
+  name: 29|🇷🇺_俄罗斯_62
+  port: 443
+  reality-opts:
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: 1067b23f928e7618
+  server: 200.165.229.159
+  servername: flarora.ferreo.sbs
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_167
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+- name: 29|🇷🇺_俄罗斯_165
   network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_166
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- name: 29|🇷🇺_俄罗斯_187
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
     headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺RU_1|2.0MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2053
-  server: fitindoor.net
-  servername: fitindoor.net
+      Host: ru05.abvpn.ru
+    path: /websocket
+- name: 29|🇷🇺_俄罗斯_191
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: fitindoor.net
-    mode: auto
-    path: /api/v1/upload
-    reuse-settings:
-      c-max-reuse-times: 64-128
-      max-concurrency: 16-32
-      max-connections: '0'
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯_209
+  network: ws
+  port: 443
+  server: 5.188.26.85
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯_212
+  network: ws
+  port: 443
+  server: 80.240.252.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket

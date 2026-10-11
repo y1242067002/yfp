@@ -34,23 +34,30 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- client-fingerprint: qq
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_33
+  name: 29|🇸🇪_瑞典_51
   port: 443
   reality-opts:
-    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
-  server: swidenlanzerotte.live
-  servername: swidenlanzerotte.live
+    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+    short-id: fb442438e2223836
+  server: 5.157.10.146
+  servername: sweb1.loozerp.wiki
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b
-- name: 35|🇪SE_1|3.0MB/s
-  port: 443
-  server: 146.70.242.130
+  uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典_169
+  network: ws
+  port: 8443
+  server: 167.104.104.138
+  servername: n.tmkkarss.online
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: a5194487-9b9a-462f-a047-ac7580d80201
+  ws-opts:
+    path: /
