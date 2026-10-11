@@ -363,59 +363,49 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: VideoRenderer
-  name: 35|DE_1|1.3MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  server: renderer-bridge-2-114.mirra.now
-  servername: renderer-bridge-2-114.mirra.now
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-  xudp: true
-- name: 35|🇪DE_2|3.8MB/s
+- name: 35|DE_1|3.5MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_3|2.4MB/s
-  port: 9443
+- name: 35|🇪DE_2|3.4MB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_3|1020KB/s
+  port: 443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_4|2.8MB/s
-  port: 9443
-  server: 79.127.156.177
+- name: 35|🇪DE_4|2.2MB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_5|3.4MB/s
+- name: 35|🇩🇪DE_5|3.2MB/s
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_6|3.3MB/s
+- name: 35|🇪DE_6|2.7MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_7|2.7MB/s
+- name: 35|🇪DE_7|1.1MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -423,17 +413,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_8|2.4MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_8|1.9MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 37.203.35.28
-  skip-cert-verify: true
+  server: spiderpanel-development-g5884.lucity.app
+  servername: spiderpanel-development-g5884.lucity.app
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇪DE_9|1.9MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: cd0bd679-5760-4dd6-9340-576dd279228f
+  ws-opts:
+    headers:
+      Host: spiderpanel-development-g5884.lucity.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ws/cd0bd679-5760-4dd6-9340-576dd279228f
+  xudp: true
