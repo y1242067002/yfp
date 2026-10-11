@@ -48,6 +48,16 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 28|Telegram @cnetvpn 🇷🇺
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_13
@@ -74,47 +84,30 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: 35|RU_1|3.0MB/s
+  name: 35|🇺RU_1|2.0MB/s
   network: xhttp
   packet-encoding: xudp
-  port: 8468
-  reality-opts:
-    public-key: mLNQ8cirYSUCtYa5485RnCPzrmp2OfkI0ENmweDxJQc
-    short-id: 6ba85179e30d4fc2
-  server: 188.225.77.143
-  servername: ads.x5.ru
+  port: 2053
+  server: fitindoor.net
+  servername: fitindoor.net
   tls: true
   type: vless
   udp: true
-  uuid: 40c12ce6-b1c6-424e-862e-010a4585ff52
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
   xhttp-opts:
+    host: fitindoor.net
     mode: auto
-    path: /xh
-  xudp: true
-- name: 35|🇷RU_2|1.1MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ru-api
-  name: 35|🇺RU_3|3.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: ''
-  server: 93.188.184.150
-  servername: ru-1-2.unturned-rust-dead.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+    path: /api/v1/upload
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
   xudp: true
