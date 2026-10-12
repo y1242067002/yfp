@@ -17,53 +17,22 @@ proxies:
   type: vless
   uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_26
+  name: 29|🇸🇬_新加坡_104
+  network: ws
   port: 443
-  reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: eb97ce837da2f6ad
-  server: 34.87.113.18
-  servername: www.cloudflare.com
+  server: 43.174.195.1
+  servername: kv.074167.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡_28
-  port: 41202
-  reality-opts:
-    public-key: Qy3mbHGSK-cWrJ_Dsaj-R8ydGtWo4lr3EtAvrEWv3mo
-  server: 20.212.105.115
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0e2feb9-cbe0-49fc-a148-8ec97cb0f948
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡_35
-  port: 36031
-  server: gz2.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡_39
-  port: 10001
-  server: 62.146.233.139
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_102
+  name: 29|🇸🇬_新加坡_105
   network: ws
   port: 51262
   server: 175.41.179.37
@@ -78,22 +47,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_122
-  network: ws
-  port: 627
-  server: 142.91.101.39
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
-  ws-opts:
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡_128
+  name: 29|🇸🇬_新加坡_119
   network: ws
   port: 627
   server: 142.91.101.39
@@ -103,6 +57,21 @@ proxies:
   type: vless
   udp: true
   uuid: 8199228b-e84b-42a2-9268-e400391e483a
+  ws-opts:
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡_121
+  network: ws
+  port: 627
+  server: 142.91.101.39
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
   ws-opts:
     headers:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
@@ -145,25 +114,26 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|SG_1|1.3MB/s
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸🇬SG_2|1.1MB/s
+- name: 35|🇸SG_1|5.0MB/s
   password: '!!str 1234'
   port: 2080
-  server: 54.151.242.187
+  server: 54.255.129.221
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- name: 35|🇸🇬SG_3|1.4MB/s
+- name: 35|🇬SG_2|1.8MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.186.198
+  server: 13.250.8.222
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇬SG_3|4.4MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.235.123
   skip-cert-verify: true
   type: http
   udp: true

@@ -48,9 +48,31 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_26
+  port: 8443
+  server: nl.alpheratzz.org
+  servername: api-v1-6aca6fae.vmagnum.win
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bda2ae7-b597-4704-95a8-29c0f76324ba
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯_38
+  port: 443
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  server: 46.182.24.15
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12e95f93-443c-0002-9a2a-5b318b9124cf
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_62
+  name: 29|🇷🇺_俄罗斯_57
   port: 443
   reality-opts:
     public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
@@ -62,7 +84,22 @@ proxies:
   type: vless
   udp: true
   uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
-- name: 29|🇷🇺_俄罗斯_165
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_135
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
+- name: 29|🇷🇺_俄罗斯_163
   network: ws
   port: 443
   server: 45.9.15.206
@@ -75,7 +112,7 @@ proxies:
   ws-opts:
     path: /websocket
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_166
+  name: 29|🇷🇺_俄罗斯_164
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -87,7 +124,7 @@ proxies:
   uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
   ws-opts:
     path: /websocket
-- name: 29|🇷🇺_俄罗斯_187
+- name: 29|🇷🇺_俄罗斯_185
   network: ws
   port: 443
   server: ru05.abvpn.ru
@@ -101,7 +138,7 @@ proxies:
     headers:
       Host: ru05.abvpn.ru
     path: /websocket
-- name: 29|🇷🇺_俄罗斯_191
+- name: 29|🇷🇺_俄罗斯_189
   network: ws
   port: 443
   server: 45.9.15.206
@@ -117,7 +154,7 @@ proxies:
     path: /websocket
 - alterId: 0
   cipher: auto
-  name: 29|🇷🇺_俄罗斯_209
+  name: 29|🇷🇺_俄罗斯_207
   network: ws
   port: 443
   server: 5.188.26.85
@@ -132,7 +169,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 29|🇷🇺_俄罗斯_212
+  name: 29|🇷🇺_俄罗斯_210
   network: ws
   port: 443
   server: 80.240.252.241
@@ -145,48 +182,12 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇺RU_1|2.9MB/s
-  network: xhttp
-  packet-encoding: xudp
+- auth: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  name: 35|RU_1|3.9MB/s
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
-  server: fitindoor.net
-  servername: fitindoor.net
-  tls: true
-  type: vless
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: match-stream.lovkisport.blog
+  type: hysteria2
   udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: fitindoor.net
-    mode: auto
-    path: /api/v1/upload
-    reuse-settings:
-      c-max-reuse-times: 64-128
-      max-concurrency: 16-32
-      max-connections: '0'
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ru-api
-  name: 35|🇺RU_2|1.1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-    short-id: ''
-  server: 93.188.184.150
-  servername: ru-1-2.unturned-rust-dead.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-  xudp: true
