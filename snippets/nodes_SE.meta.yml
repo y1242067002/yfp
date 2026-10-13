@@ -34,30 +34,65 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-- client-fingerprint: chrome
+- alpn:
+  - h3
+  name: 28| @MDvpnSEC
+  obfs: salamander
+  obfs-password: 8foko94vimvype1w
+  password: 2iv39iey4nw13btu
+  port: 53423
+  server: 185.83.112.145
+  skip-cert-verify: false
+  sni: 185.83.112.145
+  tls: false
+  type: hysteria2
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典_46
+  name: 29|🇸🇪_瑞典_18
   port: 443
   reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  server: 5.157.10.146
-  servername: sweb1.loozerp.wiki
+    public-key: Sikc1gu5t_uwitf1xTTChP9tpT_sjY530p2tioHbmz0
+    short-id: 3b20e438da99
+  server: swe.wizard.select
+  servername: swe.wizard.select
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+  uuid: 3db6eb7e-c548-11f1-9902-a337233c6cda
 - client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典_167
-  network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典_211
+  port: 443
+  reality-opts:
+    public-key: ftglT-Ghp2FPiPlwyEAldfiAE1IL_AJ9UCkfCj0zk2I
+    short-id: a83b77e064761e3c
+  server: 46.246.125.153
+  servername: res.cdn.office.net
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    path: /
+  uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
+- name: 35|SE_1|2.9MB/s
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸🇪SE_2|2.4MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_3|1.8MB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
