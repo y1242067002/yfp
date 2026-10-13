@@ -48,16 +48,6 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_10
@@ -225,3 +215,18 @@ proxies:
     headers:
       Host: vms.lifetime55.workers.dev
     path: /
+- name: 35|RU_1|3.2MB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺RU_2|1.9MB/s
+  password: ''
+  port: 443
+  server: 31.129.107.119
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
