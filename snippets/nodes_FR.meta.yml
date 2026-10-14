@@ -103,18 +103,9 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_96
-  port: 443
-  server: 51.255.165.170
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_103
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国_22
   port: 443
   server: 193.70.85.96
   servername: 7q4eiwcseu-193708596-direct.rahbarii.com
@@ -122,48 +113,34 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 58756a39-0472-5f8a-89e3-a80fa94af59e
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_126
-  port: 443
-  server: 7q4eiwcseu-193708596-direct.rahbarii.com
-  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_146
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_220
+  network: ws
   port: 443
-  server: tyxyrytyro-51255165170-direct.araghchy.com
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
+  server: 213.176.66.184
+  servername: vp58.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_155
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳 @VPNine1
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_236
+  network: ws
   port: 443
-  server: 51.255.166.202
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
+  server: 185.193.89.62
+  servername: vp58.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 593bf46b-8316-5050-9357-d8a41e4db78b
-- name: 35|FR_1|2.3MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_2|1.2MB/s
-  port: 8090
-  server: 80.124.109.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳 @VPNine1

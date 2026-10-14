@@ -32,59 +32,45 @@ proxies:
   type: vless
   udp: true
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-- name: 29|🇨🇦_加拿大_220
+- name: 29|🇨🇦_加拿大_110
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: 29|🇨🇦_加拿大_111
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  servername: old-violet-a5ce.29-440.workers.dev
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 29|🇨🇦_加拿大_245
   network: ws
   port: 443
-  server: 65.49.231.108
-  servername: rnxq-1lpi3m.linmeisoft.com
+  server: 40.233.116.225
+  servername: vp58.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- name: 35|CA_1|1.1MB/s
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_2|2.0MB/s
-  port: 443
-  server: 35.183.131.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_3|1.2MB/s
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨🇦CA_4|1.7MB/s
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_5|1.3MB/s
-  port: 443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨🇦CA_6|1.7MB/s
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+      Host: vp58.cc.cd
+    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
