@@ -48,16 +48,6 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: random
   name: 29|🇷🇺_俄罗斯_15
   port: 25633
@@ -171,3 +161,16 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳 @VPNine1
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|RU_1|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: storage.fatcutecat.net
+  servername: storage.fatcutecat.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81ee7b74-7ccd-4ccb-8f4b-f1bd02f0491e
+  xudp: true
