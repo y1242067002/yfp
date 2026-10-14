@@ -144,14 +144,21 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: /Telegram🇨🇳 @VPNine1
-- name: 35|🇷FR_1|1.1MB/s
+- name: 35|🇷FR_1|1.4MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_2|1.4MB/s
+- name: 35|🇷FR_2|1.8MB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇫🇷FR_3|1.1MB/s
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
@@ -159,18 +166,17 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇫🇷FR_3|1.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 14430
-  server: 46.226.166.208
-  type: vless
+- name: 35|🇷FR_4|1.9MB/s
+  port: 443
+  server: 82.64.255.151
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: af827fd0-6381-426f-bc5e-dcd9a7baeaac
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /vless
-  xudp: true
+- name: 35|🇷FR_5|2.4MB/s
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

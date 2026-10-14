@@ -555,7 +555,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|SG_1|4.6MB/s
+- name: 35|🇸🇬SG_2|2.2MB/s
   password: '!!str 1234'
   port: 2080
   server: 54.251.149.207
@@ -563,11 +563,53 @@ proxies:
   type: http
   udp: true
   username: '1234'
-- name: 35|🇸🇬SG_2|4.1MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 54.169.228.182
+- name: 35|🇬SG_3|2.3MB/s
+  port: 9443
+  server: 152.233.9.239
   skip-cert-verify: true
+  tls: true
   type: http
   udp: true
-  username: '1234'
+- name: 35|🇸🇬SG_4|2.0MB/s
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇬SG_5|3.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: Aim7HqTuvNOofcsx.v.3dns.vip
+  servername: Aim7HqTuvNOofcsx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+  ws-opts:
+    headers:
+      Host: Aim7HqTuvNOofcsx.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 35|🇸🇬SG_6|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 5FPTMOqdtsxQRFmA.v.3dns.vip
+  servername: 5FPTMOqdtsxQRFmA.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: 5FPTMOqdtsxQRFmA.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
