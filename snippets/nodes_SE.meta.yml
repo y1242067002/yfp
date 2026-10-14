@@ -74,24 +74,25 @@ proxies:
   type: vless
   udp: true
   uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
-- name: 35|SE_1|3.0MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪SE_2|1.9MB/s
+- name: 35|SE_1|1.3MB/s
   port: 443
   server: 217.210.129.243
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_3|1.2MB/s
+- name: 35|🇪SE_2|1.0MB/s
   password: None
   port: 443
   server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_3|1.9MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http

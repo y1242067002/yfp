@@ -46,16 +46,44 @@ proxies:
     headers:
       Host: rnxq-1lpi3m.linmeisoft.com
     path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-- name: 35|🇨CA_1|1.0MB/s
-  port: 443
-  server: 206.223.183.21
+- name: 35|CA_1|1.1MB/s
+  port: 9443
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇦CA_2|3.2MB/s
+- name: 35|🇦CA_2|2.0MB/s
   port: 443
-  server: 206.223.161.47
+  server: 35.183.131.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇦CA_3|1.2MB/s
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇨🇦CA_4|1.7MB/s
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇦CA_5|1.3MB/s
+  port: 443
+  server: 23.169.224.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇨🇦CA_6|1.7MB/s
+  port: 9443
+  server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http

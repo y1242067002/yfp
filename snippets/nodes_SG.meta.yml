@@ -183,16 +183,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|🇬SG_1|2.6MB/s
-  port: 9443
-  server: 149.88.99.209
+- name: 35|🇬SG_1|1.8MB/s
+  network: ws
+  port: 80
+  server: free.sahanwickramasinghe.me
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: vless
   udp: true
-- name: 35|🇸🇬SG_2|1.3MB/s
-  port: 443
-  server: 156.146.56.97
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  ws-opts:
+    headers:
+      Host: free.sahanwickramasinghe.me
+    path: /
+- name: 35|🇬SG_2|1.9MB/s
+  port: 9443
+  server: 152.233.9.239
   skip-cert-verify: true
   tls: true
   type: http
