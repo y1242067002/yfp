@@ -528,34 +528,10 @@ proxies:
     headers:
       Host: free.sahanwickramasinghe.me
     path: /
-- name: 35|DE_1|1.3MB/s
+- name: 35|🇪DE_1|1.0MB/s
   port: 443
-  server: 213.177.229.161
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_2|1.5MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪DE_3|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
-    short-id: ''
-  server: 45.131.212.151
-  servername: de.lstu.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aefad36-749b-401c-8b3b-547ef7d2253e
-  xudp: true
