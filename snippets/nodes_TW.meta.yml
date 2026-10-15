@@ -1,7 +1,10 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾_101
+  name: 29,35|HK_1|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 32134
   reality-opts:
     public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
@@ -13,6 +16,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+  xudp: true
 - client-fingerprint: random
   name: 29|🇹🇼_台湾_122
   port: 25633
