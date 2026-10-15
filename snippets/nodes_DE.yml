@@ -11,12 +11,12 @@ proxies:
     path: /assignment
 - alterId: '0'
   cipher: auto
-  name: 35|🇩🇪DE_6|3.1MB/s
+  name: 35|DE_1|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: EwKrslzTlAZVqwb1.v.3dns.vip
-  servername: EwKrslzTlAZVqwb1.v.3dns.vip
+  server: AUSbEb7vTjqR13wy.v.3dns.vip
+  servername: AUSbEb7vTjqR13wy.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -24,6 +24,24 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: EwKrslzTlAZVqwb1.v.3dns.vip
+      Host: AUSbEb7vTjqR13wy.v.3dns.vip
+    path: /ws-vmess
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 35|🇩🇪DE_2|2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 9WEXvuEOsTlJWUrS.v.3dns.vip
+  servername: 9WEXvuEOsTlJWUrS.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 9WEXvuEOsTlJWUrS.v.3dns.vip
     path: /ws-vmess
   xudp: true

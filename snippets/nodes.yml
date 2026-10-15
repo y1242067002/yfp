@@ -809,23 +809,14 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|KR_1|3.5MB/s
-  network: tcp
-  password: Trojan@82164024
-  port: 443
-  server: kr.tronsg.com
-  skip-cert-verify: true
-  sni: kr.tronsg.com
-  type: trojan
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 35|🇩🇪DE_6|3.1MB/s
+  name: 35|DE_1|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: EwKrslzTlAZVqwb1.v.3dns.vip
-  servername: EwKrslzTlAZVqwb1.v.3dns.vip
+  server: AUSbEb7vTjqR13wy.v.3dns.vip
+  servername: AUSbEb7vTjqR13wy.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -833,60 +824,49 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: EwKrslzTlAZVqwb1.v.3dns.vip
+      Host: AUSbEb7vTjqR13wy.v.3dns.vip
     path: /ws-vmess
   xudp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 35|🇬SG_5|3.9MB/s
+  name: 35|🇩🇪DE_2|2.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: Aim7HqTuvNOofcsx.v.3dns.vip
-  servername: Aim7HqTuvNOofcsx.v.3dns.vip
+  server: 9WEXvuEOsTlJWUrS.v.3dns.vip
+  servername: 9WEXvuEOsTlJWUrS.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: Aim7HqTuvNOofcsx.v.3dns.vip
+      Host: 9WEXvuEOsTlJWUrS.v.3dns.vip
     path: /ws-vmess
   xudp: true
+- cipher: aes-256-gcm
+  name: 35|RU_1|2.0MB/s
+  password: 994ccabf6f0950d6
+  port: 20111
+  server: 89.125.103.208
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 35|🇸US_23|3.9MB/s
+  name: 35|🇸US_12|1.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 0FN8ne0VXwJLjT6E.v.3dns.vip
-  servername: 0FN8ne0VXwJLjT6E.v.3dns.vip
+  server: 48qGxDnaVNcrf0L5.v.3dns.vip
+  servername: 48qGxDnaVNcrf0L5.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: 1d84e480-8fd2-4fae-96de-e46fe36ffe86
+  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
   ws-opts:
     headers:
-      Host: 0FN8ne0VXwJLjT6E.v.3dns.vip
-    path: /ws-vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 35|🇸🇬SG_6|1.4MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 5FPTMOqdtsxQRFmA.v.3dns.vip
-  servername: 5FPTMOqdtsxQRFmA.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: 5FPTMOqdtsxQRFmA.v.3dns.vip
+      Host: 48qGxDnaVNcrf0L5.v.3dns.vip
     path: /ws-vmess
   xudp: true
