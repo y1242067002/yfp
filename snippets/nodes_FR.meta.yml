@@ -103,82 +103,18 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_22
-  port: 443
-  server: 193.70.85.96
-  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 29|🇫🇷_法国_220
+  name: 29|🇫🇷_法国_226
   network: ws
-  port: 443
-  server: 213.176.66.184
-  servername: vp58.cc.cd
+  port: 14430
+  server: 138.124.70.41
+  servername: 138.124.70.41
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
   ws-opts:
     headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳 @VPNine1
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_236
-  network: ws
-  port: 443
-  server: 185.193.89.62
-  servername: vp58.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳 @VPNine1
-- name: 35|FR_1|1.6MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_2|3.5MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_3|1.7MB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_4|3.4MB/s
-  password: ''
-  port: 8082
-  server: 213.199.46.59
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇷FR_5|1.3MB/s
-  password: ''
-  port: 4402
-  server: 45.74.31.41
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
+      Host: 138.124.70.41
+    path: /vless
