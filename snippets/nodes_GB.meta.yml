@@ -122,20 +122,39 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|GB_1|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-    short-id: '20'
-  server: uk2.oh-node.com
-  servername: www.bp.com
+- name: 35|🇧GB_1|2.0MB/s
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
-  xudp: true
+- name: 35|🇧GB_2|1.5MB/s
+  password: None
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_3|3.2MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_4|1.9MB/s
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_5|2.7MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
