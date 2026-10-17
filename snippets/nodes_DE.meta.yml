@@ -293,9 +293,23 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- name: 35|🇪DE_1|1.2MB/s
-  port: 9443
+- name: 35|DE_1|1.4MB/s
+  port: 443
   server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_2|3.0MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_3|1.5MB/s
+  port: 443
+  server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
