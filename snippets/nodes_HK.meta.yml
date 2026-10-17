@@ -42,7 +42,35 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_106
+  name: 29|🇭🇰_香港_19
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_41
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 213.176.92.168
+  servername: video.yandex.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_43
   port: 2062
   reality-opts:
     public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
@@ -55,21 +83,7 @@ proxies:
   udp: true
   uuid: d83592a3-a94f-4f7e-b105-b3deedde2a7a
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_107
-  port: 2061
-  reality-opts:
-    public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
-    short-id: c77f719b082817e4
-  server: 103.41.7.43
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_133
+  name: 29|🇭🇰_香港_103
   network: ws
   port: 8443
   server: 43.254.218.158
@@ -83,21 +97,8 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- name: 29|🇭🇰_香港_156
-  network: ws
-  port: 8880
-  server: 64.90.19.100
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2cf38a12-578c-46d7-82da-e3835e40d791
-  ws-opts:
-    headers:
-      Host: hui666.eu.cc
-    path: /assets/js/main.js
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_274
+  name: 29|🇭🇰_香港_104
   network: ws
   port: 8443
   server: 38.207.184.103
@@ -213,3 +214,12 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|HK_1|2.2MB/s
+  password: ''
+  port: 3128
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''

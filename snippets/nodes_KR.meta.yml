@@ -11,18 +11,8 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_86
-  port: 123
-  server: 43.108.103.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_243
+  name: 29|🇰🇷_韩国_112
   network: ws
   port: 8443
   server: 134.185.100.238
@@ -36,6 +26,21 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_113
+  network: ws
+  port: 16034
+  server: 220.71.172.2
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfa5cd1f-1465-4850-b7c9-08e1a63dac2c
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 33|🇰🇷 韩国|@ripaojiedian
