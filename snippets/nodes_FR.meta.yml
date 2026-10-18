@@ -169,49 +169,7 @@ proxies:
     headers:
       Host: farancenew.mamadhpbot.ir
     path: /real
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|FR_1|1.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.117.22
-  servername: api.videolaguna.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-- name: 35|🇷FR_3|3.5MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_4|2.7MB/s
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_5|3.2MB/s
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_6|1.5MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_7|2.1MB/s
+- name: 35|🇷FR_1|1.7MB/s
   password: None
   port: 443
   server: 149.102.245.65
@@ -219,3 +177,18 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 35|🇫🇷FR_2|3.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.36.20
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
