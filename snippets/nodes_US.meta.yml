@@ -742,7 +742,39 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_12
+  name: 29,35|US_1|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: 152.232.57.10
+  servername: api.videobereg.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 29,35|🇸US_15|3.5MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: api.videobereg.cc
+  servername: api.videobereg.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国_29
   port: 443
   reality-opts:
     public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
@@ -754,55 +786,26 @@ proxies:
   type: vless
   udp: true
   uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国_25
-  port: 443
-  reality-opts:
-    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
-    short-id: 2c9a2790ad5900b2
-  server: ge-s-1.pythonmakemigreat.wiki
-  servername: ge-s-1.pythonmakemigreat.wiki
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_124
+- client-fingerprint: random
+  name: 29|🇺🇸_美国_43
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+  server: 38.207.177.204
+  servername: 20664.pages.dev
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
+      Host: 20664.pages.dev
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_96
+  name: 29|🇺🇸_美国_48
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_51
-  network: ws
-  port: 8443
-  server: 198.2.237.25
+  server: 38.55.199.128
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -813,102 +816,20 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  encryption: none
-  name: 29,35|DE_1|4.0MB/s
+- name: 29|🇺🇸_美国_60
   network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
+  port: 8880
+  server: 63.141.128.30
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      Host: vms.lifetime42.workers.dev
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_60
-  network: ws
-  port: 10238
-  server: 156.229.163.237
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c82c21f8-d0e5-4705-a206-4e9e027a920e
-  ws-opts:
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_70
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_97
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_94
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_76
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- name: 29|🇺🇸_美国_78
+- name: 29|🇺🇸_美国_61
   network: ws
   port: 443
   server: 216.24.57.1
@@ -921,10 +842,10 @@ proxies:
   ws-opts:
     path: /id-amz
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_100
+  name: 29|🇺🇸_美国_63
   network: ws
-  port: 443
-  server: 162.159.135.234
+  port: 8443
+  server: 179.253.239.46
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -936,10 +857,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_101
+  name: 29|🇺🇸_美国_64
   network: ws
-  port: 443
-  server: saas.sin.fan
+  port: 8443
+  server: 179.255.125.93
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -949,9 +870,52 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+    path: /
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_95
+  name: 29|🇺🇸_美国_69
+  network: ws
+  port: 443
+  server: 179.255.140.146
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 29|🇺🇸_美国_82
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_87
+  network: ws
+  port: 8443
+  server: 45.39.60.236
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_111
   network: ws
   port: 443
   server: 162.159.135.234
@@ -966,7 +930,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_84
+  name: 29|🇺🇸_美国_102
   network: ws
   port: 443
   server: 162.159.130.234
@@ -981,7 +945,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_85
+  name: 29|🇺🇸_美国_157
   network: ws
   port: 443
   server: saas.sin.fan
@@ -994,97 +958,9 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-- name: 29|🇺🇸_美国_87
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: 29|🇺🇸_美国_98
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_122
-  network: ws
-  port: 30021
-  server: 128.241.25.11
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 339cda3d-79a5-4d37-8ad8-eddc130c992a
-  ws-opts:
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_127
-  network: ws
-  port: 28863
-  server: 129.153.71.28
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3a15df4-c8ad-4e98-b427-7a679aee2b18
-  ws-opts:
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_130
-  network: ws
-  port: 28863
-  server: 129.153.71.28
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 572b2f63-62b5-4e79-a6c8-d2211bf33576
-  ws-opts:
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_134
-  network: ws
-  port: 10238
-  server: 156.229.163.237
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f97f81df-edac-47b6-badb-316125e61bfb
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇺🇸_美国_137
+  name: 29|🇺🇸_美国_106
   network: ws
   port: 443
   server: 23.246.154.243
@@ -1099,10 +975,405 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: chrome
-  name: 29|🇺🇸_美国_138
+  name: 29|🇺🇸_美国_135
   network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_140
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_121
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- name: 29|🇺🇸_美国_115
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_132
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_139
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_127
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 29,35|🇪DE_1|2.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- name: 29|🇺🇸_美国_129
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_134
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_143
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_159
+  network: ws
+  port: 443
+  server: 179.253.251.112
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 29|🇺🇸_美国_161
+  network: ws
+  port: 443
+  server: 179.255.99.75
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_162
+  network: ws
+  port: 443
+  server: 179.255.99.75
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_163
+  network: ws
+  port: 443
+  server: 179.255.123.130
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_167
+  network: ws
+  port: 443
+  server: 207.57.145.53
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_170
+  network: ws
+  port: 443
+  server: 179.253.235.175
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_187
+  network: ws
+  port: 443
+  server: 45.41.55.72
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_189
+  network: ws
+  port: 443
+  server: 149.104.5.126
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 29|🇺🇸_美国_214
+  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17921932711470.206352.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17921932718483.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国_230
+  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17922408595358.206352.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17922408592142.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国_231
+  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
   port: 2096
-  server: 23.158.233.2
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17922408598358.206355.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17922408599089.206355.xyz
+    path: /videomuaawe
+- name: 29|🇺🇸_美国_232
+  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17922408593016.206356.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17922408595093.206356.xyz
+    path: /dmusicmuaawe
+- name: 29|🇺🇸_美国_233
+  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17922408593786.168381.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17922408591323.168381.xyz
+    path: /tianboephth
+- name: 29|🇺🇸_美国_239
+  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17921932715002.206353.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17921932719117.206353.xyz
+    path: /agrbniuh
+- name: 29|🇺🇸_美国_241
+  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17921932717338.206356.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17921932718541.206356.xyz
+    path: /dmusicmuaawe
+- name: 29|🇺🇸_美国_244
+  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17921932717643.168381.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17921932716084.168381.xyz
+    path: /tianboephth
+- name: 29|🇺🇸_美国_251
+  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17921932719959.206355.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17921932717513.206355.xyz
+    path: /videomuaawe
+- client-fingerprint: chrome
+  name: 29|🇺🇸_美国_255
+  network: ws
+  port: 8443
+  server: 198.2.237.25
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -1159,25 +1430,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|US_1|1.8MB/s
+- alterId: 2
+  cipher: auto
+  name: 35|🇺🇸US_2|3.3MB/s
   network: tcp
   packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 152.232.57.10
-  servername: api.videobereg.cc
-  tls: true
-  type: vless
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - encryption: none
-  name: 35|🇺🇸US_2|2.7MB/s
+  name: 35|🇸US_3|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -1188,11 +1456,11 @@ proxies:
   ws-opts:
     headers:
       Host: www.goo.gl
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /real
   xudp: true
-- name: 35|🇸US_3|2.6MB/s
+- name: 35|🇸US_4|2.3MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -1201,146 +1469,89 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_4|1.3MB/s
+- name: 35|🇺🇸US_5|1.6MB/s
   port: 443
-  server: 129.153.93.183
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_5|2.6MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇸US_6|3.2MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_7|2.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_8|1.7MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇸US_9|3.0MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_10|4.0MB/s
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_11|4.2MB/s
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_12|1.8MB/s
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_13|2.6MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_14|2.7MB/s
+- name: 35|🇺🇸US_6|2.1MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_15|3.0MB/s
+- name: 35|🇺🇸US_7|2.1MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇺🇸US_8|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.147.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇺🇸US_9|1.0MB/s
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_10|1.9MB/s
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_11|1.2MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_12|1.1MB/s
+  port: 9443
+  server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_13|2.0MB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_16|1.9MB/s
-  password: e4b72b531a2d10900519
+- name: 35|🇺🇸US_14|1.7MB/s
   port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
+  server: 68.235.56.51
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: testuser1
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 35|🇸US_17|1.7MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: api.videobereg.cc
-  servername: api.videobereg.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
-  xudp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 35|🇺🇸US_18|2.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: t12.qifei.app
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-  xudp: true
-- name: 35|🇸US_19|3.0MB/s
-  password: ''
-  port: 1082
-  server: 155.138.221.32
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|US_speednode_0130

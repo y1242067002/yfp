@@ -103,40 +103,119 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_115
-  network: ws
-  port: 14430
-  server: 138.124.70.41
-  servername: 138.124.70.41
+- name: 29|🇫🇷_法国_30
+  port: 22224
+  server: 51.44.122.146
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: random
+  name: 29|🇫🇷_法国_59
+  network: ws
+  port: 443
+  server: 94.183.188.161
+  servername: 20664.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
   ws-opts:
     headers:
-      Host: 138.124.70.41
-    path: /vless
-- name: 35|FR_1|2.1MB/s
+      Host: 20664.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_62
+  network: ws
+  port: 8443
+  server: 104.252.111.38
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: random
+  name: 29|🇫🇷_法国_89
+  network: ws
+  port: 443
+  server: 31.220.89.170
+  servername: 20664.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  ws-opts:
+    headers:
+      Host: 20664.pages.dev
+    path: /?ed=2048
+- name: 29|🇫🇷_法国_99
+  network: ws
+  port: 8080
+  server: farancenew.mamadhpbot.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
+  ws-opts:
+    headers:
+      Host: farancenew.mamadhpbot.ir
+    path: /real
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|FR_1|1.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  server: 189.74.117.22
+  servername: api.videolaguna.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+- name: 35|🇷FR_3|3.5MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇫🇷FR_2|1.3MB/s
+- name: 35|🇷FR_4|2.7MB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇫🇷FR_5|3.2MB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇷FR_6|1.5MB/s
   port: 8081
   server: 31.32.19.111
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_3|2.0MB/s
-  password: ''
-  port: 1080
-  server: 173.249.24.121
+- name: 35|🇫🇷FR_7|2.1MB/s
+  password: None
+  port: 443
+  server: 149.102.245.65
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
   udp: true
-  username: ''
