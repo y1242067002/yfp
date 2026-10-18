@@ -293,37 +293,30 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- name: 35|DE_1|3.5MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_2|2.9MB/s
+- name: 35|🇪DE_2|4.4MB/s
   port: 443
-  server: 159.69.94.125
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_3|3.1MB/s
+- name: 35|🇩🇪DE_3|2.8MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_4|1.7MB/s
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_4|3.3MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_5|3.2MB/s
-  port: 9002
-  server: 158.173.154.2
+- name: 35|🇩🇪DE_5|1.0MB/s
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
@@ -335,32 +328,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_7|2.0MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_8|2.8MB/s
+- name: 35|🇪DE_7|2.8MB/s
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_9|2.1MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: studiofeed
+  name: 35|🇪DE_8|2.8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 45.12.63.96
+  servername: studio.10media.top
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇪DE_10|2.4MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
+  xudp: true

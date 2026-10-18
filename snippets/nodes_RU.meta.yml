@@ -48,6 +48,16 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 28|Telegram @cnetvpn 🇷🇺
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇧🇾_白俄罗斯_11
@@ -134,7 +144,26 @@ proxies:
     headers:
       Host: 178.172.227.228
     path: /vless
-- name: 35|RU_1|1.7MB/s
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: firefox
+  name: 35|RU_1|2.1MB/s
+  network: xhttp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
+- name: 35|🇺RU_2|3.4MB/s
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
