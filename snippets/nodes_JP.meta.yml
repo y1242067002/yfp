@@ -374,3 +374,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  name: 35|JP_1|4.3MB/s
+  network: ws
+  port: 443
+  server: 149.62.44.41
+  servername: 20664.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 20664.pages.dev
+    max-early-data: 2048
+    path: /

@@ -149,16 +149,6 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 28|@FarazV2ray
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: 162.249.125.133
-  skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国_14
@@ -321,3 +311,118 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
+- name: 35|DE_1|2.9MB/s
+  network: tcp
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: de7.dedushka.top
+  skip-cert-verify: true
+  sni: de7.dedushka.top
+  type: trojan
+  udp: true
+- name: 35|🇩🇪DE_2|3.4MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_3|2.3MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_4|2.4MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_5|1.9MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_6|2.8MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_7|3.4MB/s
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_8|2.9MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_9|3.2MB/s
+  port: 443
+  server: 185.232.70.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_10|2.7MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_11|3.0MB/s
+  port: 443
+  server: 194.67.110.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_12|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.70.3
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /Telegram🇨 fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇪DE_13|3.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 172.67.76.128
+  servername: kkkk-xcd.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
