@@ -103,16 +103,8 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- name: 29|🇫🇷_法国_30
-  port: 22224
-  server: 51.44.122.146
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: random
-  name: 29|🇫🇷_法国_59
+  name: 29|🇫🇷_法国_55
   network: ws
   port: 443
   server: 94.183.188.161
@@ -126,23 +118,8 @@ proxies:
     headers:
       Host: 20664.pages.dev
     path: /?ed=2048
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国_62
-  network: ws
-  port: 8443
-  server: 104.252.111.38
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: random
-  name: 29|🇫🇷_法国_89
+  name: 29|🇫🇷_法国_78
   network: ws
   port: 443
   server: 31.220.89.170
@@ -156,21 +133,23 @@ proxies:
     headers:
       Host: 20664.pages.dev
     path: /?ed=2048
-- name: 29|🇫🇷_法国_99
+- client-fingerprint: random
+  name: 29|🇫🇷_法国_120
   network: ws
-  port: 8080
-  server: farancenew.mamadhpbot.ir
+  port: 443
+  server: 94.183.188.161
+  servername: 20664.pages.dev
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 732ec777-bf4a-4fee-835a-25d6a8b58563
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
   ws-opts:
     headers:
-      Host: farancenew.mamadhpbot.ir
-    path: /real
+      Host: 20664.pages.dev
+    path: /
 - client-fingerprint: random
-  name: 35|🇷FR_1|1.5MB/s
+  name: 29|🇫🇷_法国_163
   network: ws
   port: 443
   server: 31.220.89.170
@@ -181,57 +160,43 @@ proxies:
   udp: true
   uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: 20664.pages.dev
-    max-early-data: 2048
     path: /
-- name: 35|🇷FR_2|2.3MB/s
+- name: 35|FR_1|1.2MB/s
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇷FR_2|1.6MB/s
   port: 9443
-  server: 213.139.9.142
+  server: 138.199.47.247
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_3|3.8MB/s
+- name: 35|🇷FR_3|4.1MB/s
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇷FR_4|4.6MB/s
   port: 443
   server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_4|2.6MB/s
-  port: 6103
-  server: 87.98.174.157
+- name: 35|🇷FR_5|1.0MB/s
+  password: ''
+  port: 8082
+  server: 213.199.46.59
   skip-cert-verify: true
-  tls: true
   type: http
   udp: true
-- name: 35|🇷FR_5|1.3MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇷FR_6|1.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
+  username: ''

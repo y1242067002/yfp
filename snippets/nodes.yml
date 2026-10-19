@@ -316,10 +316,10 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_13
+  name: 25,29|🇨🇳_中国_21
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -410,20 +410,20 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 25|英国(yudou789.top 玉豆免费节点)_23
+  name: 25,29|🇨🇳_中国_20
   port: 30836
   server: v36.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25|美国(yudou789.top 玉豆免费节点)_53
+  name: 25,29|🇨🇳_中国_18
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -438,19 +438,37 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🇱🇻_拉脱维亚_77
-  password: humanity
-  port: 443
-  server: 85.31.102.163
+- alterId: 64
+  cipher: auto
+  name: 29|🇨🇳_中国_17
+  port: 50002
+  server: 112.132.215.108
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 29|🇨🇳_中国_19
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 29|🏳️_未知_118
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: true
+  sni: dimskiee.biz.id
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_96
+    path: /WangCai-8
+- name: 29|🏳️_未知_180
   password: humanity
   port: 443
   server: 104.18.32.47
@@ -460,678 +478,60 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🏳️_未知_98
-  password: humanity
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_中国_186
+  network: ws
+  port: 10086
+  server: 120.48.133.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇳_中国_187
+  network: ws
+  port: 10086
+  server: 39.108.113.127
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+- alterId: 0
+  cipher: auto
+  name: 29|🏳️_未知_189
+  network: ws
   port: 443
-  server: 104.18.8.83
+  server: guanwang.awsno.com
+  servername: guanwang.awsno.com
   skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🏳️_未知_202
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: 99.cdn.aewe.de
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 29|🇰🇷_韩国_191
+  network: ws
+  port: 443
+  server: chuncheon02.zgjok.com
+  servername: chuncheon02.zgjok.com
   skip-cert-verify: true
-  sni: 17922408596857.206352.xyz
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
   ws-opts:
     headers:
-      Host: 17922408597935.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_203
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17922408592067.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408598705.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_204
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408598066.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408593593.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_205
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408594490.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408594381.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_206
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17922408599140.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408591569.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_208
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408596449.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408594588.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_209
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 8443
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17922408593141.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408595101.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_210
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408597720.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408591716.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_211
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408597278.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408594045.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_212
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408592969.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408595263.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_213
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932712253.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932719027.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国_214
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932711470.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932718483.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_216
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17921932715611.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932713800.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_220
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932712596.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932711330.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_221
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408595315.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408597203.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_222
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408597623.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408596033.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_223
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408599399.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408596086.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_224
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408595077.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408592647.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_225
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408598614.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408592374.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_226
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593285.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408592746.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_227
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593421.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408594845.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_228
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17922408597952.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408598469.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_229
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408591969.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408598507.168381.xyz
-    path: /tianboephth
-- name: 29|🇺🇸_美国_230
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408595358.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408592142.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国_231
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408598358.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408599089.206355.xyz
-    path: /videomuaawe
-- name: 29|🇺🇸_美国_232
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593016.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408595093.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🇺🇸_美国_233
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593786.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408591323.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_234
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408591270.206352.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408598990.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🏳️_未知_235
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408598466.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408595662.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_236
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593835.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408591353.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_237
-  password: 25aeb778-0973-4d82-9f23-1b4084e27da8
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17922408593651.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17922408591421.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_238
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 8443
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17921932717629.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932714845.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国_239
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932715002.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932719117.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_240
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932715964.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932713361.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国_241
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932717338.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932718541.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_242
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932716461.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932716578.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_243
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932711932.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932714674.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🇺🇸_美国_244
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932717643.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932716084.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_245
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932718117.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932712851.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_246
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2053
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932714036.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932712000.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_247
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17921932715698.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932711606.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_248
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932717761.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932717272.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_249
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17921932714383.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932711912.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_250
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932716059.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932719244.168381.xyz
-    path: /tianboephth
-- name: 29|🇺🇸_美国_251
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932719959.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932717513.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_252
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932714395.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932713341.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_253
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932713915.206356.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932715127.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🏳️_未知_254
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932714924.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932713394.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_258
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932718401.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932715607.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_259
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2096
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932719349.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932712555.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_260
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 8443
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932712741.682637.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932711016.682637.xyz
-    path: /ahyrtuyjykl
-- name: 29|🏳️_未知_261
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2083
-  server: 99.cdn.aewe.de
-  skip-cert-verify: true
-  sni: 17921932716181.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932715814.168381.xyz
-    path: /tianboephth
-- name: 29|🏳️_未知_262
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932719509.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932718776.206355.xyz
-    path: /videomuaawe
-- name: 29|🏳️_未知_263
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932712954.206353.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932714994.206353.xyz
-    path: /agrbniuh
-- name: 29|🏳️_未知_264
-  password: 8a82b2c9-663c-47de-8be3-91e0d58aaa0d
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17921932717295.168381.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17921932713961.168381.xyz
-    path: /tianboephth
+      Host: chuncheon02.zgjok.com
+    path: /
 - cipher: aes-256-cfb
   name: 33|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1408,25 +808,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|DE_1|2.9MB/s
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: de7.dedushka.top
-  skip-cert-verify: true
-  sni: de7.dedushka.top
-  type: trojan
-  udp: true
-- alterId: '2'
-  cipher: auto
-  name: 35|🇸US_1|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true

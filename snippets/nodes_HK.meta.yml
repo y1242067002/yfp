@@ -40,52 +40,8 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港_38
-  port: 2061
-  reality-opts:
-    public-key: Ub1ffFeVtG2zd_t001wgmuhojSAxvaVwuo_pAapScBA
-    short-id: c77f719b082817e4
-  server: 103.41.7.43
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c2888cf-99f8-4c04-ac07-c033359ff975
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_80
-  network: ws
-  port: 8443
-  server: 45.38.60.153
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_81
-  network: ws
-  port: 443
-  server: 213.176.94.31
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
 - client-fingerprint: random
-  name: 29|🇭🇰_香港_97
+  name: 29|🇭🇰_香港_22
   network: ws
   port: 443
   server: 43.154.165.40
@@ -99,8 +55,23 @@ proxies:
     headers:
       Host: 20664.pages.dev
     path: /?ed=2048
+- client-fingerprint: random
+  name: 29|🇭🇰_香港_89
+  network: ws
+  port: 443
+  server: 43.154.165.40
+  servername: 20664.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  ws-opts:
+    headers:
+      Host: 20664.pages.dev
+    path: /
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_193
+  name: 29|🇭🇰_香港_94
   network: ws
   port: 443
   server: 85.121.245.104
@@ -216,20 +187,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: random
-  name: 35|HK_1|1.2MB/s
-  network: ws
-  port: 443
-  server: 43.154.165.40
-  servername: 20664.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 20664.pages.dev
-    max-early-data: 2048
-    path: /
