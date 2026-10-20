@@ -1,18 +1,31 @@
 proxies:
-- name: 35|🇪EE_1|2.2MB/s
-  port: 9443
-  server: 95.153.31.66
+- client-fingerprint: chrome
+  name: 29|🇪🇪_爱沙尼亚_233
+  network: ws
+  port: 8443
+  server: 114.129.9.132
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇪EE_2|3.0MB/s
-  password: 9jkvAVV-9ufV6IGd
-  port: 51320
-  server: chalo-ru.nexorcdn.com
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇪🇪_爱沙尼亚_259
+  network: ws
+  port: 8443
+  server: 114.129.9.132
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
-  sni: chalo-ru.nexorcdn.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ef37886e2aacd6fa622e3de3810299c2
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /

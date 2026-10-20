@@ -103,90 +103,68 @@ proxies:
   type: vless
   udp: true
   uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
-- client-fingerprint: random
-  name: 29|🇫🇷_法国_55
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_68
   network: ws
-  port: 443
-  server: 94.183.188.161
-  servername: 20664.pages.dev
+  port: 14430
+  server: 138.124.70.41
+  servername: 138.124.70.41
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  ws-opts:
+    headers:
+      Host: 138.124.70.41
+    path: /vless
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_204
+  network: ws
+  port: 2053
+  server: 57.131.153.153
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: 20664.pages.dev
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 29|🇫🇷_法国_78
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国_235
   network: ws
   port: 443
-  server: 31.220.89.170
-  servername: 20664.pages.dev
+  server: 104.252.30.35
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: 20664.pages.dev
-    path: /?ed=2048
-- client-fingerprint: random
-  name: 29|🇫🇷_法国_120
-  network: ws
-  port: 443
-  server: 94.183.188.161
-  servername: 20664.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-  ws-opts:
-    headers:
-      Host: 20664.pages.dev
+      Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: random
-  name: 29|🇫🇷_法国_163
+- name: 29|🇫🇷_法国_262
   network: ws
   port: 443
-  server: 31.220.89.170
-  servername: 20664.pages.dev
+  server: 104.252.30.35
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: 20664.pages.dev
-    path: /
-- name: 35|🇷FR_1|2.7MB/s
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- name: 35|FR_1|1.5MB/s
   port: 9443
   server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_2|2.8MB/s
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_3|2.4MB/s
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_4|1.5MB/s
-  port: 8090
-  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http

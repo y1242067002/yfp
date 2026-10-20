@@ -48,78 +48,44 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
+- name: 28|🇷🇺197241 | ⚡️Telegram = t.me/S...
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
+  server: 144.31.49.47
+  skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_81
-  network: ws
-  port: 443
-  server: 121.127.37.211
-  servername: snip.edgeoneai.cc.cd
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇧🇾_白俄罗斯_12
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 178.172.227.124
+  servername: ads.x5.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_66
-  network: ws
-  port: 8443
-  server: 139.100.226.187
-  servername: snip.edgeoneai.cc.cd
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇧🇾_白俄罗斯_13
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 178.172.227.228
+  servername: ads.x5.ru
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: random
-  name: 29|🇷🇺_俄罗斯_79
-  network: ws
-  port: 443
-  server: 121.127.37.211
-  servername: 20664.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
-  ws-opts:
-    headers:
-      Host: 20664.pages.dev
-    path: /?ed=2048
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_139
-  network: ws
-  port: 8443
-  server: 139.100.226.187
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_147
+  name: 29|🇷🇺_俄罗斯_48
   network: ws
   port: 8880
   server: 185.148.104.30
@@ -134,10 +100,84 @@ proxies:
       Host: vms.lifetime51.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_167
+  name: 29|🇧🇾_白俄罗斯_84
+  network: ws
+  port: 14430
+  server: 178.172.227.124
+  servername: 178.172.227.124
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  ws-opts:
+    headers:
+      Host: 178.172.227.124
+    path: /vless
+- client-fingerprint: chrome
+  name: 29|🇧🇾_白俄罗斯_85
+  network: ws
+  port: 14430
+  server: 178.172.227.228
+  servername: 178.172.227.228
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  ws-opts:
+    headers:
+      Host: 178.172.227.228
+    path: /vless
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_132
+  network: ws
+  port: 8443
+  server: 139.100.226.187
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- client-fingerprint: random
+  name: 29|🇷🇺_俄罗斯_175
   network: ws
   port: 443
-  server: 121.127.37.211
+  server: z1q3pv4g78.rucdncomp.pro
+  servername: z1q3pv4g78.rucdncomp.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
+  ws-opts:
+    headers:
+      Host: z1q3pv4g78.rucdncomp.pro
+    path: /useraction/events/b892639b7195/
+- name: 29|🇧🇾_白俄罗斯_254
+  network: ws
+  port: 443
+  server: 212.60.4.134
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯_374
+  network: ws
+  port: 8443
+  server: 139.100.226.187
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -148,23 +188,21 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: random
-  name: 29|🇷🇺_俄罗斯_164
+- client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯_408
   network: ws
   port: 443
-  server: 121.127.37.211
-  servername: 20664.pages.dev
+  server: 185.141.227.223
+  servername: z1q3pv4g78.rucdncomp.pro
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
   ws-opts:
-    headers:
-      Host: 20664.pages.dev
-    path: /
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯_185
+    path: /useraction/events/b892639b7195/
+- client-fingerprint: random
+  name: 29|🇷🇺_俄罗斯_419
   network: ws
   port: 443
   server: z1q3pv4g78.rucdncomp.pro
@@ -178,42 +216,3 @@ proxies:
     headers:
       Host: z1q3pv4g78.rucdncomp.pro
     path: /useraction/events/b892639b7195/
-- alpn:
-  - http/1.1
-  - h2
-  client-fingerprint: firefox
-  name: 35|RU_1|2.8MB/s
-  network: xhttp
-  port: 2053
-  server: 78.159.246.179
-  servername: randomquaint.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-    x-padding-bytes: 100-1000
-    x-padding-obfs-mode: false
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇷🇺RU_2|1017KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 2053
-  server: randomquaint.net
-  servername: randomquaint.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
-  xhttp-opts:
-    host: randomquaint.net
-    mode: auto
-    path: /api/v1/upload
-  xudp: true

@@ -81,8 +81,37 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国_10
+  port: 10444
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  server: 138.124.125.193
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_117
+  name: 29|🇬🇧_英国_69
+  network: ws
+  port: 31867
+  server: 129.151.64.169
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: adeb038d-f011-4733-b133-3791e76950f7
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_72
   network: ws
   port: 52014
   server: 57.129.130.34
@@ -96,39 +125,54 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- name: 35|GB_1|2.5MB/s
-  port: 443
-  server: 212.102.63.31
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_226
+  network: ws
+  port: 2053
+  server: 109.120.186.137
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇬🇧GB_2|2.4MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=unsafe
+- name: 29|🇬🇧_英国_263
+  network: ws
   port: 443
-  server: 185.164.138.156
+  server: 104.194.140.26
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇬🇧GB_3|3.1MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_338
+  network: ws
+  port: 443
+  server: 45.152.65.100
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 35|GB_1|2.0MB/s
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_4|2.9MB/s
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_5|3.9MB/s
-  password: ''
-  port: 1080
-  server: 57.129.182.181
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: ''

@@ -316,10 +316,10 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_21
+  name: 25|美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -410,20 +410,20 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_20
+  name: 25|英国(yudou789.top 玉豆免费节点)_23
   port: 30836
   server: v36.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 25,29|🇨🇳_中国_18
+  name: 25|美国(yudou789.top 玉豆免费节点)_53
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -438,37 +438,25 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 29|🇨🇳_中国_17
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 29|🇨🇳_中国_19
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 29|🏳️_未知_118
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+- name: 29|🇨🇦_加拿大_14
+  password: Trojan@82164024
   port: 443
-  server: 104.16.148.5
+  server: ca.tronsg.com
   skip-cert-verify: true
-  sni: dimskiee.biz.id
+  sni: ca.tronsg.com
+  type: trojan
+  udp: true
+- name: 29|🏳️_未知_33
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
   type: trojan
   udp: true
   ws-opts:
-    path: /WangCai-8
-- name: 29|🏳️_未知_180
+    path: /
+- name: 29|🏳️_未知_78
   password: humanity
   port: 443
   server: 104.18.32.47
@@ -477,61 +465,57 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: www.calmlunch.com
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_中国_186
-  network: ws
-  port: 10086
-  server: 120.48.133.162
+- name: 29|🏳️_未知_178
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  port: 2096
+  server: 99.cdn.aewe.de
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: 17924137759384.206352.xyz
+  type: trojan
   udp: true
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_中国_187
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-- alterId: 0
-  cipher: auto
-  name: 29|🏳️_未知_189
-  network: ws
-  port: 443
-  server: guanwang.awsno.com
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   ws-opts:
     headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_191
-  network: ws
-  port: 443
-  server: chuncheon02.zgjok.com
-  servername: chuncheon02.zgjok.com
+      Host: 17924137755324.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🏳️_未知_179
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  port: 2053
+  server: 172.64.229.88
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: 17924137754253.206352.xyz
+  type: trojan
   udp: true
-  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
   ws-opts:
     headers:
-      Host: chuncheon02.zgjok.com
-    path: /
+      Host: 17924137758553.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🏳️_未知_180
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  port: 2083
+  server: 104.18.166.129
+  skip-cert-verify: true
+  sni: 17924137751428.206352.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17924137755193.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国_181
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  port: 2087
+  server: 162.159.140.116
+  skip-cert-verify: true
+  sni: 17924137756891.206352.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17924137752225.206352.xyz
+    path: /agraeabtegrrh
 - cipher: aes-256-cfb
   name: 33|tg频道:@ripaojiedian
   password: amazonskr05
@@ -808,12 +792,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|JP_1|1.2MB/s
-  network: tcp
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  skip-cert-verify: true
-  sni: 45.32.52.173
-  type: trojan
-  udp: true
