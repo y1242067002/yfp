@@ -68,15 +68,14 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,37|SG_speednode_0021
-  network: tcp
+  name: 29|🇯🇵_日本_21
   port: 34379
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
     short-id: e51285e3
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -490,3 +489,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|JP_1|2.8MB/s
+  password: ''
+  port: 7000
+  server: 58.32.16.138
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
+- name: 37|JP_speednode_0011
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
