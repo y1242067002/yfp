@@ -26,49 +26,8 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
-  name: 29|日期：10-20
-  port: 21001
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-    short-id: ab39fc68ab3dee81
-  server: 511.150333.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_20
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_22
-  port: 56656
-  reality-opts:
-    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
-    short-id: aae6d935
-  server: funagfrdfs.alixxplay.com
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_21
+  name: 29|日期：10-21
   port: 34379
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
@@ -80,69 +39,139 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_25
-  port: 47672
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本_27
+  name: 29|🇯🇵_日本_7
   port: 443
   reality-opts:
-    public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
-    short-id: f9ca9286d0ff8920
-  server: 141.11.138.132
-  servername: www.cloudflare.com
+    public-key: 9ZCYjybxMQ7JpE39B8u_Bo-alI1LIbt5ER0E-4yMjiM
+    short-id: ea36c03d86f91287
+  server: 142.91.108.25
+  servername: jp3.nztvpn.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: b47cc98c-54f4-4ab2-acb9-b493a04ccc6b
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+- name: 29|🇯🇵_日本_8
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  skip-cert-verify: true
+  sni: 45.32.52.173
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_60
-  network: ws
-  port: 26418
-  server: 154.31.112.237
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_9
+  port: 10583
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.114.220.22
+  servername: Telegram-Leviko_v2ray
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ab2a5cc0-11d1-4bc4-a9d4-b5654ad18dc4
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: android
-  name: 29|🇯🇵_日本_61
-  network: ws
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 29|🇯🇵_日本_10
   port: 443
-  server: 152.69.199.75
-  servername: proxy-1cu.pages.dev
+  server: 137.220.221.179
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: /
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_62
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_132
+  port: 7397
+  reality-opts:
+    public-key: alA-RnK0ssRMoKgDFmr4JndXCCojboQ-chXF5Xgvy0M
+    short-id: 1b1e8a3dccc86ccd
+  server: 85.149.218.28
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_133
+  port: 7185
+  reality-opts:
+    public-key: m0IRiI3EipRwvNHd1dJIm7iCxpz-ny-kaFNdPkTwtBI
+    short-id: 0dbf5cab8ac47793
+  server: 85.149.218.28
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_134
+  port: 5226
+  reality-opts:
+    public-key: SO7FOs2Fz3mmISk01G4seBNUWFPgfutqIqkJn5dX0GE
+    short-id: a5f7966b85165587
+  server: 85.149.218.28
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_141
+  port: 7222
+  reality-opts:
+    public-key: -y_sGlu-aD3MBve2LMP6ihYk7U3QUQn3ZUzxGOhu-RU
+    short-id: 1df922e6ef69fd9b
+  server: 216.23.82.107
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_142
+  port: 9559
+  reality-opts:
+    public-key: CQaaERP19MvGGrGrGUFVPZyC-Yfx2XsnobpDmBgh3gw
+    short-id: da843aee6f5e26e6
+  server: 216.23.82.107
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本_143
+  port: 7587
+  reality-opts:
+    public-key: eIoCcSuOiE-N7TjMtBADLOoWLh7Fqi67GE-uX1ARhyI
+    short-id: 21e534fa0bd78697
+  server: 216.23.82.107
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 594b593d-f638-429f-ad68-4c2de2e27493
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_144
   network: ws
-  port: 443
-  server: 45.8.173.99
+  port: 8443
+  server: 178.239.117.133
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -154,82 +183,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_63
-  network: ws
-  port: 4798
-  server: 107.191.53.86
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_64
-  network: ws
-  port: 443
-  server: 154.19.187.190
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_173
-  network: ws
-  port: 443
-  server: 101.142.129.72
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_372
-  network: ws
-  port: 443
-  server: 101.142.129.72
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_370
-  network: ws
-  port: 443
-  server: 60.130.209.253
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_169
+  name: 29|🇯🇵_日本_146
   network: ws
   port: 443
   server: 60.130.209.253
@@ -246,8 +200,8 @@ proxies:
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_198
   network: ws
-  port: 443
-  server: 212.135.212.211
+  port: 8443
+  server: 178.239.117.133
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -257,54 +211,54 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_199
+  network: ws
+  port: 8443
+  server: 216.238.54.114
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_204
+  network: ws
+  port: 443
+  server: 60.130.209.253
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本_203
+  network: ws
+  port: 8443
+  server: 161.248.62.26
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_208
-  network: ws
-  port: 443
-  server: 172.104.77.231
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_247
-  network: ws
-  port: 443
-  server: 161.33.192.73
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_276
-  network: ws
-  port: 2053
-  server: 103.31.77.108
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_324
   network: ws
   port: 443
   server: 138.2.41.8
@@ -319,10 +273,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_325
+  name: 29|🇯🇵_日本_221
   network: ws
-  port: 443
-  server: 161.33.45.250
+  port: 2053
+  server: 103.31.77.108
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -333,109 +287,95 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_326
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_346
   network: ws
-  port: 8443
-  server: 178.239.117.133
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: 168.138.43.75
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- name: 29|🇯🇵_日本_327
+      Host: 168.138.43.75
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本_351
   network: ws
-  port: 443
-  server: 38.47.52.252
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: 172.111.146.64
   skip-cert-verify: true
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_328
+      Host: 172.111.146.64
+    path: /vmess/
+- name: 29|🇯🇵_日本_360
   network: ws
-  port: 443
-  server: 193.32.151.144
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: platform107.golnamakcert.top
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_329
+    path: /platform107
+- name: 29|🇯🇵_日本_390
   network: ws
-  port: 443
-  server: 35.74.79.196
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: platform103.golnamakcert.top
+  servername: platform103.halalkhor.info
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 29|🇯🇵_日本_330
+    path: /platform103
+- name: 29|🇯🇵_日本_391
   network: ws
-  port: 443
-  server: 45.8.173.115
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: platform118.golnamakcert.top
+  servername: platform118.halalkhor.info
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_331
+    path: /platform118
+- name: 29|🇯🇵_日本_450
   network: ws
-  port: 443
-  server: 54.64.190.109
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: platform115.golnamakcert.top
+  servername: platform115.halalkhor.info
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本_332
+    path: /platform115
+- name: 29|🇯🇵_日本_451
   network: ws
-  port: 8443
-  server: 69.8.128.249
-  servername: snip.edgeoneai.cc.cd
+  port: 80
+  server: platform113.golnamakcert.top
+  servername: platform113.halalkhor.info
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
+    path: /platform113
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
@@ -489,10 +429,26 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 37|JP_speednode_0011
+- name: 35,37|JP_speednode_0011
   port: 343
   server: 133.18.200.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_2|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: 67c9e7da12d2
+  server: speedjapga1.xyy123.win
+  servername: amzn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9290643b-1a90-4357-b9b5-b47eacbffc0e
+  xudp: true
