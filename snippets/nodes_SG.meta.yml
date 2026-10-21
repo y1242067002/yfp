@@ -411,3 +411,37 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|🇸SG_1|2.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.255.129.221
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸SG_2|3.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.255.133.243
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- client-fingerprint: chrome
+  name: 35|🇬SG_3|1.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 128.1.186.61
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /
+  xudp: true
