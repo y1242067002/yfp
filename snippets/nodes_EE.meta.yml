@@ -1,16 +1,25 @@
 proxies:
-- name: 35|🇪EE_1|3.0MB/s|K001-260618
+- name: 35|EE_1|2.3MB/s
   port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪EE_2|1012KB/s
-  port: 9443
-  server: 192.159.101.174
+  server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇪EE_2|3.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: JOoD5ze_pwrMnQoAIRVieQM8SPJjiLJEw1fwx57iYgk
+    short-id: bbd20b213341644c
+  server: l415ng0o.himoy.space
+  servername: l415ng0o.himoy.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
+  xudp: true

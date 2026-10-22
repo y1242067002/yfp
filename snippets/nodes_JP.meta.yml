@@ -137,9 +137,8 @@ proxies:
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
-  name: 29,35|JP_1|2.4MB/s
+  name: 29|🇯🇵_日本_157
   network: ws
-  packet-encoding: xudp
   port: 443
   server: 60.130.209.253
   servername: snip.edgeoneai.cc.cd
@@ -151,10 +150,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /fp=chrome
-  xudp: true
 - name: 29|🇯🇵_日本_59
   network: ws
   port: 8443
@@ -371,10 +367,27 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|🇵JP_2|2.4MB/s
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|JP_1|2.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    max-early-data: 2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true

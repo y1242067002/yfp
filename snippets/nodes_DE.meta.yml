@@ -591,51 +591,63 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35,37|DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|DK_speednode_0006
+- name: 35,37|DK_speednode_0005
   port: 9002
-  server: 158.173.154.5
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_4|4.4MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_3|1.2MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 149.33.47.172
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+- name: 35|🇩🇪DE_4|1.3MB/s
+  port: 80
+  server: 57.131.128.2
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_5|1.9MB/s
   port: 443
-  server: 159.69.94.125
+  server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_5|2.2MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_6|2.7MB/s
+- name: 35|🇩🇪DE_6|1.7MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_7|1.8MB/s
-  port: 9443
-  server: 79.127.156.177
+- name: 35|🇩DE_7|2.6MB/s
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_8|2.5MB/s
+- name: 35|🇩🇪DE_8|1.9MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_9|3.0MB/s
   port: 443
-  server: 87.106.223.158
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
@@ -657,3 +669,10 @@ proxies:
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+- name: 37|DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
