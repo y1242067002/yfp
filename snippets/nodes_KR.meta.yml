@@ -11,52 +11,7 @@ proxies:
   type: vless
   udp: true
   uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_14
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_23
-  port: 80
-  server: 217.142.138.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_25
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_153
-  network: ws
-  port: 443
-  server: 141.164.44.60
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: 29|🇰🇷_韩国_152
+- name: 29|🇰🇷_韩国_42
   network: ws
   port: 443
   server: 123.111.169.70
@@ -71,7 +26,66 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_179
+  name: 29|🇰🇷_韩国_70
+  network: ws
+  port: 443
+  server: 193.123.236.206
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 29|🇰🇷_韩国_117
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chromefp=chrome
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_174
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_299
+  network: ws
+  port: 443
+  server: 158.247.220.241
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_313
   network: ws
   port: 443
   server: 146.56.151.92
@@ -85,92 +99,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_206
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_213
-  network: ws
-  port: 443
-  server: 141.164.44.60
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_259
-  network: ws
-  port: 443
-  server: 146.56.151.92
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_294
-  network: ws
-  port: 443
-  server: 193.122.115.184
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_385
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国_389
-  network: ws
-  port: 20086
-  server: 183.109.131.75
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 33|🇰🇷 韩国|@ripaojiedian

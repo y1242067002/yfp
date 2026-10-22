@@ -1,36 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: 29|🇪🇪_爱沙尼亚_178
-  network: ws
-  port: 8443
-  server: 114.129.9.132
-  servername: snip.edgeoneai.cc.cd
+- name: 35|🇪EE_1|2.4MB/s
+  port: 9443
+  server: 95.153.31.66
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: 29|🇪🇪_爱沙尼亚_256
-  network: ws
-  port: 8443
-  server: 114.129.9.132
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 35|EE_1|2.6MB/s|K001-260618
-  password: ''
+- name: 35|🇪EE_2|1001KB/s|K001-260618
   port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
@@ -38,4 +14,3 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: ''

@@ -81,93 +81,53 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 29|🇬🇧_英国_62
-  port: 22222
-  server: 18.134.224.162
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 29|🇬🇧_英国_68
-  port: 22224
-  server: 18.134.224.162
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 29|🇬🇧_英国_75
-  port: 22223
-  server: 18.134.224.162
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_78
-  port: 8080
-  reality-opts:
-    public-key: itUb_lVoLPqG2cGs6vxsOaOImohnpXucmiaDm6_6iyU
-    short-id: fe57
-  server: 57.129.138.142
-  servername: icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6228ee5b-fe07-4ee5-8300-386cd004eb84
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_92
-  port: 8443
-  server: 51.38.71.147
-  servername: node-uk.connectsuite.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_93
-  port: 8443
-  server: node-uk.connectsuite.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_106
+  name: 29|🇬🇧_英国_43
+  network: ws
   port: 443
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 2a80364e93d9
-  server: staging.lastilhame.monster
-  servername: www.foxsports.com
+  server: 45.152.65.100
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: aded66f1-de12-4c3c-af9e-a21d6e7d9c96
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国_113
+  name: 29|🇬🇧_英国_221
+  network: ws
   port: 443
-  reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: baf023e1026a
-  server: webdisk.jaggyslawa.org
-  servername: www.mozilla.org
+  server: 104.194.140.26
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 75113671-63e3-452d-87d3-261a37e8b472
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_188
+  name: 29|🇬🇧_英国_118
+  network: ws
+  port: 8443
+  server: 45.152.65.137
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_223
   network: ws
   port: 443
   server: 104.194.140.26
@@ -182,22 +142,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_280
-  network: ws
-  port: 443
-  server: 104.194.140.26
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_237
+  name: 29|🇬🇧_英国_240
   network: ws
   port: 52014
   server: 57.129.130.34
@@ -211,100 +156,49 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- name: 29|🇬🇧_英国_318
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|GB_1|1.4MB/s
   network: ws
-  port: 443
-  server: 159.65.51.189
-  servername: ccc.010304.xyz
+  password: xwhfg0wu1wxv377f
+  port: 2087
+  server: 216.24.57.225
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    path: /fp
-- name: 29|🇬🇧_英国_353
-  network: ws
-  port: 8880
-  server: 185.193.29.40
-  servername: vms.lifetime08.workers.dev
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_356
-  network: ws
-  port: 443
-  server: 91.193.58.117
-  servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-- name: 29|🇬🇧_英国_491
-  password: humanity
-  port: 443
-  server: 194.60.86.88
-  skip-cert-verify: true
-  sni: www.volumeroot.com
+  sni: neo.xnetaro.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.volumeroot.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_511
-  network: ws
-  port: 443
-  server: uk1.connectsuite.org
-  servername: uk1.connectsuite.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
-  ws-opts:
-    path: /cdn-cgi/ws
-- name: 35,37|GB_speednode_0009
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_2|1.1MB/s
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /wss
+- name: 35|🇧GB_2|1.9MB/s
   port: 443
   server: 37.120.233.18
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_3|2.9MB/s
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_4|2.2MB/s
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_5|1.9MB/s
+- name: 35|🇧GB_3|2.4MB/s
   port: 443
   server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_4|1.0MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|GB_speednode_0009
+  password: None
+  port: 443
+  server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http

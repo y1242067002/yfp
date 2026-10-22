@@ -40,75 +40,59 @@ proxies:
   type: vmess
   udp: true
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_11
-  port: 16113
-  server: zfd-hkv1.kunlun01dns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_12
-  port: 21020
-  server: dog-hk.kunlun01dns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_13
-  port: 21021
-  server: dog-hk.kunlun01dns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_27
-  port: 52080
-  server: 154.37.223.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_43
-  port: 52080
-  server: 47.242.81.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- name: 29|🇭🇰_香港_109
-  password: XuMweB2PWs
-  port: 45464
-  server: 2.27.109.179
-  skip-cert-verify: true
-  sni: 2.27.109.179.sslip.io
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_117
-  port: 11907
-  server: 195.58.144.56
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港_19
+  port: 27509
+  reality-opts:
+    public-key: nseaofwmjSciWUI2ZOXft9lUJutKvKEDUc-aSpE3e1M
+    short-id: 6ba85179e30d4fc2
+  server: 38.22.88.248
+  servername: www.suffolk.edu
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  uuid: 29d23018-3265-494c-b9fe-e320b619b1e2
+- name: 29|🇭🇰_香港_29
+  network: ws
+  port: 8443
+  server: fluhk1.frnhk.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
+  ws-opts:
+    path: /JPa10211
+- name: 29|🇭🇰_香港_31
+  network: ws
+  port: 8443
+  server: fluhk1.frnhk.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5ce8f582-1494-4e3f-9a2d-7164491cc6fa
+  ws-opts:
+    path: /JPa10211
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_186
+  name: 29|🇭🇰_香港_131
+  network: ws
+  port: 8443
+  server: 103.39.78.118
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_232
   network: ws
   port: 8443
   server: 103.39.78.118
@@ -123,10 +107,68 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_272
+  name: 29|🇭🇰_香港_165
   network: ws
-  port: 8443
-  server: 103.39.78.118
+  port: 443
+  server: 83.229.120.10
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: 29|🇭🇰_香港_110
+  network: ws
+  port: 443
+  server: 83.229.120.10
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chromefp=chrome
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_350
+  network: ws
+  port: 443
+  server: 103.143.81.178
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 29|🇭🇰_香港_132
+  network: ws
+  port: 443
+  server: 103.143.81.178
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港_169
+  network: ws
+  port: 443
+  server: 5.188.33.40
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -138,10 +180,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港_301
+  name: 29|🇭🇰_香港_278
   network: ws
   port: 443
-  server: 216.23.93.27
+  server: 103.253.43.172
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -152,42 +194,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: 29|🇭🇰_香港_364
-  network: ws
-  port: 8443
-  server: 43.129.80.179
-  servername: ccc.010304.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港_384
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-- name: 29|🇭🇰_香港_427
-  password: humanity
-  port: 443
-  server: 219.76.13.177
-  skip-cert-verify: true
-  sni: wWw.Volumeroot.cOm.
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.volumerOot.coM.
-    path: /assignment
 - alterId: 0
   cipher: auto
   name: 33|🇭🇰 香港3|@ripaojiedian
@@ -290,23 +296,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 35|HK_1|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 141.11.149.174
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  xudp: true
