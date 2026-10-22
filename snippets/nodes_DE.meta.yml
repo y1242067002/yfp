@@ -141,14 +141,12 @@ proxies:
   type: vless
   udp: true
   uuid: a3185438-23cb-4fe3-95da-3e5f3fc43525
-- name: 27,28|@KAFING_2
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
+- name: 27|🇩🇪192088 | ⚡️Telegram = t.me/v...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.158.96.132
   skip-cert-verify: true
-  sni: api.kermanshahi.org
+  sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
 - flow: xtls-rprx-vision
@@ -1017,6 +1015,27 @@ proxies:
   uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
   ws-opts:
     path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 84ea61a40e1a671442079ca57b48595c930b1088739b7660b82cb6c46da2751f
+  name: 35|🇪DE_1|1.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: mpokwi.goalir.co.uk
+  servername: www.firefox.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2bfe3ff4-6c91-488a-a0c6-2bdc52c2ea49
+  xhttp-opts:
+    host: mpokwi.goalir.co.uk
+    mode: auto
+    path: /we
+    x-padding-bytes: 100-1000
+  xudp: true
 - name: 35,37|DE_speednode_0003
   port: 443
   server: 149.36.50.1
@@ -1031,50 +1050,81 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_3|3.8MB/s
+- name: 35,37|DK_speednode_0005
   port: 9002
-  server: 158.173.154.1
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_4|2.1MB/s
+- client-fingerprint: chrome
+  name: 35|🇪DE_5|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 177.1.187.183
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇪DE_6|1.6MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_7|1.2MB/s
   port: 443
   server: 79.76.126.155
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_5|3.3MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_6|3.5MB/s|R002-260618
-  password: None
-  port: 443
+- name: 35|🇩🇪DE_8|1.8MB/s
+  port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_7|1.2MB/s
+- name: 35|🇪DE_9|1.2MB/s
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_10|3.1MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_11|3.2MB/s
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_8|3.2MB/s
-  port: 443
-  server: 79.127.156.177
+- name: 35|🇪DE_12|2.4MB/s
+  password: ''
+  port: 1080
+  server: 194.31.175.75
   skip-cert-verify: true
-  tls: true
-  type: http
+  type: socks5
   udp: true
+  username: ''
 - name: 37|DE_speednode_0002
   password: None
   port: 9443

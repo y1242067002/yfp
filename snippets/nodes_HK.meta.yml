@@ -291,39 +291,22 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|HK_1|1.9MB/s
-  network: ws
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 35|HK_1|1.4MB/s
+  network: tcp
   packet-encoding: xudp
-  port: 443
-  server: 83.229.120.10
-  servername: snip.edgeoneai.cc.cd
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 141.11.149.174
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇰HK_2|2.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 38.147.163.239
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
   xudp: true
