@@ -45,6 +45,35 @@ proxies:
     headers:
       Host: vms.lifetime17.workers.dev
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇨CA_1|1.9MB/s
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 50.7.245.204
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+- name: 35|🇦CA_2|2.8MB/s
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇦CA_3|1.2MB/s
+  password: ''
+  port: 1081
+  server: 149.248.18.106
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
 - name: 37|CA_speednode_0001
   port: 443
   server: 35.183.131.26

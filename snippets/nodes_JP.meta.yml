@@ -137,8 +137,9 @@ proxies:
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本_157
+  name: 29,35|JP_1|2.4MB/s
   network: ws
+  packet-encoding: xudp
   port: 443
   server: 60.130.209.253
   servername: snip.edgeoneai.cc.cd
@@ -150,7 +151,10 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /fp=chrome
+  xudp: true
 - name: 29|🇯🇵_日本_59
   network: ws
   port: 8443
@@ -367,3 +371,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 35|🇵JP_2|2.4MB/s
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

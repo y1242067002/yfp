@@ -139,17 +139,25 @@ proxies:
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     path: /
-- name: 37|FR_speednode_0008
+- name: 35,37|FR_speednode_0008
   port: 443
   server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 37|FR_speednode_0009
-  port: 443
-  server: 51.158.243.91
+- name: 35,37|FR_speednode_0012
+  port: 8090
+  server: 83.206.1.225
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇷FR_3|1.9MB/s
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
   tls: true
   type: http
   udp: true
@@ -169,10 +177,3 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 37|FR_speednode_0012
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
