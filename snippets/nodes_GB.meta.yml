@@ -82,10 +82,40 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_43
+  name: 29|🇬🇧_英国_146
+  network: ws
+  port: 52014
+  server: 57.129.130.34
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d44da6cd-10d2-4189-a167-49e9f35c7143
+  ws-opts:
+    headers:
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_147
+  network: ws
+  port: 52014
+  server: 57.129.130.34
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfbfeb23-2f8f-4ca2-9891-c1d708cffce2
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国_215
   network: ws
   port: 443
-  server: 45.152.65.100
+  server: 104.194.140.26
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -95,9 +125,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_221
+    path: /fp=chrome
+- name: 29|🇬🇧_英国_221
   network: ws
   port: 443
   server: 104.194.140.26
@@ -112,7 +141,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_118
+  name: 29|🇬🇧_英国_312
   network: ws
   port: 8443
   server: 45.152.65.137
@@ -127,10 +156,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇬🇧_英国_223
+  name: 29|🇬🇧_英国_324
   network: ws
   port: 443
-  server: 104.194.140.26
+  server: 45.152.65.100
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -140,53 +169,47 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国_240
-  network: ws
-  port: 52014
-  server: 57.129.130.34
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /
+- name: 35|GB_1|1.4MB/s
+  port: 9443
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 53367702-4b8d-431a-a193-34d7d057a065
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- name: 35|GB_1|3.3MB/s
+- name: 35|🇬🇧GB_2|1.1MB/s
   port: 443
   server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇧GB_2|2.1MB/s
+- name: 35|🇬🇧GB_3|1.3MB/s
+  password: None
   port: 443
   server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇬🇧GB_3|1.7MB/s
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_4|2.7MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 37|GB_speednode_0013
+  network: tcp
   port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇧GB_5|2.5MB/s
-  port: 443
-  server: 212.102.63.61
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+- name: 37|GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
   skip-cert-verify: true
   tls: true
   type: http

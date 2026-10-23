@@ -1,24 +1,29 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪EE_1|3.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 2LWgemfg0df7tGt4icLbRG-Cz7QNPVr3g7xIdwbTTHQ
-    short-id: caa05b44ba5b7b3d
-  server: 45.139.27.9
-  servername: www.spbu.ru
+  name: 29|🇪🇪_爱沙尼亚_56
+  network: ws
+  port: 8443
+  server: 114.129.9.132
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6eca8bc3-c4e1-48d1-bf15-1eb016dd6272
-  xudp: true
-- name: 35|🇪EE_2|3.6MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 35|🇪EE_1|2.4MB/s
   port: 9443
   server: 95.153.31.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪🇪EE_2|1011KB/s
+  port: 9443
+  server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http

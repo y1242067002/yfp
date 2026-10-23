@@ -1,21 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士_217
-  network: ws
-  port: 443
-  server: 2.59.219.220
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士_244
+  name: 29|🇨🇭_瑞士_261
   network: ws
   port: 443
   server: 91.245.225.69
@@ -29,7 +14,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: 35|CH_1|1.6MB/s
+- name: 35|CH_1|1.1MB/s
   password: None
   port: 9443
   server: 149.88.27.33
@@ -37,7 +22,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇨🇭CH_2|2.4MB/s
+- name: 35|🇨🇭CH_2|1.0MB/s
   password: None
   port: 9443
   server: 37.120.213.210
@@ -45,28 +30,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇭CH_3|2.9MB/s
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 35|🇨🇭CH_4|1.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 4.232.64.201
-  servername: vp58.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /TelegramU0001F1E8U0001F1F3 @VPNine1fp=chrome
-  xudp: true
