@@ -348,36 +348,26 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|DE_1|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 35,37|DE_speednode_0001
   port: 443
-  reality-opts:
-    public-key: YM1SjW-RyGtPYs_SgjtfaIxJpw2m-TZ8qnNFxkDxHV0
-    short-id: a5543a67f52ea8ab
-  server: 31.76.15.24
-  servername: www.apple.com
+  server: 213.109.163.119
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 50a98bb9-8680-44b3-9962-902fff4631cf
-  xudp: true
-- name: 35|🇪DE_2|2.1MB/s
-  port: 443
-  server: 149.36.50.157
+- name: 35,37|DK_speednode_0003
+  port: 9002
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 35|🇪DE_3|1.2MB/s
+  name: 35|🇩🇪DE_3|1.9MB/s
   network: ws
   packet-encoding: xudp
-  port: 443
-  server: 177.1.187.183
+  port: 8443
+  server: 185.208.172.85
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -387,32 +377,32 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /fp=chrome
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
   xudp: true
-- name: 35|🇪DE_4|1.5MB/s
-  port: 443
-  server: 213.177.229.161
+- name: 35|🇪DE_4|3.6MB/s
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_5|1.2MB/s
+- name: 35|🇪DE_5|2.4MB/s
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_6|2.3MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_6|3.2MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
-  name: 35|🇩🇪DE_7|3.5MB/s
+  name: 35|🇪DE_7|3.2MB/s
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -425,17 +415,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /fp=chrome
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /
   xudp: true
-- name: 37|DE_speednode_0001
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|DE_speednode_0002
   password: None
   port: 443

@@ -989,7 +989,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇸US_1|3.0MB/s
+  name: 35|🇸US_1|1.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1002,20 +1002,21 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
   xudp: true
-- name: 35|🇺🇸US_2|3.5MB/s
+- name: 35|🇸US_2|2.9MB/s
+  password: None
   port: 443
-  server: 167.88.60.242
+  server: 193.239.236.134
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸US_3|2.6MB/s
+- name: 35,37|US_speednode_0023
   port: 443
-  server: 45.63.38.134
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
@@ -1027,12 +1028,98 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 35|🇸US_6|1.0MB/s
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_7|3.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_8|2.3MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_9|3.7MB/s
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_10|1.2MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_11|3.3MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_12|2.8MB/s
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_13|3.3MB/s
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇺🇸US_14|2.3MB/s
+  password: None
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_15|1.9MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇸US_16|3.0MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
-  name: 35|🇸US_5|1.3MB/s
+  name: 35|🇸US_17|1.8MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.17.151.3
+  server: 104.16.137.145
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1041,154 +1128,104 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 35|🇸US_6|1.7MB/s
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_18|2.2MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
+  server: 104.16.65.1
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇺🇸US_7|1.2MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇸US_8|3.5MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇸US_9|1000KB/s
-  password: ''
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇸US_19|3.3MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
+  reality-opts:
+    public-key: q6WMAqAzFYui3TiWXdOJ1-E4NbiHHk5o1mx6W6m4hEM
+    short-id: c4623fa4291795e7
+  server: 104.223.72.232
+  servername: gateway.icloud.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
-- name: 35|🇸US_10|1.1MB/s
+  uuid: 444715e6-1c6a-4027-90df-fa01ac984669
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_20|3.2MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
+  server: 104.17.149.181
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇸US_11|1.1MB/s
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_12|1.2MB/s
-  password: None
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_13|1.3MB/s
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_14|1.6MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇺🇸US_21|2.2MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
+  server: 104.16.66.12
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇺🇸US_15|1.6MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_16|3.0MB/s
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_22|2.8MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
+  reality-opts:
+    public-key: wYF-6QYrpUnKHTt26H__bpgkCjqeYZ-rKz7c_wjBqXA
+    short-id: 2ea109a3d9651ecf
+  server: 67.216.218.76
+  servername: www.apple.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇺🇸US_17|2.4MB/s
-  password: None
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇺🇸US_18|2.5MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_19|2.9MB/s
+  uuid: 77821190-1670-4e06-8111-98388d6fcefd
+  xudp: true
+- name: 35|🇺🇸US_23|3.4MB/s
   password: None
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_20|1.9MB/s
-  password: ''
-  port: 8018
-  server: 146.190.60.147
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_21|3.9MB/s
-  password: ''
-  port: 22222
-  server: 64.118.155.2
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇸US_22|4.4MB/s
-  password: ''
-  port: 8003
-  server: 146.190.60.147
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_23|2.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 37|US_speednode_0023
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  username: 'null'
