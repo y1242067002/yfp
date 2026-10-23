@@ -348,6 +348,87 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|DE_1|1.7MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: YM1SjW-RyGtPYs_SgjtfaIxJpw2m-TZ8qnNFxkDxHV0
+    short-id: a5543a67f52ea8ab
+  server: 31.76.15.24
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50a98bb9-8680-44b3-9962-902fff4631cf
+  xudp: true
+- name: 35|🇪DE_2|2.1MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇪DE_3|1.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 177.1.187.183
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- name: 35|🇪DE_4|1.5MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_5|1.2MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_6|3.2MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 35|🇩🇪DE_7|3.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: 64.188.71.236
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /fp=chrome
+  xudp: true
 - name: 37|DE_speednode_0001
   port: 443
   server: 213.109.163.119

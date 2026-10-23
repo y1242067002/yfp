@@ -14,8 +14,7 @@ proxies:
   uuid: dc4512bd-44d8-4211-9559-f2e165bb34b0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29,35|🇪DE_1|1.0MB/s
-  network: tcp
+  name: 29|🇷🇺_俄罗斯_14
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -97,8 +96,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯_240
+  encryption: none
+  name: 29,35|FI_1|1.1MB/s
   network: ws
+  packet-encoding: xudp
   port: 8443
   server: 139.100.226.187
   servername: snip.edgeoneai.cc.cd
@@ -110,7 +111,10 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
 - client-fingerprint: chrome
   name: 29|🇷🇺_俄罗斯_339
   network: ws
@@ -126,3 +130,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
+- name: 35|🇷RU_1|1.7MB/s
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

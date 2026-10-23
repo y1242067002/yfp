@@ -350,21 +350,41 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: 35|JP_1|3.7MB/s
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|JP_1|5.5MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 168.93.214.124
+  server: saas.sin.fan
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chromefp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    max-early-data: 2560
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇵JP_2|3.3MB/s
+  network: tcp
+  port: 40471
+  reality-opts:
+    public-key: ION3Z4kFdyat1B8CZWy17mlMLBYC3F6xFOAF7eenwjw
+  server: 216.23.83.152
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b22b98a-3161-4330-9bc9-ca02990da9ca

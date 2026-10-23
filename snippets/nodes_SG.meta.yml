@@ -641,3 +641,69 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|SG_1|2.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.154.211
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 35|🇬SG_3|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.157.161
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- name: 35|🇬SG_4|4.0MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.229.57.163
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- client-fingerprint: chrome
+  name: 35|🇸🇬SG_5|1.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.42.162
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /
+  xudp: true
