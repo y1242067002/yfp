@@ -1,30 +1,4 @@
 proxies:
-- name: 19|日本
-  network: tcp
-  port: 443
-  server: 160.187.111.222
-  servername: images-na.ssl-images-amazon.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 21|_JP_
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
-  type: hysteria2
-  udp: true
-- name: 21|🇵_JP_日本_1
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-001.fastervpn.world
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|日期：10-23
@@ -376,32 +350,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|JP_1|3.1MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-  xudp: true
 - client-fingerprint: chrome
-  name: 35|🇯🇵JP_2|1.7MB/s
+  name: 35|JP_1|3.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
