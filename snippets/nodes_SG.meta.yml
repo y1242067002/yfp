@@ -571,7 +571,7 @@ proxies:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇸🇬SG_2|3.1MB/s
+  name: 35|SG_1|3.6MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -584,91 +584,109 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: 35|🇸🇬SG_3|4.2MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.36.29
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇸🇬SG_2|3.6MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 18.143.63.164
+  type: ss
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NETfp=chrome
-  xudp: true
-- name: 35|🇸🇬SG_4|4.0MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇸🇬SG_3|5.0MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 13.215.227.70
+  type: ss
+  udp: true
+- name: 35|🇸🇬SG_4|3.2MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.87.168
+  server: 13.229.54.109
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- name: 35|🇬SG_5|3.1MB/s
+- name: 35|🇸🇬SG_5|3.4MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.55.110
+  server: 13.212.207.226
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸🇬SG_6|4.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.64.150.28
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 35|🇸🇬SG_7|4.2MB/s
+- name: 35|🇸🇬SG_6|3.4MB/s
   password: '!!str 1234'
   port: 2080
-  server: 13.212.186.198
+  server: 52.221.234.145
   skip-cert-verify: true
   type: http
   udp: true
   username: '1234'
-- client-fingerprint: chrome
-  name: 35|🇸🇬SG_8|4.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.43.114
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
+- name: 35|🇸🇬SG_7|2.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 18.143.176.211
+  skip-cert-verify: true
+  type: http
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
-  xudp: true
+  username: '1234'
+- name: 35|🇸🇬SG_8|4.5MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.90.38
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸🇬SG_9|3.0MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 18.143.144.220
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸🇬SG_10|3.9MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.249.115
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸🇬SG_11|4.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 47.129.155.166
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸🇬SG_12|4.5MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.190.30
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
+- name: 35|🇸🇬SG_13|4.8MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.229.89.107
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: '1234'
