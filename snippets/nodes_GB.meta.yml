@@ -1,5 +1,60 @@
 proxies:
 - client-fingerprint: chrome
+  name: 22|GB國丨yoyapai.com
+  network: ws
+  port: 8443
+  server: ad-010.pixel9xdmq.info
+  servername: ad-010.pixel9xdmq.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
+  ws-opts:
+    headers:
+      Host: ad-010.pixel9xdmq.info
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|GB国丨yoyapai.com
+  port: 2053
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: 31.76.39.217
+  servername: uk-t2.vinnypuxtomoon.today
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+- client-fingerprint: chrome
+  name: 22|🇬🇧GB英国丨yoyapai.com_1
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: /GOrbEh
+- name: 22|🇧GB英国丨yoyapai.com_2
+  network: ws
+  port: 2087
+  server: 188.220.67.245
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- client-fingerprint: chrome
   name: 29|🇬🇧_英国_146
   network: ws
   port: 52014
@@ -88,31 +143,9 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: 35|🇧GB_1|2.0MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_2|2.7MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_3|2.6MB/s
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇧GB_4|2.7MB/s
-  port: 9443
-  server: 84.233.178.33
+- name: 37|GB_speednode_0009
+  port: 8443
+  server: 198.105.124.180
   skip-cert-verify: true
   tls: true
   type: http

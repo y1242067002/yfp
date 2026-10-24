@@ -1,5 +1,91 @@
 proxies:
 - client-fingerprint: chrome
+  name: 22|KR国丨yoyapai.com
+  network: ws
+  port: 25524
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 22|🇷KR韩國丨yoyapai.com_1
+  network: ws
+  port: 8880
+  server: crimson-smoke-7818.397.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 22|🇰🇷KR韩丨yoyapai.com
+  network: ws
+  port: 8880
+  server: 104.17.144.29
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+  ws-opts:
+    headers:
+      Host: spring-sound-8d8e.36-9ff.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 22|KR国(mibei77.com 米贝节点分享)
+  obfs: salamander
+  obfs-password: C0DD7bgChaltqnh/T2az6ijM
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  ports: 20000-30000
+  server: 130.162.134.218
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  name: 22|KR韩国(mibei77.com 米贝节点分享)_1
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: 20664.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  ws-opts:
+    headers:
+      Host: 20664.pages.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 22|KR韩国(mibei77.com 米贝节点分享)_2
+  network: ws
+  port: 443
+  server: 144.24.71.172
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: 22|KR²_1|0.7MB/s|GPT|X|History 01
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇰🇷_韩国_11
   port: 443
@@ -260,22 +346,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇷KR_1|1.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 158.247.222.168
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /
-  xudp: true
