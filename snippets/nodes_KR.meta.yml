@@ -1,74 +1,51 @@
 proxies:
 - client-fingerprint: chrome
-  name: 22|KR国丨yoyapai.com
-  network: ws
-  port: 25524
-  server: 116.93.199.28
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国_15
+  port: 443
+  reality-opts:
+    public-key: GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE
+    short-id: ca193e889d958f81
+  server: 158.247.241.102
+  servername: www.apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 22|🇷KR韩國丨yoyapai.com_1
-  network: ws
-  port: 8880
-  server: crimson-smoke-7818.397.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 22|🇰🇷KR韩丨yoyapai.com
-  network: ws
-  port: 8880
-  server: 104.17.144.29
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-  ws-opts:
-    headers:
-      Host: spring-sound-8d8e.36-9ff.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 22|KR国(mibei77.com 米贝节点分享)
-  obfs: salamander
-  obfs-password: C0DD7bgChaltqnh/T2az6ijM
-  password: C0DD7bgChaltqnh/T2az6ijM
-  port: 20000
-  ports: 20000-30000
-  server: 130.162.134.218
-  skip-cert-verify: true
-  sni: rmgyvpn.rest
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 22|KR韩国(mibei77.com 米贝节点分享)_1
+  uuid: 583cc910-b57c-4dd0-a4a7-cea51a30b032
+- name: 29|🇰🇷_韩国_114
   network: ws
   port: 443
   server: 123.111.169.70
-  servername: 20664.pages.dev
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: 20664.pages.dev
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 22|KR韩国(mibei77.com 米贝节点分享)_2
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chromefp=chrome
+- name: 29|🇰🇷_韩国_115
   network: ws
   port: 443
-  server: 144.24.71.172
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- client-fingerprint: chrome
+  name: 29|🇰🇷_韩国_127
+  network: ws
+  port: 443
+  server: 158.247.222.168
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -79,28 +56,22 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- name: 22|KR²_1|0.7MB/s|GPT|X|History 01
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: T2clM0QlM0Q6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇰🇷_韩国_11
+- name: 29|🇰🇷_韩国_274
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
-    short-id: c8af1462debbc1
-  server: kr2.oh-node.com
-  servername: www.coway.com
+  server: 158.247.222.168
+  servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 8c88c56d-5efb-4218-8753-0c2365dfe96a
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_54
+  name: 29|🇰🇷_韩国_324
   network: ws
   port: 443
   server: 193.122.115.184
@@ -115,7 +86,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_66
+  name: 29|🇰🇷_韩国_343
   network: ws
   port: 443
   server: 141.164.44.60
@@ -130,7 +101,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_72
+  name: 29|🇰🇷_韩国_354
   network: ws
   port: 443
   server: 54.116.249.102
@@ -145,7 +116,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_73
+  name: 29|🇰🇷_韩国_355
   network: ws
   port: 443
   server: 141.164.56.22
@@ -160,7 +131,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_82
+  name: 29|🇰🇷_韩国_363
   network: ws
   port: 443
   server: 144.24.90.178
@@ -175,22 +146,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_83
-  network: ws
-  port: 443
-  server: 168.107.36.135
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_84
+  name: 29|🇰🇷_韩国_364
   network: ws
   port: 443
   server: 52.79.188.223
@@ -205,7 +161,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_94
+  name: 29|🇰🇷_韩国_373
   network: ws
   port: 443
   server: 141.164.34.193
@@ -220,22 +176,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_96
-  network: ws
-  port: 443
-  server: 43.202.32.50
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_115
+  name: 29|🇰🇷_韩国_394
   network: ws
   port: 443
   server: 193.123.236.206
@@ -250,37 +191,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_138
-  network: ws
-  port: 443
-  server: 146.56.151.92
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_162
-  network: ws
-  port: 443
-  server: 43.164.139.71
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_222
+  name: 29|🇰🇷_韩国_428
   network: ws
   port: 443
   server: 158.247.220.241
@@ -295,10 +206,10 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 29|🇰🇷_韩国_305
+  name: 29|🇰🇷_韩国_430
   network: ws
   port: 443
-  server: 123.111.169.70
+  server: 146.56.151.92
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: true
   tls: true
@@ -308,21 +219,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- name: 29|🇰🇷_韩国_307
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chromefp=chrome
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
   name: 33|🇰🇷 韩国|@ripaojiedian
