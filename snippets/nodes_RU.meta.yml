@@ -1,20 +1,4 @@
 proxies:
-- name: 28|99@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
-- name: 28|Telegram @cnetvpn 🇷🇺
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯_48
@@ -95,15 +79,11 @@ proxies:
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 29,35|🇧GB_3|1.6MB/s
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇷🇺_俄罗斯_130
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
   server: 45.151.71.142
   servername: gb.ozon.ru
   skip-cert-verify: true
@@ -111,7 +91,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇷🇺_俄罗斯_175
@@ -285,26 +264,40 @@ proxies:
   uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
   ws-opts:
     path: /useraction/events/b892639b7195/
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 35|RU_1|2.5MB/s
-  network: ws
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 35|RU_1|1.1MB/s
+  network: tcp
   port: 443
-  server: 46.243.142.104
-  servername: santehdv.site
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.160.140.119
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
-  ws-opts:
-    headers:
-      Host: santehdv.site
-    path: /media/stream/qUWu2oaFgxAw
-- client-fingerprint: edge
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇺RU_2|2.6MB/s
+  name: 35|🇺RU_2|3.8MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 147.45.46.178
+  servername: abuse.ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_3|1.0MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -318,18 +311,18 @@ proxies:
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   xudp: true
-- client-fingerprint: ios
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇷🇺RU_3|3.2MB/s
+  name: 35|🇷🇺RU_4|1.0MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: ''
-  server: 147.45.46.169
-  servername: abuse.ozon.ru
+  server: 193.160.140.110
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true

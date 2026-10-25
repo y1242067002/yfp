@@ -36,20 +36,25 @@ proxies:
   uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
   ws-opts:
     path: /vless
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇪SE_1|2.8MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 35|SE_1|1.4MB/s
+  password: None
   port: 443
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: afee962d
-  server: se1.mycloud1.org
-  servername: se1.mycloud1.org
+  server: 149.50.216.65
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-  xudp: true
+- name: 37|SE_speednode_0048
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|SE_speednode_0049
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
