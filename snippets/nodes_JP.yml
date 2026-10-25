@@ -1,6 +1,177 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '19,22|🇵JP_1|246KB/s|S004-260618 [134... #1'
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: None
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '19,22|🇵JP_10|363KB/s|S004-260618 [20... #1'
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: 168.138.43.75
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: 168.138.43.75
+    path: /cctv13.m3u8
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇵JP_24|696KB/s|A004-260618 [2c...
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,22|🇵JP_3|652KB/s|A004-260618 [3e7...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,22|🇯🇵JP_14|668KB/s|A004-260618 [4...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,22|🇵JP_10|685KB/s|A004-260618 [52...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,22|🇵JP_48|596KB/s|S004-260618 [60...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: jp01.a0a.xyz
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 19,22|🇵JP_52|471KB/s|M003-260806 [65...
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: false
+  sni: nat11.outsidemyheart.space
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /w4e5yh0p945y3
+- client-fingerprint: chrome
+  name: 19,22|🇯🇵JP_38|496KB/s|S001-260618 [a...
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: jp3.998998.best
+  skip-cert-verify: false
+  sni: nat11.outsidemyheart.space
+  sub_tag: S001-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    max-early-data: 2560
+    path: /w4e5yh0p945y3
+- cipher: aes-256-gcm
+  name: 19,22|🇵JP_1|619KB/s|A004-260618 [c67...
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,22|🇯🇵JP_39|558KB/s|M001-260618 [e...
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  skip-cert-verify: false
+  sub_tag: M001-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '19,22|🇵JP_64|201KB/s|M002-260618 [fc... #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 18112
+  server: oc.imfun.fun
+  servername: oc.imfun.fun
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇵JP_51|99KB/s|A001-260618 [eea...
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
+  port: 8388
+  server: 191.223.221.53
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
   network: ws
   port: 443
