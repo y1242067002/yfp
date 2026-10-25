@@ -1,119 +1,31 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 19,22|🇷KR_35|527KB/s|M001-260618 [2f...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  sub_tag: M001-260618
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 19,22|🇷KR_20|505KB/s|A004-260618 [90...
-  network: tcp
-  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-  port: 56127
-  server: 154.90.62.70
-  skip-cert-verify: true
-  sni: 154.90.62.70
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '19,22|🇷KR_40|441KB/s|M003-260806 [c2... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: false
-  sub_tag: M003-260806
+  name: 29|🇰🇷_韩国_22
+  port: 80
+  server: 217.142.138.61
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
   cipher: auto
-  name: 19,22|🇷KR_40|190KB/s|P002-260618 [dc...
-  network: ws
-  port: 443
-  server: seoul02.zgjok.com
-  servername: seoul02.zgjok.com
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
-  ws-opts:
-    headers:
-      Host: seoul02.zgjok.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '19,22|🇷KR_19|770KB/s|C002-260622 [eb... #1'
-  network: tcp
-  packet-encoding: xudp
+  name: 29|🇰🇷_韩国_23
   port: 443
   server: 140.238.2.250
-  skip-cert-verify: false
-  sub_tag: C002-260622
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  xudp: true
-- client-fingerprint: chrome
-  name: 19,22|🇷KR_21|501KB/s|A004-260618 [ee...
-  network: tcp
-  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-  port: 56127
-  server: 154.90.62.70
+- alterId: 0
+  cipher: auto
+  name: 29|🇰🇷_韩国_296
+  network: ws
+  port: 80
+  server: 132.145.80.230
   skip-cert-verify: true
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇷KR_23|667KB/s|M002-260618 [62...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 132.145.80.230
-  servername: kr02.a0a.xyz
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- cipher: aes-256-cfb
-  name: 22|🇷KR_34|559KB/s|A004-260618 [6c...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇰🇷KR_47|301KB/s|A004-260618 [7...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 132.145.80.230
-  servername: 132.145.80.230
-  skip-cert-verify: false
-  sub_tag: A004-260618
   tls: false
   type: vmess
   udp: true
@@ -122,15 +34,19 @@ proxies:
     headers:
       Host: 132.145.80.230
     path: /cctv13.m3u8
-  xudp: true
-- cipher: aes-256-cfb
-  name: 22|KR_36|214KB/s|A004-260618 [a21...
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.234
-  sub_tag: A004-260618
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 29|🇰🇷_韩国_301
+  network: ws
+  port: 20086
+  server: 183.109.131.75
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 33|🇰🇷 韩国|@ripaojiedian
@@ -154,7 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|KR_1|2.9MB/s
+- name: 35|KR_1|1.1MB/s
   network: tcp
   password: 29086912-33e4-4e06-ba2b-60f1a195864f
   port: 24999
