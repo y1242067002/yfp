@@ -524,7 +524,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|US_1|1.1MB/s
+- name: 35|US_1|1.8MB/s
   password: None
   port: 9443
   server: 198.44.138.27
@@ -532,91 +532,13 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇺🇸US_2|2.7MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_3|1.1MB/s
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇸US_4|1003KB/s|K001-260618
-  password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_5|1.1MB/s
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇸US_6|2.0MB/s
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 35,37|US_speednode_0043
-  network: tcp
-  packet-encoding: xudp
-  port: 54857
-  server: 130.94.18.208
-  servername: us001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 35,37|AT_speednode_0002
-  network: ws
-  packet-encoding: xudp
+- name: 35|🇺🇸US_2|2.2MB/s
   port: 8443
-  server: 152.53.31.46
-  servername: usa3.pad-sservice.lat
-  skip-cert-verify: false
+  server: 154.81.36.92
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa3.pad-service.com
-    path: /U1SA
-  xudp: true
-- client-fingerprint: chrome
-  name: 35|🇸US_9|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 54857
-  server: us001.zestapp778.com
-  servername: us001.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  xudp: true
 - name: 37|US_speednode_0039
   port: 8443
   server: 44.248.167.117
@@ -638,3 +560,23 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 37|US_speednode_0042
+  port: 19167
+  server: mx001.zestapp778.com
+  servername: mx001.zestapp778.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: 37|US_speednode_0043
+  port: 54857
+  server: 130.94.18.208
+  servername: us001.zestapp778.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
