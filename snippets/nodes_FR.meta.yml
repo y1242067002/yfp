@@ -176,30 +176,22 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
     path: /
-- name: 35,37|FR_speednode_0015
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇷FR_2|1.8MB/s
+  name: 35|🇷FR_1|4.5MB/s
   network: tcp
-  port: 2092
+  port: 443
   reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.200
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.160.141.27
+  servername: abuse.ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 35|🇫🇷FR_3|1.0MB/s
+  name: 35|🇫🇷FR_3|2.4MB/s
   network: tcp
   port: 2092
   reality-opts:
@@ -207,62 +199,41 @@ proxies:
     short-id: 716b7eba38125f3a
   server: 213.152.165.203
   servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 901cb432-3807-404a-9bb8-987814b000ca
-- name: 35|🇷FR_4|2.4MB/s
-  password: None
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇷FR_5|2.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.167
-  servername: abuse.ozon.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- name: 35|🇷FR_6|3.3MB/s
-  port: 443
-  server: 141.94.16.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_7|2.1MB/s|S001-260618
-  password: ''
-  port: 1081
-  server: 107.191.47.162
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- name: 35|🇷FR_8|3.1MB/s
+  uuid: 901cb432-3807-404a-9bb8-987814b000ca
+- name: 35|🇫🇷FR_4|2.6MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇷FR_9|2.5MB/s
+- name: 35|🇷FR_5|2.4MB/s
   port: 8090
   server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇫🇷FR_6|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 213.152.165.204
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41e9280c-818c-4939-b5d6-332bf4d872e6
+  xudp: true
 - name: 37|FR_speednode_0012
   password: 'null'
   port: 23856
@@ -283,6 +254,13 @@ proxies:
   password: None
   port: 443
   server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 37|FR_speednode_0015
+  port: 443
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http

@@ -33,8 +33,10 @@ proxies:
   type: vless
   udp: true
   uuid: 20b98028-53c9-4f76-9bc9-b6b16b8a9152
-- name: 29|🇨🇦_加拿大_216
+- encryption: none
+  name: 29,35|🇺🇸US_2|1.5MB/s
   network: ws
+  packet-encoding: xudp
   port: 8880
   server: 23.227.39.30
   skip-cert-verify: true
@@ -45,57 +47,18 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime17.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|CA_1|1.5MB/s
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.203
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|🇨🇦CA_2|1019KB/s
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.201
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d7a636-fd0b-489e-bf99-baa5b1bf9f15
-- name: 35|🇦CA_3|2.2MB/s
+  xudp: true
+- name: 35|🇦CA_3|2.9MB/s
   port: 9443
-  server: 149.88.98.81
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇦CA_4|2.8MB/s
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨🇦CA_5|1.3MB/s
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_6|1.3MB/s
+- name: 35|🇦CA_4|3.1MB/s
   port: 443
   server: 206.223.183.13
   skip-cert-verify: true
