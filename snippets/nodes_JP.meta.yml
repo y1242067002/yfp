@@ -1,10 +1,8 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   name: 29,35,37|TR_speednode_0038
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -15,7 +13,6 @@ proxies:
   type: vless
   udp: true
   uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  xudp: true
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本_189
   network: ws
@@ -99,3 +96,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 35|JP_1|4.7MB/s
+  network: http
+  port: 443
+  server: 43.207.152.78
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e

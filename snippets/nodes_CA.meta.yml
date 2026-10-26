@@ -12,3 +12,25 @@ proxies:
     headers:
       Host: vms.lifetime17.workers.dev
     path: /
+- name: 35|CA_1|1.2MB/s
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇦CA_2|1.4MB/s
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇨🇦CA_3|2.8MB/s
+  password: None
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
