@@ -1,42 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇦_加拿大_67
-  port: 18000
-  server: 134.195.196.211
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇦_加拿大_72
-  port: 18000
-  server: 23.162.200.198
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大_83
-  port: 8080
-  reality-opts:
-    public-key: sQ_YHzotqhVJoUDAZl5kTzUqVN6ksh-MTikz_ixsZWc
-    short-id: 2b30
-  server: 54.39.96.233
-  servername: icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20b98028-53c9-4f76-9bc9-b6b16b8a9152
-- encryption: none
-  name: 29,35|🇺🇸US_2|1.5MB/s
+- name: 29|🇨🇦_加拿大_259
   network: ws
-  packet-encoding: xudp
   port: 8880
   server: 23.227.39.30
   skip-cert-verify: true
@@ -47,28 +11,26 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime17.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /
-  xudp: true
-- name: 35|🇦CA_3|2.9MB/s
-  port: 9443
-  server: 198.44.157.19
+- name: 35|CA_1|2.4MB/s
+  port: 443
+  server: 206.223.161.47
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇦CA_4|3.1MB/s
+- name: 35|🇨🇦CA_2|2.6MB/s
+  password: None
   port: 443
   server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 37|CA_speednode_0004
+- name: 35|🇦CA_3|1.1MB/s
   password: None
   port: 443
-  server: 206.223.183.21
+  server: 206.223.183.16
   skip-cert-verify: true
   tls: true
   type: http
