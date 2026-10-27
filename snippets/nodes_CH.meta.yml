@@ -1,39 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士_69
-  port: 443
-  reality-opts:
-    public-key: AoPku9i0xSD2cCzJdPcUSSft8c_RkIZbsbP888VO938
-    short-id: 287b3d62899669d7
-  server: lv2.himoy.space
-  servername: lv2.himoy.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5131b5e9-2c3c-44a0-8f18-0641f3f21cac
-- name: 29|🇨🇭_瑞士_176
+  name: 29|🇨🇭_瑞士
+  network: ws
   password: humanity
   port: 443
   server: 185.18.250.252
-  skip-cert-verify: true
+  servername: www.calmlunch.com
+  skip-cert-verify: false
   sni: www.calmlunch.com
+  tls: true
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
     path: /assignment
-- name: 35|CH_1|3.1MB/s
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨🇭CH_2|2.1MB/s
+- name: 35|CH_1|1.2MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true

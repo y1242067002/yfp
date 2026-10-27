@@ -1,83 +1,49 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_53
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.222
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国_64
+  name: 29|🇫🇷_法国
   port: 8443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 51.77.108.218
   servername: ozon.ru
-  skip-cert-verify: true
+  skip-cert-verify: false
+  sni: ozon.ru
   tls: true
   type: vless
   udp: true
   uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.nhSIR1t1CWYukAuI6cNN2d0JM-25b8yeNVlsDojFFRc
-  name: 35|🇫FR_1|3.0MB/s
-  network: xhttp
-  port: 443
-  server: justfr.b-cdn.net
-  servername: justfr.b-cdn.net
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (2)
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 54.37.5.203
+  servername: ozon.ru
+  skip-cert-verify: false
+  sni: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1ccb5c3d-d5f7-4515-9666-dfc7489e78f7
-  xhttp-opts:
-    host: justfr.b-cdn.net
-    mode: auto
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国 (3)
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  servername: a31e0690cf16385904bbd1c6ad52a468.mobgslb.tbcache.com
+  skip-cert-verify: false
+  sni: a31e0690cf16385904bbd1c6ad52a468.mobgslb.tbcache.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 58e6d85e-d762-43d3-a0b7-a98096d6f3ac
+  ws-opts:
+    headers:
+      Host: a31e0690cf16385904bbd1c6ad52a468.mobgslb.tbcache.com
     path: /
-- name: 35|🇫🇷FR_2|2.5MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_3|1.4MB/s
-  password: None
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_4|1.3MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇫🇷FR_5|2.8MB/s
-  password: None
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇷FR_6|2.2MB/s
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 37|FR_speednode_0008
   port: 19362
   server: 51.159.225.197
@@ -101,6 +67,13 @@ proxies:
   type: http
   udp: true
   username: 'null'
+- name: 37|FR_speednode_0011
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|FR_speednode_0012
   port: 443
   server: 82.65.162.76

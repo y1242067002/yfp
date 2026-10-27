@@ -1,33 +1,30 @@
 proxies:
-- name: 35|🇪SE_1|4.1MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪SE_2|2.9MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-se-3
-  name: 35|🇪SE_3|1.8MB/s
-  network: grpc
-  packet-encoding: xudp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典
   port: 443
   reality-opts:
-    public-key: qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo
-    short-id: 11d37dd92940329e
-  server: 136.148.218.108
-  servername: se1-cl3.vless-fiberstasis.top
+    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
+    short-id: fb442438e2223836
+  server: 5.157.10.146
+  servername: sweb1.loozerp.wiki
+  skip-cert-verify: false
+  sni: sweb1.loozerp.wiki
   tls: true
   type: vless
   udp: true
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  xudp: true
+  uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典 (2)
+  network: ws
+  port: 8443
+  server: 167.104.104.138
+  servername: n.tmkkarss.online
+  skip-cert-verify: false
+  sni: n.tmkkarss.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5194487-9b9a-462f-a047-ac7580d80201
+  ws-opts:
+    path: /
