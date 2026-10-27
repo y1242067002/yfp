@@ -13,9 +13,10 @@ proxies:
   type: vless
   udp: true
   uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯_13
+  name: 29,35|🇺RU_2|4.4MB/s
+  network: tcp
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -285,6 +286,23 @@ proxies:
     headers:
       Host: ware.tunnelgate.org
     path: /ws/v1/ru
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷🇺RU_3|3.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 193.160.141.50
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54d1afe5-f5aa-47e6-a02f-6c41a6f886b3
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029
