@@ -9,29 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 28|🇩🇪201034 | ⚡️Telegram = t.me/S...
-  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
-  port: 8443
-  server: 95.85.252.217
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: 28|🇩🇪201035 | ⚡️Telegram = t.me/S...
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  port: 4443
-  server: 31.76.24.11
-  sni: de1.shvpn.ru
-  tls: false
-  type: hysteria2
-- name: 28|🇩🇪201128 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: hltm9jnj6ez4cbhd
-  port: 2098
-  server: vip.trapxan.ir
-  sni: vip.trapxan.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国
@@ -432,6 +409,87 @@ proxies:
   type: vless
   udp: true
   uuid: 2bb5176f-cc45-41b5-908c-441581dccf8a
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇪DE_1|3.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: lvi.su
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  ws-opts:
+    headers:
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+  xudp: true
+- name: 35|🇩🇪DE_2|2.7MB/s
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+  udp: true
+- name: 35|🇩🇪DE_3|2.0MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_4|1.1MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_5|3.2MB/s
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_6|2.9MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_7|3.5MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_8|2.2MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_9|2.1MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 37|DE_speednode_0004
   port: 443
   server: 213.109.163.119
