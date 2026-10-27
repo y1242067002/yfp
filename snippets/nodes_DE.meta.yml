@@ -9,12 +9,27 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 28|🇩🇪200800 | Telegram = t.me/SOS...
-  password: 9qFAF3s4R7wkGxcI0fonColtap41RUTsWdW
-  port: 30396
-  server: 45.131.65.244
-  skip-cert-verify: false
-  sni: pisulka.jsbox.top
+- name: 28|🇩🇪201034 | ⚡️Telegram = t.me/S...
+  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
+  port: 8443
+  server: 95.85.252.217
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- name: 28|🇩🇪201035 | ⚡️Telegram = t.me/S...
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: 31.76.24.11
+  sni: de1.shvpn.ru
+  tls: false
+  type: hysteria2
+- name: 28|🇩🇪201128 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: hltm9jnj6ez4cbhd
+  port: 2098
+  server: vip.trapxan.ir
+  sni: vip.trapxan.ir
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
@@ -417,6 +432,30 @@ proxies:
   type: vless
   udp: true
   uuid: 2bb5176f-cc45-41b5-908c-441581dccf8a
+- name: 35|🇪DE_1|1.6MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_2|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: B7a6QgVW-E1QjZf5qi92n6btgHvmzfX1ooE7llCCwW8
+    short-id: 66682da1
+  server: 201.58.182.216
+  servername: nlport.ptlux.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2bb5176f-cc45-41b5-908c-441581dccf8a
+  xudp: true
 - name: 37|DE_speednode_0004
   port: 443
   server: 213.109.163.119
