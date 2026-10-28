@@ -151,3 +151,34 @@ proxies:
   type: vless
   udp: true
   uuid: b62e3646-b84d-443c-9c94-718b646502e0
+- name: 35|🇧GB_1|3.2MB/s
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_2|3.0MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇧GB_3|4.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 1410
+  reality-opts:
+    public-key: bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc
+    short-id: 4ea6a183
+  server: engnode.barnikle1.me
+  servername: www.ing.nl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94c5a8a7-4296-400d-b413-639157be5224
+  xudp: true
