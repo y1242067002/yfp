@@ -1,19 +1,46 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 29|🇨🇭_瑞士
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  servername: www.calmlunch.com
+  port: 2053
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+    short-id: ad86e2d52ff40ebd
+  server: 208.69.78.217
+  servername: www.apple.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.apple.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
-  ws-opts:
-    path: /assignment
-- name: 35|CH_1|2.6MB/s
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士 (2)
+  port: 443
+  reality-opts:
+    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+    short-id: 19253fae84102271
+  server: 45.90.59.15
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+- client-fingerprint: chrome
+  name: 29|🇨🇭_瑞士 (3)
+  port: 443
+  server: swz.proxyplankton.ru
+  servername: swz.proxyplankton.ru
+  skip-cert-verify: false
+  sni: swz.proxyplankton.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
+- name: 35|🇨CH_1|1.8MB/s
   password: None
   port: 9443
   server: 149.88.27.33
@@ -21,18 +48,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇭CH_2|3.4MB/s
+- name: 35|🇭CH_2|2.2MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇨🇭CH_3|2.5MB/s
-  password: ''
-  port: 12345
-  server: 147.161.247.9
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''

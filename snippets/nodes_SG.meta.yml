@@ -1,6 +1,30 @@
 proxies:
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: 29|🇸🇬_新加坡
+  port: 59121
+  server: 129.226.157.220
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (2)
+  port: 47881
+  reality-opts:
+    public-key: 6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4
+    short-id: 38d72071
+  server: 134.185.81.5
+  servername: www.tesla.com
+  skip-cert-verify: false
+  sni: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
+- name: 29|🇸🇬_新加坡 (3)
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
@@ -10,24 +34,132 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (3)
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  sni: www.lamer.com.sg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇸🇬_新加坡 (4)
+  port: 19825
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  server: 146.235.16.130
+  servername: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: false
+  sni: sg2-8sb.6121999.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡 (5)
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡 (6)
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (7)
+  port: 443
+  reality-opts:
+    public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+    short-id: 5a42dbd7e26a0415
+  server: 172.237.88.103
+  servername: zoom.us
+  skip-cert-verify: false
+  sni: zoom.us
+  tls: true
+  type: vless
+  udp: true
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (8)
+  port: 443
+  reality-opts:
+    public-key: TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig
+    short-id: 9930177816ab09da
+  server: 206.206.76.75
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (9)
+  port: 12972
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  server: 3.0.111.82
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 29|🇸🇬_新加坡 (10)
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  sni: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    path: /fp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (11)
+  port: 21003
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+    short-id: f3602a3a1cf928b7
+  server: 510.150333.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (12)
+  port: 24146
+  reality-opts:
+    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+    short-id: 7205d9079521832c
+  server: 54.251.9.130
+  servername: www.intel.com
+  skip-cert-verify: false
+  sni: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (13)
   port: 19825
   reality-opts:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
@@ -42,63 +174,43 @@ proxies:
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (5)
-  port: 55688
+  name: 29|🇸🇬_新加坡 (14)
+  port: 443
   reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
-  server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
+    public-key: iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M
+    short-id: 8854f17e2a5af2d8
+  server: snp.bsh-net.ru
+  servername: snp.bsh-net.ru
   skip-cert-verify: false
-  sni: bilibili-vn.biliimg.com
+  sni: snp.bsh-net.ru
   tls: true
   type: vless
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (6)
-  port: 35544
-  reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-  server: funagfrdfs.alixxplay.com
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  sni: iosapps.itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 29|🇸🇬_新加坡 (7)
+  name: 29|🇸🇬_新加坡 (15)
   network: ws
   port: 443
   server: v2.drsachi.com
+  servername: v2.drsachi.com
   skip-cert-verify: false
+  sni: v2.drsachi.com
   tls: false
   type: vless
   udp: true
   uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
   ws-opts:
-    headers:
-      Host: v2.drsachi.com
     path: /
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡 (8)
-  network: ws
-  port: 51262
-  server: 175.41.179.37
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡 (16)
+  port: 18000
+  server: ww11.levikogjgfdd.ir
   skip-cert-verify: false
-  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 6c6ea474-0cf5-4a3d-bc81-aa2eeb6516d6
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 33|🇸🇬 新加坡|@ripaojiedian
@@ -137,11 +249,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|SG_1|1.7MB/s
-  password: '!!str 1234'
-  port: 2080
-  server: 52.221.234.145
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: '1234'
