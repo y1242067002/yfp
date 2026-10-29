@@ -1,4 +1,120 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com_1
+  port: 443
+  reality-opts:
+    public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
+    short-id: 984f
+  server: fr5.wizard.select
+  servername: fr5.wizard.select
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2acc3742-c568-11f1-9902-a337233c6cda
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|EE丨yoyapai.com尼亚丨yoyapai.com
+  port: 443
+  server: 138.124.100.128
+  servername: ee4.fast-connect-service.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 22|🇪爱沙尼亚丨yoyapai.com_2
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  servername: russiapower.accesscam.org
+  skip-cert-verify: false
+  sni: russiapower.accesscam.org
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|🇪EE爱沙尼亚丨yoyapai.com_2
+  port: 2053
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: 5.175.178.43
+  servername: ee-t3.vinnypuxtomoon.today
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)
+  port: 443
+  reality-opts:
+    public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
+    short-id: 984f
+  server: fr5.wizard.select
+  servername: fr5.wizard.select
+  skip-cert-verify: false
+  sni: fr5.wizard.select
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2acc3742-c568-11f1-9902-a337233c6cda
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|EE丨yoyapai.com尼亚丨yoyapai.com_2
+  port: 443
+  server: 138.124.100.128
+  servername: ee4.fast-connect-service.site
+  skip-cert-verify: false
+  sni: ee4.fast-connect-service.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|🇪EE爱沙尼亚丨yoyapai.com (3)
+  port: 2053
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  server: 5.175.178.43
+  servername: ee-t3.vinnypuxtomoon.today
+  skip-cert-verify: false
+  sni: ee-t3.vinnypuxtomoon.today
+  tls: true
+  type: vless
+  udp: true
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+- name: 22|🇪EE_2|93KB/s|K001-260618 [968f...
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 22|🇪EE_1|497KB/s|R002-260618 [ff1...
+  password: 9jkvAVV-9ufV6IGd
+  port: 41560
+  server: chalo-ru.nexorcdn.com
+  skip-cert-verify: true
+  sni: chalo-ru.nexorcdn.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ef37886e2aacd6fa622e3de3810299c2
 - client-fingerprint: firefox
   name: 29|🇪🇪_爱沙尼亚 (2)
   port: 25895

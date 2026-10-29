@@ -1,1 +1,32 @@
-proxies: []
+proxies:
+- name: 22|🇩🇪DE德国丨yoyapai.com_18
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 22|🇪DE德国丨yoyapai.com (17)
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- cipher: rc4-md5
+  name: 22|🇪DE_2|1.1MB/s|A004-260618 [3e8...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
+  type: ss
+  udp: true

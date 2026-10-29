@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|🇸🇪SE瑞典丨yoyapai.com_1
+  port: 443
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|🇸🇪SE瑞典丨yoyapai.com (2)
+  port: 443
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  skip-cert-verify: false
+  sni: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- name: 22|🇸SE_1|209KB/s|P002-260618 [862...
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true

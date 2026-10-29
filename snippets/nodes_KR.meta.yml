@@ -1,4 +1,59 @@
 proxies:
+- client-fingerprint: chrome
+  name: 22|KR国丨yoyapai.com
+  network: ws
+  port: 25524
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- name: 22|🇷KR韩國丨yoyapai.com (2)
+  network: ws
+  port: 8880
+  server: crimson-smoke-7818.397.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 22|🇰🇷KR韩丨yoyapai.com_2
+  network: ws
+  port: 8880
+  server: 104.17.144.29
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+  ws-opts:
+    headers:
+      Host: spring-sound-8d8e.36-9ff.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- client-fingerprint: chrome
+  name: 22|KR国丨yoyapai.com_2
+  network: ws
+  port: 25524
+  server: 116.93.199.28
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  sni: ylnhh.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
 - alterId: 0
   cipher: auto
   name: 33|🇰🇷 韩国|@ripaojiedian
