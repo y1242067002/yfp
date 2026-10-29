@@ -471,87 +471,100 @@ proxies:
   type: vless
   udp: true
   uuid: 8834ec58-9441-422c-b5eb-865997851480
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|DE_1|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 2083
-  server: req.apptrendv.com
-  servername: email.apptrendv.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7cc18adc-1ef0-42c9-8e7b-722d7622c7dd
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|2.2MB/s
+- client-fingerprint: chrome
+  name: 35|DE_1|1.2MB/s
   network: xhttp
-  packet-encoding: xudp
   port: 443
-  server: f1.greewebservices.ir
-  servername: default.ssl.fastly.net
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
   tls: true
   type: vless
   udp: true
-  uuid: a7e9fc98-25a2-4801-961c-7a6ed9d69328
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
   xhttp-opts:
-    host: Cheerfully-frozen-mongoose-beryl.global.ssl.fastly.net
-    mode: auto
-  xudp: true
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 35|🇩🇪DE_3|3.3MB/s
+  name: 35|🇩🇪DE_2|2.4MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 148-253-210-191.sslip.io
-  servername: 148-253-210-191.sslip.io
+  server: lvi.su
+  servername: lvi.su
   tls: true
   type: vless
   udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
     headers:
-      Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /test-ws
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
   xudp: true
-- name: 35|🇩🇪DE_4|2.9MB/s|R002-260618
-  password: None
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: 35|🇩🇪DE_3|1.2MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  server: msydjt.com
+  servername: msydjt.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35,37|DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /51544/ws
+  xudp: true
+- client-fingerprint: firefox
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: 35|🇩🇪DE_4|1.0MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.naviga-ting.com
+  servername: www.naviga-ting.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇩🇪DE_6|4.1MB/s
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /51544/ws
+  xudp: true
+- name: 35|🇪DE_5|2.6MB/s
+  password: None
   port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 35|🇪DE_6|2.0MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 35|🇩🇪DE_7|3.0MB/s
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_8|1020KB/s
   password: None
   port: 9443
   server: 213.177.229.161
@@ -559,61 +572,73 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_8|2.0MB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_9|2.6MB/s
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
-  name: 35|🇪DE_10|4.0MB/s
-  network: tcp
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
   encryption: none
-  name: 35|🇩🇪DE_11|1.8MB/s
-  network: ws
+  name: 35|🇩🇪DE_9|1.6MB/s
+  network: xhttp
   packet-encoding: xudp
   port: 443
-  server: 155.212.240.10
-  servername: n.bitpulse.me
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
   tls: true
   type: vless
   udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇩🇪DE_10|1.6MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: e2865c20.con.rasterparcel.tech
+  servername: e2865c20.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇪DE_11|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 87.120.166.160
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: n.bitpulse.me
+      Host: lvi.su
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    max-early-data: 2560
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
   xudp: true
-- name: 35|🇪DE_12|1.1MB/s
-  password: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_12|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
+  reality-opts:
+    public-key: yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8
+    short-id: ''
+  server: 93.152.223.244
+  servername: ddk5-ger.newagetechnologies.live
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  xudp: true
 - name: 37|DE_speednode_0004
   port: 443
   server: 213.109.163.119

@@ -1047,22 +1047,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: '2'
-  cipher: auto
-  name: 35|NL_1|4.3MB/s
+- name: 35|US_1|1.5MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  password: 5t6i121em5lkmsmk
+  port: 42314
+  server: us007.zestapp778.com
+  skip-cert-verify: true
+  sni: us007.zestapp778.com
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alpn:
   - http/1.1
-  name: 35|🇳🇱NL_2|1.3MB/s
+  name: 35|NL_1|1006KB/s
   network: ws
   password: humanity
   port: 443
@@ -1076,12 +1072,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: 35|🇪DE_10|4.0MB/s
+- name: 35|LT_1|2.0MB/s
   network: tcp
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  skip-cert-verify: false
+  sni: lt-1.1984.love
+  type: trojan
+  udp: true
+- name: 35|🇺🇸US_14|1.6MB/s
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  skip-cert-verify: false
+  sni: us-1.1984.love
   type: trojan
   udp: true
