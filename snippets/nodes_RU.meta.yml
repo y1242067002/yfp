@@ -703,6 +703,22 @@ proxies:
   uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
   ws-opts:
     path: /
+- encryption: mlkem768x25519plus.native.0rtt.8th1uEEPtl2BhPfgxINwmVO_Kq6V1htSghiTMdjWkRM
+  name: 35|RU_1|1.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 146.185.197.95
+  type: vless
+  udp: true
+  uuid: 9ea8b000-58ce-0005-b108-989dd4f248f1
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /live/ws2
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029

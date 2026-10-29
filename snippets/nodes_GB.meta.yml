@@ -194,7 +194,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 22|🇬🇧GB_3|563KB/s|R002-260618 [22...
+- name: 22,35|🇧GB_3|1.2MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
@@ -269,3 +269,46 @@ proxies:
   udp: true
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
   xudp: true
+- client-fingerprint: qq
+  name: 35|GB_1|3.3MB/s
+  network: ws
+  port: 443
+  server: 92.113.107.120
+  servername: indigostar.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
+  ws-opts:
+    path: /ws
+- name: 35|🇧GB_2|3.0MB/s
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_4|1.0MB/s
+  password: None
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇧GB_5|2.5MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇬🇧GB_6|1.9MB/s
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
