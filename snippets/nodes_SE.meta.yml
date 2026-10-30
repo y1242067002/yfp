@@ -37,24 +37,44 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_1|3.0MB/s
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典 (2)
+  network: ws
+  port: 443
+  server: 172.234.107.222
+  servername: indigostar.click
+  skip-cert-verify: true
+  sni: indigostar.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
+  ws-opts:
+    path: /ws
+- name: 29|🇸🇪_瑞典
+  network: ws
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  skip-cert-verify: true
+  sni: 5.178.109.174
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    path: /vless
+- name: 35|🇪SE_1|1.0MB/s
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_2|2.1MB/s
+- name: 35|🇪SE_2|2.6MB/s
   password: None
   port: 443
   server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪SE_3|1.2MB/s
-  port: 443
-  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http

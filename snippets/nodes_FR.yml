@@ -258,13 +258,13 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (24)
+  name: 22,29|🇺🇸_美国 (96)
   network: ws
   password: humanity
   port: 443
   server: 165.215.250.14
   servername: www.calmlunch.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.calmlunch.com
   tls: true
   type: trojan
@@ -357,3 +357,64 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国 (13)
+  network: ws
+  port: 80
+  server: 145.239.55.210
+  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: true
+  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 067fcd63-b215-4abd-8529-ae929a9971a9
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+    path: /
+- alterId: 0
+  cipher: none
+  name: 29|🇫🇷_法国 (4)
+  port: 20250
+  server: 51.83.6.5
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国 (14)
+  network: ws
+  port: 80
+  server: 54.37.131.126
+  servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  skip-cert-verify: true
+  sni: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国 (15)
+  network: ws
+  port: 80
+  server: 57.128.164.21
+  servername: https.http.www.net.com.ramseyv2.ir.
+  skip-cert-verify: true
+  sni: https.http.www.net.com.ramseyv2.ir.
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bda82bcd-f6e2-46ae-9552-673f0b87ac30
+  ws-opts:
+    headers:
+      Host: https.http.www.net.com.ramseyv2.ir.
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560

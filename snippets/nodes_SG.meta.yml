@@ -302,7 +302,7 @@ proxies:
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
-  name: 22,29|🇸🇬_新加坡 (3)
+  name: 22|SG新加坡(mibei77.com 米贝节点分享) (12)
   network: ws
   port: 51262
   server: 175.41.179.37
@@ -350,14 +350,16 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇸🇬SG_9|619KB/s|A001-260618 [22...
+  name: 22,29|🇸🇬_新加坡 (14)
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
+  servername: 139.180.146.200
   skip-cert-verify: true
   sni: 139.180.146.200
   sub_tag: A001-260618
+  tls: true
   type: trojan
   udp: true
 - name: 22|🇸🇬SG_11|120KB/s [22e47b665591]
@@ -452,23 +454,238 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (17)
+  network: ws
+  port: 2096
+  server: 139.162.27.96
+  servername: free-server.techsonic.dev
+  skip-cert-verify: true
+  sni: free-server.techsonic.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    path: /free-server.techsonic.dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (13)
+  port: 19825
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  server: 146.235.16.130
+  servername: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: true
+  sni: sg2-8sb.6121999.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+- name: 29|🇸🇬_新加坡 (6)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 149.28.130.108
+  servername: searchcreativejobsandshowcaseyourartistictalents.com
+  skip-cert-verify: true
+  sni: searchcreativejobsandshowcaseyourartistictalents.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇸🇬_新加坡 (5)
-  network: ws
-  port: 80
-  server: 170.187.229.90
-  servername: shoutingtoutiao3.10010.com
-  skip-cert-verify: false
-  sni: shoutingtoutiao3.10010.com
+  name: 29|🇸🇬_新加坡 (8)
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 9bda13eb-66bb-4ff5-b01c-aa7c2d291412
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡 (5)
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (21)
+  network: ws
+  port: 443
+  server: 152.42.175.196
+  servername: n.bitpulse.me
+  skip-cert-verify: true
+  sni: n.bitpulse.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
   ws-opts:
     headers:
-      Host: shoutingtoutiao3.10010.com
-    path: /images
+      Host: n.bitpulse.me
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (4)
+  port: 443
+  reality-opts:
+    public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
+    short-id: 5a42dbd7e26a0415
+  server: 172.237.88.103
+  servername: zoom.us
+  skip-cert-verify: true
+  sni: zoom.us
+  tls: true
+  type: vless
+  udp: true
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (16)
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: ccc.010304.xyz
+  skip-cert-verify: true
+  sni: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    path: /
+- client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (20)
+  network: ws
+  port: 443
+  server: 43.174.247.63
+  servername: ded1ws.samcdn.shop
+  skip-cert-verify: true
+  sni: ded1ws.samcdn.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    path: /51544/ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (12)
+  port: 2053
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    short-id: cd7e85995ae2afc9
+  server: 45.132.75.213
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+- name: 29|🇸🇬_新加坡 (11)
+  port: 443
+  server: 45.32.117.217
+  servername: sg003.zestapp778.com
+  skip-cert-verify: true
+  sni: sg003.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 29|🇸🇬_新加坡 (9)
+  port: 443
+  server: 45.77.40.28
+  servername: sg003.zestapp778.com
+  skip-cert-verify: true
+  sni: sg003.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (10)
+  port: 443
+  reality-opts:
+    public-key: iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M
+    short-id: 8854f17e2a5af2d8
+  server: 67.159.52.51
+  servername: snp.bsh-net.ru
+  skip-cert-verify: true
+  sni: snp.bsh-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (19)
+  network: ws
+  port: 443
+  server: msydjt.com
+  servername: ded1ws.samcdn.shop
+  skip-cert-verify: true
+  sni: ded1ws.samcdn.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    path: /51544/ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡
+  port: 443
+  server: sg003.zestapp778.com
+  servername: sg003.zestapp778.com
+  skip-cert-verify: true
+  sni: sg003.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (3)
+  port: 443
+  reality-opts:
+    public-key: iE4sTz-Q2Frkm7WM32P1wm4at49Wpaj5vo-2FsLcN1M
+    short-id: 8854f17e2a5af2d8
+  server: snp.bsh-net.ru
+  servername: snp.bsh-net.ru
+  skip-cert-verify: true
+  sni: snp.bsh-net.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇬_新加坡 (7)
+  port: 18000
+  server: ww11.levikogjgfdd.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (18)
+  network: ws
+  port: 443
+  server: www.naviga-ting.com
+  servername: ded1ws.samcdn.shop
+  skip-cert-verify: true
+  sni: ded1ws.samcdn.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    path: /51544/ws
 - alterId: 0
   cipher: auto
   name: 33|🇸🇬 新加坡|@ripaojiedian
@@ -507,10 +724,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 35|SG_1|1.7MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

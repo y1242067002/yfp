@@ -94,7 +94,7 @@ proxies:
   type: vless
   udp: true
   uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
-- name: 22,35|🇪EE_1|2.7MB/s
+- name: 22|🇪EE_2|93KB/s|K001-260618 [968f...
   password: None
   port: 9443
   server: 95.153.31.66
@@ -115,7 +115,22 @@ proxies:
   type: http
   udp: true
   username: ef37886e2aacd6fa622e3de3810299c2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚
+  port: 443
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 4a7b1c8d
+  server: 146.19.143.218
+  servername: tau1.freerunet.online
+  skip-cert-verify: true
+  sni: tau1.freerunet.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
+- client-fingerprint: chrome
   name: 29|🇪🇪_爱沙尼亚 (2)
   port: 25895
   reality-opts:
@@ -123,16 +138,9 @@ proxies:
     short-id: a73f0410d728c823
   server: ee.h1cloud.net
   servername: www.samsung.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.samsung.com
   tls: true
   type: vless
   udp: true
   uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- name: 35|🇪🇪EE_2|1.2MB/s
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
