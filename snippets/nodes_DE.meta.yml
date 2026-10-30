@@ -1017,177 +1017,116 @@ proxies:
   uuid: 36592d47-b9f5-4e8f-949e-45ac05472aab
   ws-opts:
     path: /
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.o0BcVARCrSaazhloS4J-7h2Z0pBRUSHhgNvtjuhuFWo
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 35|DE_1|1.6MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 167.82.76.31
-  servername: speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9991b8e-7d19-49e7-ae1d-70ce37d7ca16
-  xhttp-opts:
-    host: mojehb.global.ssl.fastly.net
-    mode: auto
-    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 35|🇩🇪DE_2|4.0MB/s
+  name: 35|DE_1|1.4MB/s
   network: xhttp
   packet-encoding: xudp
-  port: 443
-  server: avr.rlrlco.ir
-  servername: cdn.akamai.steamstatic.com
+  port: 8857
+  reality-opts:
+    public-key: 0z13Oz2r2Khq0jHUgbPWxseVLoQTlFMuMDwL9a-X7yY
+    short-id: 37962ada43f6
+  server: Ng1.istgahfilm.ir
+  servername: aparat.com
   tls: true
   type: vless
   udp: true
-  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
+  uuid: 9fcb8080-1ad9-4a37-b92f-46be7053e39a
   xhttp-opts:
-    host: gertypp.global.ssl.fastly.net
+    host: aparat.com
     mode: auto
-    path: /setare
-    reuse-settings:
-      h-keep-alive-period: 20
-      h-max-request-times: 300-500
-      h-max-reusable-secs: 300-480
-      max-concurrency: 16-32
-    x-padding-bytes: 100-1000
+    path: /
   xudp: true
-- name: 35,37|DE_speednode_0004
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇩🇪DE_2|1.4MB/s
+  network: xhttp
+  packet-encoding: xudp
   port: 443
-  server: 213.109.163.119
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- name: 35,37|DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 35|🇪DE_4|2.0MB/s
-  network: ws
-  port: 443
-  server: 155.212.240.10
-  servername: n.bitpulse.me
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: n.bitpulse.me
-    max-early-data: 2560
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128
-- name: 35|🇪DE_5|2.5MB/s
+- name: 35|🇩🇪DE_4|2.1MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇩🇪DE_6|1.9MB/s
-  password: None
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_7|3.2MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_8|3.1MB/s
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_9|1008KB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇩🇪DE_10|2.9MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_11|1.7MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_12|2.4MB/s
-  password: None
+- name: 35|🇪DE_5|2.5MB/s
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇪DE_13|2.7MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_14|3.1MB/s
-  password: 'null'
+- name: 35|🇪DE_6|2.7MB/s
   port: 443
-  server: 193.233.75.115
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 35|🇩🇪DE_15|3.7MB/s
-  password: ''
-  port: 9002
-  server: 158.173.154.2
+- name: 35|🇪DE_7|2.4MB/s
+  port: 443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- client-fingerprint: chrome
+- name: 35|🇪DE_8|2.7MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_9|2.7MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 47443
+  reality-opts:
+    public-key: MnW49sASUaQ1Sm8SbCWlU8eKfNR8x1O03YSZdj5vM3Y
+    short-id: ae97223a8f799003
+  server: 217.60.151.187
+  servername: ge-3.waspguard.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  xudp: true
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪DE_16|3.7MB/s
+  name: 35|🇪DE_10|2.3MB/s
   network: tcp
   packet-encoding: xudp
   port: 43000
   reality-opts:
-    public-key: YagqjrSaICX5_qhcRvWOfM_yatBa5FtJexO9IlZeIEo
-    short-id: 093e1846
-  server: 94.249.189.41
+    public-key: QaPoY-5W4Z7NA_LUG37yjYNy3JWg53Ru7eWLTzec-nE
+    short-id: b62ac375
+  server: 94.249.186.64
   tls: true
   type: vless
   udp: true
-  uuid: cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1
+  uuid: 4421e4d5-6869-4a45-a76b-5c822aac776d
   xudp: true
-- name: 35|🇩🇪DE_17|3.2MB/s
+- name: 35|🇪DE_11|1.4MB/s
   password: ''
   port: 443
   server: 193.233.75.115
@@ -1196,3 +1135,10 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 37|DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
