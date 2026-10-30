@@ -1,21 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|🇸🇪SE瑞典丨yoyapai.com_1
-  port: 443
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: afee962d
-  server: 91.242.228.29
-  servername: se1.mycloud1.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 22|🇸🇪SE瑞典丨yoyapai.com (2)
+  name: 19,22|🇸🇪SE瑞典丨yoyapai.com (2)_2
   port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
@@ -28,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: 22|🇸SE_1|209KB/s|P002-260618 [862...
+- name: '19,22|🇸SE_1|209KB/s|P002-260618 [862... #1'
   password: None
   port: 443
   server: 79.142.77.63
@@ -37,6 +23,122 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  name: 22|瑞典(mibei77.com 米贝节点分享)
+  network: xhttp
+  port: 61374
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  server: se-2.pythonsetupbib.online
+  servername: se-2.pythonsetupbib.online
+  skip-cert-verify: false
+  sni: se-2.pythonsetupbib.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  xhttp-opts:
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    path: /
+- name: 22|🇸SE_3|1.7MB/s|P002-260618 [63b...
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+    path: /vless
+  xudp: true
+- name: 22|🇪SE_1|838KB/s|R002-260618 [1e7...
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|SE_6|535KB/s|C002-260622 [3c02...
+  network: ws
+  packet-encoding: xudp
+  port: 444
+  server: 109.120.155.155
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
+  ws-opts:
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 22|🇸🇪SE_5|1.2MB/s|R002-260618 [3e...
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|SE_2|2.5MB/s|R002-260618 [b12d...
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇸SE_8|393KB/s|M003-260806 [c3a...
+  network: ws
+  packet-encoding: xudp
+  port: 43788
+  server: 89.22.224.146
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
+  ws-opts:
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 22|🇸SE_7|1.3MB/s|R002-260618 [f52...
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 28|🇸🇪203174 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 9765192816a553687801bb170ee1c351
+  password: HyDouble_f1NgaW7sHbMefhNf
+  port: 25000
+  server: fenrir.cc.cd
+  skip-cert-verify: false
+  sni: fenrir.cc.cd
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 29|🇸🇪_瑞典 (2)
   network: ws
@@ -64,18 +166,3 @@ proxies:
   uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
   ws-opts:
     path: /vless
-- name: 35|🇪SE_1|1.0MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪SE_2|2.6MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
