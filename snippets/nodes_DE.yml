@@ -91,17 +91,15 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- client-fingerprint: ios
-  name: 22,29|🇷🇺_俄罗斯 (8)
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_78|148KB/s|B007-260618 [c...
   network: tcp
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
-  servername: t.me/FuckTheWall
   skip-cert-verify: true
   sni: t.me/FuckTheWall
   sub_tag: B007-260618
-  tls: true
   type: trojan
   udp: true
 - alpn:
@@ -117,12 +115,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (45)
+- name: 29|德国 (2)
   network: ws
   password: humanity
-  port: 443
-  server: 138.124.228.122
+  port: 8443
+  server: 185.225.205.75
   servername: www.cordweave.com
   skip-cert-verify: true
   sni: www.cordweave.com
@@ -131,160 +128,146 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇩🇪_德国 (35)
+- name: 29|🇩🇪德国 01
   network: ws
   password: humanity
   port: 443
-  server: 144.31.205.106
-  servername: www.pleadcourt.org
+  server: 202.61.198.53
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: 29|🇩🇪_德国 (34)
-  network: ws
-  password: humanity
-  port: 443
-  server: 161.35.192.122
-  servername: www.pleadcourt.org
-  skip-cert-verify: true
-  sni: www.pleadcourt.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.orghttp/1.1
-    path: /assignment
-- name: 29|🇩🇪_德国 (29)
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.255.179.166
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇩🇪_德国 (8)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.15
-  servername: courses.iloverussia2026.com
-  skip-cert-verify: true
-  sni: courses.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (5)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  servername: blog.iloverussia2026.com
-  skip-cert-verify: true
-  sni: blog.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (9)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.78
-  servername: www.iloverussia2026.com
-  skip-cert-verify: true
-  sni: www.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (27)
-  port: 443
-  server: 45.131.153.149
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (28)
-  password: Tg3RnK7Xp8B1
-  port: 443
-  server: 45.32.157.84
-  servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  skip-cert-verify: true
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (31)
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.80.111.7
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇩🇪_德国 (40)
+- name: 29|🇩🇪德国 02
   network: ws
   password: humanity
   port: 443
-  server: 64.227.115.28
-  servername: www.pleadcourt.org
+  server: 212.113.99.18
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (13)
-  port: 40070
-  server: 91.107.147.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c45be70-e001-41e5-b39d-39351fe4a2d7
-- name: 29|🇩🇪_德国 (32)
+- name: 29|🇩🇪德国 03
   network: ws
   password: humanity
   port: 443
-  server: 92.42.99.143
-  servername: www.pleadcourt.org
+  server: 87.120.126.131
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.pleadcourt.org
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (16)
+- name: 29|🇩🇪德国 04
+  network: ws
+  password: humanity
   port: 443
-  server: de.zhou-yufan.com
+  server: 108.165.236.229
+  servername: www.cordweave.com
   skip-cert-verify: true
+  sni: www.cordweave.com
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 05
+  network: ws
+  password: humanity
+  port: 443
+  server: 138.124.231.159
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 06
+  network: ws
+  password: humanity
+  port: 443
+  server: 85.235.64.69
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 07
+  network: ws
+  password: humanity
+  port: 443
+  server: 144.31.120.77
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 08
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.165.34.40
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 09
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 31.76.0.15
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.12.46.156
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment

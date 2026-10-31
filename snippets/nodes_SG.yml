@@ -15,16 +15,14 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇸🇬_新加坡 (14)
+  name: 19,22|🇬SG_35|548KB/s|A004-260618 [73...
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
-  servername: 139.180.146.200
   skip-cert-verify: true
   sni: 139.180.146.200
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: rc4-md5
@@ -62,13 +60,14 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 22|SG新加坡(mibei77.com 米贝节点分享) (2)
+- client-fingerprint: chrome
+  name: 22,29|美国 (3)
   network: ws
   password: e7TTceggMwUMg+aFN:F4
   port: 443
   server: 172.66.47.18
   servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   tls: true
   type: trojan
@@ -169,16 +168,14 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22,29|🇸🇬_新加坡 (6)
+  name: 22|🇬SG_91|626KB/s|B007-260618 [95...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
-  servername: searchcreativejobsandshowcaseyourartistictalents.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   sub_tag: B007-260618
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -217,36 +214,97 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡 (8)
-  port: 18000
-  server: 149.88.23.202
+- name: 29|新加坡
+  network: ws
+  password: humanity
+  port: 443
+  server: 178.93.160.132
+  servername: www.cordweave.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡 (5)
-  port: 18000
-  server: 149.88.23.207
+  ws-opts:
+    path: /assignment
+- name: 29|新加坡 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 157.245.159.88
+  servername: www.cordweave.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 29|🇸🇬_新加坡 (7)
-  port: 18000
-  server: ww11.levikogjgfdd.ir
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬新加坡 01
+  network: ws
+  password: humanity
+  port: 443
+  server: 168.144.41.69
+  servername: www.cordweave.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬新加坡 02
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.104.185.40
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬新加坡 03
+  network: ws
+  password: humanity
+  port: 443
+  server: 128.199.128.117
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬新加坡 04
+  network: ws
+  password: humanity
+  port: 443
+  server: 209.97.165.213
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬新加坡 05
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.102.89
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 33|🇸🇬 新加坡|@ripaojiedian

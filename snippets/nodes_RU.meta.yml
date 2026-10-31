@@ -390,7 +390,7 @@ proxies:
   uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,29|🇸🇬_新加坡 (15)
+  name: 22,29|美国 (73)
   port: 19825
   reality-opts:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
@@ -545,145 +545,61 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯
-  port: 443
-  reality-opts:
-    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
-    short-id: 681fc2dd643bc2f3
-  server: 130.49.177.193
-  servername: de-2.ffpn.pro
-  skip-cert-verify: true
-  sni: de-2.ffpn.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (4)
-  port: 43000
-  reality-opts:
-    public-key: lmT0SFJL1A8_ariRWL65dhShaqFbpitjGanv7EFnoR0
-    short-id: 725e6ea0
-  server: 144.48.11.97
-  servername: 144.48.11.97
-  skip-cert-verify: true
-  sni: 144.48.11.97
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4799abf0-d0d9-4a46-9c31-b1f76ae00e1e
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (14)
+- name: 29|俄罗斯
   network: ws
-  port: 443
-  server: 147.45.175.81
-  servername: xsru2.freeddns.org
+  password: humanity
+  port: 2053
+  server: 201.24.57.254
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: xsru2.freeddns.org
+  sni: www.cordweave.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   ws-opts:
-    headers:
-      Host: xsru2.freeddns.org
-    path: /wsru
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (2)
-  port: 24212
-  server: 158.160.180.165
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c58c1205-b308-416f-8503-c04557abf93d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (5)
+    path: /assignment
+- name: 29|俄罗斯 (2)
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
-    short-id: 4a7b1c8d
-  server: 178.236.245.59
-  servername: tau1.freerunet.online
+  server: 217.26.26.14
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: tau1.freerunet.online
+  sni: www.cordweave.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (7)
-  port: 443
-  reality-opts:
-    public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
-    short-id: 50ad5564
-  server: 186.246.9.29
-  servername: wordpress.com
-  skip-cert-verify: true
-  sni: wordpress.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (12)
+  ws-opts:
+    path: /assignment
+- client-fingerprint: ios
+  name: 29|俄罗斯 (3)
   network: ws
   port: 8443
   server: 194.87.143.165
-  servername: 194.87.143.165
+  servername: wsru1.wba-pn.ru
   skip-cert-verify: true
-  sni: 194.87.143.165
+  sni: wsru1.wba-pn.ru
   tls: true
   type: vless
   udp: true
   uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
   ws-opts:
+    headers:
+      Host: 194.87.143.165
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (3)
-  port: 443
-  reality-opts:
-    public-key: qC4VE5jv0q0ALYAfCNtAHU-kN32OdA-cqJmXpL4Y2VY
-    short-id: 3199b70105c62ce0
-  server: 88.218.170.236
-  servername: www.sun6-21.userapi.com
+- name: 29|🇧🇾白俄罗斯
+  network: ws
+  password: humanity
+  port: 8443
+  server: 91.149.167.147
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b872771d-e9d1-42d7-ad29-a9acff49ea2d
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (11)
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  servername: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (10)
-  port: 27591
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  server: pl1.h1cloud.net
-  servername: www.samsung.com
-  skip-cert-verify: true
-  sni: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  ws-opts:
+    path: /assignment
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029

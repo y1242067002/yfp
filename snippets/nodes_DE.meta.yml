@@ -192,16 +192,16 @@ proxies:
   type: vless
   udp: true
   uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 19,22,29|🇩🇪_德国 (11)
+  name: 19,22|🇩🇪DE德国丨yoyapai.com (14)_2
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   server: 169.40.42.229
   servername: yahoo.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: yahoo.com
   tls: true
   type: vless
@@ -410,12 +410,11 @@ proxies:
   udp: true
   uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
   xudp: true
-- name: 19,22,29|🇫🇷_法国 (2)
+- name: 19,22|🇩🇪DE_53|5.4MB/s|A004-260618 [b...
   network: raw
   packet-encoding: xudp
   port: 10000
   server: connect.wecantos.site
-  skip-cert-verify: true
   sub_tag: A004-260618
   tls: false
   type: vless
@@ -581,14 +580,14 @@ proxies:
     path: /test-ws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,29|🇩🇪_德国 (17)
+  name: 22|🇪DE德国丨yoyapai.com (3)_2
   port: 443
   reality-opts:
     public-key: eGTeI8aqjoea2v_vEHimFxEuC1IA42r2tg7IcP5oq1U
     short-id: 8e72c89e1adf4dc4
   server: 94.26.41.47
   servername: ded.bsh-net.ru
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ded.bsh-net.ru
   tls: true
   type: vless
@@ -653,12 +652,12 @@ proxies:
   ws-opts:
     path: /Telegram@VPNine1
 - client-fingerprint: chrome
-  name: 22,29|🇩🇪_德国 (43)
+  name: 22|DE德国(mibei77.com 米贝节点分享) (11)
   network: ws
   port: 56879
   server: 5.75.195.83
   servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   tls: true
   type: vless
@@ -669,7 +668,7 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 22,29|🇩🇪_德国 (42)
+  name: 22,29|德国
   network: ws
   port: 4443
   server: 178.105.133.160
@@ -685,12 +684,12 @@ proxies:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 22|DE德国(mibei77.com 米贝节点分享) (7)
+  name: 22,29|德国 (3)
   network: ws
   port: 443
   server: 104.18.42.98
   servername: jp3.yohototo.top
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: jp3.yohototo.top
   tls: true
   type: vless
@@ -1006,14 +1005,12 @@ proxies:
   type: http
   udp: true
   username: None
-- name: 22,29|🇩🇪_德国 (18)
+- name: 22|🇪DE_98|1.1MB/s|A004-260618 [7b...
   network: raw
   packet-encoding: xudp
   port: 10000
   server: 178.83.45.226
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: vless
   udp: true
   uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
@@ -1523,17 +1520,15 @@ proxies:
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /
   xudp: true
-- client-fingerprint: ios
-  name: 22,29|🇷🇺_俄罗斯 (8)
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_78|148KB/s|B007-260618 [c...
   network: tcp
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
-  servername: t.me/FuckTheWall
   skip-cert-verify: true
   sni: t.me/FuckTheWall
   sub_tag: B007-260618
-  tls: true
   type: trojan
   udp: true
 - name: 22|🇪DE_43|102KB/s|R002-260618 [d0...
@@ -1696,12 +1691,11 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (45)
+- name: 29|德国 (2)
   network: ws
   password: humanity
-  port: 443
-  server: 138.124.228.122
+  port: 8443
+  server: 185.225.205.75
   servername: www.cordweave.com
   skip-cert-verify: true
   sni: www.cordweave.com
@@ -1710,506 +1704,154 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇩🇪_德国 (35)
+- name: 29|🇩🇪德国 01
   network: ws
   password: humanity
   port: 443
-  server: 144.31.205.106
-  servername: www.pleadcourt.org
+  server: 202.61.198.53
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (47)
-  network: ws
-  port: 443
-  server: 148-253-210-191.sslip.io
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  ws-opts:
-    path: /test-ws
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (37)
-  network: ws
-  port: 443
-  server: 148.253.210.191
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  ws-opts:
-    path: /test-ws
-- name: 29|🇩🇪_德国 (34)
-  network: ws
-  password: humanity
-  port: 443
-  server: 161.35.192.122
-  servername: www.pleadcourt.org
-  skip-cert-verify: true
-  sni: www.pleadcourt.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.orghttp/1.1
-    path: /assignment
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (4)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.104
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (2)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.163
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (10)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.168
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.225
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (3)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.231
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (7)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.235
-  servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  skip-cert-verify: true
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (6)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.35
-  servername: -i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN
-  skip-cert-verify: true
-  sni: -i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN-i10VPN
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (14)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.90
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 29|🇩🇪_德国 (29)
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.255.179.166
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: firefox
-  name: 29|🇩🇪_德国 (44)
-  network: ws
-  port: 443
-  server: 185.78.76.166
-  servername: n.bitpulse.me
-  skip-cert-verify: true
-  sni: n.bitpulse.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  ws-opts:
-    headers:
-      Host: n.bitpulse.me
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
-- name: 29|🇩🇪_德国 (8)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.15
-  servername: courses.iloverussia2026.com
-  skip-cert-verify: true
-  sni: courses.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (5)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  servername: blog.iloverussia2026.com
-  skip-cert-verify: true
-  sni: blog.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (9)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.78
-  servername: www.iloverussia2026.com
-  skip-cert-verify: true
-  sni: www.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (19)
-  port: 443
-  reality-opts:
-    public-key: y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU
-  server: 201.58.183.42
-  servername: 13oktober.live
-  skip-cert-verify: true
-  sni: 13oktober.live
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-- name: 29|🇩🇪_德国 (12)
-  port: 45021
-  server: 31.77.148.89
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (27)
-  port: 443
-  server: 45.131.153.149
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (28)
-  password: Tg3RnK7Xp8B1
-  port: 443
-  server: 45.32.157.84
-  servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  skip-cert-verify: true
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (31)
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.80.111.7
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (48)
-  network: ws
-  port: 56879
-  server: 5.75.195.83
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  skip-cert-verify: true
-  sni: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87e9d6ee-1c74-44ba-b575-28730a0ea26a
-  ws-opts:
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-    path: /@Marisa_kristi
-- name: 29|🇩🇪_德国 (40)
+- name: 29|🇩🇪德国 02
   network: ws
   password: humanity
   port: 443
-  server: 64.227.115.28
-  servername: www.pleadcourt.org
+  server: 212.113.99.18
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (26)
-  port: 443
-  reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  server: 82.118.19.153
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (13)
-  port: 40070
-  server: 91.107.147.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c45be70-e001-41e5-b39d-39351fe4a2d7
-- name: 29|🇩🇪_德国 (38)
-  network: ws
-  port: 465
-  server: 91.107.180.176
-  servername: hw7.divarkhaghazi.com.
-  skip-cert-verify: true
-  sni: hw7.divarkhaghazi.com.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (33)
-  network: ws
-  port: 2083
-  server: 91.107.247.173
-  servername: sino.bestsellers1.site
-  skip-cert-verify: true
-  sni: sino.bestsellers1.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
-  ws-opts:
-    path: /
-- name: 29|🇩🇪_德国 (32)
+- name: 29|🇩🇪德国 03
   network: ws
   password: humanity
   port: 443
-  server: 92.42.99.143
-  servername: www.pleadcourt.org
+  server: 87.120.126.131
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.pleadcourt.org
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: www.pleadcourt.org
     path: /assignment
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (22)
-  port: 43000
-  reality-opts:
-    public-key: YagqjrSaICX5_qhcRvWOfM_yatBa5FtJexO9IlZeIEo
-    short-id: 093e1846
-  server: 94.249.189.41
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: cec0cf85-cf9f-44ce-9eb0-cb1f9b8d7ba1
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (16)
-  port: 443
-  server: de.zhou-yufan.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (20)
-  port: 443
-  reality-opts:
-    public-key: eGTeI8aqjoea2v_vEHimFxEuC1IA42r2tg7IcP5oq1U
-    short-id: 8e72c89e1adf4dc4
-  server: ded.bsh-net.ru
-  servername: ded.bsh-net.ru
-  skip-cert-verify: true
-  sni: ded.bsh-net.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (21)
-  port: 1412
-  reality-opts:
-    public-key: bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc
-    short-id: 4ea6a183
-  server: gernode.barnikle1.me
-  servername: www.dhl.de
-  skip-cert-verify: true
-  sni: www.dhl.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94c5a8a7-4296-400d-b413-639157be5224
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (41)
+- name: 29|🇩🇪德国 04
   network: ws
-  port: 465
-  server: hw7.divarkhaghazi.com
-  servername: hw7.divarkhaghazi.com.
-  skip-cert-verify: true
-  sni: hw7.divarkhaghazi.com.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
-  ws-opts:
-    path: /?Telegram—V2ray_confiig
-- client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (39)
-  network: ws
+  password: humanity
   port: 443
-  server: lvi.su
-  servername: lvi.su
+  server: 108.165.236.229
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: lvi.su
+  sni: www.cordweave.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (46)
+    path: /assignment
+- name: 29|🇩🇪德国 05
   network: ws
+  password: humanity
   port: 443
-  server: lvi.su
-  servername: lvi.su
+  server: 138.124.231.159
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: lvi.su
+  sni: www.cordweave.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
-    headers:
-      Host: lvi.su
-    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
-- name: 29|🇩🇪_德国 (36)
+    path: /assignment
+- name: 29|🇩🇪德国 06
   network: ws
-  port: 80
-  server: ov-germany1.09vpn.com
-  servername: OV-Germany1.09vpn.com
+  password: humanity
+  port: 443
+  server: 85.235.64.69
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: OV-Germany1.09vpn.com
-  tls: false
-  type: vless
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
   ws-opts:
-    path: /vless/
+    path: /assignment
+- name: 29|🇩🇪德国 07
+  network: ws
+  password: humanity
+  port: 443
+  server: 144.31.120.77
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 08
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.165.34.40
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 09
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 10
+  network: ws
+  password: humanity
+  port: 443
+  server: 31.76.0.15
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪德国 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.12.46.156
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 35|DE_1|2.8MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

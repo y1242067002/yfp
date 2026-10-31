@@ -8,16 +8,14 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22,29|🇯🇵_日本
+  name: 22|🇵JP_26|564KB/s|A001-260618 [28...
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
-  servername: 45.32.52.173
   skip-cert-verify: true
   sni: 45.32.52.173
   sub_tag: A001-260618
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -81,36 +79,110 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本 (2)
+- name: 29|日本 (2)
   network: ws
-  port: 80
-  server: 168.138.43.75
-  servername: 168.138.43.75
+  password: humanity
+  port: 443
+  server: 45.89.235.8
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: 168.138.43.75
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
-    headers:
-      Host: 168.138.43.75
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本 (3)
+    path: /assignment
+- name: 29|日本 (3)
   network: ws
-  port: 80
-  server: 172.111.146.64
+  password: humanity
+  port: 443
+  server: 35.78.243.103
+  servername: www.cordweave.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
-    path: /vmess/
+    path: /assignment
+- name: 29|日本 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.192.221.107
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵日本 01
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.237.0.160
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵日本 02
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.32.54.55
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵日本 03
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.8.115.202
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵日本 04
+  network: ws
+  password: humanity
+  port: 443
+  server: 129.225.185.49
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵日本 05
+  network: ws
+  password: humanity
+  port: 443
+  server: 152.70.86.199
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian

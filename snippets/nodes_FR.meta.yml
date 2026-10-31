@@ -327,7 +327,7 @@ proxies:
     headers:
       Host: old-violet-a5ce.29-440.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: 19,22,29|🇺🇸_美国 (100)
+- name: 19,22,29|英国
   network: ws
   port: 8880
   server: 80.93.202.40
@@ -466,18 +466,20 @@ proxies:
         like Gecko) Chrome/47.0.2526.106 Safari/537.36
     max-early-data: 2560
     path: /tr
-- name: 19,22,29|🇦🇪_阿拉伯联合酋长国 (8)
+- name: 19,22|🇫🇷FR_184|2.0MB/s|A004-260618 [...
   network: ws
   packet-encoding: xudp
   port: 14430
   server: 185.253.116.33
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: vless
   udp: true
   uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
   ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
     path: /vless
   xudp: true
 - name: 19,22|🇷FR_117|582KB/s|R002-260618 [4...
@@ -933,7 +935,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (96)
+  name: 22,29|美国 (5) (2)
   network: ws
   password: humanity
   port: 443
@@ -1069,19 +1071,20 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (107)
+  name: 22|🇷FR_65|402KB/s|V002-260618 [06...
   network: ws
   password: humanity
   port: 8443
   server: 5.78.92.27
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: V002-260618
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /assignment
 - name: 22|🇫🇷FR_29|1.1MB/s|A004-260618 [4...
   network: ws
@@ -1927,7 +1930,7 @@ proxies:
     path: /stream/PANEL_ZEUS/c67e6a7b76e9
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇧🇬_保加利亚 (5)
+  name: 22,29|美国 (20)
   network: ws
   password: humanity
   port: 443
@@ -1994,19 +1997,20 @@ proxies:
     path: /sg-melbi
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇱🇹_立陶宛 (4)
+  name: 22|🇫🇷FR_90|1.5MB/s|M003-260806 [4...
   network: ws
   password: humanity
   port: 443
   server: 195.181.244.216
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
     path: /assignment
 - name: 22|🇫🇷FR_149|575KB/s|M003-260806 [...
   network: ws
@@ -2878,16 +2882,14 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 22,29|🇫🇷_法国 (13)
+  name: 22|🇫🇷FR_87|484KB/s|B007-260618 [7...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 145.239.55.210
-  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: false
   sub_tag: B007-260618
   tls: false
   type: vmess
@@ -4771,19 +4773,20 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇱🇻_拉脱维亚 (4)
+  name: 22|🇷FR_180|1.2MB/s|F003-260618 [e...
   network: ws
   password: humanity
   port: 443
   server: 85.31.102.163
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: F003-260618
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /assignment
 - encryption: none
   name: 22|🇫🇷FR_129|308KB/s|M003-260806 [...
@@ -5150,162 +5153,32 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
   xudp: true
-- name: 29|🇫🇷_法国 (16)
+- name: 29|法国
   network: ws
-  port: 14430
-  server: 138.124.70.41
-  servername: 138.124.70.41
+  password: humanity
+  port: 443
+  server: 169.58.44.174
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: 138.124.70.41
-  tls: false
-  type: vless
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
   ws-opts:
-    path: /vless
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (3)
-  port: 443
-  reality-opts:
-    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
-    short-id: a44ff7d2e80213c2
-  server: 145.223.68.58
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (12)
-  port: 443
-  reality-opts:
-    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
-    short-id: 086bf957
-  server: 161.97.66.16
-  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  skip-cert-verify: true
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  tls: true
-  type: vless
-  udp: true
-  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (6)
-  port: 8080
-  reality-opts:
-    public-key: twCZ2ZSURqQA2oUep4h2aj_3yJEEagFSQByn26bWWkI
-    short-id: 94d9456c33
-  server: 51.77.144.182
-  servername: icloud.com
-  skip-cert-verify: true
-  sni: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 58ec8bba-fb99-4840-805c-1871cbec26f3
-- alterId: 0
-  cipher: none
-  name: 29|🇫🇷_法国 (4)
-  port: 20250
-  server: 51.83.6.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (8)
-  port: 2053
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-    short-id: 50ba05992b05c1c3
-  server: 54.37.136.194
-  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  skip-cert-verify: true
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (15)
+    path: /assignment
+- name: 29|🇫🇷法国
   network: ws
-  port: 80
-  server: 57.128.164.21
-  servername: https.http.www.net.com.ramseyv2.ir.
-  skip-cert-verify: true
-  sni: https.http.www.net.com.ramseyv2.ir.
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bda82bcd-f6e2-46ae-9552-673f0b87ac30
-  ws-opts:
-    headers:
-      Host: https.http.www.net.com.ramseyv2.ir.
-    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 62.210.91.10
-  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  skip-cert-verify: true
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (5)
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 62.210.91.2
-  servername: Telegram-mtmvpn
-  skip-cert-verify: true
-  sni: Telegram-mtmvpn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (9)
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
-    short-id: 086bf957
-  server: ai.smrtai.top
-  servername: www.cloudflare.com
+  server: 207.180.209.128
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: www.cordweave.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
-- client-fingerprint: chrome
-  name: 29|🇫🇷_法国 (7)
-  port: 2053
-  server: w.geogame.ir
-  servername: w.geogame.ir
-  skip-cert-verify: true
-  sni: w.geogame.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
+  ws-opts:
+    path: /assignment
 - name: 37|FR_speednode_0011
   port: 23856
   server: 51.159.225.196

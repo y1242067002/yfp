@@ -227,7 +227,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (96)
+  name: 22,29|美国 (5) (2)
   network: ws
   password: humanity
   port: 443
@@ -257,19 +257,20 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (107)
+  name: 22|🇷FR_65|402KB/s|V002-260618 [06...
   network: ws
   password: humanity
   port: 8443
   server: 5.78.92.27
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: V002-260618
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /assignment
 - name: 22|🇫🇷FR_162|482KB/s|C001-260618 [...
   network: ws
@@ -364,7 +365,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇧🇬_保加利亚 (5)
+  name: 22,29|美国 (20)
   network: ws
   password: humanity
   port: 443
@@ -395,19 +396,20 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 22,29|🇱🇹_立陶宛 (4)
+  name: 22|🇫🇷FR_90|1.5MB/s|M003-260806 [4...
   network: ws
   password: humanity
   port: 443
   server: 195.181.244.216
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 22|🇫🇷FR_60|488KB/s|M003-260806 [4...
@@ -469,16 +471,14 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 22,29|🇫🇷_法国 (13)
+  name: 22|🇫🇷FR_87|484KB/s|B007-260618 [7...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 145.239.55.210
-  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: false
   sub_tag: B007-260618
   tls: false
   type: vmess
@@ -706,19 +706,20 @@ proxies:
     path: /truth
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇱🇻_拉脱维亚 (4)
+  name: 22|🇷FR_180|1.2MB/s|F003-260618 [e...
   network: ws
   password: humanity
   port: 443
   server: 85.31.102.163
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: F003-260618
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 22|🇷FR_228|669KB/s|A001-260618 [e...
@@ -752,30 +753,29 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: none
-  name: 29|🇫🇷_法国 (4)
-  port: 20250
-  server: 51.83.6.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (15)
+- name: 29|法国
   network: ws
-  port: 80
-  server: 57.128.164.21
-  servername: https.http.www.net.com.ramseyv2.ir.
+  password: humanity
+  port: 443
+  server: 169.58.44.174
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: https.http.www.net.com.ramseyv2.ir.
-  tls: false
-  type: vmess
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: bda82bcd-f6e2-46ae-9552-673f0b87ac30
   ws-opts:
-    headers:
-      Host: https.http.www.net.com.ramseyv2.ir.
-    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
+    path: /assignment
+- name: 29|🇫🇷法国
+  network: ws
+  password: humanity
+  port: 443
+  server: 207.180.209.128
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment

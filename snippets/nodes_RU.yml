@@ -64,24 +64,42 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (2)
-  port: 24212
-  server: 158.160.180.165
+- name: 29|俄罗斯
+  network: ws
+  password: humanity
+  port: 2053
+  server: 201.24.57.254
+  servername: www.cordweave.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c58c1205-b308-416f-8503-c04557abf93d
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (11)
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  servername: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: de-bots4.h1cloud.net
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|俄罗斯 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 217.26.26.14
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇧🇾白俄罗斯
+  network: ws
+  password: humanity
+  port: 8443
+  server: 91.149.167.147
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment

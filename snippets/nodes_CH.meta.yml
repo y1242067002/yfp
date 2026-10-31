@@ -62,7 +62,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|🇭CH_46|1.2MB/s [2579f7044e34]
+- name: 22,35|CH_1|1.3MB/s
   password: ''
   port: 9443
   server: 149.88.27.46
@@ -79,77 +79,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇨🇭_瑞士 (3)
-  port: 443
-  server: 149.33.15.213
-  servername: swz.proxyplankton.ru
-  skip-cert-verify: true
-  sni: swz.proxyplankton.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
-- name: 29|🇨🇭_瑞士 (5)
+- name: 29|🇨🇭瑞士
   network: ws
   password: humanity
   port: 443
-  server: 185.18.250.245
-  servername: www.calmlunch.com
+  server: 83.228.199.3
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇨🇭_瑞士 (4)
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (6)
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     path: /assignment
-- name: 29|🇨🇭_瑞士
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  servername: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
