@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|🇪DE德国丨yoyapai.com (17)_2
+- name: 19,22|🇪DE德国丨yoyapai.com (13)_3
   network: ws
   password: humanity
   port: 443
@@ -13,13 +13,31 @@ proxies:
   ws-opts:
     path: /assignment
 - cipher: rc4-md5
-  name: 19,22|🇩🇪DE_4|6.4MB/s|A004-260618 [3e...
+  name: 19,22|🇩🇪DE_8|9.3MB/s|A004-260618 [3e...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 169.150.210.233
   sub_tag: A004-260618
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 22|🇳🇱NL_364|551KB/s|F003-260618 [...
+  network: ws
+  password: humanity
+  port: 443
+  server: 138.124.228.122
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  sub_tag: F003-260618
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: 22|🇩🇪DE_68|304KB/s|A004-260618 [7...
   network: tcp
@@ -32,7 +50,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: rc4-md5
-  name: 22|🇪DE_57|5.1MB/s|A004-260618 [09...
+  name: 22|🇪DE_51|5.0MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
@@ -42,7 +60,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc-video-call
-  name: 22|🇩🇪DE_119|9.9MB/s|M003-260806 [...
+  name: 22|🇩🇪DE_112|9.0MB/s|M003-260806 [...
   network: grpc
   password: Pass-Client-1
   port: 8446
@@ -63,7 +81,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇪DE_58|3.2MB/s|C001-260618 [ac...
+  name: 22|🇪DE_52|5.7MB/s|C001-260618 [ac...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
@@ -114,6 +132,125 @@ proxies:
   sni: t.me/FuckTheWall
   sub_tag: B007-260618
   type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 22|🇪DE_68|108KB/s|M002-260618 [e0...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: de.zhou-yufan.com
+  servername: de.zhou-yufan.com
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  xudp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_136|2.3MB/s|S004-260618 [c...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: false
+  sni: www.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇪DE_74|327KB/s|B007-260618 [33...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_133|1.9MB/s|S004-260618 [e...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: false
+  sni: learn.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_138|2.3MB/s|S004-260618 [...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.193
+  skip-cert-verify: false
+  sni: resources.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|DE_130|5.0MB/s|A004-260618 [e0...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  skip-cert-verify: false
+  sni: blog.iloverussia2026.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_137|2.7MB/s|S004-260618 [...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_169|94KB/s|M003-260806 [a...
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me%2ffuckthewall
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_145|204KB/s|C002-260622 [a...
+  network: tcp
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_146|226KB/s|M003-260806 [...
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.mefuckthewall
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇩🇪DE_13|161KB/s|A004-260618 [c...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
   udp: true
 - name: 29|德国 (2)
   network: ws

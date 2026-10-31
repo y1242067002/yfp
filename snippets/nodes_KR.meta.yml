@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 19,22|KR国丨yoyapai.com_2
+  name: 19,22|KR国丨yoyapai.com_3
   network: ws
   port: 25524
   server: 116.93.199.28
@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 19,22|🇷KR韩國丨yoyapai.com (2)_2
+- name: 19,22|🇷KR韩國丨yoyapai.com (2)_3
   network: ws
   port: 8880
   server: crimson-smoke-7818.397.workers.dev
@@ -26,7 +26,7 @@ proxies:
   uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
   ws-opts:
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 19,22|🇰🇷KR韩丨yoyapai.com_2
+- name: 19,22|🇰🇷KR韩丨yoyapai.com_3
   network: ws
   port: 8880
   server: 104.17.144.29
@@ -39,27 +39,16 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- client-fingerprint: chrome
-  name: 22|US美国(mibei77.com 米贝节点分享) (28)
-  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-  port: 47531
-  server: svip.skycon808.com
-  servername: tw15.swiftrelay.cc
-  skip-cert-verify: false
-  sni: tw15.swiftrelay.cc
-  tls: true
-  type: anytls
-  udp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 22|🇷KR_38|336KB/s|B007-260618 [3b...
+  name: 22|🇷KR_30|210KB/s|A004-260618 [9a...
   network: ws
   packet-encoding: xudp
   port: 443
   server: nickgus.cc.cd
   servername: nickgus.cc.cd
   skip-cert-verify: false
-  sub_tag: B007-260618
+  sub_tag: A004-260618
   tls: true
   type: vmess
   udp: true
@@ -100,7 +89,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇷KR_39|467KB/s|A004-260618 [a7...
+  name: 22|🇷KR_33|470KB/s|A004-260618 [a7...
   network: tcp
   password: 5t6i121em5lkmsmk
   port: 48851
@@ -114,7 +103,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: 22|🇷KR_31|430KB/s|P002-260618 [dc...
+  name: 22|🇷KR_21|451KB/s|P002-260618 [dc...
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -153,6 +142,92 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+- name: 22|KR_29|407KB/s|A001-260618 [03b...
+  network: ws
+  packet-encoding: xudp
+  port: 25555
+  server: 152.69.226.63
+  sub_tag: A001-260618
+  type: vless
+  udp: true
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇰🇷KR_26|120KB/s|M001-260618 [0...
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
+  sub_tag: M001-260618
+  type: ss
+  udp: true
+- cipher: auto
+  name: 22|🇷KR_27|167KB/s|R002-260618 [fe...
+  network: none
+  packet-encoding: xudp
+  port: 31157
+  server: 112.169.175.199
+  sub_tag: R002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 22|🇷KR_23|275KB/s|M003-260806 [c2...
+  network: tcp
+  packet-encoding: xudp
+  port: 8888
+  server: 146.56.112.110
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇷KR_32|595KB/s|M003-260806 [ca...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 132.145.80.230
+  servername: 'null'
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: 'null'
+    path: /cctv13.m3u8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 22|🇷KR_25|183KB/s|R002-260618 [f0...
+  network: http
+  port: 123
+  server: 43.108.103.167
+  sub_tag: R002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
 - name: 29|韩国
   network: ws
   password: humanity

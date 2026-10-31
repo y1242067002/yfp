@@ -1,6 +1,6 @@
 proxies:
 - cipher: rc4-md5
-  name: 19,22|🇧GB_1|5.1MB/s|A004-260618 [07a...
+  name: 19,22|🇧GB_1|3.3MB/s|A004-260618 [07a...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.18
@@ -8,7 +8,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 19,22|🇧GB_22|4.2MB/s|A004-260618 [7e...
+  name: 19,22|🇧GB_18|5.5MB/s|A004-260618 [7e...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 98.98.142.161
@@ -16,7 +16,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇬🇧GB_24|3.5MB/s|A004-260618 [2...
+  name: 22|🇬🇧GB_20|2.9MB/s|A004-260618 [2...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
@@ -24,7 +24,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 22|🇬🇧GB_21|5.7MB/s|A004-260618 [6...
+  name: 22|🇧GB_17|4.7MB/s|A004-260618 [65...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 98.98.207.163
@@ -32,7 +32,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 22|🇬🇧GB_6|2.2MB/s|A004-260618 [70...
+  name: 22|🇧GB_4|3.8MB/s|A004-260618 [70c...
   password: shadowsocks
   port: 443
   server: 141.98.101.181
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 22|🇬🇧GB_19|4.7MB/s|A004-260618 [8...
+  name: 22|🇬🇧GB_15|3.0MB/s|A004-260618 [8...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.46.214
@@ -48,12 +48,32 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 22|🇧GB_2|4.4MB/s [a1915d230d8e]
+  name: 22|🇧GB_5|4.7MB/s [a1915d230d8e]
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 22,29|美国 (7)
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.ubuntuupdates.com
+  servername: www.ubuntuupdates.com
+  skip-cert-verify: true
+  sni: www.ubuntuupdates.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  ws-opts:
+    headers:
+      Host: www.ubuntuupdates.com
+    path: /truth
+  xudp: true
 - name: 29|英国 (2)
   network: ws
   password: humanity

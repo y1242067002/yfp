@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇭CH瑞士丨yoyapai.com_2
+  name: 19,22|🇭CH瑞士丨yoyapai.com_3
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -16,7 +16,7 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇭CH瑞士丨yoyapai.com (2)_2
+  name: 19,22|🇭CH瑞士丨yoyapai.com (2)_3
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -31,7 +31,7 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇨🇭CH瑞士丨yoyapai.com (3)_2
+  name: 19,22|🇨🇭CH瑞士丨yoyapai.com (3)_3
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -44,7 +44,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- name: '19,22|CH_4|1.4MB/s|K001-260618 [9c42... #1'
+- name: 19,22|CH_48|1.3MB/s|K001-260618 [9c4...
   password: None
   port: 9443
   server: 149.88.27.46
@@ -62,7 +62,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22,35|CH_1|1.3MB/s
+- name: 22,35|CH_1|1.7MB/s
   password: ''
   port: 9443
   server: 149.88.27.46
@@ -78,6 +78,78 @@ proxies:
   sub_tag: R002-260618
   tls: true
   type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 22|CH_53|3.5MB/s|A004-260618 [186...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.60
+  skip-cert-verify: false
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- name: 22|🇨CH_7|812KB/s|P002-260618 [58b...
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇭CH_56|1.6MB/s|M003-260806 [aa...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.208
+  skip-cert-verify: true
+  sni: resources.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- name: 22|🇭CH_45|795KB/s|P002-260618 [c9...
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|🇨CH_42|1.5MB/s|K001-260618 [e0...
+  password: ''
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  name: 22|🇭CH_55|3.3MB/s|M003-260806 [e3...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.29
+  skip-cert-verify: false
+  sni: learn.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇨CH_54|2.9MB/s|S004-260618 [fb...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  skip-cert-verify: false
+  sni: www.yourultimateprofessionalcareerhub.com
+  sub_tag: S004-260618
+  type: trojan
   udp: true
 - name: 29|🇨🇭瑞士
   network: ws

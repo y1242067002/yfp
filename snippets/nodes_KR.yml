@@ -1,14 +1,14 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 22|🇷KR_38|336KB/s|B007-260618 [3b...
+  name: 22|🇷KR_30|210KB/s|A004-260618 [9a...
   network: ws
   packet-encoding: xudp
   port: 443
   server: nickgus.cc.cd
   servername: nickgus.cc.cd
   skip-cert-verify: false
-  sub_tag: B007-260618
+  sub_tag: A004-260618
   tls: true
   type: vmess
   udp: true
@@ -49,7 +49,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇷KR_39|467KB/s|A004-260618 [a7...
+  name: 22|🇷KR_33|470KB/s|A004-260618 [a7...
   network: tcp
   password: 5t6i121em5lkmsmk
   port: 48851
@@ -63,7 +63,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: 22|🇷KR_31|430KB/s|P002-260618 [dc...
+  name: 22|🇷KR_21|451KB/s|P002-260618 [dc...
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -102,6 +102,64 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 22|🇰🇷KR_26|120KB/s|M001-260618 [0...
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
+  sub_tag: M001-260618
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 22|🇷KR_23|275KB/s|M003-260806 [c2...
+  network: tcp
+  packet-encoding: xudp
+  port: 8888
+  server: 146.56.112.110
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇷KR_32|595KB/s|M003-260806 [ca...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 132.145.80.230
+  servername: 'null'
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: 'null'
+    path: /cctv13.m3u8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 22|🇷KR_25|183KB/s|R002-260618 [f0...
+  network: http
+  port: 123
+  server: 43.108.103.167
+  sub_tag: R002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
 - name: 29|韩国
   network: ws
   password: humanity

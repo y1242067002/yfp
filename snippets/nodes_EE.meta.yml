@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (2)_2
+  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -18,7 +18,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22|EE丨yoyapai.com尼亚丨yoyapai.com_2
+  name: 19,22|EE丨yoyapai.com尼亚丨yoyapai.com_3
   port: 443
   server: 138.124.100.128
   servername: ee4.fast-connect-service.site
@@ -28,7 +28,7 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 19,22|🇪爱沙尼亚丨yoyapai.com_2
+- name: 19,22|🇪爱沙尼亚丨yoyapai.com_3
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
@@ -40,7 +40,7 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (3)_2
+  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (3)_3
   port: 2053
   reality-opts:
     public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
@@ -74,7 +74,7 @@ proxies:
   type: http
   udp: true
   username: ef37886e2aacd6fa622e3de3810299c2
-- name: 22|EE_1|887KB/s|R002-260618 [6b8c...
+- name: 22|🇪🇪EE_2|998KB/s|R002-260618 [6b...
   port: 9443
   server: 192.159.101.174
   skip-cert-verify: true
@@ -133,3 +133,39 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 22|🇪EE_3|1.0MB/s|K001-260618 [590...
+  password: ''
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇪EE_4|593KB/s|S004-260618 [68e...
+  network: xhttp
+  packet-encoding: xudp
+  port: 34451
+  server: ee-2e06d85dc0.shamanapp.online
+  servername: ee-2e06d85dc0.shamanapp.online
+  sub_tag: S004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
+  xhttp-opts:
+    host: ee-2e06d85dc0.shamanapp.online
+    mode: stream-up
+    path: /ShamanXHTTP2026
+  xudp: true
+- name: 22|🇪EE_1|777KB/s|R002-260618 [988...
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true

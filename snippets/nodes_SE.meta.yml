@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22|🇸🇪SE瑞典丨yoyapai.com (2)_2
+  name: 19,22|🇸🇪SE瑞典丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
@@ -23,8 +23,21 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 22|瑞典(mibei77.com 米贝节点分享) (2)
+  network: ws
+  port: 443
+  server: 89.127.201.202
+  servername: indigostar.click
+  skip-cert-verify: false
+  sni: indigostar.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
+  ws-opts:
+    path: /ws
 - client-fingerprint: chrome
-  name: 22|瑞典(mibei77.com 米贝节点分享)
+  name: 22|瑞典(mibei77.com 米贝节点分享) (3)
   network: xhttp
   port: 61374
   reality-opts:
@@ -41,7 +54,24 @@ proxies:
     host: se-2.pythonsetupbib.online
     mode: packet-up
     path: /
-- name: 22|🇸SE_3|1.7MB/s|P002-260618 [63b...
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
+  name: 22|瑞典(mibei77.com 米贝节点分享) (4)
+  network: grpc
+  port: 2443
+  reality-opts:
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: 92c32de179e5d908
+  server: hydra.yokkastars.com
+  servername: deepl.com
+  skip-cert-verify: false
+  sni: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+- name: 22|🇸SE_6|1.9MB/s|P002-260618 [63b...
   network: ws
   packet-encoding: xudp
   port: 14430
@@ -57,7 +87,7 @@ proxies:
       Host: 5.178.109.174
     path: /vless
   xudp: true
-- name: 22|🇪SE_1|838KB/s|R002-260618 [1e7...
+- name: 22,35|🇪SE_2|1.7MB/s
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
@@ -93,7 +123,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|SE_2|2.5MB/s|R002-260618 [b12d...
+- name: 22|🇸SE_1|1.9MB/s|R002-260618 [b12...
   port: 443
   server: 217.210.129.243
   skip-cert-verify: true
@@ -121,11 +151,52 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 22|🇸SE_7|1.3MB/s|R002-260618 [f52...
+- name: 22|SE_7|1.3MB/s|R002-260618 [f52a...
   port: 443
   server: 79.142.77.63
   skip-cert-verify: true
   sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|SE_5|895KB/s|R002-260618 [35a6...
+  port: 9443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|🇸🇪SE_2|525KB/s|R002-260618 [73...
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇸SE_8|252KB/s|M003-260806 [8ab...
+  password: MODziWLa9qMuW-4yPa0rfw
+  port: 8388
+  server: msk2.rvpn.app
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇸🇪SE_12|90KB/s|A004-260618 [9d...
+  password: MODziWLa9qMuW-4yPa0rfw
+  port: 8388
+  server: 159.194.251.76
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 22,35|SE_1|1.5MB/s
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
