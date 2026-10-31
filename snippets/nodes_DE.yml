@@ -1,5 +1,5 @@
 proxies:
-- name: 19|🇪DE德国丨yoyapai.com (17)
+- name: 19,22|🇪DE德国丨yoyapai.com (17)_2
   network: ws
   password: humanity
   port: 443
@@ -13,12 +13,109 @@ proxies:
   ws-opts:
     path: /assignment
 - cipher: rc4-md5
-  name: 19|🇪DE_2|1.1MB/s|A004-260618 [3e8...
+  name: 19,22|🇩🇪DE_4|6.4MB/s|A004-260618 [3e...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 169.150.210.233
   sub_tag: A004-260618
   type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_68|304KB/s|A004-260618 [7...
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇪DE_57|5.1MB/s|A004-260618 [09...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.20.147
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 22|🇩🇪DE_119|9.9MB/s|M003-260806 [...
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
+  skip-cert-verify: true
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_154|756KB/s|M003-260806 [6...
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 171.22.18.99
+  skip-cert-verify: false
+  sni: de.1984.love
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_58|3.2MB/s|C001-260618 [ac...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  sub_tag: C001-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 22|🇪DE_132|4.6MB/s|C002-260622 [b...
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
+  skip-cert-verify: true
+  sni: 171.22.119.74
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_26|1.9MB/s|A004-260618 [be...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- client-fingerprint: ios
+  name: 22,29|🇷🇺_俄罗斯 (8)
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  servername: t.me/FuckTheWall
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  sub_tag: B007-260618
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|🇩🇪DE_49|246KB/s|B007-260618 [d...
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  sub_tag: B007-260618
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   name: 29|🇩🇪_德国 (45)
@@ -191,31 +288,3 @@ proxies:
   type: vmess
   udp: true
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- grpc-opts:
-    grpc-service-name: grpc-video-call
-  name: 35|🇩🇪DE_2|2.7MB/s
-  network: grpc
-  password: Pass-Client-1
-  port: 8446
-  server: 171.22.119.74
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 35|🇩🇪DE_3|2.0MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: Qmh49RE8c0DCqpFU.v.3dns.vip
-  servername: Qmh49RE8c0DCqpFU.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Qmh49RE8c0DCqpFU.v.3dns.vip
-    path: /ws-vmess
-  xudp: true

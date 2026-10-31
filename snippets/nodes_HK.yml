@@ -1,5 +1,5 @@
 proxies:
-- name: 19|🇰HK香港丨yoyapai.com (11)
+- name: 19,22|🇰HK香港丨yoyapai.com (13)_2
   network: ws
   password: humanity
   port: 443
@@ -14,7 +14,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 19|🇰HK香港
+  name: 19,22|🇰HK香港_2
   port: 800
   server: 47.83.247.150
   skip-cert-verify: false
@@ -24,7 +24,7 @@ proxies:
   uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
 - alterId: 0
   cipher: auto
-  name: 19|🇭🇰HK香港 (2)
+  name: 19,22|🇭🇰HK香港 (2)_2
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -39,7 +39,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 19|🇭🇰HK香港 (3)
+  name: 19,22|🇭🇰HK香港 (3)_2
   network: ws
   port: 443
   server: yg1.ygkkk.dpdns.org
@@ -54,6 +54,28 @@ proxies:
     headers:
       Host: jmp1.907737.xyz
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- cipher: chacha20-ietf
+  name: 22|🇰HK_71|448KB/s|M001-260618 [f0...
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  sub_tag: M001-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇰HK_76|811KB/s|A004-260618 [fa...
+  network: none
+  packet-encoding: xudp
+  port: 50376
+  server: 206.237.11.17
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9091fd64-7e8e-4b7a-8ae7-84474f234926
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇭🇰_香港 (8)

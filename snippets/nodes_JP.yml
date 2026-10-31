@@ -1,9 +1,83 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 19|🇵JP_1|280KB/s|A004-260618 [460...
+  name: 19,22|🇵JP_10|731KB/s|A004-260618 [46...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22,29|🇯🇵_日本
+  network: tcp
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  servername: 45.32.52.173
+  skip-cert-verify: true
+  sni: 45.32.52.173
+  sub_tag: A001-260618
+  tls: true
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 22|🇵JP_28|218KB/s|M003-260806 [15...
+  network: ws
+  packet-encoding: xudp
+  port: 2083
+  server: or3.sfacg.uk
+  servername: or3.sfacg.uk
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇯🇵JP_15|707KB/s|A004-260618 [2...
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇵JP_3|636KB/s|A004-260618 [3e7...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇵JP_7|692KB/s|A004-260618 [52b...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|JP_27|74KB/s|A004-260618 [9eed...
+  network: tcp
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  skip-cert-verify: true
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP_1|455KB/s|A004-260618 [c675...
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
   sub_tag: A004-260618
   type: ss
   udp: true
@@ -37,16 +111,6 @@ proxies:
   uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     path: /vmess/
-- name: 29|🇯🇵_日本
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  servername: 45.32.52.173
-  skip-cert-verify: true
-  sni: 45.32.52.173
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 33|🇯🇵 日本|@ripaojiedian
