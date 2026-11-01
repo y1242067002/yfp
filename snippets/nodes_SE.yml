@@ -1,45 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇸SE_8|252KB/s|M003-260806 [8ab...
-  password: MODziWLa9qMuW-4yPa0rfw
-  port: 8388
-  server: msk2.rvpn.app
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇸🇪SE_12|90KB/s|A004-260618 [9d...
-  password: MODziWLa9qMuW-4yPa0rfw
-  port: 8388
-  server: 159.194.251.76
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 29|🇸🇪瑞典
-  network: ws
-  password: humanity
+- name: 29|🇸🇪_瑞典
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 77.221.139.114
-  servername: www.cordweave.com
+  server: 70.34.207.14
+  servername: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    path: /assignment
-- client-fingerprint: chrome
-  name: 35|🇸🇪SE_4|1.3MB/s
-  network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  port: 443
-  server: 121.127.33.130
-  skip-cert-verify: false
-  sni: likejennie.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /
