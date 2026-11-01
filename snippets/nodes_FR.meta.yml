@@ -715,7 +715,7 @@ proxies:
         Chrome/12.0.742.100 Safari/534.30
     max-early-data: 2560
     path: /
-- name: 19,22|🇫🇷FR_67|4.7MB/s|R002-260618 [a...
+- name: 19,22,35|🇺🇸US_12|3.5MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -762,7 +762,7 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: 19,22,35|🇷FR_4|1.8MB/s
+- name: 19,22|🇷FR_192|1.2MB/s|K001-260618 [a...
   password: None
   port: 8081
   server: 31.32.19.111
@@ -1327,7 +1327,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- name: 22,37|FR_speednode_0012
+- name: 22,35,37|FR_speednode_0012
   port: 443
   server: 82.65.162.76
   skip-cert-verify: true
@@ -1354,7 +1354,7 @@ proxies:
         Safari/537.36
     path: /fp
   xudp: true
-- name: 22|🇫🇷FR_50|1.2MB/s|R002-260618 [1...
+- name: 22,35|🇫🇷FR_2|2.3MB/s
   port: 9443
   server: 213.139.9.142
   skip-cert-verify: true
@@ -3010,7 +3010,7 @@ proxies:
         Chrome/65.0.3325.181 Safari/537.36
     path: /sync
   xudp: true
-- name: 22,35|FR_1|2.5MB/s
+- name: 22|🇫🇷FR_13|7.8MB/s|R002-260618 [7...
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
@@ -4747,7 +4747,7 @@ proxies:
       Host: www.windowssearchtools.com
     path: /truth
   xudp: true
-- name: 22|🇷FR_55|391KB/s|R002-260618 [e5...
+- name: 22,35|🇫🇷FR_3|1.8MB/s
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
@@ -4810,7 +4810,7 @@ proxies:
     max-early-data: 2560
     path: /vl/yLWNcuUuw1jlJpkDhGy
   xudp: true
-- name: 22,35|🇷FR_2|1.0MB/s
+- name: 22,35|🇫🇷FR_4|2.4MB/s
   port: 8090
   server: 82.96.128.175
   skip-cert-verify: true
@@ -5450,7 +5450,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /tr/60XnEWrAQkStT4oTTwmkao9a4sc
-- name: 22,35|🇷FR_3|1.8MB/s
+- name: 22,35|🇷FR_5|3.3MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -7076,3 +7076,22 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇫FR_6|2.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 199.232.78.170
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e29dba-814a-50b0-b4a9-deffe26ae624
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /
+  xudp: true

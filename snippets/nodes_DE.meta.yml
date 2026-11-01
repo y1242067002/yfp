@@ -1063,7 +1063,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 22|🇩🇪DE_19|5.1MB/s|R002-260618 [3...
+- name: 22,35|🇩🇪DE_4|3.1MB/s
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
@@ -1439,7 +1439,7 @@ proxies:
     path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
     x-padding-bytes: 100-1000
   xudp: true
-- name: 22,35|🇪DE_2|1023KB/s
+- name: 22|🇩🇪DE_61|884KB/s|P002-260618 [9...
   password: None
   port: 443
   server: 152.233.20.206
@@ -1477,7 +1477,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22|🇩🇪DE_30|656KB/s|R002-260618 [a...
+- name: 22,35|🇪DE_5|1.2MB/s
   port: 443
   server: 217.92.132.233
   skip-cert-verify: true
@@ -1697,7 +1697,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 22,35|🇪DE_3|3.0MB/s
+- name: 22|🇩🇪DE_21|3.0MB/s|R002-260618 [e...
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -2255,14 +2255,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 28|🇩🇪204269 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.76.221.4
-  skip-cert-verify: true
-  sni: 3.76.221.4
-  tls: false
-  type: hysteria2
 - name: 29|德国 (2)
   network: ws
   password: humanity
@@ -2302,7 +2294,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29,35|🇳🇱NL_23|1.9MB/s
+- name: 29|🇩🇪德国 03
   network: ws
   password: humanity
   port: 443
@@ -2354,7 +2346,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 29,35|🇳🇱NL_24|3.5MB/s
+- name: 29|🇩🇪德国 07
   network: ws
   password: humanity
   port: 443
@@ -2419,3 +2411,52 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|DE_1|2.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 63053
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  xudp: true
+- name: 35|🇪DE_3|2.6MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇪DE_6|2.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 63080
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|🇪DE_7|1.5MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: e0aadc6f38ff06a8
+  server: 200.169.184.168
+  servername: tm6.24convertflow.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+  xudp: true
