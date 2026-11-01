@@ -1,11 +1,74 @@
 proxies:
-- name: 29|🇸🇪_瑞典
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇸SE_8|252KB/s|M003-260806 [8ab...
+  password: MODziWLa9qMuW-4yPa0rfw
+  port: 8388
+  server: msk2.rvpn.app
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇸🇪SE_12|90KB/s|A004-260618 [9d...
+  password: MODziWLa9qMuW-4yPa0rfw
+  port: 8388
+  server: 159.194.251.76
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 22|瑞典(mibei77.com 米贝节点分享) (4)_2
+  network: ws
+  password: humanity
+  port: 2053
+  server: 83.147.254.59
+  servername: www.cordweave.com
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 22|🇳🇱NL_331|1.1MB/s|F003-260618 [...
+  network: ws
+  password: humanity
+  port: 443
+  server: 77.221.139.114
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  sub_tag: F003-260618
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: 22|瑞典(mibei77.com 米贝节点分享) (6)
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.165.34.40
+  servername: www.cordweave.com
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 22,29|🇸🇪_瑞典
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 70.34.207.14
   servername: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: true
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  sub_tag: M003-260806
   tls: true
   type: trojan
   udp: true
