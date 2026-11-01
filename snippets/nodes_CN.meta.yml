@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: '19,22|_CN_中国 #1'
+  name: 19|_CN_中国
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -9,3 +9,22 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨CN_1|1.8MB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 255
+  - 89
+  - 117
+  server: 162.159.192.1
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
