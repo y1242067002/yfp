@@ -48,13 +48,27 @@ proxies:
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯
-  port: 24212
-  server: 158.160.180.165
+- name: 29|🇷🇺_俄罗斯 (22)
+  network: ws
+  password: humanity
+  port: 443
+  server: 217.26.26.14
+  servername: www.cordweave.com
   skip-cert-verify: true
+  sni: www.cordweave.com
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: c58c1205-b308-416f-8503-c04557abf93d
+  ws-opts:
+    path: /assignment
+- client-fingerprint: safari
+  name: 29|🇷🇺_俄罗斯 (8)
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  servername: us-1.1984.love
+  skip-cert-verify: true
+  sni: us-1.1984.love
+  tls: true
+  type: trojan
+  udp: true

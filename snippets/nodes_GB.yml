@@ -15,13 +15,17 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 29|🇬🇧_英国
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  servername: en001.zestapp778.com
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 143.110.175.165
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: en001.zestapp778.com
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
+  ws-opts:
+    path: /assignment

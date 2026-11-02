@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: 19,35|🇪SE_1|3.2MB/s
+- name: 19|🇸SE_1|209KB/s|P002-260618 [862...
   password: None
   port: 443
   server: 79.142.77.63
@@ -23,28 +23,64 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇸🇪_瑞典
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (5)
   port: 443
-  server: 70.34.207.14
-  servername: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 89.125.37.115
+  servername: se.frgcdn.xyz
   skip-cert-verify: true
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  sni: se.frgcdn.xyz
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: 35|🇪SE_2|2.7MB/s
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (4)
   port: 443
-  server: 146.70.242.130
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.21
+  servername: se.frgcdn.xyz
   skip-cert-verify: true
+  sni: se.frgcdn.xyz
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇸🇪SE_3|2.5MB/s
-  password: None
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (3)
   port: 443
-  server: 146.70.242.146
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.71
+  servername: se.frgcdn.xyz
   skip-cert-verify: true
+  sni: se.frgcdn.xyz
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典 (6)
+  network: ws
+  port: 8443
+  server: 62.182.196.194
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048

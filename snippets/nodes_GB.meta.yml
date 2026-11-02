@@ -141,13 +141,12 @@ proxies:
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /@Marisa_kristi
   xudp: true
-- name: 19,29|🇩🇪_德国 (10)
+- name: 19|🇬🇧GB_7|294KB/s|P002-260618 [ae...
   network: tcp
   packet-encoding: xudp
   port: 10002
   server: connect.hondamotor.site
   servername: connect.hondamotor.site
-  skip-cert-verify: true
   sub_tag: P002-260618
   tls: false
   type: vless
@@ -180,106 +179,17 @@ proxies:
   udp: true
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
   xudp: true
-- name: 29|🇬🇧_英国
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  servername: en001.zestapp778.com
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 143.110.175.165
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: en001.zestapp778.com
+  sni: www.cordweave.com
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.12
-  servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  skip-cert-verify: true
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (3)
-  port: 443
-  reality-opts:
-    public-key: 3pBHfffYFRPpe8Lt47cLSSgCgwNR-70blFzpEbm11AE
-    short-id: b2baf331493d3de1
-  server: 191.44.108.30
-  servername: c8.qwyak.ru
-  skip-cert-verify: true
-  sni: c8.qwyak.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (4)
-  port: 443
-  reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: dda5f542d835
-  server: webdisk.jaggyslawa.org
-  servername: www.foxsports.com
-  skip-cert-verify: true
-  sni: www.foxsports.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b62e3646-b84d-443c-9c94-718b646502e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (5)
-  port: 443
-  reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: 8f79726c5002
-  server: 107.181.151.128
-  servername: www.mozilla.org
-  skip-cert-verify: true
-  sni: www.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88742d38-3f5c-4b9c-b256-7df5db8257ec
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (6)
-  port: 8443
-  server: node-uk.connectsuite.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- name: 35|GB_1|2.3MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_2|2.9MB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬🇧GB_3|1.0MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  ws-opts:
+    path: /assignment

@@ -387,13 +387,12 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 19,29|🇩🇪_德国 (18)
+- name: 19|🇦CA_7|153KB/s|M002-260618 [b3f...
   network: raw
   packet-encoding: xudp
   port: 8080
   server: milo.rubinaz.xyz
   servername: milo.rubinaz.xyz
-  skip-cert-verify: true
   sub_tag: M002-260618
   tls: false
   type: vless
@@ -464,111 +463,14 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- name: 29|🇨🇦_加拿大
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.93
-  servername: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇦_加拿大 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.152
-  servername: learn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: learn.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇦_加拿大 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.89
-  servername: www.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: www.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇦_加拿大 (4)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.74
-  servername: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: api.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大 (5)
-  port: 2053
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-    short-id: 83f8317a948bb769
-  server: 66.70.179.198
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大 (6)
-  port: 8080
-  reality-opts:
-    public-key: sQ_YHzotqhVJoUDAZl5kTzUqVN6ksh-MTikz_ixsZWc
-    short-id: 2b30
-  server: 54.39.96.233
-  servername: icloud.com
-  skip-cert-verify: true
-  sni: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 20b98028-53c9-4f76-9bc9-b6b16b8a9152
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇦_加拿大 (7)
+  name: 29|🇨🇦_加拿大
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  reality-opts:
-    public-key: DNCphTaL7BtXj1HybzMFir0ki_IiM62kr6ddIZYxagw
-    short-id: 5c56a4cfea5866c0
-  server: 66.163.113.238
-  servername: steamcommunity.com
+  server: 216.152.147.79
+  servername: blog.connectingpeoplewithgreatjobs.com
   skip-cert-verify: true
-  sni: steamcommunity.com
+  sni: blog.connectingpeoplewithgreatjobs.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 13bf9403-22d1-4221-939b-f6606c423139
-- name: 35|CA_1|2.2MB/s
-  password: None
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_2|2.8MB/s
-  password: None
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇦CA_3|2.7MB/s
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: trojan
   udp: true
