@@ -276,45 +276,15 @@ proxies:
   type: vless
   udp: true
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-- alterId: 0
-  cipher: auto
-  name: 33|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 443
-  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 33|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 443
-  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
-    path: /ws-vmess
-- name: 34|新加坡|@ripaojiedian
+- name: 33,34|新加坡1|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10135
-  server: 7d0a2gz0-7a0c.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47966
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
   type: trojan
-- name: 35|SG_1|4.1MB/s
+- name: 33,34|新加坡2|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 42338
@@ -322,27 +292,11 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: 35|🇬SG_2|3.5MB/s
+- name: 33,34|新加坡3|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 15589
+  port: 37212
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: 35|🇬SG_3|1.8MB/s
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇬SG_4|3.0MB/s
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

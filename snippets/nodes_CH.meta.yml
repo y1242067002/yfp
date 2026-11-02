@@ -142,24 +142,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|CH_1|2.0MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: U682Pn1N94W72DLrimGwWyePnEeeceKC7LojBtvFgSs
-    short-id: 82ae
-    support-x25519mlkem768: true
-  server: 179.43.138.70
-  servername: ethz.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: e69fd81c-c6f4-4998-afb8-42e771f2d978
-  xudp: true
-- name: 35|🇭CH_2|2.4MB/s
+- name: 35|CH_1|1.1MB/s
   password: None
   port: 9443
   server: 149.88.27.33
@@ -167,10 +150,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇭CH_3|1.4MB/s
-  port: 443
-  server: 31.7.62.50
+- name: 35|🇭CH_2|3.4MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
