@@ -108,13 +108,12 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 19|🇩🇪DE德国丨yoyapai.com (4)
+  name: 19,29|🇩🇪_德国 (4) (2)
   port: 20065
   server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
   servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
   tls: true
   type: vless
@@ -3500,7 +3499,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 19,29|🇺🇸_美国 (65)
+- name: 19,29|🇺🇸_美国 (34) (2)
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -4222,7 +4221,7 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 19,29|🇺🇸_美国 (67)
+- name: 19,29|🇺🇸_美国 (44) (2)
   network: ws
   port: 8880
   server: 80.93.202.40
@@ -8062,17 +8061,7 @@ proxies:
   sni: ll5xoe8j.easyiran.org
   tls: false
   type: hysteria2
-- name: 27,28|@tootffarangi🍓-1
-  obfs: salamander
-  obfs-password: egnqz8stetfo2ci9
-  password: eik6hcffscbuqdbt
-  port: 46183
-  server: kp09bn7y.easyiran.org
-  skip-cert-verify: false
-  sni: kp09bn7y.easyiran.org
-  tls: false
-  type: hysteria2
-- name: 27|139909 | ⚡️Telegram = t.me/SOS...
+- name: 27|139909 | Telegram = t.me/SOSke...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -8080,21 +8069,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 28|205310 | Telegram = t.me/SOSke...
+- name: 28|⏳74@oneclickvpnkeys
   password: 1671a252e2a97dc2bda4e515475931da
   port: 50160
   server: 132.226.226.189
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 28|7@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: litevpn
-  password: 59018379-d5df-4314-ab23-df0e838d7953
-  port: 443
-  server: 198.13.140.193
-  sni: efa11.lumariqis.com
   tls: false
   type: hysteria2
 - name: '28|@Begoo_VPN '
@@ -8107,11 +8087,18 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 28|⚡96@oneclickvpnkeys
+- name: 28|96@oneclickvpnkeys
   password: 63e1b9462d708b56d5d5a0267cffecdc
   port: 443
   server: 88.216.195.188
   sni: promo3.goonars.com
+  tls: false
+  type: hysteria2
+- name: 28|⏳94@oneclickvpnkeys
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  port: 443
+  server: forshynewh.duckdns.org
+  sni: forshynewh.duckdns.org
   tls: false
   type: hysteria2
 - name: 28|Telegram:@v2rayng3
@@ -8124,33 +8111,11 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 28|37@oneclickvpnkeys
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 163.245.41.48
-  sni: blogs.blog-forme.ru
-  tls: false
-  type: hysteria2
-- name: 28|🎃91@oneclickvpnkeys
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 195.63.146.10
-  sni: video.blog-forme.ru
-  tls: false
-  type: hysteria2
 - name: 28|⏳1@oneclickvpnkeys
   password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
   port: 443
   server: 141.0.187.15
   sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: 28|🇸🇪SE-@VPNine1
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  port: 443
-  server: se.mimowhat.online
-  skip-cert-verify: false
-  sni: se.mimowhat.online
   tls: false
   type: hysteria2
 - name: '28|Telegram @Cnetvpn '
@@ -8163,7 +8128,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 28|205308 | ⚡️Telegram = t.me/SOS...
+- name: 28|⏳71@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 160.187.100.109
@@ -8179,28 +8144,12 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 28|🇰205312 | ⚡️Telegram = t.me/SO...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 28|🇭🇰205301 | ⚡️Telegram = t.me/S...
+- name: 28|⏳63@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
   sni: https://t.me/clashv8🇨🇳
-  tls: false
-  type: hysteria2
-- name: 28|🎃96@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.76.221.4
-  skip-cert-verify: true
-  sni: 3.76.221.4
   tls: false
   type: hysteria2
 - name: 28|⚡73@oneclickvpnkeys
@@ -8293,18 +8242,6 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 28|🇷205188 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: ad7088dafb02115c
-  password: Vt-D1BUk4HLncS1rtf8mUZ8h
-  port: 20222
-  server: 51.75.118.5
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 28| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -8323,29 +8260,6 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 28|🎃93@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.105
-  skip-cert-verify: true
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 28|🎃94@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 28|🎃34@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.96
-  skip-cert-verify: true
-  sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
 - name: '28|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -8354,20 +8268,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 28|⚡15@oneclickvpnkeys
-  password: e48078c8-21ae-4d27-9438-b85492972894
-  port: 443
-  server: 84.245.18.209
-  sni: hy.gerqix.autos
-  tls: false
-  type: hysteria2
-- name: 28|8@oneclickvpnkeys
-  password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
-  port: 443
-  server: 45.88.12.26
-  sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
 - name: 28|@vmess_ir
@@ -8390,6 +8290,13 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
+- name: 28|13@oneclickvpnkeys
+  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
+  port: 443
+  server: 45.91.237.78
+  sni: node.aweom.su
+  tls: false
+  type: hysteria2
 - name: 28|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -8400,15 +8307,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 28|39@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
+- name: 28|@ConfigV2RayNG
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: h05ff7mbgbj6dhwy
+  port: 2098
+  server: panel.trapxan.ir
+  skip-cert-verify: false
+  sni: panel.trapxan.ir
   tls: false
   type: hysteria2
-- name: 28|🇰🇷205309 | ⚡️Telegram = t.me/S...
+- name: 28|⏳73@oneclickvpnkeys
   password: maintell
   port: 2053
   server: 152.70.237.123
@@ -8481,86 +8390,86 @@ proxies:
 - name: 29|每天更新，请加电报群防止失联
   network: ws
   port: 443
-  server: 217.60.2.212
-  servername: coding.grok2.indevs.in
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
   skip-cert-verify: true
-  sni: coding.grok2.indevs.in
+  sni: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
   ws-opts:
     headers:
-      Host: coding.grok2.indevs.in
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- flow: xtls-rprx-vision
-  name: 29|电报群：t.me/vvkj11
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+    path: /
+- name: 29|🇺🇸_美国 (45)
+  network: ws
   port: 443
-  reality-opts:
-    public-key: trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI
-    short-id: 8718c58d3d51db59
-  server: 151.123.187.198
-  servername: al2.magazinnarubeva.ru
+  server: 199.232.78.160
+  servername: community.fastly.steamstatic.com
   skip-cert-verify: true
-  sni: al2.magazinnarubeva.ru
+  sni: community.fastly.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|日期：11-02
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+    path: /
+- name: 29|日期：11-03
+  network: ws
   port: 443
-  server: 2.56.207.68
-  servername: www.slovarik.xyz
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
   skip-cert-verify: true
-  sni: www.slovarik.xyz
+  sni: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 0192c3d3-18d5-4b95-8eb3-598e18de6918
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /
 - name: 29|免费VPN：tt.vg/FJOE2Mm
   network: ws
-  port: 8443
-  server: 185.75.241.170
-  servername: sdwf-amq.pages.dev
+  port: 443
+  server: 146.75.59.186
+  servername: community.fastly.steamstatic.com
   skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
+  sni: community.fastly.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
   ws-opts:
     headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
-- name: 29|🇨🇦_加拿大
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.79
-  servername: blog.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: blog.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.208
-  servername: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: resources.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+    path: /
 - alpn:
   - http/1.1
-  client-fingerprint: qq
-  name: 29|🇨🇭_瑞士 (9)
+  name: 29|🇺🇸_美国 (25)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.120
+  servername: community.fastly.steamstatic.com
+  skip-cert-verify: true
+  sni: community.fastly.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇮🇹_意大利
   network: ws
   port: 443
-  server: 195.141.65.98
+  server: 151.91.39.191
   servername: 148-253-210-191.sslip.io
   skip-cert-verify: true
   sni: 148-253-210-191.sslip.io
@@ -8572,186 +8481,207 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
     path: /test-ws
-- client-fingerprint: safari
-  name: 29|🇨🇭_瑞士 (5)
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇰🇷_韩国 (2)
   network: ws
   port: 443
-  server: 195.141.65.98
-  servername: 148-253-210-191.sslip.io
+  server: 43.128.130.45
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
   skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
-- name: 29|🇨🇭_瑞士 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  servername: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士 (4)
-  port: 443
-  reality-opts:
-    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
-  server: 138.124.39.251
-  servername: nl-modx-prime.storagedirectguide.com
-  skip-cert-verify: true
-  sni: nl-modx-prime.storagedirectguide.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
-- name: 29|🇨🇭_瑞士 (8)
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (26)
   network: ws
   port: 8443
-  server: 83.228.193.188
-  servername: sdwf-amq.pages.dev
+  server: 179.255.132.69
+  servername: t5pmr.mail-node.gfw.kdns.fr
   skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
+  sni: t5pmr.mail-node.gfw.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
-- name: 29|🇨🇾_塞浦路斯
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (27)
   network: ws
-  port: 8880
-  server: 195.85.59.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime58.workers.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: 29|🇨🇿_捷克
+  password: MiTiVPN
   port: 443
-  reality-opts:
-    public-key: tnEAM-61f1idRp0_FNf01mVdV1Ks8l1j55KIHJEcY28
-    short-id: 48aca154137f7419
-  server: 46.8.100.28
-  servername: swdist.apple.com
+  server: 151.101.36.120
+  servername: community.fastly.steamstatic.com
   skip-cert-verify: true
-  sni: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dc76b67-6d26-4446-b542-0254b073bd8a
-- name: 29|🇨🇿_捷克 (3)
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.133.174.88
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: community.fastly.steamstatic.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    path: /assignment
-- flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国
-  port: 59397
-  reality-opts:
-    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
-    short-id: '1430'
-  server: 185.44.64.166
-  servername: la.blogs.nvidia.com
-  skip-cert-verify: true
-  sni: la.blogs.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
-- name: 29|🇩🇪_德国 (10)
+    headers:
+      Host: mitivpn-mitivpn-mitivpn.ac.ir
+    path: /Telegram-MTMVPN---MTMVPN---MTMVPN---MTMVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (28)
   network: ws
+  password: MiTiVPN
   port: 443
-  server: 204.168.248.5
-  servername: coding.grok2.indevs.in
+  server: 151.101.36.120
+  servername: community.fastly.steamstatic.com
   skip-cert-verify: true
-  sni: coding.grok2.indevs.in
+  sni: community.fastly.steamstatic.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
   ws-opts:
     headers:
-      Host: coding.grok2.indevs.in
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- name: 29|🇩🇪_德国 (11)
+      Host: mitivpn-mitivpn-mitivpn.ac.ir
+    path: /
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (29)
   network: ws
-  port: 7443
-  server: 179.61.251.244
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.120
+  servername: firefox.com
   skip-cert-verify: true
-  sni: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  sni: firefox.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 63adda0f-3acd-47e4-a01e-39f2b7b8afc8
   ws-opts:
     headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (2)
+      Host: mitivpn--mitivpn-mitivpn.ac.ir
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 29|🇺🇸_美国 (30)
+  network: ws
+  password: MiTiVPN
   port: 443
-  reality-opts:
-    public-key: dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM
-    short-id: 5212dad2aa9723d7
-  server: 150.241.79.124
-  servername: de1.waspnest.space
+  server: 151.101.36.120
+  servername: firefox.com
   skip-cert-verify: true
-  sni: de1.waspnest.space
+  sni: firefox.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (31)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.36.120
+  servername: community.fastly.steamstatic.com
+  skip-cert-verify: true
+  sni: community.fastly.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn.ac.ir
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 29|🇺🇸_美国 (32)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.120
+  servername: firefox.com
+  skip-cert-verify: true
+  sni: firefox.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (33)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.120
+  servername: firefox.com
+  skip-cert-verify: true
+  sni: firefox.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn-mitivpn.ac.ir
+    path: /
+- name: 29|🇺🇸_美国 (34)
+  network: ws
+  port: 443
+  server: 151.101.129.242
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: true
+  sni: minimize-evenness.cdn-content.com
   tls: true
   type: vless
   udp: true
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-- flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (3)
+  uuid: cd9e00aa-3581-42e4-a35c-56ae3a521159
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (35)
+  network: ws
   port: 443
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: 8f3c6e2a1b5d4f09
-  server: 13.140.94.191
-  servername: tradingview.com
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
   skip-cert-verify: true
-  sni: tradingview.com
+  sni: adheres-scruple.quick-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
+  uuid: 757a366b-f9fa-4372-814c-279cbef6bf22
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- client-fingerprint: ios
+  name: 29|🇨🇭_瑞士 (7)
+  network: ws
+  port: 443
+  server: 195.141.65.98
+  servername: 148-253-210-191.sslip.io
+  skip-cert-verify: true
+  sni: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
 - client-fingerprint: firefox
-  name: 29|🇩🇪_德国 (4)
+  name: 29|🇩🇪_德国 (5)
   network: ws
   port: 443
   server: 146.75.117.242
@@ -8768,8 +8698,928 @@ proxies:
     path: /ws
 - alpn:
   - http/1.1
+  name: 29|🇺🇸_美国 (36)
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (37)
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: true
+  sni: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ea9c6dd-4d73-49f2-82ce-b80b1b5dd646
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
   client-fingerprint: firefox
-  name: 29|🇩🇪_德国 (5)
+  name: 29|🇨🇭_瑞士 (9)
+  network: ws
+  port: 443
+  server: 195.141.65.98
+  servername: 148-253-210-191.sslip.io
+  skip-cert-verify: true
+  sni: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
+- name: 29|🇺🇸_美国 (38)
+  network: ws
+  port: 443
+  server: bounded-crammed.video-streams.org
+  servername: bounded-crammed.video-streams.org
+  skip-cert-verify: true
+  sni: bounded-crammed.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bc4baa4-76a1-42ff-be77-06d8749a467a
+  ws-opts:
+    headers:
+      Host: bounded-crammed.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯 (24)
+  network: ws
+  port: 443
+  server: 185.229.9.135
+  servername: business.lesotorg-kirov.ru
+  skip-cert-verify: true
+  sni: business.lesotorg-kirov.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4df3e06b-85e9-4b69-b38a-be37bad2fe9d
+  ws-opts:
+    headers:
+      Host: business.lesotorg-kirov.ru
+    path: /chws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (39)
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: true
+  sni: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51690558-5717-4629-8c41-ea41533d84a2
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (40)
+  network: ws
+  port: 443
+  server: 47.251.95.178
+  servername: 148-253-210-191.sslip.io
+  skip-cert-verify: true
+  sni: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
+- name: 29|🇸🇬_新加坡 (6)
+  network: ws
+  port: 51262
+  server: 175.41.179.37
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: true
+  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c6ea474-0cf5-4a3d-bc81-aa2eeb6516d6
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- name: 29|🇺🇸_美国 (41)
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: true
+  sni: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51690558-5717-4629-8c41-ea41533d84a2
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- name: 29|🇺🇸_美国 (42)
+  network: ws
+  port: 443
+  server: 216.24.57.15
+  servername: four04-rd37.onrender.com
+  skip-cert-verify: true
+  sni: four04-rd37.onrender.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
+  ws-opts:
+    headers:
+      Host: four04-rd37.onrender.com
+    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (43)
+  network: ws
+  port: 443
+  server: 216.24.57.15
+  servername: four04-rd37.onrender.com
+  skip-cert-verify: true
+  sni: four04-rd37.onrender.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
+  ws-opts:
+    headers:
+      Host: four04-rd37.onrender.com
+    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
+- client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (44)
+  network: ws
+  port: 443
+  server: 151.101.65.242
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: true
+  sni: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 757a366b-f9fa-4372-814c-279cbef6bf22
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 29|🇺🇸_美国 (46)
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (47)
+  network: ws
+  port: 443
+  server: 146.75.57.238
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31edfa90-bc81-4534-9066-322dbf52dcef
+  ws-opts:
+    headers:
+      Host: azadi-gk-nasim.global.ssl.fastly.net
+    path: /
+- alpn:
+  - http/1.1
+  name: 29|🇩🇪_德国 (6)
+  network: ws
+  port: 2083
+  server: 45.88.12.110
+  servername: mol.ultimagamest.com
+  skip-cert-verify: true
+  sni: mol.ultimagamest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e5b1e82-73db-429a-93b2-7839a0bf4dc0
+  ws-opts:
+    path: /vless-ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (48)
+  network: ws
+  port: 443
+  server: grimness-backlogs.cdn-content.com
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: true
+  sni: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1646667-a135-4246-9a9a-de0c53b0dc8d
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯 (25)
+  network: ws
+  port: 443
+  server: 91.185.83.44
+  servername: nguyxejonb.rucdncomp.pro
+  skip-cert-verify: true
+  sni: nguyxejonb.rucdncomp.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
+  ws-opts:
+    headers:
+      Host: nguyxejonb.rucdncomp.pro
+    path: /service/telemetry/0294da469190/
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (49)
+  network: ws
+  port: 443
+  server: 65.9.95.19
+  servername: d30f3bh55zqaoh.cloudfront.net
+  skip-cert-verify: true
+  sni: d30f3bh55zqaoh.cloudfront.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: dde64e50-7aad-4e66-ada9-40956bfeb668
+  ws-opts:
+    headers:
+      Host: d30f3bh55zqaoh.cloudfront.net
+    path: /
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (50)
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: true
+  sni: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (51)
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: true
+  sni: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e4382-273b-4935-b0bc-ca7cc8eabea7
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 29|🇺🇸_美国 (54)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 29|🇺🇸_美国 (58)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (55)
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.172
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 29|🇺🇸_美国 (56)
+  network: ws
+  port: 443
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+    path: /
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (57)
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: true
+  sni: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e836302b-2ab2-4286-b584-c1dcf2c2e6a0
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- name: 29|🇺🇸_美国 (59)
+  network: ws
+  port: 443
+  server: wwww.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (60)
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  skip-cert-verify: true
+  sni: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1220c563-30a8-46bd-9264-052d7ba92e7d
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- name: 29|🇳🇴_挪威 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.50.55.76
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇿_捷克
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.133.174.88
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (7)
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.61.198.53
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵_日本 (11)
+  network: ws
+  password: humanity
+  port: 443
+  server: 35.78.243.103
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡
+  network: ws
+  password: humanity
+  port: 443
+  server: 178.93.160.132
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国
+  network: ws
+  password: humanity
+  port: 443
+  server: 193.134.209.165
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (16)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.149.157
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇷🇺_俄罗斯
+  network: ws
+  password: humanity
+  port: 443
+  server: 217.26.26.14
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇰🇷_韩国
+  network: ws
+  password: humanity
+  port: 8443
+  server: 141.164.34.161
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 29|🇹🇼_台湾
+  network: ws
+  port: 80
+  server: mdk.mdmekjll.best
+  servername: mdk.mdmekjll.best
+  skip-cert-verify: true
+  sni: mdk.mdmekjll.best
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: mdk.mdmekjll.best
+    path: /game/resources
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.0.1
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (4)
+  network: ws
+  port: 443
+  server: 151.101.65.242
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: true
+  sni: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (5)
+  network: ws
+  port: 443
+  server: 151.101.129.242
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: true
+  sni: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: da546ae1-49ee-4d95-9727-49708192125b
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (6)
+  network: ws
+  port: 443
+  server: 151.101.193.242
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: true
+  sni: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da546ae1-49ee-4d95-9727-49708192125b
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (7)
+  network: ws
+  port: 443
+  server: 151.101.193.242
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: true
+  sni: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (8)
+  network: ws
+  port: 443
+  server: 151.101.1.242
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: true
+  sni: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: da546ae1-49ee-4d95-9727-49708192125b
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (9)
+  network: ws
+  port: 443
+  server: 151.101.65.242
+  servername: ghosts-spasm.quick-cdn.net
+  skip-cert-verify: true
+  sni: ghosts-spasm.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: da546ae1-49ee-4d95-9727-49708192125b
+  ws-opts:
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+    path: /ws
+- name: 29|🇺🇸_美国 (10)
+  network: ws
+  port: 443
+  server: 151.101.129.242
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: true
+  sni: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b3837df-41d5-4740-8a36-467ea03adfc3
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: 29|🇺🇸_美国 (11)
+  network: ws
+  port: 443
+  server: 151.101.1.242
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: true
+  sni: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b3837df-41d5-4740-8a36-467ea03adfc3
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (12)
+  network: ws
+  port: 443
+  server: 151.101.129.242
+  servername: grimness-backlogs.cdn-content.com
+  skip-cert-verify: true
+  sni: grimness-backlogs.cdn-content.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
+  ws-opts:
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+    path: /ws
+- name: 29|🇩🇪_德国
+  network: ws
+  password: humanity
+  port: 443
+  server: 31.77.168.179
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.80.111.7
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (15)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.150.241
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (17)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.128.253
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: ios
+  name: 29|🇷🇺_俄罗斯 (2)
+  network: ws
+  port: 8443
+  server: 194.87.143.165
+  servername: wsru1.wba-pn.ru
+  skip-cert-verify: true
+  sni: wsru1.wba-pn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  ws-opts:
+    headers:
+      Host: 194.87.143.165
+    path: /
+- name: 29|🇺🇸_美国 (18)
+  network: ws
+  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
+  port: 2087
+  server: 162.159.140.116
+  servername: 17934548057236.206352.xyz
+  skip-cert-verify: true
+  sni: 17934548057236.206352.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17934548057163.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国 (19)
+  network: ws
+  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
+  port: 2053
+  server: 162.159.140.116
+  servername: 17934548052676.206355.xyz
+  skip-cert-verify: true
+  sni: 17934548052676.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17934548052324.206355.xyz
+    path: /videomuaawe
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇭🇰_香港
+  network: ws
+  port: 443
+  server: 43.161.253.137
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇯🇵_日本
+  network: ws
+  port: 443
+  server: 31.57.172.242
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (2)
+  network: ws
+  port: 443
+  server: 103.195.190.160
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: 29|🇬🇧_英国
+  network: ws
+  port: 443
+  server: 45.152.67.226
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇮🇩_印度尼西亚
+  network: ws
+  port: 587
+  server: 147.139.139.151
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (3)
   network: ws
   port: 443
   server: 47.245.134.84
@@ -8784,49 +9634,230 @@ proxies:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
     path: /danfeng?ed=2560
-- name: 29|🇩🇪_德国 (6)
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (4)
   network: ws
-  password: humanity
   port: 443
-  server: 202.61.198.53
-  servername: www.cordweave.com
+  server: 62.84.162.161
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    path: /assignment
-- name: 29|🇩🇪_德国 (7)
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- name: 29|🇦🇪_阿拉伯联合酋长国
   network: ws
-  password: humanity
   port: 443
-  server: 31.77.168.179
-  servername: www.cordweave.com
+  server: 217.60.2.212
+  servername: coding.grok2.indevs.in
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: coding.grok2.indevs.in
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
   ws-opts:
-    path: /assignment
-- name: 29|🇩🇪_德国 (8)
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯 (3)
   network: ws
-  password: humanity
   port: 443
-  server: 45.80.111.7
-  servername: www.calmlunch.com
+  server: 178.130.46.211
+  servername: t5pmr.mail-node.gfw.kdns.fr
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: t5pmr.mail-node.gfw.kdns.fr
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    path: /assignment
-- name: 29|🇩🇪_德国 (9)
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (20)
   network: ws
   port: 443
-  server: 185.125.103.113
+  server: 188.255.157.136
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (21)
+  network: ws
+  port: 443
+  server: 216.167.120.37
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (22)
+  network: ws
+  port: 443
+  server: 188.255.157.136
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (23)
+  network: ws
+  port: 2053
+  server: 38.60.89.245
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇳🇱_荷兰
+  network: ws
+  port: 8443
+  server: 62.132.3.104
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (24)
+  network: ws
+  port: 443
+  server: 38.207.182.119
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (25) (2)
+  network: ws
+  port: 443
+  server: 69.8.129.152
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- name: 29|🇫🇷_法国 (2)
+  network: ws
+  port: 8443
+  server: 13.140.161.73
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇸🇪_瑞典
+  network: ws
+  port: 8443
+  server: 62.182.196.194
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇱🇻_拉脱维亚
+  network: ws
+  port: 8443
+  server: 188.253.21.238
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇱🇻_拉脱维亚 (2)
+  network: ws
+  port: 81
+  server: 195.123.211.204
   servername: coding.grok2.indevs.in
   skip-cert-verify: true
   sni: coding.grok2.indevs.in
@@ -8853,46 +9884,21 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
     path: /?ed=2048
-- flow: xtls-rprx-vision
-  name: 29|🇪🇸_西班牙
-  port: 443
-  reality-opts:
-    public-key: 3O_L8f5d9jboj5k0fijL5tsT-i2S4QB5NYnOu-n2Nmw
-    short-id: b2f67ff6e4699ece
-  server: 179.255.189.51
-  servername: es.edge.rbullet.net
-  skip-cert-verify: true
-  sni: es.edge.rbullet.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8263aa5b-601d-4e05-b61d-a70e15d97869
-- flow: xtls-rprx-vision
-  name: 29|🇫🇮_芬兰
-  port: 443
-  server: static.207.81.180.157.clients.your-server.de
-  servername: tcptlsdigikala.savfasf.ir
-  skip-cert-verify: true
-  sni: tcptlsdigikala.savfasf.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18cf4cc4-c56f-408a-9505-80b8f89ebfac
-- name: 29|🇫🇷_法国 (2)
+- name: 29|🇩🇪_德国 (5) (2)
   network: ws
-  port: 8443
-  server: 169.58.215.154
-  servername: sdwf-amq.pages.dev
+  port: 443
+  server: 204.168.248.5
+  servername: coding.grok2.indevs.in
   skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
+  sni: coding.grok2.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
   ws-opts:
     headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
+      Host: coding.grok2.indevs.in
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
 - name: 29|🇫🇷_法国 (4)
   network: ws
   port: 8443
@@ -8908,10 +9914,115 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
     path: /?ed=2048
-- name: 29|🇫🇷_法国 (5)
+- name: 29|🇩🇪_德国 (6) (2)
+  network: ws
+  port: 443
+  server: 185.125.103.113
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (26) (2)
+  network: ws
+  port: 443
+  server: 162.243.148.170
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (27) (2)
+  network: ws
+  port: 443
+  server: 45.77.121.70
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (28) (2)
+  network: ws
+  port: 9002
+  server: 47.254.125.171
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (29) (2)
+  network: ws
+  port: 443
+  server: 64.23.153.167
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (30) (2)
+  network: ws
+  port: 587
+  server: 128.121.31.249
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- name: 29|🇺🇸_美国 (31) (2)
   network: ws
   port: 8443
-  server: 13.140.161.73
+  server: 103.11.78.211
   servername: sdwf-amq.pages.dev
   skip-cert-verify: true
   sni: sdwf-amq.pages.dev
@@ -8923,88 +10034,238 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
     path: /?ed=2048
-- name: 29|🇬🇧_英国 (2)
+- name: 29|🇷🇸_塞尔维亚
   network: ws
-  password: humanity
-  port: 443
-  server: 143.110.175.165
-  servername: www.cordweave.com
+  port: 8443
+  server: 185.48.250.113
+  servername: sdwf-amq.pages.dev
   skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港
-  port: 443
-  reality-opts:
-    public-key: 81vXBnunsk7q3T5oHv7iuCiUibGLj9GS4jjJL00zRUE
-    short-id: 83f8ac7c565fac80
-  server: hk2.huahua.wiki
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
+  sni: sdwf-amq.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 07fff28d-1ae9-493e-926e-8bf941c53782
-- client-fingerprint: firefox
-  name: 29|🇭🇰_香港 (3)
-  port: 31884
-  server: 152.175.6.229
-  servername: hk010.zestapp778.com
-  skip-cert-verify: true
-  sni: hk010.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- alpn:
-  - http/1.1
-  name: 29|🇮🇹_意大利
-  network: ws
-  port: 443
-  server: 151.91.39.191
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   ws-opts:
     headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
-- flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (3)
+  network: ws
   port: 443
-  reality-opts:
-    public-key: dr63-MwSmvcVljij8PHNZasukHgBv0mHk-QKa7i4yyo
-    short-id: bff486649d0ae69e
-  server: jp.huahua.wiki
-  servername: www.apple.com
+  server: 85.137.51.53
+  servername: t5pmr.mail-node.gfw.kdns.fr
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: t5pmr.mail-node.gfw.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: ef857676-6b00-4c1b-8d98-712dd355230a
-- name: 29|🇯🇵_日本 (2)
-  network: ws
-  password: humanity
-  port: 443
-  server: 35.78.243.103
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    path: /assignment
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /danfeng?ed=2560
+- name: 29|🇸🇬_新加坡 (4)
+  network: ws
+  port: 8443
+  server: 47.82.155.79
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇳🇱_荷兰 (2)
+  network: ws
+  port: 443
+  server: 159.223.4.44
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (7) (2)
+  network: ws
+  port: 443
+  server: 64.227.115.28
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- name: 29|🇦🇹_奥地利
+  network: ws
+  port: 8443
+  server: 185.75.241.170
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇫🇷_法国 (5)
+  network: ws
+  port: 8443
+  server: 169.58.215.154
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- name: 29|🇨🇭_瑞士 (10)
+  network: ws
+  port: 8443
+  server: 83.228.193.188
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇮🇳_印度
+  network: ws
+  port: 2053
+  server: 172.235.26.156
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇭🇰_香港 (2)
+  network: ws
+  port: 443
+  server: 43.161.253.137
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇯🇵_日本 (2)
+  network: ws
+  port: 443
+  server: 31.57.172.242
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (5)
+  network: ws
+  port: 443
+  server: 103.195.190.160
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- client-fingerprint: firefox
+  name: 29|🇬🇧_英国 (2)
+  network: ws
+  port: 443
+  server: 45.152.67.226
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇮🇩_印度尼西亚 (2)
+  network: ws
+  port: 587
+  server: 147.139.139.151
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
 - name: 29|🇯🇵_日本 (3)
   network: ws
   port: 57554
@@ -9020,8 +10281,975 @@ proxies:
     headers:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
     path: /@Marisa_kristi
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (8)
+  network: ws
+  port: 443
+  server: 47.245.134.84
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (9)
+  network: ws
+  port: 443
+  server: 62.84.162.161
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- name: 29|🇦🇪_阿拉伯联合酋长国 (2)
+  network: ws
+  port: 443
+  server: 217.60.2.212
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯 (4)
+  network: ws
+  port: 443
+  server: 178.130.46.211
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (32) (2)
+  network: ws
+  port: 443
+  server: 188.255.157.136
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (33) (2)
+  network: ws
+  port: 443
+  server: 216.167.120.37
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (35) (2)
+  network: ws
+  port: 443
+  server: 188.255.157.136
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (36) (2)
+  network: ws
+  port: 2053
+  server: 38.60.89.245
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇳🇱_荷兰 (3)
+  network: ws
+  port: 8443
+  server: 62.132.3.104
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (37) (2)
+  network: ws
+  port: 443
+  server: 38.207.182.119
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (38) (2)
+  network: ws
+  port: 443
+  server: 69.8.129.152
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- name: 29|🇫🇷_法国 (6)
+  network: ws
+  port: 8443
+  server: 13.140.161.73
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇸🇪_瑞典 (2)
+  network: ws
+  port: 8443
+  server: 62.182.196.194
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇱🇻_拉脱维亚 (3)
+  network: ws
+  port: 8443
+  server: 188.253.21.238
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇱🇻_拉脱维亚 (4)
+  network: ws
+  port: 81
+  server: 195.123.211.204
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /
+- name: 29|🇪🇪_爱沙尼亚 (2)
+  network: ws
+  port: 8443
+  server: 5.101.180.125
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇩🇪_德国 (10)
+  network: ws
+  port: 443
+  server: 204.168.248.5
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /
+- name: 29|🇫🇷_法国 (7)
+  network: ws
+  port: 8443
+  server: 89.208.97.224
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇷🇺_俄罗斯 (6)
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  skip-cert-verify: true
+  sni: 185.148.104.30
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /
+- name: 29|🇩🇪_德国 (11)
+  network: ws
+  port: 443
+  server: 185.125.103.113
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /
+- name: 29|🇨🇾_塞浦路斯
+  network: ws
+  port: 8880
+  server: 195.85.59.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime58.workers.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (39) (2)
+  network: ws
+  port: 443
+  server: 162.243.148.170
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (40) (2)
+  network: ws
+  port: 443
+  server: 45.77.121.70
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (41) (2)
+  network: ws
+  port: 9002
+  server: 47.254.125.171
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (42) (2)
+  network: ws
+  port: 443
+  server: 64.23.153.167
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇺🇸_美国 (43) (2)
+  network: ws
+  port: 587
+  server: 128.121.31.249
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- name: 29|🇺🇸_美国 (45) (2)
+  network: ws
+  port: 8443
+  server: 103.11.78.211
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇺🇸_美国 (46) (2)
+  network: ws
+  port: 8880
+  server: 159.242.242.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime58.workers.dev
+    path: /
+- name: 29|🇷🇸_塞尔维亚 (2)
+  network: ws
+  port: 8443
+  server: 185.48.250.113
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇸🇬_新加坡 (6) (2)
+  network: ws
+  port: 443
+  server: 85.137.51.53
+  servername: t5pmr.mail-node.gfw.kdns.fr
+  skip-cert-verify: true
+  sni: t5pmr.mail-node.gfw.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t5pmr.mail-node.gfw.kdns.fr
+    path: /
+- name: 29|🇸🇬_新加坡 (7)
+  network: ws
+  port: 8443
+  server: 47.82.155.79
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇳🇱_荷兰 (4)
+  network: ws
+  port: 443
+  server: 159.223.4.44
+  servername: coding.grok2.indevs.in
+  skip-cert-verify: true
+  sni: coding.grok2.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
+  ws-opts:
+    headers:
+      Host: coding.grok2.indevs.in
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇩🇪_德国 (12)
+  network: ws
+  port: 443
+  server: 64.227.115.28
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- name: 29|🇦🇹_奥地利 (2)
+  network: ws
+  port: 8443
+  server: 185.75.241.170
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇫🇷_法国 (8)
+  network: ws
+  port: 8443
+  server: 169.58.215.154
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- name: 29|🇨🇭_瑞士 (2) (2)
+  network: ws
+  port: 8443
+  server: 83.228.193.188
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇮🇳_印度 (2)
+  network: ws
+  port: 2053
+  server: 172.235.26.156
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (2) (2)
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 13.143.180.141
+  servername: sw.lenvex.cc
+  skip-cert-verify: true
+  sni: sw.lenvex.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+- name: 29|🇭🇰_香港 (2) (2)
+  port: 31884
+  server: 152.175.6.229
+  servername: hk010.zestapp778.com
+  skip-cert-verify: true
+  sni: hk010.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (7)
+  port: 443
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: 213.159.209.66
+  servername: ru11.oshost.network
+  skip-cert-verify: true
+  sni: ru11.oshost.network
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
 - flow: xtls-rprx-vision
-  name: 29|🇰🇷_韩国
+  name: 29|🇳🇱_荷兰 (4) (2)
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: cz-prg.dontblockmepls.com
+  servername: rusbid.de
+  skip-cert-verify: true
+  sni: rusbid.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (5) (2)
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 13.143.180.142
+  servername: sw.lenvex.cc
+  skip-cert-verify: true
+  sni: sw.lenvex.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (7) (2)
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 13.143.182.103
+  servername: ee.lenvex.cc
+  skip-cert-verify: true
+  sni: ee.lenvex.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+- flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (4)
+  port: 443
+  reality-opts:
+    public-key: dr63-MwSmvcVljij8PHNZasukHgBv0mHk-QKa7i4yyo
+    short-id: bff486649d0ae69e
+  server: jp.huahua.wiki
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef857676-6b00-4c1b-8d98-712dd355230a
+- name: 29|🇭🇰_香港 (3) (2)
+  port: 31884
+  server: hk010.zestapp778.com
+  servername: hk010.zestapp778.com
+  skip-cert-verify: true
+  sni: hk010.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (8) (2)
+  port: 443
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  server: 72.56.52.248
+  servername: lv.dexlen.cc
+  skip-cert-verify: true
+  sni: lv.dexlen.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+- flow: xtls-rprx-vision
+  name: 29|🇳🇱_荷兰 (5) (2)
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: 31.77.13.22
+  servername: rusbid.de
+  skip-cert-verify: true
+  sni: rusbid.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- name: 29|🇳🇱_荷兰 (11)
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.232
+  servername: www.samsung.com
+  skip-cert-verify: true
+  sni: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (10) (2)
+  port: 443
+  reality-opts:
+    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
+    short-id: a7856800c2deb7b2
+  server: app-mi-26.spbstudentlife.com
+  servername: assets-mi-26.spbstudentlife.com
+  skip-cert-verify: true
+  sni: assets-mi-26.spbstudentlife.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
+- client-fingerprint: firefox
+  name: 29|🇳🇱_荷兰 (6)
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.237
+  servername: www.samsung.com
+  skip-cert-verify: true
+  sni: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (4)
+  port: 443
+  reality-opts:
+    public-key: 81vXBnunsk7q3T5oHv7iuCiUibGLj9GS4jjJL00zRUE
+    short-id: 83f8ac7c565fac80
+  server: hk2.huahua.wiki
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07fff28d-1ae9-493e-926e-8bf941c53782
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (5) (2)
+  port: 443
+  reality-opts:
+    public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
+    short-id: 9d0e1b6bf9c5eddb
+  server: 200.169.184.168
+  servername: net.formatgo.ru
+  skip-cert-verify: true
+  sni: net.formatgo.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+- flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (11) (2)
+  port: 443
+  reality-opts:
+    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
+    short-id: b91971fe98d55eb9
+  server: us.huahua.wiki
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (12) (2)
+  port: 443
+  reality-opts:
+    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
+    short-id: a7856800c2deb7b2
+  server: 31.76.227.57
+  servername: assets-mi-26.spbstudentlife.com
+  skip-cert-verify: true
+  sni: assets-mi-26.spbstudentlife.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (3) (2)
+  port: 443
+  reality-opts:
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: e0aadc6f38ff06a8
+  server: 200.169.184.168
+  servername: tm6.24convertflow.ru
+  skip-cert-verify: true
+  sni: tm6.24convertflow.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (4) (2)
+  port: 443
+  reality-opts:
+    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
+    short-id: 97a15f5af85c4a30
+  server: ru11.oshost.network
+  servername: ru11.oshost.network
+  skip-cert-verify: true
+  sni: ru11.oshost.network
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
+- name: 29|🇺🇸_美国 (16) (2)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 167.88.61.198
+  servername: cdn.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: true
+  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (3)
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 89.125.37.115
+  servername: se.frgcdn.xyz
+  skip-cert-verify: true
+  sni: se.frgcdn.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (14) (2)
+  port: 443
+  reality-opts:
+    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
+    short-id: f7e66e308136e1a1
+  server: 13.143.184.226
+  servername: msc1.serverslocal.ru
+  skip-cert-verify: true
+  sni: msc1.serverslocal.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6158d429-74fe-4415-aae5-5ead48c2ecfa
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (2) (2)
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.71
+  servername: se.frgcdn.xyz
+  skip-cert-verify: true
+  sni: se.frgcdn.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- name: 29|🇺🇸_美国 (15) (2)
+  port: 443
+  reality-opts:
+    public-key: ONtm2Ue2yos1Fw3Jy-Fjh_9RLyqHBlw33aCVzRIB4is
+    short-id: dd0a9c
+  server: 13.58.13.137
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  sni: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0715628e-fe11-49c6-b6dc-326719e9fc72
+- flow: xtls-rprx-vision
+  name: 29|🇫🇮_芬兰
+  port: 443
+  server: static.207.81.180.157.clients.your-server.de
+  servername: tcptlsdigikala.savfasf.ir
+  skip-cert-verify: true
+  sni: tcptlsdigikala.savfasf.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 18cf4cc4-c56f-408a-9505-80b8f89ebfac
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (6) (2)
+  port: 443
+  reality-opts:
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+  server: 104.171.135.229
+  servername: absolute-disaster.org
+  skip-cert-verify: true
+  sni: absolute-disaster.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 29|🇪🇪_爱沙尼亚 (2) (2)
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: ee.h1cloud.net
+  servername: www.samsung.com
+  skip-cert-verify: true
+  sni: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- flow: xtls-rprx-vision
+  name: 29|🇰🇷_韩国 (3)
   port: 443
   reality-opts:
     public-key: DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE
@@ -9034,37 +11262,263 @@ proxies:
   type: vless
   udp: true
   uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 29|🇰🇷_韩国 (2)
-  network: ws
-  port: 443
-  server: 43.128.130.45
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (3) (2)
+  port: 8443
+  reality-opts:
+    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
+    short-id: 385cb18df0892069
+  server: de8.vpngold.ru
+  servername: de8.vpngold.ru
   skip-cert-verify: true
-  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  sni: de8.vpngold.ru
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- name: 29|🇰🇷_韩国 (3)
-  network: ws
-  password: humanity
+  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇬_新加坡 (5) (2)
   port: 8443
-  server: 141.164.34.161
-  servername: www.cordweave.com
+  reality-opts:
+    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
+    short-id: 385cb18df0892069
+  server: 92.243.74.224
+  servername: de8.vpngold.ru
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: de8.vpngold.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+- client-fingerprint: firefox
+  name: 29|🇳🇱_荷兰 (8)
+  port: 443
+  reality-opts:
+    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+    short-id: 257420d9d430152a
+  server: 79.182.39.57
+  servername: a0688bt.us4.h1clayd.click
+  skip-cert-verify: true
+  sni: a0688bt.us4.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+- flow: xtls-rprx-vision
+  name: 29|🇨🇿_捷克 (3)
+  port: 443
+  reality-opts:
+    public-key: tnEAM-61f1idRp0_FNf01mVdV1Ks8l1j55KIHJEcY28
+    short-id: 48aca154137f7419
+  server: 46.8.100.28
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dc76b67-6d26-4446-b542-0254b073bd8a
+- client-fingerprint: firefox
+  name: 29|🇳🇱_荷兰 (12)
+  port: 27591
+  reality-opts:
+    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+    short-id: 6c5c7900406a1ae7
+  server: 79.182.39.37
+  servername: www.samsung.com
+  skip-cert-verify: true
+  sni: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (17) (2)
+  port: 443
+  reality-opts:
+    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
+    short-id: b91971fe98d55eb9
+  server: 43.153.90.117
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (20)
+  port: 443
+  reality-opts:
+    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
+    short-id: a9dc98a7dc87a7dc
+  server: 45.132.176.61
+  servername: sopelka.yandex-api.com
+  skip-cert-verify: true
+  sni: sopelka.yandex-api.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+- flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (3) (2)
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 89.125.37.1
+  servername: se.frgcdn.xyz
+  skip-cert-verify: true
+  sni: se.frgcdn.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
+- name: 29,33,34|香港2|@ripaojiedian
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 44837
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    path: /assignment
+- name: 29|🇯🇵_日本 (3) (2)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (4) (2)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45502
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (5)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 12809
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29,33,34|韩国2|@ripaojiedian
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18572
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (7)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 55537
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (8)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 39188
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (9)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 35929
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (10)
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22100
+  server: ench-snet-app.w-ctrip.cn
+  servername: cm.g.doubleclick.net
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国 (18) (2)
+  password: va3E77I9fZCnCVcGKkxBCfz5
+  port: 443
+  server: 186.241.105.213
+  servername: vpn.liumr.top
+  skip-cert-verify: true
+  sni: vpn.liumr.top
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇺🇸_美国 (19) (2)
+  password: va3E77I9fZCnCVcGKkxBCfz5
+  port: 443
+  server: vpn.liumr.top
+  servername: vpn.liumr.top
+  skip-cert-verify: true
+  sni: vpn.liumr.top
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (4)
+  port: 443
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: 2d6d073dc88f22a8
+  server: 132.243.231.21
+  servername: se.frgcdn.xyz
+  skip-cert-verify: true
+  sni: se.frgcdn.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
+- flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (13)
+  port: 443
+  reality-opts:
+    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
+    short-id: 8f3c6e2a1b5d4f09
+  server: 13.140.94.191
+  servername: tradingview.com
+  skip-cert-verify: true
+  sni: tradingview.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 29|🇰🇿_哈萨克斯坦 (2)
@@ -9080,211 +11534,20 @@ proxies:
   type: vless
   udp: true
   uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-- name: 29|🇱🇻_拉脱维亚
-  network: ws
-  port: 81
-  server: 195.123.211.204
-  servername: coding.grok2.indevs.in
-  skip-cert-verify: true
-  sni: coding.grok2.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
-  ws-opts:
-    headers:
-      Host: coding.grok2.indevs.in
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- name: 29|🇱🇻_拉脱维亚 (2)
-  network: ws
-  port: 8443
-  server: 188.253.21.238
-  servername: sdwf-amq.pages.dev
-  skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  ws-opts:
-    headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
 - client-fingerprint: firefox
-  name: 29|🇳🇱_荷兰
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: 79.182.39.236
-  servername: www.chip.de
-  skip-cert-verify: true
-  sni: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- flow: xtls-rprx-vision
-  name: 29|🇳🇱_荷兰 (2)
-  port: 2063
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: 31.77.13.22
-  servername: rusbid.de
-  skip-cert-verify: true
-  sni: rusbid.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- flow: xtls-rprx-vision
-  name: 29|🇳🇱_荷兰 (9)
-  port: 2063
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: cz-prg.dontblockmepls.com
-  servername: rusbid.de
-  skip-cert-verify: true
-  sni: rusbid.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-- client-fingerprint: firefox
-  name: 29|🇳🇱_荷兰 (8)
-  port: 27591
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-    short-id: 6c5c7900406a1ae7
-  server: 79.182.39.37
-  servername: www.samsung.com
-  skip-cert-verify: true
-  sni: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- name: 29|🇳🇱_荷兰 (7)
-  port: 25895
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: 79.182.39.232
-  servername: www.samsung.com
-  skip-cert-verify: true
-  sni: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- name: 29|🇳🇱_荷兰 (4)
-  port: 25895
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: ee.h1cloud.net
-  servername: www.samsung.com
-  skip-cert-verify: true
-  sni: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- flow: xtls-rprx-vision
-  name: 29|🇳🇱_荷兰 (16)
-  port: 444
-  server: 177.177.215.45
-  servername: ams2.shtil.io
-  skip-cert-verify: true
-  sni: ams2.shtil.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇳🇱_荷兰 (17)
-  port: 444
-  server: ams2.shtil.io
-  servername: ams2.shtil.io
-  skip-cert-verify: true
-  sni: ams2.shtil.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-- client-fingerprint: firefox
-  name: 29|🇳🇱_荷兰 (18)
-  port: 25895
-  reality-opts:
-    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
-    short-id: a73f0410d728c823
-  server: 79.182.39.237
-  servername: www.samsung.com
-  skip-cert-verify: true
-  sni: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-- name: 29|🇳🇱_荷兰 (19)
-  network: ws
-  port: 443
-  server: 159.223.4.44
-  servername: coding.grok2.indevs.in
-  skip-cert-verify: true
-  sni: coding.grok2.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0c9ebf7-76cc-44b7-8b30-b33ee0ffc898
-  ws-opts:
-    headers:
-      Host: coding.grok2.indevs.in
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-- name: 29|🇳🇱_荷兰 (3)
-  port: 25362
-  reality-opts:
-    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-    short-id: 23732d14a527990d
-  server: de15.h1cloud.net
-  servername: www.chip.de
-  skip-cert-verify: true
-  sni: www.chip.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- client-fingerprint: firefox
-  name: 29|🇳🇱_荷兰 (5)
+  name: 29|🇷🇺_俄罗斯 (10)
   port: 443
   reality-opts:
-    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
-    short-id: 257420d9d430152a
-  server: 79.182.39.57
-  servername: a0688bt.us4.h1clayd.click
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+    short-id: 8937c9ed2d470352
+  server: 46.254.19.164
+  servername: wtb.tems.bet
   skip-cert-verify: true
-  sni: a0688bt.us4.h1clayd.click
+  sni: wtb.tems.bet
   tls: true
   type: vless
   udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- name: 29|🇳🇴_挪威 (2)
-  network: ws
-  password: humanity
-  port: 443
-  server: 202.50.55.76
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
 - flow: xtls-rprx-vision
   name: 29|🇵🇱_波兰
   port: 443
@@ -9325,6 +11588,20 @@ proxies:
   type: vless
   udp: true
   uuid: 8263aa5b-601d-4e05-b61d-a70e15d97869
+- flow: xtls-rprx-vision
+  name: 29|🇪🇸_西班牙
+  port: 443
+  reality-opts:
+    public-key: 3O_L8f5d9jboj5k0fijL5tsT-i2S4QB5NYnOu-n2Nmw
+    short-id: b2f67ff6e4699ece
+  server: 179.255.189.51
+  servername: es.edge.rbullet.net
+  skip-cert-verify: true
+  sni: es.edge.rbullet.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8263aa5b-601d-4e05-b61d-a70e15d97869
 - name: 29|🇵🇱_波兰 (4)
   port: 63053
   server: 179.253.179.109
@@ -9335,6 +11612,31 @@ proxies:
   type: vless
   udp: true
   uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+- client-fingerprint: safari
+  name: 29|🇷🇺_俄罗斯 (11)
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  servername: us-1.1984.love
+  skip-cert-verify: true
+  sni: us-1.1984.love
+  tls: true
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 29|🇦🇱_阿尔巴尼亚
+  port: 443
+  reality-opts:
+    public-key: trN5x0amt2YuVzF2vZnK294YBAuh_zl5QkZjPyWz-TI
+    short-id: 8718c58d3d51db59
+  server: 151.123.187.198
+  servername: al2.magazinnarubeva.ru
+  skip-cert-verify: true
+  sni: al2.magazinnarubeva.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b24ad12f-f6ce-4f0b-a264-d58a76104026
 - name: 29|🇵🇱_波兰 (5)
   port: 50083
   server: 179.253.179.109
@@ -9345,51 +11647,77 @@ proxies:
   type: vless
   udp: true
   uuid: 268fac1e-bb07-4d6c-8942-92fef4d7ede1
-- name: 29|🇷🇸_塞尔维亚
-  network: ws
-  port: 8443
-  server: 185.48.250.113
-  servername: sdwf-amq.pages.dev
-  skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  ws-opts:
-    headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯
+  name: 29|🇦🇲_亚美尼亚
+  port: 443
+  server: 2.56.207.68
+  servername: www.slovarik.xyz
+  skip-cert-verify: true
+  sni: www.slovarik.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0192c3d3-18d5-4b95-8eb3-598e18de6918
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇳🇱_荷兰 (13)
+  port: 444
+  server: ams2.shtil.io
+  servername: ams2.shtil.io
+  skip-cert-verify: true
+  sni: ams2.shtil.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
+- flow: xtls-rprx-vision
+  name: 29|🇳🇱_荷兰 (15)
+  port: 444
+  server: 177.177.215.45
+  servername: ams2.shtil.io
+  skip-cert-verify: true
+  sni: ams2.shtil.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
+- flow: xtls-rprx-vision
+  name: 29|🇺🇸_美国 (20) (2)
   port: 443
   reality-opts:
-    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
-  server: 104.171.135.229
-  servername: absolute-disaster.org
+    public-key: DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM
+    short-id: ab0a5b56
+  server: 38.244.5.231
+  servername: www.cloudflare.com
   skip-cert-verify: true
-  sni: absolute-disaster.org
+  sni: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: edge
-  name: 29|🇷🇺_俄罗斯 (20)
-  port: 443
-  server: 87.242.119.253
-  servername: hvtlr-ru-47sb.fade.mom
+  uuid: 1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a
+- flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (2) (2)
+  port: 59397
+  reality-opts:
+    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
+    short-id: '1430'
+  server: 185.44.64.166
+  servername: la.blogs.nvidia.com
   skip-cert-verify: true
-  sni: hvtlr-ru-47sb.fade.mom
+  sni: la.blogs.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
 - alpn:
   - http/1.1
   - h2
-  client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯 (19)
+  client-fingerprint: ios
+  name: 29|🇷🇺_俄罗斯 (17)
   port: 443
   server: 87.242.119.253
   servername: hvtlr-ru-47sb.fade.mom
@@ -9399,25 +11727,8 @@ proxies:
   type: vless
   udp: true
   uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (12)
-  port: 443
-  reality-opts:
-    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
-    short-id: 97a15f5af85c4a30
-  server: 213.159.209.66
-  servername: ru11.oshost.network
-  skip-cert-verify: true
-  sni: ru11.oshost.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-- alpn:
-  - '[http/1.1'
-  client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯 (14)
+- client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯 (23)
   port: 443
   server: 87.242.119.253
   servername: hvtlr-ru-47sb.fade.mom
@@ -9429,7 +11740,7 @@ proxies:
   uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
 - alpn:
   - '["[http/1.1"]'
-  name: 29|🇷🇺_俄罗斯 (15)
+  name: 29|🇷🇺_俄罗斯 (18)
   port: 443
   server: 87.242.119.253
   servername: hvtlr-ru-47sb.fade.mom
@@ -9439,153 +11750,22 @@ proxies:
   type: vless
   udp: true
   uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (4)
-  port: 443
-  reality-opts:
-    public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
-    short-id: 9d0e1b6bf9c5eddb
-  server: 200.169.184.168
-  servername: net.formatgo.ru
-  skip-cert-verify: true
-  sni: net.formatgo.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
 - flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (2)
+  name: 29|🇷🇺_俄罗斯 (19)
   port: 443
   reality-opts:
-    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
-    short-id: e0aadc6f38ff06a8
-  server: 200.169.184.168
-  servername: tm6.24convertflow.ru
+    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+    short-id: 2ef2b10d5143d798
+  server: 5.129.202.80
+  servername: mirror-50.topp-con.xyz
   skip-cert-verify: true
-  sni: tm6.24convertflow.ru
+  sni: mirror-50.topp-con.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯 (21)
-  port: 443
-  reality-opts:
-    public-key: _qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ
-    short-id: a9dc98a7dc87a7dc
-  server: 45.132.176.61
-  servername: sopelka.yandex-api.com
-  skip-cert-verify: true
-  sni: sopelka.yandex-api.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-- name: 29|🇷🇺_俄罗斯 (22)
-  network: ws
-  password: humanity
-  port: 443
-  server: 217.26.26.14
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- client-fingerprint: ios
-  name: 29|🇷🇺_俄罗斯 (23)
-  network: ws
-  port: 8443
-  server: 194.87.143.165
-  servername: wsru1.wba-pn.ru
-  skip-cert-verify: true
-  sni: wsru1.wba-pn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
-  ws-opts:
-    headers:
-      Host: 194.87.143.165
-    path: /
-- name: 29|🇷🇺_俄罗斯 (25)
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  skip-cert-verify: true
-  sni: 185.148.104.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯 (26)
-  network: ws
-  port: 443
-  server: 185.229.9.135
-  servername: business.lesotorg-kirov.ru
-  skip-cert-verify: true
-  sni: business.lesotorg-kirov.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4df3e06b-85e9-4b69-b38a-be37bad2fe9d
-  ws-opts:
-    headers:
-      Host: business.lesotorg-kirov.ru
-    path: /chws
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (3)
-  port: 443
-  reality-opts:
-    public-key: 52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI
-    short-id: 97a15f5af85c4a30
-  server: ru11.oshost.network
-  servername: ru11.oshost.network
-  skip-cert-verify: true
-  sni: ru11.oshost.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: afbd410e-1663-4f40-9d3b-df5117aa23ca
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (7)
-  port: 443
-  reality-opts:
-    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
-    short-id: 8937c9ed2d470352
-  server: 46.254.19.164
-  servername: wtb.tems.bet
-  skip-cert-verify: true
-  sni: wtb.tems.bet
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
-- client-fingerprint: safari
-  name: 29|🇷🇺_俄罗斯 (8)
-  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
-  port: 443
-  server: 176.114.95.242
-  servername: us-1.1984.love
-  skip-cert-verify: true
-  sni: us-1.1984.love
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (9)
   port: 443
   reality-opts:
     public-key: MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA
@@ -9598,1183 +11778,52 @@ proxies:
   type: vless
   udp: true
   uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+- name: 29|🇳🇱_荷兰 (16)
+  port: 25362
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: de15.h1cloud.net
+  servername: www.chip.de
+  skip-cert-verify: true
+  sni: www.chip.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- alpn:
+  - '[http/1.1'
+  client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯 (22)
+  port: 443
+  server: 87.242.119.253
+  servername: hvtlr-ru-47sb.fade.mom
+  skip-cert-verify: true
+  sni: hvtlr-ru-47sb.fade.mom
+  tls: true
+  type: vless
+  udp: true
+  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (5)
-  port: 443
+  name: 29|🇳🇱_荷兰 (17)
+  port: 25362
   reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 89.125.37.115
-  servername: se.frgcdn.xyz
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+    short-id: 23732d14a527990d
+  server: 79.182.39.236
+  servername: www.chip.de
   skip-cert-verify: true
-  sni: se.frgcdn.xyz
+  sni: www.chip.de
   tls: true
   type: vless
   udp: true
-  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (4)
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 132.243.231.21
-  servername: se.frgcdn.xyz
-  skip-cert-verify: true
-  sni: se.frgcdn.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (3)
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 132.243.231.71
-  servername: se.frgcdn.xyz
-  skip-cert-verify: true
-  sni: se.frgcdn.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: b310e287-79fa-45e3-887f-9564c0e390f7
-- name: 29|🇸🇪_瑞典 (6)
-  network: ws
-  port: 8443
-  server: 62.182.196.194
-  servername: sdwf-amq.pages.dev
-  skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  ws-opts:
-    headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (4)
-  port: 8443
-  reality-opts:
-    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
-    short-id: 385cb18df0892069
-  server: de8.vpngold.ru
-  servername: de8.vpngold.ru
-  skip-cert-verify: true
-  sni: de8.vpngold.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (5)
-  port: 8443
-  reality-opts:
-    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
-    short-id: 385cb18df0892069
-  server: 92.243.74.224
-  servername: de8.vpngold.ru
-  skip-cert-verify: true
-  sni: de8.vpngold.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
-- name: 29|🇸🇬_新加坡 (6)
-  network: ws
-  password: humanity
-  port: 443
-  server: 178.93.160.132
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇸🇬_新加坡 (7)
-  network: ws
-  port: 51262
-  server: 175.41.179.37
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
-  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c6ea474-0cf5-4a3d-bc81-aa2eeb6516d6
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- name: 29|🇸🇬_新加坡 (8)
-  network: ws
-  port: 8443
-  server: 47.82.155.79
-  servername: sdwf-amq.pages.dev
-  skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  ws-opts:
-    headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
-- name: 29|🇸🇬_新加坡 (9)
-  network: ws
-  port: 53646
-  server: 54.179.79.12
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: true
-  sni: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 93024f48-f245-497d-88cf-2b487823f419
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 29|🇹🇼_台湾
-  network: ws
-  port: 80
-  server: mdk.mdmekjll.best
-  servername: mdk.mdmekjll.best
-  skip-cert-verify: true
-  sni: mdk.mdmekjll.best
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: mdk.mdmekjll.best
-    path: /game/resources
-- flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (7)
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 13.143.180.142
-  servername: sw.lenvex.cc
-  skip-cert-verify: true
-  sni: sw.lenvex.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
-- name: 29|🇺🇸_美国 (18)
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  port: 443
-  server: 186.241.105.213
-  servername: vpn.liumr.top
-  skip-cert-verify: true
-  sni: vpn.liumr.top
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国 (19)
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  port: 443
-  server: vpn.liumr.top
-  servername: vpn.liumr.top
-  skip-cert-verify: true
-  sni: vpn.liumr.top
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (12)
-  port: 443
-  reality-opts:
-    public-key: qPh1iuwpELosLWTxOXyfCiMghs_sjSzCOGbkiF0gdkk
-    short-id: f7e66e308136e1a1
-  server: 13.143.184.226
-  servername: msc1.serverslocal.ru
-  skip-cert-verify: true
-  sni: msc1.serverslocal.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6158d429-74fe-4415-aae5-5ead48c2ecfa
-- flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (13)
-  port: 443
-  reality-opts:
-    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
-    short-id: b91971fe98d55eb9
-  server: us.huahua.wiki
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
-- name: 29|🇺🇸_美国 (17)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.198
-  servername: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
-  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (6)
-  port: 443
-  reality-opts:
-    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
-    short-id: a7856800c2deb7b2
-  server: app-mi-26.spbstudentlife.com
-  servername: assets-mi-26.spbstudentlife.com
-  skip-cert-verify: true
-  sni: assets-mi-26.spbstudentlife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (16)
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 72.56.52.248
-  servername: lv.dexlen.cc
-  skip-cert-verify: true
-  sni: lv.dexlen.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (8)
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 13.143.180.141
-  servername: sw.lenvex.cc
-  skip-cert-verify: true
-  sni: sw.lenvex.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (21)
-  port: 443
-  reality-opts:
-    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
-    short-id: a7856800c2deb7b2
-  server: 31.76.227.57
-  servername: assets-mi-26.spbstudentlife.com
-  skip-cert-verify: true
-  sni: assets-mi-26.spbstudentlife.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-- name: 29|🇺🇸_美国 (22)
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-    path: /
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (23)
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 81a12262-81a7-45dc-8157-a6abc0c0cda3
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- name: 29|🇺🇸_美国 (24)
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: community.fastly.steamstatic.com
-  skip-cert-verify: true
-  sni: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-    path: /
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (25)
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ea9c6dd-4d73-49f2-82ce-b80b1b5dd646
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (26)
-  network: ws
-  port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  skip-cert-verify: true
-  sni: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bc4baa4-76a1-42ff-be77-06d8749a467a
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- name: 29|🇺🇸_美国 (27)
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-    path: /
-- name: 29|🇺🇸_美国 (28)
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  skip-cert-verify: true
-  sni: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51690558-5717-4629-8c41-ea41533d84a2
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- name: 29|🇺🇸_美国 (29)
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: community.fastly.steamstatic.com
-  skip-cert-verify: true
-  sni: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (4)
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 13.143.182.103
-  servername: ee.lenvex.cc
-  skip-cert-verify: true
-  sni: ee.lenvex.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
-- name: 29|🇺🇸_美国 (30)
-  network: ws
-  port: 443
-  server: 216.24.57.15
-  servername: four04-rd37.onrender.com
-  skip-cert-verify: true
-  sni: four04-rd37.onrender.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  ws-opts:
-    headers:
-      Host: four04-rd37.onrender.com
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefoxfp=chrome
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 29|🇺🇸_美国 (31)
-  network: ws
-  port: 8443
-  server: 179.255.132.69
-  servername: t5pmr.mail-node.gfw.kdns.fr
-  skip-cert-verify: true
-  sni: t5pmr.mail-node.gfw.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t5pmr.mail-node.gfw.kdns.fr
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  name: 29|🇺🇸_美国 (32)
-  network: ws
-  port: 443
-  server: 188.255.157.136
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
-  skip-cert-verify: true
-  sni: xy1ej.stream-node-us.danfeng.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (33)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.36.120
-  servername: community.fastly.steamstatic.com
-  skip-cert-verify: true
-  sni: community.fastly.steamstatic.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn.ac.ir
-    path: /Telegram-MTMVPN---MTMVPN---MTMVPN---MTMVPN
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (34)
-  network: ws
-  port: 443
-  server: 216.24.57.15
-  servername: four04-rd37.onrender.com
-  skip-cert-verify: true
-  sni: four04-rd37.onrender.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
-  ws-opts:
-    headers:
-      Host: four04-rd37.onrender.com
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
-- name: 29|🇺🇸_美国 (37)
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇺🇸_美国 (41)
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国 (38)
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.172
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇺🇸_美国 (39)
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-    path: /
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (40)
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e836302b-2ab2-4286-b584-c1dcf2c2e6a0
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (42)
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-    path: /
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (43)
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1220c563-30a8-46bd-9264-052d7ba92e7d
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (44)
-  network: ws
-  password: humanity
-  port: 443
-  server: 193.134.209.165
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国 (59)
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.149.157
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (46)
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.0.1
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (47)
-  network: ws
-  port: 443
-  server: 151.101.65.242
-  servername: grimness-backlogs.cdn-content.com
-  skip-cert-verify: true
-  sni: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (48)
-  network: ws
-  port: 443
-  server: 151.101.129.242
-  servername: ghosts-spasm.quick-cdn.net
-  skip-cert-verify: true
-  sni: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: da546ae1-49ee-4d95-9727-49708192125b
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (49)
-  network: ws
-  port: 443
-  server: 151.101.193.242
-  servername: grimness-backlogs.cdn-content.com
-  skip-cert-verify: true
-  sni: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: da546ae1-49ee-4d95-9727-49708192125b
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (5)
-  port: 443
-  reality-opts:
-    public-key: ONtm2Ue2yos1Fw3Jy-Fjh_9RLyqHBlw33aCVzRIB4is
-    short-id: dd0a9c
-  server: 13.58.13.137
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  sni: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0715628e-fe11-49c6-b6dc-326719e9fc72
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (50)
-  network: ws
-  port: 443
-  server: 151.101.193.242
-  servername: grimness-backlogs.cdn-content.com
-  skip-cert-verify: true
-  sni: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (51)
-  network: ws
-  port: 443
-  server: 151.101.1.242
-  servername: ghosts-spasm.quick-cdn.net
-  skip-cert-verify: true
-  sni: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: da546ae1-49ee-4d95-9727-49708192125b
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (52)
-  network: ws
-  port: 443
-  server: 151.101.65.242
-  servername: ghosts-spasm.quick-cdn.net
-  skip-cert-verify: true
-  sni: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: da546ae1-49ee-4d95-9727-49708192125b
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- name: 29|🇺🇸_美国 (53)
-  network: ws
-  port: 443
-  server: 151.101.129.242
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: true
-  sni: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b3837df-41d5-4740-8a36-467ea03adfc3
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- name: 29|🇺🇸_美国 (54)
-  network: ws
-  port: 443
-  server: 151.101.1.242
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: true
-  sni: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b3837df-41d5-4740-8a36-467ea03adfc3
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (55)
-  network: ws
-  port: 443
-  server: 151.101.129.242
-  servername: grimness-backlogs.cdn-content.com
-  skip-cert-verify: true
-  sni: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3108d14-1f45-4f82-bb36-e2c41bdab527
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (58)
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.150.241
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国 (60)
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.128.253
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 29|🇺🇸_美国 (61)
-  network: ws
-  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
-  port: 2087
-  server: 162.159.140.116
-  servername: 17934548057236.206352.xyz
-  skip-cert-verify: true
-  sni: 17934548057236.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17934548057163.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国 (62)
-  network: ws
-  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
-  port: 2053
-  server: 162.159.140.116
-  servername: 17934548052676.206355.xyz
-  skip-cert-verify: true
-  sni: 17934548052676.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17934548052324.206355.xyz
-    path: /videomuaawe
-- name: 29|🇺🇸_美国 (63)
-  network: ws
-  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
-  port: 2083
-  server: 162.159.140.116
-  servername: 17934548053759.206353.xyz
-  skip-cert-verify: true
-  sni: 17934548053759.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17934548059582.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国 (64)
-  network: ws
-  password: c24f41e2-45d3-4e73-8114-26f7a9e57af2
-  port: 2053
-  server: 162.159.140.116
-  servername: 17934548053441.206356.xyz
-  skip-cert-verify: true
-  sni: 17934548053441.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17934548056782.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🇺🇸_美国 (66)
-  network: ws
-  port: 8443
-  server: 103.11.78.211
-  servername: sdwf-amq.pages.dev
-  skip-cert-verify: true
-  sni: sdwf-amq.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  ws-opts:
-    headers:
-      Host: sdwf-amq.pages.dev
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (68)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 167.82.64.120
-  servername: community.fastly.steamstatic.com
-  skip-cert-verify: true
-  sni: community.fastly.steamstatic.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn--mitivpn-mitivpn.ac.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (69)
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  skip-cert-verify: true
-  sni: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51690558-5717-4629-8c41-ea41533d84a2
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (70)
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: true
-  sni: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 916e4382-273b-4935-b0bc-ca7cc8eabea7
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (71)
-  network: ws
-  port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5334ebd8-9419-4847-9fc0-72ccf271a62e
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (72)
-  network: ws
-  port: 443
-  server: 47.251.95.178
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  ws-opts:
-    headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
-- name: 29|🇺🇸_美国 (73)
-  network: ws
-  port: 8080
-  server: 208.84.100.209
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  ws-opts:
-    path: /
-- name: 29|🇺🇸_美国 (74)
-  network: ws
-  port: 8880
-  server: 159.242.242.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime58.workers.dev
-    path: /
-- name: 29|🇺🇸_美国 (75)
-  network: ws
-  port: 30021
-  server: 128.241.25.72
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: true
-  sni: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: e1fdf5bd-7b6c-40ac-a153-4abd13e5a2a2
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
-- name: 29|🇺🇸_美国 (76)
-  network: ws
-  port: 443
-  server: 151.101.129.242
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd9e00aa-3581-42e4-a35c-56ae3a521159
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- client-fingerprint: firefox
-  name: 29|🇺🇸_美国 (77)
-  network: ws
-  port: 443
-  server: 151.101.65.242
-  servername: minimize-evenness.cdn-content.com
-  skip-cert-verify: true
-  sni: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7313aaa5-a2e0-4072-a699-34e73d68e288
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (78)
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: true
-  sni: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a9c57d75-a2d3-47f7-9fd5-020a8c918b93
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (79)
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  skip-cert-verify: true
-  sni: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 757a366b-f9fa-4372-814c-279cbef6bf22
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (80)
-  network: ws
-  port: 443
-  server: grimness-backlogs.cdn-content.com
-  servername: grimness-backlogs.cdn-content.com
-  skip-cert-verify: true
-  sni: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- name: 29|🇺🇸_美国 (81)
-  network: ws
-  port: 30021
-  server: 128.241.25.11
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: true
-  sni: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ceee53d-a467-4252-b8b4-59385035f8cf
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇺🇸_美国 (9)
-  port: 443
-  reality-opts:
-    public-key: mvgWVqCFiqMKlst2NpfN71iKmD1dFd2iTBEP929UozE
-    short-id: b91971fe98d55eb9
-  server: 43.153.90.117
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9dd6833-9121-41fc-badc-ecbab952f606
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
 - cipher: aes-256-cfb
   name: 33|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
-- name: 33,34|香港2|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 44837
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
 - name: 33,34|香港1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -10883,14 +11932,6 @@ proxies:
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 29628
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 33,34|韩国2|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 18572
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net

@@ -305,9 +305,67 @@ proxies:
     headers:
       Host: jmp1.907737.xyz
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇭🇰_香港
+  network: ws
+  port: 443
+  server: 43.161.253.137
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇭🇰_香港 (2)
+  network: ws
+  port: 443
+  server: 43.161.253.137
+  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  skip-cert-verify: true
+  sni: xy1ej.stream-node-us.danfeng.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港 (2) (2)
+  port: 31884
+  server: 152.175.6.229
+  servername: hk010.zestapp778.com
+  skip-cert-verify: true
+  sni: hk010.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港 (3) (2)
+  port: 31884
+  server: hk010.zestapp778.com
+  servername: hk010.zestapp778.com
+  skip-cert-verify: true
+  sni: hk010.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港
+  name: 29|🇭🇰_香港 (4)
   port: 443
   reality-opts:
     public-key: 81vXBnunsk7q3T5oHv7iuCiUibGLj9GS4jjJL00zRUE
@@ -320,25 +378,6 @@ proxies:
   type: vless
   udp: true
   uuid: 07fff28d-1ae9-493e-926e-8bf941c53782
-- client-fingerprint: firefox
-  name: 29|🇭🇰_香港 (3)
-  port: 31884
-  server: 152.175.6.229
-  servername: hk010.zestapp778.com
-  skip-cert-verify: true
-  sni: hk010.zestapp778.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 33,34|香港2|@ripaojiedian
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 44837
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
 - name: 33,34|香港1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3

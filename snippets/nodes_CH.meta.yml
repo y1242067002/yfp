@@ -54,20 +54,25 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- client-fingerprint: ios
+  name: 29|🇨🇭_瑞士 (7)
+  network: ws
   port: 443
-  server: 208.69.78.208
-  servername: resources.yourultimateprofessionalcareerhub.com
+  server: 195.141.65.98
+  servername: 148-253-210-191.sslip.io
   skip-cert-verify: true
-  sni: resources.yourultimateprofessionalcareerhub.com
+  sni: 148-253-210-191.sslip.io
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
 - alpn:
   - http/1.1
-  client-fingerprint: qq
+  client-fingerprint: firefox
   name: 29|🇨🇭_瑞士 (9)
   network: ws
   port: 443
@@ -83,60 +88,8 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
     path: /test-ws
-- client-fingerprint: safari
-  name: 29|🇨🇭_瑞士 (5)
-  network: ws
-  port: 443
-  server: 195.141.65.98
-  servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
-  sni: 148-253-210-191.sslip.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  ws-opts:
-    headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
 - client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  servername: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士 (4)
-  port: 443
-  reality-opts:
-    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
-  server: 138.124.39.251
-  servername: nl-modx-prime.storagedirectguide.com
-  skip-cert-verify: true
-  sni: nl-modx-prime.storagedirectguide.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (8)
+  name: 29|🇨🇭_瑞士 (10)
   network: ws
   port: 8443
   server: 83.228.193.188
@@ -151,3 +104,19 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
     path: /?ed=2048
+- client-fingerprint: chrome
+  name: 29|🇨🇭_瑞士 (2) (2)
+  network: ws
+  port: 8443
+  server: 83.228.193.188
+  servername: sdwf-amq.pages.dev
+  skip-cert-verify: true
+  sni: sdwf-amq.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  ws-opts:
+    headers:
+      Host: sdwf-amq.pages.dev
+    path: /
