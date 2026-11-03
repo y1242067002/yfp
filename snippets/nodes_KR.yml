@@ -1,17 +1,123 @@
 proxies:
-- name: 29|🇰🇷_韩国
-  network: ws
-  password: humanity
-  port: 8443
-  server: 141.164.34.161
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
+- client-fingerprint: chrome
+  name: 19|🇷KR_43|517KB/s|C002-260622 [e0...
+  network: tcp
+  password: dc9e33c7a6df4164
+  port: 20039
+  server: 168.110.119.243
+  skip-cert-verify: false
+  sni: ikr100a.zxom.eu.org
+  sub_tag: C002-260622
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇰🇷KR_27|285KB/s|A004-260618 [3...
+  network: none
+  packet-encoding: xudp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
+- client-fingerprint: chrome
+  name: 19|🇷KR_35|602KB/s|A004-260618 [a7...
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 48851
+  server: kr002.zestapp778.com
+  skip-cert-verify: true
+  sni: kr002.zestapp778.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  name: 19|🇷KR_40|220KB/s|M003-260806 [83...
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 48851
+  server: 158.247.255.150
+  skip-cert-verify: false
+  sni: kr002.zestapp778.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19|🇷KR_13|500KB/s|A004-260618 [90...
+  network: tcp
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sni: 154.90.62.70
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|🇷KR_30|82KB/s|B007-260618 [a09...
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 19|🇷KR_22|376KB/s|P002-260618 [dc...
+  network: ws
+  port: 443
+  server: seoul02.zgjok.com
+  servername: seoul02.zgjok.com
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
   ws-opts:
-    path: /assignment
+    headers:
+      Host: seoul02.zgjok.com
+    path: /
+- client-fingerprint: chrome
+  name: 19|🇷KR_5|289KB/s|A004-260618 [eec...
+  network: tcp
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 19|🇷KR_32|149KB/s|R002-260618 [f0...
+  network: http
+  port: 123
+  server: 43.108.103.167
+  sub_tag: R002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+- name: 19|🇷_KR_国_IPV4
+  password: 3637190e-4ce3-41cd-9425-f5676345b38c
+  port: 12308
+  server: 3.34.91.121
+  servername: kr02.ulifeai.com
+  skip-cert-verify: true
+  sni: kr02.ulifeai.com
+  tls: true
+  type: trojan
 - name: 33,34|韩国1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3

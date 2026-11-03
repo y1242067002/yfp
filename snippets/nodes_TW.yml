@@ -1,18 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 29|🇹🇼_台湾
+- alpn:
+  - http/1.1
+  name: 19|TW台湾(mibei77.com 米贝节点分享) (6)
   network: ws
-  port: 80
-  server: mdk.mdmekjll.best
-  servername: mdk.mdmekjll.best
-  skip-cert-verify: true
-  sni: mdk.mdmekjll.best
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  servername: www.pleadcourt.org
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
   ws-opts:
     headers:
-      Host: mdk.mdmekjll.best
-    path: /game/resources
+      Host: www.pleadcourt.org
+    path: /assignment
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 19|TW_38|606KB/s|R002-260618 [1f6...
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  sub_tag: R002-260618
+  type: trojan
+  udp: true
