@@ -125,18 +125,17 @@ proxies:
     path: /ws-vmess
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 19,29|🇹🇼_台湾
+  name: 19|🇸🇬SG_123|296KB/s|C002-260622 [...
   network: ws
   packet-encoding: xudp
   port: 80
   server: mdk.mdmekjll.best
   servername: mdk.mdmekjll.best
-  skip-cert-verify: true
-  sni: mdk.mdmekjll.best
+  skip-cert-verify: false
   sub_tag: C002-260622
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: 6E571484-4166-4699-8F58-B34A1823691F
@@ -204,14 +203,16 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇬SG_116|747KB/s|M003-260806 [f...
+  name: 19,29|🇸🇬_新加坡
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
+  servername: searchcreativejobsandshowcaseyourartistictalents.com
   skip-cert-verify: true
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -258,6 +259,26 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
+- name: 29|🇸🇬_新加坡 (3)
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 172.236.139.181
+  servername: api.85s.me
+  skip-cert-verify: true
+  sni: api.85s.me
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇸🇬_新加坡 (4)
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 172.104.161.198
+  servername: api.85s.me
+  skip-cert-verify: true
+  sni: api.85s.me
+  tls: true
+  type: trojan
+  udp: true
 - name: 33,34|新加坡1|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3

@@ -916,22 +916,6 @@ proxies:
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
   xudp: true
 - client-fingerprint: firefox
-  name: 29|🇬🇧_英国
-  network: ws
-  port: 443
-  server: 45.152.67.226
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
-  skip-cert-verify: true
-  sni: xy1ej.stream-node-us.danfeng.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
   name: 29|🇬🇧_英国 (2)
   network: ws
   port: 443
@@ -946,4 +930,124 @@ proxies:
   ws-opts:
     headers:
       Host: xy1ej.stream-node-us.danfeng.qzz.io
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (3)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  name: 29|🇬🇧_英国 (4)
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
+  ws-opts:
+    headers:
+      Host: c12.com
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (5)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (6)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 29|🇻🇬_英属维尔京群岛
+  network: ws
+  port: 8443
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  sni: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (7)
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国
+  port: 443
+  reality-opts:
+    public-key: A0QL_j-ReX7AotEj1w8qX9rHRgN2WycTZ43gUvuvZ00
+    short-id: 3cf8d11aa0415d29
+  server: 191.44.108.6
+  servername: c9.qwyak.ru
+  skip-cert-verify: true
+  sni: c9.qwyak.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
