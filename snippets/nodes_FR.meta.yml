@@ -352,11 +352,11 @@ proxies:
     headers:
       Host: old-violet-a5ce.29-440.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: 19|🇷FR法国丨yoyapai.com (9)
+- name: 19,29|🇺🇸_美国 (55)
   network: ws
   port: 8880
   server: 80.93.202.40
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -2487,7 +2487,8 @@ proxies:
       Host: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
     path: /api/ws
   xudp: true
-- name: 19|🇷FR_246|754KB/s|R002-260618 [2...
+- name: 19,35|🇷FR_3|1.1MB/s
+  password: ''
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -2495,6 +2496,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: ''
 - client-fingerprint: chrome
   name: 19|🇫🇷FR_54|1.2MB/s|K001-260618 [2...
   network: ws
@@ -2832,7 +2834,7 @@ proxies:
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /connect
   xudp: true
-- name: 19|🇷FR_27|6.8MB/s|R002-260618 [39...
+- name: 19,35|🇪DE_3|1.6MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -2899,19 +2901,20 @@ proxies:
     max-early-data: 2560
     path: /tr
 - client-fingerprint: chrome
-  name: 19,29|🇧🇬_保加利亚 (2)
+  name: 19|🇷FR_306|1.3MB/s|M003-260806 [3...
   network: ws
   password: humanity
   port: 443
   server: 193.239.160.134
-  servername: www.calmlunch.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 19|🇫🇷FR_142|945KB/s|M003-260806 [...
@@ -10174,6 +10177,38 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇷_法国 (3)
+  network: ws
+  port: 80
+  server: 54.37.131.126
+  servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  skip-cert-verify: true
+  sni: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 62.210.91.2
+  servername: fuck.rkn
+  skip-cert-verify: true
+  sni: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 33,34|🇫🇷FR01|@ripaojiedian
@@ -10334,3 +10369,25 @@ proxies:
   type: vless
   udp: true
   uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: 35|FR_1|1.1MB/s
+  password: dongtaiwang.com
+  port: 36699
+  server: 163.172.117.163
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- name: 35|🇷FR_2|1.8MB/s
+  password: None
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

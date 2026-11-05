@@ -39,21 +39,19 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 19|🇷KR_37|449KB/s|A004-260618 [2d...
+- name: 19,29|🇰🇷_韩国
   network: ws
   packet-encoding: xudp
   port: 25555
   server: 152.69.226.63
   servername: 152.69.226.63
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: vless
   udp: true
   uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
@@ -175,21 +173,28 @@ proxies:
   sni: kr02.ulifeai.com
   tls: true
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 29|🇰🇷_韩国
+- alterId: 0
+  cipher: auto
+  name: 29|🇰🇷_韩国 (2)
   network: ws
-  port: 443
-  server: 43.128.130.45
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  port: 80
+  server: 132.145.80.230
+  servername: 132.145.80.230
   skip-cert-verify: true
-  sni: xy1ej.stream-node-us.danfeng.qzz.io
-  tls: true
-  type: vless
+  sni: 132.145.80.230
+  tls: false
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   ws-opts:
     headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
+      Host: 132.145.80.230
+    path: /cctv13.m3u8
+- name: 35|🇷KR_1|1.9MB/s
+  password: ''
+  port: 1080
+  server: 144.24.94.153
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''

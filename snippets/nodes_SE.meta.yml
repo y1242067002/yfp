@@ -143,7 +143,7 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 19|🇸SE_2|619KB/s|P002-260618 [f50...
+- name: 19,35|🇪SE_3|1.9MB/s
   password: None
   port: 443
   server: 149.50.216.65
@@ -152,47 +152,32 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典 (3)
-  network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
-  skip-cert-verify: true
-  sni: n.tmkkarss.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 29|🇸🇪_瑞典
   port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  server: 89.125.37.1
-  servername: se.frgcdn.xyz
+  server: 194.104.94.141
+  servername: se3.shtil.io
   skip-cert-verify: true
-  sni: se.frgcdn.xyz
+  sni: se3.shtil.io
   tls: true
   type: vless
   udp: true
-  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (2)
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+- name: 35|🇪SE_1|1.6MB/s
   port: 443
-  reality-opts:
-    public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-    short-id: fb442438e2223836
-  server: 5.157.10.146
-  servername: sweb1.loozerp.wiki
+  server: 146.70.242.130
   skip-cert-verify: true
-  sni: sweb1.loozerp.wiki
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
+- name: 35|🇸🇪SE_2|1.0MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

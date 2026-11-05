@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,29|🇩🇪_德国 (12)
+  name: 19,29|🇩🇪_德国 (15)
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -15,14 +15,15 @@ proxies:
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19|🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4 (2)
+  name: 19,29|🇩🇪_德国 (16)
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 9.247.23.209
   servername: mother-earth.fyi
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: mother-earth.fyi
   tls: true
   type: vless
+  udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f

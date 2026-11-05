@@ -1,13 +1,13 @@
 proxies:
 - alpn:
   - http/1.1
-  client-fingerprint: ios
-  name: 19,29|🇨🇭_瑞士 (9)
+  client-fingerprint: qq
+  name: 19|瑞士(mibei77.com 米贝节点分享) (4)
   network: ws
   port: 443
   server: 195.141.65.98
   servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 148-253-210-191.sslip.io
   tls: true
   type: vless
@@ -17,13 +17,13 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
     path: /test-ws
-- client-fingerprint: safari
-  name: 19,29|🇨🇭_瑞士 (7)
+- client-fingerprint: ios
+  name: 19|🇩🇪DE德国丨yoyapai.com (2)
   network: ws
   port: 443
   server: 195.141.65.98
   servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 148-253-210-191.sslip.io
   tls: true
   type: vless
@@ -369,11 +369,11 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 19,29|🇩🇪_德国 (7)
+  name: 19|🇩🇪DE德国丨yoyapai.com (29)
   port: 20065
   server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
   servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
   tls: true
   type: vless
@@ -394,14 +394,14 @@ proxies:
   udp: true
   uuid: 5c331d12-f0b0-48d8-ba6e-ec945ef889ea
 - client-fingerprint: chrome
-  name: 19,29|🇷🇺_俄罗斯 (14)
+  name: 19|🇩🇪DE德国丨yoyapai.com (31)
   port: 25362
   reality-opts:
     public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
     short-id: 23732d14a527990d
   server: de15.h1cloud.net
   servername: www.chip.de
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.chip.de
   tls: true
   type: vless
@@ -586,12 +586,12 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 19,29|🇮🇹_意大利
+  name: 19|DE德国(mibei77.com 米贝节点分享) (11)
   network: ws
   port: 443
   server: 151.91.39.191
   servername: 148-253-210-191.sslip.io
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 148-253-210-191.sslip.io
   tls: true
   type: vless
@@ -957,14 +957,16 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇪DE_155|1.7MB/s|C002-260622 [3...
+  name: 19,29|🇩🇪_德国 (6)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.78
-  skip-cert-verify: false
+  servername: www.iloverussia2026.com
+  skip-cert-verify: true
   sni: www.iloverussia2026.com
   sub_tag: C002-260622
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -1300,14 +1302,16 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇪DE_154|3.0MB/s|C002-260622 [6...
+  name: 19,29|🇩🇪_德国 (9)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
-  skip-cert-verify: false
+  servername: courses.iloverussia2026.com
+  skip-cert-verify: true
   sni: courses.iloverussia2026.com
   sub_tag: C002-260622
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -1504,7 +1508,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇩🇪DE_78|740KB/s|R002-260618 [8...
+- name: 19,35|🇩🇪DE_2|1.1MB/s
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
@@ -1815,14 +1819,16 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 19|🇪DE_158|608KB/s|C002-260622 [a...
+  name: 19,29|🇩🇪_德国 (14)
   network: tcp
   password: Tg3RnK7Xp8B1
   port: 443
   server: 45.32.157.84
+  servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
   skip-cert-verify: true
   sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
   sub_tag: C002-260622
+  tls: true
   type: trojan
   udp: true
 - name: 19|🇪DE_77|4.0MB/s|P002-260618 [b8...
@@ -2108,14 +2114,16 @@ proxies:
     path: /@Marisa_kristi
   xudp: true
 - client-fingerprint: chrome
-  name: 19|🇩🇪DE_150|2.1MB/s|S004-260618 [...
+  name: 19,29|🇩🇪_德国 (11)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.96
-  skip-cert-verify: false
+  servername: learn.iloverussia2026.com
+  skip-cert-verify: true
   sni: learn.iloverussia2026.com
   sub_tag: S004-260618
+  tls: true
   type: trojan
   udp: true
 - name: 19|🇩🇪DE_17|2.7MB/s|R002-260618 [e...
@@ -2294,7 +2302,7 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19|🇩🇪DE_87|703KB/s|R002-260618 [f...
+- name: 19,35|🇩DE_4|1.6MB/s
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
@@ -2326,7 +2334,23 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (13)
+  name: 29|🇩🇪_德国 (17)
+  network: ws
+  port: 7443
+  server: 179.61.251.244
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  skip-cert-verify: true
+  sni: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63adda0f-3acd-47e4-a01e-39f2b7b8afc8
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国 (18)
   network: ws
   port: 7443
   server: 179.61.251.244
@@ -2341,173 +2365,155 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (14)
+- name: 29|🇩🇪_德国 (19)
   network: ws
-  port: 443
-  server: 13.140.28.46
-  servername: renderer-stream-2-62.mirra.now
+  port: 2053
+  server: rm3.rmastore.ir
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
+  tls: false
+  type: vless
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  uuid: 116e7d57-afcf-4558-be0a-01e80fe6cd31
   ws-opts:
     headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (15)
-  network: ws
+      Host: rm3.rmastore.ir
+    path: /nlrma
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国
   port: 443
-  server: 85.215.41.19
-  servername: renderer-stream-2-62.mirra.now
+  reality-opts:
+    public-key: cBTZdCBwrYTTarw6B_lu2TN1M6_Lku68FfWCQT9svhc
+    short-id: cb620aa2f04bce33
+  server: 193.23.218.107
+  servername: yandex.ru
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+  sni: yandex.ru
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (16)
-  network: ws
-  port: 443
-  server: 111.88.74.167
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (17)
-  network: ws
-  port: 443
-  server: 89.127.218.61
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (18)
-  network: ws
-  port: 443
-  server: 31.77.223.21
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
+  uuid: 6f433cf6-4221-48b2-ad29-01121952ef8a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国 (2)
-  port: 59397
-  reality-opts:
-    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
-    short-id: '1430'
-  server: 185.44.64.166
-  servername: la.blogs.nvidia.com
-  skip-cert-verify: true
-  sni: la.blogs.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (8)
-  port: 20065
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  skip-cert-verify: true
-  sni: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
-- name: 29|🇩🇪_德国 (6)
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 5.75.244.105
-  servername: api.85s.me
-  skip-cert-verify: true
-  sni: api.85s.me
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (9)
-  port: 443
-  reality-opts:
-    public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
-    short-id: 12a3b7681806bc97
-  server: 144.31.215.48
-  servername: eu-central-de2.hanvpn.biz
-  skip-cert-verify: true
-  sni: eu-central-de2.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (10)
-  port: 2083
-  reality-opts:
-    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
-    short-id: af04ff8094115e93
-  server: 178.105.61.61
-  servername: 178.105.61.61
-  skip-cert-verify: true
-  sni: 178.105.61.61
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (11)
-  port: 8445
+  port: 8444
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: 1a2b3c4d
-  server: 89.144.53.4
-  servername: videos.porsche.com
+  server: 5.230.219.109
+  servername: volkswagen.de
   skip-cert-verify: true
-  sni: videos.porsche.com
+  sni: volkswagen.de
   tls: true
   type: vless
   udp: true
   uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (3)
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (4)
+  port: 443
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+  server: 5.230.216.85
+  servername: files.porsche.com
+  skip-cert-verify: true
+  sni: files.porsche.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (5)
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 29|🇩🇪_德国 (7)
+  port: 9090
+  server: 46.224.117.34
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2cf72744-c75b-4314-bf97-3f4c2bef16be
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (8)
+  port: 38291
+  reality-opts:
+    public-key: PNT2xM-R4OpFcV-bVO1Fgdb_C8tuB32bGIznjy2YYzc
+    short-id: 55e00de72e977e65
+  server: 45.148.117.151
+  servername: reality.airvpn.su
+  skip-cert-verify: true
+  sni: reality.airvpn.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483079ae-79ba-48aa-9071-340b79117a22
+- name: 29|🇩🇪_德国 (10)
+  port: 844
+  server: bot.vudfaro.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (12)
+  port: 43086
+  reality-opts:
+    public-key: SRKTZm_KYvsD9ONd5VU54ABZxudjR65r5Uhxc-1lLko
+    short-id: 1c601fed
+  server: 77.90.2.130
+  servername: apple.com
+  skip-cert-verify: true
+  sni: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d782aa4c-9284-4a60-a9d9-f61412f8a2a4
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (13)
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.231
+  servername: yahoo.com
+  skip-cert-verify: true
+  sni: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 33,34|🇩🇪DE01|@ripaojiedian
@@ -2668,3 +2674,18 @@ proxies:
   type: vless
   udp: true
   uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- name: 35|🇪DE_1|2.2MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_5|1.1MB/s
+  password: ''
+  port: 60000
+  server: 95.31.48.157
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''
