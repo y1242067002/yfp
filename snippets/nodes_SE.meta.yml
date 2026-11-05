@@ -1,157 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 19|🇸SE瑞典丨yoyapai.com (2)
-  port: 443
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: afee962d
-  server: 91.242.228.29
-  servername: se1.mycloud1.org
-  skip-cert-verify: false
-  sni: se1.mycloud1.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: 19|SE_6|1.6MB/s|P002-260618 [63b0...
-  network: ws
-  packet-encoding: xudp
-  port: 14430
-  server: 5.178.109.174
-  servername: 5.178.109.174
-  sub_tag: P002-260618
-  tls: false
-  type: vless
-  udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    headers:
-      Host: 5.178.109.174
-    path: /vless
-  xudp: true
-- name: 19|🇪SE_8|840KB/s|R002-260618 [1e7...
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 19|SE_14|1.1MB/s|M003-260806 [433...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 70.34.207.14
-  skip-cert-verify: false
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 19|SE_3|263KB/s|A004-260618 [53e7...
-  network: ws
-  packet-encoding: xudp
-  port: 43788
-  server: 89.22.224.146
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: acc10ba5-a222-44b3-8a1a-4f247ffc6466
-  ws-opts:
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 19|SE_10|735KB/s|P002-260618 [862...
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 19|SE_1|2.7MB/s|R002-260618 [b12d...
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 19|🇪SE_16|1.8MB/s|K001-260618 [b2...
-  password: None
-  port: 443
-  server: 217.210.129.243
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 19|🇸SE_5|317KB/s|M003-260806 [c3a...
-  network: ws
-  packet-encoding: xudp
-  port: 43788
-  server: 89.22.224.146
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
-  ws-opts:
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 19|SE_7|432KB/s|P002-260618 [d0e4...
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 19|SE_4|1.6MB/s|F003-260618 [d98b...
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 103.71.23.244
-  servername: shin-ra.ccwu.cc
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
-  ws-opts:
-    headers:
-      Host: shin-ra.ccwu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 19,35|🇪SE_3|1.9MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -166,17 +13,30 @@ proxies:
   type: vless
   udp: true
   uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-- name: 35|🇪SE_1|1.6MB/s
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 35|SE_1|1.8MB/s
+  network: grpc
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+- name: 35|🇪SE_2|2.1MB/s
+  password: None
   port: 443
-  server: 146.70.242.130
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇸🇪SE_2|1.0MB/s
-  password: None
+- name: 35|🇪SE_3|1.2MB/s
   port: 443
-  server: 146.70.242.146
+  server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
