@@ -1,45 +1,465 @@
 proxies:
+- name: 19,22|🇪DE德国丨yoyapai.com (15)_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: '19,22|DE德国(mibei77.com 米贝节点分享) (6) #1'
+  network: ws
+  port: 2083
+  server: 104.21.0.1
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇺🇸US_34|600KB/s|M003-260806 [c...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.17.136.198
+  servername: vmess.lbw666.dpdns.org
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (6)
+  name: '19,22|🇪DE_38|3.2MB/s|A004-260618 [78... #1'
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇪DE_18|6.0MB/s|A004-260618 [09...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.20.147
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: '19,22|🇩🇪DE_100|591KB/s|M003-260806 [... #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.gptcloudai.com
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '19,22|🇩🇪DE_192|1.2MB/s|M003-260806 [... #1'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.156.121
+  servername: www.gptcloudai.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇪DE_4|7.7MB/s [2fcb59fe7abc]
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇩🇪_德国 (6)
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.78
   servername: www.iloverussia2026.com
   skip-cert-verify: true
   sni: www.iloverussia2026.com
+  sub_tag: S004-260618
   tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (9)
+  name: '19,22|🇪DE_110|239KB/s|A004-260618 [d... #1'
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: de-bots4.h1cloud.net
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇩🇪DE_49|77KB/s|B007-260618 [33...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇪DE_5|6.8MB/s|A004-260618 [3e8...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇪DE_131|1.5MB/s|M003-260806 [b...
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 51520
+  server: de001.zestapp778.com
+  skip-cert-verify: true
+  sni: de001.zestapp778.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇪DE_100|2.8MB/s|A004-260618 [e...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  skip-cert-verify: false
+  sni: blog.iloverussia2026.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇩🇪_德国 (9)
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   servername: courses.iloverussia2026.com
   skip-cert-verify: true
   sni: courses.iloverussia2026.com
+  sub_tag: S004-260618
   tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (11)
+  name: 19,22|🇩🇪DE_107|2.0MB/s|S004-260618 [...
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.96
-  servername: learn.iloverussia2026.com
-  skip-cert-verify: true
-  sni: learn.iloverussia2026.com
-  tls: true
+  server: 193.108.119.193
+  skip-cert-verify: false
+  sni: resources.iloverussia2026.com
+  sub_tag: S004-260618
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '19,22|🇩🇪DE_193|808KB/s|S004-260618 [... #1'
+  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
+  port: 8044
+  server: dns23.m3hrzd.ir
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇪DE_19|1.8MB/s|C001-260618 [ac...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  sub_tag: C001-260618
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 29|🇩🇪_德国 (14)
+  name: 19,22,29|🇩🇪_德国 (14)
+  network: tcp
   password: Tg3RnK7Xp8B1
   port: 443
   server: 45.32.157.84
   servername: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
   skip-cert-verify: true
   sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  sub_tag: C002-260622
   tls: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: '19,22|🇩🇪DE_159|379KB/s|M003-260806 [... #1'
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.mefuckthewall
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇩🇪DE_90|711KB/s|A004-260618 [b...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '19,22|🇩🇪DE_103|549KB/s|B007-260618 [... #1'
+  network: tcp
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '19,22|🇪DE_204|370KB/s|M003-260806 [d... #1'
+  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
+  port: 8044
+  server: 116.203.8.98
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇩🇪_德国 (11)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  servername: learn.iloverussia2026.com
+  skip-cert-verify: true
+  sni: learn.iloverussia2026.com
+  sub_tag: S004-260618
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '19,22|🇩🇪DE_203|2.9MB/s|B007-260618 [... #1'
+  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
+  port: 8044
+  server: dns8.m3hrzd.ir
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '19,22|🇪_DE_德国_IPV4 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.80.111.7
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 22|DE德国(mibei77.com 米贝节点分享) (8)_2
+  network: ws
+  port: 80
+  server: 104.21.7.133
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- cipher: aes-256-gcm
+  name: 22|🇪DE_153|5.1MB/s|M003-260806 [0...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.3
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_166|4.1MB/s|B007-260618 [1...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: true
+  sni: 193.108.119.78
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_152|2.6MB/s|M003-260806 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_162|873KB/s|C002-260622 [...
+  network: tcp
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#2@oneclickvpnkeys
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_150|4.0MB/s|M003-260806 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.117.84
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_158|879KB/s|M003-260806 [...
+  network: tcp
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#🍪2@oneclickvpnkeys
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇩🇪DE_148|2.6MB/s|M003-260806 [...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.116.98
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_154|4.6MB/s|M003-260806 [4...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.83
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_156|3.1MB/s|M003-260806 [6...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.76.233
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_149|4.1MB/s|M003-260806 [7...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.117.111
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_151|2.0MB/s|M003-260806 [8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.118.247
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_157|5.1MB/s|M003-260806 [b...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_146|901KB/s|S004-260618 [b...
+  password: c5PtLhylY5r3jJQ6XlzGiOdXeYYlhu-k
+  port: 3039
+  server: pg2.rmastore.ir
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇩🇪DE_10|508KB/s|A004-260618 [c...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_155|3.6MB/s|M003-260806 [c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.157.88.43
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇪DE_136|1.8MB/s|A001-260618 [f...
+  network: ws
+  packet-encoding: xudp
+  port: 8018
+  server: d2.anonix.cloud
+  skip-cert-verify: false
+  sub_tag: A001-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  ws-opts:
+    headers:
+      Host: shit.67133767.xyz
+    path: /websocket/transfer/gayporn
+  xudp: true
