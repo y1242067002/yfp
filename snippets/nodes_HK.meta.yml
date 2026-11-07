@@ -305,8 +305,8 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: chrome
-  name: 19,22,29|🇭🇰_香港 (2)
+- client-fingerprint: firefox
+  name: 19,22,29|🇭🇰_香港 (9) (2)
   port: 31884
   server: 152.175.6.229
   servername: hk010.zestapp778.com
@@ -983,44 +983,589 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港 (3)
-  port: 443
+  name: 29|🇭🇰_香港
+  port: 11107
   reality-opts:
-    public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
-    short-id: bee10b047804c637
-  server: hk1.japancase.site
-  servername: hk1.japancase.site
+    public-key: cIAvdh9g8o4OWaCs4yY1aKxz32F0N73O7kQpqp3oQHg
+    short-id: 9433bfa1
+  server: mo01.dw.sh-cloudflare.sbs
+  servername: cdn-dynmedia-1.microsoft.com
   skip-cert-verify: false
-  sni: hk1.japancase.site
+  sni: cdn-dynmedia-1.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  uuid: 792ba6a8-b887-42bd-9480-4eb19b0a9b2b
+- client-fingerprint: chrome
+  name: 29|🇭🇰_香港 (4)
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20086
+  server: sclass-c1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (5)
+  port: 443
+  reality-opts:
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: hkt.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港 (4)
+  name: 29|🇭🇰_香港 (6)
   port: 443
   reality-opts:
-    public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
-    short-id: bee10b047804c637
-  server: 85.155.149.190
-  servername: hk1.japancase.site
+    public-key: 1kU-7BwrAz4l6eBdU7LEQwVYKTZSQrfhLN4mdHcOemI
+  server: xg01.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: hk1.japancase.site
+  sni: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港 (5)
-  port: 22926
-  server: 154.37.223.105
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (7)
+  port: 443
+  reality-opts:
+    public-key: wgk-JFSGrLf902FMoj98Iv3EGAqwIpYZGA80NRbO10U
+  server: x-xg2.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 1a8f32ce-387e-44fc-dde9-acb04f7613a6
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (8)
+  port: 443
+  reality-opts:
+    public-key: OObEGglv3Vs6OU-0YKdxDUVUqtPH6yCEY0JzoVtsPyg
+  server: xg00.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (9)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.133
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (10)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.130
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (11)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.130
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (12)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.131
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (13)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.126
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (14)
+  port: 2053
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.126
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (15)
+  port: 2053
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.123
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (16)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.125
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (17)
+  port: 2053
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.125
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (18)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.132
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (19)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.134
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: becfc5d9-e92e-4069-9112-0df999262dbf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (20)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.125
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (21)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.134
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (22)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.133
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (23)
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.131
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (24)
+  port: 2053
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.131
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (25)
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 50.7.250.82
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90380811-67c9-4cd8-8cbb-2544c6d38979
+- name: 29|🇭🇰_香港 (26)
+  port: 31884
+  server: 152.175.6.229
+  servername: hk010.zestapp778.com
+  skip-cert-verify: false
+  sni: hk010.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 32dd0fc0-cf2d-42f0-8680-efc77042550c
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (27)
+  port: 443
+  reality-opts:
+    public-key: TF960L2RQcljFhnd6GKHRO82TGpefFLT25BY-KSuwxA
+    short-id: c8660f6e
+  server: aws-link1.lxyun.xyz
+  servername: fastcdn.hoyoverse.com
+  skip-cert-verify: false
+  sni: fastcdn.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (2) (2)
+  port: 443
+  reality-opts:
+    public-key: ypy2n5s98wb2NQfVnOG_nvyXk329g_PAZCTerKcMi28
+    short-id: 6afd82c0
+  server: aws-link2.lxyun.xyz
+  servername: fastcdn.hoyoverse.com
+  skip-cert-verify: false
+  sni: fastcdn.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (3) (2)
+  port: 443
+  reality-opts:
+    public-key: ux5T2jsYXnAMuf4eILTucbcX1xd1OwocOEkYetmUyAs
+    short-id: 3206e665
+  server: aws-link3.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  sni: www.lamer.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (4) (2)
+  port: 443
+  reality-opts:
+    public-key: wlh6mFICApoUIVqqQRBbS7o5X3sveqUJCRc54bH0XSg
+    short-id: a31b59fe
+  server: aws-link4.lxyun.xyz
+  servername: www.lamer.com.hk
+  skip-cert-verify: false
+  sni: www.lamer.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (5) (2)
+  port: 443
+  reality-opts:
+    public-key: HfZeg7YPEWJMQKBXctbNZBuBAk1CW98FoJ7AEyCEdQQ
+    short-id: a49232a7
+  server: aws-link5.lxyun.xyz
+  servername: fastcdn.hoyoverse.com
+  skip-cert-verify: false
+  sni: fastcdn.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇭🇰_香港 (6) (2)
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20061
+  server: krhtybay.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (7) (2)
+  password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+  port: 44370
+  server: hk-1.gsafevpnapi.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  sni: www.yahoo.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (10) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10202
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (11) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 21521
+  server: z-hk1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (12) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10302
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (13) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 21520
+  server: starlink-hkt1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (14) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 21520
+  server: starlink-hkt2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (15) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 21520
+  server: starlink-hkt3.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (16) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10003
+  server: z-hk1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (17) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10003
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (18) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10004
+  server: z-hk1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (19) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10004
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (20) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10005
+  server: z-hk1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (21) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10005
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (22) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10006
+  server: z-hk1.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇭🇰_香港 (23) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10006
+  server: z-hk2.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1123,11 +1668,3 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 35|HK_1|1.6MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

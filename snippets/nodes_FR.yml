@@ -416,19 +416,20 @@ proxies:
     max-early-data: 2560
     path: /tr
 - client-fingerprint: chrome
-  name: 19,29|🇧🇬_保加利亚
+  name: 19|🇷FR_306|1.3MB/s|M003-260806 [3...
   network: ws
   password: humanity
   port: 443
   server: 193.239.160.134
-  servername: www.calmlunch.com
   skip-cert-verify: false
   sni: www.calmlunch.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: 19|🇫🇷FR_142|945KB/s|M003-260806 [...
@@ -1152,6 +1153,16 @@ proxies:
   server: 23.162.152.22
   sub_tag: M003-260806
   type: ss
+  udp: true
+- name: 29|🇫🇷_法国 (3) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-fr.251313.xyz
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国

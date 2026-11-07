@@ -263,29 +263,25 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大 (9)
+  name: 19,22|🇦CA_38|1.3MB/s|A004-260618 [b1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.152
-  servername: learn.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   sni: learn.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大 (6)
+  name: 19,22|Other_19|900KB/s|T001-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.74
-  servername: api.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   sni: api.connectingpeoplewithgreatjobs.com
   sub_tag: T001-260618
-  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -345,16 +341,14 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大 (3)
+  name: 19,22|🇦CA_22|818KB/s|A004-260618 [33...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.48
-  servername: courses.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   sni: courses.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -393,16 +387,14 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大
+  name: 19,22|🇦CA_34|1022KB/s|M003-260806 [4...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.79
-  servername: blog.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   sni: blog.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -431,7 +423,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大 (7)
+  name: 19,22,29|🇨🇦_加拿大
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -444,16 +436,14 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇨🇦_加拿大 (5)
+  name: 19,22|🇨🇦CA_49|1.3MB/s|M003-260806 [b...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.89
-  servername: www.connectingpeoplewithgreatjobs.com
   skip-cert-verify: false
   sni: www.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -589,36 +579,16 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇦_加拿大 (2)
-  port: 18000
-  server: 134.195.196.211
+- name: 29|🇨🇦_加拿大 (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-ca.251313.xyz
+  servername: www.cloudflare.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇦_加拿大 (4)
-  port: 18000
-  server: 23.162.200.198
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇦_加拿大 (11)
-  port: 1270
-  server: 134.195.196.154
-  skip-cert-verify: false
+  sni: www.cloudflare.com
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大

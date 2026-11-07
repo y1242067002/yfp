@@ -479,7 +479,7 @@ proxies:
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,35|🇬🇧GB_2|3.2MB/s
+- name: 19,22|🇧GB_6|1.3MB/s|R002-260618 [63f...
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
@@ -1031,7 +1031,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22,35|GB_1|4.0MB/s
+- name: 22|🇧GB_28|688KB/s|P002-260618 [bf...
   password: None
   port: 443
   server: 84.17.50.193
@@ -1102,191 +1102,45 @@ proxies:
   tls: true
   type: http
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 29|🇬🇧_英国
-  network: ws
-  password: MiTiVPN
   port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
+  reality-opts:
+    public-key: ioAxuQJyUMKN1kx8ThkL_-4NEaFYN6TB5XhHqSEYXEM
+  server: yg.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: ssl.fastly.com
+  sni: s0.awsstatic.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 29|🇬🇧_英国 (2)
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (3)
-  network: ws
-  port: 31867
-  server: 129.151.64.169
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: false
-  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: adeb038d-f011-4733-b133-3791e76950f7
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (4)
   port: 443
   reality-opts:
-    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
-    short-id: 77a8c8c8
-  server: prime.jarbook.net
-  servername: prime.jarbook.net
+    public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
+    short-id: a8609be8
+  server: 62.164.143.252
+  servername: download-porter.hoyoverse.com
   skip-cert-verify: false
-  sni: prime.jarbook.net
+  sni: download-porter.hoyoverse.com
   tls: true
   type: vless
   udp: true
-  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2) (2)
-  port: 2053
-  reality-opts:
-    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
-    short-id: 4cc9dc65f7770115
-  server: 46.250.240.80
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- name: 29|🇬🇧_英国 (2) (2)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-uk.251313.xyz
   servername: www.cloudflare.com
   skip-cert-verify: false
   sni: www.cloudflare.com
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (3) (2)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.12
-  servername: /?TELEGRAM--MARAMBASHI--MARAMBASHI
-  skip-cert-verify: false
-  sni: /?TELEGRAM--MARAMBASHI--MARAMBASHI
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (4) (2)
-  port: 443
-  reality-opts:
-    public-key: tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338
-    short-id: 59d2296aa6320c76
-  server: 132.243.207.154
-  servername: get-37.topp-con.xyz
-  skip-cert-verify: false
-  sni: get-37.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (5)
-  port: 443
-  reality-opts:
-    public-key: nIXZmF729Mzn5hq8aWSxsv8wBDawVYmFNzwBytwYfm0
-    short-id: aafcd65859993991
-  server: 132.243.167.147
-  servername: ch1.japancase.site
-  skip-cert-verify: false
-  sni: ch1.japancase.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (6)
-  port: 8443
-  server: 51.38.71.147
-  servername: node-uk.connectsuite.org
-  skip-cert-verify: false
-  sni: node-uk.connectsuite.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (7)
-  port: 8080
-  reality-opts:
-    public-key: itUb_lVoLPqG2cGs6vxsOaOImohnpXucmiaDm6_6iyU
-    short-id: fe57
-  server: 57.129.138.142
-  servername: icloud.com
-  skip-cert-verify: false
-  sni: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6228ee5b-fe07-4ee5-8300-386cd004eb84
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (8)
-  port: 8443
-  server: node-uk.connectsuite.org
-  servername: node-uk.connectsuite.org
-  skip-cert-verify: false
-  sni: node-uk.connectsuite.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (9)
-  port: 443
-  reality-opts:
-    public-key: A0QL_j-ReX7AotEj1w8qX9rHRgN2WycTZ43gUvuvZ00
-    short-id: 3cf8d11aa0415d29
-  server: 191.44.108.6
-  servername: c9.qwyak.ru
-  skip-cert-verify: false
-  sni: c9.qwyak.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3
-- name: 35|🇧GB_3|2.4MB/s
-  password: ''
-  port: 8084
-  server: 81.85.4.216
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

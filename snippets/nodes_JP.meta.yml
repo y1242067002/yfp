@@ -122,7 +122,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: /GOrbEh
 - client-fingerprint: chrome
-  name: 19,22|JP丨yoyapai.com_2
+  name: 19,22,29|🇨🇳_中国 (12) (2)
   port: 58011
   server: us22.sofast.live
   skip-cert-verify: false
@@ -458,15 +458,13 @@ proxies:
     path: /tyxyws
   xudp: true
 - encryption: none
-  name: 19,22,29|🇯🇵_日本 (5)
+  name: 19,22|🇵JP_28|486KB/s|C002-260622 [4c...
   network: tcp
   packet-encoding: xudp
   port: 47878
   server: 152.69.195.67
   servername: 152.69.195.67
-  skip-cert-verify: false
   sub_tag: C002-260622
-  tls: false
   type: vless
   udp: true
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
@@ -1345,70 +1343,730 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: true
-- name: 29|日期：11-06
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|日期：11-07
+  port: 8443
+  reality-opts:
+    public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
+    short-id: 7da3ba09a037e956
+  server: 212.69.135.27
+  servername: uk-room05.filesnap.tech
   skip-cert-verify: false
-  sni: ru05.abvpn.ru
+  sni: uk-room05.filesnap.tech
   tls: true
   type: vless
   udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    path: /websocket
+  uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇯🇵_日本
-  port: 10583
+  port: 443
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  server: 3.114.220.22
-  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    public-key: n6PsqXLQPrE3HHEg3iD_s09gniWkyD_h0Dq5Q3mtV28
+  server: rb.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+  sni: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: 29|🇯🇵_日本 (2)
-  password: i99Cef
-  port: 27242
-  server: 45.32.57.242
-  servername: download.windowsupdate.com
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (2)
+  port: 16001
+  reality-opts:
+    public-key: CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8
+  server: x-rb1.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: download.windowsupdate.com
+  sni: s0.awsstatic.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇯🇵_日本 (3)
-  port: 26518
+  port: 443
   reality-opts:
-    public-key: 1fa6iCY7vhoQyKu91FeaK04FN-mr1qeHnrtdyLZ79mk
-    short-id: 6caead99
-  server: 156.246.88.125
-  servername: github.com
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: x-rb.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: github.com
+  sni: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: e01fcb68-3112-49da-b85d-dffb799cfc9b
-- flow: xtls-rprx-vision
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 29|🇯🇵_日本 (4)
   port: 443
-  server: 23.27.11.86
-  servername: jp.burmy.xyz
+  reality-opts:
+    public-key: boasPshryA8BDZa_GxZX8JRKJpBErbuH_lS6c9tvPCg
+  server: rb1.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: false
-  sni: jp.burmy.xyz
+  sni: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (5)
+  port: 443
+  reality-opts:
+    public-key: 5UyrbL7pqfhh7vgpyk5beDFZUK2uQWLqdvfgJBzu7Gg
+  server: x-rb6.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (6)
+  port: 443
+  reality-opts:
+    public-key: 5UyrbL7pqfhh7vgpyk5beDFZUK2uQWLqdvfgJBzu7Gg
+  server: x-rb7.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  sni: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
+- name: 29|🇯🇵_日本 (7)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50001
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (8)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50002
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (9)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50007
+  server: tnt2b.tntbooms.com
+  servername: mmbiz.qpic.cn
+  skip-cert-verify: false
+  sni: mmbiz.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (2) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50003
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (3) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50004
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (4) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50005
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (5) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50006
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (6) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50021
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (7) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50022
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (8) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50023
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (9) (2)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50024
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (10)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50011
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (11)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50012
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (12)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50013
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (13)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50032
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (14)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50033
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (15)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50034
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (16)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50031
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (17)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50001
+  server: tnt2b.tntbooms.com
+  servername: mmbiz.qpic.cn
+  skip-cert-verify: false
+  sni: mmbiz.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (18)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50041
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (19)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50042
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (20)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50043
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (21)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50051
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (22)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50052
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (23)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50055
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (24)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50053
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (25)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50056
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (26)
+  password: 9816e1ac-3aa2-39ff-be40-0a93ad9c7ee3
+  port: 50054
+  server: tnt2b.tntbooms.com
+  servername: mpvideo.qpic.cn
+  skip-cert-verify: false
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (27)
+  port: 443
+  reality-opts:
+    public-key: AYnt6YQxdEGfpWjo25H9ZvgPp_WxRbGWSkaptwTZJ3M
+    short-id: 131baaed
+  server: aws-link13.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  sni: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (28)
+  port: 443
+  reality-opts:
+    public-key: -nx1roqVG90gja9-412UcxR7tqdtdKqxuSHsSh03wm4
+    short-id: 93d482c0
+  server: aws-link14.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  sni: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (29)
+  port: 443
+  reality-opts:
+    public-key: p6pNXigacmPazS1t76m66ia0DcFgAxOshOiPgzVvNGs
+    short-id: '44099498'
+  server: aws-link19.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  sni: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (30)
+  port: 443
+  reality-opts:
+    public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o
+    short-id: 6314e825
+  server: aws-link20.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  sni: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (31)
+  port: 443
+  reality-opts:
+    public-key: dLmUAqcdy4Z7iucApd9zjOhkXTjl-xt_eHumShIYW0c
+    short-id: ba826a54
+  server: aws-link23.lxyun.xyz
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  sni: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
+- name: 29|🇯🇵_日本 (32)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (33)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp3.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (34)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp4.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (35)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp5.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (36)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp6.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (37)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp7.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (38)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 443
+  server: starlink-jp8.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (39)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10009
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (40)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10009
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (41)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10001
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (42)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10001
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (43)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10008
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (44)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10008
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (45)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10010
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (46)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10010
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (47)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10002
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (48)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10002
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (49)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10003
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (50)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10003
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (51)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10004
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (52)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10004
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (53)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10011
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (54)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10011
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (55)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10005
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (56)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10005
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (57)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10012
+  server: z-jp1.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇯🇵_日本 (58)
+  password: sI0wl1bvYlSXu2RsMSAtAIMM
+  port: 10012
+  server: z-jp2.1card.cc
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   name: 33|🇯🇵 日本｜08｜BGP
   network: ws
