@@ -1512,7 +1512,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22|🇩🇪DE_77|1.0MB/s|R002-260618 [8...
+- name: 19,22,35|🇪DE_6|2.9MB/s
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
@@ -1833,7 +1833,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- name: 19,22,35|🇪DE_3|3.6MB/s
+- name: 19,22|🇪DE_49|5.3MB/s|P002-260618 [b8...
   password: None
   port: 9002
   server: 158.173.154.2
@@ -1975,7 +1975,7 @@ proxies:
         (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19|🇪DE_31|844KB/s|R002-260618 [c9...
+- name: 19,35|🇪DE_5|3.0MB/s
   port: 443
   server: 87.249.132.97
   skip-cert-verify: true
@@ -2128,7 +2128,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 19,22,35|🇩🇪DE_5|2.1MB/s
+- name: 19,22|🇪DE_13|2.3MB/s|R002-260618 [ea...
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -2136,7 +2136,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,37|DK_speednode_0005
+- name: 19,22,35,37|DK_speednode_0005
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
@@ -2258,7 +2258,7 @@ proxies:
     max-early-data: 2560
     path: /019bcbad-3813-7cce-8786-3ac0e418f128
   xudp: true
-- name: 19,22,35,37|DE_speednode_0004
+- name: 19,22,37|DE_speednode_0004
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
@@ -2304,7 +2304,7 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,35|🇪DE_7|1.7MB/s
+- name: 19,22|🇩🇪DE_15|967KB/s|R002-260618 [f...
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
@@ -2849,7 +2849,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22,35|🇩🇪DE_6|1.5MB/s|R002-260618
+- name: 22|🇩🇪DE_47|1.5MB/s|R002-260618 [a...
   password: None
   port: 443
   server: 87.249.132.97
@@ -2990,7 +2990,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /api/v3/pulse
   xudp: true
-- name: 22|🇩🇪DE_79|1.0MB/s|R002-260618 [2...
+- name: 22,35|🇪DE_4|2.2MB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -3114,7 +3114,7 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 22,35|🇪DE_4|3.0MB/s
+- name: 22|🇩🇪DE_76|271KB/s|R002-260618 [b...
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
@@ -3537,3 +3537,21 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 01ad85319ae3
+  name: 35|DE_1|1.2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q
+    short-id: 051e90ed3d657158
+  server: 79.182.39.110
+  servername: ac3f32g.de18.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
+  xudp: true

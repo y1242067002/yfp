@@ -71,7 +71,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,22|🇨CH_41|218KB/s|R002-260618 [3a...
+- name: 19,22,35|🇭CH_2|4.1MB/s|R002-260618
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
@@ -199,7 +199,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22|🇨🇭CH_13|820KB/s|R002-260618 [2...
+- name: 22,35|🇭CH_1|2.3MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
@@ -281,10 +281,26 @@ proxies:
   type: vless
   udp: true
   uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-- name: 35|CH_1|4.4MB/s
+- name: 35|🇭CH_3|1.2MB/s
+  password: ''
+  port: 11480
+  server: 147.161.246.246
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇨🇭CH_4|2.6MB/s
   password: ''
   port: 10381
   server: 147.161.246.35
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''
+- name: 35|🇨🇭CH_5|2.0MB/s
+  password: ''
+  port: 11745
+  server: 147.161.246.246
   skip-cert-verify: true
   type: http
   udp: true

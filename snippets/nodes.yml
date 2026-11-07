@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹IT_15|3.8MB/s|A004-260618 [2...
+  name: 19,22,35|🇮🇹IT_2|1.1MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇹IT_14|3.4MB/s|B007-260618 [14...
+  name: 19,22,35|🇮🇹IT_3|1.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹IT_13|1.1MB/s|B007-260618 [4...
+  name: 19,22,35|IT_1|1.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
@@ -14403,20 +14403,21 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - down-cdn.dingtalk.com
+    method: GET
     path:
     - /QQqun-737805443
-  name: 22|🇺🇸US_694|786KB/s|M003-260806 [...
+  name: 22,35|US_1|2.8MB/s
   network: http
   packet-encoding: xudp
   port: 1288
   server: 107.175.76.215
-  skip-cert-verify: false
+  skip-cert-verify: true
   sub_tag: M003-260806
   tls: false
   type: vmess

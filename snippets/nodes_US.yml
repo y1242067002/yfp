@@ -3194,20 +3194,21 @@ proxies:
   xudp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
   http-opts:
     headers:
       Host:
       - down-cdn.dingtalk.com
+    method: GET
     path:
     - /QQqun-737805443
-  name: 22|🇺🇸US_694|786KB/s|M003-260806 [...
+  name: 22,35|US_1|2.8MB/s
   network: http
   packet-encoding: xudp
   port: 1288
   server: 107.175.76.215
-  skip-cert-verify: false
+  skip-cert-verify: true
   sub_tag: M003-260806
   tls: false
   type: vmess
