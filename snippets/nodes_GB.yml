@@ -1,4 +1,208 @@
 proxies:
+- client-fingerprint: chrome
+  name: 22,29|🇭🇰_香港 (5)
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20086
+  server: sclass-c1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|GB英国(mibei77.com 米贝节点分享) (4)
+  network: ws
+  port: 12007
+  server: yg2.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇬🇧GB_37|2.0MB/s|B007-260618 [0...
+  password: 6Gzfdmd2cvye1qyKoub9E7eWijMDR2lK
+  port: 1353
+  server: dns27.m3hrzd.ir
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_4|4.6MB/s|A004-260618 [07a...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇧GB_31|2.5MB/s|M003-260806 [2a...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 57.129.132.223
+  servername: 57.129.132.223
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    headers:
+      Host: 57.129.132.223
+    path: /vmess/
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇬🇧GB_32|2.2MB/s|B007-260618 [2...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 149.7.16.228
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇬🇧GB_11|4.1MB/s|A004-260618 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇬🇧GB_30|3.4MB/s|M003-260806 [3...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.201.129
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_17|6.6MB/s|A004-260618 [65...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.207.163
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇧GB_1|3.6MB/s|A004-260618 [70c...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇧GB_29|247KB/s|M003-260806 [7c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇬🇧GB_18|4.0MB/s|A004-260618 [7...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.142.161
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_9|3.4MB/s|A004-260618 [895...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_2|4.3MB/s [a1915d230d8e]
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇬🇧GB_32|3.6MB/s|M003-260806 [a...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_10|3.0MB/s|A004-260618 [b5...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇧GB_31|419KB/s|M003-260806 [cf...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 22|🇧GB_9|1018KB/s|C001-260618 [24...
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 29813
+  server: en001.zestapp778.com
+  skip-cert-verify: true
+  sni: en001.zestapp778.com
+  sub_tag: C001-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇧GB_14|1.3MB/s|M003-260806 [46...
+  password: jisq9cNwk2qofcBK4nYIgv7wB51sH2U1
+  port: 443
+  server: en.nekagsm.com
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇬🇧GB_35|491KB/s|M003-260806 [1...
+  password: jisq9cNwk2qofcBK4nYIgv7wB51sH2U1
+  port: 443
+  server: 167.104.223.242
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇧GB_24|3.3MB/s|A004-260618 [26...
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇧GB_12|851KB/s|A004-260618 [8e...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

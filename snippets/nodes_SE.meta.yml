@@ -1,1 +1,250 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|🇸SE瑞典丨yoyapai.com (2)
+  port: 443
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  skip-cert-verify: false
+  sni: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- client-fingerprint: chrome
+  name: 22,29|🇧🇿_伯利兹 (2)
+  network: ws
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  port: 443
+  server: 121.127.33.130
+  servername: likejennie.pages.dev
+  skip-cert-verify: false
+  sni: likejennie.pages.dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 22|🇸🇪SE_2|1.4MB/s|P002-260618 [63...
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+    path: /vless
+  xudp: true
+- name: 22|🇪SE_1|990KB/s|R002-260618 [1e7...
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|SE_5|1.1MB/s|R002-260618 [3e64...
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 22|SE_7|2.9MB/s|M003-260806 [4330...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 70.34.207.14
+  skip-cert-verify: false
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇪SE_15|2.2MB/s|B007-260618 [4f...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 138.199.55.230
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: 22|🇪SE_13|2.4MB/s|M003-260806 [50...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 194.104.94.141
+  servername: se3.shtil.io
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+  xudp: true
+- name: 22|🇪SE_1|502KB/s|R002-260618 [733...
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇪SE_16|2.3MB/s|B007-260618 [78...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: se3.shtil.io
+  servername: se3.shtil.io
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+  xudp: true
+- client-fingerprint: chrome
+  name: 22|SE_18|2.4MB/s|M003-260806 [962...
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 31.77.13.20
+  servername: se-sto.dontblockmepls.com
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae666618-738b-4b15-bbec-f0b00747d229
+  xhttp-opts:
+    host: se-sto.dontblockmepls.com
+    mode: auto
+    path: /sync/v2/push
+  xudp: true
+- name: 22|SE_2|746KB/s|R002-260618 [b12d...
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|SE_10|2.6MB/s|K001-260618 [b2e...
+  password: None
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 22|SE_14|1.2MB/s|M003-260806 [e01...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: se3.shtil.io
+  servername: se3.shtil.io
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇪SE_14|273KB/s|M003-260806 [ed...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 22|🇸🇪SE_6|1.2MB/s|R002-260618 [f5...
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 22|🇪SE_18|2.6MB/s|A001-260618 [76...
+  network: grpc
+  packet-encoding: xudp
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇸🇪SE_22|849KB/s|B007-260618 [8...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 62.93.166.184
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- name: 22|SE_11|836KB/s|P002-260618 [d0e...
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇸🇪SE_12|2.3MB/s|P002-260618 [e...
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  sub_tag: P002-260618
+  type: ss
+  udp: true
+- name: 22|🇸SE_9|1.0MB/s|P002-260618 [f50...
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
