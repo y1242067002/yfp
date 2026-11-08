@@ -1,19 +1,15 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 29|🇫🇷_法国
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.222
-  servername: www.apple.com
+  port: 2053
+  server: w.geogame.ir
+  servername: w.geogame.ir
   skip-cert-verify: false
-  sni: www.apple.com
+  sni: w.geogame.ir
   tls: true
   type: vless
   udp: true
-  uuid: 98a24806-141a-43d3-b094-bd66c4eb93b8
+  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
 - name: 29|🇫🇷_法国 (2)
   port: 2053
   server: w.geogame.ir
@@ -22,117 +18,6 @@ proxies:
   type: vless
   udp: true
   uuid: fbda2834-b1e7-4148-afb9-deda31036a30
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (3)
-  port: 443
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-fg.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  sni: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (4)
-  port: 443
-  reality-opts:
-    public-key: WVSxXflVqhlA-ZkZud3hP_fiN05CZhJWFjfN0liqIFM
-    short-id: fc19a7aa77517cf8
-  server: fr2.japancase.site
-  servername: fr2.japancase.site
-  skip-cert-verify: false
-  sni: fr2.japancase.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (5)
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.220
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32dd0fc0-cf2d-42f0-8680-efc77042550c
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (6)
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.219
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32dd0fc0-cf2d-42f0-8680-efc77042550c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (7)
-  port: 443
-  reality-opts:
-    public-key: y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0
-  server: netherlands.vpnserverhub.com
-  servername: yahoo.com
-  skip-cert-verify: false
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c09c751b-bc08-4827-a623-ec918a78ba33
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (8)
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.220
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (2) (2)
-  port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.219
-  servername: www.apple.com
-  skip-cert-verify: false
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
-- name: 29|🇫🇷_法国 (3) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-fr.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

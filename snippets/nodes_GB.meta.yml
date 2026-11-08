@@ -1,43 +1,20 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 29|🇬🇧_英国
-  port: 443
-  reality-opts:
-    public-key: ioAxuQJyUMKN1kx8ThkL_-4NEaFYN6TB5XhHqSEYXEM
-  server: yg.xueshan168.cc
-  servername: s0.awsstatic.com
+  network: ws
+  port: 31867
+  server: 129.151.64.169
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   skip-cert-verify: false
-  sni: s0.awsstatic.com
+  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   tls: true
   type: vless
   udp: true
-  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2)
-  port: 443
-  reality-opts:
-    public-key: a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg
-    short-id: a8609be8
-  server: 62.164.143.252
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  sni: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01103d4f-b621-4854-9ef3-943da31f234b
-- name: 29|🇬🇧_英国 (2) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-uk.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: adeb038d-f011-4733-b133-3791e76950f7
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

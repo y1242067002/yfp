@@ -1,7 +1,22 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士 (5)
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  server: 179.43.166.190
+  servername: perevodchiki.su
+  skip-cert-verify: false
+  sni: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士
+  name: 29|🇨🇭_瑞士 (8)
   port: 443
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
@@ -14,61 +29,21 @@ proxies:
   type: vless
   udp: true
   uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士 (2)
+  name: 29|🇨🇭_瑞士 (7)
   port: 443
   reality-opts:
-    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
-    short-id: 5037f0423dc4e4ff
-  server: pl3.japancase.site
-  servername: pl3.japancase.site
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  server: 46.19.138.214
+  servername: perevodchiki.su
   skip-cert-verify: false
-  sni: pl3.japancase.site
+  sni: perevodchiki.su
   tls: true
   type: vless
   udp: true
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.60
-  servername: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士 (4)
-  password: 32dd0fc0-cf2d-42f0-8680-efc77042550c
-  port: 443
-  server: 208.69.78.33
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 29|🇨🇭_瑞士 (5)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.33
-  servername: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-  sni: courses.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士 (2) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-ch.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa

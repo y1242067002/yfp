@@ -1,7 +1,37 @@
 proxies:
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国 (11)
+  network: ws
+  port: 7443
+  server: 179.61.251.244
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  skip-cert-verify: false
+  sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 635e8406-9253-4444-88a2-dad1f0826034
+  ws-opts:
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国 (7)
+  port: 2789
+  reality-opts:
+    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
+    short-id: 4e4aaad65cc07da8
+  server: s1-api.denmexa.ir
+  servername: tgju.org
+  skip-cert-verify: false
+  sni: tgju.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d14392a5-8fd5-4c19-be8e-3503e3cee9cf
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国
+  name: 29|🇩🇪_德国 (2)
   port: 443
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
@@ -16,7 +46,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (2)
+  name: 29|🇩🇪_德国 (3)
   port: 9889
   reality-opts:
     public-key: GPwEGfRBoztNbcAvfX4ojY9FJ1vaMD3v21tnIrN2xyE
@@ -28,83 +58,9 @@ proxies:
   type: vless
   udp: true
   uuid: 0dcefe19-a42a-4d57-96be-83dcbffd425f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (3)
-  port: 443
-  reality-opts:
-    public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
-    short-id: 12a3b7681806bc97
-  server: 144.31.215.48
-  servername: eu-central-de2.hanvpn.biz
-  skip-cert-verify: false
-  sni: eu-central-de2.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (4)
-  port: 2083
-  reality-opts:
-    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
-    short-id: af04ff8094115e93
-  server: 178.105.61.61
-  servername: 178.105.61.61
-  skip-cert-verify: false
-  sni: 178.105.61.61
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国 (5)
-  port: 443
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-dg.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  sni: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (6)
-  port: 8443
-  server: static.162.97.119.168.clients.your-server.de
-  servername: static.167.125.29.2.clients.your-server.de
-  skip-cert-verify: false
-  sni: static.167.125.29.2.clients.your-server.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb0876a9-bd89-4bb0-9539-8e7927b36d79
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (7)
-  port: 8443
-  server: static.216.7.245.188.clients.your-server.de
-  servername: static.216.7.245.188.clients.your-server.de
-  skip-cert-verify: false
-  sni: static.216.7.245.188.clients.your-server.de
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb0876a9-bd89-4bb0-9539-8e7927b36d79
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (8)
   port: 443
   reality-opts:
     public-key: P5RCcSo4SB1D5z7BnpIt9OUyjG650oX7DOg3_uEDqy4
@@ -117,666 +73,45 @@ proxies:
   type: vless
   udp: true
   uuid: 7af8ad56-33ce-4f3d-ad15-ef32a71d67f7
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (2) (2)
-  port: 59397
+  name: 29|🇩🇪_德国 (6)
+  port: 443
   reality-opts:
-    public-key: 7w6m1Z7wZk1KX7bBlCi50t_8T-HdC8aMizOcIyqcaS4
-    short-id: '1430'
-  server: 185.44.64.166
-  servername: la.blogs.nvidia.com
+    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
+  server: 176.100.37.154
+  servername: modx-au.bachidze.com
   skip-cert-verify: false
-  sni: la.blogs.nvidia.com
+  sni: modx-au.bachidze.com
   tls: true
   type: vless
   udp: true
-  uuid: ac36b6f8-d03d-46cb-808f-e655183fb76d
-- name: 29|🇩🇪_德国 (3) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-de1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (4) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-de2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (5) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-de3.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (6) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10139
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (7) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10139
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (8) (2)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10123
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (9)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10123
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (10)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10135
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (11)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10131
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (12)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10131
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (13)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10119
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (14)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10119
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (15)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10128
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (16)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10128
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (17)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10140
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (18)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10140
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (19)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10241
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (20)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10241
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (21)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10146
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (22)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10146
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (23)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10134
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (24)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10134
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (25)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10108
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (26)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10108
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (27)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10127
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (28)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10127
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (29)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10007
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (30)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10007
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (31)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10142
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (32)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10142
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (33)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10143
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (34)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10143
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (35)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10144
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (36)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10144
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (37)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10121
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (38)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10121
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (39)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10136
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (40)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10136
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (41)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10105
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (42)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10105
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (43)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10106
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (44)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10210
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (45)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10210
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (46)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10111
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (47)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10111
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (48)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10147
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (49)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10147
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (50)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10145
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (51)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10145
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (52)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10120
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (53)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10120
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (54)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10112
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (55)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10112
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (56)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10113
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (57)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10113
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (58)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10104
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (59)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10130
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (60)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10129
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (61)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10129
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (62)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10201
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (63)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10201
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (64)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10122
-  server: z-eu1.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (65)
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 10122
-  server: z-eu2.251313.xyz
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (66)
-  port: 23001
+  name: 29|🇩🇪_德国 (8)
+  port: 2789
   reality-opts:
-    public-key: PR2vLyYNOPNqYCxxasGL4KlbtM5AT6jv5G-E8i_O_3o
-    short-id: e50c1a3f0cfa337d
-  server: 3.71.71.31
-  servername: www.apple.com
+    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
+    short-id: 4e4aaad65cc07da8
+  server: s1-api.denmexa.ir
+  servername: tgju.org
   skip-cert-verify: false
-  sni: www.apple.com
+  sni: tgju.org
   tls: true
   type: vless
   udp: true
-  uuid: 22c5f7e4-d075-4725-85d1-a834f152397c
+  uuid: 804eafbf-e793-461e-bc2b-ac8bf9a12091
+- client-fingerprint: chrome
+  name: 29|🇩🇪_德国 (9)
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: false
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   name: 33|🇩🇪 德国｜06｜BGP
   network: ws
