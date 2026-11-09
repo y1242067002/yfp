@@ -353,7 +353,7 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 22,29|🇺🇸_美国 (24)
+- name: 22|🇷FR法国丨yoyapai.com (10)
   network: ws
   port: 8880
   server: 216.24.57.40
@@ -429,13 +429,13 @@ proxies:
     mode: auto
     path: /
 - client-fingerprint: chrome
-  name: 22,29|🇭🇰_香港 (3)
+  name: 22,29|🇭🇰_香港 (2)
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   sub_tag: P002-260618
   tls: true
@@ -2635,11 +2635,11 @@ proxies:
   udp: true
   uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
 - client-fingerprint: chrome
-  name: 29|🇫🇷_法国
+  name: 29|🇫🇷_法国 (2)
   port: 2053
   server: w.geogame.ir
   servername: w.geogame.ir
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: w.geogame.ir
   tls: true
   type: vless

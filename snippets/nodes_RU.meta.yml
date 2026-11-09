@@ -375,7 +375,7 @@ proxies:
   port: 443
   server: xsru2.freeddns.org
   servername: xsru2.freeddns.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: xsru2.freeddns.org
   tls: true
   type: vless
@@ -454,31 +454,47 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (4)
-  port: 7443
-  reality-opts:
-    public-key: KbjX7IJnVtwq2USeRmLgXzACOtFCiA5lnsXhIFOX3ho
-    short-id: a7eb8a4e
-  server: 147.45.104.86
-  servername: max.ru
-  skip-cert-verify: false
-  sni: max.ru
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯 (7)
+  network: ws
+  port: 443
+  server: 91.217.80.43
+  servername: abc.ilovezhenjiu.top
+  skip-cert-verify: true
+  sni: abc.ilovezhenjiu.top
   tls: true
   type: vless
   udp: true
-  uuid: af185070-7170-46a8-b1e9-d61a035f4691
+  uuid: 9cd907f7-0807-4f6b-a6ee-b89b340fd102
+  ws-opts:
+    headers:
+      Host: abc.ilovezhenjiu.top
+    path: /pxhrws
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯
+  port: 2083
+  reality-opts:
+    public-key: LSatvkYtdgq5oND_moM9NRW-ZDbdlTvyX9gzeF9r3W8
+    short-id: 1cfdb63f3b860379
+  server: 185.147.27.23
+  servername: frb1.hat.onl
+  skip-cert-verify: true
+  sni: frb1.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (2)
+  name: 29|🇷🇺_俄罗斯 (4)
   port: 443
   reality-opts:
     public-key: siD4oj2gdtLLEphV6fUXb8ueIc2WHVn7msOUhNGPf2o
     short-id: 8d03c10b6a874a9c
   server: 92.243.66.79
   servername: ru-mow.probe.geomyip.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: ru-mow.probe.geomyip.com
   tls: true
   type: vless
@@ -492,7 +508,7 @@ proxies:
     public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
   server: 72.56.38.83
   servername: absolute-disaster.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: absolute-disaster.org
   tls: true
   type: vless
@@ -501,18 +517,17 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯 (5)
-  port: 2058
+  port: 443
   reality-opts:
-    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
-    short-id: 937255313d6ce673
-  server: 62.109.1.5
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  sni: www.cloudflare.com
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+  server: 72.56.38.83
+  servername: absolute-disaster.org
+  skip-cert-verify: true
+  sni: absolute-disaster.org
   tls: true
   type: vless
   udp: true
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029

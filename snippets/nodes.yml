@@ -982,13 +982,13 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 22,29|🇧🇿_伯利兹 (2)
+- name: 22,29|🇧🇿_伯利兹
   network: ws
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
   server: 121.127.33.130
   servername: likejennie.pages.dev
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: likejennie.pages.dev
   tls: true
   type: trojan
@@ -1012,24 +1012,24 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /trsVu9Ualb1DOfGjpw
-- name: 22,29|🇭🇰_香港 (3)
+- name: 22,29|🇭🇰_香港 (2)
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   sub_tag: P002-260618
   tls: true
   type: trojan
   udp: true
-- name: 22,29|🇭🇰_香港 (5)
+- name: 22,29|🇭🇰_香港 (4)
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
   server: sclass-c1.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
@@ -1107,7 +1107,7 @@ proxies:
     path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
-  name: 22,29|🇺🇸_美国 (20)
+  name: 22|US美国(mibei77.com 米贝节点分享) (43)
   network: ws
   port: 443
   server: 162.159.128.17
@@ -1124,7 +1124,7 @@ proxies:
     path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
-  name: 22,29|🇺🇸_美国 (22)
+  name: 22|US美国(mibei77.com 米贝节点分享) (44)
   network: ws
   port: 443
   server: 162.159.128.17
@@ -3508,22 +3508,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '22,29|🇺🇸 美国 | USA #4-47593152_IPV4'
+  name: 22|🇺🇸US_544|538KB/s|S004-260618 [...
   network: ws
   packet-encoding: xudp
   port: 443
   server: 104.21.7.133
   servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  sni: vmess.lbw666.dpdns.org
   sub_tag: S004-260618
   tls: true
   type: vmess
   udp: true
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
     path: /ws
   xudp: true
 - name: 22|🇸US_269|1.2MB/s|M003-260806 [8...
@@ -4452,13 +4453,13 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,29|🇩🇪_德国 (9)
+- name: 22|🇺🇸_US_美国_IPV4 (2)_2
   network: tcp
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
   server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   sub_tag: M003-260806
   tls: true
@@ -7914,13 +7915,154 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 29|🇧🇿_伯利兹
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (47)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (48)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.7
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (49)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.7
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国 (50)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2087
+  server: 162.159.140.116
+  servername: 17941839736049.206352.xyz
+  skip-cert-verify: true
+  sni: 17941839736049.206352.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839738421.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国 (51)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839737677.168381.xyz
+  skip-cert-verify: true
+  sni: 17941839737677.168381.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839737614.168381.xyz
+    path: /tianboephth
+- name: 29|🇺🇸_美国 (52)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839735653.206355.xyz
+  skip-cert-verify: true
+  sni: 17941839735653.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839734313.206355.xyz
+    path: /videomuaawe
+- name: 29|🇺🇸_美国 (53)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2083
+  server: 162.159.140.116
+  servername: 17941839736875.206353.xyz
+  skip-cert-verify: true
+  sni: 17941839736875.206353.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839734560.206353.xyz
+    path: /agrbniuh
+- name: 29|🇺🇸_美国 (54)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839738999.206356.xyz
+  skip-cert-verify: true
+  sni: 17941839738999.206356.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839731884.206356.xyz
+    path: /dmusicmuaawe
+- name: 29|🇺🇸_美国 (59)
+  network: ws
+  password: c8703f5c-58df-4eab-82fe-dc39f108e8a2
+  port: 2053
+  server: 162.159.140.116
+  servername: 17940594652761.206355.xyz
+  skip-cert-verify: true
+  sni: 17940594652761.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17940594651760.206355.xyz
+    path: /videomuaawe
+- name: 29|🇧🇿_伯利兹 (2)
   network: ws
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
   server: 121.127.33.130
   servername: likejennie.pages.dev
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: likejennie.pages.dev
   tls: true
   type: trojan
@@ -7929,19 +8071,16 @@ proxies:
     headers:
       Host: likejennie.pages.dev
     path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇳_中国
-  network: ws
-  port: 10086
-  server: 120.48.133.162
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 29|🇦🇺_澳大利亚
+  password: Trojan@82164024
+  port: 443
+  server: au.tronsg.com
+  servername: au.tronsg.com
+  skip-cert-verify: true
+  sni: au.tronsg.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    path: /
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

@@ -305,8 +305,8 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: chrome
-  name: 22,29|🇭🇰_香港 (2)
+- client-fingerprint: firefox
+  name: 22|GB英国(mibei77.com 米贝节点分享) (2)
   port: 31884
   server: 152.175.6.229
   servername: hk010.zestapp778.com
@@ -413,21 +413,20 @@ proxies:
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - client-fingerprint: chrome
-  name: 29|🇭🇰_香港 (6)
-  network: ws
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港
   port: 443
-  server: 140.235.98.137
-  servername: hc35000.leyali.kdns.fr
-  skip-cert-verify: false
-  sni: hc35000.leyali.kdns.fr
+  reality-opts:
+    public-key: nf9eFC0yVVO-peA-wmZ1EEIwAaSstK2JN3tJV0WNJQE
+    short-id: 8c994df3c4e175a4
+  server: 43.161.193.181
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  sni: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: 369f76a6-77d1-4998-80bc-be485ce363bd
-  ws-opts:
-    headers:
-      Host: hc35000.leyali.kdns.fr
-    path: /hc35000
+  uuid: 280f4d33-69fb-4f0d-a4c3-fe0bf841009f
 - alpn:
   - http/1.1
   client-fingerprint: firefox

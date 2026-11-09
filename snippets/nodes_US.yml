@@ -153,7 +153,7 @@ proxies:
     path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
-  name: 22,29|🇺🇸_美国 (20)
+  name: 22|US美国(mibei77.com 米贝节点分享) (43)
   network: ws
   port: 443
   server: 162.159.128.17
@@ -170,7 +170,7 @@ proxies:
     path: /ryinsocksv2board
 - alterId: 0
   cipher: auto
-  name: 22,29|🇺🇸_美国 (22)
+  name: 22|US美国(mibei77.com 米贝节点分享) (44)
   network: ws
   port: 443
   server: 162.159.128.17
@@ -1355,22 +1355,23 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '22,29|🇺🇸 美国 | USA #4-47593152_IPV4'
+  name: 22|🇺🇸US_544|538KB/s|S004-260618 [...
   network: ws
   packet-encoding: xudp
   port: 443
   server: 104.21.7.133
   servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  sni: vmess.lbw666.dpdns.org
   sub_tag: S004-260618
   tls: true
   type: vmess
   udp: true
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
     path: /ws
   xudp: true
 - client-fingerprint: chrome
@@ -2924,6 +2925,150 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇺🇸_美国 (47)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇺🇸_美国 (48)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.7
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇺🇸_美国 (49)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 146.75.57.7
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  sni: cdn.akamai.steamstatic.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+    path: /---@MiTiVPN---@MiTiVPN
+- name: 29|🇺🇸_美国 (50)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2087
+  server: 162.159.140.116
+  servername: 17941839736049.206352.xyz
+  skip-cert-verify: true
+  sni: 17941839736049.206352.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839738421.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国 (51)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839737677.168381.xyz
+  skip-cert-verify: true
+  sni: 17941839737677.168381.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839737614.168381.xyz
+    path: /tianboephth
+- name: 29|🇺🇸_美国 (52)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839735653.206355.xyz
+  skip-cert-verify: true
+  sni: 17941839735653.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839734313.206355.xyz
+    path: /videomuaawe
+- name: 29|🇺🇸_美国 (53)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2083
+  server: 162.159.140.116
+  servername: 17941839736875.206353.xyz
+  skip-cert-verify: true
+  sni: 17941839736875.206353.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839734560.206353.xyz
+    path: /agrbniuh
+- name: 29|🇺🇸_美国 (54)
+  network: ws
+  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
+  port: 2053
+  server: 162.159.140.116
+  servername: 17941839738999.206356.xyz
+  skip-cert-verify: true
+  sni: 17941839738999.206356.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17941839731884.206356.xyz
+    path: /dmusicmuaawe
+- name: 29|🇺🇸_美国 (59)
+  network: ws
+  password: c8703f5c-58df-4eab-82fe-dc39f108e8a2
+  port: 2053
+  server: 162.159.140.116
+  servername: 17940594652761.206355.xyz
+  skip-cert-verify: true
+  sni: 17940594652761.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17940594651760.206355.xyz
+    path: /videomuaawe
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇺🇸 _US_美国_1
