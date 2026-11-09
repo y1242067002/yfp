@@ -1,20 +1,28 @@
 proxies:
-- client-fingerprint: chrome
-  name: 22,29|🇧🇿_伯利兹
-  network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇪SE_27|2.1MB/s|M003-260806 [05...
+  password: 2e555e46dbc421452416834962fd014f
+  port: 8388
+  server: 62.182.193.228
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '19,22|🇪SE_26|1.7MB/s|M003-260806 [1d... #1'
+  network: tcp
+  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
-  server: 121.127.33.130
-  servername: likejennie.pages.dev
-  skip-cert-verify: true
-  sni: likejennie.pages.dev
-  tls: true
+  server: 95.143.196.97
+  skip-cert-verify: false
+  sni: connect-se.mimowhat.online
+  sub_tag: M003-260806
   type: trojan
   udp: true
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
-  name: 22|SE_7|2.9MB/s|M003-260806 [4330...
+  name: '19,22|🇪SE_10|1.7MB/s|M003-260806 [43... #1'
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -27,7 +35,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇪SE_15|2.2MB/s|B007-260618 [4f...
+  name: '19,22|🇸🇪SE_19|2.3MB/s|B007-260618 [4... #1'
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -39,18 +47,10 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- cipher: aes-256-gcm
-  name: 22|🇪SE_14|273KB/s|M003-260806 [ed...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 138.199.55.243
-  sub_tag: M003-260806
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇸🇪SE_22|849KB/s|B007-260618 [8...
+  name: '19,22|🇪SE_25|2.5MB/s|B007-260618 [86... #1'
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -63,10 +63,18 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 22|🇸🇪SE_12|2.3MB/s|P002-260618 [e...
+  name: '19,22|🇸🇪SE_16|2.5MB/s|P002-260618 [e... #1'
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
   sub_tag: P002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇸🇪SE_17|1.6MB/s|M003-260806 [e... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
   type: ss
   udp: true

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 22|TW丨yoyapai.com
+  name: 19,22|TW丨yoyapai.com_2
   port: 443
   reality-opts:
     public-key: qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg
@@ -13,7 +13,7 @@ proxies:
   type: vless
   udp: true
   uuid: 31a40f42-4ad6-4a32-a760-71102b459584
-- name: 22|TW_19|159KB/s [909a8d192827]
+- name: '19,22|TW_35|74KB/s [909a8d192827] #1'
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -22,6 +22,20 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 22|TW_17|638KB/s|R002-260618 [1f6...
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  sub_tag: R002-260618
+  type: trojan
+  udp: true
 - name: 22|🇼TW_28|172KB/s|R002-260618 [a5...
   network: ws
   port: 443
@@ -37,20 +51,6 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 22|TW_17|638KB/s|R002-260618 [1f6...
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  sub_tag: R002-260618
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: db
   name: 22|🇼TW_29|672KB/s|R002-260618 [b7...
@@ -105,3 +105,20 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|TW_1|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 13239
+  reality-opts:
+    public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
+    short-id: 8591c4d31f59a60d
+  server: dddz-1-x.473221.xyz
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
+  xudp: true
