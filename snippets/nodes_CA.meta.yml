@@ -547,7 +547,7 @@ proxies:
   sub_tag: R002-260618
   type: http
   udp: true
-- name: 19,22,35|🇦CA_2|2.1MB/s
+- name: '19,22|🇨🇦CA_35|897KB/s|R002-260618 [7... #1'
   port: 443
   server: 206.223.161.47
   skip-cert-verify: true
@@ -637,7 +637,7 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- name: 19,22,35|CA_1|2.0MB/s
+- name: '19,22|🇨CA_33|440KB/s|R002-260618 [d7... #1'
   port: 9443
   server: 198.44.157.27
   skip-cert-verify: true
@@ -738,7 +738,7 @@ proxies:
   sub_tag: T001-260618
   type: trojan
   udp: true
-- name: 22|🇦CA_24|913KB/s|K001-260618 [16...
+- name: 22,35|CA_1|1.1MB/s
   password: None
   port: 9443
   server: 198.44.157.27
@@ -808,7 +808,7 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 22,35|🇨🇦CA_5|2.8MB/s
+- name: 22,35|🇨CA_4|1.9MB/s
   password: None
   port: 443
   server: 206.223.183.13
@@ -855,14 +855,7 @@ proxies:
   type: vless
   udp: true
   uuid: bdf3d066-cbbc-455d-b184-898344772dbe
-- name: 35|🇦CA_3|1.5MB/s
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇨CA_4|2.6MB/s
+- name: 35|🇨🇦CA_3|1.1MB/s
   password: None
   port: 9443
   server: 149.88.98.81
@@ -870,6 +863,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- encryption: none
+  name: 35|🇦CA_5|2.7MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8008
+  server: 5.53.124.191
+  servername: 5.53.124.191
+  type: vless
+  udp: true
+  uuid: b48e1596-e835-4547-bdae-31daadf9ea17
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大

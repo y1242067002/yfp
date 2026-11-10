@@ -264,12 +264,27 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,35|🇪SE_1|1.3MB/s
+- name: 22|🇸SE_9|1.0MB/s|P002-260618 [f50...
   password: None
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_1|1.3MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪SE_2|1.2MB/s
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true

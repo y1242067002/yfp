@@ -845,7 +845,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '19,22|🇩🇪DE_121|1.6MB/s|R002-260618 [... #1'
+- name: 19,22,35|🇩🇪DE_8|1.0MB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -1103,7 +1103,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,35|🇩🇪DE_6|3.0MB/s
+- name: '19,22|🇪DE_61|2.6MB/s|P002-260618 [3b... #1'
   password: None
   port: 443
   server: 193.233.75.115
@@ -1815,7 +1815,7 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- name: 19,22,35|🇪DE_4|2.8MB/s
+- name: 19,22,35|🇪DE_3|3.1MB/s
   password: None
   port: 443
   server: 87.106.223.158
@@ -2058,7 +2058,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇪DE_2|2.9MB/s
+- name: 19,22,35|🇩🇪DE_6|2.2MB/s
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
@@ -2278,7 +2278,7 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '19,22|🇪DE_13|6.1MB/s|R002-260618 [ea... #1'
+- name: 19,22,35|🇩🇪DE_7|3.2MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -2429,7 +2429,7 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,35|🇪DE_7|2.0MB/s
+- name: '19,22|🇩🇪DE_68|1.3MB/s|R002-260618 [f... #1'
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
@@ -2630,7 +2630,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22|🇪DE_62|1.5MB/s|R002-260618 [68...
+- name: 22,35|🇪DE_13|1.6MB/s
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
@@ -2663,7 +2663,7 @@ proxies:
         Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /vless/
   xudp: true
-- name: 22|🇪DE_29|1.3MB/s|R002-260618 [84...
+- name: 22,35|🇪DE_11|1.7MB/s
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
@@ -3036,69 +3036,20 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|DE_1|1.0MB/s
-  network: ws
-  packet-encoding: xudp
+- client-fingerprint: firefox
+  name: 35|DE_1|2.5MB/s
+  network: tcp
   port: 443
-  server: n2.topingr.ir
-  servername: riga.zovip2.ir
+  reality-opts:
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: e572b6579ea525d4
+  server: 79.182.39.109
+  servername: 71b840t.de7.h1clayd.click
   tls: true
   type: vless
   udp: true
-  uuid: d5748db0-0031-4b9e-b43c-6c3986a9b5ed
-  ws-opts:
-    headers:
-      Host: riga.zovip2.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /api/v3/pulse
-  xudp: true
-- name: 35|🇪DE_3|1.2MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_8|1.1MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: cf.090227.xyz
-  servername: 6f01ee42s71.kuback.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: 6f01ee42s71.kuback.top
-    path: /5c2362f82436fa224a67e22abb0a5e42
-    x-padding-bytes: 100-1000
-    x-padding-header: X-Cache-Key
-    x-padding-key: bust
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
-  xudp: true
-- name: 35|🇩🇪DE_9|3.2MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇪DE_10|3.5MB/s
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+- name: 35|🇩🇪DE_5|1.1MB/s
   password: 'null'
   port: 443
   server: 87.106.223.158
@@ -3107,3 +3058,10 @@ proxies:
   type: http
   udp: true
   username: 'null'
+- name: 35|🇪DE_9|2.2MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

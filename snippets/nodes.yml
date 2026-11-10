@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹_IT_意大利_IPV4_2
+  name: 19,22,35|🇮🇹IT_3|1.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|🇮🇹IT_3|2.4MB/s
+  name: 19,22|🇮🇹_IT_意大利_IPV4 (3)_2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|IT_1|1.2MB/s
+  name: '19,22|🇮🇹IT_16|2.7MB/s|B007-260618 [4... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇹IT_9|4.1MB/s|A004-260618 [0a7... #1'
+  name: 19,22,35|IT_1|1.8MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|🇮🇹IT_2|1.3MB/s
+  name: 19,22,35|🇮🇹IT_2|3.0MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -7048,7 +7048,7 @@ proxies:
   sni: kr02.ulifeai.com
   tls: true
   type: trojan
-- name: 19,22|🇺🇸_US_美国_IPV4 (2)_2
+- name: 19,22,35|🇩🇪DE_2|1.6MB/s
   network: tcp
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
@@ -8129,20 +8129,24 @@ proxies:
       Host: 17940594651760.206355.xyz
     path: /videomuaawe
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 35|MX_1|3.8MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 32153
-  server: 38.60.224.173
+  - http/1.1
+  client-fingerprint: unsafe
+  name: 35|🇳🇱NL_13|2.2MB/s
+  network: ws
+  password: Nd2bFutZK2ma29bYqC@z
+  port: 443
+  server: 188.114.98.0
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: 4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev
+  type: trojan
   udp: true
-  uuid: 5cf1f470-3f70-4589-a2a4-4657ea3a1edf
-  xudp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

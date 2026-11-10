@@ -539,7 +539,7 @@ proxies:
         like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,35|🇸SG_1|1.7MB/s
+- name: '19,22|🇬SG_2|419KB/s [61dec4b6ad88] #1'
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -762,15 +762,12 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19,22,35|🇸🇬SG_2|2.2MB/s
-  password: ''
+- name: '19,22|🇬SG_80|273KB/s|R002-260618 [98... #1'
   port: 9090
   server: 104.248.151.93
-  skip-cert-verify: true
   sub_tag: R002-260618
   type: http
   udp: true
-  username: ''
 - alterId: '0'
   cipher: auto
   name: '19,22|🇸🇬SG_1|998KB/s|C002-260622 [9a... #1'
@@ -1525,3 +1522,22 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|SG_1|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: cf.090227.xyz
+  servername: liusuyan.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
+  ws-opts:
+    headers:
+      Host: liusuyan.cc.cd
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+  xudp: true
