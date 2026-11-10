@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22|🇸SE瑞典丨yoyapai.com (2)_2
+  name: 19,22|🇸SE瑞典丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
@@ -15,14 +15,14 @@ proxies:
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
 - cipher: chacha20-ietf-poly1305
-  name: 19,22|🇪SE_27|2.1MB/s|M003-260806 [05...
+  name: 19,22|SE_18|3.7MB/s|M003-260806 [054...
   password: 2e555e46dbc421452416834962fd014f
   port: 8388
   server: 62.182.193.228
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: '19,22|🇸SE_4|2.1MB/s|P002-260618 [63b... #1'
+- name: 19,22|🇸SE_3|2.1MB/s|P002-260618 [63b...
   network: ws
   packet-encoding: xudp
   port: 14430
@@ -42,7 +42,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '19,22|🇪SE_26|1.7MB/s|M003-260806 [1d... #1'
+  name: 19,22|🇸SE_17|1.2MB/s|M003-260806 [1d...
   network: tcp
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
@@ -54,7 +54,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '19,22|🇸SE_18|590KB/s|M002-260618 [30... #1'
+  name: 19,22|🇪SE_13|748KB/s|M002-260618 [30...
   network: ws
   packet-encoding: xudp
   port: 43788
@@ -110,7 +110,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '19,22|🇪SE_15|2.3MB/s|M003-260806 [50... #1'
+  name: 19,22|SE_8|2.4MB/s|M003-260806 [50d7...
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -152,7 +152,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-  name: '19,22|🇸SE_22|2.5MB/s|A001-260618 [76... #1'
+  name: 19,22|SE_16|1.5MB/s|A001-260618 [761...
   network: grpc
   packet-encoding: xudp
   port: 48115
@@ -166,7 +166,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '19,22|🇪SE_20|584KB/s|B007-260618 [78... #1'
+  name: 19,22|🇪SE_14|2.4MB/s|B007-260618 [78...
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -202,7 +202,7 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: '19,22|SE_1|2.2MB/s|R002-260618 [b12d... #1'
+- name: 19,22|🇸SE_1|2.3MB/s|R002-260618 [b12...
   port: 443
   server: 217.210.129.243
   skip-cert-verify: true
@@ -210,7 +210,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '19,22|🇪SE_12|1.9MB/s|K001-260618 [b2... #1'
+- name: 19,22|🇪SE_7|2.1MB/s|K001-260618 [b2e...
   password: None
   port: 443
   server: 217.210.129.243
@@ -230,7 +230,7 @@ proxies:
   type: http
   udp: true
 - encryption: none
-  name: '19,22|🇸🇪SE_3|1.2MB/s|F003-260618 [d9... #1'
+  name: 19,22|SE_12|1.8MB/s|F003-260618 [d98...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -249,7 +249,7 @@ proxies:
     path: /
   xudp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇸🇪SE_16|2.5MB/s|P002-260618 [e... #1'
+  name: 19,22|🇸🇪SE_10|1.4MB/s|P002-260618 [e...
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
@@ -264,12 +264,66 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22|🇸SE_9|1.0MB/s|P002-260618 [f50...
+- name: 22|🇸SE_4|1.3MB/s|P002-260618 [f50...
   password: None
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|🇸🇪SE_5|704KB/s|P002-260618 [30...
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇪SE_11|900KB/s|M003-260806 [c3...
+  network: ws
+  packet-encoding: xudp
+  port: 43788
+  server: 89.22.224.146
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
+  ws-opts:
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 22|🇪SE_9|2.1MB/s|M003-260806 [e01...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: se3.shtil.io
+  servername: se3.shtil.io
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+  xudp: true
+- name: 22|🇪SE_2|1.4MB/s|R002-260618 [f52...
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
