@@ -353,11 +353,11 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-- name: 19,22|🇷FR法国丨yoyapai.com (10)_2
+- name: 19,22,29|电报群：t.me/vvkj11
   network: ws
   port: 8880
   server: 216.24.57.40
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -385,11 +385,11 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '19,22|FR法国(mibei77.com 米贝节点分享) (2) #1'
+  name: 19,22,29|🇫🇷_法国 (2)
   port: 2053
   server: w.geogame.ir
   servername: w.geogame.ir
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: w.geogame.ir
   tls: true
   type: vless
@@ -408,7 +408,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,29|🇫🇷_法国 (2)
+  name: 19,29|🇫🇷_法国 (4)
   port: 2053
   server: w.geogame.ir
   servername: w.geogame.ir
@@ -973,7 +973,7 @@ proxies:
         Gecko) Chrome/32.0.1700.107 Safari/537.36
     path: /pulse
   xudp: true
-- name: 19,22,35|🇩🇪DE_12|2.2MB/s
+- name: '19,22|🇷FR_17|5.7MB/s|R002-260618 [39... #1'
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -1923,7 +1923,7 @@ proxies:
         (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 19,22,35|🇪DE_4|1.0MB/s
+- name: '19,22|🇷FR_65|257KB/s|P002-260618 [83... #1'
   password: None
   port: 443
   server: 172.64.68.89
@@ -2364,7 +2364,7 @@ proxies:
         Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /%2F
   xudp: true
-- name: 19,22,35|🇪DE_10|1.4MB/s
+- name: '19,22|🇫🇷FR_18|2.2MB/s|R002-260618 [a... #1'
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -3126,7 +3126,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇷FR_6|3.1MB/s
+- name: '19,22|🇷FR_3|512KB/s|R002-260618 [df3... #1'
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
@@ -3179,7 +3179,7 @@ proxies:
         Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /aioproxybot/94.23.144.99-2053
   xudp: true
-- name: 19,22,35|🇷FR_3|1.6MB/s
+- name: '19,22|🇫🇷FR_26|1.6MB/s|R002-260618 [e... #1'
   port: 9443
   server: 138.199.47.247
   skip-cert-verify: true
@@ -3500,7 +3500,7 @@ proxies:
         Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /m/club/seasons
   xudp: true
-- name: 19,22,35|🇷FR_4|2.7MB/s
+- name: '19,22|🇫🇷FR_142|719KB/s|K001-260618 [... #1'
   password: None
   port: 9443
   server: 213.139.9.142
@@ -4161,7 +4161,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /
   xudp: true
-- name: 22,35|🇷FR_5|1.1MB/s
+- name: 22|🇫🇷FR_19|756KB/s|R002-260618 [b...
   port: 443
   server: 84.235.228.156
   skip-cert-verify: true
@@ -4202,34 +4202,32 @@ proxies:
   type: vless
   udp: true
   uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 35|FR_1|1.7MB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.28.175
+- name: 29|🇫🇷_法国 (5)
+  network: ws
+  password: humanity
+  port: 443
+  server: 207.180.209.128
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 35|🇷FR_2|1.9MB/s
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.28.175
-  servername: bing.com
+  ws-opts:
+    path: /assignment
+- name: 29|🇫🇷_法国 (6)
+  network: ws
+  password: humanity
+  port: 443
+  server: 169.58.44.174
+  servername: www.cordweave.com
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
   udp: true
-  up: '11'
+  ws-opts:
+    path: /assignment
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

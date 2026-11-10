@@ -481,12 +481,12 @@ proxies:
   udp: true
   uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
 - client-fingerprint: chrome
-  name: 19,22,29|🇩🇪_德国 (15)
+  name: '19,22|DE德国(mibei77.com 米贝节点分享) (3) #1'
   network: ws
   port: 7443
   server: 179.61.251.244
   servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
   tls: true
   type: vless
@@ -611,20 +611,20 @@ proxies:
   uuid: d14392a5-8fd5-4c19-be8e-3503e3cee9cf
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,29|🇩🇪_德国 (6)
+  name: 19|DE德国(mibei77.com 米贝节点分享) (12)
   port: 443
   reality-opts:
     public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
   server: 176.100.37.154
   servername: modx-au.bachidze.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: modx-au.bachidze.com
   tls: true
   type: vless
   udp: true
   uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
 - client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (16)
+  name: 19,29|🇩🇪_德国 (20)
   network: ws
   port: 4443
   server: 178.105.133.160
@@ -845,7 +845,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇩🇪DE_8|1.0MB/s
+- name: '19,22|🇩🇪DE_121|1.6MB/s|R002-260618 [... #1'
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
@@ -1815,7 +1815,7 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- name: 19,22,35|🇪DE_3|3.1MB/s
+- name: '19,22|🇪DE_60|3.6MB/s|P002-260618 [a0... #1'
   password: None
   port: 443
   server: 87.106.223.158
@@ -2058,7 +2058,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇩🇪DE_6|2.2MB/s
+- name: '19,22|🇩🇪DE_147|1.4MB/s|R002-260618 [... #1'
   port: 9443
   server: 79.127.156.177
   skip-cert-verify: true
@@ -2278,7 +2278,7 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 19,22,35|🇩🇪DE_7|3.2MB/s
+- name: '19,22|🇪DE_13|6.1MB/s|R002-260618 [ea... #1'
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -2630,7 +2630,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22,35|🇪DE_13|1.6MB/s
+- name: 22|🇪DE_62|1.5MB/s|R002-260618 [68...
   port: 9443
   server: 213.177.229.161
   skip-cert-verify: true
@@ -2663,7 +2663,7 @@ proxies:
         Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /vless/
   xudp: true
-- name: 22,35|🇪DE_11|1.7MB/s
+- name: 22|🇪DE_29|1.3MB/s|R002-260618 [84...
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
@@ -2860,23 +2860,176 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (13)
+  network: ws
+  port: 443
+  server: 13.140.28.46
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
   name: 29|🇩🇪_德国 (14)
   network: ws
   port: 443
-  server: 64.226.96.188
-  servername: cat.ilovezhenjiu.top
+  server: 85.215.41.19
+  servername: renderer-stream-2-62.mirra.now
   skip-cert-verify: true
-  sni: cat.ilovezhenjiu.top
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (15)
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (16)
+  network: ws
+  port: 443
+  server: 89.127.218.61
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (17)
+  network: ws
+  port: 443
+  server: 31.77.223.21
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇩🇪_德国 (19)
+  network: ws
+  port: 443
+  server: 150.241.68.208
+  servername: cf13.rumedia-cdn.com
+  skip-cert-verify: true
+  sni: cf13.rumedia-cdn.com
   tls: true
   type: vless
   udp: true
-  uuid: affb10d4-3835-4b1f-b5a3-3481489911b6
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   ws-opts:
     headers:
-      Host: cat.ilovezhenjiu.top
-    path: /cgciws
-- name: 29|🇩🇪_德国
+      Host: cf13.rumedia-cdn.com
+    path: /cdn/v3/live
+- name: 29|🇩🇪_德国 (21)
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.61.198.53
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (22)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (23)
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.165.236.229
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (24)
+  network: ws
+  password: humanity
+  port: 443
+  server: 144.31.120.77
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (5)
+  port: 443
+  reality-opts:
+    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
+  server: modx-au.bachidze.com
+  servername: modx-au.bachidze.com
+  skip-cert-verify: true
+  sni: modx-au.bachidze.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
+- name: 29|🇩🇪_德国 (6)
   port: 443
   reality-opts:
     public-key: ca6zu1GzzE4DotOlZz_eC4_ecunFZjmH82NA632obBc
@@ -2891,67 +3044,7 @@ proxies:
   uuid: b71ae017-e2f6-439f-a9a3-0b0af5f067c5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (2)
-  port: 443
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.156.125
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcba1350-17de-47e6-ac73-4af9b41f600c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (3)
-  port: 443
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.156.122
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcba1350-17de-47e6-ac73-4af9b41f600c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (4)
-  port: 2083
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.156.125
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcba1350-17de-47e6-ac73-4af9b41f600c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (5)
-  port: 443
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.156.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcba1350-17de-47e6-ac73-4af9b41f600c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (9)
+  name: 29|🇩🇪_德国 (7)
   port: 443
   reality-opts:
     public-key: 5rF9gThFLwVXRoVF8CQXcZbNXACv3SR4ob0TVyfbCWI
@@ -2964,33 +3057,44 @@ proxies:
   type: vless
   udp: true
   uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+- name: 29|🇩🇪_德国 (8)
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 29|🇩🇪_德国 (9)
+  port: 443
+  reality-opts:
+    public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
+    short-id: 12a3b7681806bc97
+  server: 144.31.215.48
+  servername: eu-central-de2.hanvpn.biz
+  skip-cert-verify: true
+  sni: eu-central-de2.hanvpn.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇩🇪_德国 (10)
-  port: 443
+  port: 2083
   reality-opts:
-    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
-  server: modx-au.bachidze.com
-  servername: modx-au.bachidze.com
+    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
+    short-id: af04ff8094115e93
+  server: 178.105.61.61
+  servername: 178.105.61.61
   skip-cert-verify: true
-  sni: modx-au.bachidze.com
+  sni: 178.105.61.61
   tls: true
   type: vless
   udp: true
-  uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
-- flow: xtls-rprx-vision
-  name: 29|🇩🇪_德国 (11)
-  port: 443
-  reality-opts:
-    public-key: lY9sPrXzj3Dlsj6JTP5UolK1RmIAlstuAy3dBJ97ag0
-  server: gembeforeshoping.space
-  servername: gembeforeshoping.space
-  skip-cert-verify: true
-  sni: gembeforeshoping.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
 - client-fingerprint: firefox
   name: 33|🇩🇪 德国｜06｜BGP
   network: ws
@@ -3036,32 +3140,3 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- client-fingerprint: firefox
-  name: 35|DE_1|2.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: e572b6579ea525d4
-  server: 79.182.39.109
-  servername: 71b840t.de7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
-- name: 35|🇩🇪DE_5|1.1MB/s
-  password: 'null'
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇪DE_9|2.2MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

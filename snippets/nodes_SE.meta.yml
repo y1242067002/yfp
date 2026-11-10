@@ -273,18 +273,56 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 35|🇪SE_1|1.3MB/s
-  password: None
-  port: 443
-  server: 146.70.242.146
+- client-fingerprint: chrome
+  name: 29|🇸🇪_瑞典
+  network: ws
+  port: 8443
+  server: 167.104.104.138
+  servername: n.tmkkarss.online
   skip-cert-verify: true
+  sni: n.tmkkarss.online
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 35|🇪SE_2|1.2MB/s
-  port: 443
-  server: 79.142.77.63
+  uuid: a5194487-9b9a-462f-a047-ac7580d80201
+  ws-opts:
+    path: /
+- name: 29|🇸🇪_瑞典 (2)
+  network: ws
+  password: humanity
+  port: 2053
+  server: 83.147.254.59
+  servername: www.cordweave.com
   skip-cert-verify: true
+  sni: www.cordweave.com
   tls: true
-  type: http
+  type: trojan
   udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇪_瑞典 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 77.221.139.114
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇪_瑞典 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.165.34.40
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment

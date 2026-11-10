@@ -46,7 +46,7 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,29|🇨🇭_瑞士 (7)
+  name: 19,29|🇨🇭_瑞士 (6)
   port: 443
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
@@ -78,7 +78,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇭CH_3|1.9MB/s
+- name: '19,22|🇨CH_60|673KB/s [2579f7044e34] #1'
   password: ''
   port: 9443
   server: 149.88.27.46
@@ -262,9 +262,22 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- name: 29|🇨🇭_瑞士 (10)
+  network: ws
+  password: humanity
+  port: 443
+  server: 83.228.199.3
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士 (6)
+  name: 29|🇨🇭_瑞士 (8)
   port: 443
   reality-opts:
     public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
@@ -273,35 +286,6 @@ proxies:
   servername: perevodchiki.su
   skip-cert-verify: true
   sni: perevodchiki.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 35|CH_1|1.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  server: prvtch.titun.su
-  servername: perevodchiki.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇨🇭CH_4|3.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  server: 179.43.166.190
-  servername: perevodchiki.su
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true

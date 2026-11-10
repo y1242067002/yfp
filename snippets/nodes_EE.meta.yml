@@ -153,10 +153,16 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 35|🇪EE_1|1.7MB/s
-  port: 443
-  server: 95.153.32.2
+- name: 29|🇪🇪_爱沙尼亚
+  network: ws
+  password: humanity
+  port: 8443
+  server: 185.225.205.75
+  servername: www.cordweave.com
   skip-cert-verify: true
+  sni: www.cordweave.com
   tls: true
-  type: http
+  type: trojan
   udp: true
+  ws-opts:
+    path: /assignment

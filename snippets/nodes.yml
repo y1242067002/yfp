@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|🇮🇹IT_3|1.7MB/s
+  name: 19,22|🇮🇹_IT_意大利_IPV4_2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|IT_1|1.8MB/s
+  name: '19,22|🇹IT_9|4.1MB/s|A004-260618 [0a7... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,35|🇮🇹IT_2|3.0MB/s
+  name: '19,22|🇮IT_14|3.7MB/s|B007-260618 [c5... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -766,13 +766,13 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 19,22|❓未知丨yoyapai.com (51)_2
+- name: 19,22,29|🇩🇪_德国 (18)
   network: ws
   password: humanity
   port: 443
   server: 185.220.100.168
   servername: www.calmlunch.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.calmlunch.com
   tls: true
   type: trojan
@@ -881,13 +881,13 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 19,22|🇺🇸US美国丨yoyapai.com (26)_2
+  name: 19,22,29|🇺🇸_美国 (65)
   network: ws
   password: MiTiVPN
   port: 443
   server: 167.82.64.120
   servername: firefox.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: firefox.com
   tls: true
   type: trojan
@@ -898,13 +898,13 @@ proxies:
     path: /
 - alpn:
   - http/1.1
-  name: 19,22|❓未知丨yoyapai.com (75)_2
+  name: 19,22,29|🇺🇸_美国 (66)
   network: ws
   password: MiTiVPN
   port: 443
   server: 167.82.64.120
   servername: firefox.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: firefox.com
   tls: true
   type: trojan
@@ -982,7 +982,7 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 19,22,29|🇭🇰_香港 (4)
+- name: 19,22,29|🇭🇰_香港 (3)
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
   server: sclass-c1.catcat321.com
@@ -6719,16 +6719,14 @@ proxies:
   sub_tag: M001-260618
   type: ss
   udp: true
-- name: 19,22,29|🇦🇺_澳大利亚
+- name: '19,22|AU_10|115KB/s|M003-260806 [f2b... #1'
   network: tcp
   password: Trojan@82164024
   port: 443
   server: au.tronsg.com
-  servername: au.tronsg.com
   skip-cert-verify: true
   sni: au.tronsg.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: '19,22|🇺🇸US_438|1.0MB/s|A004-260618 [... #1'
@@ -7027,7 +7025,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 19,22|🇺🇸_US_美国_IPV4_2
+- name: 19,22,29|🇺🇸_美国 (85)
   network: ws
   password: humanity
   port: 443
@@ -7037,6 +7035,7 @@ proxies:
   sni: www.cordweave.com
   tls: true
   type: trojan
+  udp: true
   ws-opts:
     path: /assignment
 - name: 19,22|🇰🇷_KR_韩国_IPV4_2
@@ -7048,7 +7047,7 @@ proxies:
   sni: kr02.ulifeai.com
   tls: true
   type: trojan
-- name: 19,22,35|🇩🇪DE_2|1.6MB/s
+- name: 19,22,29|🇩🇪_德国 (11)
   network: tcp
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
@@ -7987,166 +7986,1437 @@ proxies:
   type: vmess
   udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: 29|免费VPN：tt.vg/FJOE2Mm
+  network: ws
+  password: 140ca058-d87b-4e92-981c-82cfaa445f08
+  port: 2053
+  server: 162.159.140.116
+  servername: 17942259598885.206355.xyz
+  skip-cert-verify: true
+  sni: 17942259598885.206355.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17942259593629.206355.xyz
+    path: /videomuaawe
+- name: 29|🇺🇸_美国 (55)
+  network: ws
+  password: 140ca058-d87b-4e92-981c-82cfaa445f08
+  port: 2053
+  server: 162.159.140.116
+  servername: 17942259591870.168381.xyz
+  skip-cert-verify: true
+  sni: 17942259591870.168381.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17942259593928.168381.xyz
+    path: /tianboephth
+- name: 29|🇺🇸_美国 (56)
+  network: ws
+  password: 140ca058-d87b-4e92-981c-82cfaa445f08
+  port: 2087
+  server: 162.159.140.116
+  servername: 17942259596351.206352.xyz
+  skip-cert-verify: true
+  sni: 17942259596351.206352.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17942259591853.206352.xyz
+    path: /agraeabtegrrh
+- name: 29|🇺🇸_美国 (57)
+  network: ws
+  password: 140ca058-d87b-4e92-981c-82cfaa445f08
+  port: 2083
+  server: 162.159.140.116
+  servername: 17942259594451.206353.xyz
+  skip-cert-verify: true
+  sni: 17942259594451.206353.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17942259592598.206353.xyz
+    path: /agrbniuh
+- name: 29|🇺🇸_美国 (58)
+  network: ws
+  password: 140ca058-d87b-4e92-981c-82cfaa445f08
+  port: 2053
+  server: 162.159.140.116
+  servername: 17942259592599.206356.xyz
+  skip-cert-verify: true
+  sni: 17942259592599.206356.xyz
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 17942259595430.206356.xyz
+    path: /dmusicmuaawe
+- alterId: 0
+  cipher: auto
+  name: 29|🇳🇱_荷兰 (19)
+  network: ws
+  port: 443
+  server: 64.188.97.153
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: 29|🇧🇬_保加利亚
+  network: ws
+  password: humanity
+  port: 443
+  server: 193.239.160.134
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 29|🇳🇱_荷兰 (20)
+  network: ws
+  port: 33736
+  server: 78.17.71.236
+  servername: Telegram-Leviko_v2ray
+  skip-cert-verify: true
+  sni: Telegram-Leviko_v2ray
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: Telegram-Leviko_v2ray
+    path: /vmess-ws
 - alpn:
   - http/1.1
-  name: 29|🇺🇸_美国 (47)
+  name: 29|🇺🇸_美国 (60)
   network: ws
   password: MiTiVPN
   port: 443
   server: 199.232.78.160
-  servername: cdn.akamai.steamstatic.com
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
+  sni: ssl.fastly.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: MiTiVPN-1-mitivpn.ac.ir
-    path: /---@MiTiVPN---@MiTiVPN
+      Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: 29|🇺🇸_美国 (48)
+  name: 29|🇬🇧_英国 (2)
   network: ws
   password: MiTiVPN
   port: 443
-  server: 167.82.64.7
-  servername: cdn.akamai.steamstatic.com
+  server: 151.101.56.7
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
+  sni: ssl.fastly.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: MiTiVPN-1-mitivpn.ac.ir
-    path: /---@MiTiVPN---@MiTiVPN
+      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 29|🇨🇿_捷克
+  network: ws
+  port: 443
+  server: 95.85.233.138
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (13)
+  network: ws
+  port: 443
+  server: 13.140.28.46
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
 - alpn:
   - http/1.1
-  name: 29|🇺🇸_美国 (49)
+  name: 29|🇬🇧_英国 (4)
   network: ws
   password: MiTiVPN
   port: 443
-  server: 146.75.57.7
-  servername: cdn.akamai.steamstatic.com
+  server: 151.101.56.6
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: cdn.akamai.steamstatic.com
+  sni: ssl.fastly.com
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: MiTiVPN-1-mitivpn.ac.ir
-    path: /---@MiTiVPN---@MiTiVPN
-- name: 29|🇺🇸_美国 (50)
-  network: ws
-  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
-  port: 2087
-  server: 162.159.140.116
-  servername: 17941839736049.206352.xyz
-  skip-cert-verify: true
-  sni: 17941839736049.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17941839738421.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国 (51)
-  network: ws
-  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
-  port: 2053
-  server: 162.159.140.116
-  servername: 17941839737677.168381.xyz
-  skip-cert-verify: true
-  sni: 17941839737677.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17941839737614.168381.xyz
-    path: /tianboephth
-- name: 29|🇺🇸_美国 (52)
-  network: ws
-  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
-  port: 2053
-  server: 162.159.140.116
-  servername: 17941839735653.206355.xyz
-  skip-cert-verify: true
-  sni: 17941839735653.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17941839734313.206355.xyz
-    path: /videomuaawe
-- name: 29|🇺🇸_美国 (53)
-  network: ws
-  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
-  port: 2083
-  server: 162.159.140.116
-  servername: 17941839736875.206353.xyz
-  skip-cert-verify: true
-  sni: 17941839736875.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17941839734560.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国 (54)
-  network: ws
-  password: 0d715769-33bb-47aa-8132-96d347e1f1ef
-  port: 2053
-  server: 162.159.140.116
-  servername: 17941839738999.206356.xyz
-  skip-cert-verify: true
-  sni: 17941839738999.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17941839731884.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🇺🇸_美国 (59)
-  network: ws
-  password: c8703f5c-58df-4eab-82fe-dc39f108e8a2
-  port: 2053
-  server: 162.159.140.116
-  servername: 17940594652761.206355.xyz
-  skip-cert-verify: true
-  sni: 17940594652761.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17940594651760.206355.xyz
-    path: /videomuaawe
+      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  client-fingerprint: unsafe
-  name: 35|🇳🇱NL_13|2.2MB/s
+  name: 29|🇬🇧_英国 (5)
   network: ws
-  password: Nd2bFutZK2ma29bYqC@z
+  password: MiTiVPN
   port: 443
-  server: 188.114.98.0
-  skip-cert-verify: false
-  sni: 4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
   type: trojan
   udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8
+      Host: mitivpn---ss--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (61)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.76.27
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 29|🇻🇬_英属维尔京群岛
+  network: ws
+  port: 8443
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  sni: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (14)
+  network: ws
+  port: 443
+  server: 85.215.41.19
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯 (21)
+  network: ws
+  port: 443
+  server: 5.188.26.85
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (15)
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国 (62)
+  network: ws
+  port: 443
+  server: 2.27.16.177
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇷🇺_俄罗斯 (22)
+  network: ws
+  port: 443
+  server: 80.240.252.241
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇫🇮_芬兰
+  network: ws
+  port: 443
+  server: 95.81.126.119
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (16)
+  network: ws
+  port: 443
+  server: 89.127.218.61
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (17)
+  network: ws
+  port: 443
+  server: 31.77.223.21
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 29|🇮🇳_印度
+  network: ws
+  port: 443
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  skip-cert-verify: true
+  sni: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- name: 29|🇧🇬_保加利亚 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 82.118.18.179
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇿_捷克 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 87.236.146.111
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇿_捷克 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.133.174.88
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇦🇪_阿拉伯联合酋长国 (8)
+  network: ws
+  password: humanity
+  port: 443
+  server: 46.174.142.238
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇲🇩_摩尔多瓦
+  network: ws
+  password: humanity
+  port: 443
+  server: 143.246.223.110
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇲🇩_摩尔多瓦 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 5.181.158.96
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇲🇽_墨西哥
+  network: ws
+  password: humanity
+  port: 443
+  server: 131.196.253.141
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇲🇽_墨西哥 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 131.196.254.151
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇳🇴_挪威
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.50.55.76
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇵🇹_葡萄牙
+  network: ws
+  password: humanity
+  port: 443
+  server: 195.133.92.71
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇪_瑞典 (2)
+  network: ws
+  password: humanity
+  port: 2053
+  server: 83.147.254.59
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇪_瑞典 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 77.221.139.114
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇪_瑞典 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.165.34.40
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇭_瑞士 (10)
+  network: ws
+  password: humanity
+  port: 443
+  server: 83.228.199.3
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇾_塞浦路斯 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 194.55.164.118
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇨🇾_塞浦路斯 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 5.253.29.83
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇹🇷_土耳其 (31)
+  network: ws
+  password: humanity
+  port: 443
+  server: 213.238.182.13
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇪🇸_西班牙
+  network: ws
+  password: humanity
+  port: 443
+  server: 193.17.183.48
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇭🇺_匈牙利 (2)
+  network: ws
+  password: humanity
+  port: 2053
+  server: 38.180.225.247
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇮🇹_意大利
+  network: ws
+  password: humanity
+  port: 8443
+  server: 213.109.192.6
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇻🇳_越南
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.161.178.72
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇻🇳_越南 (2)
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.161.179.36
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 29|🇺🇸_美国 (67)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.120
+  servername: firefox.com
+  skip-cert-verify: true
+  sni: firefox.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn.ac.ir
+    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+- name: 29|🇩🇪_德国 (21)
+  network: ws
+  password: humanity
+  port: 443
+  server: 202.61.198.53
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (22)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (23)
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.165.236.229
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (24)
+  network: ws
+  password: humanity
+  port: 443
+  server: 144.31.120.77
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇫🇷_法国 (5)
+  network: ws
+  password: humanity
+  port: 443
+  server: 207.180.209.128
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇫🇷_法国 (6)
+  network: ws
+  password: humanity
+  port: 443
+  server: 169.58.44.174
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇪🇪_爱沙尼亚
+  network: ws
+  password: humanity
+  port: 8443
+  server: 185.225.205.75
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇬🇧_英国 (9)
+  network: ws
+  password: humanity
+  port: 443
+  server: 143.110.175.165
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇭🇰_香港 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.219.195.65
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇭🇰_香港 (5)
+  network: ws
+  password: humanity
+  port: 443
+  server: 47.57.181.17
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇭🇰_香港 (6)
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.69.128.221
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇭🇰_香港 (7)
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.196.235.64
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵_日本 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 35.78.243.103
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇯🇵_日本 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.192.221.107
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇰🇷_韩国
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.164.56.22
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇰🇷_韩国 (2)
+  network: ws
+  password: humanity
+  port: 8443
+  server: 141.164.34.161
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇰🇷_韩国 (3)
+  network: ws
+  password: humanity
+  port: 443
+  server: 54.116.249.102
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇰🇷_韩国 (4)
+  network: ws
+  password: humanity
+  port: 443
+  server: 103.218.173.218
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇳🇱_荷兰 (21)
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.164.248.143
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇳🇱_荷兰 (22)
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.12.46.156
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇷🇺_俄罗斯 (23)
+  network: ws
+  password: humanity
+  port: 443
+  server: 217.26.26.14
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇷🇺_俄罗斯 (24)
+  network: ws
+  password: humanity
+  port: 2053
+  server: 201.24.57.254
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡 (6)
+  network: ws
+  password: humanity
+  port: 443
+  server: 128.199.128.117
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡 (7)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.102.89
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡 (8)
+  network: ws
+  password: humanity
+  port: 443
+  server: 168.144.41.69
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡 (9)
+  network: ws
+  password: humanity
+  port: 443
+  server: 178.93.160.132
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇸🇬_新加坡 (10)
+  network: ws
+  password: humanity
+  port: 443
+  server: 157.245.159.88
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (69)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.150.241
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (70)
+  network: ws
+  password: humanity
+  port: 443
+  server: 38.207.177.204
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (71)
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.127.200
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (72)
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.136.189
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (73)
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.127.82
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (74)
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.127.45
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (75)
+  network: ws
+  password: humanity
+  port: 443
+  server: 193.134.209.165
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (76)
+  network: ws
+  password: humanity
+  port: 8443
+  server: 179.255.157.247
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (77)
+  network: ws
+  password: humanity
+  port: 443
+  server: 31.76.0.15
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (78)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.128.253
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (79)
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.0.118
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (80)
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.149.157
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (81)
+  network: ws
+  password: humanity
+  port: 443
+  server: 68.64.180.218
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (82)
+  network: ws
+  password: humanity
+  port: 8443
+  server: 199.119.137.32
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (83)
+  network: ws
+  password: humanity
+  port: 443
+  server: 78.40.209.33
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇺🇸_美国 (84)
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 29|🇩🇪_德国 (8)
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇺🇸_美国 (44)
+  port: 443
+  server: 165.140.217.2
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- name: 29|🇨🇳_中国
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44027
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (2)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44003
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (3)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44056
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (4)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44004
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (5)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44054
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (6)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44058
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (7)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44057
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (8)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44052
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (9)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44011
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (10)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44001
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (11)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44063
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (12)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44064
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (13)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44065
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇳_中国 (14)
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44062
+  server: 62.234.223.235
+  servername: baidu.com
+  skip-cert-verify: true
+  sni: baidu.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
