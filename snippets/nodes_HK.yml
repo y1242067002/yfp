@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|🇰HK香港丨yoyapai.com (9)_3
+- name: 19,22|🇰HK香港丨yoyapai.com (9)_2
   network: ws
   password: humanity
   port: 443
@@ -14,7 +14,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 19,22|🇰HK香港_3
+  name: 19,22|🇰HK香港_2
   port: 800
   server: 47.83.247.150
   skip-cert-verify: false
@@ -24,7 +24,7 @@ proxies:
   uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
 - alterId: 0
   cipher: auto
-  name: 19,22|🇭🇰HK香港 (2)_3
+  name: 19,22|🇭🇰HK香港 (2)_2
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -39,7 +39,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 19,22|🇭🇰HK香港 (3)_3
+  name: 19,22|🇭🇰HK香港 (3)_2
   network: ws
   port: 443
   server: yg1.ygkkk.dpdns.org
@@ -56,7 +56,7 @@ proxies:
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
 - alterId: 0
   cipher: auto
-  name: 19,22|🇭🇰HK香港 (4)_3
+  name: 19,22|🇭🇰HK香港 (4)_2
   port: 21016
   server: dog-jp.kunlun01dns.com
   skip-cert-verify: false
@@ -76,7 +76,7 @@ proxies:
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - alterId: 0
   cipher: auto
-  name: 19,22|🇭🇰HK香港 (6)_3
+  name: 19,22|🇭🇰HK香港 (6)_2
   port: 21011
   server: dog-us.kunlun01dns.com
   skip-cert-verify: false
@@ -84,14 +84,52 @@ proxies:
   type: vmess
   udp: true
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- cipher: aes-256-gcm
-  name: 22|HK_80|364KB/s|K001-260618 [c3a...
-  password: hFKeQsRPzmH0I5lV
-  port: 8388
-  server: 91.149.236.7
-  sub_tag: K001-260618
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22|🇰HK_76|117KB/s|M003-260806 [19...
+  network: tcp
+  packet-encoding: xudp
+  port: 21018
+  server: dog-hk.kunlun01dns.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
   udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 22|HK_86|543KB/s|M003-260806 [8f8...
+  network: ws
+  packet-encoding: xudp
+  port: 16632
+  server: 162.19.192.89
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 992b1bc6-6e1e-455d-940b-e99bd39f70a2
+  ws-opts:
+    headers:
+      Host: 0606f25bbb646de3feadb8d23c1c6217.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 22|🇭🇰HK_83|112KB/s|M003-260806 [d...
+  network: tcp
+  packet-encoding: xudp
+  port: 21041
+  server: dog-hk.kunlun01dns.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇭🇰_香港 (13)
