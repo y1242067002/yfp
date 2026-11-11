@@ -2299,7 +2299,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,37|DK_speednode_0005
+- name: 19,22,35,37|DK_speednode_0005
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
@@ -2393,7 +2393,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 19,22,37|DE_speednode_0004
+- name: 19,22,35,37|DE_speednode_0004
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
@@ -2615,7 +2615,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /rain1226
   xudp: true
-- name: 22|🇪DE_46|923KB/s|R002-260618 [32...
+- name: 22,35|🇩DE_4|2.4MB/s
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
@@ -2642,7 +2642,7 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 22|🇪DE_49|1.8MB/s|P002-260618 [3d...
+- name: 22,35|🇪DE_7|3.2MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -3482,3 +3482,73 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 35|DE_1|3.7MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 212.113.116.181
+  servername: de.oncloudvpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  xudp: true
+- encryption: mlkem768x25519plus.native.0rtt.idIqJLbBRhVvjLcCi75qK-I68clo9tz132HIDrp6JVA
+  flow: xtls-rprx-vision
+  http-opts:
+    headers:
+      Host:
+      - tgju.org
+    path:
+    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
+  name: 35|🇩🇪DE_2|4.3MB/s
+  network: http
+  packet-encoding: xudp
+  port: 2091
+  server: 167.233.182.104
+  type: vless
+  udp: true
+  uuid: 3a667b02-3e6e-439e-9fdb-720ab7a5d306
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_3|3.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: K6gjLMpQGTgIcRyUyixXVFkLvHscKVmpyZFNkBy1rBY
+    short-id: 47483658f59442b6
+  server: 179.254.183.17
+  servername: ch2.docuflow.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7163913b-0d6c-4a5a-933b-b6f61c1807da
+  xudp: true
+- client-fingerprint: unsafe
+  encryption: none
+  name: 35|🇪DE_10|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 188.114.97.6
+  servername: save100.saveme.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 030c38b8-874d-47b2-af4c-6ac2114c2aaa
+  ws-opts:
+    headers:
+      Host: save100.saveme.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /ws
+  xudp: true

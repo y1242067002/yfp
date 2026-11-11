@@ -1922,7 +1922,7 @@ proxies:
         (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 19,22|🇫🇷FR_32|4.8MB/s|P002-260618 [8...
+- name: 19,22,35|🇩🇪DE_6|3.9MB/s
   password: None
   port: 443
   server: 172.64.68.89
@@ -2363,7 +2363,7 @@ proxies:
         Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /%2F
   xudp: true
-- name: 19,22|🇷FR_9|7.1MB/s|R002-260618 [a67...
+- name: 19,22,35|🇩🇪DE_5|2.8MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -3923,7 +3923,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true
-- name: 22|🇷FR_69|1020KB/s|R002-260618 [2...
+- name: 22,35|🇷FR_3|2.6MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -4135,6 +4135,32 @@ proxies:
   type: vless
   udp: true
   uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: 35|🇷FR_1|3.2MB/s
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: 35|🇫🇷FR_2|1.4MB/s
+  port: 36699
+  server: 163.172.117.163
+  skip-cert-verify: true
+  type: hysteria
+  udp: true
+  up: '11'
+  x-toolall-mihomo: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

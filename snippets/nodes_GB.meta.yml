@@ -206,7 +206,7 @@ proxies:
   type: vless
   udp: true
   uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
-- name: 19,22|🇬🇧GB_16|1.4MB/s|P002-260618 [0...
+- name: 19,22,35|🇧GB_2|2.1MB/s|P002-260618
   password: None
   port: 443
   server: 212.102.63.31
@@ -1535,7 +1535,7 @@ proxies:
       Host: 57.129.132.223
     path: /vmess/
   xudp: true
-- name: 22|🇧GB_21|536KB/s|P002-260618 [62...
+- name: 22,35|🇧GB_3|2.4MB/s
   password: None
   port: 9443
   server: 84.17.50.129
@@ -1820,6 +1820,14 @@ proxies:
   type: vless
   udp: true
   uuid: b62e3646-b84d-443c-9c94-718b646502e0
+- name: 35|GB_1|3.2MB/s
+  password: None
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

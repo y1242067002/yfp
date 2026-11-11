@@ -266,7 +266,7 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22|🇪SE_14|1.5MB/s|P002-260618 [30...
+- name: 22,35|🇪SE_2|3.1MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -394,3 +394,10 @@ proxies:
   type: vless
   udp: true
   uuid: 788950f8-dbd9-4234-a42c-a7204665ce9f
+- name: 35|🇪SE_1|1.6MB/s
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
