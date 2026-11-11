@@ -1,17 +1,132 @@
 proxies:
-- name: 29|🇨🇭_瑞士 (10)
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: '19,22|CH_47|591KB/s|A004-260618 [186... #1'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 83.228.199.3
-  servername: www.cordweave.com
+  server: 208.69.78.60
+  skip-cert-verify: false
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇭_瑞士
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.33
+  servername: courses.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: courses.yourultimateprofessionalcareerhub.com
+  sub_tag: C002-260622
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    path: /assignment
+- cipher: aes-256-gcm
+  name: '19,22|🇨CH_65|2.8MB/s|M003-260806 [72... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.189
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇨🇭CH_37|2.8MB/s|M003-260806 [7...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.127
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇭_瑞士 (7)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.222
+  servername: yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+  sni: yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇨🇭CH_26|3.8MB/s|M003-260806 [a...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.208
+  skip-cert-verify: true
+  sni: resources.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇭CH_38|5.0MB/s|M003-260806 [9c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.127.184.104
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇭_瑞士 (6)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.29
+  servername: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇭CH_36|3.2MB/s|M003-260806 [a8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 186.190.215.251
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇭_瑞士 (3)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  servername: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  sub_tag: S004-260618
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇨🇭CH_27|2.8MB/s|M003-260806 [b...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.158
+  skip-cert-verify: false
+  sni: api.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '19,22|🇭CH_69|830KB/s|M003-260806 [fc... #1'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  skip-cert-verify: true
+  sni: ekb.eg
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa

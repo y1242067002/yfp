@@ -1,8 +1,169 @@
 proxies:
+- cipher: rc4-md5
+  name: 19,22|🇧GB_1|4.4MB/s|A004-260618 [07a...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '19,22|🇬🇧GB_69|1.8MB/s|B007-260618 [2... #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 149.7.16.228
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇧GB_22|2.8MB/s|A004-260618 [2d... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇧GB_21|79KB/s|M003-260806 [306...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.201.129
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇬🇧GB_6|5.2MB/s|A004-260618 [65...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.207.163
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇬🇧GB_3|2.7MB/s|A004-260618 [70... #1'
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇧GB_70|2.1MB/s|M003-260806 [7c... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇧GB_7|6.4MB/s|A004-260618 [7ec...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.142.161
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: '19,22|🇬🇧GB_18|3.8MB/s|A004-260618 [8... #1'
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇬🇧GB_19|135KB/s|A004-260618 [8...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇧GB_23|3.2MB/s|M003-260806 [a5...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇧GB_5|3.9MB/s|A004-260618 [b56...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇬🇧GB_22|5.8MB/s|M003-260806 [c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '22|GB英国(mibei77.com 米贝节点分享) (4) #1'
+  network: ws
+  port: 12007
+  server: yg2.needss.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇬🇧GB_35|491KB/s|M003-260806 [1...
+  password: jisq9cNwk2qofcBK4nYIgv7wB51sH2U1
+  port: 443
+  server: 167.104.223.242
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇧GB_24|3.3MB/s|A004-260618 [26...
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇧GB_2|4.0MB/s [a1915d230d8e]
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇬🇧_英国 (9)
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    path: /vmess/
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (2)
+  name: 29|🇬🇧_英国 (10)
   network: ws
   password: MiTiVPN
   port: 443
@@ -20,7 +181,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (4)
+  name: 29|🇬🇧_英国 (12)
   network: ws
   password: MiTiVPN
   port: 443
@@ -38,7 +199,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (5)
+  name: 29|🇬🇧_英国 (13)
   network: ws
   password: MiTiVPN
   port: 443
@@ -70,19 +231,16 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: 29|🇬🇧_英国 (9)
-  network: ws
-  password: humanity
-  port: 443
-  server: 143.110.175.165
-  servername: www.cordweave.com
+- alterId: 0
+  cipher: auto
+  name: 29|🇬🇧_英国
+  port: 1270
+  server: 149.7.16.228
   skip-cert-verify: true
-  sni: www.cordweave.com
   tls: true
-  type: trojan
+  type: vmess
   udp: true
-  ws-opts:
-    path: /assignment
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM
