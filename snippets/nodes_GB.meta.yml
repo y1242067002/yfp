@@ -29,9 +29,9 @@ proxies:
   type: vless
   udp: true
   uuid: 72dd8678-1ac5-4357-9f7e-97e367e2a835
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22,29|🇩🇪_德国 (28)
+  name: 19,22,29|🇩🇪_德国 (10)
   port: 443
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
@@ -206,7 +206,7 @@ proxies:
   type: vless
   udp: true
   uuid: b3ac565c-fe3a-4279-868c-43c41c05e358
-- name: 19,22|🇬🇧GB_16|1.4MB/s|P002-260618 [0...
+- name: 19,22,35|🇧GB_1|1007KB/s|P002-260618
   password: None
   port: 443
   server: 212.102.63.31
@@ -1535,7 +1535,7 @@ proxies:
       Host: 57.129.132.223
     path: /vmess/
   xudp: true
-- name: 22|🇧GB_21|536KB/s|P002-260618 [62...
+- name: 22,35|🇬🇧GB_2|1.3MB/s
   password: None
   port: 9443
   server: 84.17.50.129
@@ -1588,7 +1588,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇬🇧_英国 (7)
+- name: 29|🇬🇧_英国 (6)
   network: ws
   port: 443
   server: 46.250.242.104
@@ -1601,192 +1601,27 @@ proxies:
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     path: /
-- name: 29|🇬🇧_英国 (8)
-  network: ws
-  port: 443
-  server: 46.250.254.187
-  servername: fs.qicai99.com
-  skip-cert-verify: true
-  sni: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    path: /fp
-- alterId: 0
-  cipher: auto
-  name: 29|🇬🇧_英国 (9)
-  network: ws
-  port: 80
-  server: 57.129.132.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    path: /vmess/
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (10)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: firefox
-  name: 29|🇬🇧_英国 (11)
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (12)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (13)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-2.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 29|🇻🇬_英属维尔京群岛
-  network: ws
-  port: 8443
-  server: www.nextkyc.com
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  sni: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (14)
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (15)
-  network: ws
-  port: 443
-  server: k2.cloud--vpn.site
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (16)
-  network: ws
-  port: 443
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-- alterId: 0
-  cipher: auto
-  name: 29|🇬🇧_英国
-  port: 1270
-  server: 149.7.16.228
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2)
+  name: 29|🇬🇧_英国
   port: 443
-  server: 104.222.183.180
-  servername: www.tradingview.com
+  server: 195.72.166.251
+  servername: www.lloydsbankinggroup.com
   skip-cert-verify: true
-  sni: www.tradingview.com
+  sni: www.lloydsbankinggroup.com
   tls: false
   type: vless
   udp: true
-  uuid: a1cf2f59-ffe0-4cb3-8c68-e6abf44726fc
+  uuid: 64c05afc-ce81-4ba0-b697-afa04da1427e
+- name: 29|🇬🇧_英国 (2)
+  port: 2053
+  server: 51.89.194.151
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
 - flow: xtls-rprx-vision
   name: 29|🇬🇧_英国 (3)
   port: 443
@@ -1801,17 +1636,6 @@ proxies:
 - flow: xtls-rprx-vision
   name: 29|🇬🇧_英国 (4)
   port: 443
-  server: 107.181.151.128
-  servername: www.mozilla.org
-  skip-cert-verify: true
-  sni: www.mozilla.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88742d38-3f5c-4b9c-b256-7df5db8257ec
-- flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (5)
-  port: 443
   server: webdisk.jaggyslawa.org
   servername: www.foxsports.com
   skip-cert-verify: true
@@ -1820,6 +1644,17 @@ proxies:
   type: vless
   udp: true
   uuid: b62e3646-b84d-443c-9c94-718b646502e0
+- flow: xtls-rprx-vision
+  name: 29|🇬🇧_英国 (5)
+  port: 443
+  server: tr.gacvpn.site
+  servername: tr-edge.gacvpn.site
+  skip-cert-verify: true
+  sni: tr-edge.gacvpn.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

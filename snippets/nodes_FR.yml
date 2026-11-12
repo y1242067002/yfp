@@ -141,7 +141,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 19,22,29|🇭🇰_香港
+  name: 19,22,29|🇭🇰_香港 (11)
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -513,14 +513,16 @@ proxies:
         Chrome/41.0.2272.101 Safari/537.36
     path: /categories/community/
 - client-fingerprint: firefox
-  name: 19,22|🇷FR_61|3.9MB/s|M003-260806 [f1...
+  name: 19,22,29|🇫🇷_法国 (2) (2)
   network: tcp
   password: 5t6i121em5lkmsmk
   port: 16778
   server: 108.61.177.57
-  skip-cert-verify: false
+  servername: fr001.zestapp778.com
+  skip-cert-verify: true
   sni: fr001.zestapp778.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - alpn:
@@ -594,33 +596,6 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (13)
-  network: ws
-  port: 80
-  server: 145.239.55.210
-  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc80e77-9590-4ded-a48b-0eda493f611b
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (6)
-  port: 1270
-  server: 162.19.82.57
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

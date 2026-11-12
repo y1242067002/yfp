@@ -133,19 +133,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇪🇪_爱沙尼亚 (6)
-  network: ws
-  port: 443
-  server: 45.83.182.80
-  servername: fs.qicai99.com
-  skip-cert-verify: true
-  sni: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    path: /
 - flow: xtls-rprx-vision
   name: 29|🇪🇪_爱沙尼亚
   port: 443
@@ -160,40 +147,7 @@ proxies:
 - flow: xtls-rprx-vision
   name: 29|🇪🇪_爱沙尼亚 (2)
   port: 443
-  server: 185.215.184.85
-  servername: dvizhok.su
-  skip-cert-verify: true
-  sni: dvizhok.su
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (3)
-  port: 443
   server: ee.subv.ru
-  servername: dvizhok.su
-  skip-cert-verify: true
-  sni: dvizhok.su
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (4)
-  port: 443
-  server: 185.215.184.49
-  servername: dvizhok.su
-  skip-cert-verify: true
-  sni: dvizhok.su
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (5)
-  port: 443
-  server: 185.215.184.53
   servername: dvizhok.su
   skip-cert-verify: true
   sni: dvizhok.su

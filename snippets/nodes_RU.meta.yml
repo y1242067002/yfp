@@ -412,7 +412,7 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22,29|🇷🇺_俄罗斯
+  name: 19,22,29|🇷🇺_俄罗斯 (11)
   port: 443
   reality-opts:
     public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
@@ -513,13 +513,13 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|俄罗斯(yudou99.com 玉豆分享) (6)
+  name: 22,29|🇷🇺_俄罗斯 (9)
   port: 443
   reality-opts:
     public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
   server: 72.56.38.83
   servername: absolute-disaster.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: absolute-disaster.org
   tls: true
   type: vless
@@ -559,7 +559,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 29|🇷🇺_俄罗斯 (16)
+- name: 29|🇷🇺_俄罗斯 (7)
   network: ws
   port: 443
   server: 193.233.129.97
@@ -572,213 +572,9 @@ proxies:
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     path: /
-- name: 29|🇷🇺_俄罗斯 (17)
-  network: ws
-  port: 443
-  server: bhjolq0d0l.flowersgood.top
-  servername: bhjolq0d0l.flowersgood.top
-  skip-cert-verify: true
-  sni: bhjolq0d0l.flowersgood.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  ws-opts:
-    path: /service/telemetry/045d381f1166/
-- name: 29|🇷🇺_俄罗斯 (18)
-  network: ws
-  port: 443
-  server: 185.86.147.175
-  servername: bhjolq0d0l.flowersgood.top
-  skip-cert-verify: true
-  sni: bhjolq0d0l.flowersgood.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  ws-opts:
-    path: /service/telemetry/045d381f1166/
-- name: 29|🇷🇺_俄罗斯 (19)
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    path: /websocket
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (20)
-  network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    path: /websocket
-- name: 29|🇷🇺_俄罗斯 (21)
-  network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- name: 29|🇷🇺_俄罗斯 (22)
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  skip-cert-verify: true
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (23)
-  network: ws
-  port: 443
-  server: 5.188.26.85
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (24)
-  network: ws
-  port: 443
-  server: 80.240.252.241
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (2)
-  port: 443
-  reality-opts:
-    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-    short-id: 2ef2b10d5143d798
-  server: 5.129.202.80
-  servername: mirror-50.topp-con.xyz
-  skip-cert-verify: true
-  sni: mirror-50.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- name: 29|🇷🇺_俄罗斯 (4)
-  port: 443
-  server: 176.108.245.237
-  servername: tfusq-ru-40sb.fade.mom
-  skip-cert-verify: true
-  sni: tfusq-ru-40sb.fade.mom
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (5)
-  port: 443
-  server: 78.159.250.214
-  servername: qq.utiltools.site
-  skip-cert-verify: true
-  sni: qq.utiltools.site
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (7)
-  port: 443
-  server: 78.159.250.107
-  servername: qq.utiltools.site
-  skip-cert-verify: true
-  sni: qq.utiltools.site
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (8)
-  port: 443
-  server: qq.utiltools.site
-  servername: qq.utiltools.site
-  skip-cert-verify: true
-  sni: qq.utiltools.site
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (9)
-  port: 2058
-  server: 157.22.185.68
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
-- name: 29|🇷🇺_俄罗斯 (10)
-  port: 443
-  server: b998f03d.de-p2.h1clayd.click
-  servername: b998f03d.de-p2.h1clayd.click
-  skip-cert-verify: true
-  sni: b998f03d.de-p2.h1clayd.click
-  tls: false
-  type: vless
-  udp: true
-  uuid: 474638a5-dc58-4453-9e40-70bcaa4ef74c
-- name: 29|🇷🇺_俄罗斯 (11)
-  port: 8008
-  server: 5.53.124.191
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b48e1596-e835-4547-bdae-31daadf9ea17
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (15)
+  name: 29|🇷🇺_俄罗斯 (6)
   port: 443
   reality-opts:
     public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
@@ -791,6 +587,90 @@ proxies:
   type: vless
   udp: true
   uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (7) (2)
+  port: 2058
+  reality-opts:
+    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
+    short-id: 937255313d6ce673
+  server: 82.146.42.160
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (10)
+  port: 443
+  reality-opts:
+    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+    short-id: 2ef2b10d5143d798
+  server: 5.129.202.80
+  servername: mirror-50.topp-con.xyz
+  skip-cert-verify: true
+  sni: mirror-50.topp-con.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (12)
+  port: 443
+  server: 104.171.135.229
+  servername: absolute-disaster.org
+  skip-cert-verify: true
+  sni: absolute-disaster.org
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (3) (2)
+  port: 443
+  server: 78.159.250.214
+  servername: qq.utiltools.site
+  skip-cert-verify: true
+  sni: qq.utiltools.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (4) (2)
+  port: 443
+  server: 78.159.250.107
+  servername: qq.utiltools.site
+  skip-cert-verify: true
+  sni: qq.utiltools.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (5) (2)
+  port: 443
+  server: qq.utiltools.site
+  servername: qq.utiltools.site
+  skip-cert-verify: true
+  sni: qq.utiltools.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+- name: 29|🇷🇺_俄罗斯 (6) (2)
+  port: 443
+  server: 176.108.245.237
+  servername: tfusq-ru-40sb.fade.mom
+  skip-cert-verify: true
+  sni: tfusq-ru-40sb.fade.mom
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029

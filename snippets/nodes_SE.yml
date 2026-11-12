@@ -22,16 +22,14 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇸🇪_瑞典 (2)
+  name: 19,22|🇸🇪SE_7|2.1MB/s|M003-260806 [43...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 70.34.207.14
-  servername: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -80,3 +78,13 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇸🇪_瑞典
+  port: 1270
+  server: 62.93.166.184
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735

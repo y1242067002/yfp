@@ -309,11 +309,11 @@ proxies:
     headers:
       Host: old-violet-a5ce.29-440.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: 19,22,29|🇺🇸_美国 (125)
+- name: 19,22|🇷FR法国丨yoyapai.com (6)_2
   network: ws
   port: 8880
   server: 80.93.202.40
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -385,7 +385,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 19,29|🇫🇷_法国
+  name: 19,29|🇫🇷_法国 (3)
   port: 2053
   server: w.geogame.ir
   servername: w.geogame.ir
@@ -396,7 +396,7 @@ proxies:
   udp: true
   uuid: fbda2834-b1e7-4148-afb9-deda31036a30
 - client-fingerprint: chrome
-  name: 19,22,29|🇭🇰_香港
+  name: 19,22,29|🇭🇰_香港 (11)
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -409,7 +409,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇫🇷_法国 (10)
+  name: 19,22,29|🇫🇷_法国 (2)
   port: 2053
   server: w.geogame.ir
   servername: w.geogame.ir
@@ -1922,7 +1922,7 @@ proxies:
         (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 19,22|🇫🇷FR_32|4.8MB/s|P002-260618 [8...
+- name: 19,22,35|🇩DE_1|1.8MB/s
   password: None
   port: 443
   server: 172.64.68.89
@@ -3372,14 +3372,16 @@ proxies:
         Chrome/41.0.2272.101 Safari/537.36
     path: /categories/community/
 - client-fingerprint: firefox
-  name: 19,22|🇷FR_61|3.9MB/s|M003-260806 [f1...
+  name: 19,22,29|🇫🇷_法国 (2) (2)
   network: tcp
   password: 5t6i121em5lkmsmk
   port: 16778
   server: 108.61.177.57
-  skip-cert-verify: false
+  servername: fr001.zestapp778.com
+  skip-cert-verify: true
   sni: fr001.zestapp778.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -3923,7 +3925,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
   xudp: true
-- name: 22|🇷FR_69|1020KB/s|R002-260618 [2...
+- name: 22,35|🇷FR_2|1.7MB/s
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -4024,60 +4026,6 @@ proxies:
         Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
   xudp: true
-- name: 29|🇫🇷_法国 (11)
-  network: ws
-  port: 443
-  server: 84.46.251.105
-  servername: fs.qicai99.com
-  skip-cert-verify: true
-  sni: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (13)
-  network: ws
-  port: 80
-  server: 145.239.55.210
-  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2bc80e77-9590-4ded-a48b-0eda493f611b
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
-- name: 29|🇫🇷_法国 (14)
-  network: ws
-  port: 80
-  server: 152.228.162.19
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国 (15)
-  network: ws
-  port: 80
-  server: ov-france1.09vpn.com
-  servername: OV-France1.09vpn.com
-  skip-cert-verify: true
-  sni: OV-France1.09vpn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  ws-opts:
-    path: /vless/
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇫🇷_法国 (5)
@@ -4089,23 +4037,12 @@ proxies:
   servername: blog.api.www.cloudflare.com
   skip-cert-verify: true
   sni: blog.api.www.cloudflare.com
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 0f82d566-1273-43c5-a73c-229997b3b4b0
 - flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (3)
-  port: 23576
-  server: 62.210.91.2
-  servername: fuck.rkn
-  skip-cert-verify: true
-  sni: fuck.rkn
-  tls: false
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (4)
+  name: 29|🇫🇷_法国 (6) (2)
   port: 23576
   server: 62.210.91.10
   servername: fuck.rkn
@@ -4115,17 +4052,18 @@ proxies:
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇷_法国 (6)
-  port: 1270
-  server: 162.19.82.57
+- flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (7)
+  port: 23576
+  server: 62.210.91.2
+  servername: fuck.rkn
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: fuck.rkn
+  tls: false
+  type: vless
   udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- name: 29|🇫🇷_法国 (7)
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 29|🇫🇷_法国 (3) (2)
   port: 443
   server: 161.97.66.16
   servername: www.cloudflare.com
@@ -4135,6 +4073,42 @@ proxies:
   type: vless
   udp: true
   uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+- name: 29|🇫🇷_法国 (4) (2)
+  port: 443
+  server: ai.smrtai.top
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+- flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (5) (2)
+  port: 10303
+  server: 167.17.64.67
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: qi8ws15c7jv5q2fa
+  name: 35|FR_1|1.7MB/s
+  network: grpc
+  port: 443
+  server: 200.102.183.50
+  servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

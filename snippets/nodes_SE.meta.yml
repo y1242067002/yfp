@@ -81,16 +81,14 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19,22,29|🇸🇪_瑞典 (2)
+  name: 19,22|🇸🇪SE_7|2.1MB/s|M003-260806 [43...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 70.34.207.14
-  servername: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -329,68 +327,24 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇸🇪_瑞典 (4)
-  network: ws
-  port: 14430
-  server: 5.178.109.174
-  servername: 5.178.109.174
-  skip-cert-verify: true
-  sni: 5.178.109.174
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    path: /vless
-- name: 29|🇸🇪_瑞典 (5)
-  network: ws
-  port: 14430
-  server: 193.188.21.253
-  servername: 193.188.21.253
-  skip-cert-verify: true
-  sni: 193.188.21.253
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-  ws-opts:
-    path: /vless
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典 (6)
-  network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
-  skip-cert-verify: true
-  sni: n.tmkkarss.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    path: /
-- flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 29|🇸🇪_瑞典
-  port: 8443
-  server: 62.182.193.228
-  servername: nekoboxo.isgood.host
+  port: 1270
+  server: 62.93.166.184
   skip-cert-verify: true
-  sni: nekoboxo.isgood.host
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (2)
+  port: 443
+  server: 51.21.249.172
+  servername: www.microsoft.com
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: vless
   udp: true
-  uuid: c0d58ed7-41f8-4cf4-b61b-8ba8f6be9a46
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典 (3)
-  port: 443
-  reality-opts:
-    public-key: SOvacyM6CABhBHYdOHvhXbkNLHJBHuAkoJj2Z13xKlE
-    short-id: b4a6faed784ff461
-  server: 34.51.172.152
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 788950f8-dbd9-4234-a42c-a7204665ce9f
+  uuid: d5ea43cf-648a-452d-bc2d-fc1ae706fd4b
