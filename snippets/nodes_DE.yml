@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19,22,35|IT_1|2.1MB/s
+  name: 19,22|🇮🇹_IT_意大利_IPV4_2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -9,7 +9,7 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 19,22|🇪DE德国丨yoyapai.com (15)_2
+- name: 19,22|🇪DE德国丨yoyapai.com (16)_2
   network: ws
   password: humanity
   port: 443
@@ -23,7 +23,7 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 19,22|美国(yudou99.com 玉豆分享) (61)
+  name: '19,22|DE德国(mibei77.com 米贝节点分享) (4) #1'
   network: ws
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
@@ -403,7 +403,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19,22|🇩🇪_DE_德国_IPV4_2
+  name: '19,22|🇪_DE_德国_IPV4 #1'
   network: ws
   password: humanity
   port: 443
@@ -552,6 +552,20 @@ proxies:
   sub_tag: C001-260618
   type: ss
   udp: true
+- name: 22|🇩🇪_DE_德国_IPV4_2
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  port: 443
+  server: 191.44.112.170
+  servername: orbylume.my.to
+  skip-cert-verify: true
+  sni: orbylume.my.to
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: orbylume.my.to
+    path: /tvpn-trojan/bg
 - alterId: 0
   cipher: auto
   name: 29|🇩🇪_德国 (5) (2)

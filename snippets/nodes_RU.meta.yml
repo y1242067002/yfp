@@ -441,7 +441,7 @@ proxies:
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: grpc-ru
-  name: 19,22|俄罗斯(yudou99.com 玉豆分享)
+  name: '19,22|(yudou99.com 玉豆分享) #2'
   network: grpc
   port: 443
   server: xsru1.ddnsfree.com
@@ -453,7 +453,7 @@ proxies:
   udp: true
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
 - cipher: chacha20-ietf-poly1305
-  name: '19,22|🇷RU_10|165KB/s|M003-260806 [1c... #1'
+  name: 19|🇷RU_10|165KB/s|M003-260806 [1c...
   password: WkKqrNHRxQXA-bkL2ztAylXw8mE_BYYs
   port: 1080
   server: 83.141.92.138
@@ -541,6 +541,22 @@ proxies:
     headers:
       Host: abc.ilovezhenjiu.top
     path: /pxhrws
+- client-fingerprint: firefox
+  name: '22|RU俄罗斯(mibei77.com 米贝节点分享) (6) #1'
+  network: xhttp
+  port: 443
+  server: cdn.oldertown.ru
+  servername: cdn.oldertown.ru
+  skip-cert-verify: false
+  sni: cdn.oldertown.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29777784-b5ad-4e2a-be7b-335f033ab97c
+  xhttp-opts:
+    host: cdn.oldertown.ru
+    mode: packet-up
+    path: /api/v4/media/session/poll
 - cipher: aes-256-gcm
   name: 22|🇺RU_4|119KB/s|K001-260618 [5b2...
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
@@ -671,6 +687,17 @@ proxies:
   type: vless
   udp: true
   uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
+- name: 35|🇺RU_1|2.1MB/s|P002-260618
+  password: 'null'
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 37|RU_speednode_0029

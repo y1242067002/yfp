@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|🇳CN國丨yoyapai.com_2
+- name: 19,22|HK香港(mibei77.com 米贝节点分享) (4)
   port: 52683
   server: jp.sofast.live
   skip-cert-verify: false
@@ -7,6 +7,17 @@ proxies:
   type: vless
   udp: true
   uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- alterId: 0
+  cipher: auto
+  name: 22|_CN_国_IPV4
+  network: ws
+  port: 10086
+  server: 39.108.113.127
+  tls: false
+  type: vmess
+  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
+  ws-opts:
+    path: /
 - name: 29|🇨🇳_中国
   password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
   port: 44027
@@ -117,18 +128,135 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇨🇳_中国 (12)
-  port: 6666
-  reality-opts:
-    public-key: Ur8yUWNKpZ60t2Vrf9YjbzUSA4uP-dcluSVPWNg2Kn8
-    short-id: ab1f4b270774308f
-  server: proxy.aliproxy.cc.cd
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: vless
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 35|🇨CN_1|1.9MB/s
+  port: 4198
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.200
+  type: wireguard
   udp: true
-  uuid: 87c4a21a-7305-4202-9b10-79a0fcd3bd19
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 35|🇨🇳CN_2|2.6MB/s
+  port: 1180
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.246
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_3|2.8MB/s
+  persistent-keepalive: '5'
+  port: 500
+  private-key: KAVFtrqtH6RDA0JBlZ4rISv5rDMaywO1btSJIxi+vn8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 61
+  - 7
+  - 252
+  server: 162.159.192.7
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_4|3.2MB/s
+  persistent-keepalive: '5'
+  port: 500
+  private-key: 6MOHNyxgcVe2ohk/L50VCvNoAD1dKsVQ+DO/r0GLgk8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 228
+  - 192
+  - 229
+  server: 162.159.192.4
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_5|1.3MB/s
+  persistent-keepalive: '5'
+  port: 987
+  presharedkey: ''
+  private-key: GJTd46xB/fjfi6vyJmpxUiNrNdjZTW0Qhi7b0PkER1Y=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 175
+  - 93
+  - 41
+  server: 188.114.97.6
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '15'
+  wnoisedelay: 1-2
+  wpayloadsize: 5-10
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_6|2.0MB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: 2DpN1E4RZmiBm7x2vlr6vFcIkjixfcTYZtGMlKYPZEM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 125
+  - 168
+  - 120
+  server: 162.159.192.7
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_7|1.8MB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 255
+  - 89
+  - 117
+  server: 162.159.192.1
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- name: 35|🇨🇳CN_8|1.4MB/s
+  password: ''
+  port: 8888
+  server: 123.121.134.141
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''

@@ -40,7 +40,7 @@ proxies:
       Host: spring-sound-8d8e.36-9ff.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: chrome
-  name: '19,22|国(yudou99.com 玉豆分享) #1'
+  name: '19,22|KR韩国(mibei77.com 米贝节点分享) (2) #1'
   network: ws
   port: 31867
   server: 129.151.64.169
@@ -70,7 +70,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '19,22|🇷KR_36|191KB/s|R002-260618 [01... #1'
+- name: 19|🇷KR_36|191KB/s|R002-260618 [01...
   password: VDJjbE0wUWxNMFE2Og
   port: 1090
   server: 121.169.46.116
@@ -96,7 +96,7 @@ proxies:
     path: /
   xudp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇷KR_47|187KB/s|A001-260618 [0a... #1'
+  name: 19|🇷KR_47|187KB/s|A001-260618 [0a...
   password: faBAoD54k87UJG7
   port: 2376
   server: 141.164.45.187
@@ -160,7 +160,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: '19,22|🇷KR_37|276KB/s|R002-260618 [52... #1'
+- name: 19|🇷KR_37|276KB/s|R002-260618 [52...
   port: 1090
   server: 121.169.46.116
   sub_tag: R002-260618
@@ -313,7 +313,7 @@ proxies:
       Host: seoul02.zgjok.com
     path: /
 - client-fingerprint: chrome
-  name: '19,22|🇷KR_4|126KB/s|A004-260618 [eec... #1'
+  name: 19|🇷KR_4|126KB/s|A004-260618 [eec...
   network: tcp
   password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
   port: 56127
@@ -328,7 +328,7 @@ proxies:
     method: GET
     path:
     - /
-  name: '19,22|🇷KR_28|148KB/s|R002-260618 [f0... #1'
+  name: 19|🇷KR_28|148KB/s|R002-260618 [f0...
   network: http
   port: 123
   server: 43.108.103.167
@@ -337,7 +337,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
-- name: 19,22|🇰🇷_KR_韩国_IPV4_2
+- name: '19,22|🇷_KR_国_IPV4 #1'
   password: 3637190e-4ce3-41cd-9425-f5676345b38c
   port: 12308
   server: 3.34.91.121
@@ -346,6 +346,19 @@ proxies:
   sni: kr02.ulifeai.com
   tls: true
   type: trojan
+- name: 22,29|🇩🇪_德国 (26)
+  network: ws
+  port: 443
+  server: 191.44.112.170
+  servername: orbylume.my.to
+  skip-cert-verify: true
+  sni: orbylume.my.to
+  tls: true
+  type: vless
+  udp: true
+  uuid: 46d221fa-e9b4-748c-4eae-019a88e42991
+  ws-opts:
+    path: /tvpn-tor/is
 - cipher: aes-256-gcm
   name: 22|🇷KR_31|163KB/s|M002-260618 [06...
   password: XKFKl2rULjIp74
@@ -467,3 +480,27 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 35|🇷KR_1|2.5MB/s
+  port: 443
+  server: 152.69.230.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇷KR_2|1.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 2087
+  reality-opts:
+    public-key: AAYhSMyOgyytc9fhznqZtWFV-XZJ9t1vwV6vzGaWUi0
+    short-id: 3208691e9b9f3369
+  server: 3.35.47.150
+  servername: test-sto.dev.helpnow.ai
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
+  xudp: true

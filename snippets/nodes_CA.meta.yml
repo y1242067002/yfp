@@ -103,7 +103,7 @@ proxies:
       Host: svn-panel-team.lorqino.ir
     path: /mmd
     v2ray-http-upgrade: true
-- name: 19,22|❓未知丨yoyapai.com (49)_2
+- name: 19,22|❓未知丨yoyapai.com (50)_2
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -375,7 +375,7 @@ proxies:
     path: /asivewritten
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|CA加丨yoyapai.com (21)_2
+  name: 19,22|🇦CA加拿大丨yoyapai.com (21)_2
   port: 443
   reality-opts:
     public-key: NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs
@@ -417,7 +417,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇦CA_16|502KB/s|A004-260618 [10... #1'
+  name: 19|🇦CA_16|502KB/s|A004-260618 [10...
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.12.127
@@ -545,7 +545,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '19,22|🇦CA_31|68KB/s|R002-260618 [6b8... #1'
+- name: 19|🇦CA_31|68KB/s|R002-260618 [6b8...
   port: 3118
   server: 184.75.221.82
   sub_tag: R002-260618
@@ -594,7 +594,7 @@ proxies:
   udp: true
   username: ''
 - cipher: aes-256-gcm
-  name: '19,22|🇦CA_32|262KB/s|A004-260618 [8f... #1'
+  name: 19|🇦CA_32|262KB/s|A004-260618 [8f...
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.141.125
@@ -641,7 +641,7 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- name: '19,22|🇨CA_33|440KB/s|R002-260618 [d7... #1'
+- name: 19|🇨CA_33|440KB/s|R002-260618 [d7...
   port: 9443
   server: 198.44.157.27
   skip-cert-verify: true
@@ -690,6 +690,53 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '22|CA加拿大(mibei77.com 米贝节点分享) (2) #1'
+  network: xhttp
+  port: 443
+  server: cf-cname.xingpingcn.top
+  servername: b4d1f0des220.kuback.top
+  skip-cert-verify: false
+  sni: b4d1f0des220.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: b4d1f0des220.kuback.top
+    mode: auto
+    path: d0dd77efdda074f25b595d9ea8ee5c64
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: node03
+  name: 22|CA加拿大(mibei77.com 米贝节点分享) (3)
+  network: grpc
+  port: 443
+  server: n03.jinggai.online
+  servername: n03.jinggai.online
+  skip-cert-verify: false
+  sni: n03.jinggai.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8
+- name: 22|CA加拿大(mibei77.com 米贝节点分享) (6)
+  network: ws
+  port: 443
+  server: 172.64.149.88
+  servername: top-e4s.pages.dev
+  skip-cert-verify: false
+  sni: top-e4s.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  ws-opts:
+    headers:
+      Host: top-e4s.pages.dev
+    path: /
 - name: 22|🇦CA_36|735KB/s|K001-260618 [16...
   password: None
   port: 9443
@@ -752,7 +799,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 22|🇦CA_7|637KB/s|R002-260618 [651...
+- name: 22,35|🇦CA_4|2.4MB/s
+  password: ''
   port: 9443
   server: 198.44.157.19
   skip-cert-verify: true
@@ -760,6 +808,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: ''
 - client-fingerprint: chrome
   name: 22,29|🇨🇦_加拿大 (2) (2)
   network: tcp
@@ -822,7 +871,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 22|🇨CA_17|833KB/s|K001-260618 [b0...
+- name: 22,35|🇨CA_1|3.1MB/s
   password: None
   port: 9443
   server: 149.88.98.81
@@ -957,6 +1006,24 @@ proxies:
   type: vless
   udp: true
   uuid: 6daa0b95-9210-4f29-be40-8c6db00bc5bb
+- name: 35|🇨CA_2|3.0MB/s|R002-260618
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 35|🇦CA_3|2.3MB/s
+  password: ''
+  port: 9443
+  server: 198.44.142.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大
