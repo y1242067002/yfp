@@ -38,7 +38,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇵JP_16|597KB/s|A004-260618 [2c...
+  name: 19|🇵JP_19|149KB/s|A004-260618 [2c...
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
@@ -46,7 +46,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22|🇵JP_3|759KB/s|A004-260618 [3e7...
+  name: 19|🇵JP_2|692KB/s|A004-260618 [3e7...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -54,7 +54,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22|🇯🇵JP_23|707KB/s|A004-260618 [4...
+  name: 19|🇵JP_56|603KB/s|A004-260618 [46...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
@@ -62,7 +62,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22|🇯🇵JP_11|769KB/s|A004-260618 [5...
+  name: 19|🇵JP_16|731KB/s|A004-260618 [52...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
@@ -99,7 +99,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 19,22|🇵JP_29|516KB/s|C002-260622 [ff...
+  name: 19|🇯🇵JP_54|582KB/s|C002-260622 [f...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -110,7 +110,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇵JP_10|617KB/s|A004-260618 [c6...
+  name: 19|🇵JP_32|607KB/s|A004-260618 [c6...
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
@@ -118,7 +118,7 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19,22|🇵JP_31|105KB/s|C002-260622 [d3...
+  name: 19|🇵JP_77|584KB/s|C002-260622 [d3...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -128,81 +128,6 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 22|🇵JP_59|645KB/s|M003-260806 [7d...
-  network: tcp
-  packet-encoding: xudp
-  port: 32515
-  server: 141.11.139.102
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 22|🇵JP_41|471KB/s|B006-260618 [40...
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  skip-cert-verify: false
-  sub_tag: B006-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇵JP_1|595KB/s|S004-260618 [606...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: jp01.a0a.xyz
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇵JP_36|430KB/s|A004-260618 [89...
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: cdn.sfacg.uk
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇯🇵_日本 (4) (2)
