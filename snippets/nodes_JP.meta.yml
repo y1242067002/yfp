@@ -1,70 +1,21 @@
 proxies:
-- client-fingerprint: firefox
-  name: 29|日期：11-13
+- name: 29|日期：11-14
   network: ws
-  port: 443
-  server: 8.209.108.3
-  servername: dnsss.kdns.fr
+  password: 23a6e4c3-d961-455f-80af-df2ab3cb95d1
+  port: 2083
+  server: 162.159.140.116
+  servername: 17946194445151.206353.xyz
   skip-cert-verify: true
-  sni: dnsss.kdns.fr
+  sni: 17946194445151.206353.xyz
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 7c03538c-c6dd-4dc1-b35c-5fc0e2a43271
   ws-opts:
     headers:
-      Host: dnsss.kdns.fr
-    path: /
+      Host: 17946194441128.206353.xyz
+    path: /agrbniuh
 - client-fingerprint: unsafe
-  name: 29|🇯🇵_日本 (3)
-  network: ws
-  port: 443
-  server: 45.153.245.181
-  servername: jp3.yohototo.top
-  skip-cert-verify: true
-  sni: jp3.yohototo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- client-fingerprint: chrome
   name: 29|🇯🇵_日本 (4)
-  network: ws
-  port: 443
-  server: 162.4.194.35
-  servername: v5-4b5.pages.dev
-  skip-cert-verify: true
-  sni: v5-4b5.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  ws-opts:
-    headers:
-      Host: v5-4b5.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (5)
-  network: ws
-  port: 443
-  server: 167.179.90.137
-  servername: v5-4b5.pages.dev
-  skip-cert-verify: true
-  sni: v5-4b5.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  ws-opts:
-    headers:
-      Host: v5-4b5.pages.dev
-    path: /
-- client-fingerprint: unsafe
-  name: 29|🇯🇵_日本 (6)
   network: ws
   port: 2053
   server: 103.201.131.202
@@ -79,10 +30,27 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: 29|🇯🇵_日本 (7)
+- client-fingerprint: unsafe
+  name: 29|🇯🇵_日本 (5)
   network: ws
   port: 443
-  server: 45.129.8.204
+  server: 45.153.245.181
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  sni: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- client-fingerprint: unsafe
+  name: 29|🇯🇵_日本 (6)
+  network: ws
+  port: 443
+  server: 62.106.70.68
   servername: jp3.yohototo.top
   skip-cert-verify: true
   sni: jp3.yohototo.top
@@ -92,41 +60,65 @@ proxies:
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
     path: /tyxyws
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本 (8)
+- client-fingerprint: unsafe
+  name: 29|🇯🇵_日本 (7)
   network: ws
-  port: 80
-  server: 168.138.43.75
+  port: 443
+  server: 45.142.126.184
+  servername: jp3.yohototo.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: jp3.yohototo.top
+  tls: true
+  type: vless
   udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
-    path: /cctv13.m3u8
-- flow: xtls-rprx-vision
+    path: /tyxyws
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 29|🇯🇵_日本
-  port: 10583
-  server: 3.114.220.22
-  servername: www.apple.com
+  port: 443
+  reality-opts:
+    public-key: sre5tCmHhL4ew0sn0Polhsl_6NvEu4E2LVWYEWUH_UI
+    short-id: 325d4fd6caa3
+  server: zgsnrbbkzsdzdmnmppavjh.jiedddym.com
+  servername: fastcdn.hoyoverse.com
   skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
+  sni: fastcdn.hoyoverse.com
+  tls: true
   type: vless
   udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- flow: xtls-rprx-vision
+  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 29|🇯🇵_日本 (2)
-  port: 8443
-  server: jp.yi-yi.xyz
-  servername: www.cloudflare.com
+  port: 443
+  reality-opts:
+    public-key: SIkoghKAHypuKD6uVc-dwMt5vR-lNxcbpHHsVf4lmzY
+    short-id: 16c7a9b3c7ee83f9
+  server: rrnmbzgsnmbkdbdzdm.jiedddym.com
+  servername: fastcdn.hoyoverse.com
   skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
+  sni: fastcdn.hoyoverse.com
+  tls: true
   type: vless
   udp: true
-  uuid: 36c06e11-028b-40a1-a91f-c8f38f03e829
+  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (3)
+  port: 443
+  reality-opts:
+    public-key: VNH8Q2mvF_LMPryghvH7Qx6eGf3MxZeyAkKGFKcUQDA
+    short-id: 18dcb2a6b0fbd3ef
+  server: rbgnbyglpdsjddlsnmb.jiedddym.com
+  servername: fastcdn.hoyoverse.com
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 33,34|日本|@ripaojiedian

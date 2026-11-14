@@ -1,14 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本 (8)
+- name: 29|日期：11-14
   network: ws
-  port: 80
-  server: 168.138.43.75
+  password: 23a6e4c3-d961-455f-80af-df2ab3cb95d1
+  port: 2083
+  server: 162.159.140.116
+  servername: 17946194445151.206353.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: 17946194445151.206353.xyz
+  tls: true
+  type: trojan
   udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
-    path: /cctv13.m3u8
+    headers:
+      Host: 17946194441128.206353.xyz
+    path: /agrbniuh

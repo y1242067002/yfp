@@ -1,70 +1,7 @@
 proxies:
-- name: 29|🇫🇷_法国 (12)
-  network: ws
-  port: 443
-  server: 84.46.251.105
-  servername: fs.qicai99.com
-  skip-cert-verify: true
-  sni: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    path: /
-- name: 29|🇫🇷_法国 (14)
-  network: ws
-  port: 443
-  server: n1.topingr.ir
-  servername: cdn2.zovip2.ir
-  skip-cert-verify: true
-  sni: cdn2.zovip2.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84be02cf-c5c5-4b33-ba26-31b5f8320033
-  ws-opts:
-    path: /api/v3/pulse
-- name: 29|🇫🇷_法国 (15)
-  network: ws
-  port: 14430
-  server: 138.124.70.41
-  servername: 138.124.70.41
-  skip-cert-verify: true
-  sni: 138.124.70.41
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
-  ws-opts:
-    path: /vless
-- name: 29|🇫🇷_法国 (16)
-  network: ws
-  port: 80
-  server: ov-france1.09vpn.com
-  servername: ov-france1.09vpn.com
-  skip-cert-verify: true
-  sni: ov-france1.09vpn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国 (18)
-  network: ws
-  port: 80
-  server: 152.228.162.19
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  ws-opts:
-    path: /vless/
 - alterId: 0
   cipher: auto
-  name: 29|🇫🇷_法国 (19)
+  name: 29|🇫🇷_法国 (8)
   network: ws
   port: 80
   server: 54.37.131.126
@@ -81,7 +18,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇫🇷_法国 (20)
+  name: 29|🇫🇷_法国 (9)
   network: ws
   port: 80
   server: 145.239.55.210
@@ -96,41 +33,33 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国
-  port: 23576
-  server: 62.210.91.10
-  servername: fuck.rkn
+- name: 29|🇫🇷_法国 (10)
+  network: ws
+  port: 80
+  server: 152.228.162.19
   skip-cert-verify: true
-  sni: fuck.rkn
   tls: false
   type: vless
   udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (2)
-  port: 23576
-  server: 62.210.91.2
-  servername: fuck.rkn
-  skip-cert-verify: true
-  sni: fuck.rkn
-  tls: false
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: 29|🇫🇷_法国 (3)
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  ws-opts:
+    path: /vless/
+- name: 29|🇫🇷_法国 (11)
+  network: ws
   port: 443
-  server: 161.97.66.16
-  servername: www.cloudflare.com
+  server: 84.46.251.105
+  servername: fs.qicai99.com
   skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
+  sni: fs.qicai99.com
+  tls: true
   type: vless
   udp: true
-  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇫🇷_法国 (4)
+  name: 29|🇫🇷_法国
   port: 1270
   server: 79.137.99.183
   skip-cert-verify: true
@@ -138,38 +67,61 @@ proxies:
   type: vmess
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (2)
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 62.210.91.10
+  servername: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+  skip-cert-verify: true
+  sni: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - alterId: 0
   cipher: auto
-  name: 29|🇫🇷_法国 (5)
+  name: 29|🇫🇷_法国 (3)
   port: 1270
-  server: 46.105.222.155
+  server: 46.105.222.157
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (6)
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (4)
   port: 443
-  server: 161.97.160.224
-  servername: passport.yandex.ru
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  server: ai.smrtai.top
+  servername: /?telegramγçöv2ray_confiig
   skip-cert-verify: true
-  sni: passport.yandex.ru
-  tls: false
+  sni: /?telegramγçöv2ray_confiig
+  tls: true
   type: vless
   udp: true
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-- flow: xtls-rprx-vision
-  name: 29|🇫🇷_法国 (7)
-  port: 2087
-  server: 213.199.57.127
-  servername: blog.api.www.cloudflare.com
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇫🇷_法国 (5)
+  port: 443
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  server: 161.97.66.16
+  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: true
-  sni: blog.api.www.cloudflare.com
-  tls: false
+  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+  tls: true
   type: vless
   udp: true
-  uuid: 0f82d566-1273-43c5-a73c-229997b3b4b0
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

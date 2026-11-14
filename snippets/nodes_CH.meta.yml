@@ -1,66 +1,13 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士
-  port: 443
-  server: prvtch.titun.su
-  servername: perevodchiki.su
+- name: 35|🇭CH_1|1.7MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
-  sni: perevodchiki.su
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- name: 29|🇨🇭_瑞士 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.208
-  servername: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: resources.yourultimateprofessionalcareerhub.com
+  sub_tag: R002-260618
   tls: true
-  type: trojan
+  type: http
   udp: true
-- name: 29|🇨🇭_瑞士 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.222
-  servername: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇭_瑞士 (4)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.33
-  servername: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: courses.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 29|🇨🇭_瑞士 (5)
-  port: 2083
-  server: 74.161.152.237
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
-- name: 29|🇨🇭_瑞士 (6)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
-  udp: true
+  x-toolall-mihomo: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa

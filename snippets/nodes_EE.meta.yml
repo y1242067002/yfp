@@ -1,67 +1,23 @@
 proxies:
-- name: 29|🇪🇪_爱沙尼亚 (6)
-  network: ws
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 29|🇪🇪_爱沙尼亚
   port: 443
-  server: 45.83.182.80
-  servername: fs.qicai99.com
+  reality-opts:
+    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+    short-id: 6172ba9cffe9c22f
+  server: 178.214.125.1
+  servername: conf.emaar.ru
   skip-cert-verify: true
-  sni: fs.qicai99.com
+  sni: conf.emaar.ru
   tls: true
   type: vless
   udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    path: /
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚
-  port: 443
-  server: 38.244.155.67
-  servername: node-eu-1.nztpro.com
+  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
+- name: 35|🇪EE_1|1004KB/s
+  port: 9443
+  server: 95.153.31.66
   skip-cert-verify: true
-  sni: node-eu-1.nztpro.com
-  tls: false
-  type: vless
+  tls: true
+  type: http
   udp: true
-  uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (2)
-  port: 443
-  server: 185.215.184.50
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (3)
-  port: 443
-  server: 185.215.184.54
-  servername: 185.215.184.54
-  skip-cert-verify: true
-  sni: 185.215.184.54
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (4)
-  port: 443
-  server: 185.215.184.86
-  servername: 185.215.184.86
-  skip-cert-verify: true
-  sni: 185.215.184.86
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (5)
-  port: 443
-  server: 185.215.184.79
-  servername: 185.215.184.79
-  skip-cert-verify: true
-  sni: 185.215.184.79
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
