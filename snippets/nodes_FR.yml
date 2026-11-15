@@ -1,4 +1,561 @@
 proxies:
+- name: 19,22|FR法丨yoyapai.com_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 19,22|🇷法国丨yoyapai.com_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|🇫🇷FR法丨yoyapai.com_2
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|🇷FR法国丨yoyapai.com_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 19,22|🇫🇷法国丨yoyapai.com (4)_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|🇨🇦CA加拿大丨yoyapai.com (2)_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|🇷FR法國丨yoyapai.com (2)_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|❓未知丨yoyapai.com (37)_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 19,22|🇫🇷FR法国丨yoyapai.com_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- name: 19,22|🇫🇷FR法国丨yoyapai.com (5)_2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 19,22,29|🇭🇰_香港 (2)
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇫🇷FR_19|856KB/s|M003-260806 [0...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.109.228.110
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇫🇷FR_81|5.1MB/s|M003-260806 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.137.99.183
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  fingerprint: 182237C876A4471FEDFB845A07E2EE1E5AA8E10DDAC1F2EBAFE1D6AEBF4333F1
+  name: 19,22|🇫🇷FR_248|1.1MB/s|M003-260806 [...
+  network: ws
+  password: IDgAbZbs8cZw
+  port: 2053
+  server: freedom.to
+  skip-cert-verify: false
+  sni: rAyan02-1d7cmk9v-t3.rayAn-02.worKers.dEV
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  name: 19,22|❓Other_102|233KB/s|P002-260618...
+  password: amazonskr05
+  port: 443
+  server: 15.237.53.254
+  sub_tag: P002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇷FR_94|208KB/s|P002-260618 [57...
+  password: amazonskr05
+  port: 443
+  server: 13.38.12.246
+  sub_tag: P002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇫🇷FR_78|1.8MB/s|M003-260806 [5...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.27
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇫🇷FR_115|2.5MB/s|M003-260806 [...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 162.19.82.57
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-cfb
+  name: 19,22|🇫🇷FR_266|12.2MB/s|A001-260618 ...
+  password: amazonskr05
+  port: 443
+  server: 51.44.170.122
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇷FR_79|3.5MB/s|M003-260806 [84...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 172.99.189.142
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 19,22|❓Other_100|1.3MB/s|F003-260618...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 145.239.55.210
+  servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: false
+  sub_tag: F003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bc80e77-9590-4ded-a48b-0eda493f611b
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇷FR_116|3.5MB/s|M003-260806 [9...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 46.105.222.157
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇫🇷FR_128|78KB/s|A001-260618 [9...
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1352
+  server: dns24.m3hrzd.ir
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇷FR_282|2.1MB/s|M003-260806 [a...
+  password: 29irqk0paakcx19v
+  port: 8080
+  server: 51.83.61.102
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 19,22|🇫🇷FR_37|316KB/s|C001-260618 [b...
+  network: ws
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  sub_tag: C001-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /
+- cipher: aes-256-gcm
+  name: 19,22|🇫🇷FR_18|221KB/s|M003-260806 [c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|❓Other_73|222KB/s|M003-260806 ...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.162.152.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇫🇷FR_9|421KB/s|A001-260618 [ec...
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇫🇷FR_113|3.1MB/s|M003-260806 [...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 46.105.222.155
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- client-fingerprint: chrome
+  name: 22|🇫🇷FR法丨yoyapai.com_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 22|🇫🇷FR法國丨yoyapai.com (2)_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  servername: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇷FR_283|1.1MB/s|M003-260806 [0...
+  password: x19py0a8ipglqkbe
+  port: 8080
+  server: 51.77.144.182
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|🇫🇷FR_129|694KB/s|R002-260618 [...
+  network: ws
+  password: pH[]S[Bh:_:D6T4k
+  port: 443
+  server: 104.19.45.195
+  sni: AZaDneT-692.PagEs.DEv
+  sub_tag: R002-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /trsVu9Ualb1DOfGjpw
+- client-fingerprint: chrome
+  name: 22|🇷FR_181|995KB/s|M003-260806 [2...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.67.135.88
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    max-early-data: 2560
+    path: /tr
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|🇫🇷FR_166|847KB/s|S004-260618 [...
+  network: ws
+  password: vP!XvZBNdw.e*ddSgmH!
+  port: 2096
+  server: 188.114.96.3
+  skip-cert-verify: false
+  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    max-early-data: 2560
+    path: /tr/ZFttmjSqvda5ohOQ
+- client-fingerprint: chrome
+  name: 22|🇷FR_182|1.2MB/s|M002-260618 [3...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  sub_tag: M002-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    max-early-data: 2560
+    path: /tr
+- client-fingerprint: chrome
+  name: 22|🇷FR_154|756KB/s|C002-260622 [7...
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  skip-cert-verify: false
+  sni: azadnet-5vk.pages.dev
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    max-early-data: 2560
+    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
+- cipher: aes-256-gcm
+  name: 22|🇫🇷FR_76|1.7MB/s|M003-260806 [8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.175
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 22|🇫🇷FR_178|1.1MB/s|M003-260806 [...
+  network: ws
+  password: vP!XvZBNdw.e*ddSgmH!
+  port: 2096
+  server: 188.114.96.0
+  skip-cert-verify: false
+  sni: N0Q4xprJ2d4X4pRCQ29l8JkcZd0.paGES.DeV
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tr/lqCTAonDgcErIZylZuNyy
+- client-fingerprint: chrome
+  name: 22|🇫🇷FR_123|1021KB/s|M003-260806 ...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.64.80.1
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /tr
+- alterId: '0'
+  cipher: auto
+  name: 22|🇷FR_117|3.2MB/s|M003-260806 [e...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 79.137.99.183
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- client-fingerprint: edge
+  name: 22|🇫🇷FR_12|266KB/s|M003-260806 [b...
+  network: ws
+  password: 70756c73-0000-4000-8000-650000000000
+  port: 443
+  server: 199.181.197.99
+  skip-cert-verify: false
+  sni: parsa-panel-u48we.wotic15356.workers.dev
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /pulse
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa
