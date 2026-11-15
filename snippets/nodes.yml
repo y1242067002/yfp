@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇹IT_9|3.9MB/s|B007-260618 [c55...
+  name: 19,22,35|🇮🇹IT_2|2.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹_IT_意大利_IPV4_2
+  name: 19,22,35|IT_1|1.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹_IT_意大利_IPV4 (5)_2
+  name: 19,22,35|🇮🇹IT_4|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇮🇹_IT_意大利_IPV4 (2)_2
+  name: 19,22,35|🇮🇹IT_3|2.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -3752,7 +3752,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 19|🇷TR_17|1.6MB/s|M003-260806 [d1...
+- name: 19,35|🇷TR_2|3.7MB/s
   network: tcp
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20027
@@ -5362,13 +5362,13 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,22,29,35|TR_1|1.5MB/s
+- name: 19,22,29,35|TR_1|1.9MB/s
   network: tcp
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20027
   server: sclass-b1.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   sub_tag: R002-260618
   tls: true
@@ -8539,7 +8539,7 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- name: 35|HK_1|2.9MB/s
+- name: 35|HK_1|4.4MB/s
   network: tcp
   password: 3b985d60-e252-4935-8e03-06afeb1144c9
   port: 18000
@@ -8549,6 +8549,21 @@ proxies:
   sni: www.biliimg.com
   type: trojan
   udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 35|🇺🇸US_17|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 47.99.219.144
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 291b5d4a-19ee-4f22-91df-4dc43850b970
+  xudp: true
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

@@ -39,14 +39,16 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: 19|🇷KR_38|452KB/s|R002-260618 [08...
+- name: 19,35|🇷KR_1|1.5MB/s|R002-260618
   port: 443
   server: 152.69.230.221
   skip-cert-verify: true
+  sni: 152.69.230.221
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - cipher: aes-256-cfb
   name: 19,22|🇷KR_36|493KB/s|M001-260618 [2f...
   password: qwerREWQ@@
@@ -264,3 +266,11 @@ proxies:
   udp: true
   uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
   xudp: true
+- name: 35|🇰🇷KR_2|4.9MB/s
+  password: ''
+  port: 80
+  server: 211.188.55.218
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''

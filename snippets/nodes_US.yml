@@ -3003,6 +3003,21 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 35|🇺🇸US_17|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 47.99.219.144
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 291b5d4a-19ee-4f22-91df-4dc43850b970
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇺🇸 _US_美国_1
