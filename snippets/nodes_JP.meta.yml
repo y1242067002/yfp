@@ -199,7 +199,7 @@ proxies:
     path: '%2Fpmcxbjzdau6'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 35|JP_1|5.6MB/s
+  name: 35|🇵JP_1|3.5MB/s
   network: tcp
   port: 43149
   reality-opts:
@@ -212,15 +212,14 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 35|🇵JP_2|1.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+- name: 35|🇵JP_2|4.1MB/s
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  skip-cert-verify: true
+  type: socks5
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  username: paZFN3JA
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|JP_speednode_0018

@@ -1127,9 +1127,29 @@ proxies:
     headers:
       Host: cdn-us.skyvora.app
     path: '%2Fkqdyeo2k4b1'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|US_1|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UkUbCx7k5ykWTJTr1jqCOxns6TwvTAbfR0JvJzuALjM
+    short-id: a62b22480f962a1d
+  server: 162.35.38.156
+  servername: 2499dbt.us12.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: a88d4614-2134-404c-9479-6aba1ca9cdfd
+- name: 35|🇸US_2|2.0MB/s
+  port: 58764
+  server: 118.184.140.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸US_6|2.2MB/s
+  name: 35|🇺🇸US_4|2.1MB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -1143,58 +1163,7 @@ proxies:
   udp: true
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   x-toolall-mihomo: true
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇸US_2|1010KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  server: 104.18.162.1
-  servername: 3m.818567.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-  xhttp-opts:
-    mode: packet-up
-    path: /v-stream
-  xudp: true
-- name: 35|🇸US_3|3.8MB/s|R002-260618
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 35|🇸US_4|2.4MB/s|R002-260618
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 35|🇺🇸US_5|2.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 35|🇺🇸US_7|1.7MB/s
+- name: 35|🇸US_5|2.8MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.220
@@ -1203,28 +1172,45 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 35|🇺🇸US_8|2.4MB/s
+- name: 35|🇸US_6|2.5MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇺🇸US_7|2.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp1-cdn-route.couldflare-cdn.com
+  sni: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 35|🇺🇸US_8|2.5MB/s
   password: ''
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: 35|🇺🇸US_9|2.8MB/s|P002-260618
+- name: 35|🇺🇸US_9|3.2MB/s
   password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.206
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   username: 'null'
-  x-toolall-mihomo: true
-- name: 35|🇺🇸US_10|3.2MB/s
+- name: 35|🇺🇸US_10|2.0MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -1236,98 +1222,57 @@ proxies:
   username: 'null'
 - alpn:
   - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 35|🇸US_11|1.0MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 22335
-  server: 198.200.57.142
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- name: 35|🇺🇸US_18|3.1MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  skip-cert-verify: true
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 35|🇺🇸US_20|2.8MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 5443
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  skip-cert-verify: true
-  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 35|🇺🇸US_14|1.7MB/s
-  password: ''
-  port: 9480
-  server: 104.129.203.85
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- alpn:
   - h2
   - http/1.1
-  client-fingerprint: chrome
+  client-fingerprint: ios
   encryption: none
-  name: 35|🇺🇸US_15|3.3MB/s
-  network: xhttp
+  name: 35|🇺🇸US_11|3.7MB/s
+  network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 104.16.160.8
-  servername: 3m.818567.xyz
+  port: 2087
+  server: 104.18.1.1
+  servername: 1.proxy2.us.ci.
   tls: true
   type: vless
   udp: true
-  uuid: 1662f377-776b-4e49-90d6-dd5b2c7920c8
-  xhttp-opts:
-    mode: packet-up
-    path: /v-stream
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 1.proxy2.us.ci.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /
   xudp: true
-- name: 35|🇸US_16|2.1MB/s
-  password: ''
-  port: 9443
-  server: 104.129.203.244
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_17|3.5MB/s
-  password: ''
-  port: 8800
-  server: 104.129.203.244
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_19|2.6MB/s
-  password: ''
-  port: 3128
-  server: 172.235.147.5
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- name: 35|🇺🇸US_21|2.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.215
+- name: 35|🇺🇸US_12|3.2MB/s
+  password: 'null'
+  port: 8443
+  server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
+  username: 'null'
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_13|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.168.132.123
+  servername: cf-1rm.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+  ws-opts:
+    headers:
+      Host: cf-1rm.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇺🇸 _US_美国_1

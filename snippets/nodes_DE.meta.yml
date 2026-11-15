@@ -490,83 +490,38 @@ proxies:
   type: vless
   udp: true
   uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 35|DE_1|2.0MB/s
+  name: 35|DE_1|3.2MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 33068
+  port: 43000
   reality-opts:
-    public-key: R6ikLAKWuvM4UxkaMchaOe3pOMUsjghIW_w7McCY9Hc
-    short-id: 39b10242
-  server: sijiache.hief.store
-  servername: iosapps.itunes.apple.com
+    public-key: KeFxVlEEuDN8alZBsrXiX9yrcY2-H7lcdzXWjtrIWy0
+    short-id: a9c3bda4
+  server: 178.18.158.12
+  servername: 178.18.158.12
   tls: true
   type: vless
   udp: true
-  uuid: 3012a26e-0f9e-41d9-a64d-5a5b736f8d99
-  xudp: true
-- name: 35|🇩🇪DE_2|2.3MB/s
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35,37|DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 35|🇪DE_5|1.6MB/s|R002-260618
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 35|🇪DE_6|3.6MB/s|P002-260618
-  password: None
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+  uuid: a741d82e-6087-466d-b590-f24e2245d12c
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_7|3.1MB/s
+  name: 35|🇩🇪DE_2|3.0MB/s
   network: tcp
-  packet-encoding: xudp
-  port: 8444
+  port: 443
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: 1a2b3c4d
-  server: 5.175.171.30
-  servername: www.volkswagen.de
+  server: 5.231.28.177
+  servername: images.porsche.com
   tls: true
   type: vless
   udp: true
   uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
-  xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_8|1.5MB/s
+  name: 35|🇩🇪DE_3|2.3MB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -580,49 +535,101 @@ proxies:
   udp: true
   uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
   xudp: true
-- client-fingerprint: ios
+- name: 35|🇪DE_5|2.4MB/s|R002-260618
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 35|🇩🇪DE_6|3.0MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇪DE_7|2.5MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 35|🇩🇪DE_8|4.1MB/s
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 35|🇪DE_9|1.1MB/s|R002-260618
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 35|🇪DE_10|3.1MB/s|R002-260618
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 35|🇩🇪DE_11|2.9MB/s|P002-260618
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇩🇪DE_9|1.9MB/s
+  name: 35|🇩🇪DE_12|2.6MB/s
   network: tcp
   packet-encoding: xudp
-  port: 33068
+  port: 443
   reality-opts:
-    public-key: R6ikLAKWuvM4UxkaMchaOe3pOMUsjghIW_w7McCY9Hc
-    short-id: 39b10242
-  server: sijiache.hief.store
-  servername: iosapps.itunes.apple.com
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: a18b3be822e60825
+  server: 5.175.211.247
+  servername: images.porsche.com
   tls: true
   type: vless
   udp: true
-  uuid: 77720551-467e-4faa-825f-0241acee371e
+  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
   xudp: true
-- name: 35|🇩🇪DE_10|3.4MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 35|🇪DE_11|2.2MB/s
-  password: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇩🇪DE_13|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 37.203.35.27
-  skip-cert-verify: true
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+  server: 5.231.45.196
+  servername: images.porsche.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: ''
-- name: 35|🇩🇪DE_12|2.8MB/s
-  password: 'null'
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
+  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
+  xudp: true
 - name: 37|DE_speednode_0004
   port: 443
   server: 213.109.163.119

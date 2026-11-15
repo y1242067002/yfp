@@ -1,20 +1,28 @@
 proxies:
-- name: 35|CH_1|2.6MB/s
+- name: 35|CH_1|2.8MB/s
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 35|🇨CH_2|2.0MB/s
-  password: ''
+- name: 35|🇨🇭CH_2|3.2MB/s|R002-260618
   port: 9443
-  server: 149.88.27.46
+  server: 37.120.213.210
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  username: ''
+  x-toolall-mihomo: true
+- name: 35|🇭CH_3|1.1MB/s|K001-260618
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
