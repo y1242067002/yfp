@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (5)
+  name: 29|🇬🇧_英国 (3)
   network: ws
   password: MiTiVPN
   port: 443
@@ -18,7 +18,7 @@ proxies:
       Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: firefox
-  name: 29|🇬🇧_英国 (6)
+  name: 29|🇬🇧_英国 (4)
   network: ws
   port: 443
   server: k2.cloud--vpn.site
@@ -36,7 +36,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (7)
+  name: 29|🇬🇧_英国 (5)
   network: ws
   password: MiTiVPN
   port: 443
@@ -54,7 +54,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (8)
+  name: 29|🇬🇧_英国 (6)
   network: ws
   password: MiTiVPN
   port: 443
@@ -71,31 +71,73 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 0
   cipher: auto
-  name: 29|🇬🇧_英国 (9)
+  name: 29|🇻🇬_英属维尔京群岛
   network: ws
-  port: 80
-  server: 57.129.132.223
+  port: 8443
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: true
-  tls: false
+  sni: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
   udp: true
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
-    path: /vmess/
-- client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (10)
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (7)
   network: ws
-  port: 50818
-  server: 34.39.80.57
-  servername: yingguo.rymaker.cn
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: yingguo.rymaker.cn
+  sni: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
   ws-opts:
-    path: /GunService
+    headers:
+      Host: c12.com
+    path: /
+- client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (8)
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (9)
+  network: ws
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇬🇧_英国
@@ -116,51 +158,22 @@ proxies:
   name: 29|🇬🇧_英国 (2)
   port: 443
   reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: dda5f542d835
-  server: webdisk.jaggyslawa.org
-  servername: www.foxsports.com
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+  server: 4935e4t.de25.h1clayd.click
+  servername: 4935e4t.de25.h1clayd.click
   skip-cert-verify: true
-  sni: www.foxsports.com
+  sni: 4935e4t.de25.h1clayd.click
   tls: true
   type: vless
   udp: true
-  uuid: b62e3646-b84d-443c-9c94-718b646502e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (3)
-  port: 443
-  reality-opts:
-    public-key: zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s
-    short-id: 8f79726c5002
-  server: 107.181.151.128
-  servername: www.mozilla.org
-  skip-cert-verify: true
-  sni: www.mozilla.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88742d38-3f5c-4b9c-b256-7df5db8257ec
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (4)
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.12
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 35|🇬GB_1|1.0MB/s|R002-260618
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- name: 35|GB_1|1.6MB/s|P002-260618
+  password: None
   port: 9443
-  server: 84.233.178.33
+  server: 84.17.50.129
   skip-cert-verify: true
-  sub_tag: R002-260618
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
