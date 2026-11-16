@@ -1,60 +1,20 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 22|🇷KR_36|493KB/s|M001-260618 [2f...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  sub_tag: M001-260618
-  type: ss
-  udp: true
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 22|🇷KR_39|657KB/s|M002-260618 [62...
-  network: ws
+  name: 22|🇷KR_31|412KB/s|M002-260618 [e2...
+  network: raw
   packet-encoding: xudp
-  port: 80
-  server: 132.145.80.230
-  servername: kr02.a0a.xyz
+  port: 8888
+  server: 146.56.112.110
   skip-cert-verify: false
   sub_tag: M002-260618
   tls: false
   type: vmess
   udp: true
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- cipher: aes-256-cfb
-  name: 22|🇰🇷KR_26|115KB/s|A004-260618 [6...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇷KR_24|608KB/s|A004-260618 [75...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 132.145.80.230
-  servername: 132.145.80.230
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: 132.145.80.230
-    path: /cctv13.m3u8
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇷KR_32|454KB/s|A004-260618 [90...
+  name: 22|🇰🇷KR_27|445KB/s|A004-260618 [9...
   network: tcp
   password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
   port: 56127
@@ -65,7 +25,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇷KR_42|616KB/s|M003-260806 [ca...
+  name: 22|🇷KR_37|611KB/s|M003-260806 [ca...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -77,7 +37,7 @@ proxies:
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 22|🇷KR_25|582KB/s|R002-260618 [97...
+  name: 22|🇰🇷KR_30|600KB/s|R002-260618 [9...
   network: tcp
   packet-encoding: xudp
   port: 800
@@ -93,7 +53,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 22|🇷KR_35|474KB/s|M003-260806 [c2...
+  name: 22|🇷KR_29|539KB/s|M003-260806 [c2...
   network: tcp
   packet-encoding: xudp
   port: 8888
@@ -106,7 +66,7 @@ proxies:
   uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 22|🇷KR_40|319KB/s|B007-260618 [d6...
+  name: 22|🇷KR_32|82KB/s|B007-260618 [d64...
   password: '!!str 12242'
   port: 10099
   server: 115.161.136.145
@@ -117,7 +77,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: 22|🇷KR_33|474KB/s|P002-260618 [dc...
+  name: 22|🇷KR_16|516KB/s|P002-260618 [dc...
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -134,20 +94,20 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: 22|🇷KR_4|103KB/s|M002-260618 [e22...
-  network: raw
+  name: 22|🇷KR_25|761KB/s|C002-260622 [eb...
+  network: tcp
   packet-encoding: xudp
-  port: 8888
-  server: 146.56.112.110
+  port: 443
+  server: 140.238.2.250
   skip-cert-verify: false
-  sub_tag: M002-260618
+  sub_tag: C002-260622
   tls: false
   type: vmess
   udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇷KR_13|437KB/s|A004-260618 [ee...
+  name: 22|🇷KR_2|513KB/s|A004-260618 [eec...
   network: tcp
   password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
   port: 56127

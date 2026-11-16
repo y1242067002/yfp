@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)_3
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)_2
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -18,7 +18,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|EE丨yoyapai.com尼亚丨yoyapai.com_2
+  name: 22|EE丨yoyapai.com尼亚丨yoyapai.com
   port: 443
   server: 138.124.100.128
   servername: ee4.fast-connect-service.site
@@ -28,7 +28,7 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 22|🇪爱沙尼亚丨yoyapai.com_2
+- name: 22|🇪爱沙尼亚丨yoyapai.com
   password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
   port: 449
   server: 109.206.241.10
@@ -40,7 +40,7 @@ proxies:
   udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|🇪EE爱沙尼亚丨yoyapai.com (3)_2
+  name: 22|🇪EE爱沙尼亚丨yoyapai.com (3)
   port: 2053
   reality-opts:
     public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
@@ -56,7 +56,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: qq
-  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (4)_2
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (4)
   network: ws
   port: 2083
   server: 141.0.187.52
@@ -70,7 +70,7 @@ proxies:
   ws-opts:
     path: /vless-ws
 - client-fingerprint: firefox
-  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (5)_2
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (5)
   network: ws
   port: 2083
   server: 141.0.187.53
@@ -83,26 +83,8 @@ proxies:
   uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
   ws-opts:
     path: /vless-ws
-- name: 22|EE_5|601KB/s|R002-260618 [0a2b...
-  port: 443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|❓Other_39|101KB/s|R002-260618 ...
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 22|🇪EE_1|261KB/s|P002-260618 [2de...
+- name: 22|🇪EE_1|261KB/s|P002-260618 [2de...
   network: tcp
-  packet-encoding: xudp
   port: 16443
   server: 45.86.60.174
   sub_tag: P002-260618
@@ -110,15 +92,6 @@ proxies:
   type: vless
   udp: true
   uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-  xudp: true
-- name: 22|EE_3|1.1MB/s|R002-260618 [988e...
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
 - name: 22|🇪EE_2|243KB/s|P002-260618 [d8d...
   password: None
   port: 9443
@@ -128,3 +101,100 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇪EE_1|874KB/s|C002-260622 [3c0...
+  network: ws
+  packet-encoding: xudp
+  port: 444
+  server: 109.120.155.155
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
+  ws-opts:
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 22|🇪EE_9|528KB/s|K001-260618 [590...
+  password: ''
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 67h2o3erm0t9imsj
+  name: 22|🇪EE_10|2.7MB/s|A001-260618 [75...
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 87.232.116.20
+  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+  xudp: true
+- name: 22|EE_7|938KB/s|K001-260618 [968f...
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 22|🇪EE_3|625KB/s|M003-260806 [bdc...
+  network: ws
+  packet-encoding: xudp
+  port: 444
+  server: 109.120.155.155
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: c325206e-0f0c-4472-9d76-43e9b9b2ef63
+  ws-opts:
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 22|EE_8|904KB/s|K001-260618 [e3d3...
+  password: None
+  port: 443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 22,35|🇪EE_1|2.1MB/s|K001-260618
+  password: None
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true

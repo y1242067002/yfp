@@ -1,5 +1,5 @@
 proxies:
-- name: 22|🇪DE德国丨yoyapai.com (16)_2
+- name: 22|🇪DE德国丨yoyapai.com (16)
   network: ws
   password: humanity
   port: 443
@@ -14,7 +14,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 22|🇩🇪DE德国丨yoyapai.com (8)_3
+  name: 22|🇩🇪DE德国丨yoyapai.com (8)_2
   port: 52080
   server: 23.165.200.150
   skip-cert-verify: false
@@ -23,15 +23,46 @@ proxies:
   udp: true
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - cipher: aes-256-gcm
-  name: 22|🇪DE_11|91KB/s|M003-260806 [057...
+  name: 22|🇪DE_117|4.9MB/s|M003-260806 [0...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.3
   sub_tag: M003-260806
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_116|3.1MB/s|M003-260806 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_1|3.8MB/s [2fcb59fe7abc]
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: 22|🇪DE_30|5.3MB/s|A004-260618 [09...
+  name: 22|🇩🇪DE_8|7.4MB/s|A004-260618 [3e...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_112|2.4MB/s|M003-260806 [4...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.116.98
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 22|🇪DE_44|4.1MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
@@ -41,7 +72,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇩🇪DE_113|4.9MB/s|B007-260618 [...
+  name: 22|🇩🇪DE_126|3.1MB/s|B007-260618 [...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -54,7 +85,7 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇪DE_99|1.9MB/s|B007-260618 [1d...
+  name: 22|🇪DE_122|2.7MB/s|B007-260618 [1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -64,17 +95,9 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_10|125KB/s|M003-260806 [21...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.2
-  sub_tag: M003-260806
-  type: ss
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 22|🇪DE_125|2.2MB/s|K001-260618 [2...
+  name: 22|🇪DE_130|4.0MB/s|K001-260618 [2...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -87,23 +110,19 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- cipher: aes-256-gcm
-  name: 22|❓Other_72|80KB/s|M003-260806 [...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.117.84
+- client-fingerprint: chrome
+  name: 22|🇩🇪DE_172|2.5MB/s|M003-260806 [...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.34
+  skip-cert-verify: false
+  sni: cdn.iloverussia2026.com
   sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇩🇪DE_1|317KB/s [2fcb59fe7abc]
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
+  type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇩🇪DE_72|2.2MB/s|S004-260618 [c...
+  name: 22|🇩🇪DE_94|2.4MB/s|S004-260618 [c...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -113,32 +132,8 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇩🇪DE_111|3.0MB/s|B007-260618 [...
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  port: 8388
-  server: 57.129.113.16
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 22|🇩🇪DE_187|4.5MB/s|M003-260806 [...
-  network: tcp
-  packet-encoding: xudp
-  port: 28382
-  server: 109.70.74.201
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bbb8cee8-548d-4ae2-b2c4-4419160ec1ee
-  xudp: true
 - client-fingerprint: chrome
-  name: 22|🇩🇪DE_158|2.1MB/s|M003-260806 [...
+  name: 22|🇩🇪DE_159|4.2MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -148,16 +143,8 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- cipher: rc4-md5
-  name: 22|🇩🇪DE_2|144KB/s|A004-260618 [3e...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 169.150.210.233
-  sub_tag: A004-260618
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 22|🇪DE_71|4.1MB/s|S004-260618 [e9...
+  name: 22|🇪DE_82|4.4MB/s|S004-260618 [e9...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -167,26 +154,8 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 22|❓Other_89|369KB/s|B007-260618 ...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.78
-  skip-cert-verify: true
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: 22|🇪DE_9|225KB/s|M003-260806 [491...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.116.98
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_94|4.3MB/s|M003-260806 [4d...
+  name: 22|🇩🇪DE_118|4.5MB/s|M003-260806 [...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.83
@@ -194,7 +163,7 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇩🇪DE_74|4.3MB/s|S004-260618 [7...
+  name: 22|🇩🇪DE_83|1.7MB/s|S004-260618 [7...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -205,7 +174,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇩🇪DE_67|1.1MB/s|A004-260618 [e...
+  name: 22|🇩🇪DE_103|4.1MB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -218,7 +187,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇩🇪DE_138|2.2MB/s|B007-260618 [...
+  name: 22|🇪DE_155|4.1MB/s|B007-260618 [5...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -231,67 +200,10 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 22|🇪DE_96|4.8MB/s|M003-260806 [68...
+  name: 22|🇪DE_120|4.8MB/s|M003-260806 [6...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 57.129.76.233
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇪DE_73|4.4MB/s|S004-260618 [97...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.15
-  skip-cert-verify: false
-  sni: courses.iloverussia2026.com
-  sub_tag: S004-260618
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_89|2.1MB/s|M003-260806 [75...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.117.111
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_91|2.7MB/s|M003-260806 [8a...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.118.247
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 22|🇩🇪DE_185|2.6MB/s|M003-260806 [...
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 176.9.199.190
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6bb70a79-c55b-4180-89e3-fc29bfab6662
-  xudp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_31|4.9MB/s|C001-260618 [ac...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
-  sub_tag: C001-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_97|5.0MB/s|M003-260806 [b3...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
   sub_tag: M003-260806
   type: ss
   udp: true
@@ -305,11 +217,12 @@ proxies:
       - down-cdn.dingtalk.com
     path:
     - /QQqun-737805443
-  name: 22|🇪DE_186|1.8MB/s|M003-260806 [b...
+  name: 22|🇪DE_167|3.9MB/s|M003-260806 [b...
   network: http
   packet-encoding: xudp
   port: 52080
   server: 23.165.200.150
+  servername: down-cdn.dingtalk.com
   skip-cert-verify: false
   sub_tag: M003-260806
   tls: false
@@ -317,31 +230,86 @@ proxies:
   udp: true
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
   xudp: true
+- client-fingerprint: chrome
+  name: 22|🇪DE_95|3.0MB/s|S004-260618 [97...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 22|🇪DE_20|2.6MB/s|A004-260618 [be...
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 213.202.208.199
-  sub_tag: A004-260618
+  name: 22|🇪DE_113|4.9MB/s|M003-260806 [7...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.117.111
+  sub_tag: M003-260806
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇩🇪DE_104|692KB/s|A004-260618 [...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  sub_tag: A004-260618
+  name: 22|🇪DE_115|1.8MB/s|M003-260806 [8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.118.247
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇩🇪DE_171|1.4MB/s|M003-260806 [...
+  password: 03y5gbnyl4o1hc2n
+  port: 8080
+  server: 51.38.127.93
+  sub_tag: M003-260806
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇪DE_95|4.3MB/s|M003-260806 [c8...
+  name: 22|🇪DE_45|4.3MB/s|C001-260618 [ac...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  sub_tag: C001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_121|6.1MB/s|M003-260806 [b...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇩🇪DE_119|2.7MB/s|M003-260806 [...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.157.88.43
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22|🇩🇪_DE_德国_IPV4_2
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - https://www.cloudflare.com
+    path:
+    - /
+  name: 22|🇩🇪DE_203|1.9MB/s|M003-260806 [...
+  network: http
+  packet-encoding: xudp
+  port: 58804
+  server: 91.98.221.107
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54bbcea5-44b1-44c9-83db-47b1562f678d
+  xudp: true
+- name: 22|🇩🇪_DE_国_IPV4
   network: ws
   password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443

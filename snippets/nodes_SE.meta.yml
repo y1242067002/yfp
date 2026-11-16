@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: ios
-  name: 22|🇸SE丨yoyapai.com_2
+  name: 22|🇸SE丨yoyapai.com
   port: 443
   reality-opts:
     public-key: fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg
@@ -15,7 +15,7 @@ proxies:
   uuid: e4be912f-68e8-4d51-80a4-1342b646f8e0
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|🇸🇪SE瑞典丨yoyapai.com (3)_2
+  name: 22|🇸🇪SE瑞典丨yoyapai.com (3)
   port: 443
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
@@ -28,7 +28,15 @@ proxies:
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: 22|🇸SE_1|1.1MB/s|P002-260618 [63b...
+- name: 22|SE_1|1.1MB/s|R002-260618 [35a6...
+  port: 9443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|🇸SE_1|1.9MB/s|P002-260618 [63b...
   network: ws
   packet-encoding: xudp
   port: 14430
@@ -48,7 +56,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 22|🇸🇪SE_15|1.3MB/s|M003-260806 [1...
+  name: 22|🇪SE_10|1.1MB/s|M003-260806 [1d...
   network: tcp
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
@@ -58,9 +66,18 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 22|SE_1|1.1MB/s|R002-260618 [35a6...
-  port: 9443
+- name: 22|SE_12|1.0MB/s|P002-260618 [30d...
+  password: None
+  port: 443
   server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|SE_14|1.4MB/s|R002-260618 [3e6...
+  port: 443
+  server: 146.70.242.130
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
@@ -69,7 +86,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇸SE_6|2.3MB/s|B007-260618 [4f4...
+  name: 22|SE_6|2.6MB/s|B007-260618 [4f40...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -84,7 +101,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-  name: 22|🇸SE_12|2.7MB/s|A001-260618 [76...
+  name: 22|SE_8|1.9MB/s|A001-260618 [7615...
   network: grpc
   packet-encoding: xudp
   port: 48115
@@ -96,19 +113,10 @@ proxies:
   udp: true
   uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   xudp: true
-- name: 22|🇪SE_8|848KB/s|P002-260618 [862...
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 22|🇪SE_14|2.6MB/s|B007-260618 [86...
+  name: 22|SE_9|1.3MB/s|B007-260618 [8657...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -120,53 +128,50 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
+- name: 22|🇸SE_16|399KB/s|P002-260618 [af...
+  port: 1080
+  server: 171.25.158.95
+  sub_tag: P002-260618
+  type: socks5
+  udp: true
 - encryption: none
-  name: 22|SE_17|895KB/s|B007-260618 [be5...
+  name: 22|🇸🇪SE_19|1.1MB/s|M003-260806 [b...
   network: xhttp
   packet-encoding: xudp
   port: 3174
-  server: angelvpn.angelmh.cv
-  sub_tag: B007-260618
+  server: sam.my.id
+  sub_tag: M003-260806
   type: vless
   udp: true
-  uuid: 073d862c-6fdf-4dbd-be8c-ecb650bc3e60
+  uuid: 46cc3c41-1528-47b3-b817-ad2091f41618
   xhttp-opts:
     host: firefox.com
     mode: auto
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- name: 22|SE_13|841KB/s|P002-260618 [d0e...
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇸🇪SE_9|265KB/s|P002-260618 [e0...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  sub_tag: P002-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|❓Other_69|417KB/s|M003-260806 ...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 138.199.55.243
+- cipher: aes-128-gcm
+  name: 22|🇸🇪SE_17|1.9MB/s|M003-260806 [e...
+  password: 517403753b63fd4fac88986bf98b11e0
+  port: 18501
+  server: 194.59.250.52
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22|🇪SE_11|579KB/s|P002-260618 [f5...
+- name: 22|🇸SE_13|820KB/s|P002-260618 [f5...
   password: None
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 22|🇪SE_11|1.1MB/s|R002-260618 [f5...
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
