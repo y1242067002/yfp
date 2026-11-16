@@ -725,7 +725,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /
   xudp: true
-- name: 19,22,35,37|FR_speednode_0009
+- name: 19,22,37|FR_speednode_0009
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
@@ -959,7 +959,7 @@ proxies:
     max-early-data: 2048
     path: /Telegram-XV2ry2
   xudp: true
-- name: 19,22,35|🇩🇪DE_3|3.5MB/s
+- name: 19,22,35|🇩🇪DE_6|3.9MB/s
   password: None
   port: 443
   server: 172.64.68.89
@@ -1086,7 +1086,7 @@ proxies:
   sub_tag: A001-260618
   type: ss
   udp: true
-- name: 19,22,35|🇷FR_4|3.8MB/s|K001-260618
+- name: 19,22|🇷FR_43|2.6MB/s|K001-260618 [96...
   password: None
   port: 443
   server: 82.66.235.221
@@ -1096,7 +1096,6 @@ proxies:
   type: http
   udp: true
   username: ''
-  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1193,7 +1192,7 @@ proxies:
         Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- name: 19,22|🇫🇷FR_22|8.5MB/s|R002-260618 [a...
+- name: 19,22,35|🇪DE_5|3.5MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -1567,7 +1566,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22|🇷FR_10|1.2MB/s|R002-260618 [df...
+- name: 19,22,35|Other_1|1023KB/s|R002-260618
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
@@ -1576,6 +1575,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 19,22|❓Other_73|222KB/s|M003-260806 ...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -4286,7 +4286,7 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /videos/forum
   xudp: true
-- name: 22,35|🇷FR_5|2.4MB/s|P002-260618
+- name: 22|❓Other_62|224KB/s|P002-260618 ...
   password: None
   port: 9443
   server: 138.199.47.247
@@ -4295,7 +4295,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   encryption: none
@@ -5009,9 +5008,50 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - client-fingerprint: chrome
+  name: 35|FR_1|3.4MB/s
+  network: xhttp
+  port: 443
+  server: 151.101.36.2
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  xhttp-opts:
+    host: oh4.global.ssl.fastly.net
+    mode: auto
+    no-grpc-header: true
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇷FR_2|2.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 151.101.36.88
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  xhttp-opts:
+    host: ovd5.global.ssl.fastly.net
+    mode: auto
+    no-grpc-header: true
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '16'
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 35|🇷FR_1|2.3MB/s
+  name: 35|🇫🇷FR_3|2.6MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -5027,20 +5067,31 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 35|🇷FR_2|1.0MB/s
-  password: dongtaiwang.com
-  port: 36699
-  server: 163.172.117.163
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
+- client-fingerprint: chrome
+  encryption: none
+  name: 35|🇫🇷FR_5|1.8MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 151.101.36.246
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
   udp: true
-  up: '11'
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  xhttp-opts:
+    host: ovd12.global.ssl.fastly.net
+    mode: auto
+    no-grpc-header: true
+    path: /
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-connections: '16'
+    x-padding-bytes: 100-1000
+  xudp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

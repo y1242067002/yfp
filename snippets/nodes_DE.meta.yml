@@ -765,7 +765,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /vless
   xudp: true
-- name: 19,22,35|🇪DE_10|2.4MB/s|K001-260618
+- name: 19,22,35|🇪DE_11|3.3MB/s|K001-260618
   password: None
   port: 9002
   server: 158.173.154.3
@@ -927,7 +927,7 @@ proxies:
     mode: auto
     path: /
   xudp: true
-- name: 19,22,35|🇪DE_8|3.1MB/s|R002-260618
+- name: 19,22|🇩🇪DE_140|5.9MB/s [47dafdd71c32...
   password: 'null'
   port: 9002
   server: 158.173.154.4
@@ -938,7 +938,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 19,22|🇪DE_9|225KB/s|M003-260806 [491...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -990,7 +989,7 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,35|🇪DE_7|3.5MB/s|R002-260618
+- name: 19,22|🇪DE_6|1010KB/s|R002-260618 [5a...
   password: 'null'
   port: 443
   server: 159.69.94.125
@@ -1000,7 +999,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -1182,8 +1180,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇪DE_11|2.4MB/s
-  password: ''
+- name: 19,22|🇪DE_16|6.9MB/s|R002-260618 [7e...
   port: 443
   server: 193.233.75.115
   skip-cert-verify: true
@@ -1191,7 +1188,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: ''
 - encryption: none
   name: 19,22|🇩🇪DE_139|4.9MB/s|S004-260618 [...
   network: tcp
@@ -1295,7 +1291,7 @@ proxies:
   udp: true
   uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
   xudp: true
-- name: 19,22,35|🇩🇪DE_6|1.9MB/s|R002-260618
+- name: 19,22|🇩🇪DE_87|2.1MB/s|R002-260618 [9...
   password: 'null'
   port: 443
   server: 116.202.172.99
@@ -1305,7 +1301,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1336,7 +1331,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇪DE_9|3.0MB/s|P002-260618
+- name: 19,22|🇪DE_38|4.1MB/s|P002-260618 [a0...
   password: None
   port: 443
   server: 87.106.223.158
@@ -1345,8 +1340,7 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
-- name: 19,22|🇩🇪DE_24|1.3MB/s|R002-260618 [a...
+- name: 19,22,35|🇩🇪DE_12|1.3MB/s|R002-260618
   port: 443
   server: 217.92.132.233
   skip-cert-verify: true
@@ -1354,6 +1348,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - name: 19,22|🇩🇪DE_62|6.5MB/s|R002-260618 [a...
   port: 9002
   server: 158.173.154.4
@@ -1386,7 +1381,7 @@ proxies:
   sub_tag: P002-260618
   type: http
   udp: true
-- name: 19,22|🇪DE_63|4.1MB/s|R002-260618 [ba...
+- name: 19,22,35|🇪DE_10|3.2MB/s|R002-260618
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
@@ -1394,6 +1389,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1563,7 +1559,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19,22,35,37|DK_speednode_0005
+- name: 19,22,37|DK_speednode_0005
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
@@ -2340,6 +2336,20 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /
   xudp: true
+- name: 27|🇩🇪216655 | ⚡️Telegram = t.me/L...
+  password: e45c1654-9184-40c7-b68b-2929ce2a0a89
+  port: 443
+  server: 86.107.179.245
+  sni: cruises-cdn.travel-blogmir.blog
+  tls: false
+  type: hysteria2
+- name: 27|🇩🇪216653 | ⚡️Telegram = t.me/L...
+  password: lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5
+  port: 443
+  server: 212.102.227.131
+  sni: n34.neproxy.net
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 29|🇩🇪_德国 (18)
@@ -2622,8 +2632,24 @@ proxies:
   type: vless
   udp: true
   uuid: 88754146-e9e1-42bc-8e1f-1c090897a235
+- encryption: none
+  name: 35|DE_1|2.8MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.64.46
+  type: vless
+  udp: true
+  uuid: 3c8017c8-0997-4c57-a3a4-c8c101a2a3f8
+  ws-opts:
+    headers:
+      Host: rb24.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  xudp: true
 - client-fingerprint: chrome
-  name: 35|DE_1|2.7MB/s
+  name: 35|🇪DE_3|4.8MB/s
   network: raw
   packet-encoding: xudp
   port: 443
@@ -2637,26 +2663,31 @@ proxies:
   udp: true
   uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 35|🇩🇪DE_2|1.3MB/s
-  network: ws
-  packet-encoding: xudp
+- name: 35|🇩🇪DE_7|2.5MB/s
+  password: 'null'
   port: 443
-  server: 104.24.225.89
-  servername: GhzO7q51sn2b5e2I1670V7dmx.paGES.DEv
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- client-fingerprint: firefox
+  encryption: none
+  name: 35|🇪DE_13|1.2MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: 1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg
+    short-id: 64ad711102f56ca2
+  server: 171.22.133.5
+  servername: de.krabvpn.pro
   tls: true
   type: vless
   udp: true
-  uuid: dbbed131-4ae8-4297-a102-438a2e19b0d9
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ghzo7q51sn2b5e2i1670v7dmx.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    max-early-data: 2560
-    path: /vl/c5R0DRvdSoEZO90UjW3StIJxLpFWZod
+  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  xhttp-opts:
+    mode: auto
+    path: /assets/6c0f3ad762cb7ff51b454076
   xudp: true
