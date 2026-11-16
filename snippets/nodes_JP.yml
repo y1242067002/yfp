@@ -1,82 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|JP_30|292KB/s|K001-260618 [135...
-  password: GqYnv2jx0NueQAcp
-  port: 8388
-  server: 185.141.219.34
-  sub_tag: K001-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇵JP_7|128KB/s|A004-260618 [2ca...
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|🇵JP_29|265KB/s|R002-260618 [7a...
-  network: ws
-  port: 8081
-  server: 168.110.63.247
-  sub_tag: R002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  ws-opts:
-    path: /vless
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: 19|🇵JP_15|229KB/s|S004-260618 [89...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: none
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: none
-    path: /cctv13.m3u8
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|🇵JP_28|378KB/s|R002-260618 [99...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨 @VPNine1)af2501f:110406
-    mode: tls
-  port: 2377
-  server: 13.231.100.94
-  sub_tag: R002-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: 19,22|🇵JP_24|155KB/s|A004-260618 [c6...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇵JP_4|70KB/s|M003-260806 [ff81...
-  password: Bwlqh7GcFB
-  port: 53758
-  server: 168.138.205.100
-  sub_tag: M003-260806
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 22|🇵JP_34|465KB/s|M003-260806 [b5...
   network: tcp
@@ -107,6 +29,14 @@ proxies:
       Host: 168.138.43.75
     path: /cctv13.m3u8
   xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇵JP_7|128KB/s|A004-260618 [2ca...
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 22|🇵JP_23|506KB/s|S004-260618 [60...
@@ -126,6 +56,39 @@ proxies:
       Host: jp01.a0a.xyz
     path: /cctv13.m3u8
   xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇵JP_24|155KB/s|A004-260618 [c6...
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇵JP_4|70KB/s|M003-260806 [ff81...
+  password: Bwlqh7GcFB
+  port: 53758
+  server: 168.138.205.100
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|日期：11-16
+  network: ws
+  port: 443
+  server: 64.188.97.153
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: false
+  sni: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  udp: true
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: d050aca3-9df2-4461-90ec-92373c1d7636

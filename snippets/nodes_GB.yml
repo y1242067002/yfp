@@ -1,17 +1,25 @@
 proxies:
 - client-fingerprint: chrome
-  name: 19,22,29|🇭🇰_香港 (4)
+  name: 22,29|🇭🇰_香港 (3)
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
   server: sclass-c1.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
+- cipher: rc4-md5
+  name: 22|❓Other_18|348KB/s|A004-260618 ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 19,22|🇧GB_38|9.4MB/s|A001-260618 [24...
+  name: 22|🇧GB_38|9.4MB/s|A001-260618 [24...
   password: amazonskr05
   port: 443
   server: 16.60.30.137
@@ -21,7 +29,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,22|🇬🇧GB_16|2.7MB/s|B007-260618 [2...
+  name: 22|🇬🇧GB_16|2.7MB/s|B007-260618 [2...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -34,7 +42,7 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇧GB_10|2.5MB/s|A004-260618 [2d...
+  name: 22|🇧GB_10|2.5MB/s|A004-260618 [2d...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
@@ -42,23 +50,15 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇬🇧GB_18|2.6MB/s|M003-260806 [3...
+  name: 22|🇬🇧GB_18|2.6MB/s|M003-260806 [3...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 198.244.201.129
   sub_tag: M003-260806
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|🇧GB_33|1.7MB/s|M003-260806 [4f...
-  password: fwxkzn0tmurzsvrw
-  port: 8080
-  server: 57.129.138.142
-  sub_tag: M003-260806
-  type: ss
-  udp: true
 - cipher: rc4-md5
-  name: 19,22|🇧GB_8|6.0MB/s|A004-260618 [65c...
+  name: 22|🇧GB_8|6.0MB/s|A004-260618 [65c...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 98.98.207.163
@@ -66,7 +66,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇧GB_17|965KB/s|M003-260806 [7c...
+  name: 22|🇧GB_17|965KB/s|M003-260806 [7c...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 142.202.51.22
@@ -74,38 +74,38 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 19,22|🇬🇧GB_9|7.6MB/s|A004-260618 [7e...
+  name: 22|🇬🇧GB_9|7.6MB/s|A004-260618 [7e...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 98.98.142.161
   sub_tag: A004-260618
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|🇧GB_34|97KB/s|S004-260618 [7fe...
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-  port: 1353
-  server: dns24.m3hrzd.ir
-  sub_tag: S004-260618
-  type: ss
-  udp: true
 - cipher: rc4-md5
-  name: 19,22|🇬🇧GB_6|2.6MB/s|A004-260618 [89...
+  name: 22|🇬🇧GB_6|2.6MB/s|A004-260618 [89...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.46.214
   sub_tag: A004-260618
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 22|🇧GB_30|5.0MB/s|A004-260618 [8e...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: 19,22|❓Other_31|315KB/s [a1915d230d8...
+  name: 22|❓Other_31|315KB/s [a1915d230d8...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|❓Other_74|142KB/s|M003-260806 ...
+  name: 22|❓Other_74|142KB/s|M003-260806 ...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 38.114.120.221
@@ -113,7 +113,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 19,22|🇬🇧GB_7|3.7MB/s|A004-260618 [b5...
+  name: 22|🇬🇧GB_7|3.7MB/s|A004-260618 [b5...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.46.199
@@ -121,42 +121,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇧GB_4|3.9MB/s|M003-260806 [cff...
+  name: 22|🇧GB_4|3.9MB/s|M003-260806 [cff...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 198.244.202.215
   sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19|🇧GB_31|2.6MB/s|B007-260618 [d9...
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 19|🇧GB_32|548KB/s|M003-260806 [f2...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 142.202.51.42
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- cipher: aes-256-gcm
-  name: 22|🇧GB_30|5.0MB/s|A004-260618 [8e...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  sub_tag: A004-260618
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -170,13 +139,13 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (3)
+  name: 29|🇬🇧_英国
   network: ws
   password: MiTiVPN
   port: 443
   server: 151.101.56.7
   servername: ssl.fastly.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ssl.fastly.com
   tls: true
   type: trojan
@@ -188,13 +157,13 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (5)
+  name: 29|🇬🇧_英国 (3)
   network: ws
   password: MiTiVPN
   port: 443
   server: 151.101.56.6
   servername: ssl.fastly.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ssl.fastly.com
   tls: true
   type: trojan
@@ -206,13 +175,13 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 29|🇬🇧_英国 (6)
+  name: 29|🇬🇧_英国 (4)
   network: ws
   password: MiTiVPN
   port: 443
   server: 151.101.56.7
   servername: ssl.fastly.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ssl.fastly.com
   tls: true
   type: trojan
@@ -228,7 +197,7 @@ proxies:
   port: 8443
   server: www.nextkyc.com
   servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: v2ray1.dozapp.xyz
   tls: true
   type: vmess

@@ -1,42 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,22|🇸SE_6|2.3MB/s|B007-260618 [4f4...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 138.199.55.230
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,22|🇪SE_14|2.6MB/s|B007-260618 [86...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 62.93.166.184
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- cipher: aes-256-gcm
-  name: 19,22|❓Other_69|417KB/s|M003-260806 ...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 138.199.55.243
-  sub_tag: M003-260806
-  type: ss
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -51,11 +13,49 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇸SE_6|2.3MB/s|B007-260618 [4f4...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 138.199.55.230
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇪SE_14|2.6MB/s|B007-260618 [86...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 62.93.166.184
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
 - cipher: aes-256-gcm
   name: 22|🇸🇪SE_9|265KB/s|P002-260618 [e0...
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
   sub_tag: P002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|❓Other_69|417KB/s|M003-260806 ...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
   type: ss
   udp: true
