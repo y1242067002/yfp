@@ -755,7 +755,7 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /
   xudp: true
-- name: 22,35|🇩🇪DE_3|4.0MB/s|R002-260618
+- name: 22|🇩🇪DE_22|4.0MB/s|R002-260618 [0...
   port: 443
   server: 116.202.172.99
   skip-cert-verify: true
@@ -763,7 +763,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - name: 22|🇩🇪DE_131|3.7MB/s|K001-260618 [...
   password: 'null'
   port: 443
@@ -1631,7 +1630,7 @@ proxies:
         Chrome/57.0.2987.133 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 22,35|🇪DE_4|4.2MB/s|R002-260618
+- name: 22|🇪DE_111|4.0MB/s|R002-260618 [9...
   password: 'null'
   port: 443
   server: 116.202.172.99
@@ -1641,7 +1640,6 @@ proxies:
   type: http
   udp: true
   username: 'null'
-  x-toolall-mihomo: true
 - name: 22|🇩🇪DE_97|727KB/s|P002-260618 [9...
   password: None
   port: 443
@@ -1715,7 +1713,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22,35|🇩🇪DE_9|3.2MB/s|R002-260618
+- name: 22|🇩🇪DE_11|2.5MB/s|R002-260618 [a...
   port: 9002
   server: 158.173.154.4
   skip-cert-verify: true
@@ -1723,7 +1721,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - encryption: none
   name: 22|🇪DE_110|1.0MB/s|M003-260806 [a...
   network: ws
@@ -1775,7 +1772,7 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,35|🇩🇪DE_7|3.4MB/s|P002-260618
+- name: 22|🇩🇪DE_54|2.6MB/s|P002-260618 [b...
   password: None
   port: 9002
   server: 158.173.154.2
@@ -1784,7 +1781,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: chrome
   encryption: none
   name: 22|🇪DE_34|1.4MB/s|M003-260806 [b8...
@@ -1821,7 +1817,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 22,35|🇩🇪DE_8|2.6MB/s|R002-260618
+- name: 22|🇩🇪DE_14|2.2MB/s|R002-260618 [b...
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
@@ -1829,7 +1825,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - name: 22|🇪DE_105|861KB/s|R002-260618 [b...
   port: 9443
   server: 79.127.156.177
@@ -1838,7 +1833,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 22,35|🇪DE_5|2.7MB/s|R002-260618
+- name: 22|🇪DE_146|1.1MB/s|R002-260618 [b...
   password: None
   port: 443
   server: 149.36.50.157
@@ -1847,7 +1842,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - name: 22|🇩🇪DE_46|2.5MB/s|P002-260618 [c...
   password: None
   port: 443
@@ -2201,20 +2195,6 @@ proxies:
     headers:
       Host: orbylume.my.to
     path: /tvpn-trojan/bg
-- name: 27|🇩🇪216655 | ⚡️Telegram = t.me/L...
-  password: e45c1654-9184-40c7-b68b-2929ce2a0a89
-  port: 443
-  server: 86.107.179.245
-  sni: cruises-cdn.travel-blogmir.blog
-  tls: false
-  type: hysteria2
-- name: 27|🇩🇪216653 | ⚡️Telegram = t.me/L...
-  password: lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5
-  port: 443
-  server: 212.102.227.131
-  sni: n34.neproxy.net
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 29|🇩🇪_德国 (9)
@@ -2388,19 +2368,3 @@ proxies:
   type: vless
   udp: true
   uuid: f8432887-bd79-4e91-9c16-b45a9ad9275d
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt._qY1MWcrBsC4vR5V1hzkHjMTNsnMIRvvkwWc_FBCUCI
-  name: 35|DE_1|1.1MB/s
-  network: ws
-  port: 443
-  server: www.thevicinityapp.cn
-  servername: www.thevicinityapp.cn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1af5253b-75e6-4e2c-8b9e-2b7b92dbb845
-  ws-opts:
-    headers:
-      Host: ded2http.samcdn.shop
-    path: /msn
-    v2ray-http-upgrade: true
