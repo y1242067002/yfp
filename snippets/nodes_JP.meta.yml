@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|🇯🇵JP日本丨yoyapai.com_2
+- name: 19|JP丨yoyapai.com
   network: ws
   port: 18122
   server: 155.248.168.35
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: 19,22|🇵JP日本丨yoyapai.com (2)_2
+- name: 19|🇵JP日本丨yoyapai.com (2)
   network: ws
   port: 11424
   server: 38.47.96.220
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: '19,22|JP丨yoyapai.com #2'
+- name: 19|🇯🇵JP日本節點丨yoyapai.com (2)
   network: ws
   port: 443
   server: 154.197.88.253
@@ -76,7 +76,7 @@ proxies:
   uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|JP日本丨yoyapai.com_2
+  name: 19|JP日本丨yoyapai.com
   port: 443
   reality-opts:
     public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
@@ -300,12 +300,12 @@ proxies:
       Host: v5-4b5.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: 19,29|🇯🇵_日本 (13)
+  name: 19|JP日本(mibei77.com 米贝节点分享) (8)
   network: ws
   port: 443
   server: 167.179.90.137
   servername: v5-4b5.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: v5-4b5.pages.dev
   tls: true
   type: vless
@@ -324,17 +324,16 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇯🇵JP_10|428KB/s|A004-260618 [2...
+  name: 19|JP_9|353KB/s|A004-260618 [2cac...
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,22|🇵JP_55|169KB/s|R002-260618 [4d...
+- name: 19|🇵JP_11|71KB/s|R002-260618 [318...
   port: 443
   server: fan.571589.xyz
-  skip-cert-verify: false
   sni: fan.571589.xyz
   sub_tag: R002-260618
   tls: true
@@ -361,11 +360,11 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 19,29|🇯🇵_日本 (14)
+  name: 19,29|🇯🇵_日本 (12)
   network: ws
   port: 8081
   server: 168.110.63.247
-  skip-cert-verify: true
+  skip-cert-verify: false
   sub_tag: R002-260618
   tls: false
   type: vmess
@@ -406,7 +405,7 @@ proxies:
   type: ss
   udp: true
   x-toolall-mihomo: true
-- name: 19,22|🇯🇵JP_54|96KB/s|R002-260618 [b0...
+- name: 19|🇵JP_14|149KB/s|R002-260618 [b0...
   port: 443
   server: fan.587475.xyz
   sni: fan.587475.xyz
@@ -415,7 +414,7 @@ proxies:
   type: http
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇵JP_20|136KB/s|A004-260618 [c6...
+  name: 19|🇵JP_6|84KB/s|A004-260618 [c675...
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
@@ -436,968 +435,76 @@ proxies:
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
   xudp: true
 - cipher: aes-128-gcm
-  name: 19,22|🇯🇵JP_71|706KB/s|M003-260806 [f...
+  name: 19|🇵JP_25|157KB/s|M003-260806 [ff...
   password: Bwlqh7GcFB
   port: 53758
   server: 168.138.205.100
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 22,29|🇯🇵_日本 (12)
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|日期：11-18
   network: ws
   port: 443
-  server: 207.65.189.9
-  servername: spsudu.pages.dev
-  skip-cert-verify: true
-  sni: spsudu.pages.dev
+  server: 37.18.14.177
+  servername: owj5svd907.deshevayashaurma.icu
+  skip-cert-verify: false
+  sni: owj5svd907.deshevayashaurma.icu
   tls: true
   type: vless
   udp: true
-  uuid: 57715fc4-f787-4e90-9eb2-53fa515fbf37
+  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
   ws-opts:
     headers:
-      Host: spsudu.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_30|475KB/s|A004-260618 [0...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a98013d-7ccb-477b-b613-39a3cff12144
-  ws-opts:
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_39|495KB/s|T001-260618 [11...
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 64.204.49.68
-  servername: vp10.pages.dev
-  sub_tag: T001-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /fp=firefox
-  xudp: true
+      Host: owj5svd907.deshevayashaurma.icu
+    path: /static/collect/037b5c44e12a/
 - alterId: 0
   cipher: auto
-  name: 22|🇯🇵JP_34|135KB/s|S004-260618 [1...
+  name: 29|🇯🇵_日本 (13)
   network: ws
-  packet-encoding: xudp
   port: 80
   server: 168.138.43.75
-  servername: None
   skip-cert-verify: false
-  sub_tag: S004-260618
   tls: false
   type: vmess
   udp: true
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
-    headers:
-      Host: None
     path: /cctv13.m3u8
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_25|420KB/s|M003-260806 [1...
+- name: 29|🇯🇵_日本 (14)
   network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: bdd0a2cf-12c5-4421-82fe-82195a27748f
-  ws-opts:
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_40|272KB/s|T001-260618 [1a...
-  network: ws
-  packet-encoding: xudp
   port: 443
-  server: proxyip.jp.cmliussss.net
-  servername: vp10.pages.dev
-  sub_tag: T001-260618
+  server: 62.106.75.37
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  sni: jp3.yohototo.top
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
-    headers:
-      Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_67|615KB/s|M003-260806 [b5...
-  network: tcp
-  password: F3NzMNuYnG7akU2mSlBY
-  port: 8443
-  server: 193.123.160.109
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_48|418KB/s|M003-260806 [25...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: bb7ece87-1ef1-4d49-8847-7e8736bb77a8
-  ws-opts:
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_45|442KB/s|M003-260806 [2...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06aaca30-c533-40e2-b4d2-159587f74b09
-  ws-opts:
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_32|432KB/s|M003-260806 [2e...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77ac90fe-09fb-4b43-a177-d4309355351a
-  ws-opts:
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_59|439KB/s|F003-260618 [3...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab2a5cc0-11d1-4bc4-a9d4-b5654ad18dc4
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 22|🇵JP_33|355KB/s|P002-260618 [43...
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_17|353KB/s|A004-260618 [4...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
-  ws-opts:
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 22|🇯🇵JP_19|84KB/s|R002-260618 [c8...
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: chrome
-  name: 22|🇵JP_28|436KB/s|M003-260806 [52...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51dfdf6f-4e83-4502-8cfb-29f4ae60f191
-  ws-opts:
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_24|445KB/s|M003-260806 [5...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e53ce49-fb61-45c3-a3c1-bd8df1f9749f
-  ws-opts:
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_51|316KB/s|M003-260806 [56...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11862f41-65ac-4ba2-b035-db3edfdb924f
-  ws-opts:
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_16|423KB/s|M003-260806 [64...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c7501fb-4e23-44d8-9a9e-973807ae4f35
-  ws-opts:
-    headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_41|405KB/s|A004-260618 [6a...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fa79462-3a93-43f6-86b5-82c1536203df
-  ws-opts:
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_14|347KB/s|V006-260618 [72...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  sub_tag: V006-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 980df025-74b9-4853-93e8-fb813006d7e5
-  ws-opts:
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_52|391KB/s|M003-260806 [7...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: e113a561-c9bc-43c6-92da-fd9513f06a00
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 22|🇵JP_76|233KB/s|R002-260618 [76...
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_43|462KB/s|M003-260806 [7...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4217be59-425f-472c-9948-cff6ecf7be0b
-  ws-opts:
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_29|411KB/s|M003-260806 [84...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2336cca-3fd0-45cb-8ac5-1de6d17692b2
-  ws-opts:
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_23|341KB/s|M003-260806 [8...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91cf01c5-62c1-44cd-80e0-df6310025dab
-  ws-opts:
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_60|458KB/s|F003-260618 [94...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  sub_tag: F003-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16a5e4f6-246f-406d-9787-1b5686a97cbc
-  ws-opts:
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_46|337KB/s|M003-260806 [94...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d4b9895-d763-4ceb-90d0-9f32fde48f93
-  ws-opts:
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_49|366KB/s|M003-260806 [95...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0985e268-5c1c-4141-9d96-139f8046c47c
-  ws-opts:
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: firefox
-  name: 22|🇯🇵JP_42|493KB/s|A004-260618 [9...
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 160.16.109.149
-  servername: vp10.pages.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_61|378KB/s|M003-260806 [a0...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62f887dd-cc4d-4a16-a21b-605b026f3a8d
-  ws-opts:
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 22|🇵JP_72|409KB/s [a5ec9ede6c36]
-  password: ''
-  port: 8443
-  server: 64.176.51.83
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_62|311KB/s|M003-260806 [a8...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: c6132790-8a67-42e7-94fc-7a3fe651bb04
-  ws-opts:
-    headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_44|440KB/s|M003-260806 [b...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: b716f5ae-330b-4e40-b2d3-3d8c1dbd0d6d
-  ws-opts:
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_53|428KB/s|M003-260806 [b2...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: eaa44973-2bea-4d5c-af84-aba00add40c8
-  ws-opts:
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_21|428KB/s|A004-260618 [bb...
-  network: ws
-  packet-encoding: xudp
-  port: 4798
-  server: 107.191.53.86
-  servername: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: d179de72-acc9-4a72-836e-d0632a78fde7
-  ws-opts:
-    headers:
-      Host: 5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_26|408KB/s|M003-260806 [c...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2535b77-609e-4482-a163-17b915d17150
-  ws-opts:
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_47|378KB/s|M003-260806 [cb...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: af42cdf8-701e-4a51-b196-a80281dcbe24
-  ws-opts:
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_15|386KB/s|V006-260618 [d7...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  sub_tag: V006-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45b4cd4c-3bd3-4838-b61e-031f75551dd5
-  ws-opts:
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_63|476KB/s|M003-260806 [dc...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9ccfc03-5cc9-4393-86c5-59e0ae681cf0
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_66|338KB/s|M003-260806 [d...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e2d24ab-a0c7-4913-88f3-34d4ef83adc2
-  ws-opts:
-    headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_27|292KB/s|M003-260806 [de...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb4c1c39-2204-43bb-853c-f8579a77feb4
-  ws-opts:
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇯🇵JP_50|444KB/s|M003-260806 [d...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0510d5ab-386f-4c94-9223-3f2b82a15108
-  ws-opts:
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 22|🇯🇵JP_79|488KB/s|P002-260618 [e...
-  password: EGJDy5Kg
-  port: 42000
-  server: 103.248.150.50
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  type: socks5
-  udp: true
-  username: paZFN3JA
-- client-fingerprint: chrome
-  name: 22|🇵JP_31|451KB/s|M003-260806 [eb...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1e61d1c5-383d-406f-9230-1edd3e9449c5
-  ws-opts:
-    headers:
-      Host: d-l28t5-65-b.pbe40wmcujaw726h7cpqernzmawz4stwtrnqve0n1s5reht.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_18|460KB/s|A004-260618 [f9...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-  sub_tag: A004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e6e867-9380-4087-b223-8890ee4b00fc
-  ws-opts:
-    headers:
-      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_22|376KB/s|M003-260806 [fc...
-  network: ws
-  packet-encoding: xudp
-  port: 26418
-  server: 154.31.112.237
-  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6aae2f4c-e012-43b2-ba7f-8c874bf718c4
-  ws-opts:
-    headers:
-      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: firefox
-  name: 22|🇵JP_56|593KB/s|T001-260618 [fd...
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 8.219.155.125
-  servername: vp10.pages.dev
-  sub_tag: T001-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 22|🇵JP_13|395KB/s|M002-260618 [fe...
-  network: ws
-  packet-encoding: xudp
-  port: 57554
-  server: 203.137.165.164
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  sub_tag: M002-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fdb95f9-c758-486c-865a-7c1219823670
-  ws-opts:
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (4)
-  port: 43149
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: 15aa0ad4
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (7)
-  port: 30322
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: 6a60e7e382d6
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (8)
-  port: 47691
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: 2905326a
-  server: zfapi.zalolink.com
-  servername: m.media-amazon.com
-  skip-cert-verify: true
-  sni: m.media-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (9)
-  port: 55688
-  reality-opts:
-    public-key: 6dqd0hqbC0bht9RtsYamvlYdMpxyUbk7uXw0xtO8DzQ
-    short-id: 865c1b2c
-  server: zfapi.zalolink.com
-  servername: bilibili-vn.biliimg.com
-  skip-cert-verify: true
-  sni: bilibili-vn.biliimg.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (11)
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
-  server: zfapi.zalolink.com
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+    path: /tyxyws
 - name: 29|🇯🇵_日本 (15)
+  network: ws
+  port: 443
+  server: 45.153.245.181
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  sni: jp3.yohototo.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    path: /tyxyws
+- name: 29|🇯🇵_日本 (16)
   network: ws
   port: 443
   server: 62.106.70.68
   servername: jp3.yohototo.top
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: jp3.yohototo.top
   tls: true
   type: vless
@@ -1410,16 +517,16 @@ proxies:
   network: ws
   port: 443
   reality-opts:
-    public-key: nZzY--8K_-mm8x4JDzkUFt1be1SQzriGIOmYkbpq1C8
-    short-id: 034f5d5a
-  server: 45.76.106.69
+    public-key: BDt3yJpYIovC6b1iJF2h8qH4LfQAoSC0u3iVa0cFeSM
+    short-id: 6ff775ae
+  server: 172.238.18.103
   servername: itunes.apple.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: db102c51-5f7f-4283-b9c1-942c5c6e2616
+  uuid: f4a4498a-c02f-4862-93ae-8f495c9cd2c0
   ws-opts:
     headers:
       Host: itunes.apple.com
@@ -1429,11 +536,68 @@ proxies:
   network: ws
   port: 443
   reality-opts:
+    public-key: mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg
+    short-id: bd6e3e70
+  server: 139.162.125.126
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (19)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
+    short-id: 7e1e09f4
+  server: 139.162.101.74
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (20)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
+    short-id: e5b03494
+  server: 139.162.91.224
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (21)
+  network: ws
+  port: 443
+  reality-opts:
     public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
     short-id: 0784b134
   server: 172.105.203.15
   servername: itunes.apple.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: itunes.apple.com
   tls: true
   type: vless
@@ -1443,6 +607,171 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (22)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xxPVgbxguyYuVIml6Eh6ZGcDLO1z0OWKZXfDdUGFv1k
+    short-id: 7a7cc838
+  server: 198.13.53.39
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f21c635-ef0a-4b05-8356-f44d463b6e34
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (23)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: N08LwXU5wRTp7VftvXcS3lS7pnNg1fXPvjZ66iJB3nk
+    short-id: e3c05fa9
+  server: 103.29.68.232
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a280a05-7fd1-40d3-83f8-21d68ad55c48
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (24)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
+    short-id: e535df57
+  server: 149.28.29.156
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (25)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: _gFFckW3h8hFfllawgec9U2PDBeLJeCK_Jgk1S5tgC8
+    short-id: 536d7739
+  server: 139.162.91.247
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8cfdacf8-e781-42f0-9872-8d1d22469de5
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (26)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+    short-id: c8559ca1
+  server: 172.104.86.181
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (10)
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: 15aa0ad4
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  skip-cert-verify: false
+  sni: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (6)
+  port: 30322
+  reality-opts:
+    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
+    short-id: 6a60e7e382d6
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  skip-cert-verify: false
+  sni: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (8)
+  port: 54528
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: 54cca3c1c1c7
+  server: zfapi.zalolink.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (9)
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
+  server: zfapi.zalolink.com
+  servername: m.media-amazon.com
+  skip-cert-verify: false
+  sni: m.media-amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本 (11)
+  port: 32515
+  server: 141.11.139.102
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
 - client-fingerprint: chrome
   name: 33|🇯🇵 日本|@ripaojiedian
   network: ws

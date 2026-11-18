@@ -28,7 +28,7 @@ proxies:
   type: vless
   udp: true
   uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-- name: 19,22|🇸SE_1|1.9MB/s|P002-260618 [63b...
+- name: 19|🇸🇪SE_8|1.6MB/s|P002-260618 [63...
   network: ws
   packet-encoding: xudp
   port: 14430
@@ -44,7 +44,7 @@ proxies:
       Host: 5.178.109.174
     path: /vless
   xudp: true
-- name: 19,22|SE_12|1.0MB/s|P002-260618 [30d...
+- name: 19|SE_7|785KB/s|P002-260618 [30db...
   password: None
   port: 443
   server: 146.70.242.146
@@ -56,7 +56,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,22|SE_6|2.6MB/s|B007-260618 [4f40...
+  name: 19|🇸SE_9|2.5MB/s|B007-260618 [4f4...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -79,7 +79,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-  name: 19,22|SE_8|1.9MB/s|A001-260618 [7615...
+  name: 19|🇪SE_10|2.1MB/s|A001-260618 [76...
   network: grpc
   packet-encoding: xudp
   port: 48115
@@ -103,7 +103,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,22|SE_9|1.3MB/s|B007-260618 [8657...
+  name: 19|🇪SE_13|2.5MB/s|B007-260618 [86...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -125,91 +125,28 @@ proxies:
   type: http
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇸SE_5|2.3MB/s|M003-260806 [ed4...
+  name: 19|SE_2|2.9MB/s|M003-260806 [ed43...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22|SE_1|1.1MB/s|R002-260618 [35a6...
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 22|🇪SE_10|1.1MB/s|M003-260806 [1d...
-  network: tcp
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+- client-fingerprint: firefox
+  name: 29|🇸🇪_瑞典
   port: 443
-  server: 95.143.196.97
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  server: 88.216.214.159
+  servername: api-svc-mgr.galioncc.com
   skip-cert-verify: false
-  sni: connect-se.mimowhat.online
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- name: 22|SE_14|1.4MB/s|R002-260618 [3e6...
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  sni: api-svc-mgr.galioncc.com
   tls: true
-  type: http
-  udp: true
-- name: 22|🇸SE_16|399KB/s|P002-260618 [af...
-  port: 1080
-  server: 171.25.158.95
-  sub_tag: P002-260618
-  type: socks5
-  udp: true
-- encryption: none
-  name: 22|🇸🇪SE_19|1.1MB/s|M003-260806 [b...
-  network: xhttp
-  packet-encoding: xudp
-  port: 3174
-  server: sam.my.id
-  sub_tag: M003-260806
   type: vless
   udp: true
-  uuid: 46cc3c41-1528-47b3-b817-ad2091f41618
-  xhttp-opts:
-    host: firefox.com
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: aes-128-gcm
-  name: 22|🇸🇪SE_17|1.9MB/s|M003-260806 [e...
-  password: 517403753b63fd4fac88986bf98b11e0
-  port: 18501
-  server: 194.59.250.52
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 22|🇸SE_13|820KB/s|P002-260618 [f5...
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇪SE_11|1.1MB/s|R002-260618 [f5...
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+- client-fingerprint: ios
   name: 29|🇸🇪_瑞典 (6)
   port: 443
   reality-opts:
@@ -217,62 +154,31 @@ proxies:
     short-id: a7c92e4b10d6f835
   server: 88.216.60.73
   servername: ns-api-gw.galioncc.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ns-api-gw.galioncc.com
   tls: false
   type: vless
   udp: true
   uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: 29|🇸🇪_瑞典 (4)
   port: 443
-  reality-opts:
-    public-key: GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU
-    short-id: 2a67748b0d641e16
-  server: 195.72.62.7
-  servername: fexzoo.net
-  skip-cert-verify: true
-  sni: fexzoo.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-- flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (5)
-  port: 443
-  server: 185.231.101.94
-  servername: fuzora.net
-  skip-cert-verify: true
-  sni: fuzora.net
+  server: 143.246.195.46
+  servername: sweden13.clearorbitllc.com
+  skip-cert-verify: false
+  sni: sweden13.clearorbitllc.com
   tls: false
   type: vless
   udp: true
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
-- client-fingerprint: chrome
-  name: 29|🇸🇪_瑞典 (7)
-  network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
-  skip-cert-verify: true
-  sni: n.tmkkarss.online
+  uuid: 5311859f-0b5d-4c26-a8bf-2648f113e4ea
+- flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (5)
+  port: 443
+  server: lodizu.hagrid-connected.com
+  servername: lodizu.hagrid-connected.com
+  skip-cert-verify: false
+  sni: lodizu.hagrid-connected.com
   tls: true
   type: vless
   udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    path: /
-- name: 29|🇸🇪_瑞典 (8)
-  network: ws
-  port: 14430
-  server: 5.178.109.174
-  servername: 5.178.109.174
-  skip-cert-verify: true
-  sni: 5.178.109.174
-  tls: true
-  type: vless
-  udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    path: /vless
+  uuid: beda6bd0-7ce4-477a-91f1-860d018dbfcb
