@@ -1,75 +1,226 @@
 proxies:
-- name: 29|🇨🇭_瑞士
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 19|🇭CH瑞士丨yoyapai.com
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  server: 45.195.137.219
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 19|🇭CH瑞士丨yoyapai.com (2)
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  server: 45.195.137.119
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 19|🇨🇭CH瑞士丨yoyapai.com (3)
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
+  server: 45.195.137.109
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  sni: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 19|🇭CH瑞士丨yoyapai.com (5)
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  server: prvtch.titun.su
+  servername: perevodchiki.su
+  skip-cert-verify: false
+  sni: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 19|🇨🇭CH瑞士丨yoyapai.com (6)
+  port: 443
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  server: 179.43.166.190
+  servername: perevodchiki.su
+  skip-cert-verify: false
+  sni: perevodchiki.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+- name: 19|瑞士(mibei77.com )
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  servername: images.ctfassets.net
+  skip-cert-verify: false
+  sni: images.ctfassets.net
+  tls: true
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇭_瑞士 (5)
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 208.69.78.158
-  servername: api.yourultimateprofessionalcareerhub.com
+  server: 208.69.78.60
+  servername: cdn.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
-  sni: api.yourultimateprofessionalcareerhub.com
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
   tls: true
   type: trojan
   udp: true
-- name: 29|🇨🇭_瑞士 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.208
-  servername: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-  sni: resources.yourultimateprofessionalcareerhub.com
+- name: 19|CH_48|1.0MB/s [2579f7044e34]
+  password: ''
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
   tls: true
-  type: trojan
+  type: http
   udp: true
-- name: 29|🇨🇭_瑞士 (3)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-  sni: www.yourultimateprofessionalcareerhub.com
+  username: ''
+- name: 19,35|CH_1|2.8MB/s
+  password: ''
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
-  type: trojan
+  type: http
   udp: true
-- name: 29|🇨🇭_瑞士 (4)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.222
-  servername: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-  sni: yourultimateprofessionalcareerhub.com
-  tls: true
-  type: trojan
+  username: ''
+- cipher: aes-256-gcm
+  name: 19|🇨CH_46|3.2MB/s|M003-260806 [72...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.189
+  sub_tag: M003-260806
+  type: ss
   udp: true
-- name: 29|🇨🇭_瑞士 (5)
+- client-fingerprint: chrome
+  name: 19,29|🇨🇭_瑞士 (3)
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.33
   servername: courses.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
   sni: courses.yourultimateprofessionalcareerhub.com
+  sub_tag: C002-260622
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇭_瑞士 (6)
-  port: 42831
-  server: 179.43.140.24
-  servername: down-cdn.dingtalk.com
+- cipher: aes-256-gcm
+  name: 19|🇨CH_2|3.5MB/s|M003-260806 [7d6...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.127
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇭_瑞士 (2)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.208
+  servername: resources.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
-  sni: down-cdn.dingtalk.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-- name: 35|CH_1|2.3MB/s
-  password: ''
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
+  sni: resources.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
   tls: true
-  type: http
+  type: trojan
   udp: true
-  username: ''
+- cipher: aes-256-gcm
+  name: 19|🇭CH_3|1.4MB/s|M003-260806 [9c9...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.127.184.104
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|🇭CH_45|2.7MB/s|M003-260806 [a8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 186.190.215.251
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇭_瑞士
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.158
+  servername: api.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+  sni: api.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19|🇭CH_42|464KB/s|C002-260622 [d4...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.222
+  skip-cert-verify: false
+  sni: yourultimateprofessionalcareerhub.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇭_瑞士 (6)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  servername: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+  sni: www.yourultimateprofessionalcareerhub.com
+  sub_tag: S004-260618
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇭_瑞士 (4)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.29
+  servername: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+  sni: learn.yourultimateprofessionalcareerhub.com
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa

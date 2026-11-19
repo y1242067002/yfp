@@ -1,45 +1,155 @@
 proxies:
+- client-fingerprint: ios
+  name: 19|🇸SE丨yoyapai.com
+  port: 443
+  reality-opts:
+    public-key: fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg
+    short-id: 79ff7d51e3c56323
+  server: 34.51.187.118
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4be912f-68e8-4d51-80a4-1342b646f8e0
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 19|🇸🇪SE瑞典丨yoyapai.com (3)
+  port: 443
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  server: 91.242.228.29
+  servername: se1.mycloud1.org
+  skip-cert-verify: false
+  sni: se1.mycloud1.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+- name: 19|🇸🇪SE_8|1.6MB/s|P002-260618 [63...
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+    path: /vless
+  xudp: true
+- name: 19|SE_7|785KB/s|P002-260618 [30db...
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇸SE_9|2.5MB/s|B007-260618 [4f4...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 138.199.55.230
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- name: 19|🇸🇪SE_1|597KB/s|R002-260618 [73...
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 19|🇪SE_10|2.1MB/s|A001-260618 [76...
+  network: grpc
+  packet-encoding: xudp
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  xudp: true
+- name: 19|🇪SE_11|794KB/s|P002-260618 [86...
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇪SE_13|2.5MB/s|B007-260618 [86...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 62.93.166.184
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- name: 19|SE_12|668KB/s|P002-260618 [d0e...
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|SE_2|2.9MB/s|M003-260806 [ed43...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 29|🇸🇪_瑞典
   port: 443
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7c92e4b10d6f835
-  server: 88.216.214.159
-  servername: api-svc-mgr.galioncc.com
+  server: 88.216.60.73
+  servername: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   skip-cert-verify: false
-  sni: api-svc-mgr.galioncc.com
+  sni: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
   tls: true
   type: vless
   udp: true
   uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-- client-fingerprint: ios
-  name: 29|🇸🇪_瑞典 (6)
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7c92e4b10d6f835
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  skip-cert-verify: false
-  sni: ns-api-gw.galioncc.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-- flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (4)
-  port: 443
-  server: 143.246.195.46
-  servername: sweden13.clearorbitllc.com
-  skip-cert-verify: false
-  sni: sweden13.clearorbitllc.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5311859f-0b5d-4c26-a8bf-2648f113e4ea
-- flow: xtls-rprx-vision
-  name: 29|🇸🇪_瑞典 (5)
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (2)
   port: 443
   server: lodizu.hagrid-connected.com
   servername: lodizu.hagrid-connected.com
@@ -50,21 +160,45 @@ proxies:
   udp: true
   uuid: beda6bd0-7ce4-477a-91f1-860d018dbfcb
 - client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪SE_1|1.2MB/s
-  network: ws
-  packet-encoding: xudp
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (3)
   port: 443
-  server: 31.56.227.253
-  servername: cf-1rm.pages.dev
+  reality-opts:
+    public-key: 1VhM5R3IlHPjzxEeTuik1lcUad-HI6C57MzXxppyXg4
+  server: 88.216.189.192
+  servername: modx.wey-land.net
+  skip-cert-verify: false
+  sni: modx.wey-land.net
   tls: true
   type: vless
   udp: true
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
-  ws-opts:
-    headers:
-      Host: cf-1rm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+- client-fingerprint: firefox
+  name: 29|🇸🇪_瑞典 (3) (2)
+  port: 443
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  server: 88.216.60.73
+  servername: ns-api-gw.galioncc.com
+  skip-cert-verify: false
+  sni: ns-api-gw.galioncc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇸🇪_瑞典 (5)
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
+  skip-cert-verify: false
+  sni: 8a2e72t.nl20.h1clayd.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
