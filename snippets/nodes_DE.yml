@@ -1,19 +1,16 @@
 proxies:
-- name: 19|🇪DE德国丨yoyapai.com (16)
-  network: ws
-  password: humanity
-  port: 443
-  server: 88.198.82.150
-  servername: www.ignitelimit.com
+- alterId: 0
+  cipher: auto
+  name: 19|🇩🇪DE德国 (2)
+  port: 52080
+  server: 23.165.200.150
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  tls: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    path: /assignment
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - cipher: aes-256-gcm
-  name: 19|🇪DE_73|3.7MB/s|M003-260806 [05...
+  name: 19|🇪DE_71|1.1MB/s|M003-260806 [05...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.3
@@ -21,7 +18,7 @@ proxies:
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 19|🇪DE_28|5.2MB/s|A004-260618 [09...
+  name: 19|🇪DE_24|4.6MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
@@ -31,7 +28,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19|🇪DE_79|3.2MB/s|B007-260618 [11...
+  name: 19|🇩🇪DE_79|4.6MB/s|B007-260618 [1...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -43,19 +40,8 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- client-fingerprint: chrome
-  name: 19|🇪DE_77|3.9MB/s|B007-260618 [1d...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.78
-  skip-cert-verify: true
-  sni: 193.108.119.78
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_11|597KB/s|M003-260806 [21...
+  name: 19|🇪DE_98|3.6MB/s|M003-260806 [21...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.2
@@ -64,7 +50,7 @@ proxies:
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 19|🇪DE_94|1.8MB/s|K001-260618 [27...
+  name: 19|🇩🇪DE_82|1.7MB/s|K001-260618 [2...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -78,59 +64,38 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_71|5.0MB/s|M003-260806 [28...
+  name: 19|🇪DE_69|877KB/s|M003-260806 [28...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.117.84
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (2)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.34
-  servername: cdn.iloverussia2026.com
-  skip-cert-verify: false
-  sni: cdn.iloverussia2026.com
-  sub_tag: M003-260806
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_2|5.0MB/s [2fcb59fe7abc]
+  name: 19|🇪DE_4|7.0MB/s [2fcb59fe7abc]
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (14)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.134
-  servername: api.iloverussia2026.com
-  skip-cert-verify: false
-  sni: api.iloverussia2026.com
-  sub_tag: M003-260806
-  tls: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇩🇪DE_107|65KB/s|B007-260618 [3...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  sub_tag: B007-260618
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19|🇪DE_57|3.0MB/s|S004-260618 [e9...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.96
-  skip-cert-verify: false
-  sni: learn.iloverussia2026.com
-  sub_tag: S004-260618
-  type: trojan
+- cipher: rc4-md5
+  name: 19|🇩🇪DE_38|2.6MB/s|A004-260618 [3...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
+  type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇩🇪DE_10|2.6MB/s|M003-260806 [4...
+  name: 19|🇩🇪DE_97|5.3MB/s|M003-260806 [4...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.116.98
@@ -138,30 +103,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇩🇪DE_74|3.2MB/s|M003-260806 [4...
+  name: 19|🇪DE_72|3.6MB/s|M003-260806 [4d...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.83
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (7)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.193
-  servername: resources.iloverussia2026.com
-  skip-cert-verify: false
-  sni: resources.iloverussia2026.com
-  sub_tag: S004-260618
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19|🇪DE_102|3.0MB/s|B007-260618 [5...
+  name: 19|🇪DE_111|2.5MB/s|B007-260618 [5...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -174,28 +126,15 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_75|6.2MB/s|M003-260806 [68...
+  name: 19|🇪DE_74|4.0MB/s|M003-260806 [68...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 57.129.76.233
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (10)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.15
-  servername: courses.iloverussia2026.com
-  skip-cert-verify: false
-  sni: courses.iloverussia2026.com
-  sub_tag: S004-260618
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_70|2.9MB/s|M003-260806 [75...
+  name: 19|🇪DE_68|1.9MB/s|M003-260806 [75...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.117.111
@@ -203,7 +142,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇪DE_72|4.4MB/s|M003-260806 [8a...
+  name: 19|🇪DE_70|3.4MB/s|M003-260806 [8a...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.118.247
@@ -211,7 +150,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19|🇩🇪DE_126|206KB/s|M003-260806 [...
+  name: 19|🇩🇪DE_126|664KB/s|M003-260806 [...
   password: 03y5gbnyl4o1hc2n
   port: 8080
   server: 51.38.127.93
@@ -219,46 +158,68 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇩🇪DE_4|5.7MB/s|C001-260618 [ac...
+  name: 19|🇩🇪DE_28|5.9MB/s|C001-260618 [a...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
   sub_tag: C001-260618
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19,29|🇩🇪_德国 (5)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.78
-  servername: www.iloverussia2026.com
+- cipher: aes-256-gcm
+  name: 19|🇪DE_75|1.9MB/s|M003-260806 [b3...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    path:
+    - /QQqun-737805443
+  name: 19|🇪DE_122|1.8MB/s|M003-260806 [b...
+  network: http
+  packet-encoding: xudp
+  port: 52080
+  server: 23.165.200.150
   skip-cert-verify: false
-  sni: www.iloverussia2026.com
-  sub_tag: S004-260618
-  tls: true
-  type: trojan
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19|🇩🇪DE_42|1.0MB/s|A004-260618 [b...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇩🇪DE_12|3.2MB/s|M003-260806 [c...
+  name: 19|🇩🇪DE_88|437KB/s|A004-260618 [c...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|🇪DE_73|3.8MB/s|M003-260806 [c8...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.157.88.43
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 19|🇩🇪DE_55|4.1MB/s|A004-260618 [e...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  skip-cert-verify: false
-  sni: blog.iloverussia2026.com
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- name: 19|🇩🇪_DE_国_IPV4
+- name: 19|🇩🇪_DE_德国_IPV4_2
   network: ws
   password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
@@ -272,6 +233,46 @@ proxies:
     headers:
       Host: orbylume.my.to
     path: /tvpn-trojan/bg
+- name: 29|🇩🇪_德国 (2)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.34
+  servername: cdn.iloverussia2026.com
+  skip-cert-verify: false
+  sni: cdn.iloverussia2026.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇩🇪_德国 (5)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  servername: www.iloverussia2026.com
+  skip-cert-verify: false
+  sni: www.iloverussia2026.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇩🇪_德国 (7)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.193
+  servername: resources.iloverussia2026.com
+  skip-cert-verify: false
+  sni: resources.iloverussia2026.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇩🇪_德国 (10)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  servername: courses.iloverussia2026.com
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 29|🇩🇪_德国 (11) (2)
