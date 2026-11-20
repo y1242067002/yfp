@@ -1,35 +1,19 @@
 proxies:
-- name: 19|🇸🇪SE_2|1.9MB/s|P002-260618 [63...
-  network: ws
-  packet-encoding: xudp
-  port: 14430
-  server: 5.178.109.174
-  servername: 5.178.109.174
-  sub_tag: P002-260618
-  tls: false
+- client-fingerprint: firefox
+  name: 22|US美国mibei77.com 米贝节点分享) (2)
+  port: 443
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  server: 88.216.60.73
+  servername: ns-api-gw.galioncc.com
+  skip-cert-verify: false
+  sni: ns-api-gw.galioncc.com
+  tls: true
   type: vless
   udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    headers:
-      Host: 5.178.109.174
-    path: /vless
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 19|🇪SE_12|1002KB/s|M003-260806 [1...
-  network: tcp
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  port: 443
-  server: 95.143.196.97
-  skip-cert-verify: false
-  sni: connect-se.mimowhat.online
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- name: 19|SE_15|851KB/s|R002-260618 [35a...
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+- name: 22|SE_3|233KB/s|R002-260618 [35a6...
   port: 9443
   server: 146.70.242.146
   skip-cert-verify: true
@@ -37,18 +21,43 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇪SE_3|1.2MB/s|R002-260618 [3e6...
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
+- name: 22|🇸SE_3|338KB/s|A004-260618 [199...
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: A004-260618
+  tls: false
+  type: vless
   udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /vless
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 22|🇪SE_3|119KB/s|A001-260618 [761...
+  network: grpc
+  packet-encoding: xudp
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19|🇪SE_9|1.4MB/s|B007-260618 [4f4...
+  name: 22|🇸🇪SE_1|400KB/s|B007-260618 [4f...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -60,58 +69,20 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19|🇸🇪SE_13|978KB/s|R002-260618 [7...
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19|🇪SE_11|2.0MB/s|B007-260618 [86...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 62.93.166.184
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - cipher: aes-256-gcm
-  name: 19|🇸SE_7|3.7MB/s|P002-260618 [e00...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  sub_tag: P002-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|🇪SE_8|2.6MB/s|M003-260806 [ed4...
+  name: 22|🇸SE_1|523KB/s|M003-260806 [ed4...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
   sub_tag: M003-260806
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 19|🇪SE_16|3.0MB/s|M003-260806 [ed...
-  password: 517403753b63fd4fac88986bf98b11e0
-  port: 18501
-  server: 194.59.250.52
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 19|🇸SE_4|1.2MB/s|R002-260618 [f52...
+- name: 22|🇸SE_4|422KB/s|P002-260618 [862...
+  password: None
   port: 443
   server: 79.142.77.63
   skip-cert-verify: true
-  sub_tag: R002-260618
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true

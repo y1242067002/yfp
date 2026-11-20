@@ -1,6 +1,15 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19|🇺_RU丨yoyapai.com
+  name: 22|🇷🇺 RU俄羅斯丨yoyapai.com_3
+  password: 7e1dd4c55bf85da5
+  port: 30129
+  server: 212.192.13.91
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇺_RU丨yoyapai.com_2
   password: 895b4b796a357570
   port: 10910
   server: 176.32.35.51
@@ -9,7 +18,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇷🇺_RU俄羅斯丨yoyapai.com (2)
+  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_2
   password: 895b4b796a357570
   port: 10916
   server: 176.32.35.51
@@ -18,7 +27,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇷🇺_RU俄羅斯丨yoyapai.com (3)
+  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_2
   password: bdb313adf74c2ede
   port: 20188
   server: 195.133.5.207
@@ -26,13 +35,12 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 19|🇷🇺 RU俄羅斯丨yoyapai.com
-  password: 7e1dd4c55bf85da5
-  port: 30129
-  server: 212.192.13.91
-  skip-cert-verify: false
-  tls: false
+- cipher: chacha20-ietf-poly1305
+  name: 22|RU_1|657KB/s|B007-260618 [7a8b...
+  password: por7Eu0qqxHmGMA9mRXys9kR7u8g7KGyNIxUNT
+  port: 29348
+  server: 192.144.59.146
+  sub_tag: B007-260618
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305

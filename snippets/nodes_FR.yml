@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 19|FR法丨yoyapai.com
+  name: 22|🇷FR法丨yoyapai.com_3
   network: ws
   password: humanity
   port: 443
@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 19|🇫🇷FR法丨yoyapai.com
+  name: 22|🇫🇷FR法丨yoyapai.com_3
   network: ws
   password: humanity
   port: 443
@@ -28,7 +28,7 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 19|🇫🇷FR法國丨yoyapai.com (2)
+  name: 22|🇫🇷FR法國丨yoyapai.com (2)_3
   network: ws
   password: humanity
   port: 443
@@ -41,7 +41,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 19|FR国(mibei77.com 米贝节点分享)
+- name: 22|FR法国(mibei77.com 米贝节点分享)_3
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com
@@ -51,28 +51,22 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (3)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.109.228.110
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
+- name: 22|FR_25|246KB/s|C001-260618 [091...
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: longwanghen.pages.dev
+  sub_tag: C001-260618
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19,29|🇫🇷_法国 (15)
-  password: x19py0a8ipglqkbe
-  port: 8080
-  server: 51.77.144.182
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: longwanghen.pages.dev
+    path: /
 - cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (8)
+  name: 22,29|🇫🇷_法国 (8)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 79.137.99.183
@@ -81,16 +75,8 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 19|🇷FR_102|6.6MB/s|P002-260618 [4...
-  password: amazonskr05
-  port: 443
-  server: 15.237.53.254
-  sub_tag: P002-260618
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (17)
+  name: 22,29|🇫🇷_法国 (17)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 167.17.64.27
@@ -99,13 +85,41 @@ proxies:
   tls: false
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 22|🇫🇷FR_31|256KB/s|A001-260618 [7...
+  password: amazonskr05
+  port: 443
+  server: 51.44.170.122
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22,29|🇫🇷_法国 (12)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 172.99.189.142
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22,29|🇫🇷_法国 (13)
+  password: 29irqk0paakcx19v
+  port: 8080
+  server: 51.83.61.102
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 19|🇷FR_59|3.2MB/s|M003-260806 [6a...
+  name: 22|🇫🇷FR_16|1.1MB/s|M003-260806 [e...
   network: tcp
   packet-encoding: xudp
   port: 1270
-  server: 162.19.82.57
+  server: 79.137.99.183
   servername: xmfhlpy.com
   skip-cert-verify: false
   sub_tag: M003-260806
@@ -114,8 +128,18 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
+- cipher: aes-256-gcm
+  name: 22,29|🇫🇷_法国 (3)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.109.228.110
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 19|🇫🇷FR_87|673KB/s|C002-260622 [7...
+  name: 22|🇫🇷FR_11|185KB/s|C002-260622 [7...
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
@@ -132,29 +156,11 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     max-early-data: 2560
     path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
-- cipher: aes-256-cfb
-  name: 19|🇫🇷FR_104|8.8MB/s|A001-260618 [...
-  password: amazonskr05
-  port: 443
-  server: 51.44.170.122
-  sub_tag: A001-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (12)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 172.99.189.142
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: 19,29|🇫🇷_法国 (5)
+  name: 22,29|🇫🇷_法国 (5)
   network: ws
   packet-encoding: xudp
   port: 80
@@ -162,7 +168,7 @@ proxies:
   servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
   skip-cert-verify: false
   sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  sub_tag: F003-260618
+  sub_tag: M003-260806
   tls: false
   type: vmess
   udp: true
@@ -172,42 +178,7 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
   xudp: true
-- cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (4)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.175
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 19|🇷FR_60|4.2MB/s|M003-260806 [93...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 46.105.222.157
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19,29|🇫🇷_法国 (13)
-  password: 29irqk0paakcx19v
-  port: 8080
-  server: 51.83.61.102
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- name: 19|🇷FR_88|356KB/s|C001-260618 [b4...
+- name: 22|🇫🇷FR_8|221KB/s|C001-260618 [b4...
   network: ws
   password: '!!str 123456'
   port: 2096
@@ -221,105 +192,33 @@ proxies:
     headers:
       Host: 321dfbc6.uir-9i6.pages.dev
     path: /
-- alterId: '0'
-  cipher: auto
-  name: 19|🇷FR_128|2.9MB/s|M003-260806 [c...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 91.134.35.72
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (14)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.22
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 19|🇫🇷FR_121|1.0MB/s|S004-260618 [...
-  network: ws
-  password: auto
-  port: 2096
-  server: 104.17.128.1
-  skip-cert-verify: false
-  sni: azadnet-5o5.pages.dev
-  sub_tag: S004-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    max-early-data: 2560
-    path: /azadnet-5o5.pages.dev/
-- name: 19|🇫🇷FR_109|1.3MB/s|M001-260618 [...
-  network: ws
-  password: reinz
-  port: 443
-  server: 104.26.6.171
-  skip-cert-verify: false
-  sni: tsg3.pages.dev
-  sub_tag: M001-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: tsg3.pages.dev
-    max-early-data: 2560
-    path: /
-- cipher: aes-256-gcm
-  name: 19,29|🇫🇷_法国 (9)
+  name: 29|🇫🇷_法国 (9)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.162.152.22
   skip-cert-verify: false
-  sub_tag: M003-260806
   tls: false
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 19|🇫🇷FR_61|4.0MB/s|M003-260806 [e...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 79.137.99.183
-  servername: xmfhlpy.com
+- cipher: aes-256-gcm
+  name: 29|🇫🇷_法国 (14)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.22
   skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
+  tls: false
+  type: ss
   udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 19|🇫🇷FR_58|4.9MB/s|M003-260806 [f...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 46.105.222.155
-  servername: xmfhlpy.com
+- cipher: chacha20-ietf-poly1305
+  name: 29|🇫🇷_法国 (15)
+  password: x19py0a8ipglqkbe
+  port: 8080
+  server: 51.77.144.182
   skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
+  tls: false
+  type: ss
   udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

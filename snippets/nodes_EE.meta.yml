@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19|🇪🇪EE爱沙尼亚丨yoyapai.com (2)
+  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -14,51 +14,21 @@ proxies:
   type: vless
   udp: true
   uuid: 2acc3742-c568-11f1-9902-a337233c6cda
-- encryption: none
-  name: 19,29|🇨🇾_塞浦路斯 (2)
+- name: 22,29|🇨🇾_塞浦路斯 (2)
   network: tcp
-  packet-encoding: xudp
   port: 16443
   server: 45.86.60.174
   skip-cert-verify: false
-  sub_tag: M003-260806
+  sub_tag: P002-260618
   tls: false
   type: vless
   udp: true
   uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-  xudp: true
-- name: 19|🇪EE_1|504KB/s|R002-260618 [6b8...
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 19|🇪EE_6|1.0MB/s|K001-260618 [968...
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 19|🇪EE_5|741KB/s|R002-260618 [988...
+- name: 22|EE_1|368KB/s|R002-260618 [988e...
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
   sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 19|EE_7|769KB/s|P002-260618 [d8de...
-  password: None
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
@@ -103,14 +73,3 @@ proxies:
   type: vless
   udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 35|🇪EE_1|2.8MB/s
-  network: tcp
-  port: 443
-  server: 217.60.100.222
-  servername: 217.60.100.222
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6

@@ -1,22 +1,8 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 19|🇪SE_12|1002KB/s|M003-260806 [1...
-  network: tcp
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  port: 443
-  server: 95.143.196.97
-  skip-cert-verify: false
-  sni: connect-se.mimowhat.online
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19|🇪SE_9|1.4MB/s|B007-260618 [4f4...
+  name: 22|🇸🇪SE_1|400KB/s|B007-260618 [4f...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -28,42 +14,11 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19|🇪SE_11|2.0MB/s|B007-260618 [86...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 62.93.166.184
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - cipher: aes-256-gcm
-  name: 19|🇸SE_7|3.7MB/s|P002-260618 [e00...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  sub_tag: P002-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|🇪SE_8|2.6MB/s|M003-260806 [ed4...
+  name: 22|🇸SE_1|523KB/s|M003-260806 [ed4...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19|🇪SE_16|3.0MB/s|M003-260806 [ed...
-  password: 517403753b63fd4fac88986bf98b11e0
-  port: 18501
-  server: 194.59.250.52
   sub_tag: M003-260806
   type: ss
   udp: true

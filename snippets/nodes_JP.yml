@@ -1,7 +1,28 @@
 proxies:
+- client-fingerprint: chrome
+  name: 22|JP_1|229KB/s|C002-260622 [1d69...
+  network: tcp
+  password: F3NzMNuYnG7akU2mSlBY
+  port: 8443
+  server: 193.123.160.109
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 22,29|🇯🇵_日本 (12)
+  password: Bwlqh7GcFB
+  port: 53758
+  server: 168.138.205.100
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 19|🇵JP_19|564KB/s|S004-260618 [13...
+  name: 22|🇯🇵JP_1|486KB/s|S004-260618 [13...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -19,18 +40,26 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - cipher: aes-256-gcm
-  name: 19,29|🇯🇵_日本 (8)
-  password: 3eOFeNssde7PYYMv
+  name: 22|🇵JP_4|454KB/s|B007-260618 [365...
+  password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
+  port: 8388
+  server: 64.176.57.251
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 22,29|🇯🇵_日本 (9)
+  password: shadowsocks
   port: 443
-  server: 84.247.155.196
+  server: 149.22.87.240
   skip-cert-verify: false
-  sub_tag: A004-260618
+  sub_tag: A001-260618
   tls: false
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19|🇯🇵JP_8|561KB/s|S004-260618 [60...
+  name: 22|🇵JP_1|422KB/s|S004-260618 [606...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -47,71 +76,13 @@ proxies:
       Host: jp01.a0a.xyz
     path: /cctv13.m3u8
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 19|🇵JP_11|255KB/s|S004-260618 [89...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: none
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: none
-    path: /cctv13.m3u8
-  xudp: true
 - cipher: aes-128-gcm
-  name: 19,29|🇯🇵_日本 (6)
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
+  name: 22,29|🇯🇵_日本 (5)
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
   skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,29|🇯🇵_日本 (11)
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 19|🇵JP_21|286KB/s|F003-260618 [e3...
-  network: ws
-  packet-encoding: xudp
-  port: 2083
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  sub_tag: F003-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
-  xudp: true
-- cipher: aes-128-gcm
-  name: 19,29|🇯🇵_日本 (12)
-  password: Bwlqh7GcFB
-  port: 53758
-  server: 168.138.205.100
-  skip-cert-verify: false
-  sub_tag: M003-260806
+  sub_tag: A001-260618
   tls: false
   type: ss
   udp: true
@@ -134,19 +105,28 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 29|🇯🇵_日本 (5)
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
+  name: 29|🇯🇵_日本 (6)
+  password: Bwlqh7GcFB
+  port: 53758
+  server: jpa.123069.xyz
   skip-cert-verify: false
   tls: false
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 29|🇯🇵_日本 (9)
-  password: shadowsocks
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (8)
+  password: 3eOFeNssde7PYYMv
   port: 443
-  server: 149.22.87.240
+  server: 84.247.155.196
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (11)
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
   skip-cert-verify: false
   tls: false
   type: ss
