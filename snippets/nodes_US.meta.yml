@@ -549,11 +549,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,35|🇸US_10|1.6MB/s
+- name: 19|🇸US_690|1.1MB/s|R002-260618 [0...
   password: 75bPoRcB
   port: 62000
   server: 216.132.114.27
-  skip-cert-verify: true
   sub_tag: R002-260618
   type: socks5
   udp: true
@@ -1090,11 +1089,10 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: 19,35|🇸US_11|1023KB/s
+- name: 19|🇺🇸US_692|383KB/s|R002-260618 [...
   password: kingstar123++
   port: 62000
   server: 23.230.200.250
-  skip-cert-verify: true
   sub_tag: R002-260618
   type: socks5
   udp: true
@@ -1274,7 +1272,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,35|🇺🇸US_8|1.5MB/s
+- name: 19|🇺🇸US_691|1.3MB/s|R002-260618 [...
   password: r1703057as
   port: 62000
   server: 216.132.114.182
@@ -2562,7 +2560,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19,35|🇺🇸US_9|3.3MB/s
+- name: 19|🇺🇸US_652|1.2MB/s|R002-260618 [...
   password: 7i1dheg6
   port: 62000
   server: 216.132.114.194
@@ -3452,7 +3450,7 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: 19,35|🇸US_3|3.1MB/s
+- name: 19,35|🇸US_2|1.3MB/s
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
@@ -3606,7 +3604,7 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19,35|🇺🇸US_5|3.1MB/s
+- name: 19,35|🇸US_3|3.3MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
@@ -4524,7 +4522,7 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19,35|🇸US_7|2.2MB/s
+- name: 19|🇺🇸US_557|869KB/s|R002-260618 [...
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
@@ -5078,7 +5076,7 @@ proxies:
     max-early-data: 2048
     path: /ws
   xudp: true
-- name: 19,35,37|US_speednode_0040
+- name: 19,37|US_speednode_0040
   port: 443
   server: 38.247.141.135
   skip-cert-verify: true
@@ -5298,7 +5296,8 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /3b575ddc8596
   xudp: true
-- name: 19|🇺🇸US_175|892KB/s|R002-260618 [...
+- name: 19,35|🇸US_7|2.9MB/s
+  password: ''
   port: 443
   server: 23.133.176.14
   skip-cert-verify: true
@@ -5306,6 +5305,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: ''
 - name: 19|🇺🇸US_584|805KB/s|R002-260618 [...
   port: 44499
   server: 45.61.188.134
@@ -6059,7 +6059,7 @@ proxies:
     path: '%2Fws'
 - alterId: 64
   cipher: auto
-  name: 35|🇺🇸US_2|3.3MB/s
+  name: 35|🇸US_1|3.2MB/s
   network: ws
   port: 30004
   server: 192.74.236.148
@@ -6073,28 +6073,46 @@ proxies:
     headers:
       Host: www.91334565.xyz
     path: /path/1733477783705
-- name: 35|🇺🇸US_6|2.8MB/s
-  password: ''
+- name: 35|🇺🇸US_4|3.3MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
   x-toolall-mihomo: true
-- name: 35|🇸US_12|3.7MB/s
-  password: ''
-  port: 1080
-  server: 5.161.210.253
+- client-fingerprint: random
+  name: 35|🇸US_5|1003KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.18.15.19
+  servername: hk.zhaoqing.city
+  tls: true
+  type: vless
+  udp: true
+  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
+  ws-opts:
+    headers:
+      Host: hk.zhaoqing.city
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+  xudp: true
+- name: 35|🇸US_6|3.4MB/s
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
   skip-cert-verify: true
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  tls: true
   type: http
   udp: true
-  username: ''
-- name: 35|🇺🇸US_13|1.9MB/s
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 35|🇺🇸US_8|2.0MB/s
   password: ''
-  port: 58764
-  server: 118.184.140.90
+  port: 9443
+  server: 152.233.50.145
   skip-cert-verify: true
   tls: true
   type: http

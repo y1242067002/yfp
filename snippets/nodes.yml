@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19|🇮🇹_IT_意大利_IPV4_2
+  name: 19,35|IT_1|1.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇮🇹_IT_意大利_IPV4 (2)_2
+  name: 19,35|🇮🇹IT_7|2.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇮🇹_IT_意大利_IPV4 (5)_2
+  name: 19,35|🇮🇹IT_6|2.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇮🇹_IT_意大利_IPV4 (8)_2
+  name: 19,35|🇮🇹IT_5|2.6MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,33|🇮🇹 意大利2|@ripaojiedian
+  name: 19,33,35|🇮🇹IT_3|1.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,35|IT_1|2.5MB/s
+  name: 19|🇮🇹_IT_意大利_IPV4 (6)_2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,33|🇮🇹 意大利|@ripaojiedian
+  name: 19,33,35|🇮🇹IT_4|1.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,35|🇮🇹IT_2|1.5MB/s
+  name: 19,35|🇮🇹IT_2|3.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -6817,7 +6817,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 35|🇺🇸US_2|3.3MB/s
+  name: 35|🇸US_1|3.2MB/s
   network: ws
   port: 30004
   server: 192.74.236.148
@@ -6831,27 +6831,24 @@ proxies:
     headers:
       Host: www.91334565.xyz
     path: /path/1733477783705
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇹AT_1|4.8MB/s
-  password: wuW04H6Tq10Zw7ZVOUg6j1
-  port: 2342
-  server: 89.58.16.116
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 35|TW_1|4.6MB/s
+- alpn:
+  - h3
+  name: 35|🇪DE_9|2.6MB/s
   network: ws
-  port: 16616
-  server: dp8yk.xiaoyan.io
-  skip-cert-verify: true
-  type: vmess
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
+  type: trojan
   udp: true
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    max-early-data: 2560
+    path: /tr
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

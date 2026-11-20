@@ -158,15 +158,12 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,35|🇬SG_4|1.3MB/s
-  password: ''
+- name: 19|🇬SG_32|535KB/s|R002-260618 [0b...
   port: 9090
   server: 167.99.74.174
-  skip-cert-verify: true
   sub_tag: R002-260618
   type: http
   udp: true
-  username: ''
 - client-fingerprint: chrome
   name: 19|🇬SG_27|285KB/s|A004-260618 [22...
   network: ws
@@ -474,7 +471,7 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,35|🇬SG_2|1.4MB/s
+- name: 19|🇬SG_21|88KB/s|R002-260618 [e29...
   password: '!!str 8888'
   port: 1080
   server: 47.236.168.243
@@ -604,11 +601,25 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- name: 35|🇸🇬SG_3|1.8MB/s
+- client-fingerprint: chrome
+  name: 35|SG_1|2.4MB/s
+  network: ws
+  port: 8443
+  server: 172.64.154.113
+  servername: freeceshi6.frii.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  ws-opts:
+    headers:
+      Host: freeceshi6.frii.site
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+- name: 35|🇬SG_2|4.4MB/s
   password: ''
-  port: 9090
-  server: 128.199.113.85
+  port: 5555
+  server: 103.248.228.166
   skip-cert-verify: true
-  type: http
+  type: socks5
   udp: true
   username: ''

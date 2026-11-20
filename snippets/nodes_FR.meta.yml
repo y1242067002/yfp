@@ -320,7 +320,7 @@ proxies:
         Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /
   xudp: true
-- name: 19,35|🇪DE_2|3.9MB/s
+- name: 19,35|🇩🇪DE_4|2.9MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -448,7 +448,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,35|🇪DE_5|3.3MB/s
+- name: 19,35|🇪DE_6|3.0MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -804,7 +804,7 @@ proxies:
     max-early-data: 2560
     path: /7535cdef70c9d7d4
   xudp: true
-- name: 19,35|🇪DE_4|4.2MB/s
+- name: 19,35|🇪DE_5|1.7MB/s
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -902,8 +902,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,35|🇫🇷FR_6|1.9MB/s
-  password: ''
+- name: 19|🇷FR_64|4.6MB/s|R002-260618 [bb...
   port: 443
   server: 82.66.235.221
   skip-cert-verify: true
@@ -911,7 +910,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: ''
 - name: 19|🇫🇷FR_32|666KB/s|R002-260618 [b...
   port: 443
   server: 84.235.228.156
@@ -1070,7 +1068,7 @@ proxies:
       Host: tsg3.pages.dev
     max-early-data: 2560
     path: /
-- name: 19,35|🇫🇷FR_2|3.1MB/s|P002-260618
+- name: 19,35|🇫🇷FR_3|2.8MB/s|P002-260618
   password: None
   port: 9443
   server: 138.199.47.247
@@ -1247,19 +1245,20 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: 55 Mbps
-  name: 35|FR_1|1.7MB/s
-  port: 24667
-  protocol: udp
-  server: 62.210.124.132
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 35|FR_1|3.7MB/s
+  network: tcp
+  port: 443
+  server: 45.95.98.139
+  servername: 45.95.98.130
+  tls: true
+  type: vless
   udp: true
-  up: 11 Mbps
-- name: 35|🇷FR_3|1.1MB/s|R002-260618
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+- name: 35|🇷FR_2|2.0MB/s|R002-260618
   port: 443
   server: 149.102.245.65
   skip-cert-verify: true
@@ -1268,27 +1267,6 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '50'
-  name: 35|🇫🇷FR_4|2.8MB/s
-  port: 24667
-  server: 62.210.70.191
-  skip-cert-verify: true
-  type: hysteria
-  udp: true
-  up: '10'
-  x-toolall-mihomo: true
-- name: 35|🇷FR_5|2.9MB/s
-  password: ''
-  port: 8090
-  server: 80.124.109.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa
