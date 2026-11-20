@@ -37,19 +37,9 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-- name: 29|🇹🇼_台湾
-  password: '!!str 123456'
-  port: 443
-  server: 34.80.15.95
-  servername: tw.ctt25.uk
-  skip-cert-verify: false
-  sni: tw.ctt25.uk
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾 (2)
+  name: 29|🇹🇼_台湾
   port: 47396
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
@@ -62,40 +52,25 @@ proxies:
   type: vless
   udp: true
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-- client-fingerprint: ios
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (2)
+  port: 62015
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: false
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇹🇼_台湾 (3)
   port: 51283
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: fa514b83
-  server: free.fugui.lol
-  servername: swdist.apple.com
-  skip-cert-verify: false
-  sni: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾 (4)
-  port: 19482
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: fa514b83
-  server: free.fugui.lol
-  servername: swdist.apple.com
-  skip-cert-verify: false
-  sni: swdist.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇹🇼_台湾 (5)
-  port: 62015
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
     short-id: fa514b83
