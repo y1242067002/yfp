@@ -11,7 +11,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (12)
+  name: 22,29|🇯🇵_日本 (3)
   password: Bwlqh7GcFB
   port: 53758
   server: 168.138.205.100
@@ -48,7 +48,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (9)
+  name: 22,29|🇯🇵_日本 (5)
   password: shadowsocks
   port: 443
   server: 149.22.87.240
@@ -77,7 +77,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (5)
+  name: 22,29|🇯🇵_日本 (2)
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -86,11 +86,57 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 29|日期：11-20
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: leviko-sg3477.shopingggg.ir
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本 (11)
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本 (12)
+  network: ws
+  port: 8081
+  server: 168.110.63.247
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  ws-opts:
+    path: /vless
+- name: 29|🇯🇵_日本 (9)
+  password: ec893967c30f4c3a8b6d4c975af95f45
+  port: 443
+  server: oracle-tokyo-2.waverider.yingdigame.com
+  servername: oracle-tokyo-2.waverider.yingdigame.com
+  skip-cert-verify: false
+  sni: oracle-tokyo-2.waverider.yingdigame.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇯🇵_日本 (10)
+  port: 46130
+  server: 64.176.34.102
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
+- cipher: aes-128-gcm
+  name: 29|🇯🇵_日本
+  password: Bwlqh7GcFB
+  port: 53758
+  server: jpa.123069.xyz
   skip-cert-verify: false
   tls: false
   type: ss
@@ -104,17 +150,8 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 29|🇯🇵_日本 (6)
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (8)
+  name: 29|🇯🇵_日本 (6)
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
@@ -123,7 +160,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (11)
+  name: 29|🇯🇵_日本 (7)
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
@@ -131,19 +168,6 @@ proxies:
   tls: false
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇯🇵_日本 (3)
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    path: /cctv13.m3u8
 - name: 33,34|日本2|@ripaojiedian
   network: tcp
   password: d050aca3-9df2-4461-90ec-92373c1d7636

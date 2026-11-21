@@ -186,48 +186,33 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港
-  port: 16116
-  server: zfd-hkv2.kunlun01dns.com
+  name: 29|🇭🇰_香港 (10)
+  network: ws
+  port: 23026
+  server: 47.244.120.197
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    path: /arki
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港 (3)
-  port: 16113
-  server: zfd-hkv2.kunlun01dns.com
+  name: 29|🇭🇰_香港 (11)
+  network: ws
+  port: 35043
+  server: 156.245.232.239
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 29|🇭🇰_香港 (4)
-  port: 52080
-  server: 154.37.223.56
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
-- flow: xtls-rprx-vision
-  name: 29|🇭🇰_香港 (6)
-  port: 8443
-  server: 62.60.232.250
-  servername: 77.88.8.8
-  skip-cert-verify: false
-  sni: 77.88.8.8
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88a209b0-5dd9-493f-9cae-ace820544a24
-- alterId: 0
-  cipher: auto
-  name: 29|🇭🇰_香港 (2)
+  name: 29|🇭🇰_香港 (12)
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -242,16 +227,101 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki
-- name: 29|🇭🇰_香港 (7)
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (13)
   network: ws
-  port: 443
-  server: 103.219.195.65
-  servername: jp3.yohototo.top
+  port: 36703
+  server: 47.244.120.197
   skip-cert-verify: false
-  sni: jp3.yohototo.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (3)
+  port: 21041
+  server: dog-hk.kunlun01dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (4)
+  port: 21021
+  server: dog-hk.kunlun01dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (5)
+  port: 16113
+  server: zfd-hkv2.kunlun01dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇭🇰_香港 (6)
+  port: 35600
+  reality-opts:
+    public-key: fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4
+  server: 45.192.193.54
+  servername: www.iij.ad.jp
+  skip-cert-verify: false
+  sni: www.iij.ad.jp
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    path: /tyxyws
+  uuid: 8614bde7-34cf-4413-8360-e96f1b960528
+- name: 29|🇭🇰_香港 (7)
+  password: '!!str 12012'
+  port: 12012
+  server: 47.242.93.89
+  servername: ali-hk.b-gfw.cfd
+  skip-cert-verify: false
+  sni: ali-hk.b-gfw.cfd
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (8)
+  port: 52080
+  server: 154.37.223.56
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+- alterId: 0
+  cipher: auto
+  name: 29|🇭🇰_香港 (9)
+  port: 50376
+  server: 206.237.11.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9091fd64-7e8e-4b7a-8ae7-84474f234926
+- name: 29|🇭🇰_香港 (2)
+  obfs: salamander
+  obfs-password: 9veAh9pTbrAfDwM1fIYI
+  password: hAUdd15a7YGHUSgiPOUz
+  port: 443
+  server: 43.103.2.53
+  servername: 43.103.2.53
+  skip-cert-verify: false
+  sni: 43.103.2.53
+  type: hysteria2
+  udp: true
