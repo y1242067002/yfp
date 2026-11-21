@@ -22,3 +22,16 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 35|🇪SE_1|1.4MB/s
+  network: tcp
+  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+  port: 443
+  server: 95.143.196.32
+  skip-cert-verify: false
+  sni: connect-se.mimowhat.online
+  type: trojan
+  udp: true
