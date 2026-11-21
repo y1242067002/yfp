@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22|🇩🇪DE德国 (2)_3
+  name: 19,22|🇩🇪DE德国 (2)_3
   port: 52080
   server: 23.165.200.150
   skip-cert-verify: false
@@ -9,16 +9,91 @@ proxies:
   type: vmess
   udp: true
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+- name: 19,22|🇩🇪_DE_德国_IPV4_2
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  port: 443
+  server: 191.44.112.170
+  servername: orbylume.my.to
+  skip-cert-verify: true
+  sni: orbylume.my.to
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: orbylume.my.to
+    path: /tvpn-trojan/bg
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (19)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.3
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: 22|🇪DE_4|3.6MB/s|A004-260618 [098...
+  name: 19,22|🇩🇪DE_4|3.6MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
   sub_tag: A004-260618
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇪DE_69|2.8MB/s|B007-260618 [11...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 185.177.229.95
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- client-fingerprint: chrome
+  name: 19|🇪DE_68|4.0MB/s|B007-260618 [1d...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: true
+  sni: 193.108.119.78
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (26)
+  name: 19,22,29|🇩🇪_德国 (23)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 19|🇩🇪DE_77|4.5MB/s|K001-260618 [2...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 193.108.119.87
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (26)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.117.84
@@ -28,48 +103,29 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22|❓Other_76|75KB/s|B007-260618 [...
+  name: 19,29|🇩🇪_德国 (60)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.78
-  skip-cert-verify: true
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇪DE_30|4.1MB/s|C002-260622 [6b...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.96
-  skip-cert-verify: true
-  sni: 193.108.119.96
-  sub_tag: C002-260622
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (21)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
+  server: 193.108.119.34
+  servername: cdn.iloverussia2026.com
   skip-cert-verify: false
-  sub_tag: C001-260618
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (7)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
-  skip-cert-verify: false
+  sni: cdn.iloverussia2026.com
   sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,29|🇩🇪_德国 (29)
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22,29|🇩🇪_德国 (58)
+  name: 19,22,29|🇩🇪_德国 (58)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -81,34 +137,175 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇩🇪_德国 (59)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.134
+  servername: api.iloverussia2026.com
+  skip-cert-verify: false
+  sni: api.iloverussia2026.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇪DE_1|1.1MB/s|A004-260618 [3e8...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (19)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.3
+  name: 19,29|🇩🇪_德国 (27)
+  password: itzvpn@321
+  port: 8388
+  server: 145.79.177.201
   skip-cert-verify: false
   sub_tag: M003-260806
   tls: false
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 19|🇪DE_53|3.2MB/s|S004-260618 [e9...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: false
+  sni: learn.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|❓Other_76|75KB/s|B007-260618 [...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: true
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 22|❓Other_63|308KB/s|M003-260806 ...
+  name: 19,22|❓Other_63|308KB/s|M003-260806 ...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.116.98
   sub_tag: M003-260806
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇩🇪DE_25|77KB/s|B007-260618 [62...
-  password: gg4ze2bpu0wsy6s6
-  port: 1008
-  server: 78.47.201.144
-  sub_tag: B007-260618
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (28)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.83
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇩🇪DE_22|577KB/s|S004-260618 [7...
+  name: 19,29|🇩🇪_德国 (53)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.193
+  servername: resources.iloverussia2026.com
+  skip-cert-verify: false
+  sni: resources.iloverussia2026.com
+  sub_tag: S004-260618
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|🇪DE_161|6.4MB/s|M003-260806 [5...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: leviko-de3729.shopingggg.ir
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 19|🇪DE_179|2.2MB/s|M003-260806 [5...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 178.63.211.100
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7f9331a-192d-4d4f-a287-9dadab923a32
+  xudp: true
+- client-fingerprint: chrome
+  name: 19,29|🇩🇪_德国 (55)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  servername: blog.iloverussia2026.com
+  skip-cert-verify: false
+  sni: blog.iloverussia2026.com
+  sub_tag: A004-260618
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇩🇪DE_81|4.6MB/s|B007-260618 [5...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 193.108.117.61
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (11)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.76.233
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇩🇪_德国 (56)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  servername: courses.iloverussia2026.com
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  sub_tag: S004-260618
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19|🇪DE_140|4.7MB/s|C002-260622 [6...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: true
+  sni: 193.108.119.96
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22|🇩🇪DE_22|577KB/s|S004-260618 [7...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -118,11 +315,69 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇩🇪DE_5|760KB/s|M003-260806 [8a...
+  name: 19,22,29|🇩🇪_德国 (22)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.117.111
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇩🇪DE_5|760KB/s|M003-260806 [8a...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.118.247
   sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,29|🇩🇪_德国 (21)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  skip-cert-verify: false
+  sub_tag: C001-260618
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (7)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇩🇪_德国 (24)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.157.88.43
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,29|🇩🇪_德国 (13)
+  password: itzvpn@321
+  port: 8388
+  server: 178.162.254.38
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 22|🇩🇪DE_25|77KB/s|B007-260618 [62...
+  password: gg4ze2bpu0wsy6s6
+  port: 1008
+  server: 78.47.201.144
+  sub_tag: B007-260618
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -151,48 +406,6 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 22|🇪DE_1|1.1MB/s|A004-260618 [3e8...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 169.150.210.233
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (28)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.83
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22,29|🇩🇪_德国 (22)
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.117.111
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- name: 22|🇩🇪_DE_德国_IPV4_2
-  network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  port: 443
-  server: 191.44.112.170
-  servername: orbylume.my.to
-  skip-cert-verify: true
-  sni: orbylume.my.to
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: orbylume.my.to
-    path: /tvpn-trojan/bg
 - alterId: 0
   cipher: auto
   name: 29|🇩🇪_德国 (71)
@@ -227,56 +440,6 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: 29|🇩🇪_德国 (53)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.193
-  servername: resources.iloverussia2026.com
-  skip-cert-verify: false
-  sni: resources.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (55)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  servername: blog.iloverussia2026.com
-  skip-cert-verify: false
-  sni: blog.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (56)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.15
-  servername: courses.iloverussia2026.com
-  skip-cert-verify: false
-  sni: courses.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (59)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.134
-  servername: api.iloverussia2026.com
-  skip-cert-verify: false
-  sni: api.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇩🇪_德国 (60)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.34
-  servername: cdn.iloverussia2026.com
-  skip-cert-verify: false
-  sni: cdn.iloverussia2026.com
-  tls: true
-  type: trojan
-  udp: true
 - name: 29|🇩🇪_德国 (66)
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -297,15 +460,6 @@ proxies:
   type: vmess
   udp: true
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- cipher: aes-256-gcm
-  name: 29|🇩🇪_德国 (13)
-  password: itzvpn@321
-  port: 8388
-  server: 178.162.254.38
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 29|🇩🇪_德国 (14)
   password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
@@ -329,24 +483,6 @@ proxies:
   password: SWBJ2eOCrLJk
   port: 443
   server: 136.176.66.193
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇩🇪_德国 (27)
-  password: itzvpn@321
-  port: 8388
-  server: 145.79.177.201
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇩🇪_德国 (29)
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
   skip-cert-verify: false
   tls: false
   type: ss

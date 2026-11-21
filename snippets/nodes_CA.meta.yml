@@ -1,6 +1,35 @@
 proxies:
+- name: 19,22|🇦CA加拿大丨yoyapai.com (3)_3
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: xstack.mahanfixe.workers.dev
+  skip-cert-verify: false
+  sni: xstack.mahanfixe.workers.dev
+  tls: false
+  type: vless
+  udp: true
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  ws-opts:
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+    path: /xiron
+- name: '19,22|丨yoyapai.com_3 #1'
+  network: ws
+  port: 2052
+  server: 104.21.88.174
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 81e09a82-fe8d-4393-aefb-747322b20795
+  ws-opts:
+    headers:
+      Host: nexo.xelviro.ir
+    path: /wss
+    v2ray-http-upgrade: true
 - client-fingerprint: chrome
-  name: 22|CA加拿大丨yoyapai.com_3
+  name: 19,22|CA加拿大丨yoyapai.com_3
   network: ws
   port: 8443
   server: ad-013.pixel9xdmq.info
@@ -16,7 +45,7 @@ proxies:
       Host: ad-013.pixel9xdmq.info
     path: /
 - client-fingerprint: chrome
-  name: 22|🇦CA加拿大丨yoyapai.com_3
+  name: 19,22|🇨🇦CA加拿大丨yoyapai.com_3
   network: ws
   password: humanity
   port: 443
@@ -30,7 +59,7 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 22|🇨🇦CA加拿大丨yoyapai.com (2)_3
+  name: 19,22|🇨🇦CA加拿大丨yoyapai.com (2)_3
   network: ws
   password: humanity
   port: 443
@@ -45,7 +74,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: 22|🇦CA加拿大_3
+  name: 19,22|🇦CA加拿大_3
   network: ws
   port: 443
   server: hk2.998998.best
@@ -60,22 +89,7 @@ proxies:
     headers:
       Host: server15.9966338.xyz
     path: /asivewritten
-- name: 22|🇨🇦CA加拿大丨yoyapai.com (3)_2
-  network: ws
-  port: 8080
-  server: 104.21.70.21
-  servername: xstack.mahanfixe.workers.dev
-  skip-cert-verify: false
-  sni: xstack.mahanfixe.workers.dev
-  tls: false
-  type: vless
-  udp: true
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  ws-opts:
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-    path: /xiron
-- name: 22|CA加拿大(mibei77.com 米贝节点分享)_3
+- name: 19,22|CA大(mibei77.com 米贝节点分享)_3
   network: ws
   port: 443
   server: 172.64.149.88
@@ -93,7 +107,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '22|CA加拿大(mibei77.com 米贝节点分享) (2)_... #1'
+  name: '19,22|CA加拿大(mibei77.com 米贝节点分享) (2)_... #1'
   network: ws
   port: 443
   server: 104.17.147.208
@@ -108,7 +122,7 @@ proxies:
     headers:
       Host: b.rack.sxsc.dpdns.org
     path: /?ed=2048
-- name: '22|CA加拿大(mibei77.com 米贝节点分享) (3)_... #1'
+- name: '19,22|CA加拿大(mibei77.com 米贝节点分享) (3)_... #1'
   network: ws
   port: 443
   server: 172.64.152.19
@@ -123,9 +137,37 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA_35|894KB/s|M003-260806 [06e...
+  password: 3h3hb2gptqz6suyt
+  port: 8080
+  server: 198.100.154.175
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇨🇦_加拿大 (6)
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.12.127
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: ss
+  udp: true
+- name: 19|🇨🇦CA_37|580KB/s|K001-260618 [1...
+  password: None
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - alterId: '0'
   cipher: auto
-  name: 22|🇦CA_2|238KB/s|M002-260618 [633...
+  name: 19,22|🇦CA_2|238KB/s|M002-260618 [633...
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -138,9 +180,58 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇦_加拿大 (14)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.152
+  servername: learn.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: learn.connectingpeoplewithgreatjobs.com
+  sub_tag: A004-260618
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇦_加拿大 (12)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.74
+  servername: api.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: api.connectingpeoplewithgreatjobs.com
+  sub_tag: A004-260618
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇦_加拿大 (21)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.93
+  servername: connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: connectingpeoplewithgreatjobs.com
+  sub_tag: A004-260618
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,29|🇨🇦_加拿大 (9)
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  skip-cert-verify: false
+  sub_tag: V001-260618
+  tls: false
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 22|🇦CA_1|267KB/s|C002-260622 [272...
+  name: 19|🇦CA_44|1.4MB/s|C002-260622 [27...
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -152,25 +243,9 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 22|🇨🇦CA_9|228KB/s|R002-260618 [52...
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇨🇦CA_10|66KB/s|R002-260618 [52...
-  port: 9443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 22|🇦CA_8|671KB/s|M003-260806 [9ad...
+  name: 19,22|🇦CA_8|671KB/s|M003-260806 [9ad...
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -183,16 +258,153 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 22|🇦CA_11|154KB/s|R002-260618 [65...
+- name: 19|🇦CA_42|789KB/s|P002-260618 [2f...
   port: 9443
-  server: 198.44.157.19
+  server: 198.44.142.27
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇦_加拿大 (16)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.48
+  servername: courses.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: courses.connectingpeoplewithgreatjobs.com
+  sub_tag: A004-260618
+  tls: true
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 19,22|🇦CA_1|195KB/s|A004-260618 [377...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- name: 19|🇦CA_51|641KB/s|R002-260618 [3c...
+  port: 443
+  server: 23.169.224.34
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+- cipher: aes-128-gcm
+  name: 19,22,29|🇨🇦_加拿大
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇨CA_54|785KB/s|M003-260806 [46...
+  password: 2cvhpvdg4x7mvbps
+  port: 8080
+  server: leviko-ca8643.shopingggg.ir
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇨🇦_加拿大 (10)
+  name: 19|🇦CA_46|550KB/s|B007-260618 [51...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- name: 19|🇦CA_6|935KB/s|R002-260618 [52e...
+  port: 9443
+  server: 23.169.224.34
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 19,22|🇦CA_6|336KB/s|R002-260618 [636...
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇨🇦_加拿大 (20)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.201
+  servername: resources.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: resources.connectingpeoplewithgreatjobs.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇦CA_7|278KB/s|C001-260618 [713...
+  password: kxhnt5jtykd328cg
+  port: 8080
+  server: 15.235.57.6
+  sub_tag: C001-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇨🇦CA_8|70KB/s|S004-260618 [723...
+  password: 2cvhpvdg4x7mvbps
+  port: 8080
+  server: 54.39.96.233
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+- name: 19|🇦CA_15|824KB/s|K001-260618 [77...
+  password: None
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇦CA_3|226KB/s|C002-260622 [797...
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 134.195.196.211
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇦_加拿大 (19)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.89
+  servername: www.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: www.connectingpeoplewithgreatjobs.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇨🇦_加拿大 (10)
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.141.125
@@ -201,8 +413,79 @@ proxies:
   tls: false
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19|🇦CA_31|1.5MB/s|B007-260618 [9d...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 158.51.121.246
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- name: 19|🇦CA_5|912KB/s|K001-260618 [9f4...
+  password: None
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- cipher: chacha20-ietf-poly1305
+  name: 19,22|🇨🇦CA_11|1.0MB/s|S004-260618 [a...
+  password: 575hiopq2h28yao6
+  port: 8080
+  server: 15.235.121.109
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+- name: 19|🇨🇦CA_13|751KB/s|R002-260618 [a...
+  port: 443
+  server: 142.44.210.129
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇦CA_53|671KB/s|M003-260806 [bc...
+  password: 575hiopq2h28yao6
+  port: 8080
+  server: leviko-ca4857.shopingggg.ir
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 19|🇨🇦CA_38|627KB/s|R002-260618 [c...
+  password: None
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 19,22,29|🇨🇦_加拿大 (15)
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.85
+  servername: cdn.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+  sni: cdn.connectingpeoplewithgreatjobs.com
+  sub_tag: M003-260806
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇨🇦_加拿大 (8)
+  name: 19,29|🇨🇦_加拿大 (8)
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.222.136.236
@@ -211,22 +494,58 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 22,29|🇨🇦_加拿大 (6)
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.12.127
+- name: 19|🇦CA_39|912KB/s|P002-260618 [d7...
+  password: None
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 19,22|🇦CA_9|769KB/s|K001-260618 [d96...
+  password: None
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- alterId: '0'
+  cipher: auto
+  name: 19|🇨CA_19|1.4MB/s|K001-260618 [ed...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 134.195.196.154
+  servername: xmfhlpy.com
   skip-cert-verify: false
-  sub_tag: A004-260618
+  sub_tag: K001-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 19,22,29|🇨🇦_加拿大 (5)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 158.51.121.221
+  skip-cert-verify: false
+  sub_tag: M003-260806
   tls: false
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 22|🇦CA_1|195KB/s|A004-260618 [377...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  sub_tag: A004-260618
+- cipher: aes-256-gcm
+  name: 19,29|🇨🇦_加拿大 (4)
+  password: itzvpn@321
+  port: 8388
+  server: 184.107.106.78
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -235,22 +554,6 @@ proxies:
   port: 8080
   server: leviko-ca8416.shopingggg.ir
   sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇦CA_7|278KB/s|C001-260618 [713...
-  password: kxhnt5jtykd328cg
-  port: 8080
-  server: 15.235.57.6
-  sub_tag: C001-260618
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇨🇦CA_8|70KB/s|S004-260618 [723...
-  password: 2cvhpvdg4x7mvbps
-  port: 8080
-  server: 54.39.96.233
-  sub_tag: S004-260618
   type: ss
   udp: true
 - name: 22|🇦CA_2|268KB/s|K001-260618 [8f7...
@@ -263,19 +566,6 @@ proxies:
   type: http
   udp: true
   username: ''
-- client-fingerprint: chrome
-  name: 22,29|🇨🇦_加拿大 (15)
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.85
-  servername: cdn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-  sni: cdn.connectingpeoplewithgreatjobs.com
-  sub_tag: M003-260806
-  tls: true
-  type: trojan
-  udp: true
 - name: 22|🇨🇦CA_5|314KB/s|R002-260618 [e0...
   port: 443
   server: 206.223.183.16
@@ -283,42 +573,6 @@ proxies:
   sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-- name: 22|🇦CA_6|336KB/s|R002-260618 [636...
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇨🇦CA_11|1.0MB/s|S004-260618 [a...
-  password: 575hiopq2h28yao6
-  port: 8080
-  server: 15.235.121.109
-  sub_tag: S004-260618
-  type: ss
-  udp: true
-- name: 22|🇦CA_9|769KB/s|K001-260618 [d96...
-  password: None
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 29|🇨🇦_加拿大 (12)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.74
-  servername: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-  sni: api.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -330,16 +584,6 @@ proxies:
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 29|🇨🇦_加拿大 (14)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.152
-  servername: learn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-  sni: learn.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 29|🇨🇦_加拿大 (17)
@@ -360,26 +604,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 29|🇨🇦_加拿大 (20)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.201
-  servername: resources.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-  sni: resources.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇨🇦_加拿大 (21)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.93
-  servername: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-  sni: connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 29|🇨🇦_加拿大 (3)
   password: PmCqK98WqhSC
@@ -390,28 +614,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇨🇦_加拿大 (4)
-  password: itzvpn@321
-  port: 8388
-  server: 184.107.106.78
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 29|🇨🇦_加拿大 (7)
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇨🇦_加拿大 (9)
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
   skip-cert-verify: false
   tls: false
   type: ss

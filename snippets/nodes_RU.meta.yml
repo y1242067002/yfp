@@ -1,8 +1,35 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19,22|🇺_RU丨yoyapai.com_3
+  password: 895b4b796a357570
+  port: 10910
+  server: 176.32.35.51
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_3
+  password: 895b4b796a357570
+  port: 10916
+  server: 176.32.35.51
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_3
+  password: bdb313adf74c2ede
+  port: 20188
+  server: 195.133.5.207
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: ru-api
-  name: 22|🇺RU俄斯丨yoyapai.com_3
+  name: 19,22|🇺RU俄斯丨yoyapai.com_3
   network: grpc
   port: 443
   reality-opts:
@@ -16,7 +43,7 @@ proxies:
   udp: true
   uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
 - cipher: aes-256-gcm
-  name: 22|🇷🇺 RU俄羅斯丨yoyapai.com_3
+  name: 19,22|🇷🇺 RU俄羅斯丨yoyapai.com_3
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
@@ -24,36 +51,91 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 22|🇺_RU丨yoyapai.com_2
-  password: 895b4b796a357570
-  port: 10910
-  server: 176.32.35.51
+- name: 19,22,29|日期：11-21
+  network: ws
+  port: 443
+  server: harbor.gerqix.online
+  servername: harbor.gerqix.online
   skip-cert-verify: false
-  tls: false
-  type: ss
+  sni: harbor.gerqix.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  ws-opts:
+    headers:
+      Host: harbor.gerqix.online
+    path: /api/de1/stream
+- name: 19,22,29|🇷🇺_俄罗斯 (33)
+  network: ws
+  port: 443
+  server: vellum.merlano.monster
+  servername: sequoia.merlano.monster
+  skip-cert-verify: false
+  sni: sequoia.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  ws-opts:
+    headers:
+      Host: vellum.merlano.monster
+    path: /api/de1/stream
+- name: 19|🇷RU_3|1.8MB/s|K001-260618 [3ff...
+  password: 'null'
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 19|RU_1|1.8MB/s|R002-260618 [5a51...
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_2
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
-  skip-cert-verify: false
-  tls: false
+  name: 19|🇺RU_5|1.3MB/s|K001-260618 [5b0...
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.47.246
+  sub_tag: K001-260618
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_2
-  password: bdb313adf74c2ede
-  port: 20188
-  server: 195.133.5.207
-  skip-cert-verify: false
-  tls: false
-  type: ss
+- client-fingerprint: firefox
+  encryption: none
+  name: 19|🇷RU_4|1016KB/s|B006-260618 [b8...
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 45.88.176.223
+  servername: m.yourvibe.my
+  sub_tag: B006-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  xhttp-opts:
+    mode: auto
+    path: /media/e1c76c
+  xudp: true
+- name: 19|🇷🇺RU_2|1.8MB/s|P002-260618 [bf...
+  password: None
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|RY(mibei77.com 米贝节点分享)_2
+  name: 22|RY俄(mibei77.com 米贝节点分享)
   port: 443
   reality-opts:
     public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
@@ -71,7 +153,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享)_2
+  name: 22|RU俄斯(mibei77.com 米贝节点分享)
   port: 443
   server: 129.101.100.219
   servername: db-28.topp-con.xyz
@@ -84,7 +166,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 22|RU(mibei77.com 米贝节点分享)_3
+  name: 22|RU(mibei77.com 米贝节点分享)_2
   network: ws
   port: 443
   server: rivulet.filnex.baby
@@ -102,7 +184,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: glush.de3.v1
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (2)
+  name: '22|RU俄罗斯(mibei77.com 米贝节点分享) (2) #1'
   network: grpc
   port: 443
   server: luminexorizon.ink
@@ -143,29 +225,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-- cipher: chacha20-ietf-poly1305
-  name: 22|RU_1|657KB/s|B007-260618 [7a8b...
-  password: por7Eu0qqxHmGMA9mRXys9kR7u8g7KGyNIxUNT
-  port: 29348
-  server: 192.144.59.146
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- name: 29|🇷🇺_俄罗斯 (33)
-  network: ws
-  port: 443
-  server: vellum.merlano.monster
-  servername: sequoia.merlano.monster
-  skip-cert-verify: false
-  sni: sequoia.merlano.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  ws-opts:
-    headers:
-      Host: vellum.merlano.monster
-    path: /api/de1/stream
 - alpn:
   - http/1.1
   client-fingerprint: firefox

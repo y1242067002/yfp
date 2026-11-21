@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 22|KR国丨yoyapai.com_3
+  name: 19,22|KR国丨yoyapai.com_3
   network: ws
   port: 25524
   server: 116.93.199.28
@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- name: 22|🇷KR韩丨yoyapai.com_3
+- name: 19,22|🇷KR韩丨yoyapai.com_3
   network: ws
   port: 8880
   server: 104.17.144.29
@@ -28,16 +28,67 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 19|🇷KR_25|519KB/s|A004-260618 [2d...
+  network: ws
+  packet-encoding: xudp
+  port: 25555
+  server: 152.69.226.63
+  servername: 152.69.226.63
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /
+  xudp: true
+- name: 19|🇷KR_26|455KB/s|R002-260618 [42...
+  port: 443
+  server: 152.69.230.221
+  skip-cert-verify: true
+  sni: 152.69.230.221
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-cfb
-  name: 22|🇷KR_2|98KB/s|M001-260618 [2f29...
+  name: 19|🇰🇷KR_2|213KB/s|M001-260618 [2f...
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   sub_tag: M001-260618
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,22|❓Other_52|220KB/s|A004-260618 ...
+  network: none
+  packet-encoding: xudp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇰🇷_韩国 (4)
+  name: 19|🇷KR_15|468KB/s|A004-260618 [90...
+  network: tcp
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sni: 154.90.62.70
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 19,29|🇰🇷_韩国 (4)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -45,39 +96,74 @@ proxies:
   servername: connectgraduateswithjobopeningsandgrowprofessionally.com
   skip-cert-verify: false
   sni: connectgraduateswithjobopeningsandgrowprofessionally.com
-  sub_tag: C002-260622
+  sub_tag: M003-260806
   tls: true
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 22|🇷KR_3|161KB/s|M003-260806 [c2b...
-  network: tcp
-  packet-encoding: xudp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 19|🇰🇷KR_1|464KB/s|A004-260618 [a2...
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.234
+  sub_tag: A004-260618
+  type: ss
   udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  xudp: true
+- client-fingerprint: chrome
+  name: 19|🇷KR_16|294KB/s|A004-260618 [ee...
+  network: tcp
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 22|🇷KR_1|275KB/s|M002-260618 [e22...
+  name: 19|🇷KR_19|283KB/s|C002-260622 [ca...
   network: raw
   packet-encoding: xudp
-  port: 8888
-  server: 146.56.112.110
+  port: 443
+  server: 140.238.2.250
   skip-cert-verify: false
-  sub_tag: M002-260618
+  sub_tag: C002-260622
   tls: false
   type: vmess
   udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 19|🇷KR_13|472KB/s|P002-260618 [dc...
+  network: ws
+  port: 443
+  server: seoul02.zgjok.com
+  servername: seoul02.zgjok.com
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
+  ws-opts:
+    headers:
+      Host: seoul02.zgjok.com
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 19|🇷KR_28|292KB/s|C002-260622 [eb...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
   xudp: true
 - alterId: 0
   cipher: auto

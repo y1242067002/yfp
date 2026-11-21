@@ -1,5 +1,5 @@
 proxies:
-- name: 22|JP丨yoyapai.com_3
+- name: 19,22|🇵JP日本節點丨yoyapai.com (2)_2
   network: ws
   port: 443
   server: 154.197.88.253
@@ -14,7 +14,22 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: 22|🇯🇵JP日本丨yoyapai.com (2)_3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 19,22|🇵JP日本丨yoyapai.com_3
+  port: 443
+  reality-opts:
+    public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
+    short-id: 825d392c67e4
+  server: 2.27.27.64
+  servername: jp.musicwave.net
+  skip-cert-verify: false
+  sni: jp.musicwave.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
+- name: 19,22|🇯🇵JP日本丨yoyapai.com (2)_3
   network: ws
   port: 18122
   server: 155.248.168.35
@@ -29,7 +44,7 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: 22|🇵JP日本丨yoyapai.com (3)_2
+- name: 19,22|🇯🇵JP日本丨yoyapai.com (3)_3
   network: ws
   port: 11424
   server: 38.47.96.220
@@ -46,7 +61,7 @@ proxies:
     path: Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|JP日本丨yoyapai.com_3
+  name: 19,22|JP日本丨yoyapai.com_3
   port: 443
   reality-opts:
     public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
@@ -59,22 +74,7 @@ proxies:
   type: vless
   udp: true
   uuid: 12e35bfe-1e79-4cf1-8a8e-22a242e97408
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22|🇵JP日本丨yoyapai.com_3
-  port: 443
-  reality-opts:
-    public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
-    short-id: 825d392c67e4
-  server: 2.27.27.64
-  servername: jp.musicwave.net
-  skip-cert-verify: false
-  sni: jp.musicwave.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
-- name: 22|🇯🇵JP日本節點丨yoyapai.com (2)
+- name: 19,22|🇵JP日本節點丨yoyapai.com_3
   network: ws
   port: 443
   server: 89.125.244.28
@@ -90,8 +90,229 @@ proxies:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
+  encryption: none
+  name: 19|JP_30|511KB/s|M003-260806 [122...
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: kuruish.org
+  servername: kuruish.org
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 19,22|JP_1|486KB/s|S004-260618 [134e...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: None
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
+  xudp: true
+- client-fingerprint: chrome
+  name: 19|🇵JP_18|611KB/s|C002-260622 [1d...
+  network: tcp
+  password: F3NzMNuYnG7akU2mSlBY
+  port: 8443
+  server: 193.123.160.109
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 19|🇵JP_16|65KB/s|R002-260618 [4dc...
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: false
+  sni: fan.571589.xyz
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇵JP_4|454KB/s|B007-260618 [365...
+  password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
+  port: 8388
+  server: 64.176.57.251
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,22,29|🇯🇵_日本 (5)
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  skip-cert-verify: false
+  sub_tag: A001-260618
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,29|🇯🇵_日本 (4)
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  skip-cert-verify: false
+  sub_tag: A001-260618
+  tls: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,22|🇵JP_1|422KB/s|S004-260618 [606...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: jp01.a0a.xyz
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+  xudp: true
+- name: 19|🇵JP_6|145KB/s|P002-260618 [6c3...
+  password: None
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- encryption: none
+  name: 19|🇵JP_19|664KB/s|B007-260618 [78...
+  network: tcp
+  packet-encoding: xudp
+  port: 18453
+  server: 168.110.21.56
+  sub_tag: B007-260618
+  type: vless
+  udp: true
+  uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇵JP_8|169KB/s|S004-260618 [89b...
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: none
+  skip-cert-verify: false
+  sub_tag: S004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: none
+    path: /cctv13.m3u8
+  xudp: true
+- name: 19|JP_11|499KB/s [a5ec9ede6c36]
+  password: ''
+  port: 8443
+  server: 64.176.51.83
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 19|🇵JP_29|643KB/s|F003-260618 [ac...
+  network: tcp
+  packet-encoding: xudp
+  port: 46130
+  server: 64.176.34.102
+  skip-cert-verify: false
+  sub_tag: F003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
+  xudp: true
+- name: 19|🇯🇵JP_7|85KB/s|R002-260618 [b05...
+  port: 443
+  server: fan.587475.xyz
+  sni: fan.587475.xyz
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,29|🇯🇵_日本
+  password: Bwlqh7GcFB
+  port: 53758
+  server: jpa.123069.xyz
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,29|🇯🇵_日本 (7)
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: ss
+  udp: true
+- name: 19|JP_23|488KB/s|P002-260618 [e5e...
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  type: socks5
+  udp: true
+  username: paZFN3JA
+- cipher: aes-128-gcm
+  name: 19,22,29|🇯🇵_日本 (2)
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  skip-cert-verify: false
+  sub_tag: A001-260618
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19,22,29|🇯🇵_日本 (3)
+  password: Bwlqh7GcFB
+  port: 53758
+  server: 168.138.205.100
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '22|JP日本(mibei77.com 米贝节点分享) (13)_... #1'
+  name: 22|JP日本(mibei77.com 米贝节点分享) (13)_...
   port: 43149
   reality-opts:
     public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
@@ -106,7 +327,7 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 22|JP日本(mibei77.com 米贝节点分享) (7)_3
+  name: 22|JP日本(mibei77.com 米贝节点分享) (7)_2
   port: 30322
   reality-opts:
     public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
@@ -136,7 +357,7 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '22|JP日本(mibei77.com 米贝节点分享) (10)_... #1'
+  name: 22|JP日本(mibei77.com 米贝节点分享) (10)_...
   port: 55688
   reality-opts:
     public-key: 6dqd0hqbC0bht9RtsYamvlYdMpxyUbk7uXw0xtO8DzQ
@@ -151,7 +372,7 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '22|JP日本(mibei77.com 米贝节点分享) (14)_... #1'
+  name: 22|JP日本(mibei77.com 米贝节点分享) (14)_...
   port: 46957
   reality-opts:
     public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
@@ -199,115 +420,13 @@ proxies:
   uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
   ws-opts:
     path: /api/de6/stream
-- client-fingerprint: chrome
-  name: 22|JP_1|229KB/s|C002-260622 [1d69...
-  network: tcp
-  password: F3NzMNuYnG7akU2mSlBY
-  port: 8443
-  server: 193.123.160.109
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  sub_tag: C002-260622
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (3)
-  password: Bwlqh7GcFB
-  port: 53758
-  server: 168.138.205.100
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇯🇵JP_1|486KB/s|S004-260618 [13...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: None
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
-  xudp: true
-- cipher: aes-256-gcm
-  name: 22|🇵JP_4|454KB/s|B007-260618 [365...
-  password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
-  port: 8388
-  server: 64.176.57.251
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (5)
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  skip-cert-verify: false
-  sub_tag: A001-260618
-  tls: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇵JP_1|422KB/s|S004-260618 [606...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: jp01.a0a.xyz
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- cipher: aes-128-gcm
-  name: 22,29|🇯🇵_日本 (2)
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  skip-cert-verify: false
-  sub_tag: A001-260618
-  tls: false
-  type: ss
-  udp: true
-- name: 27|ᴇ  = @xxᴇᴛ
+- name: 27| 🇯🇵 20@exclavevpn
   password: gG1JyjbJgDmEMvdTgcD9wVOS
   port: 443
   server: 35.221.91.82
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 29|日期：11-21
-  network: ws
-  port: 443
-  server: harbor.gerqix.online
-  servername: harbor.gerqix.online
-  skip-cert-verify: false
-  sni: harbor.gerqix.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  ws-opts:
-    headers:
-      Host: harbor.gerqix.online
-    path: /api/de1/stream
 - alterId: 0
   cipher: auto
   name: 29|🇯🇵_日本 (11)
@@ -354,37 +473,10 @@ proxies:
   type: vmess
   udp: true
   uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
-- cipher: aes-128-gcm
-  name: 29|🇯🇵_日本
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 29|🇯🇵_日本 (4)
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 29|🇯🇵_日本 (6)
   password: 3eOFeNssde7PYYMv
   port: 443
-  server: 84.247.155.196
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (7)
-  password: 3eOFeNssde7PYYMv
-  port: 80
   server: 84.247.155.196
   skip-cert-verify: false
   tls: false
@@ -462,20 +554,6 @@ proxies:
   uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
     path: '%2Fws'
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|JP_1|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 23.27.11.86
-  servername: jp.burmy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|JP_speednode_0018

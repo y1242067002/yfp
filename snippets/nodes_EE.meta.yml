@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)_3
+  name: 19,22|🇪🇪EE爱沙尼亚丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -14,6 +14,36 @@ proxies:
   type: vless
   udp: true
   uuid: 2acc3742-c568-11f1-9902-a337233c6cda
+- name: 19|EE_2|1.1MB/s|K001-260618 [968f...
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 19|EE_5|792KB/s|K001-260618 [e3d3...
+  password: None
+  port: 443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 19|🇪🇪EE_1|896KB/s|K001-260618 [ea...
+  password: None
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: 22,29|🇨🇾_塞浦路斯 (2)
   network: tcp
   port: 16443
@@ -32,6 +62,14 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 28|🇪🇪EE-🚀@VPNine1
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: cabinet.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 29|🇪🇪_爱沙尼亚 (4)
