@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19,22|🇺_RU丨yoyapai.com_3
+  name: '19,22|🇺_RU丨yoyapai.com_2 #1'
   password: 895b4b796a357570
   port: 10910
   server: 176.32.35.51
@@ -9,7 +9,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_3
+  name: '19,22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_2 #1'
   password: 895b4b796a357570
   port: 10916
   server: 176.32.35.51
@@ -18,7 +18,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_3
+  name: '19,22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_2 #1'
   password: bdb313adf74c2ede
   port: 20188
   server: 195.133.5.207
@@ -29,7 +29,7 @@ proxies:
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: ru-api
-  name: 19,22|🇺RU俄斯丨yoyapai.com_3
+  name: '19,22|🇺RU俄斯丨yoyapai.com_2 #1'
   network: grpc
   port: 443
   reality-opts:
@@ -43,7 +43,7 @@ proxies:
   udp: true
   uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
 - cipher: aes-256-gcm
-  name: 19,22|🇷🇺 RU俄羅斯丨yoyapai.com_3
+  name: '19,22|🇷🇺 RU俄羅斯丨yoyapai.com_2 #1'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
@@ -51,7 +51,7 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 19,22,29|日期：11-21
+- name: 19,22|RU俄罗斯(mibei77.com 米贝节点分享)_2
   network: ws
   port: 443
   server: harbor.gerqix.online
@@ -66,7 +66,7 @@ proxies:
     headers:
       Host: harbor.gerqix.online
     path: /api/de1/stream
-- name: 19,22,29|🇷🇺_俄罗斯 (33)
+- name: 19,22|RU俄罗斯(mibei77.com 米贝节点分享) (2)_...
   network: ws
   port: 443
   server: vellum.merlano.monster
@@ -133,40 +133,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 22|RY俄(mibei77.com 米贝节点分享)
-  port: 443
-  reality-opts:
-    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-    short-id: 2ef2b10d5143d798
-  server: 5.129.202.80
-  servername: mirror-50.topp-con.xyz
-  skip-cert-verify: false
-  sni: mirror-50.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 22|RU俄斯(mibei77.com 米贝节点分享)
-  port: 443
-  server: 129.101.100.219
-  servername: db-28.topp-con.xyz
-  skip-cert-verify: false
-  sni: db-28.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 22|RU(mibei77.com 米贝节点分享)_2
+  name: 22|RU(mibei77.com 米贝节点分享)
   network: ws
   port: 443
   server: rivulet.filnex.baby
@@ -225,375 +195,44 @@ proxies:
   type: vless
   udp: true
   uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (34)
-  network: ws
+- client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯 (14)
   port: 443
-  server: linen.filnex.baby
-  servername: cinderbrook.elvano.website
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
   skip-cert-verify: false
-  sni: cinderbrook.elvano.website
+  sni: szqbx-ru-77dc.my-fade.cloud
   tls: true
   type: vless
   udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  ws-opts:
-    headers:
-      Host: linen.filnex.baby
-    path: /api/de2/stream
-- name: 29|🇷🇺_俄罗斯 (35)
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  skip-cert-verify: false
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    path: /websocket
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (36)
-  network: ws
+  name: 29|🇷🇺_俄罗斯 (7)
   port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
+  server: 168.113.253.178
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
   skip-cert-verify: false
-  sni: ru05.abvpn.ru
+  sni: uzndiuvzvqqljdyhzs.fcloudservices.site
   tls: true
   type: vless
   udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    path: /websocket
-- name: 29|🇷🇺_俄罗斯 (37)
-  network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  skip-cert-verify: false
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- name: 29|🇷🇺_俄罗斯 (38)
-  network: ws
-  port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
-  skip-cert-verify: false
-  sni: ru05.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: /websocket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (39)
-  network: ws
-  port: 443
-  server: 5.188.26.85
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: false
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 29|🇧🇾_白俄罗斯
-  network: ws
-  port: 14430
-  server: 178.172.227.228
-  servername: 178.172.227.228
-  skip-cert-verify: false
-  sni: 178.172.227.228
-  tls: false
-  type: vless
-  udp: true
-  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
-  ws-opts:
-    path: /vless
+  uuid: d6d40100-9442-0001-b5b9-6d259318c421
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (40)
-  network: ws
-  port: 443
-  server: 147.45.175.81
-  servername: xsru2.freeddns.org
-  skip-cert-verify: false
-  sni: xsru2.freeddns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  ws-opts:
-    path: /wsru
-- name: 29|🇧🇾_白俄罗斯 (2)
-  network: ws
-  port: 14430
-  server: 178.172.227.124
-  servername: 178.172.227.124
-  skip-cert-verify: false
-  sni: 178.172.227.124
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
-  ws-opts:
-    path: /vless
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (9)
-  port: 443
-  server: 176.98.176.60
-  servername: mosaic.topp-con.xyz
-  skip-cert-verify: false
-  sni: mosaic.topp-con.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 29|🇷🇺_俄罗斯 (10)
   port: 443
-  server: 176.98.176.60
-  servername: mosaic.topp-con.xyz
+  server: 168.113.253.178
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
   skip-cert-verify: false
-  sni: mosaic.topp-con.xyz
+  sni: uzndiuvzvqqljdyhzs.fcloudservices.site
   tls: true
   type: vless
   udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (12)
-  port: 443
-  server: 168.113.254.183
-  servername: xykmh-ru-70sb.my-fade.cloud
-  skip-cert-verify: false
-  sni: xykmh-ru-70sb.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fdf4166-499a-0001-af1d-5bb01e5805fb
-- client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (25)
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  sni: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-- name: 29|🇷🇺_俄罗斯 (15)
-  port: 443
-  server: 168.113.254.247
-  servername: vcerx-ru-67sb.my-fade.cloud
-  skip-cert-verify: false
-  sni: vcerx-ru-67sb.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3150a468-88fd-0001-af91-4aef86004812
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (19)
-  port: 443
-  reality-opts:
-    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
-    short-id: 1067b23f928e7618
-  server: 200.165.229.159
-  servername: flarora.ferreo.sbs
-  skip-cert-verify: false
-  sni: flarora.ferreo.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (20)
-  port: 443
-  reality-opts:
-    public-key: LfUUkcBZXllEsV7LraRZC96hdDBKKawsRoSKum93Xyg
-    short-id: 27de245a9190ada7
-  server: 89.169.2.136
-  servername: node-fr-4.nztpro.com
-  skip-cert-verify: false
-  sni: node-fr-4.nztpro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1547ed3d-3bb7-4153-afdc-8eb3e9373c84
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (21)
-  port: 443
-  reality-opts:
-    public-key: HyPCaHlGMjE2h7D4F6dtyFHeXDEAHIUg9fXJgADc5H0
-    short-id: 134a7678ec2a3285
-  server: 201.34.137.8
-  servername: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  skip-cert-verify: false
-  sni: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-  tls: true
-  type: vless
-  udp: true
-  uuid: d651c9ab-b844-4420-b3d0-20d201ef5f55
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (22)
-  port: 443
-  reality-opts:
-    public-key: YfnwbpBhvSLJdR6NDF1KPzhkJYHEN5hphNEt352Vyks
-    short-id: d70670223951dca4
-  server: 176.98.178.163
-  servername: node-nl-4.nztpro.com
-  skip-cert-verify: false
-  sni: node-nl-4.nztpro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1547ed3d-3bb7-4153-afdc-8eb3e9373c84
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (23)
-  port: 443
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  server: 193.233.199.30
-  servername: fin3-r.bankai.party
-  skip-cert-verify: false
-  sni: fin3-r.bankai.party
-  tls: true
-  type: vless
-  udp: true
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (24)
-  port: 43000
-  reality-opts:
-    public-key: CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ
-    short-id: ee4ea980
-  server: 144.48.11.146
-  servername: 144.48.11.146
-  skip-cert-verify: false
-  sni: 144.48.11.146
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a923161-156f-4914-8cac-762fb2433bfb
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (26)
-  port: 443
-  server: 188.225.57.150
-  servername: m-vruaz-ed.mvpstr.com
-  skip-cert-verify: false
-  sni: m-vruaz-ed.mvpstr.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8275e29-e946-4a48-bec6-4402bea6c399
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (27)
-  port: 443
-  reality-opts:
-    public-key: me0xkqd3f9UlKOavrYCOTK5J2erH1-JK_LA017XHkUU
-    short-id: 43560624cceb5666
-  server: 176.108.240.45
-  servername: xn---26-5cd9bhfc0a8c7b8af.xn--p1ai
-  skip-cert-verify: false
-  sni: xn---26-5cd9bhfc0a8c7b8af.xn--p1ai
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6895528a-aa3e-48c4-8804-ced625e92b47
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (28)
-  port: 443
-  server: d-vrutw-don.vktunnel.com
-  servername: m-vruaz-ed.mvpstr.com
-  skip-cert-verify: false
-  sni: m-vruaz-ed.mvpstr.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8275e29-e946-4a48-bec6-4402bea6c399
+  uuid: eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b
 - alpn:
   - h2
-  - http/1.1
-  client-fingerprint: qq
-  name: 29|🇷🇺_俄罗斯 (29)
-  port: 443
-  server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  sni: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
+  client-fingerprint: firefox
+  grpc-opts: {}
   name: 29|🇷🇺_俄罗斯 (5)
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.109.193.194
-  servername: id.vk.com
-  skip-cert-verify: false
-  sni: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  grpc-opts: {}
-  name: 29|🇷🇺_俄罗斯 (6)
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: 6d289ff0f47c0aac
-  server: 136.234.36.147
-  servername: 961ec0g.nl17.h1clayd.click
-  skip-cert-verify: false
-  sni: 961ec0g.nl17.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- client-fingerprint: chrome
-  grpc-opts: {}
-  name: 29|🇷🇺_俄罗斯 (7)
   network: grpc
   port: 443
   server: vps3.nemnogogo.com
@@ -604,9 +243,9 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   grpc-opts: {}
-  name: 29|🇷🇺_俄罗斯 (8)
+  name: 29|🇷🇺_俄罗斯 (4)
   network: grpc
   port: 443
   server: 201.24.116.192
@@ -617,26 +256,8 @@ proxies:
   type: vless
   udp: true
   uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- cipher: chacha20-ietf-poly1305
-  name: 29|🇷🇺_俄罗斯
-  password: JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I=
-  port: 43558
-  server: 130.49.189.158
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- name: 29|🇷🇺_俄罗斯 (2)
-  password: 5c49355f-afbc-0001-9c1c-8205436bb97c
-  port: 443
-  server: 185.151.243.186
-  servername: piodr-ru-74sel.my-fade.cloud
-  skip-cert-verify: false
-  sni: piodr-ru-74sel.my-fade.cloud
-  type: hysteria2
-  udp: true
 - cipher: aes-256-gcm
-  name: 29|🇷🇺_俄罗斯 (3)
+  name: 29|🇷🇺_俄罗斯
   password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
   port: 18443
   server: 48.103.218.77
@@ -644,12 +265,38 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 29|🇷🇺_俄罗斯 (4)
-  password: 00717a40-f058-0001-bd8b-946b3d578273
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  name: 29|🇷🇺_俄罗斯 (16)
   port: 443
-  server: 168.113.254.247
-  servername: vcerx-ru-67sb.my-fade.cloud
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
   skip-cert-verify: false
-  sni: vcerx-ru-67sb.my-fade.cloud
-  type: hysteria2
+  sni: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
   udp: true
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯 (12)
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: false
+  sni: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+- name: 29|🇷🇺_俄罗斯 (11)
+  port: 443
+  server: 168.113.253.178
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
+  skip-cert-verify: false
+  sni: uzndiuvzvqqljdyhzs.fcloudservices.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 608172ed-68e4-0001-85dc-f92c25d0eb92

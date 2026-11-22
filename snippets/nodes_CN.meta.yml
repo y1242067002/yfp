@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,22|🇨🇳_CN_中国_IPV4_2
+  name: 19,22|_CN_国_IPV4
   network: ws
   port: 10086
   server: 39.108.113.127
@@ -10,35 +10,13 @@ proxies:
   uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
   ws-opts:
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 29|🇨🇳_中国
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-  server: 122.8.93.4
-  servername: www.epson.com
-  skip-cert-verify: false
-  sni: www.epson.com
-  tls: true
-  type: vless
+- alterId: 64
+  cipher: auto
+  name: 22|🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: 4fabeed0-790e-9724-8f12-138ed31ac60e
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 29|🇨🇳_中国 (2)
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-  server: 122.8.92.7
-  servername: download.nvidia.com
-  skip-cert-verify: false
-  sni: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4fabeed0-790e-9724-8f12-138ed31ac60e
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

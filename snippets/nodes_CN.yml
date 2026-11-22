@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,22|🇨🇳_CN_中国_IPV4_2
+  name: 19,22|_CN_国_IPV4
   network: ws
   port: 10086
   server: 39.108.113.127
@@ -10,3 +10,13 @@ proxies:
   uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
   ws-opts:
     path: /
+- alterId: 64
+  cipher: auto
+  name: 22|🇳_CN_中国
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
