@@ -94,7 +94,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,35|🇸🇬SG_4|1.1MB/s
+- name: 19|🇬SG_45|728KB/s|K001-260618 [15...
   password: ''
   port: 9090
   server: 146.190.80.158
@@ -767,48 +767,3 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- client-fingerprint: chrome
-  name: 35|🇸🇬SG_5|3.3MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: epam.com
-  servername: wallweb-boi.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
-  ws-opts:
-    headers:
-      Host: wallweb-boi.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇬SG_2|3.8MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 104.18.35.180
-  servername: cdn.lahjy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5821f560-4156-4faf-80ec-9d798b128090
-  ws-opts:
-    headers:
-      Host: cdn.lahjy.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- name: 35|🇸🇬SG_3|1.4MB/s
-  password: ''
-  port: 9090
-  server: 167.99.74.174
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''

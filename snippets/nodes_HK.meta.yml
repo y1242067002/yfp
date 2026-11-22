@@ -202,7 +202,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19|🇰HK_21|654KB/s [81cb774c3d25]
+- name: 19,35|🇰HK_2|1.0MB/s
   password: ''
   port: 8443
   server: 38.76.140.254
@@ -211,6 +211,7 @@ proxies:
   type: http
   udp: true
   username: ''
+  x-toolall-mihomo: true
 - name: 19|HK_33|124KB/s|R002-260618 [a1b...
   port: 443
   server: 202.85.53.25
@@ -430,32 +431,18 @@ proxies:
   type: vless
   udp: true
   uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪DE_15|2.2MB/s
-  network: ws
-  packet-encoding: xudp
+- alpn:
+  - h3
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  down: 200
+  name: 35|HK_1|1.4MB/s
+  obfs: salamander
+  obfs-password: o5qgnpl75wayhkn5
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
-  server: 104.20.63.254
-  servername: joeypg.ezbiz.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: joeypg.ezbiz.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- name: 35|🇰HK_2|1.1MB/s
-  password: ''
-  port: 5001
-  server: 219.78.223.199
+  server: nb2hk.hikigo.com
   skip-cert-verify: true
-  type: socks5
+  sni: nb2hk.hikigo.com
+  type: hysteria2
   udp: true
-  username: ''
+  up: 100
