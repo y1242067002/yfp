@@ -457,13 +457,12 @@ proxies:
   type: vless
   udp: true
   uuid: fbe22815-0718-4eae-816f-e91c67d15b54
-- name: 29,35|🇯🇵JP_2|1.4MB/s
-  network: tcp
+- name: 29|🇯🇵_日本
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
   server: win2loxfde0303.gggrelay.org
   servername: nu3rb.supertoolify.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: nu3rb.supertoolify.com
   tls: true
   type: trojan
@@ -484,11 +483,3 @@ proxies:
   type: vless
   udp: true
   uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-- name: 35|JP_1|1.3MB/s
-  password: czxPueuXQB1wUfMU
-  port: 36835
-  server: 45.192.203.110
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true

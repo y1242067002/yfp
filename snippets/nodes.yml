@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (10)
+  name: 19,22,29,35|🇮🇹IT_5|2.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (13)
+  name: 19,22,29,35|🇮🇹IT_4|1008KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (31)
+  name: 19,22,29,35|🇮🇹IT_2|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33|🇮🇹 意大利|@ripaojiedian
+  name: 19,22,29,33,35|IT_1|3.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (11)
+  name: 19,22,29,35|🇮🇹IT_3|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -6412,13 +6412,12 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 29,35|🇯🇵JP_2|1.4MB/s
-  network: tcp
+- name: 29|🇯🇵_日本
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
   server: win2loxfde0303.gggrelay.org
   servername: nu3rb.supertoolify.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: nu3rb.supertoolify.com
   tls: true
   type: trojan
@@ -6457,6 +6456,13 @@ proxies:
   server: 43.161.217.165
   skip-cert-verify: false
   tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇩🇪DE_3|3.9MB/s
+  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
+  port: 443
+  server: P1.shoppingturbo.com
   type: ss
   udp: true
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM

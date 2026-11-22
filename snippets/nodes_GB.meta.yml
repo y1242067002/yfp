@@ -453,6 +453,31 @@ proxies:
   type: vless
   udp: true
   uuid: 3112c3f2-7172-417d-bce6-d168135d1603
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - fast.com
+    path:
+    - /
+  name: 35|GB_1|1.5MB/s
+  network: http
+  packet-encoding: xudp
+  port: 443
+  server: 64.227.41.219
+  type: vless
+  udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  xudp: true
+- name: 35|🇧GB_2|1.2MB/s
+  password: ''
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

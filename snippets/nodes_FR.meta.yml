@@ -184,7 +184,7 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19|🇫🇷FR_76|8.7MB/s [0aa0aa38a3d8]
+- name: 19,35|🇩🇪DE_6|2.4MB/s
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -193,6 +193,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
+  x-toolall-mihomo: true
 - name: 19|🇫🇷FR_35|1.4MB/s|R002-260618 [0...
   port: 8090
   server: 217.181.201.254
@@ -497,7 +498,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇷FR_117|660KB/s|K001-260618 [4...
+- name: 19,35|🇷FR_4|1018KB/s|K001-260618
   password: Zn5mR7vA
   port: 42000
   server: 144.56.22.78
@@ -506,6 +507,7 @@ proxies:
   type: socks5
   udp: true
   username: L8wP3kQx
+  x-toolall-mihomo: true
 - encryption: none
   name: 19|🇫🇷FR_110|2.1MB/s|B007-260618 [...
   network: ws
@@ -643,7 +645,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇷FR_67|6.9MB/s [602eec94e97e]
+- name: 19,35|🇩🇪DE_5|3.1MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -771,7 +773,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     max-early-data: 2560
     path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
-- name: 19,22,37|FR_speednode_0007
+- name: 19,22,35,37|FR_speednode_0007
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
@@ -787,7 +789,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇷FR_32|5.0MB/s|P002-260618 [83...
+- name: 19,35|🇩🇪DE_12|4.2MB/s|P002-260618
   password: None
   port: 443
   server: 172.64.68.89
@@ -796,6 +798,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 19,22|🇫🇷FR_9|363KB/s|M003-260806 [84...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -896,7 +899,7 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19|🇷FR_5|2.1MB/s|K001-260618 [960...
+- name: 19,35|🇷FR_3|1.2MB/s|K001-260618
   password: None
   port: 443
   server: 82.66.235.221
@@ -906,6 +909,7 @@ proxies:
   type: http
   udp: true
   username: ''
+  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   name: 19|🇷FR_127|291KB/s|M003-260806 [9...
@@ -1037,7 +1041,7 @@ proxies:
       max-concurrency: '0'
       max-connections: '4'
   xudp: true
-- name: 19|🇫🇷FR_34|6.3MB/s|R002-260618 [b...
+- name: 19,35|🇷FR_5|2.3MB/s|R002-260618
   password: 'null'
   port: 6103
   server: 87.98.174.157
@@ -1047,6 +1051,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
+  x-toolall-mihomo: true
 - name: 19|🇷FR_62|4.7MB/s|P002-260618 [b3...
   password: 'null'
   port: 443
@@ -1354,7 +1359,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇷FR_19|1.3MB/s|R002-260618 [df...
+- name: 19,35|🇫🇷FR_6|1.4MB/s|R002-260618
   port: 443
   server: 103.82.101.44
   skip-cert-verify: true
@@ -1363,6 +1368,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   encryption: none
@@ -1666,6 +1672,20 @@ proxies:
         Chrome/49.0.2623.112 Safari/537.36
     path: /
   xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '55'
+  name: 35|FR_1|2.6MB/s
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.124.132
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

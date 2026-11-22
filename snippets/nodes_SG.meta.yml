@@ -202,12 +202,15 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19|🇬SG_30|780KB/s|R002-260618 [50...
+- name: 19,35|Other_1|1.6MB/s
+  password: ''
   port: 9090
   server: 152.42.170.187
+  skip-cert-verify: true
   sub_tag: R002-260618
   type: http
   udp: true
+  username: ''
 - name: 19,22|🇸🇬SG_7|506KB/s|M003-260806 [51...
   network: ws
   packet-encoding: xudp
@@ -493,6 +496,14 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
+- name: 28|🇸🇬226664 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.241.99
+  skip-cert-verify: true
+  sni: 47.129.241.99
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 29|🇸🇬 新加坡 | SGP
   network: ws
@@ -562,7 +573,7 @@ proxies:
   - h3
   auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
   down: 200
-  name: 35|SG_1|1.0MB/s
+  name: 35|SG_1|5.1MB/s
   obfs: salamander
   obfs-password: sj1awrdwnn5lbuno
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -573,3 +584,8 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- name: 35|🇬SG_2|4.6MB/s
+  port: 5555
+  server: 103.248.228.166
+  type: socks5
+  udp: true
