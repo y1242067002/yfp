@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (3)
+  name: 19,22,29,35|🇮🇹IT_3|2.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (8)
+  name: 19,22,29,35|🇮🇹IT_2|3.1MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (5)
+  name: 19,22,29,35|🇮🇹IT_4|1.4MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33|🇮🇹 意大利2|@ripaojiedian
+  name: 19,22,29,33,35|IT_1|1.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -7686,13 +7686,10 @@ proxies:
   uuid: 1270bed5-f908-4ecc-f1c8-de246033b186
   ws-opts:
     path: /
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 29,35|Other_1|2.3MB/s
+  name: 29|🇯🇵_日本 (12)
   network: ws
-  packet-encoding: xudp
   port: 8081
   server: 168.110.63.247
   skip-cert-verify: false
@@ -7701,9 +7698,7 @@ proxies:
   udp: true
   uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
   ws-opts:
-    headers: {}
     path: /vless
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 29|🇰🇿_哈萨克斯坦 (3)
@@ -8448,32 +8443,74 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 33,34|美国4|@ripaojiedian
-  network: tcp
-  password: MiTiVPN
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 35|JP_1|2.3MB/s
+  network: ws
+  port: 16617
+  server: afzuv.xiaoyan.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 35|US_1|3.8MB/s
+  network: http
+  port: 52080
+  server: 107.174.133.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
+- alterId: '0'
+  cipher: auto
+  name: 35|🇪DE_2|3.0MB/s
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 167.82.76.27
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
+  server: 128.140.49.30
+  servername: germanyhetz.onlinernet.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-- name: 33,34|日本2|@ripaojiedian
-  network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 33,34|美国5|@ripaojiedian
-  network: tcp
-  password: Mitivpn
+  uuid: 11edc5c6-bd3f-48f5-ae44-7b61758f323b
+  ws-opts:
+    headers:
+      Host: germanyhetz.onlinernet.ir
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  name: 35|❓Other_3|3.5MB/s
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
   type: trojan
   udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /tr
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
