@@ -91,7 +91,7 @@ proxies:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
   xudp: true
-- name: 19,35|TW_1|1.2MB/s
+- name: 19|🇹TW_18|473KB/s [909a8d192827]
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -162,6 +162,46 @@ proxies:
   type: vless
   udp: true
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+- client-fingerprint: chrome
+  name: 33|🇹🇼 台湾2|@ripaojiedian
+  password: 0324fbc29561
+  port: 443
+  server: a54ge.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 33|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 154.40.61.186
+  servername: senflarelink-node-wj1gsa.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-wj1gsa.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: 34|台湾3|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 154.40.61.186
+  servername: senflarelink-node-wj1gsa.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-wj1gsa.pages.dev
+    path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 37|TW_speednode_0026

@@ -26,14 +26,16 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇭CH_14|931KB/s|C002-260622 [75...
+  name: 19,29|🇨🇭_瑞士 (3) (2)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.33
+  servername: courses.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
   sni: courses.yourultimateprofessionalcareerhub.com
   sub_tag: C002-260622
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -65,30 +67,36 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇨CH_17|3.2MB/s|M003-260806 [72...
+  name: 19,29|🇨🇭_瑞士 (3)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.166.88.189
+  skip-cert-verify: false
   sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇨CH_4|177KB/s|M003-260806 [7d6...
+  name: 19,22,29|🇨🇭_瑞士 (5)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.166.88.127
+  skip-cert-verify: false
   sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇭CH_15|251KB/s|M003-260806 [93...
+  name: 19,29|🇨🇭_瑞士 (8)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.208
+  servername: resources.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
   sni: resources.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - name: 19|🇭CH_21|989KB/s|K001-260618 [9c...
@@ -102,11 +110,13 @@ proxies:
   udp: true
   username: ''
 - cipher: aes-256-gcm
-  name: 19|🇨🇭CH_2|439KB/s|M003-260806 [9c...
+  name: 19,29|🇨🇭_瑞士 (9)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 79.127.184.104
+  skip-cert-verify: false
   sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -121,14 +131,16 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 19|🇭CH_16|4.0MB/s|M003-260806 [a8...
+  name: 19,29|🇨🇭_瑞士 (6)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 186.190.215.251
+  skip-cert-verify: false
   sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
-- name: 19,35|🇨CH_1|3.6MB/s|P002-260618
+- name: 19|CH_26|1.2MB/s|P002-260618 [c96...
   password: None
   port: 443
   server: 31.7.62.50
@@ -137,7 +149,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - name: 19,22|🇭CH_5|65KB/s|K001-260618 [e0f4...
   password: ''
   port: 9443
@@ -149,14 +160,16 @@ proxies:
   udp: true
   username: ''
 - client-fingerprint: chrome
-  name: 19|CH_18|1.7MB/s|S004-260618 [fb5...
+  name: 19,29|🇨🇭_瑞士 (7)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.19
+  servername: www.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
   sni: www.yourultimateprofessionalcareerhub.com
   sub_tag: S004-260618
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -171,16 +184,52 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇨🇭CH_3|1.1MB/s|M003-260806 [bd...
+  name: 22,29|🇨🇭_瑞士 (2) (2)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.158
+  servername: api.yourultimateprofessionalcareerhub.com
   skip-cert-verify: false
   sni: api.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
+- grpc-opts: {}
+  name: 29|🇨🇭_瑞士 (2)
+  network: grpc
+  port: 48115
+  server: 138.124.86.230
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+- flow: xtls-rprx-vision
+  name: 29|🇨🇭_瑞士 (4)
+  port: 443
+  server: 195.15.207.252
+  servername: ch.mntw.lol
+  skip-cert-verify: false
+  sni: ch.mntw.lol
+  tls: false
+  type: vless
+  udp: true
+  uuid: 65b6bc06-44c9-4b21-8dc0-bdf1d688c0e6
+- name: 29|🇨🇭_瑞士 (10)
+  network: ws
+  port: 443
+  server: 185.18.250.2
+  servername: worker3.sicoro1729.workers.dev
+  skip-cert-verify: false
+  sni: worker3.sicoro1729.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10997f19-2951-4a9b-a26f-611a6bd72d02
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   name: 36|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa

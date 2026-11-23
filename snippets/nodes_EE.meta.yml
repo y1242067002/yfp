@@ -44,28 +44,32 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 22|🇪EE_1|118KB/s|P002-260618 [2de...
+- name: 22,29|🇨🇾_塞浦路斯 (2)
   network: tcp
   port: 16443
   server: 45.86.60.174
+  skip-cert-verify: false
   sub_tag: P002-260618
   tls: false
   type: vless
   udp: true
   uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-- client-fingerprint: chrome
-  grpc-opts: {}
+- flow: xtls-rprx-vision
   name: 29|🇪🇪_爱沙尼亚
-  network: grpc
   port: 443
-  reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: 6d289ff0f47c0aac
-  server: 961ec0g.nl13.h1clayd.click
-  servername: 961ec0g.nl13.h1clayd.click
+  server: 217.60.182.96
+  servername: edge.mult-universe.ru
   skip-cert-verify: false
-  sni: 961ec0g.nl13.h1clayd.click
-  tls: true
+  sni: edge.mult-universe.ru
+  tls: false
+  type: vless
+  udp: true
+  uuid: dc91568b-4f12-4ce1-a483-f04dd4913ab9
+- name: 29|🇪🇪_爱沙尼亚 (2)
+  port: 443
+  server: 143.246.41.117
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
