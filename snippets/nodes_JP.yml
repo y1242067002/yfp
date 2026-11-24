@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇵JP_20|185KB/s|S004-260618 [13...
+  name: 19|🇵JP_20|185KB/s|S004-260618 [13...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -19,7 +19,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 18|🇵JP_18|611KB/s|C002-260622 [1d...
+  name: 19|🇵JP_18|611KB/s|C002-260622 [1d...
   network: tcp
   password: F3NzMNuYnG7akU2mSlBY
   port: 8443
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 18|🇵JP_27|653KB/s|B007-260618 [36...
+  name: 19|🇵JP_27|653KB/s|B007-260618 [36...
   password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
   port: 8388
   server: 64.176.57.251
@@ -38,28 +38,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 18,28|免费VPN：tt.vg/FJOE2Mm
+  name: 19|🇯🇵JP_25|704KB/s|A001-260618 [4...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
-  skip-cert-verify: false
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 18,28|🇯🇵_日本 (8)
+  name: 19|🇵JP_28|754KB/s|A001-260618 [59...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
-  skip-cert-verify: false
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇵JP_22|334KB/s|S004-260618 [60...
+  name: 19|🇵JP_22|334KB/s|S004-260618 [60...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -78,7 +74,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇵JP_8|169KB/s|S004-260618 [89b...
+  name: 19|🇵JP_8|169KB/s|S004-260618 [89b...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -99,7 +95,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 18|🇵JP_29|643KB/s|F003-260618 [ac...
+  name: 19|🇵JP_29|643KB/s|F003-260618 [ac...
   network: tcp
   packet-encoding: xudp
   port: 46130
@@ -112,117 +108,73 @@ proxies:
   uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
   xudp: true
 - cipher: aes-128-gcm
-  name: 18,28|🇯🇵_日本
+  name: 19|🇯🇵JP_10|144KB/s|M003-260806 [b...
   password: Bwlqh7GcFB
   port: 53758
   server: jpa.123069.xyz
-  skip-cert-verify: false
   sub_tag: M003-260806
-  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 18,28|🇯🇵_日本 (9)
+  name: 19|🇵JP_2|267KB/s|A004-260618 [c67...
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
-  skip-cert-verify: false
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 18,28|🇯🇵_日本 (11)
+  name: 19|🇵JP_26|718KB/s|A001-260618 [f5...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  skip-cert-verify: false
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 18,28|🇯🇵_日本 (12)
+  name: 19|🇵JP_9|81KB/s|M003-260806 [ff81...
   password: Bwlqh7GcFB
   port: 53758
   server: 168.138.205.100
-  skip-cert-verify: false
   sub_tag: M003-260806
-  tls: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|日期：11-23
-  password: jcZ1WR03oknoEJYA
-  port: 22222
-  server: jp01-ipv6.linkms001.com
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 28|🇯🇵_日本 (7)
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 28|🇯🇵_日本 (6)
-  port: 46130
-  server: 64.176.34.102
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
-- alterId: 0
-  cipher: auto
-  name: 28|🇯🇵_日本 (2) (3)
+- name: 29|日期：11-24
   network: ws
-  port: 80
-  server: 168.138.43.75
-  servername: 168.138.43.75
-  skip-cert-verify: false
-  sni: 168.138.43.75
-  tls: false
-  type: vmess
+  password: zhs000666
+  port: 443
+  server: 141.98.41.21
+  servername: 666-4sd.pages.dev
+  skip-cert-verify: true
+  sni: 666-4sd.pages.dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
     headers:
-      Host: 168.138.43.75
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 28|🇯🇵_日本 (4)
-  network: ws
-  port: 8081
-  server: 168.110.63.247
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+      Host: 666-4sd.pages.dev
+    path: /
+- name: 29|🇯🇵_日本 (14)
+  password: gfVP588mN_WKDUVTnHq18uO7fCdlDW76Wu0Zbd7vtzs
+  port: 9443
+  server: jpk.wentibuxiaobuda.xyz
+  servername: jpk.wentibuxiaobuda.xyz
+  skip-cert-verify: true
+  sni: jpk.wentibuxiaobuda.xyz
+  tls: true
+  type: trojan
   udp: true
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  ws-opts:
-    path: /vless
-- alterId: 0
-  cipher: auto
-  name: 28|🇯🇵_日本 (4) (2)
-  network: ws
-  port: 8880
-  server: 161.33.20.255
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 29|🇯🇵_日本 (15)
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nu3rb.supertoolify.com
+  servername: nu3rb.supertoolify.com
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
+  tls: true
+  type: trojan
   udp: true
-  uuid: e0856508-d693-450a-a099-455091dc4f25
-  ws-opts:
-    path: e0856508-d693-450a-a099-455091dc4f25-vm
-- name: 32,33|日本|@ripaojiedian
+- name: 33,34|日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443

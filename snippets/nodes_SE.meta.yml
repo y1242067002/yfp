@@ -1,5 +1,5 @@
 proxies:
-- name: 18|🇸SE_7|2.0MB/s|P002-260618 [63b...
+- name: 19|🇸SE_7|2.0MB/s|P002-260618 [63b...
   network: ws
   packet-encoding: xudp
   port: 14430
@@ -15,7 +15,7 @@ proxies:
       Host: 5.178.109.174
     path: /vless
   xudp: true
-- name: 18|SE_6|1.4MB/s|P002-260618 [30db...
+- name: 19|SE_6|1.4MB/s|P002-260618 [30db...
   password: None
   port: 443
   server: 146.70.242.146
@@ -24,7 +24,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 18|🇪SE_12|1.4MB/s|R002-260618 [3e...
+- name: 19|🇪SE_12|1.4MB/s|R002-260618 [3e...
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
@@ -35,7 +35,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇪SE_8|2.4MB/s|B007-260618 [4f4...
+  name: 19|🇪SE_8|2.4MB/s|B007-260618 [4f4...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -48,7 +48,7 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - encryption: mlkem768x25519plus.native.0rtt.beTW_jdNvFQVpegzyf_foGfgRBsHkf7VrtnC14NTe1s
-  name: 18|🇸🇪SE_15|2.1MB/s|M003-260806 [6...
+  name: 19|🇸🇪SE_15|2.1MB/s|M003-260806 [6...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -64,7 +64,7 @@ proxies:
         Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
   xudp: true
-- name: 18|🇪SE_1|913KB/s|R002-260618 [733...
+- name: 19|🇪SE_1|913KB/s|R002-260618 [733...
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
@@ -75,7 +75,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-  name: 18|🇸SE_9|2.8MB/s|A001-260618 [761...
+  name: 19|🇸SE_9|2.8MB/s|A001-260618 [761...
   network: grpc
   packet-encoding: xudp
   port: 48115
@@ -87,7 +87,7 @@ proxies:
   udp: true
   uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   xudp: true
-- name: 18|🇪SE_10|1006KB/s|P002-260618 [8...
+- name: 19|🇪SE_10|1006KB/s|P002-260618 [8...
   password: None
   port: 443
   server: 79.142.77.63
@@ -99,7 +99,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 18|🇪SE_11|2.6MB/s|B007-260618 [86...
+  name: 19|🇪SE_11|2.6MB/s|B007-260618 [86...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -112,26 +112,10 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 18,28|🇸🇪_瑞典
+  name: 19|SE_2|2.8MB/s|M003-260806 [ed43...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
-  skip-cert-verify: false
   sub_tag: M003-260806
-  tls: false
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 28|🇸🇪_瑞典 (2)
-  network: ws
-  port: 8443
-  server: 167.104.104.138
-  servername: n.tmkkarss.online
-  skip-cert-verify: false
-  sni: n.tmkkarss.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5194487-9b9a-462f-a047-ac7580d80201
-  ws-opts:
-    path: /
