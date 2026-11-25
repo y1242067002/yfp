@@ -520,6 +520,23 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|CA_1|1.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8
+    short-id: 723ace0d14784964
+  server: 94.241.140.130
+  servername: rucanmicro2.gangplatform.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大

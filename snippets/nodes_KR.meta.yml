@@ -201,20 +201,6 @@ proxies:
   flow: ''
   name: 34|韩国|@ripaojiedian
   network: ws
-  port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: 34|韩国2|@ripaojiedian
-  network: ws
   port: 12101
   server: 14.44.19.57
   servername: senflarelink-node-nwz76h.pages.dev
@@ -225,9 +211,17 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 35|KR_1|2.3MB/s
+- name: 35|🇷KR_1|4.6MB/s
   port: 1080
   server: 59.11.209.162
   skip-cert-verify: true
   type: socks5
   udp: true
+- name: 35|🇰🇷KR_2|2.7MB/s
+  password: ''
+  port: 80
+  server: 101.79.22.162
+  skip-cert-verify: true
+  type: http
+  udp: true
+  username: ''

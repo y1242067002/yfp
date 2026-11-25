@@ -570,8 +570,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 33,34|日本|@ripaojiedian
-  network: tcp
+- name: 33|🇯🇵 日本|@ripaojiedian
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: nu2rb.supertoolify.com
@@ -620,7 +619,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 33|🇯🇵 日本4|@ripaojiedian
+  name: 33,35|🇵JP_3|4.1MB/s
   network: ws
   port: 8443
   server: 166.88.14.71
@@ -715,3 +714,37 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
+- name: 35|JP_1|1.9MB/s
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 35|🇯🇵JP_2|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 4PW0sZKIFw76TlA6TZsa58SO_0RTvn7cBUF1Nsia-iU
+    short-id: 33f3df46f280bd1a
+  server: 64.204.49.143
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4204c3de-2973-465f-b5ed-f055a81e27ae
+  xudp: true
+- name: 35|🇯🇵JP_4|1.3MB/s
+  password: ''
+  port: 3001
+  server: 43.133.21.24
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: ''

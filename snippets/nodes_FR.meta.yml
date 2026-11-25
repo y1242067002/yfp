@@ -488,7 +488,8 @@ proxies:
       max-concurrency: '0'
       max-connections: '4'
   xudp: true
-- name: 19|🇷FR_113|7.5MB/s|P002-260618 [4...
+- name: 19,35|🇪DE_18|3.3MB/s
+  password: ''
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -497,6 +498,8 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: ''
+  x-toolall-mihomo: true
 - name: 19|🇷FR_117|660KB/s|K001-260618 [4...
   password: Zn5mR7vA
   port: 42000
@@ -787,7 +790,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇷FR_32|5.0MB/s|P002-260618 [83...
+- name: 19,35|🇩🇪DE_6|3.6MB/s|P002-260618
   password: None
   port: 443
   server: 172.64.68.89
@@ -796,6 +799,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 19|🇫🇷FR_41|3.3MB/s|M003-260806 [8...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -967,7 +971,7 @@ proxies:
         like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
   xudp: true
-- name: 19,37|US_speednode_0027
+- name: 19,35,37|US_speednode_0027
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -1543,6 +1547,71 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: 35|🇫FR_1|2.2MB/s
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 35|🇷FR_2|1.2MB/s
+  obfs: ''
+  port: 24667
+  protocol: ''
+  server: 62.210.28.175
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  disable-sni: true
+  down: '50'
+  name: 35|🇫🇷FR_3|2.6MB/s
+  obfs: ''
+  port: 24667
+  protocol: ''
+  server: 62.210.70.191
+  skip-cert-verify: true
+  sni: 62.210.70.191
+  type: hysteria
+  udp: true
+  up: '10'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇷FR_4|1.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.155.103.57
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /ws?ip=45.155.103.57:443
+  xudp: true
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

@@ -605,7 +605,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇸US_637|751KB/s|R002-260618 [0...
+- name: 19,35|🇸US_6|3.3MB/s
   password: 75bPoRcB
   port: 62000
   server: 216.132.114.27
@@ -1057,10 +1057,11 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19|🇺🇸US_639|434KB/s|R002-260618 [...
+- name: 19,35|🇺🇸US_8|1.7MB/s
   password: kingstar123++
   port: 62000
   server: 23.230.200.250
+  skip-cert-verify: true
   sub_tag: R002-260618
   type: socks5
   udp: true
@@ -1673,7 +1674,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19|🇸US_354|710KB/s [30c7d2c10924]
+- name: 19,35|🇸US_3|2.6MB/s
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -1682,6 +1683,7 @@ proxies:
   type: http
   udp: true
   username: ''
+  x-toolall-mihomo: true
 - client-fingerprint: chrome
   name: 19|🇺🇸US_240|866KB/s|A004-260618 [...
   network: tcp
@@ -2867,7 +2869,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: 19|🇺🇸US_16|782KB/s|R002-260618 [6...
+- name: 19,35|🇺🇸US_4|3.1MB/s
   password: ''
   port: 9002
   server: 138.199.35.201
@@ -2877,6 +2879,7 @@ proxies:
   type: http
   udp: true
   username: ''
+  x-toolall-mihomo: true
 - name: 19|🇺🇸US_396|877KB/s|R002-260618 [...
   password: None
   port: 443
@@ -3466,7 +3469,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19|🇺🇸US_636|633KB/s|R002-260618 [...
+- name: 19,35|🇺🇸US_5|3.6MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
@@ -3724,7 +3727,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,37|NN_speednode_0023
+- name: 19,35,37|NN_speednode_0023
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: usgp1-cdn-route.couldflare-cdn.com
@@ -4351,7 +4354,8 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19|🇺🇸US_393|879KB/s|R002-260618 [...
+- name: 19,35|🇸US_13|2.7MB/s
+  password: ''
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
@@ -4360,6 +4364,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: ''
 - name: 19|🇸US_243|769KB/s|K001-260618 [c...
   password: None
   port: 9002
@@ -4464,7 +4469,7 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19|🇺🇸US_150|806KB/s|P002-260618 [...
+- name: 19,35|🇸US_14|1.9MB/s
   password: None
   port: 9002
   server: 138.199.35.219
@@ -4473,6 +4478,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 19|🇺🇸US_71|822KB/s|P002-260618 [c...
   password: None
   port: 9002
@@ -5719,6 +5725,142 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 34|美国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.132.42
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 34|美国3|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 95.169.13.59
+  servername: senflarelink-node-m3bfbn.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 34|美国4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.137.204
+  servername: senflarelink-node-xfcyh2.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35|🇺🇸US_9|1001KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 7pnL_m6XftDfRH5Lue-2zI1a0XWg-xcQd5F8m5lqChg
+    short-id: d5f348390b201e86
+  server: 207.244.243.12
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a33f9fb8-51bb-46d0-8d3a-6b54fdc15943
+  xudp: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  auth_str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 35|🇸US_7|1.2MB/s
+  obfs: ''
+  port: 22335
+  protocol: ''
+  server: 198.200.57.142
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_10|1.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 163.47.134.242
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /ws?ip=163.47.134.242:443
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇸US_11|2.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 23.95.123.103
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /ws?ip=23.95.123.103:443
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 35|🇺🇸US_12|2.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 129.213.94.19
+  servername: app-base-njw3ky.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962
+  ws-opts:
+    headers:
+      Host: app-base-njw3ky.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /ws?ip=129.213.94.19:443
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇺🇸 _US_美国_1

@@ -445,6 +445,13 @@ proxies:
   type: vless
   udp: true
   uuid: 40992c2a-513e-4837-9594-23411fd42afd
+- name: 35,37|GB_speednode_0008
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM
@@ -478,11 +485,4 @@ proxies:
   skip-cert-verify: true
   sni: fra32.chasem2026sud.com
   type: trojan
-  udp: true
-- name: 37|GB_speednode_0008
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
   udp: true

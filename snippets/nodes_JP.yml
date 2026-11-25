@@ -174,12 +174,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 33,34|日本|@ripaojiedian
-  network: tcp
+- name: 33|🇯🇵 日本|@ripaojiedian
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: nu2rb.supertoolify.com
   skip-cert-verify: true
   sni: nu2rb.supertoolify.com
+  type: trojan
+  udp: true
+- name: 35|JP_1|1.9MB/s
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
   type: trojan
   udp: true
