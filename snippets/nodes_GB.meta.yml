@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,29|🇩🇪_德国 (9)
+  name: 19,29|🇩🇪_德国 (26)
   port: 443
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
@@ -78,11 +78,13 @@ proxies:
   type: http
   udp: true
 - cipher: aes-128-gcm
-  name: 19|🇧GB_19|4.5MB/s|A004-260618 [26...
+  name: 19,29|🇬🇧_英国 (9)
   password: shadowsocks
   port: 443
   server: 158.173.24.73
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - name: 19|🇧GB_17|1.7MB/s|R002-260618 [2a...
@@ -151,11 +153,13 @@ proxies:
   type: http
   udp: true
 - cipher: aes-128-gcm
-  name: 19|🇧GB_27|84KB/s|A004-260618 [70c...
+  name: 19,29|🇬🇧_英国 (7)
   password: shadowsocks
   port: 443
   server: 141.98.101.181
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - encryption: none
@@ -295,11 +299,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19|🇧GB_15|80KB/s|B007-260618 [d92...
+  name: 19,29|🇬🇧_英国 (6)
   password: shadowsocks
   port: 443
   server: 141.98.101.178
+  skip-cert-verify: true
   sub_tag: B007-260618
+  tls: false
   type: ss
   udp: true
 - alterId: '0'
@@ -317,140 +323,124 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国
-  port: 20086
-  reality-opts:
-    public-key: n1_yHUrlljxT_VL8HX0ALz8JKAYHJb5e2sQ8tMdBp2A
-  server: 85.189.89.172
-  servername: www.amazon.com
+- name: 29|🇬🇧_英国 (2)
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  servername: '---@external_net---@external_net---@external_net---@external_net---@external_net'
   skip-cert-verify: true
-  sni: www.amazon.com
+  sni: '---@external_net---@external_net---@external_net---@external_net---@external_net'
   tls: true
   type: vless
   udp: true
-  uuid: 469e41b2-ffb2-4ab3-ad4d-fd00ac69af75
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2)
-  port: 20086
-  reality-opts:
-    public-key: H3CK3gN9HfMONI7aYoSxOUqc5EYPgOVWfLOU3ygaIjw
-  server: 85.189.89.169
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6618c37f-edd7-4ff0-b9d6-26f1cc4945ab
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
+  ws-opts:
+    path: /vless/
+- alterId: 0
+  cipher: auto
   name: 29|🇬🇧_英国 (3)
-  port: 20086
-  reality-opts:
-    public-key: p6xwBXTFkq8nzeO8zjPTSHANvS2DfstuG-Vp134hBGs
-  server: 85.189.89.182
-  servername: aws.amazon.com
+  network: ws
+  port: 80
+  server: 57.129.132.223
   skip-cert-verify: true
-  sni: aws.amazon.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    path: /vmess/?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 29|🇬🇧_英国 (5)
+  network: ws
+  port: 443
+  server: 51.38.71.147
+  servername: uk1.connectsuite.org
+  skip-cert-verify: true
+  sni: uk1.connectsuite.org
   tls: true
   type: vless
   udp: true
-  uuid: 24bc6f99-bb3c-405b-9f99-e27c5012cf45
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  ws-opts:
+    path: /cdn-cgi/ws
+- name: 29|🇬🇧_英国 (10)
+  network: ws
+  port: 443
+  server: uk1.connectsuite.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  ws-opts:
+    path: /cdn-cgi/ws
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (4)
-  port: 20086
-  reality-opts:
-    public-key: MqEVrXrgUtPf9WYkZyUfVtJQDAssCV79bad4F4LlWGA
-  server: 85.189.89.170
-  servername: www.paypal.com
+  name: 29|🇬🇧_英国 (12)
+  network: ws
+  port: 443
+  server: k2.cloud--vpn.site
+  servername: ssl.fastly.com
   skip-cert-verify: true
-  sni: www.paypal.com
+  sni: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: b5e8a15a-e134-4493-9073-be79eab9cda8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (5)
-  port: 20086
-  reality-opts:
-    public-key: ij8p9EwemwRh-0Hbg6OTNUMZGVeklZXrX534z3qoiGY
-  server: 85.189.89.183
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35b08a76-2a3e-4371-8748-2ef9ce27103f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (6)
-  port: 20086
-  reality-opts:
-    public-key: 4J4GxkNymYvPekhC_g8-Fns5frLOueOLdB4C-_BKWjY
-  server: 85.189.89.190
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f72b7be4-9030-4b35-bc6c-2a202200fcab
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (7)
-  port: 20086
-  reality-opts:
-    public-key: lVwVzyeyX0aRVzkOYY-MRJQuZgqaqLJZQL0mVlYqORI
-  server: 85.189.89.165
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3808bf4-a0db-4828-93d5-ad534d302f1d
-- http-opts:
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  ws-opts:
     headers:
-      Host:
-      - fast.com
-    path:
-    - /
+      Host: c12.com
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (13)
+  network: ws
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 29|🇬🇧_英国 (14)
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 29|🇬🇧_英国 (11)
+  port: 443
+  server: folio.basterdym.asia
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+- cipher: aes-128-gcm
   name: 29|🇬🇧_英国 (8)
-  network: http
+  password: shadowsocks
   port: 443
-  server: 167.99.203.0
+  server: 141.98.101.182
   skip-cert-verify: true
   tls: false
-  type: vless
-  udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-- http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: 29|🇬🇧_英国 (9)
-  network: http
-  port: 443
-  server: 64.227.41.219
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-- name: 35,37|GB_speednode_0008
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -485,4 +475,11 @@ proxies:
   skip-cert-verify: true
   sni: fra32.chasem2026sud.com
   type: trojan
+  udp: true
+- name: 37|GB_speednode_0008
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true

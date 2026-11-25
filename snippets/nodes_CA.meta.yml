@@ -179,36 +179,42 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 19|🇨CA_45|759KB/s|A004-260618 [b1...
+  name: 19,29|🇨🇦_加拿大 (11)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.152
-  skip-cert-verify: false
+  servername: learn.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: learn.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇦CA_40|1.1MB/s|A004-260618 [2f...
+  name: 19,29|🇨🇦_加拿大 (4)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.74
-  skip-cert-verify: false
+  servername: api.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: api.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇨🇦CA_26|1.3MB/s|A004-260618 [1...
+  name: 19,29|🇨🇦_加拿大 (6)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
-  skip-cert-verify: false
+  servername: connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -257,14 +263,16 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇨🇦CA_25|1.0MB/s|A004-260618 [3...
+  name: 19,29|🇨🇦_加拿大 (7)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.48
-  skip-cert-verify: false
+  servername: courses.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: courses.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
+  tls: true
   type: trojan
   udp: true
 - cipher: rc4-md5
@@ -284,11 +292,13 @@ proxies:
   type: http
   udp: true
 - cipher: aes-128-gcm
-  name: 19|🇦CA_50|844KB/s|A004-260618 [3f...
+  name: 19,29|🇨🇦_加拿大
   password: shadowsocks
   port: 443
   server: 149.22.95.183
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -324,14 +334,16 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇦CA_24|946KB/s|M003-260806 [6f...
+  name: 19,29|🇨🇦_加拿大 (9)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.201
-  skip-cert-verify: false
+  servername: resources.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: resources.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -375,14 +387,16 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 19|🇨🇦CA_41|1.0MB/s|M003-260806 [b...
+  name: 19,29|🇨🇦_加拿大 (10)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.89
-  skip-cert-verify: false
+  servername: www.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: www.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -452,14 +466,16 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇦CA_27|1.1MB/s|M003-260806 [c9...
+  name: 19,29|🇨🇦_加拿大 (8)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.85
-  skip-cert-verify: false
+  servername: cdn.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
   sni: cdn.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -520,23 +536,36 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|CA_1|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 29|🇨🇦_加拿大 (2)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  reality-opts:
-    public-key: fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8
-    short-id: 723ace0d14784964
-  server: 94.241.140.130
-  servername: rucanmicro2.gangplatform.com
+  server: leviko-ca6908.shopingggg.ir
+  servername: blog.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
+  sni: blog.connectingpeoplewithgreatjobs.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 29|🇨🇦_加拿大 (3)
+  port: 443
+  server: 66.163.113.9
+  servername: kuruish.org
+  skip-cert-verify: true
+  sni: kuruish.org
   tls: true
   type: vless
   udp: true
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-  xudp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- name: 29|🇨🇦_加拿大 (5)
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.79
+  servername: blog.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
+  sni: blog.connectingpeoplewithgreatjobs.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大

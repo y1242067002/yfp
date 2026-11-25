@@ -146,15 +146,16 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: 19|🇷FR_58|801KB/s|F003-260618 [88...
+  name: 19,29|🇫🇷_法国 (4)
   network: ws
   packet-encoding: xudp
   port: 80
   server: 145.239.55.210
   servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: false
+  skip-cert-verify: true
+  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
   sub_tag: F003-260618
   tls: false
   type: vmess
@@ -297,7 +298,22 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 29|🇫🇷_法国 (2)
+- name: 29|🇫🇷_法国 (6)
+  network: ws
+  password: zhs000666
+  port: 443
+  server: 146.59.105.122
+  servername: 666-4sd.pages.dev
+  skip-cert-verify: true
+  sni: 666-4sd.pages.dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 666-4sd.pages.dev
+    path: /?ed=2560
+- name: 29|🇫🇷_法国 (7)
   network: ws
   password: zhs000666
   port: 443

@@ -30,7 +30,7 @@ proxies:
       Host: sg.lovehk.xyz
     path: /Singapore1
 - client-fingerprint: unsafe
-  name: 19,29|🇸🇬_新加坡 (5)
+  name: 19,29|🇸🇬_新加坡 (3)
   network: ws
   port: 443
   server: 43.170.8.95
@@ -203,15 +203,12 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,35|🇬SG_1|2.3MB/s
-  password: ''
+- name: 19|🇬SG_30|780KB/s|R002-260618 [50...
   port: 9090
   server: 152.42.170.187
-  skip-cert-verify: true
   sub_tag: R002-260618
   type: http
   udp: true
-  username: ''
 - name: 19|🇬SG_44|569KB/s|M003-260806 [51...
   network: ws
   packet-encoding: xudp
@@ -351,14 +348,16 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 19|🇬SG_47|102KB/s|B007-260618 [b2...
+  name: 19,29|🇸🇬_新加坡 (2)
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 15.235.184.127
-  skip-cert-verify: false
+  servername: exploredigitaljobplatformandfindonlinework.com
+  skip-cert-verify: true
   sni: exploredigitaljobplatformandfindonlinework.com
   sub_tag: B007-260618
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -400,72 +399,27 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 29|🇸🇬_新加坡 (2)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 167.71.215.36
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /
-- name: 29|🇸🇬_新加坡 (3)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 159.65.1.74
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 29|🇸🇬_新加坡 (4)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 167.71.215.36
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡 (6)
+  name: 29|🇸🇬_新加坡 (4)
   network: ws
   port: 443
   reality-opts:
-    public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
-    short-id: 2f6f6f87
-  server: 139.180.221.53
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: 9360f0d0
+  server: 172.104.48.162
   servername: itunes.apple.com
   skip-cert-verify: true
   sni: itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
   ws-opts:
     headers:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡 (7)
+  name: 29|🇸🇬_新加坡 (5)
   network: ws
   port: 443
   reality-opts:
@@ -479,6 +433,44 @@ proxies:
   type: vless
   udp: true
   uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (6)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: ybu5pFdSV23WsnMNhbpa8TwV6TJd6NLZ6HX-ggww61A
+    short-id: 83f673ba
+  server: 139.180.215.25
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbc20d3e-0391-48f1-ad72-90a6802f728e
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (7)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: sli7AT0WEhYMVMARhHh-ZQMK7zHHn0cGsxw2gPhoBis
+    short-id: 107ff148
+  server: 149.28.152.20
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e17ca473-bd02-4fe6-873f-5866d729b0a3
   ws-opts:
     headers:
       Host: itunes.apple.com
@@ -507,121 +499,36 @@ proxies:
   network: ws
   port: 443
   reality-opts:
-    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
-    short-id: 9360f0d0
-  server: 172.104.48.162
+    public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
+    short-id: 2f6f6f87
+  server: 139.180.221.53
   servername: itunes.apple.com
   skip-cert-verify: true
   sni: itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
+  uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
   ws-opts:
     headers:
       Host: itunes.apple.com
     path: /ws
-- name: 29|🇸🇬_新加坡 (11)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 29|🇸🇬_新加坡
+  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   port: 443
-  server: atrsg1.hikigo.com
-  servername: atrsg1.hikigo.com
+  server: 43.156.36.253
+  servername: 43.156.36.253
   skip-cert-verify: true
-  sni: atrsg1.hikigo.com
+  sni: 43.156.36.253
   tls: true
   type: trojan
   udp: true
-- name: 29|🇸🇬_新加坡 (12)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg1.hikigo.com
-  servername: bgsg1.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg1.hikigo.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇸🇬_新加坡 (13)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: 77.93.89.2
-  servername: bgsg1.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg1.hikigo.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 33|🇸🇬 新加坡5|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-    short-id: 640c807d
-  server: 139.162.20.241
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
-  ws-opts:
-    path: /ws
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 33|🇸🇬 新加坡2|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
-    short-id: 4d1244cd42a20e6c
-  server: 47.84.39.7
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
-- auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  name: 33|🇸🇬 新加坡1|@ripaojiedian
-  obfs: salamander
-  obfs-password: sj1awrdwnn5lbuno
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg2.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg2.hikigo.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: 33|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-    short-id: 640c807d
-  server: 139.162.20.241
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-    v2ray-http-upgrade: false
 - client-fingerprint: chrome
   name: 33|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: 8443
-  server: 43.159.41.66
-  servername: senflarelink-node-il65vh.pages.dev
+  port: 2087
+  server: 13.140.95.76
+  servername: senflarelink-node-6b9.pages.dev
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -630,24 +537,7 @@ proxies:
   uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 33|🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 43.134.187.97
-  servername: senflarelink-node-2ott2x.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-2ott2x.pages.dev
+      Host: senflarelink-node-6b9.pages.dev
     path: /
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
