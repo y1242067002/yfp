@@ -1,18 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 19|_CN_国_IPV4_2
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  tls: false
-  type: vmess
-  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
-  name: 22|🇨🇳_CN_中国_3
+  name: 19,22|🇨🇳_CN_中国_3
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
@@ -20,3 +9,102 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- ip: 172.16.0.2/32
+  mtu: 1280
+  name: 35|CN_1|2.3MB/s
+  port: 500
+  presharedkey: ''
+  private-key: cMxekgAnVSNb+rgOySV+74ogaJhqpJtShZaECZCY6k4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 236
+  - 210
+  - 245
+  server: 162.159.192.1
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 35|🇨🇳CN_2|2.8MB/s
+  port: 8742
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.207
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 35|🇨🇳CN_3|1.3MB/s
+  port: 3854
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.134
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_4|1.9MB/s
+  persistent-keepalive: '5'
+  port: 500
+  private-key: +AYnqJYinZIJ6yZwIjmirctmPqzfctf6H2fTqywa/XM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 39
+  - 4
+  - 107
+  server: 162.159.192.2
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_5|2.7MB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: 6LvJU33ZnWgR0r4A51ApYLHh+AT4v7Ft/SZ7vZHml3Y=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 128
+  - 217
+  - 102
+  server: 162.159.192.6
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 35|🇨🇳CN_6|1.6MB/s
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: EH18t6hUfxFfP5cUXKBNGXgLS9wTgQ/iMNSTOlBCDHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 114
+  - 58
+  - 245
+  server: 162.159.192.4
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90

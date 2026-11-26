@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,22|🇵JP_5|170KB/s|S004-260618 [134...
+  name: '19,22|🇵JP_5|170KB/s|S004-260618 [134... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -19,7 +19,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 19,22|🇯🇵JP_13|226KB/s|C002-260622 [1...
+  name: '19,22|🇯🇵JP_13|226KB/s|C002-260622 [1... #1'
   network: tcp
   password: F3NzMNuYnG7akU2mSlBY
   port: 8443
@@ -29,149 +29,9 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 19|🇵JP_27|653KB/s|B007-260618 [36...
-  password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
-  port: 8388
-  server: 64.176.57.251
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇯🇵JP_10|666KB/s|A001-260618 [4...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  sub_tag: A001-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇵JP_22|666KB/s|A001-260618 [59...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  sub_tag: A001-260618
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 19|🇵JP_22|334KB/s|S004-260618 [60...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: jp01.a0a.xyz
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 19|🇵JP_8|169KB/s|S004-260618 [89b...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  servername: none
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: none
-    path: /cctv13.m3u8
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 19|🇵JP_29|643KB/s|F003-260618 [ac...
-  network: tcp
-  packet-encoding: xudp
-  port: 46130
-  server: 64.176.34.102
-  skip-cert-verify: false
-  sub_tag: F003-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
-  xudp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇯🇵JP_17|678KB/s|M003-260806 [b...
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇵JP_1|113KB/s|A004-260618 [c67...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇵JP_11|627KB/s|A001-260618 [f5...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  sub_tag: A001-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 19,22|🇵JP_5|709KB/s|M003-260806 [ff8...
-  password: Bwlqh7GcFB
-  port: 53758
-  server: 168.138.205.100
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 22|JP_36|565KB/s|P002-260618 [75b...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
-  skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  sub_tag: P002-260618
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇵JP_12|80KB/s|A004-260618 [2ca...
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_35|348KB/s|M003-260806 [be...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: dg4.ianai.it.com
-  skip-cert-verify: false
-  sni: dg4.ianai.it.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇵JP_15|526KB/s|S004-260618 [20...
+  name: '19,22|🇵JP_15|526KB/s|S004-260618 [20... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -188,8 +48,32 @@ proxies:
       Host: 168.138.43.75
     path: /cctv13.m3u8
   xudp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇵JP_12|80KB/s|A004-260618 [2ca... #1'
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇯🇵JP_10|666KB/s|A001-260618 [4... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇵JP_22|666KB/s|A001-260618 [59... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  sub_tag: A001-260618
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 22|🇵JP_31|219KB/s|A003-260618 [93...
+  name: '19,22|🇵JP_31|219KB/s|A003-260618 [93... #1'
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
@@ -198,6 +82,74 @@ proxies:
   sni: nu3rb.supertoolify.com
   sub_tag: A003-260618
   type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇯🇵JP_17|678KB/s|M003-260806 [b... #1'
+  password: Bwlqh7GcFB
+  port: 53758
+  server: jpa.123069.xyz
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇵JP_1|113KB/s|A004-260618 [c67... #1'
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇵JP_11|627KB/s|A001-260618 [f5... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 22|JP_36|565KB/s|P002-260618 [75b...
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nu2rb.supertoolify.com
+  skip-cert-verify: true
+  sni: nu2rb.supertoolify.com
+  sub_tag: P002-260618
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22|🇵JP_12|622KB/s|R002-260618 [7a...
+  network: ws
+  port: 8081
+  server: 168.110.63.247
+  sub_tag: R002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  ws-opts:
+    path: /vless
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: 22|🇵JP_35|348KB/s|M003-260806 [be...
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: dg4.ianai.it.com
+  skip-cert-verify: false
+  sni: dg4.ianai.it.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 22|🇵JP_5|709KB/s|M003-260806 [ff8...
+  password: Bwlqh7GcFB
+  port: 53758
+  server: 168.138.205.100
+  sub_tag: M003-260806
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 29|🇯🇵_日本 (2)
