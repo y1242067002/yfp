@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (4)
+  name: 19,22,29|🇮🇹_意大利 (5)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_3|1.5MB/s
+  name: 19,22,29|🇮🇹_意大利
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_4|1002KB/s
+  name: 19,22,29|🇮🇹_意大利 (7)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_2|1.5MB/s
+  name: 19,22,29|🇮🇹_意大利 (9)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -40,17 +40,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_6|1.9MB/s
+  name: 19,22|🇹IT_18|2.2MB/s|C001-260618 [10...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
-  skip-cert-verify: true
+  skip-cert-verify: false
   sub_tag: C001-260618
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33,35|IT_1|2.2MB/s
+  name: 19,22,29,33|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (2)
+  name: 19,22,29|🇮🇹_意大利 (3)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (3)
+  name: 19,22,29|🇮🇹_意大利 (8)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -90,7 +90,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_5|1.4MB/s
+  name: 19,22,29|🇮🇹_意大利 (4)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -358,16 +358,14 @@ proxies:
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - alterId: 0
   cipher: auto
-  name: 19,29|🇺🇸_美国 (10)
+  name: 19|🇺🇸_US__IPV4_2
   network: ws
   port: 443
   server: 172.66.0.1
   servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: true
   sni: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
-  udp: true
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
@@ -522,16 +520,14 @@ proxies:
   sub_tag: X001-260618
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (31)
+- name: 19,22|🇺🇸US_471|1.2MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.59
-  servername: api.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.nextjobopportunityandclaimyouridealrole.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -625,13 +621,11 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19,22,29|🇬🇧_英国 (4)
+  name: 19,22|🇱NL_141|7.7MB/s|B007-260618 [0...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.162
-  skip-cert-verify: true
   sub_tag: B007-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -653,12 +647,10 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (21)
+  name: 19,22|🇺🇸US_348|2.0MB/s [0940c1208f74...
   password: shadowsocks
   port: 443
   server: 37.19.198.160
-  skip-cert-verify: true
-  tls: false
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -731,13 +723,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇺🇸_美国 (24)
+  name: 19,22|🇸US_103|623KB/s|A004-260618 [0...
   password: pKEW8JPByTVTLtM
   port: 443
   server: 15.204.247.244
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - alterId: 0
@@ -754,16 +744,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (4)
+- name: 19,22|🇺🇸US_490|839KB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.175
-  servername: blog.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.browseseniorrolesandenhanceyourcareertoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇷BR_2|696KB/s|M003-260806 [0d4...
@@ -925,16 +913,14 @@ proxies:
       Host: None
     path: /cctv13.m3u8
   xudp: true
-- name: 19,29|🇺🇸_美国 (39)
+- name: 19|🇺🇸US_404|1.2MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.49
-  servername: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -1104,16 +1090,14 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,22,29|🇺🇸_美国 (41)
+- name: 19,22|🇸US_320|1.2MB/s|A004-260618 [1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.176
-  servername: blog.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.nextjobopportunityandclaimyouridealrole.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇺🇸US_270|398KB/s|M003-260806 [...
@@ -1180,16 +1164,14 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 19,29|🇨🇦_加拿大 (11)
+- name: 19|🇨CA_45|759KB/s|A004-260618 [b1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.152
-  servername: learn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: learn.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -1226,16 +1208,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,29|🇺🇸_美国 (33)
+- name: 19|🇺🇸US_400|1.2MB/s|A001-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.212
-  servername: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   skip-cert-verify: true
   sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: A001-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19,22|🇯🇵JP_13|226KB/s|C002-260622 [1...
@@ -1281,28 +1261,24 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,29|🇨🇦_加拿大 (4)
+- name: 19|🇦CA_40|1.1MB/s|A004-260618 [2f...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.74
-  servername: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
-- name: 19,22,29|🇨🇦_加拿大 (6)
+- name: 19,22|🇨🇦CA_33|259KB/s|A004-260618 [1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
-  servername: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19,22|🇺🇸US_341|1.1MB/s|A004-260618 [...
@@ -1346,16 +1322,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (42)
+- name: 19,22|🇺🇸US_291|1.4MB/s|F003-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.237
-  servername: cdn.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: F003-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -1440,16 +1414,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (36)
+- name: 19,22|🇺🇸US_289|1.4MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.46
-  servername: searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇺🇸US_665|1.1MB/s|B007-260618 [...
@@ -1462,13 +1434,11 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (25)
+  name: 19,22|🇸US_349|2.0MB/s|A004-260618 [2...
   password: shadowsocks
   port: 443
   server: 37.19.198.244
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -1480,13 +1450,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇬🇧_英国 (9)
+  name: 19,22|🇧GB_14|941KB/s|A004-260618 [26...
   password: shadowsocks
   port: 443
   server: 158.173.24.73
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - alterId: '0'
@@ -1637,16 +1605,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (35)
+- name: 19,22|🇺🇸US_452|388KB/s|S001-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.30
-  servername: resources.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: S001-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -1797,16 +1763,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (46)
+- name: 19,22|🇺🇸US_388|1.3MB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.23
-  servername: courses.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.nextjobopportunityandclaimyouridealrole.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇺🇸US_379|963KB/s|M003-260806 [...
@@ -1829,16 +1793,14 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
-- name: 19,29|🇨🇦_加拿大 (7)
+- name: 19|🇨🇦CA_25|1.0MB/s|A004-260618 [3...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.48
-  servername: courses.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇺🇸US_240|866KB/s|A004-260618 [...
@@ -1932,25 +1894,21 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19,22,29|🇿🇦_南非
+  name: 19,22|🇦ZA_1|704KB/s|A004-260618 [361...
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (38)
+- name: 19,22|🇺🇸US_488|1.5MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.25
-  servername: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -2043,16 +2001,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (45)
+- name: 19,22|🇺🇸US_263|1.3MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.211
-  servername: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2094,16 +2050,14 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (28)
+- name: 19,22|🇸US_407|1.2MB/s|M003-260806 [7...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.50
-  servername: cdn.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.nextjobopportunityandclaimyouridealrole.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇺🇸US_511|972KB/s|A004-260618 [...
@@ -2162,16 +2116,14 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (7)
+- name: 19,22|🇺🇸US_489|930KB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.20
-  servername: api.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.browseseniorrolesandenhanceyourcareertoday.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -2214,13 +2166,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇨🇦_加拿大
+  name: 19,22|🇦CA_30|782KB/s|A004-260618 [3f...
   password: shadowsocks
   port: 443
   server: 149.22.95.183
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - name: 19|🇪DE_53|3.2MB/s|S004-260618 [e9...
@@ -2242,13 +2192,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (16)
+  name: 19,22|🇸US_350|1.6MB/s|A004-260618 [4...
   password: shadowsocks
   port: 443
   server: 37.19.198.236
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - name: 19|🇺🇸US_571|965KB/s|A004-260618 [...
@@ -2277,30 +2225,27 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,29|🇺🇸_美国 (40)
+- name: 19|🇺🇸US_632|1.2MB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.159
-  servername: resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alpn:
   - ''
-  alterId: 64
+  alterId: '64'
   cipher: auto
-  name: 19,22,29|🇺🇸_美国 (52)
+  name: 19,22|🇺🇸US_513|387KB/s|M003-260806 [...
   network: ws
   packet-encoding: xudp
   port: 30004
   server: 38.11.69.48
   servername: www.83761815.xyz
-  skip-cert-verify: true
-  sni: www.83761815.xyz
+  skip-cert-verify: false
   sub_tag: M003-260806
   tls: true
   type: vmess
@@ -2361,16 +2306,14 @@ proxies:
   sub_tag: M001-260618
   type: ss
   udp: true
-- name: 19,22,29|🇨🇭_瑞士 (3)
+- name: 19,22|🇨🇭CH_18|602KB/s|C002-260622 [7...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.33
-  servername: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.yourultimateprofessionalcareerhub.com
   sub_tag: C002-260622
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -2470,13 +2413,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (6)
+  name: 19,22|🇯🇵JP_10|666KB/s|A001-260618 [4...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - name: 19,22|🇸US_416|445KB/s|B007-260618 [f...
@@ -2814,13 +2755,11 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (3)
+  name: 19,22|🇵JP_22|666KB/s|A001-260618 [59...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -2889,16 +2828,14 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (47)
+- name: 19,22|🇸US_481|1.0MB/s|B007-260618 [a...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.131
-  servername: www.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nextjobopportunityandclaimyouridealrole.com
   sub_tag: B007-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2940,16 +2877,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (44)
+- name: 19,22|🇺🇸US_472|1.2MB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.112
-  servername: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19,22|🇺🇸US_284|1.3MB/s|M003-260806 [...
@@ -3008,24 +2943,20 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (13)
+  name: 19,22|🇸US_38|1.3MB/s [60b18e513b09]
   password: shadowsocks
   port: 443
   server: 156.146.38.168
-  skip-cert-verify: true
-  tls: false
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (18)
+- name: 19,22|🇺🇸US_346|850KB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.26
-  servername: blog.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: 19,22|🇸US_394|1.2MB/s|A004-260618 [6...
@@ -3051,16 +2982,14 @@ proxies:
   udp: true
   uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (29)
+- name: 19,22|🇸US_295|1.2MB/s|A004-260618 [d...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.54
-  servername: learn.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: true
   sni: learn.nextjobopportunityandclaimyouridealrole.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -3094,16 +3023,14 @@ proxies:
   server: 82.38.31.190
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (6)
+- name: 19,22|🇺🇸US_261|978KB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.198
-  servername: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - name: 19|🇧🇷BR_7|729KB/s|M003-260806 [7e...
@@ -3274,16 +3201,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,22,29|🇨🇦_加拿大 (9)
+- name: 19,22|❓Other_49|200KB/s|A004-260618 ...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.201
-  servername: resources.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3293,26 +3218,22 @@ proxies:
   server: 82.38.31.210
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (8)
+- name: 19,22|🇺🇸US_487|920KB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.193
-  servername: browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: browseseniorrolesandenhanceyourcareertoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇬🇧_英国 (7)
+  name: 19,22|🇧GB_23|3.9MB/s|A004-260618 [70...
   password: shadowsocks
   port: 443
   server: 141.98.101.181
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - name: 19|🇺🇸US_582|962KB/s|B007-260618 [...
@@ -3422,16 +3343,14 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,22,29|🇺🇸_美国 (27)
+- name: 19,22|🇺🇸US_220|607KB/s|M003-260806 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.7
-  servername: www.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
   sni: www.searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - name: 19,22|🇺🇸US_451|241KB/s|M003-260806 [...
@@ -3505,16 +3424,14 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     max-early-data: 2560
     path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
-- name: 19,29|🇺🇸_美国 (34)
+- name: 19|🇺🇸US_249|1.2MB/s|C001-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.65
-  servername: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   skip-cert-verify: true
   sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: C001-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -3749,16 +3666,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,29|🇨🇦_加拿大 (10)
+- name: 19|🇨🇦CA_41|1.0MB/s|M003-260806 [b...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.89
-  servername: www.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -3846,16 +3761,15 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 19,22,29|🇫🇷_法国 (4)
+  name: 19,22|🇫🇷FR_59|365KB/s|F003-260618 [8...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 145.239.55.210
   servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: false
   sub_tag: F003-260618
   tls: false
   type: vmess
@@ -4063,13 +3977,11 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (15)
+  name: 19,22|🇺🇸US_369|1.2MB/s|A004-260618 [...
   password: shadowsocks
   port: 443
   server: 173.244.56.6
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - name: 19,22|🇷KR_14|459KB/s|A004-260618 [90...
@@ -4154,16 +4066,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇨🇭_瑞士 (4)
+- name: 19,22|🇭CH_19|142KB/s|M003-260806 [93...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.208
-  servername: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -4257,16 +4167,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,29|🇪🇸_西班牙
+- name: 19|Other_6|1.1MB/s|M003-260806 [9...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.251
-  servername: resources.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.discovergreatjobsandadvanceyourcareer.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -4327,16 +4235,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (5)
+- name: 19,22|🇺🇸US_491|256KB/s|C001-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.52
-  servername: courses.browseseniorrolesandenhanceyourcareertoday.com
   skip-cert-verify: true
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
   sub_tag: C001-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -4406,16 +4312,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22,29|🇨🇭_瑞士 (6)
+- name: 19,22|🇭CH_24|584KB/s|M003-260806 [e3...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.29
-  servername: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: learn.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -4434,16 +4338,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (14)
+- name: 19,22|🇺🇸US_553|1.2MB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.53
-  servername: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: rc4-md5
@@ -4532,16 +4434,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (32)
+- name: 19,22|❓Other_43|69KB/s|A004-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.81
-  servername: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   skip-cert-verify: true
   sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -4566,16 +4466,14 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 19,22,29|🇺🇸_美国 (37)
+- name: 19,22|🇺🇸US_99|1.5MB/s|M003-260806 [d...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.113
-  servername: api.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
   sni: api.searchnationwidecareerchangehelperandguidancetoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -4593,13 +4491,11 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (22)
+  name: 19,22|🇺🇸US_351|1.6MB/s|A004-260618 [...
   password: shadowsocks
   port: 443
   server: 37.19.198.243
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - alpn:
@@ -4651,13 +4547,11 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇳🇱_荷兰 (18)
+  name: 19,22|🇱NL_156|8.1MB/s|A004-260618 [a...
   password: shadowsocks
   port: 443
   server: 158.173.20.208
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -4702,16 +4596,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇿🇦_南非 (2)
+- name: 19,22|🇿🇦ZA_2|749KB/s|M003-260806 [f9...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 139.84.231.142
-  servername: explorecareerpathsandunlockprofessionalsuccesstoday.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: explorecareerpathsandunlockprofessionalsuccesstoday.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -4722,16 +4614,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 19,22,29|🇸🇬_新加坡 (2)
+- name: 19,22|🇬SG_61|66KB/s|M003-260806 [3e1...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 15.235.184.127
-  servername: exploredigitaljobplatformandfindonlinework.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: exploredigitaljobplatformandfindonlinework.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -4869,13 +4759,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇺🇸_美国 (9)
+  name: 19,22|🇺🇸US_417|1.0MB/s|A004-260618 [...
   password: shadowsocks
   port: 443
   server: 173.244.56.9
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -5055,13 +4943,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇯🇵_日本 (7)
+  name: 19,22|🇵JP_1|113KB/s|A004-260618 [c67...
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - alterId: '0'
@@ -5079,16 +4965,14 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,29|🇪🇸_西班牙 (2)
+- name: 19|Other_8|859KB/s|A004-260618 [c...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.244
-  servername: api.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.discovergreatjobsandadvanceyourcareer.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -5151,16 +5035,14 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: 19,22,29|🇨🇦_加拿大 (8)
+- name: 19,22|❓Other_14|200KB/s|M003-260806 ...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.85
-  servername: cdn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.connectingpeoplewithgreatjobs.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: '0'
@@ -5316,16 +5198,14 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
-- name: 19,22,29|🇺🇸_美国 (30)
+- name: 19,22|🇸US_395|1.3MB/s|M003-260806 [e...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.67
-  servername: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -5404,26 +5284,22 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- name: 19,22,29|🇺🇸_美国 (43)
+- name: 19,22|❓Other_22|1.2MB/s|A004-260618 ...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.19
-  servername: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19,22,29|🇬🇧_英国
+  name: 19,22|🇳🇱NL_7|7.8MB/s|A004-260618 [d8...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.165
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -5435,13 +5311,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,29|🇬🇧_英国 (6)
+  name: 19|🇧GB_15|80KB/s|B007-260618 [d92...
   password: shadowsocks
   port: 443
   server: 141.98.101.178
-  skip-cert-verify: true
   sub_tag: B007-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -5453,13 +5327,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇳🇱_荷兰 (6)
+  name: 19,22|🇱NL_212|9.1MB/s|T001-260618 [d...
   password: shadowsocks
   port: 443
   server: 158.173.20.171
-  skip-cert-verify: true
   sub_tag: T001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -5499,16 +5371,14 @@ proxies:
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19,22,29|🇺🇸_美国 (48)
+- name: 19,22|🇺🇸US_449|1.0MB/s|R002-260618 [...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.155.158
-  servername: resources.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: resources.nextjobopportunityandclaimyouridealrole.com
   sub_tag: R002-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -5901,13 +5771,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (5)
+  name: 19,22|🇵JP_11|627KB/s|A001-260618 [f5...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -5928,16 +5796,15 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 19,22,29|🇫🇷_法国 (2)
+  name: 19,22|🇱PL_10|884KB/s|M003-260806 [f6...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 54.37.131.126
   servername: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  skip-cert-verify: false
   sub_tag: M003-260806
   tls: false
   type: vmess
@@ -5979,16 +5846,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 19,22,29|🇨🇭_瑞士
+- name: 19,22|CH_27|771KB/s|S004-260618 [fb5...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.19
-  servername: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.yourultimateprofessionalcareerhub.com
   sub_tag: S004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -6197,7 +6062,7 @@ proxies:
     headers:
       Host: jiangjc.pages.dev
     path: /
-- name: 22,29|🇺🇸_美国
+- name: 22|🇳VN_12|531KB/s|C002-260622 [aa...
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -6277,13 +6142,13 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-- name: 22,29|🇺🇸_美国 (68)
+- name: '22|US美国(mibei77.com 米贝节点分享) (35)_... #1'
   network: ws
   password: GBEqN2BggZfFExc5pTTHUA
   port: 443
   server: ipfast.kingmna.com
   servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.akamai.steamstatic.com
   tls: true
   type: trojan
@@ -6292,13 +6157,13 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
     path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
-- name: 22,29|🇺🇸_美国 (70)
+- name: '22|US美国(mibei77.com 米贝节点分享) (37)_... #1'
   network: ws
   password: zhs000666
   port: 443
   server: 141.98.41.28
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6307,13 +6172,13 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇺🇸_美国 (71)
+- name: 22|US美国(mibei77.com 米贝节点分享) (40)
   network: ws
   password: zhs000666
   port: 443
   server: 141.98.41.21
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6322,13 +6187,13 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇨🇾_塞浦路斯 (4)
+- name: 22|US美国(mibei77.com 米贝节点分享) (42)
   network: ws
   password: zhs000666
   port: 443
   server: 213.111.177.107
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6337,13 +6202,13 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇺🇸_美国 (73)
+- name: 22|US美国(mibei77.com 米贝节点分享) (43)
   network: ws
   password: zhs000666
   port: 8443
   server: 162.141.123.190
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6352,23 +6217,23 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇺🇸_美国 (67)
+- name: 22|US美国(mibei77.com 米贝节点分享) (46)
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20103
   server: sclass-01.catcat321.com
   servername: hk.catxstar.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-- name: 22,29|🇬🇪_格鲁吉亚
+- name: 22|US美国(mibei77.com 米贝节点分享) (48)
   network: ws
   password: zhs000666
   port: 2053
   server: 94.43.238.112
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6407,13 +6272,13 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇫🇷_法国 (7)
+- name: 22|FR国(mibei77.com 米贝节点分享)_3
   network: ws
   password: zhs000666
   port: 443
   server: 146.59.105.122
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6422,13 +6287,13 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇩🇪_德国 (30)
+- name: 22|DE德国(mibei77.com 米贝节点分享) (9)_2
   network: ws
   password: zhs000666
   port: 443
   server: 164.92.228.56
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -6467,16 +6332,14 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22,29|🇳🇱_荷兰 (26)
+- name: 22|Other_65|71KB/s|C002-260622 [0...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.215
-  servername: courses.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
   sub_tag: C002-260622
-  tls: true
   type: trojan
   udp: true
 - name: 22|🇸ES_2|2.3MB/s|M003-260806 [066...
@@ -6525,25 +6388,21 @@ proxies:
   sub_tag: A001-260618
   type: ss
   udp: true
-- name: 22,29|🇪🇸_西班牙 (5)
+- name: 22|🇸ES_24|839KB/s|M003-260806 [27...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.40
-  servername: cdn.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.discovergreatjobsandadvanceyourcareer.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇺🇸_美国 (12)
+  name: 22|🇺🇸US_101|1.3MB/s [2b322b68c292...
   password: shadowsocks
   port: 443
   server: 156.146.38.169
-  skip-cert-verify: true
-  tls: false
   type: ss
   udp: true
 - name: 22|🇪🇸ES_10|430KB/s|M003-260806 [2...
@@ -6648,16 +6507,14 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: true
-- name: 22,29|🇨🇦_加拿大 (5)
+- name: 22|🇨🇦CA_5|282KB/s|A004-260618 [5b...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.79
-  servername: blog.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.connectingpeoplewithgreatjobs.com
   sub_tag: A004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -6730,16 +6587,14 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- name: 22,29|🇳🇱_荷兰 (27)
+- name: 22|Other_7|1.3MB/s|C002-260622 [9...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.107
-  servername: blog.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.indyourperfectremotetechjobfromthecomfortofhome.com
   sub_tag: C002-260622
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -6842,16 +6697,14 @@ proxies:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
   xudp: true
-- name: 22,29|🇪🇸_西班牙 (4)
+- name: 22|🇸ES_1|1.4MB/s|M003-260806 [d2a...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.166
-  servername: learn.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: learn.discovergreatjobsandadvanceyourcareer.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-gcm
@@ -7085,13 +6938,11 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 22,29|🇳🇱_荷兰 (15)
+  name: 22|🇳🇱NL_90|8.3MB/s|A004-260618 [1...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 193.29.139.235
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - alpn:
@@ -7190,13 +7041,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (9)
+  name: 22|🇵JP_12|80KB/s|A004-260618 [2ca...
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -7292,12 +7141,10 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇺🇸_美国 (20)
+  name: 22|🇸US_232|1.3MB/s [44410bbbcb07]
   password: shadowsocks
   port: 443
   server: 156.146.38.170
-  skip-cert-verify: true
-  tls: false
   type: ss
   udp: true
 - name: 22|🇺🇸US_222|1.4MB/s|C002-260622 [...
@@ -7538,16 +7385,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,29|🇮🇩_印度尼西亚
+- name: 22|🇸🇬SG_78|893KB/s|S004-260618 [d...
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: i1tr.mateflora.com
-  servername: i1tr.mateflora.com
   skip-cert-verify: true
   sni: i1tr.mateflora.com
   sub_tag: S004-260618
-  tls: true
   type: trojan
   udp: true
 - cipher: rc4-md5
@@ -7722,13 +7567,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 22,29|🇳🇱_荷兰 (4)
+  name: 22|🇳🇱NL_205|8.4MB/s|M003-260806 [...
   password: shadowsocks
   port: 443
   server: leviko-nl6763.shopingggg.ir
-  skip-cert-verify: true
   sub_tag: M003-260806
-  tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -7739,16 +7582,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,29|🇨🇭_瑞士 (5)
+- name: 22|🇨🇭CH_22|790KB/s|M003-260806 [b...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.158
-  servername: api.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -7841,16 +7682,14 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,29|🇪🇸_西班牙 (3)
+- name: 22|🇸ES_13|851KB/s|M003-260806 [d9...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.203
-  servername: blog.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: blog.discovergreatjobsandadvanceyourcareer.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -8008,28 +7847,25 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: 22,29|🇺🇸_美国 (3)
+- name: 22|🇻🇳VN_13|362KB/s|M003-260806 [2...
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: 43.255.157.222
-  servername: xvxn1hkzf.mateflora.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: xvxn1hkzf.mateflora.com
   sub_tag: M003-260806
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 22,29|每天更新，请加电报群防止失联
+  name: 22|🇵JP_15|526KB/s|S004-260618 [20...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 168.138.43.75
   servername: 168.138.43.75
-  skip-cert-verify: true
-  sni: 168.138.43.75
+  skip-cert-verify: false
   sub_tag: S004-260618
   tls: false
   type: vmess
@@ -8197,16 +8033,14 @@ proxies:
   sub_tag: R002-260618
   type: ssr
   udp: true
-- name: 22,29|🇯🇵_日本 (19)
+- name: 22|🇵JP_31|219KB/s|A003-260618 [93...
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
   server: win2loxfde0303.gggrelay.org
-  servername: nu3rb.supertoolify.com
   skip-cert-verify: true
   sni: nu3rb.supertoolify.com
   sub_tag: A003-260618
-  tls: true
   type: trojan
   udp: true
 - name: 22|🇸🇬SG_66|876KB/s|S004-260618 [9...
@@ -8245,16 +8079,14 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: 22,29|🇪🇸_西班牙 (6)
+- name: 22|🇸ES_20|604KB/s|B007-260618 [c4...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.62
-  servername: courses.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: courses.discovergreatjobsandadvanceyourcareer.com
   sub_tag: B007-260618
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -8290,16 +8122,14 @@ proxies:
   udp: true
   uuid: 96c987c9-c2d9-4993-b9bd-c9bc36255ee1
   xudp: true
-- name: 22,29|🇳🇱_荷兰 (10)
+- name: 22|❓Other_20|1.8MB/s|S004-260618 ...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.225
-  servername: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
   sub_tag: S004-260618
-  tls: true
   type: trojan
   udp: true
 - alpn:
@@ -8339,509 +8169,39 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 29|日期：11-25
-  network: ws
-  port: 80
-  server: 152.67.8.205
+- name: 29|🇺🇸_美国 (6)
+  password: 7ad79fc1-d708-45cb-8bfc-a3cbe1400957
+  port: 20006
+  server: sclass-01.catcat321.com
+  servername: hk.catxstar.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 29|🇬🇧_英国 (3)
-  network: ws
-  port: 80
-  server: 57.129.132.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    path: /vmess/?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- alterId: 64
-  cipher: auto
-  name: 29|🇰🇿_哈萨克斯坦
-  network: ws
-  port: 80
-  server: 38.107.234.57
-  servername: 3h-kazakhstan1.09vpn.com
-  skip-cert-verify: true
-  sni: 3h-kazakhstan1.09vpn.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇿_哈萨克斯坦 (2)
-  network: ws
-  port: 80
-  server: 3h-kazakhstan1.09vpn.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 29|🇳🇱_荷兰 (31)
-  network: ws
-  port: 33736
-  server: 78.17.71.236
-  servername: Telegram-Leviko_v2ray
-  skip-cert-verify: true
-  sni: Telegram-Leviko_v2ray
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: Telegram-Leviko_v2ray
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (29)
-  network: ws
-  port: 443
-  server: 89.127.218.61
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇨🇿_捷克
-  network: ws
-  port: 443
-  server: 95.85.233.138
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (31)
-  network: ws
-  port: 443
-  server: 85.215.41.19
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (32)
-  network: ws
-  port: 443
-  server: 111.88.74.167
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 29|🇩🇪_德国 (33)
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.220.100.168
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 29|🇩🇪_德国 (34)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 164.92.228.56
-  servername: 666-4sd.pages.dev
+- name: 29|🇺🇸_美国 (7)
+  password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
+  port: 20186
+  server: sclass-01.catcat321.com
+  servername: hk.catxstar.com
   skip-cert-verify: true
-  sni: 666-4sd.pages.dev
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (29)
-  network: ws
-  port: 443
-  server: 80.240.252.241
-  servername: renderer-stream-2-62.mirra.now
+- name: 29|🇺🇸_美国 (9)
+  password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
+  port: 20047
+  server: sclass-01.catcat321.com
+  servername: hk.catxstar.com
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇷🇺_俄罗斯 (42)
-  network: ws
-  port: 443
-  server: 5.188.26.85
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 29|🇫🇷_法国 (6)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 146.59.105.122
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
+  sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 29|🇫🇮_芬兰
-  network: ws
-  port: 443
-  server: 95.81.126.119
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 29|🇺🇸_美国 (57)
-  network: ws
-  password: 8b359c47-6ac3-4053-b2ee-3d6817900596
-  port: 2083
-  server: bestcdn2.868863.xyz
-  servername: 17955229229533.206352.xyz
-  skip-cert-verify: true
-  sni: 17955229229533.206352.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17955229223182.206352.xyz
-    path: /agraeabtegrrh
-- name: 29|🇺🇸_美国 (58)
-  network: ws
-  password: 8b359c47-6ac3-4053-b2ee-3d6817900596
-  port: 2087
-  server: bestcdn2.868863.xyz
-  servername: 17955229221426.206353.xyz
-  skip-cert-verify: true
-  sni: 17955229221426.206353.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17955229222739.206353.xyz
-    path: /agrbniuh
-- name: 29|🇺🇸_美国 (59)
-  network: ws
-  password: 8b359c47-6ac3-4053-b2ee-3d6817900596
-  port: 2096
-  server: bestcdn2.868863.xyz
-  servername: 17955229229350.206356.xyz
-  skip-cert-verify: true
-  sni: 17955229229350.206356.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17955229221017.206356.xyz
-    path: /dmusicmuaawe
-- name: 29|🇺🇸_美国 (60)
-  network: ws
-  password: 8b359c47-6ac3-4053-b2ee-3d6817900596
-  port: 2096
-  server: bestcdn2.868863.xyz
-  servername: 17955229228273.206355.xyz
-  skip-cert-verify: true
-  sni: 17955229228273.206355.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17955229229837.206355.xyz
-    path: /videomuaawe
-- name: 29|🇺🇸_美国 (61)
-  network: ws
-  password: 8b359c47-6ac3-4053-b2ee-3d6817900596
-  port: 2096
-  server: bestcdn2.868863.xyz
-  servername: 17955229227475.168381.xyz
-  skip-cert-verify: true
-  sni: 17955229227475.168381.xyz
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 17955229225961.168381.xyz
-    path: /tianboephth
-- name: 29|🇨🇾_塞浦路斯 (3)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 213.111.177.107
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560
-- name: 29|🇺🇸_美国 (69)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 141.98.41.28
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 29|🇳🇱_荷兰 (43)
-  network: ws
-  port: 443
-  server: 64.188.97.153
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alpn:
-  - http/1.1
-  name: 29|🇺🇸_美国 (74)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 29|🇬🇧_英国 (14)
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (38)
-  network: ws
-  port: 443
-  server: 13.140.28.46
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国
-  port: 80
-  server: 217.142.138.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 29|🇰🇷_韩国 (2)
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- name: 29|🇸🇬_新加坡
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  port: 443
-  server: 43.156.36.253
-  servername: 43.156.36.253
-  skip-cert-verify: true
-  sni: 43.156.36.253
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国
-  port: 443
-  server: de.zhou-yufan.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- name: 29|🇳🇱_荷兰 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.127.155
-  servername: indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
-  sni: indyourperfectremotetechjobfromthecomfortofhome.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (3)
-  port: 443
-  server: 45.131.153.149
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- name: 29|🇨🇦_加拿大 (2)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: leviko-ca6908.shopingggg.ir
-  servername: blog.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  sni: blog.connectingpeoplewithgreatjobs.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇳🇱_荷兰 (24)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.127.44
-  servername: learn.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
-  sni: learn.indyourperfectremotetechjobfromthecomfortofhome.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇳🇱_荷兰 (25)
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.127.154
-  servername: www.indyourperfectremotetechjobfromthecomfortofhome.com
-  skip-cert-verify: true
-  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇺🇸_美国 (49)
+- name: 29|🇺🇸_美国 (10)
   password: 82a1c880-a864-4966-9cdd-d606ef82a83b
-  port: 20173
+  port: 20087
   server: sclass-01.catcat321.com
   servername: hk.catxstar.com
   skip-cert-verify: true
@@ -8851,105 +8211,105 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国 (75)
-  port: 52080
-  server: 107.172.18.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ceddc69-0f1a-44b2-b7b3-fd6674c3fc59
-- alterId: 0
-  cipher: auto
-  name: 29|🇺🇸_美国 (76)
+  name: 29|🇺🇸_美国 (11)
   port: 52080
   server: 172.245.106.236
   servername: down-cdn.dingtalk.com
   skip-cert-verify: true
   sni: down-cdn.dingtalk.com
-  tls: false
+  tls: true
   type: vmess
   udp: true
   uuid: 069b590d-895b-4707-bf71-7c204c3f6e77
 - alterId: 0
   cipher: auto
-  name: 29|🇺🇸_美国 (77)
+  name: 29|🇺🇸_美国 (12)
   port: 23567
   server: 172.245.106.236
   servername: down-cdn.dingtalk.com
   skip-cert-verify: true
   sni: down-cdn.dingtalk.com
-  tls: false
+  tls: true
   type: vmess
   udp: true
   uuid: 94b804fa-f7f0-4105-9544-ec667c876bee
-- name: 29|🇭🇰_香港
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: hkdy1.mateflora.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港 (2)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 32521
-  server: zzfxgcp.mateflora.com
-  servername: v2vn.mateflora.com
-  skip-cert-verify: true
-  sni: v2vn.mateflora.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港 (3)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 39495
-  server: zzfxgcp.mateflora.com
-  servername: xvxn1hkzf.mateflora.com
-  skip-cert-verify: true
-  sni: xvxn1hkzf.mateflora.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 29|🇭🇰_香港 (5)
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 39302
-  server: zzfxgcp.mateflora.com
-  servername: zhello.hikigo.com
-  skip-cert-verify: true
-  sni: zhello.hikigo.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|🇩🇪_德国 (11)
-  network: ws
-  port: 80
-  server: 91.107.169.224
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 014f8bf6-9221-4f99-838f-4c16ca90334f
-  ws-opts:
-    v2ray-http-upgrade: true
-- cipher: chacha20-ietf-poly1305
-  name: 29|🇺🇸_美国 (23)
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (2)
+  password: '123456'
+  port: 5555
+  server: 8.209.236.2
   skip-cert-verify: true
   tls: false
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 29|🇬🇧_英国 (8)
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (3)
+  password: '123456'
+  port: 5555
+  server: 8.216.18.170
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (4)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.154
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (5)
+  password: '123456'
+  port: 5555
+  server: 8.209.249.205
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (6)
+  password: '123456'
+  port: 5555
+  server: 8.216.14.14
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (7)
+  password: '123456'
+  port: 5555
+  server: 8.209.221.90
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (8)
+  password: '123456'
+  port: 5555
+  server: 8.211.131.30
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (9)
+  password: '123456'
+  port: 5555
+  server: 8.209.253.213
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (10)
+  password: '123456'
+  port: 5555
+  server: 8.216.18.173
   skip-cert-verify: true
   tls: false
   type: ss
@@ -8957,30 +8317,696 @@ proxies:
 - cipher: aes-256-gcm
   name: 29|🇯🇵_日本 (11)
   password: '123456'
-  port: 6666
-  server: 8.216.7.10
+  port: 5555
+  server: 8.209.236.164
   skip-cert-verify: true
   tls: false
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: 35|🇱NL_4|2.3MB/s
-  network: ws
-  password: vP!XvZBNdw.e*ddSgmH!
-  port: 2096
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
-  type: trojan
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (12)
+  password: '123456'
+  port: 5555
+  server: 47.74.9.21
+  skip-cert-verify: true
+  tls: false
+  type: ss
   udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    max-early-data: 2560
-    path: /tr/ZFttmjSqvda5ohOQ
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (13)
+  password: '123456'
+  port: 5555
+  server: 47.74.27.11
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (14)
+  password: '123456'
+  port: 5555
+  server: 8.216.5.230
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (15)
+  password: '123456'
+  port: 5555
+  server: 8.209.199.75
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (16)
+  password: '123456'
+  port: 5555
+  server: 47.74.49.154
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (17)
+  password: '123456'
+  port: 5555
+  server: 8.216.11.25
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (18)
+  password: '123456'
+  port: 5555
+  server: 8.216.4.158
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (19)
+  password: '123456'
+  port: 5555
+  server: 8.216.16.102
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (20)
+  password: '123456'
+  port: 5555
+  server: 47.74.41.139
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (21)
+  password: '123456'
+  port: 5555
+  server: 47.91.16.50
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (22)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.142
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (23)
+  password: '123456'
+  port: 5555
+  server: 47.245.42.226
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (24)
+  password: '123456'
+  port: 5555
+  server: 47.91.18.202
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (25)
+  password: '123456'
+  port: 5555
+  server: 47.91.2.13
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (26)
+  password: '123456'
+  port: 5555
+  server: 8.216.15.30
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (27)
+  password: '123456'
+  port: 5555
+  server: 8.216.10.204
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (28)
+  password: '123456'
+  port: 5555
+  server: 8.209.196.11
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (29)
+  password: '123456'
+  port: 5555
+  server: 47.74.18.249
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (30)
+  password: '123456'
+  port: 5555
+  server: 47.245.40.193
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (31)
+  password: '123456'
+  port: 5555
+  server: 47.74.17.125
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (32)
+  password: '123456'
+  port: 5555
+  server: 47.74.40.243
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (33)
+  password: '123456'
+  port: 5555
+  server: 8.211.128.146
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (34)
+  password: '123456'
+  port: 5555
+  server: 8.216.5.89
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (35)
+  password: '123456'
+  port: 5555
+  server: 47.74.0.207
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (36)
+  password: '123456'
+  port: 5555
+  server: 8.209.222.150
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (37)
+  password: '123456'
+  port: 5555
+  server: 8.209.249.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (38)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.41
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (39)
+  password: '123456'
+  port: 5555
+  server: 8.209.198.176
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (40)
+  password: '123456'
+  port: 5555
+  server: 8.216.8.135
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (41)
+  password: '123456'
+  port: 5555
+  server: 8.216.8.84
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (42)
+  password: '123456'
+  port: 5555
+  server: 47.91.31.150
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (43)
+  password: '123456'
+  port: 5555
+  server: 8.216.17.189
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (44)
+  password: '123456'
+  port: 6666
+  server: 47.245.63.105
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (45)
+  password: '123456'
+  port: 6666
+  server: 8.216.17.86
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (46)
+  password: '123456'
+  port: 5555
+  server: 8.211.132.94
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (47)
+  password: '123456'
+  port: 5555
+  server: 8.216.14.94
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (48)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.151
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (49)
+  password: '123456'
+  port: 5555
+  server: 47.74.24.29
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (50)
+  password: '123456'
+  port: 5555
+  server: 8.209.196.228
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (51)
+  password: '123456'
+  port: 5555
+  server: 8.216.3.160
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (52)
+  password: '123456'
+  port: 5555
+  server: 47.74.40.77
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (53)
+  password: '123456'
+  port: 5555
+  server: 8.216.17.52
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (54)
+  password: '123456'
+  port: 5555
+  server: 47.91.29.60
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (55)
+  password: '123456'
+  port: 5555
+  server: 47.245.54.15
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (56)
+  password: '123456'
+  port: 5555
+  server: 8.209.245.25
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (57)
+  password: '123456'
+  port: 5555
+  server: 8.216.6.19
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (58)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (59)
+  password: '123456'
+  port: 5555
+  server: 8.211.174.60
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (60)
+  password: '123456'
+  port: 5555
+  server: 8.216.15.46
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (61)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.42
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (62)
+  password: '123456'
+  port: 5555
+  server: 8.216.15.55
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (63)
+  password: '123456'
+  port: 5555
+  server: 8.216.18.139
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (64)
+  password: '123456'
+  port: 5555
+  server: 8.216.19.169
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (65)
+  password: '123456'
+  port: 5555
+  server: 47.245.32.129
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (66)
+  password: '123456'
+  port: 5555
+  server: 8.209.221.183
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (67)
+  password: '123456'
+  port: 5555
+  server: 8.211.174.191
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (68)
+  password: '123456'
+  port: 5555
+  server: 8.216.6.223
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (69)
+  password: '123456'
+  port: 5555
+  server: 8.211.129.80
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (70)
+  password: '123456'
+  port: 5555
+  server: 8.216.16.98
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (71)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.15
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (72)
+  password: '123456'
+  port: 5555
+  server: 8.216.8.0
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (73)
+  password: '123456'
+  port: 5555
+  server: 8.216.3.83
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (74)
+  password: '123456'
+  port: 5555
+  server: 8.216.17.19
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (75)
+  password: '123456'
+  port: 5555
+  server: 8.216.1.127
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (76)
+  password: '123456'
+  port: 5555
+  server: 8.216.18.167
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (77)
+  password: '123456'
+  port: 5555
+  server: 8.211.130.59
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (78)
+  password: '123456'
+  port: 5555
+  server: 8.216.18.189
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (79)
+  password: '123456'
+  port: 5555
+  server: 8.211.154.126
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (80)
+  password: '123456'
+  port: 5555
+  server: 8.216.0.168
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (81)
+  password: '123456'
+  port: 5555
+  server: 8.216.9.217
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (82)
+  password: '123456'
+  port: 5555
+  server: 47.91.15.111
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (83)
+  password: '123456'
+  port: 5555
+  server: 8.216.8.176
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (84)
+  password: '123456'
+  port: 5555
+  server: 8.209.197.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (85)
+  password: '123456'
+  port: 5555
+  server: 47.91.15.175
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (86)
+  password: '123456'
+  port: 5555
+  server: 8.216.8.185
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (87)
+  password: '123456'
+  port: 5555
+  server: 8.216.4.146
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

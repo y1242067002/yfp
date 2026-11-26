@@ -38,23 +38,19 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (6)
+  name: 19,22|🇯🇵JP_10|666KB/s|A001-260618 [4...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (3)
+  name: 19,22|🇵JP_22|666KB/s|A001-260618 [59...
   password: shadowsocks
   port: 443
   server: 149.22.87.241
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - alterId: 0
@@ -120,23 +116,19 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇯🇵_日本 (7)
+  name: 19,22|🇵JP_1|113KB/s|A004-260618 [c67...
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇯🇵_日本 (5)
+  name: 19,22|🇵JP_11|627KB/s|A001-260618 [f5...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  skip-cert-verify: true
   sub_tag: A001-260618
-  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -159,13 +151,11 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (9)
+  name: 22|🇵JP_12|80KB/s|A004-260618 [2ca...
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
-  skip-cert-verify: true
   sub_tag: A004-260618
-  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -181,14 +171,13 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 22,29|每天更新，请加电报群防止失联
+  name: 22|🇵JP_15|526KB/s|S004-260618 [20...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 168.138.43.75
   servername: 168.138.43.75
-  skip-cert-verify: true
-  sni: 168.138.43.75
+  skip-cert-verify: false
   sub_tag: S004-260618
   tls: false
   type: vmess
@@ -200,36 +189,786 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇯🇵_日本 (19)
+  name: 22|🇵JP_31|219KB/s|A003-260618 [93...
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
   server: win2loxfde0303.gggrelay.org
-  servername: nu3rb.supertoolify.com
   skip-cert-verify: true
   sni: nu3rb.supertoolify.com
   sub_tag: A003-260618
-  tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 29|日期：11-25
-  network: ws
-  port: 80
-  server: 152.67.8.205
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (2)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.236.2
   skip-cert-verify: true
   tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (3)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.170
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (4)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.154
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (5)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.249.205
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (6)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.14.14
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (7)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.221.90
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (8)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.131.30
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (9)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.253.213
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (10)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.173
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 29|🇯🇵_日本 (11)
   password: '!!str 123456'
+  port: 5555
+  server: 8.209.236.164
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (12)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.9.21
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (13)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.27.11
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (14)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.5.230
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (15)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.199.75
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (16)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.49.154
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (17)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.11.25
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (18)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.4.158
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (19)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.16.102
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (20)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.41.139
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (21)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.16.50
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (22)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.142
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (23)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.42.226
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (24)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.18.202
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (25)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.2.13
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (26)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.15.30
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (27)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.10.204
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (28)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.196.11
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (29)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.18.249
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (30)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.40.193
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (31)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.17.125
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (32)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.40.243
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (33)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.128.146
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (34)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.5.89
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (35)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.0.207
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (36)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.222.150
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (37)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.249.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (38)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.41
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (39)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.198.176
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (40)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.135
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (41)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.84
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (42)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.31.150
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (43)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.189
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (44)
+  password: '!!str 123456'
   port: 6666
-  server: 8.216.7.10
+  server: 47.245.63.105
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (45)
+  password: '!!str 123456'
+  port: 6666
+  server: 8.216.17.86
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (46)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.132.94
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (47)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.14.94
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (48)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.151
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (49)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.24.29
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (50)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.196.228
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (51)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.3.160
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (52)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.40.77
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (53)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.52
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (54)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.29.60
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (55)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.54.15
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (56)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.245.25
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (57)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.6.19
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (58)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (59)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.174.60
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (60)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.15.46
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (61)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.42
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (62)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.15.55
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (63)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.139
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (64)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.19.169
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (65)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.32.129
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (66)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.221.183
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (67)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.174.191
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (68)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.6.223
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (69)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.129.80
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (70)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.16.98
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (71)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.15
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (72)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.0
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (73)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.3.83
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (74)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.19
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (75)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.1.127
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (76)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.167
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (77)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.130.59
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (78)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.189
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (79)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.154.126
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (80)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.0.168
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (81)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.217
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (82)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.15.111
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (83)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.176
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (84)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.197.190
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (85)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.15.175
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (86)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.185
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 29|🇯🇵_日本 (87)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.4.146
   skip-cert-verify: true
   tls: false
   type: ss

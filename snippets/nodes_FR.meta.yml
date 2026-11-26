@@ -488,7 +488,7 @@ proxies:
       max-concurrency: '0'
       max-connections: '4'
   xudp: true
-- name: 19,22,35|🇩🇪DE_7|3.3MB/s|P002-260618
+- name: 19,22|🇷FR_61|6.6MB/s|P002-260618 [4b...
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -497,7 +497,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - name: 19,22|🇫🇷FR_73|877KB/s|K001-260618 [4...
   password: Zn5mR7vA
   port: 42000
@@ -644,7 +643,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇪DE_8|1.8MB/s
+- name: 19,22|🇫🇷FR_24|4.1MB/s [602eec94e97e]
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -772,7 +771,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     max-early-data: 2560
     path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
-- name: 19,22,35,37|FR_speednode_0007
+- name: 19,22,37|FR_speednode_0007
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
@@ -807,16 +806,15 @@ proxies:
   udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  name: 19,22,29|🇫🇷_法国 (4)
+  name: 19,22|🇫🇷FR_59|365KB/s|F003-260618 [8...
   network: ws
   packet-encoding: xudp
   port: 80
   server: 145.239.55.210
   servername: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-  skip-cert-verify: true
-  sni: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
+  skip-cert-verify: false
   sub_tag: F003-260618
   tls: false
   type: vmess
@@ -969,7 +967,7 @@ proxies:
         like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
   xudp: true
-- name: 19,22,35,37|US_speednode_0027
+- name: 19,22,37|US_speednode_0027
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -1531,13 +1529,13 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 22,29|🇫🇷_法国 (7)
+- name: 22|FR国(mibei77.com 米贝节点分享)_3
   network: ws
   password: zhs000666
   port: 443
   server: 146.59.105.122
   servername: 666-4sd.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 666-4sd.pages.dev
   tls: true
   type: trojan
@@ -2937,51 +2935,26 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /vless/
   xudp: true
-- name: 29|🇫🇷_法国 (3)
-  network: ws
-  port: 80
-  server: ov-france1.09vpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  ws-opts:
-    path: /vless/
-- name: 29|🇫🇷_法国 (6)
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 146.59.105.122
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: true
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560
-- name: 29|🇫🇷_法国 (8)
-  network: ws
-  port: 8443
-  server: 13.140.156.31
-  servername: v9-eim.pages.dev
-  skip-cert-verify: true
-  sni: v9-eim.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
-  name: 29|🇫🇷_法国 (5)
+  name: 29|🇫🇷_法国
+  port: 26928
+  reality-opts:
+    public-key: yPweL79KiVeV98UvvXMCTiws4gGT5UZDDvEruURgP1w
+    short-id: 30ac6685
+  server: binambinam2.crackerbinam.org
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 765a0ecf-967a-422d-82d7-ebec2a240ebc
+- client-fingerprint: chrome
+  name: 29|🇫🇷_法国 (2)
   port: 12190
   reality-opts:
     public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM
-    short-id: 8101b9ba16eb77c7
+    short-id: 3e5cba1bd6eb6221
   server: fr1oo.sublinkplas.ir
   servername: delivery.mp.microsoft.com
   skip-cert-verify: true
@@ -2989,7 +2962,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: ce6e3651-b819-493f-81e7-d7f3dd278e64
+  uuid: b28e9267-bb15-4e09-b126-a49aad8a52a2
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa

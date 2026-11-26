@@ -90,36 +90,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 29|🇪🇪_爱沙尼亚
-  port: 443
-  server: e60833x.nl7.h1clayd.click
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- flow: xtls-rprx-vision
-  name: 29|🇪🇪_爱沙尼亚 (2)
-  port: 443
-  server: vexlum.klyck.online
-  servername: vexlum.klyck.online
-  skip-cert-verify: true
-  sni: vexlum.klyck.online
-  tls: false
-  type: vless
-  udp: true
-  uuid: de32225b-374c-4a6a-830e-7c4e367fcfb5
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 35|🇪EE_1|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  server: 165.231.157.126
-  servername: api-6b04608f.adhil.uk
+  name: 29|🇪🇪_爱沙尼亚
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  server: 8a2e72t.nl11.h1clayd.click
+  servername: 8a2e72t.nl11.h1clayd.click
+  skip-cert-verify: true
+  sni: 8a2e72t.nl11.h1clayd.click
   tls: true
   type: vless
   udp: true
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-  xudp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
