@@ -10,7 +10,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|IT_1|1.6MB/s
+  name: 19,22,29,35|🇮🇹IT_3|1.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_5|2.2MB/s
+  name: 19,22,29,35|🇮🇹IT_4|1002KB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_4|1.7MB/s
+  name: 19,22,29,35|🇮🇹IT_2|1.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (10)
+  name: 19,22,29,35|🇮🇹IT_6|1.9MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33|🇮🇹 意大利2|@ripaojiedian
+  name: 19,22,29,33,35|IT_1|2.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_2|3.3MB/s
+  name: 19,22,29|🇮🇹_意大利 (2)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33,35|🇮🇹IT_6|3.2MB/s
+  name: 19,22,29,33|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -80,7 +80,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_7|2.4MB/s
+  name: 19,22,29|🇮🇹_意大利 (3)
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -90,7 +90,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,35|🇮🇹IT_3|1.4MB/s
+  name: 19,22,29,35|🇮🇹IT_5|1.4MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -8188,7 +8188,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 22,35|🇳🇱NL_6|1.6MB/s
+  name: 22|🇱NL_158|574KB/s|R002-260618 [8...
   obfs: tls1.2_ticket_auth
   password: dongtaiwang.com
   port: 33336
@@ -8197,7 +8197,6 @@ proxies:
   sub_tag: R002-260618
   type: ssr
   udp: true
-  x-toolall-mihomo: true
 - name: 22,29|🇯🇵_日本 (19)
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -8964,6 +8963,24 @@ proxies:
   tls: false
   type: ss
   udp: true
+- alpn:
+  - http/1.1
+  name: 35|🇱NL_4|2.3MB/s
+  network: ws
+  password: vP!XvZBNdw.e*ddSgmH!
+  port: 2096
+  server: 188.114.96.3
+  skip-cert-verify: false
+  sni: n0q4XPrJ2D4X4PRCQ29L8JKCZd0.pAGES.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /tr/ZFttmjSqvda5ohOQ
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259

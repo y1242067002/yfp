@@ -488,7 +488,7 @@ proxies:
       max-concurrency: '0'
       max-connections: '4'
   xudp: true
-- name: 19,22,35|🇪DE_5|3.0MB/s|P002-260618
+- name: 19,22,35|🇩🇪DE_7|3.3MB/s|P002-260618
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
@@ -644,7 +644,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22|🇫🇷FR_24|4.1MB/s [602eec94e97e]
+- name: 19,22,35|🇪DE_8|1.8MB/s
   password: 'null'
   port: 443
   server: 172.64.69.89
@@ -788,7 +788,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,35|🇩🇪DE_4|4.0MB/s|P002-260618
+- name: 19,22|🇫🇷FR_11|4.9MB/s|P002-260618 [8...
   password: None
   port: 443
   server: 172.64.68.89
@@ -797,7 +797,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 19,22|🇫🇷FR_42|2.2MB/s|M003-260806 [8...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -970,7 +969,7 @@ proxies:
         like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /
   xudp: true
-- name: 19,22,37|US_speednode_0027
+- name: 19,22,35,37|US_speednode_0027
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
@@ -2938,36 +2937,6 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /vless/
   xudp: true
-- name: 28|🇫🇷230827 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: 4cbeddb7-022d-46a8-bca8-a3667abda9ac
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
-- name: 28|🇫🇷230828 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: b6492705-8cac-4454-9d34-1498dd2ded87
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
-- name: 28|🇫🇷230767 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: cc0212a7-6b18-42f8-bb1f-177e035d1acb
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
 - name: 29|🇫🇷_法国 (3)
   network: ws
   port: 80
@@ -3021,35 +2990,6 @@ proxies:
   type: vless
   udp: true
   uuid: ce6e3651-b819-493f-81e7-d7f3dd278e64
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 35|FR_1|1.7MB/s
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.124.132
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 35|🇫🇷FR_3|2.8MB/s
-  obfs: ''
-  port: 24667
-  protocol: ''
-  server: 62.210.28.175
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
 - cipher: aes-256-cfb
   name: 36|[SS] 🇫🇷 _FR_法国
   password: asdKkaskJKfnsa
