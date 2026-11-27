@@ -216,9 +216,10 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: '19,22|🇪DE_42|1.6MB/s|R002-260618 [15... #1'
+- name: 19,22,35|🇩🇪DE_7|2.2MB/s
   port: 10809
   server: 91.107.179.68
+  skip-cert-verify: true
   sub_tag: R002-260618
   type: socks5
   udp: true
@@ -569,7 +570,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19,22,37|DK_speednode_0004
+- name: 19,22,35,37|DK_speednode_0004
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
@@ -813,7 +814,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22,37|DK_speednode_0005
+- name: 19,22,35,37|DK_speednode_0005
   password: None
   port: 9002
   server: 158.173.154.4
@@ -1042,7 +1043,7 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /api/se1k2rfxlsuer3ry4u6e84kl8rqp721p
   xudp: true
-- name: 19,22|❓Other_70|2.2MB/s|R002-260618 ...
+- name: 19,22,35|🇩🇪DE_8|2.5MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
@@ -1059,7 +1060,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 19,22,37|DK_speednode_0006
+- name: 19,22,35,37|DK_speednode_0006
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
@@ -1472,17 +1473,50 @@ proxies:
   type: vless
   udp: true
   uuid: a346c521-7a7f-452b-9356-a4893feb5982
-- alpn:
-  - h3
-  auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 35|DE_1|2.3MB/s
+- encryption: mlkem768x25519plus.native.0rtt.7cEi3EYubZPwXl754zAXJkMQRhE95FMPVVhP8613QEA
+  name: 35|🇩🇪DE_2|3.2MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2052
+  server: quirivoo.ir
+  type: vless
+  udp: true
+  uuid: dc780059-8b89-42d1-94eb-1c1d1bbbdd2f
+  ws-opts:
+    headers:
+      Host: quirivoo.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /
+  xudp: true
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 35|🇪DE_10|4.0MB/s
+  obfs: ''
+  obfs-password: ''
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  port: 443
+  server: n49.neproxy.net
+  skip-cert-verify: false
+  sni: 127.0.0.1
+  type: hysteria2
+  udp: true
+  up: ''
+- disable-sni: true
+  down: ''
+  fingerprint: ''
+  name: 35|🇩🇪DE_12|4.4MB/s
+  obfs: ''
+  obfs-password: ''
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
   skip-cert-verify: true
-  sni: mother-earth.fyi
+  sni: 127.0.0.1
   type: hysteria2
   udp: true
+  up: ''
 - name: 37|DE_speednode_0003
   password: None
   port: 443

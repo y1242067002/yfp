@@ -416,7 +416,7 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: /
-- name: 22,35,37|GB_speednode_0008
+- name: 22,37|GB_speednode_0008
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
@@ -465,6 +465,13 @@ proxies:
   type: vless
   udp: true
   uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+- name: 35|GB_1|2.5MB/s
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM

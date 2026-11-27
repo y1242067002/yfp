@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (7)
+  name: 19,22,29,35|🇮🇹IT_5|1.8MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -20,7 +20,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (4)
+  name: 19,22,29,35|🇮🇹IT_8|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -30,7 +30,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (8)
+  name: 19,22,29,35|🇮🇹IT_3|3.0MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -40,7 +40,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利
+  name: 19,22,29,35|IT_1|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
@@ -50,7 +50,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (6)
+  name: 19,22,29,35|🇮🇹IT_7|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (9)
+  name: 19,22,29,35|🇮🇹IT_2|2.8MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
@@ -70,7 +70,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29|🇮🇹_意大利 (2)
+  name: 19,22,29,35|🇮🇹IT_6|2.5MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
@@ -90,7 +90,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22,29,33|🇮🇹 意大利|@ripaojiedian
+  name: 19,22,29,33,35|🇮🇹IT_4|2.9MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
@@ -6648,7 +6648,7 @@ proxies:
   udp: true
   uuid: 94b804fa-f7f0-4105-9544-ec667c876bee
 - cipher: chacha20-ietf-poly1305
-  name: 29,35|HK_1|2.2MB/s
+  name: 29,35|HK_1|3.9MB/s
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com
@@ -6663,6 +6663,19 @@ proxies:
   server: 211.233.33.228
   skip-cert-verify: true
   tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 35|🇪EE_2|2.2MB/s
+  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: estonia.astroapps.io
+    mode: websocket
+    path: /fd3f56f3dc9f5ceca7e57ecd
+    tls: true
+  port: 443
+  server: estonia.astroapps.io
   type: ss
   udp: true
 - name: 36|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM

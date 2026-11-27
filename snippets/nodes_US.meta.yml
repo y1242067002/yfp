@@ -909,7 +909,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 19,22|🇺🇸US_27|757KB/s|R002-260618 [0...
+- name: 19,22,35|🇺🇸US_18|1.0MB/s
   password: 75bPoRcB
   port: 62000
   server: 216.132.114.27
@@ -973,7 +973,7 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '19,22|🇺🇸US_260|812KB/s|P002-260618 [... #1'
+- name: 19,22,35|🇸US_19|3.4MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.206
@@ -2391,7 +2391,7 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: '19,22|🇺🇸US_199|255KB/s|P002-260618 [... #1'
+- name: 19,22,35|🇺🇸US_5|1.2MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -3197,7 +3197,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '19,22|🇺🇸US_168|534KB/s|R002-260618 [... #1'
+- name: 19,22,35|🇺🇸US_3|1.3MB/s
   password: l1tlrdx52v
   port: 62000
   server: 66.253.2.69
@@ -3346,7 +3346,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: '19,22|🇸US_57|828KB/s [f658df7df711] #1'
+- name: 19,22,35|🇺🇸US_20|3.0MB/s
   password: ''
   port: 9002
   server: 138.199.35.218
@@ -3863,10 +3863,11 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: 19,22|❓Other_90|307KB/s|P002-260618 ...
+- name: 19,22,35|🇸US_6|1.2MB/s
   password: None
   port: 38182
   server: 69.55.49.177
+  skip-cert-verify: true
   sub_tag: P002-260618
   type: socks5
   udp: true
@@ -5189,6 +5190,20 @@ proxies:
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
+- name: 27|🇺🇸 27@exclavevpn
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.106
+  sni: de1-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
+- name: 27,28|@VPsave
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.107
+  sni: de2-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
 - name: 27|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -5739,7 +5754,7 @@ proxies:
   udp: true
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
 - cipher: chacha20-ietf-poly1305
-  name: 29,35|HK_1|2.2MB/s
+  name: 29,35|HK_1|3.9MB/s
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com
@@ -5867,22 +5882,210 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  disable-sni: true
-  down: '55'
-  name: 35|US_1|1016KB/s
-  obfs: ''
-  port: 22335
-  protocol: ''
-  server: 198.200.57.142
-  skip-cert-verify: true
-  sni: 198.200.57.142
-  type: hysteria
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.LinviJ5PGGezIG1uTIoWf8e_fjkghgSnaUDj_d85wwo
+  name: 35|US_1|2.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 1927
+  server: enter.toyotacamry2026.ir
+  servername: login.zanjanphone.ir
+  tls: true
+  type: vless
   udp: true
-  up: '11'
+  uuid: 1ebd4206-653e-426a-8588-7f4f09a67810
+  ws-opts:
+    headers:
+      Host: login.zanjanphone.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /signup
+  xudp: true
+- name: 35|🇸US_2|2.3MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_7|2.6MB/s
+  network: xhttp
+  port: 443
+  server: s.22299999.xyz
+  servername: s.22299999.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: s.22299999.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_8|2.3MB/s
+  network: xhttp
+  port: 443
+  server: s.260920-3.kdns.fr
+  servername: s.260920-3.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: s.260920-3.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_9|2.1MB/s
+  network: xhttp
+  port: 443
+  server: bbbbb.1111-08.ccwu.cc
+  servername: bbbbb.1111-08.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: bbbbb.1111-08.ccwu.cc
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_10|2.2MB/s
+  network: xhttp
+  port: 443
+  server: ss.444411111.xyz
+  servername: ss.444411111.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: ss.444411111.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_11|2.0MB/s
+  network: xhttp
+  port: 443
+  server: sssss.444411111.xyz
+  servername: sssss.444411111.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: sssss.444411111.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_12|2.0MB/s
+  network: xhttp
+  port: 443
+  server: ddddddd.260920-1.kdns.fr
+  servername: ddddddd.260920-1.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: ddddddd.260920-1.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_13|1.7MB/s
+  network: xhttp
+  port: 443
+  server: bb.1111-08.ccwu.cc
+  servername: bb.1111-08.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  xhttp-opts:
+    host: bb.1111-08.ccwu.cc
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_14|1.3MB/s
+  network: xhttp
+  port: 443
+  server: d.as2-0.kdns.fr
+  servername: d.as2-0.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  xhttp-opts:
+    host: d.as2-0.kdns.fr
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  name: 35|🇺🇸US_15|2.1MB/s
+  network: xhttp
+  port: 443
+  server: qq.99944444.xyz
+  servername: qq.99944444.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  xhttp-opts:
+    host: qq.99944444.xyz
+    mode: auto
+    path: /NgInAz8EvgxBHueA9ne8tqLzLX
+- name: 35|🇺🇸US_16|1.4MB/s
+  password: 0324fbc29561
+  port: 443
+  server: sdf65h46wr.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 99f2107b03f8
+  name: 35|🇺🇸US_17|1.3MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  server: 162.35.101.177
+  servername: 0592efg.us8.h1clayd.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 35|🇸US_21|2.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇺🇸 _US_美国_1
