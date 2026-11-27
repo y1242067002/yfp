@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,22|🇩🇪DE德国 (2)_2
+  name: 22|🇩🇪DE德国 (2)_2
   port: 52080
   server: 23.165.200.150
   skip-cert-verify: false
@@ -9,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-- name: '19,22|DE德国(mibei77.com 米贝节点分享) (9) #1'
+- name: 22|DE德国(mibei77.com 米贝节点分享) (9)
   network: ws
   password: zhs000666
   port: 443
@@ -24,32 +24,33 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-gcm
+  name: 22|🇩🇪DE_45|2.5MB/s|M003-260806 [0...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.3
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: '19,22|🇪DE_25|5.1MB/s|A004-260618 [09... #1'
+  name: 22|🇪DE_25|5.1MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
   sub_tag: A004-260618
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '19,22|🇪DE_13|3.6MB/s|B007-260618 [11... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 185.177.229.95
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
+- cipher: aes-256-gcm
+  name: 22|🇪DE_44|1.8MB/s|M003-260806 [21...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  sub_tag: M003-260806
+  type: ss
   udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: '19,22|🇪DE_82|4.3MB/s|K001-260618 [27... #1'
+  name: 22|🇪DE_82|4.3MB/s|K001-260618 [27...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -63,97 +64,18 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇪DE_5|6.1MB/s [2fcb59fe7abc] #1'
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇩🇪DE_59|4.3MB/s|M003-260806 [4... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.116.98
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '19,22|🇪DE_76|3.0MB/s|B007-260618 [5a... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 193.108.117.61
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇪DE_17|6.0MB/s|M003-260806 [68... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.76.233
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇩🇪DE_61|2.8MB/s|C001-260618 [a... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
-  sub_tag: C001-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇪DE_11|6.4MB/s|M003-260806 [b3... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇪DE_52|3.9MB/s|A004-260618 [be... #1'
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 213.202.208.199
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇪DE_78|1.1MB/s|A004-260618 [c1... #1'
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇩🇪DE_45|2.5MB/s|M003-260806 [0...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.3
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇪DE_44|1.8MB/s|M003-260806 [21...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.2
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 22|🇪DE_42|4.9MB/s|M003-260806 [28...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.117.84
   sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_5|6.1MB/s [2fcb59fe7abc]
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -181,10 +103,41 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
+  name: 22|🇩🇪DE_59|4.3MB/s|M003-260806 [4...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.116.98
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   name: 22|🇩🇪DE_46|4.2MB/s|M003-260806 [4...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.83
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 22|🇪DE_76|3.0MB/s|B007-260618 [5a...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 193.108.117.61
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_17|6.0MB/s|M003-260806 [68...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.76.233
   sub_tag: M003-260806
   type: ss
   udp: true
@@ -221,6 +174,30 @@ proxies:
         Chrome/41.0.2272.104 Safari/537.36
     path: /trojan-ws
 - cipher: aes-256-gcm
+  name: 22|🇩🇪DE_61|2.8MB/s|C001-260618 [a...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  sub_tag: C001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_11|6.4MB/s|M003-260806 [b3...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_78|1.1MB/s|A004-260618 [c1...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   name: 22|🇪DE_47|4.3MB/s|M003-260806 [c8...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -228,20 +205,26 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 35|🇩🇪DE_8|4.4MB/s
-  network: ws
+  client-fingerprint: chrome
+  name: 22|🇪DE_13|3.6MB/s|B007-260618 [11...
+  network: tcp
   packet-encoding: xudp
-  port: 27154
-  server: 94.130.237.57
-  skip-cert-verify: false
-  tls: false
+  port: 1270
+  server: 185.177.229.95
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
   type: vmess
   udp: true
-  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
-  ws-opts:
-    headers:
-      Host: 94.130.237.57
-    path: /Telegram=@AmyraxVPN
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
+- cipher: aes-256-gcm
+  name: 22|🇪DE_52|3.9MB/s|A004-260618 [be...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 213.202.208.199
+  sub_tag: A004-260618
+  type: ss
+  udp: true

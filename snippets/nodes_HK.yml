@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|HK香港(mibei77.com 米贝节点分享) (14)
+- name: 22|HK香港(mibei77.com 米贝节点分享) (14)
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20103
   server: sclass-00.catcat321.com
@@ -9,25 +9,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '19,22|HK_52|107KB/s|M003-260806 [f95... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 21021
-  server: dog-hk.kunlun01dns.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '22|HK香港(mibei77.com 米贝节点分享) #1'
+  name: 22|HK香港(mibei77.com 米贝节点分享)
   network: ws
   port: 16617
   server: afzuv.xiaoyan.io
@@ -43,7 +27,7 @@ proxies:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
-  name: '22|HK香港(mibei77.com 米贝节点分享) (2) #1'
+  name: 22|HK香港(mibei77.com 米贝节点分享) (2)
   network: ws
   password: b95ed9ae-517c-4905-b051-b8873c99a1b6
   port: 443
@@ -109,8 +93,24 @@ proxies:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
   xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 22|HK_52|107KB/s|M003-260806 [f95...
+  network: tcp
+  packet-encoding: xudp
+  port: 21021
+  server: dog-hk.kunlun01dns.com
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 35|HK_1|3.8MB/s
+  name: 35|HK_1|3.2MB/s
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com
