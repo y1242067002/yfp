@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22|🇵JP_5|170KB/s|S004-260618 [134...
+  name: '19,22|🇵JP_5|170KB/s|S004-260618 [134... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -19,18 +19,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 22|JP_36|565KB/s|P002-260618 [75b...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
-  skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  sub_tag: P002-260618
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇯🇵JP_13|226KB/s|C002-260622 [1...
+  name: '19,22|🇯🇵JP_13|226KB/s|C002-260622 [1... #1'
   network: tcp
   password: F3NzMNuYnG7akU2mSlBY
   port: 8443
@@ -40,90 +29,9 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 22|🇵JP_12|80KB/s|A004-260618 [2ca...
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 22|🇯🇵JP_10|666KB/s|A001-260618 [4...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  sub_tag: A001-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 22|🇵JP_22|666KB/s|A001-260618 [59...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  sub_tag: A001-260618
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 22|🇵JP_12|622KB/s|R002-260618 [7a...
-  network: ws
-  port: 8081
-  server: 168.110.63.247
-  sub_tag: R002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  ws-opts:
-    path: /vless
-  x-toolall-mihomo: true
-- cipher: aes-128-gcm
-  name: 22|🇯🇵JP_17|678KB/s|M003-260806 [b...
-  password: Bwlqh7GcFB
-  port: 53758
-  server: jpa.123069.xyz
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇵JP_35|348KB/s|M003-260806 [be...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: dg4.ianai.it.com
-  skip-cert-verify: false
-  sni: dg4.ianai.it.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇵JP_1|113KB/s|A004-260618 [c67...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 22|🇵JP_11|627KB/s|A001-260618 [f5...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  sub_tag: A001-260618
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 22|🇵JP_5|709KB/s|M003-260806 [ff8...
-  password: Bwlqh7GcFB
-  port: 53758
-  server: 168.138.205.100
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22|🇵JP_15|526KB/s|S004-260618 [20...
+  name: '19,22|🇵JP_15|526KB/s|S004-260618 [20... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -140,8 +48,32 @@ proxies:
       Host: 168.138.43.75
     path: /cctv13.m3u8
   xudp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇵JP_12|80KB/s|A004-260618 [2ca... #1'
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇯🇵JP_10|666KB/s|A001-260618 [4... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇵JP_22|666KB/s|A001-260618 [59... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  sub_tag: A001-260618
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 22|🇵JP_31|219KB/s|A003-260618 [93...
+  name: '19,22|🇵JP_31|219KB/s|A003-260618 [93... #1'
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 34745
@@ -151,485 +83,131 @@ proxies:
   sub_tag: A003-260618
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: 19,22|🇵JP_1|102KB/s|M003-260806 [b4e...
+  password: Bwlqh7GcFB
+  port: 53758
+  server: jpa.123069.xyz
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (2)
+  name: '19,22|🇵JP_1|113KB/s|A004-260618 [c67... #1'
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '19,22|🇵JP_11|627KB/s|A001-260618 [f5... #1'
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP(mibei77.com 米贝节点分享)
   password: '!!str 123456'
   port: 5555
-  server: 8.209.236.2
-  skip-cert-verify: true
+  server: 8.211.129.80
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (3)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (2)
   password: '!!str 123456'
   port: 5555
-  server: 8.216.18.170
-  skip-cert-verify: true
+  server: 8.211.154.126
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (4)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.154
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (5)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.249.205
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (6)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.14.14
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (7)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.221.90
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (8)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.131.30
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (9)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.253.213
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (10)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.18.173
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (11)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.236.164
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (12)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.9.21
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (13)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.27.11
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (14)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.5.230
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (15)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.199.75
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (16)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.49.154
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (17)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.11.25
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (18)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.4.158
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (19)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.16.102
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (20)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.41.139
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (21)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.16.50
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (22)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.142
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (23)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.245.42.226
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (24)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.18.202
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (25)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.2.13
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (26)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.15.30
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (27)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (3)
   password: '!!str 123456'
   port: 5555
   server: 8.216.10.204
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (28)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (4)
   password: '!!str 123456'
   port: 5555
-  server: 8.209.196.11
-  skip-cert-verify: true
+  server: 8.216.0.168
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (29)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (5)
   password: '!!str 123456'
   port: 5555
-  server: 47.74.18.249
-  skip-cert-verify: true
+  server: 8.216.15.55
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (30)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (6)
   password: '!!str 123456'
   port: 5555
-  server: 47.245.40.193
-  skip-cert-verify: true
+  server: 8.216.3.83
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (31)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (7)
   password: '!!str 123456'
   port: 5555
-  server: 47.74.17.125
-  skip-cert-verify: true
+  server: 8.216.14.14
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (32)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (8)
   password: '!!str 123456'
   port: 5555
-  server: 47.74.40.243
-  skip-cert-verify: true
+  server: 8.216.1.127
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (33)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (9)
   password: '!!str 123456'
   port: 5555
-  server: 8.211.128.146
-  skip-cert-verify: true
+  server: 8.216.8.0
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (34)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (10)
   password: '!!str 123456'
   port: 5555
-  server: 8.216.5.89
-  skip-cert-verify: true
+  server: 8.216.9.217
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (35)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.0.207
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (36)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.222.150
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (37)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (11)
   password: '!!str 123456'
   port: 5555
   server: 8.209.249.190
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (38)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.41
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (39)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.198.176
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (40)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.8.135
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (41)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.8.84
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (42)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.31.150
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (43)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.17.189
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (44)
-  password: '!!str 123456'
-  port: 6666
-  server: 47.245.63.105
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (45)
-  password: '!!str 123456'
-  port: 6666
-  server: 8.216.17.86
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (46)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.132.94
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (47)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.14.94
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (48)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.151
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (49)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.24.29
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (50)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.196.228
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (51)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.3.160
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (52)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.74.40.77
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (53)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.17.52
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (54)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.29.60
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (55)
+  name: 22,29|🇯🇵_日本 (22)
   password: '!!str 123456'
   port: 5555
   server: 47.245.54.15
@@ -638,290 +216,668 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (56)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (13)
   password: '!!str 123456'
   port: 5555
-  server: 8.209.245.25
-  skip-cert-verify: true
+  server: 8.216.8.135
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (57)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.6.19
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (58)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.190
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (59)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.174.60
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (60)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (14)
   password: '!!str 123456'
   port: 5555
   server: 8.216.15.46
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (61)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (15)
   password: '!!str 123456'
   port: 5555
-  server: 8.216.9.42
-  skip-cert-verify: true
+  server: 8.211.131.30
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (62)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (16)
   password: '!!str 123456'
   port: 5555
-  server: 8.216.15.55
-  skip-cert-verify: true
+  server: 8.216.9.41
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (63)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.18.139
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (64)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.19.169
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (65)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.245.32.129
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (66)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.209.221.183
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (67)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.174.191
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (68)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.6.223
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (69)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.129.80
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (70)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.16.98
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (71)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.15
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (72)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.8.0
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (73)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.3.83
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (74)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.17.19
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (75)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.1.127
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (76)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.18.167
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (77)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.130.59
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (78)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.18.189
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (79)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.211.154.126
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (80)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.0.168
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (81)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.9.217
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (82)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.15.111
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (83)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (17)
   password: '!!str 123456'
   port: 5555
   server: 8.216.8.176
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (18)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.16.98
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (19)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.19
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (20)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.142
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (21)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.151
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (22)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.128.146
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (23)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.15
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (24)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.32.129
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (25)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.196.11
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (26)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.154
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (27)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.5.89
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (28)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.245.25
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (29)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.84
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22,29|🇯🇵_日本 (20)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.24.29
   skip-cert-verify: true
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (84)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (31)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.189
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (32)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.18.249
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (33)
   password: '!!str 123456'
   port: 5555
   server: 8.209.197.190
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (85)
-  password: '!!str 123456'
-  port: 5555
-  server: 47.91.15.175
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (86)
-  password: '!!str 123456'
-  port: 5555
-  server: 8.216.8.185
-  skip-cert-verify: true
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 29|🇯🇵_日本 (87)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (34)
   password: '!!str 123456'
   port: 5555
   server: 8.216.4.146
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (35)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.196.228
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (36)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.253.213
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (37)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.15.111
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (38)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.16.102
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (39)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.173
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (40)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.0.207
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (41)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.3.160
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (42)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.42.226
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (43)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.221.183
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (44)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.6.19
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (45)
+  password: '!!str 123456'
+  port: 6666
+  server: 47.245.63.105
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (46)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.167
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (47)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.199.75
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (48)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.236.164
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (49)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.190
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (50)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.236.2
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (51)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.9.42
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (52)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.249.205
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22,29|🇯🇵_日本 (23)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.245.40.193
   skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (54)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.41.139
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (55)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.27.11
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (56)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.139
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (57)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.221.90
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (58)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.222.150
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (59)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.209.198.176
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (60)
+  password: '!!str 123456'
+  port: 6666
+  server: 8.216.17.86
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (61)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.5.230
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (62)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.9.21
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22,29|🇯🇵_日本 (21)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.49.154
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (64)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.31.150
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (65)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.130.59
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (66)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.18.202
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (67)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.11.25
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (68)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.174.191
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (69)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.16.50
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (70)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.40.77
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (71)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.15.175
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (72)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.132.94
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (73)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.189
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (74)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.2.13
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (75)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.17.125
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (76)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.18.170
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (77)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.8.185
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (78)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.17.52
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (79)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.91.29.60
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (80)
+  password: '!!str 123456'
+  port: 5555
+  server: 47.74.40.243
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (81)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.14.94
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (82)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.15.30
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (83)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.211.174.60
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (84)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.6.223
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (85)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.19.169
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 22|JP日本(mibei77.com 米贝节点分享) (86)
+  password: '!!str 123456'
+  port: 5555
+  server: 8.216.4.158
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true

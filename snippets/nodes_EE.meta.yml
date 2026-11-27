@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22|🇪EE爱沙尼亚丨yoyapai.com (2)_2
+  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (2)_2
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -14,11 +14,48 @@ proxies:
   type: vless
   udp: true
   uuid: 2acc3742-c568-11f1-9902-a337233c6cda
+- name: '19,22|EE_4|1.0MB/s|R002-260618 [6b8c... #1'
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '19,22|EE_1|1.1MB/s|P002-260618 [d8de... #1'
+  password: None
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '19,22|🇪EE_3|1002KB/s|K001-260618 [e3... #1'
+  password: None
+  port: 443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 19,22|EE_1|415KB/s|K001-260618 [ea6f...
+  password: None
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - alpn:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22|🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.c...
+  name: '22|🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.c... #1'
   port: 443
   server: 138.124.100.128
   servername: ee4.fast-connect-service.site
@@ -28,66 +65,10 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 22|🇪EE_3|1.1MB/s|K001-260618 [590...
-  password: ''
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- encryption: none
-  name: 22|EE_4|1.7MB/s|M003-260806 [87fa...
-  network: tcp
-  packet-encoding: xudp
-  port: 16443
-  server: 45.86.60.174
-  sub_tag: M003-260806
-  type: vless
-  udp: true
-  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-  xudp: true
-- name: 22,35|🇪EE_1|3.5MB/s
+- name: 22|🇪EE_2|1.0MB/s|K001-260618 [968...
+  password: None
   port: 9443
   server: 95.153.31.66
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇪EE_2|1.0MB/s|K001-260618 [ea6...
-  password: None
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 22|EE_4|1.0MB/s|R002-260618 [6b8c...
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|EE_1|1.1MB/s|P002-260618 [d8de...
-  password: None
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇪EE_3|1002KB/s|K001-260618 [e3...
-  password: None
-  port: 443
-  server: 95.153.32.2
   skip-cert-verify: true
   sub_tag: K001-260618
   tls: true
@@ -109,66 +90,3 @@ proxies:
   type: vless
   udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-- client-fingerprint: chrome
-  encryption: none
-  name: 35|🇪EE_2|2.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U
-    short-id: 35a329a23bb50d2b
-  server: 13.141.36.163
-  servername: 079b6et.ee5.h1clayd.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73ebb72a-e2a8-44c8-a0e3-938740a4f578
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 35|🇪EE_3|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U
-    short-id: 35a329a23bb50d2b
-  server: 079b6et.ee5.h1clayd.shop
-  servername: 079b6et.ee5.h1clayd.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73ebb72a-e2a8-44c8-a0e3-938740a4f578
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 35|🇪EE_4|1.2MB/s
-  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: estonia.astroapps.io
-    mode: websocket
-    path: /fd3f56f3dc9f5ceca7e57ecd
-    tls: true
-  port: 443
-  server: estonia.astroapps.io
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 9e16c22000f6
-  name: 35|🇪🇪EE_5|2.0MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: wQ0i9JDLOmAnh1Xfo-n_QqSu1hyuqHtTcy--DGgqtzA
-    short-id: 55c396924697994f
-  server: 314fbcg.ee5.h1clayd.shop
-  servername: 314fbcg.ee5.h1clayd.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73ebb72a-e2a8-44c8-a0e3-938740a4f578
-  xudp: true

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 22|🇸SG新加坡丨yoyapai.com_2
+  name: 19,22|🇸SG新加坡丨yoyapai.com_2
   network: ws
   port: 443
   server: 103.25.202.102
@@ -16,7 +16,7 @@ proxies:
       Host: asia.csmaster.site
     path: /
 - client-fingerprint: chrome
-  name: 22|🇬SG新加坡丨yoyapai.com (2)_2
+  name: 19,22|🇬SG新加坡丨yoyapai.com (2)_2
   network: ws
   port: 443
   server: 104.21.28.176
@@ -30,7 +30,7 @@ proxies:
       Host: sg.lovehk.xyz
     path: /Singapore1
 - client-fingerprint: unsafe
-  name: 22,29|🇸🇬_新加坡
+  name: 19,22,29|🇸🇬_新加坡 (4)
   network: ws
   port: 443
   server: 43.170.8.95
@@ -45,7 +45,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: 22|SG新加坡(mibei77.com 米贝节点分享) (3)
+- name: '19,22|SG新加坡(mibei77.com 米贝节点分享) (3) #1'
   network: ws
   password: zhs000666
   port: 443
@@ -60,7 +60,7 @@ proxies:
     headers:
       Host: 666-4sd.pages.dev
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 22|SG新加坡(mibei77.com 米贝节点分享) (4)
+- name: '19,22|SG新加坡(mibei77.com 米贝节点分享) (4) #1'
   network: ws
   password: zhs000666
   port: 443
@@ -77,7 +77,7 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: '0'
   cipher: auto
-  name: 22|🇬SG_11|999KB/s|C002-260622 [74...
+  name: 19,22|🇸🇬SG_3|902KB/s|C002-260622 [74...
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -90,14 +90,36 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '19,22|🇸🇬SG_52|233KB/s|S004-260618 [0... #1'
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: news.zoom.us
+  servername: matrix.learnpodedu.com
+  sub_tag: S004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d8d9640-7cc7-4c55-ba54-6ce0d1709541
+  ws-opts:
+    headers:
+      Host: matrix.learnpodedu.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 22|🇸🇬SG_27|898KB/s|A004-260618 [d...
+  name: 19,22|❓Other_26|223KB/s|A004-260618 ...
   network: tcp
   packet-encoding: xudp
   port: 18000
   server: 149.88.23.207
-  servername: --v2raynplus--v2raynplus--v2raynplus--
+  servername: 149.88.23.207
   skip-cert-verify: false
   sub_tag: A004-260618
   tls: false
@@ -106,7 +128,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇸SG_64|586KB/s|C002-260622 [87...
+  name: '19,22|🇸SG_64|586KB/s|C002-260622 [87... #1'
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -116,7 +138,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- name: 22|🇸🇬SG_25|373KB/s|M003-260806 [0...
+- name: '19,22|🇸🇬SG_25|373KB/s|M003-260806 [0... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -132,25 +154,27 @@ proxies:
         like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /%2Fworryfree
   xudp: true
-- cipher: rc4-md5
-  name: 22|🇬SG_25|907KB/s|A004-260618 [08...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.132
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 22|🇸🇬SG_47|567KB/s|R002-260618 [0...
+- name: '19,22|🇬SG_24|77KB/s|R002-260618 [07f... #1'
+  password: None
   port: 9090
   server: 167.99.74.174
   sub_tag: R002-260618
   type: http
   udp: true
+- name: '19,22|🇬SG_20|73KB/s|K001-260618 [159... #1'
+  password: ''
+  port: 9090
+  server: 146.190.80.158
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  type: http
+  udp: true
+  username: ''
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 22|🇸🇬SG_23|72KB/s|M003-260806 [20...
+  name: '19,22|🇸🇬SG_23|72KB/s|M003-260806 [20... #1'
   network: tcp
   packet-encoding: xudp
   port: 10086
@@ -163,18 +187,7 @@ proxies:
   uuid: b831381d-6324-4d53-ad4f-8cda48b30811
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇸🇬SG_60|675KB/s|A001-260618 [a...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg1.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg1.hikigo.com
-  sub_tag: A001-260618
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇬SG_30|318KB/s|A004-260618 [22...
+  name: '19,22|🇬SG_30|318KB/s|A004-260618 [22... #1'
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -194,7 +207,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 22|🇸🇬SG_3|993KB/s|A004-260618 [f4...
+  name: '19,22|🇸🇬SG_3|993KB/s|A004-260618 [f4... #1'
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -207,385 +220,8 @@ proxies:
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 22|🇬SG_34|733KB/s|M003-260806 [35...
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 15.235.144.92
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
-- name: 22|🇬SG_55|573KB/s|K001-260618 [35...
-  password: None
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- cipher: rc4-md5
-  name: 22|🇸🇬SG_49|227KB/s|A004-260618 [3...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.235.122
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 22|🇬SG_75|812KB/s [3dd564ebf56e]
-  password: ''
-  port: 9090
-  server: 68.183.226.190
-  skip-cert-verify: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  name: 22|🇬SG_61|66KB/s|M003-260806 [3e1...
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 15.235.184.127
-  skip-cert-verify: false
-  sni: exploredigitaljobplatformandfindonlinework.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 22|🇬SG_54|921KB/s|A004-260618 [3e...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.236
-  sub_tag: A004-260618
-  type: ss
-  udp: true
 - encryption: none
-  name: 22|🇸🇬SG_65|90KB/s|S004-260618 [43...
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 104.17.3.81
-  servername: sg-vless-ws.bypass.id
-  sub_tag: S004-260618
-  type: vless
-  udp: true
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  ws-opts:
-    headers:
-      Host: sg-vless-ws.bypass.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /worryfree
-  xudp: true
-- cipher: aes-256-gcm
-  name: 22|🇬SG_26|782KB/s|M003-260806 [4a...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.88.106.73
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 22|🇬SG_13|668KB/s [61dec4b6ad88]
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 22|🇬SG_8|653KB/s|R002-260618 [670...
-  password: c0a34a
-  port: 62000
-  server: 66.80.2.252
-  sub_tag: R002-260618
-  type: socks5
-  udp: true
-  username: usereb7d
-- alterId: 0
-  cipher: auto
-  name: 22|🇬SG_17|717KB/s|M002-260618 [b3...
-  network: raw
-  packet-encoding: xudp
-  port: 18000
-  server: ww11.levikogjgfdd.ir
-  servername: ww11.levikogjgfdd.ir
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- name: 22|🇬SG_38|577KB/s|K001-260618 [70...
-  password: None
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- cipher: rc4-md5
-  name: 22|🇬SG_51|880KB/s|A004-260618 [73...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.199.172.224
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 22|🇬SG_56|705KB/s|P002-260618 [73...
-  port: 9090
-  server: 128.199.113.85
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  type: http
-  udp: true
-- name: 22|🇬SG_60|873KB/s|R002-260618 [75...
-  port: 9090
-  server: 128.199.121.61
-  sub_tag: R002-260618
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 22|🇬SG_45|843KB/s|M003-260806 [98...
-  network: tcp
-  password: sshs8_6481354771
-  port: 2087
-  server: 86.38.247.109
-  skip-cert-verify: false
-  sni: ul-singapore1.09vpn.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 22|🇸🇬SG_42|935KB/s|A004-260618 [7...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 22|🇸🇬SG_49|333KB/s|S001-260618 [7...
-  password: ''
-  port: 5555
-  server: 103.248.228.166
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  name: 22|🇸🇬SG_78|893KB/s|S004-260618 [d...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: i1tr.mateflora.com
-  skip-cert-verify: true
-  sni: i1tr.mateflora.com
-  sub_tag: S004-260618
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 22|🇬SG_17|478KB/s|A004-260618 [7f...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.235.240
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- name: 22|🇬SG_34|71KB/s|P002-260618 [87c...
-  password: None
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇸🇬SG_10|601KB/s|R002-260618 [8...
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇬SG_32|863KB/s|M003-260806 [8f...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 15.235.164.133
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇬SG_14|1018KB/s|M003-260806 [9...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.88.107.74
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 22|🇬SG_33|847KB/s|R002-260618 [98...
-  port: 9090
-  server: 104.248.151.93
-  sub_tag: R002-260618
-  type: http
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 22|🇬SG_21|938KB/s|C002-260622 [9a...
-  network: raw
-  packet-encoding: xudp
-  port: 18000
-  server: 149.88.23.207
-  skip-cert-verify: false
-  sub_tag: C002-260622
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- cipher: rc4-md5
-  name: 22|🇸🇬SG_50|882KB/s|B007-260618 [9...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.4
-  sub_tag: B007-260618
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 22|🇬SG_53|899KB/s|A004-260618 [9f...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.73
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 22|🇬SG_16|971KB/s|C002-260622 [a9...
-  network: raw
-  packet-encoding: xudp
-  port: 18000
-  server: 149.88.23.202
-  skip-cert-verify: false
-  sub_tag: C002-260622
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|🇬SG_87|581KB/s|C002-260622 [e3...
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: 149.33.27.162
-  skip-cert-verify: false
-  sni: i1tr.mateflora.com
-  sub_tag: C002-260622
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇸🇬SG_19|1.0MB/s|M003-260806 [b...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.88.106.74
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇬SG_32|878KB/s|M003-260806 [c4...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.88.107.47
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 22|🇬SG_63|393KB/s|S001-260618 [c5...
-  password: bcb013fb2d4d42f1
-  port: 23889
-  server: 43.156.246.147
-  skip-cert-verify: true
-  sub_tag: S001-260618
-  type: socks5
-  udp: true
-  username: vpnuser
-- name: 22|🇸🇬SG_43|376KB/s|R002-260618 [d...
-  password: None
-  port: 9090
-  server: 152.42.170.187
-  sub_tag: R002-260618
-  type: http
-  udp: true
-- cipher: aes-256-gcm
-  name: 22|🇬SG_7|905KB/s|M003-260806 [d9e...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 15.235.182.183
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- name: 22|🇬SG_29|297KB/s|R002-260618 [e2...
-  password: '!!str 8888'
-  port: 1080
-  server: 47.236.168.243
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  type: socks5
-  udp: true
-  username: '8888'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 22|🇬SG_52|233KB/s|S004-260618 [01...
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: news.zoom.us
-  servername: matrix.learnpodedu.com
-  sub_tag: S004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d8d9640-7cc7-4c55-ba54-6ce0d1709541
-  ws-opts:
-    headers:
-      Host: matrix.learnpodedu.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
-- name: 22|🇬SG_24|77KB/s|R002-260618 [07f...
-  password: None
-  port: 9090
-  server: 167.99.74.174
-  sub_tag: R002-260618
-  type: http
-  udp: true
-- name: 22|🇬SG_20|73KB/s|K001-260618 [159...
-  password: ''
-  port: 9090
-  server: 146.190.80.158
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: http
-  udp: true
-  username: ''
-- encryption: none
-  name: 22|🇸🇬SG_58|64KB/s|M003-260806 [44...
+  name: '19,22|🇸🇬SG_58|64KB/s|M003-260806 [44... #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -602,7 +238,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
   xudp: true
-- name: 22|🇬SG_15|661KB/s|R002-260618 [44...
+- name: '19,22|🇬SG_15|661KB/s|R002-260618 [44... #1'
   port: 443
   server: 156.146.56.97
   skip-cert-verify: true
@@ -610,8 +246,16 @@ proxies:
   tls: true
   type: http
   udp: true
+- cipher: aes-256-gcm
+  name: 19,22|🇬SG_4|399KB/s|M003-260806 [4a2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.106.73
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 22|🇬SG_68|96KB/s|F003-260618 [53a...
+  name: '19,22|🇬SG_68|96KB/s|F003-260618 [53a... #1'
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -621,16 +265,92 @@ proxies:
   sub_tag: F003-260618
   type: trojan
   udp: true
+- name: '19,22|🇬SG_13|668KB/s [61dec4b6ad88] #1'
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '19,22|🇬SG_8|653KB/s|R002-260618 [670... #1'
+  password: c0a34a
+  port: 62000
+  server: 66.80.2.252
+  sub_tag: R002-260618
+  type: socks5
+  udp: true
+  username: usereb7d
+- alterId: 0
+  cipher: auto
+  name: 19,22|🇬SG_2|485KB/s|A004-260618 [6cc...
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: ww11.levikogjgfdd.ir
+  servername: ww11.levikogjgfdd.ir
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- name: '19,22|🇬SG_38|577KB/s|K001-260618 [70... #1'
+  password: None
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '19,22|🇸🇬SG_49|333KB/s|S001-260618 [7... #1'
+  password: ''
+  port: 5555
+  server: 103.248.228.166
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  udp: true
+  username: ''
 - cipher: aes-256-gcm
-  name: 22|🇸🇬SG_65|862KB/s|S004-260618 [8...
+  name: 19,22|🇬SG_8|215KB/s|S004-260618 [84e...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: leviko-sg2619.shopingggg.ir
   sub_tag: S004-260618
   type: ss
   udp: true
+- name: '19,22|🇬SG_34|71KB/s|P002-260618 [87c... #1'
+  password: None
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '19,22|🇸🇬SG_10|601KB/s|R002-260618 [8... #1'
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 19,22|❓Other_12|301KB/s|M003-260806 ...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.107.74
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 22|🇸🇬SG_66|876KB/s|S004-260618 [9...
+  name: '19,22|🇸🇬SG_66|876KB/s|S004-260618 [9... #1'
   network: tcp
   password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
   port: 443
@@ -640,36 +360,92 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
-- name: 28|🇸🇬SG-🚀@VPNine1
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 47.129.155.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 29|🇸🇬_新加坡 (2)
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: plfXwkb-ewI6iibJBTRmPnf8eqPId1BfdArMIm3_mB4
-    short-id: 2f6f6f87
-  server: 139.180.221.53
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  sni: itunes.apple.com
-  tls: true
-  type: vless
+- name: '19,22|🇬SG_33|847KB/s|R002-260618 [98... #1'
+  port: 9090
+  server: 104.248.151.93
+  sub_tag: R002-260618
+  type: http
   udp: true
-  uuid: 2b30d0df-6ebe-4aed-9bad-b7c554e35e1d
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
+- alterId: '0'
+  cipher: auto
+  name: 19,22|🇬SG_5|288KB/s|C002-260622 [9a7...
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '19,22|🇬SG_16|971KB/s|C002-260622 [a9... #1'
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇸🇬SG_19|1.0MB/s|M003-260806 [b... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.106.74
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇬SG_32|878KB/s|M003-260806 [c4... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.107.47
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: '19,22|🇬SG_63|393KB/s|S001-260618 [c5... #1'
+  password: bcb013fb2d4d42f1
+  port: 23889
+  server: 43.156.246.147
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  udp: true
+  username: vpnuser
+- name: '19,22|🇸🇬SG_43|376KB/s|R002-260618 [d... #1'
+  password: None
+  port: 9090
+  server: 152.42.170.187
+  sub_tag: R002-260618
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: '19,22|🇬SG_7|905KB/s|M003-260806 [d9e... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.182.183
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: '19,22|🇬SG_29|297KB/s|R002-260618 [e2... #1'
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  type: socks5
+  udp: true
+  username: '8888'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (3)
+  name: 22,29|🇸🇬_新加坡 (13)
   port: 443
   reality-opts:
     public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
@@ -682,21 +458,186 @@ proxies:
   type: vless
   udp: true
   uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇸🇬_新加坡 (4)
+- name: 22|🇬SG_6|232KB/s|K001-260618 [358...
+  password: None
   port: 443
-  reality-opts:
-    public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
-    short-id: 819a87bf1651bf44
-  server: 54.255.246.31
-  servername: aim.ambiz.com
+  server: 156.146.56.97
   skip-cert-verify: true
-  sni: aim.ambiz.com
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 22|🇬SG_9|317KB/s|A004-260618 [d87...
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: support.zoom.us
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+  ws-opts:
+    headers:
+      Host: free.nadun.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /
+  xudp: true
+- name: 28|🇸🇬SG-🚀@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 47.129.155.154
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (2)
+  network: ws
+  port: 627
+  server: 142.91.101.39
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: true
+  sni: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
   tls: true
   type: vless
   udp: true
-  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
+  ws-opts:
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (3)
+  network: ws
+  port: 627
+  server: 142.91.101.39
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  skip-cert-verify: true
+  sni: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8199228b-e84b-42a2-9268-e400391e483a
+  ws-opts:
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (5)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: b29516da
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (6)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: b0af872e
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (7)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: ybu5pFdSV23WsnMNhbpa8TwV6TJd6NLZ6HX-ggww61A
+    short-id: 83f673ba
+  server: 139.180.215.25
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbc20d3e-0391-48f1-ad72-90a6802f728e
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (9)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: sli7AT0WEhYMVMARhHh-ZQMK7zHHn0cGsxw2gPhoBis
+    short-id: 107ff148
+  server: 149.28.152.20
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e17ca473-bd02-4fe6-873f-5866d729b0a3
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (10)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇸🇬_新加坡 (11)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: 9360f0d0
+  server: 172.104.48.162
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
 - client-fingerprint: chrome
   name: 33|🇸🇬 新加坡2|@ripaojiedian
   network: ws
@@ -808,20 +749,3 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 35|🇸🇬SG_3|3.2MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 43113
-  reality-opts:
-    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
-    short-id: ff2c978a0b
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
-  xudp: true

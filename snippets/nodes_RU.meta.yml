@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 22|🇺_RU丨yoyapai.com_2
+  name: 19,22|🇺_RU丨yoyapai.com_2
   password: 895b4b796a357570
   port: 10910
   server: 176.32.35.51
@@ -9,7 +9,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_2
+  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (2)_2
   password: 895b4b796a357570
   port: 10916
   server: 176.32.35.51
@@ -18,7 +18,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_2
+  name: 19,22|🇷🇺_RU俄羅斯丨yoyapai.com (3)_2
   password: bdb313adf74c2ede
   port: 20188
   server: 195.133.5.207
@@ -29,7 +29,7 @@ proxies:
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: ru-api
-  name: 22|🇺RU俄斯丨yoyapai.com_2
+  name: 19,22|🇺RU俄斯丨yoyapai.com_2
   network: grpc
   port: 443
   reality-opts:
@@ -43,7 +43,7 @@ proxies:
   udp: true
   uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
 - cipher: aes-256-gcm
-  name: 22|🇷🇺 RU俄羅斯丨yoyapai.com_2
+  name: 19,22|🇷🇺 RU俄羅斯丨yoyapai.com_2
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
@@ -51,33 +51,19 @@ proxies:
   tls: false
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 22|GB国(mibei77.com 米贝节点分享)_2
+- client-fingerprint: qq
+  name: 19,22,29|🇷🇺_俄罗斯 (12)
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: szqbx-ru-77dc.my-fade.cloud
   tls: true
   type: vless
   udp: true
   uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-- flow: xtls-rprx-vision
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (3)
-  port: 443
-  reality-opts:
-    public-key: IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM
-    short-id: 686f7ed96ec0227d
-  server: 153.80.22.106
-  servername: rusbox729.alexdjane.am
-  skip-cert-verify: false
-  sni: rusbox729.alexdjane.am
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
 - client-fingerprint: chrome
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (6)_...
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (6) #1'
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud
@@ -90,7 +76,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: glush.de7.v1
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (8)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (8) #1'
   network: grpc
   port: 443
   server: archive.filnex.baby
@@ -104,7 +90,7 @@ proxies:
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: glush.de7.v1
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (9)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (9) #1'
   network: grpc
   port: 443
   server: birchbark.gerqix.online
@@ -120,7 +106,7 @@ proxies:
   client-fingerprint: edge
   grpc-opts:
     grpc-service-name: glush.de7.v1
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (10)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (10) #1'
   network: grpc
   port: 443
   server: archive.filnex.baby
@@ -134,7 +120,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (11)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (11) #1'
   network: ws
   port: 443
   server: parchment.merlano.monster
@@ -150,7 +136,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: ios
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (14)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (14) #1'
   network: ws
   port: 443
   server: rowanberry.moltex.click
@@ -164,7 +150,7 @@ proxies:
   ws-opts:
     path: /api/de7/stream
 - client-fingerprint: firefox
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (13)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (13) #1'
   network: ws
   port: 443
   server: 72.56.238.135
@@ -182,7 +168,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (15)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (15) #1'
   network: ws
   port: 443
   server: cabinet.filnex.baby
@@ -198,7 +184,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (16)
+  name: '19,22|RU俄罗斯(mibei77.com 米贝节点分享) (16) #1'
   network: ws
   port: 443
   server: cedar.filnex.baby
@@ -211,6 +197,121 @@ proxies:
   uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   ws-opts:
     path: /api/de7/stream
+- name: '19,22|🇷RU_6|1.6MB/s|K001-260618 [3ff... #1'
+  password: 'null'
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- client-fingerprint: firefox
+  encryption: none
+  name: '19,22|🇺RU_10|1.4MB/s|M003-260806 [45... #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: leviko-ru2753.shopingggg.ir
+  servername: m.yourvibe.my
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  xhttp-opts:
+    mode: auto
+    path: /media/e1c76c
+  xudp: true
+- name: '19,22|🇷RU_1|1.5MB/s|R002-260618 [48e... #1'
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '19,22|🇷🇺RU_4|1.4MB/s|P002-260618 [4f... #1'
+  password: 'null'
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: '19,22|🇺RU_7|1.0MB/s|R002-260618 [5a5... #1'
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 19,22|RU_1|412KB/s|B007-260618 [9cb1...
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: 201.24.116.192
+  servername: vps3.nemnogogo.com
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: '19,22|🇷RU_5|1.3MB/s|B006-260618 [b80... #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 45.88.176.223
+  servername: m.yourvibe.my
+  sub_tag: B006-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  xhttp-opts:
+    mode: auto
+    path: /media/e1c76c
+  xudp: true
+- name: '19,22|🇺RU_8|1.3MB/s|P002-260618 [bf1... #1'
+  password: None
+  port: 8443
+  server: 87.242.85.187
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '19,22|🇷RU_3|537KB/s|R002-260618 [f22... #1'
+  password: 'null'
+  port: 443
+  server: 178.219.43.226
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: '19,22|🇷🇺RU_2|1.6MB/s|K001-260618 [fc... #1'
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: edge
   grpc-opts:
     grpc-service-name: 7d5abcd7d8a1
@@ -229,7 +330,7 @@ proxies:
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
 - client-fingerprint: qq
-  name: 22,29|🇷🇺_俄罗斯 (19)
+  name: 22,29|🇷🇺_俄罗斯 (24)
   port: 443
   server: 136.148.83.70
   servername: aszbk-ru-78dc.my-fade.cloud
@@ -241,7 +342,7 @@ proxies:
   uuid: 00000000-0000-0001-0000-000000000000
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22,29|🇷🇺_俄罗斯 (11)
+  name: 22,29|🇷🇺_俄罗斯 (16)
   port: 443
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
@@ -254,7 +355,7 @@ proxies:
   type: vless
   udp: true
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-- name: '22|RU俄罗斯(mibei77.com 米贝节点分享) (4)_... #1'
+- name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (4)_...
   network: ws
   port: 8443
   server: 13.140.156.31
@@ -268,7 +369,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: qq
-  name: 22,29|🇷🇺_俄罗斯 (16)
+  name: 22,29|🇷🇺_俄罗斯 (22)
   port: 443
   server: 136.148.83.71
   servername: wccfu-ru-79dc.my-fade.cloud
@@ -278,7 +379,7 @@ proxies:
   type: vless
   udp: true
   uuid: 00000000-0000-0001-0000-000000000000
-- name: '22|RU俄罗斯(mibei77.com 米贝节点分享) (6)_... #1'
+- name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (6)_...
   network: ws
   port: 443
   server: 31.76.127.59
@@ -291,132 +392,110 @@ proxies:
   uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 22|🇷RU_8|1.0MB/s|K001-260618 [341...
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 176.32.33.126
-  sub_tag: K001-260618
-  type: ss
-  udp: true
-- name: 22|🇷RU_6|1.6MB/s|K001-260618 [3ff...
-  password: 'null'
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 22|🇷RU_1|1.5MB/s|R002-260618 [48e...
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇷🇺RU_4|1.4MB/s|P002-260618 [4f...
-  password: 'null'
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 22|🇺RU_7|1.0MB/s|R002-260618 [5a5...
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
-  encryption: none
-  name: 22|🇷RU_5|1.3MB/s|B006-260618 [b80...
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 45.88.176.223
-  servername: m.yourvibe.my
-  sub_tag: B006-260618
+  name: 22,29|🇷🇺_俄罗斯 (5)
+  network: ws
+  port: 8454
+  server: 213.183.45.23
+  servername: store.plumstatic.com
+  skip-cert-verify: true
+  sni: store.plumstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-  xhttp-opts:
-    mode: auto
-    path: /media/e1c76c
-  xudp: true
-- name: 22|🇺RU_8|1.3MB/s|P002-260618 [bf1...
-  password: None
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  ws-opts:
+    path: /ws
+- client-fingerprint: firefox
+  name: 22,29|🇷🇺_俄罗斯 (8)
+  network: ws
+  port: 8444
+  server: 213.183.45.23
+  servername: media.plumstatic.com
+  skip-cert-verify: true
+  sni: media.plumstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  ws-opts:
+    path: /ws
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (9)_...
+  port: 443
+  reality-opts:
+    public-key: u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo
+    short-id: bad10ef561d2e2a1
+  server: 103.88.241.220
+  servername: ruhongmicro2.gangplatform.com
+  skip-cert-verify: false
+  sni: ruhongmicro2.gangplatform.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (10)...
+  port: 443
+  reality-opts:
+    public-key: 2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE
+    short-id: b9bb317e9c9e2627
+  server: 45.150.37.169
+  servername: rumicro641.richhoodfoc.com
+  skip-cert-verify: false
+  sni: rumicro641.richhoodfoc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (11)...
+  port: 443
+  reality-opts:
+    public-key: fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY
+    short-id: a7b12f3265f97f4a
+  server: 84.54.44.117
+  servername: rumicro642.richhoodfoc.com
+  skip-cert-verify: false
+  sni: rumicro642.richhoodfoc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+- name: 22,29|🇮🇳_印度
+  network: ws
+  port: 443
+  server: xray-ikmqcro3-rapid-river-6.cloady.io
+  servername: xray-ikmqcro3-rapid-river-6.cloady.io
+  skip-cert-verify: true
+  sni: xray-ikmqcro3-rapid-river-6.cloady.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
+  ws-opts:
+    path: /c54a815e676d9acc
+- client-fingerprint: chrome
+  name: 22,29|🇺🇸_美国 (4)
+  network: ws
   port: 8443
-  server: 87.242.85.187
+  server: 179.255.137.204
+  servername: senflarelink-node-xfcyh2.pages.dev
   skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-  name: 22|🇺RU_9|1.5MB/s|A001-260618 [d25...
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  server: vps3.nemnogogo.com
-  servername: vps3.nemnogogo.com
-  sub_tag: A001-260618
+  sni: senflarelink-node-xfcyh2.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  xudp: true
-- name: 22|🇷🇺RU_2|1.6MB/s|K001-260618 [fc...
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+    path: /
 - client-fingerprint: firefox
-  encryption: none
-  name: 22|🇺RU_10|1.4MB/s|M003-260806 [45...
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: leviko-ru2753.shopingggg.ir
-  servername: m.yourvibe.my
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-  xhttp-opts:
-    mode: auto
-    path: /media/e1c76c
-  xudp: true
-- name: 22|🇷RU_3|537KB/s|R002-260618 [f22...
-  password: 'null'
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (6)
+  name: 29|🇷🇺_俄罗斯 (3)
   network: ws
   port: 8463
   server: 213.183.41.31
@@ -429,26 +508,8 @@ proxies:
   uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
   ws-opts:
     path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (7)
-  network: ws
-  port: 443
-  server: 46.243.232.149
-  servername: devcdn.icu
-  skip-cert-verify: true
-  sni: devcdn.icu
-  tls: true
-  type: vless
-  udp: true
-  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
-  ws-opts:
-    headers:
-      Host: devcdn.icu
-    path: /edge/chunk/b2265efffa29/
 - client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (8)
+  name: 29|🇷🇺_俄罗斯 (2)
   network: ws
   port: 8459
   server: 213.183.41.31
@@ -461,19 +522,62 @@ proxies:
   uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
   ws-opts:
     path: /ws
-- name: 29|🇷🇺_俄罗斯 (9)
-  port: 443
-  server: 176.114.95.245
+- name: 29|🇷🇺_俄罗斯 (7)
+  network: ws
+  port: 8450
+  server: 213.183.45.23
+  servername: fonts.plumstatic.com
   skip-cert-verify: true
-  tls: false
+  sni: fonts.plumstatic.com
+  tls: true
   type: vless
   udp: true
-  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  ws-opts:
+    path: /ws
+- name: 29|🇷🇺_俄罗斯 (9)
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  sni: ru05.abvpn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯 (10)
+  network: ws
+  port: 443
+  server: ru05.abvpn.ru
+  servername: ru05.abvpn.ru
+  skip-cert-verify: true
+  sni: ru05.abvpn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    path: /websocket
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (12)
+  name: 29|🇷🇺_俄罗斯 (15)
   port: 8443
   server: 165.231.157.126
+  servername: api-6b04608f.adhil.uk
+  skip-cert-verify: true
+  sni: api-6b04608f.adhil.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (13)
+  port: 8443
+  server: 165.231.157.150
   servername: api-6b04608f.adhil.uk
   skip-cert-verify: true
   sni: api-6b04608f.adhil.uk
@@ -485,7 +589,7 @@ proxies:
   - h2
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (15)
+  name: 29|🇷🇺_俄罗斯 (19)
   port: 443
   server: 188.225.34.128
   servername: edge-de5.mystatic-cdn.ru
@@ -495,48 +599,18 @@ proxies:
   type: vless
   udp: true
   uuid: b9ae9395-c3e4-4212-86b8-d27a92f214dd
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (17)
+  name: 29|🇷🇺_俄罗斯 (23)
   port: 443
   reality-opts:
-    public-key: fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY
-    short-id: a7b12f3265f97f4a
-  server: 84.54.44.117
-  servername: rumicro642.richhoodfoc.com
+    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
+    short-id: 1067b23f928e7618
+  server: 200.165.229.159
+  servername: flarora.ferreo.sbs
   skip-cert-verify: true
-  sni: rumicro642.richhoodfoc.com
+  sni: flarora.ferreo.sbs
   tls: true
   type: vless
   udp: true
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (18)
-  port: 443
-  reality-opts:
-    public-key: 2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE
-    short-id: b9bb317e9c9e2627
-  server: 45.150.37.169
-  servername: rumicro641.richhoodfoc.com
-  skip-cert-verify: true
-  sni: rumicro641.richhoodfoc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (20)
-  port: 443
-  reality-opts:
-    public-key: u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo
-    short-id: bad10ef561d2e2a1
-  server: 103.88.241.220
-  servername: ruhongmicro2.gangplatform.com
-  skip-cert-verify: true
-  sni: ruhongmicro2.gangplatform.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
