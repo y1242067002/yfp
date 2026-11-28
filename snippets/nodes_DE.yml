@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,22|🇩🇪DE德国 (2)_2
+  name: 18,21|🇩🇪DE德国 (2)_3
   port: 52080
   server: 23.165.200.150
   skip-cert-verify: false
@@ -9,23 +9,47 @@ proxies:
   type: vmess
   udp: true
   uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-- name: '19,22|DE德国(mibei77.com 米贝节点分享) (9) #1'
-  network: ws
-  password: zhs000666
-  port: 443
-  server: 164.92.228.56
-  servername: 666-4sd.pages.dev
-  skip-cert-verify: false
-  sni: 666-4sd.pages.dev
-  tls: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: 18,21|🇪DE_1|3.4MB/s [2fcb59fe7abc]
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: 666-4sd.pages.dev
-    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: chacha20-ietf-poly1305
+  name: 18,21|🇩🇪DE_81|74KB/s|B007-260618 [33...
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 18,21|🇪DE_37|4.5MB/s|M003-260806 [68...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.76.233
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 18,21|🇪DE_3|6.0MB/s|C001-260618 [ac8...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  sub_tag: C001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 18,21|🇪DE_55|2.3MB/s|M003-260806 [b3...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  sub_tag: M003-260806
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: '19,22|🇪DE_25|5.1MB/s|A004-260618 [09... #1'
+  name: 21|🇪DE_22|5.5MB/s|A004-260618 [09...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.20.147
@@ -35,7 +59,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '19,22|🇪DE_13|3.6MB/s|B007-260618 [11... #1'
+  name: 21|🇪DE_39|4.7MB/s|B007-260618 [11...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -47,9 +71,31 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
+- client-fingerprint: chrome
+  name: 21|🇪DE_38|3.6MB/s|B007-260618 [1d...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: true
+  sni: 193.108.119.78
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇪DE_128|4.4MB/s|M003-260806 [2...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: leviko-de5094.shopingggg.ir
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: '19,22|🇪DE_82|4.3MB/s|K001-260618 [27... #1'
+  name: 21|🇪DE_41|4.1MB/s|K001-260618 [27...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -62,25 +108,118 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇪DE_14|180KB/s [2fcb59fe7abc]
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_48|3.0MB/s|M003-260806 [d...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.34
+  skip-cert-verify: false
+  sni: cdn.iloverussia2026.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇪DE_32|4.2MB/s|S004-260618 [c2...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: false
+  sni: www.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_47|4.2MB/s|M003-260806 [b...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.134
+  skip-cert-verify: false
+  sni: api.iloverussia2026.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 21|🇪DE_135|207KB/s|M001-260618 [3...
+  network: ws
+  port: 27154
+  server: 94.130.237.57
+  skip-cert-verify: false
+  sub_tag: M001-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
+  ws-opts:
+    headers:
+      Host: 94.130.237.57
+    path: /Telegram=@AmyraxVPN
+- cipher: rc4-md5
+  name: 21|🇪DE_8|6.8MB/s|A004-260618 [3e8...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 169.150.210.233
+  sub_tag: A004-260618
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_31|436KB/s|S004-260618 [e...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: false
+  sni: learn.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_59|4.9MB/s|B007-260618 [4...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.78
+  skip-cert-verify: true
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇩🇪DE_59|4.3MB/s|M003-260806 [4... #1'
+  name: 21|🇩🇪DE_6|3.6MB/s|M003-260806 [49...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.116.98
   sub_tag: M003-260806
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_4|3.5MB/s|S004-260618 [75...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.193
+  skip-cert-verify: false
+  sni: resources.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇪DE_29|3.9MB/s|A004-260618 [e0...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  skip-cert-verify: false
+  sni: blog.iloverussia2026.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '19,22|🇪DE_76|3.0MB/s|B007-260618 [5a... #1'
+  name: 21|🇪DE_45|4.6MB/s|B007-260618 [5a...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -92,32 +231,40 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇩🇪DE_1|225KB/s|M003-260806 [68...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.76.233
-  sub_tag: M003-260806
-  type: ss
+- client-fingerprint: chrome
+  name: 21|🇪DE_33|4.2MB/s|S004-260618 [97...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  skip-cert-verify: false
+  sni: courses.iloverussia2026.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇪DE_75|3.6MB/s|C002-260622 [6b...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: true
+  sni: 193.108.119.96
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇩🇪DE_71|3.9MB/s|S004-260618 [7...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  skip-cert-verify: true
+  sub_tag: S004-260618
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇪DE_12|421KB/s|C001-260618 [ac...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
-  sub_tag: C001-260618
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇩🇪DE_2|434KB/s|M003-260806 [b3...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇪DE_52|3.9MB/s|A004-260618 [be... #1'
+  name: 21|🇩🇪DE_90|673KB/s|A004-260618 [b...
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 213.202.208.199
@@ -125,24 +272,16 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇪DE_78|1.1MB/s|A004-260618 [c1... #1'
+  name: 21|🇩🇪DE_80|360KB/s|A004-260618 [c...
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
   sub_tag: A004-260618
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 22|🇪DE_3|125KB/s|B007-260618 [339...
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  port: 8388
-  server: 57.129.113.16
-  sub_tag: B007-260618
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国 (30)
+  name: 28|🇩🇪_德国 (30)
   port: 443
   server: 45.131.153.149
   skip-cert-verify: true
@@ -152,7 +291,7 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国 (31)
+  name: 28|🇩🇪_德国 (31)
   port: 443
   server: de.zhou-yufan.com
   skip-cert-verify: true
@@ -162,7 +301,7 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国 (23)
+  name: 28|🇩🇪_德国 (23)
   network: ws
   port: 80
   server: 91.107.169.224

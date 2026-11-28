@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇭CH瑞士丨yoyapai.com_2
+  name: 18,21|🇭CH瑞士丨yoyapai.com_3
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -14,8 +14,76 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- cipher: aes-256-gcm
+  name: '18,21|CH_12|448KB/s|S004-260618 [37b... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: leviko-ch7709.shopingggg.ir
+  sub_tag: S004-260618
+  type: ss
+  udp: true
+- name: '18,21|🇨🇭CH_11|297KB/s|R002-260618 [3... #1'
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 18,21|🇭CH_31|1.3MB/s|P002-260618 [49...
+  password: None
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 18,21|🇨🇭CH_16|1.9MB/s|M003-260806 [7...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.189
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: '18,21|🇨🇭CH_10|319KB/s|K001-260618 [9... #1'
+  password: None
+  port: 9443
+  server: 149.88.27.46
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- cipher: aes-256-gcm
+  name: 18,21|🇨🇭CH_2|172KB/s|M003-260806 [9c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.127.184.104
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 18,21|🇨🇭CH_15|3.1MB/s|M003-260806 [a...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 186.190.215.251
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 18,21|🇭CH_20|826KB/s|P002-260618 [c9...
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
-  name: '19,22|CH_21|387KB/s|A004-260618 [186... #1'
+  name: 21|CH_22|442KB/s|A004-260618 [186...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -25,7 +93,15 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
-- name: '19,22|🇭CH_23|1.5MB/s|R002-260618 [25... #1'
+- cipher: aes-256-gcm
+  name: 21|🇨🇭CH_37|152KB/s|M003-260806 [2...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: leviko-ch5965.shopingggg.ir
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 21|🇭CH_25|1.2MB/s|R002-260618 [25...
   port: 443
   server: 31.7.62.50
   skip-cert-verify: true
@@ -33,30 +109,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /3x
-  name: 19,22|❓Other_57|245KB/s|C001-260618 ...
-  network: http
-  port: 42831
-  server: 179.43.140.24
+- name: 21|🇭CH_28|1.2MB/s [2579f7044e34]
+  password: ''
+  port: 9443
+  server: 149.88.27.46
   skip-cert-verify: true
-  sub_tag: C001-260618
-  tls: false
-  type: vmess
+  tls: true
+  type: http
   udp: true
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+  username: ''
 - alterId: '0'
   cipher: auto
-  name: '19,22|🇭CH_29|3.6MB/s|K001-260618 [2b... #1'
+  name: 21|🇨CH_35|3.4MB/s|K001-260618 [2b...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -70,50 +134,15 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
 - cipher: aes-256-gcm
-  name: 19,22|CH_12|448KB/s|S004-260618 [37b...
+  name: 21|🇭CH_36|3.9MB/s|M003-260806 [3d...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: leviko-ch7709.shopingggg.ir
-  sub_tag: S004-260618
-  type: ss
-  udp: true
-- name: 19,22|🇨🇭CH_11|297KB/s|R002-260618 [3...
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 19,22|🇭CH_3|79KB/s|P002-260618 [498f...
-  password: None
-  port: 9443
-  server: 149.88.27.33
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: '19,22|CH_6|422KB/s|M003-260806 [64d6... #1'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  skip-cert-verify: true
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇭CH_7|331KB/s|M003-260806 [723...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.166.88.189
+  server: leviko-ch0322.shopingggg.ir
   sub_tag: M003-260806
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: '19,22|🇨🇭CH_18|602KB/s|C002-260622 [7... #1'
+  name: 21|🇭CH_13|2.9MB/s|C002-260622 [75...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -123,8 +152,27 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+- name: 21|🇭CH_21|827KB/s|P002-260618 [58...
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇭CH_29|1.1MB/s|M003-260806 [64...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.29
+  skip-cert-verify: true
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇭CH_11|3.8MB/s|M003-260806 [7d... #1'
+  name: 21|🇭CH_1|1.3MB/s|M003-260806 [7d6...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.166.88.127
@@ -132,52 +180,68 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: '19,22|🇭CH_19|142KB/s|M003-260806 [93... #1'
+  name: 21|🇨🇭CH_27|2.1MB/s|M003-260806 [a...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.208
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: resources.yourultimateprofessionalcareerhub.com
   sub_tag: M003-260806
   type: trojan
   udp: true
-- name: 19,22|🇨🇭CH_10|319KB/s|K001-260618 [9...
-  password: None
-  port: 9443
-  server: 149.88.27.46
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - cipher: aes-256-gcm
-  name: 19,22|🇨CH_4|183KB/s|M003-260806 [9c9...
+  name: 21|🇭CH_38|2.7MB/s|M003-260806 [95...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 79.127.184.104
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇭CH_2|212KB/s|M003-260806 [a88...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 186.190.215.251
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇨CH_27|598KB/s|M003-260806 [ad... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: leviko-ch9924.shopingggg.ir
+  server: leviko-ch7340.shopingggg.ir
   sub_tag: M003-260806
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: '19,22|🇨🇭CH_22|790KB/s|M003-260806 [b... #1'
+  name: 21|🇨CH_26|1.6MB/s|M003-260806 [e3...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.29
+  skip-cert-verify: false
+  sni: learn.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 21|🇭CH_34|1.3MB/s|M003-260806 [a8...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 87.120.222.199
+  servername: cf-smart-354.pnihastam7021.workers.dev
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3bbc98cb-46b1-4441-9d55-02a100000020
+  ws-opts:
+    headers:
+      Host: cf-smart-354.pnihastam7021.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /sync
+  xudp: true
+- client-fingerprint: chrome
+  name: 21|🇭CH_23|445KB/s|M003-260806 [b0...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  skip-cert-verify: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 21|🇨🇭CH_24|796KB/s|M003-260806 [b...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -188,7 +252,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '19,22|🇭CH_15|240KB/s|C002-260622 [d4... #1'
+  name: 21|🇨CH_33|284KB/s|C002-260622 [d4...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -198,28 +262,28 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: '19,22|🇭CH_24|584KB/s|M003-260806 [e3... #1'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  skip-cert-verify: false
-  sni: learn.yourultimateprofessionalcareerhub.com
-  sub_tag: M003-260806
-  type: trojan
-  udp: true
-- name: 22|🇭CH_5|70KB/s|P002-260618 [c966...
-  password: None
-  port: 443
-  server: 31.7.62.50
+- name: 21|🇨🇭CH_39|1.3MB/s [df8381eb0ad3]
+  password: ''
+  port: 9443
+  server: 146.70.126.50
   skip-cert-verify: true
-  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
+  username: ''
+- client-fingerprint: chrome
+  name: 21|CH_19|690KB/s|M003-260806 [fc5...
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 208.69.78.19
+  skip-cert-verify: true
+  sni: ekb.eg
+  sub_tag: M003-260806
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 36|[SS] 🇨🇭 _CH_瑞士
+  name: 35|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa
   port: 80
   server: 84.17.53.163

@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22,29|🇩🇪_德国 (44)
+  name: 18,21,28|🇩🇪_德国 (44)
   port: 443
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
@@ -15,7 +15,7 @@ proxies:
   udp: true
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: chrome
-  name: 19,22|GB英丨yoyapai.com_2
+  name: 18,21|GB國丨yoyapai.com_3
   network: ws
   port: 8443
   server: ad-010.pixel9xdmq.info
@@ -31,192 +31,46 @@ proxies:
       Host: ad-010.pixel9xdmq.info
     path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (5) #1'
-  port: 20086
-  reality-opts:
-    public-key: MqEVrXrgUtPf9WYkZyUfVtJQDAssCV79bad4F4LlWGA
-  server: 85.189.89.170
-  servername: www.paypal.com
+  name: 18,21|GB英国(mibei77.com 米贝节点分享) (3)_2
+  network: ws
+  port: 8443
+  server: 178.104.77.229
+  servername: senflarelink-node-m3bfbn.pages.dev
   skip-cert-verify: false
-  sni: www.paypal.com
+  sni: senflarelink-node-m3bfbn.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: b5e8a15a-e134-4493-9073-be79eab9cda8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (6) #1'
-  port: 20086
-  reality-opts:
-    public-key: H3CK3gN9HfMONI7aYoSxOUqc5EYPgOVWfLOU3ygaIjw
-  server: 85.189.89.169
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6618c37f-edd7-4ff0-b9d6-26f1cc4945ab
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (7) #1'
-  port: 20086
-  reality-opts:
-    public-key: p6xwBXTFkq8nzeO8zjPTSHANvS2DfstuG-Vp134hBGs
-  server: 85.189.89.182
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  sni: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 24bc6f99-bb3c-405b-9f99-e27c5012cf45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (8) #1'
-  port: 20086
-  reality-opts:
-    public-key: n1_yHUrlljxT_VL8HX0ALz8JKAYHJb5e2sQ8tMdBp2A
-  server: 85.189.89.172
-  servername: www.amazon.com
-  skip-cert-verify: false
-  sni: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 469e41b2-ffb2-4ab3-ad4d-fd00ac69af75
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (9) #1'
-  port: 20086
-  reality-opts:
-    public-key: z_EU3XzU2TmXkInPLf0GWdFEfx6ZcpVSxnS9BFJ1hGE
-  server: 45.136.15.212
-  servername: www.amazon.com
-  skip-cert-verify: false
-  sni: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a66e6cf-ba9f-41c5-8590-036890654e58
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '19,22|GB英国(mibei77.com 米贝节点分享) (10) #1'
-  port: 20086
-  reality-opts:
-    public-key: hfJpGSf-nFizW5PjVNk0W5ZoTc81diTMjurFm3FT9j4
-  server: 45.136.14.140
-  servername: www.amazon.com
-  skip-cert-verify: false
-  sni: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 367e69b0-5781-45ad-83bc-94013729532d
-- name: '19,22|🇧GB_15|119KB/s|P002-260618 [07... #1'
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: /
 - cipher: rc4-md5
-  name: 19,22|🇧GB_6|404KB/s|A004-260618 [07a...
+  name: 18,21|🇧GB_1|4.4MB/s|A004-260618 [07a...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.18
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: '19,22|🇧GB_21|1.3MB/s [1c273bf3b45f] #1'
-  password: ''
-  port: 9443
-  server: 37.221.113.162
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- cipher: aes-128-gcm
-  name: 19,22,29|🇬🇧_英国 (3)
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  skip-cert-verify: true
-  sub_tag: A004-260618
-  tls: false
-  type: ss
-  udp: true
-- name: '19,22|🇧GB_25|881KB/s|R002-260618 [26... #1'
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '19,22|🇧GB_12|1.1MB/s|R002-260618 [2a... #1'
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '19,22|🇬🇧GB_18|2.7MB/s|B007-260618 [2... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 1270
-  server: 149.7.16.228
-  servername: xmfhlpy.com
-  sub_tag: B007-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  xudp: true
 - cipher: aes-256-gcm
-  name: 19,22|🇬🇧GB_2|829KB/s|A004-260618 [2d...
+  name: 18,21|🇧GB_7|1.3MB/s|A004-260618 [2d0...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
   sub_tag: A004-260618
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: '19,22|🇧GB_9|5.1MB/s|M003-260806 [306... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 198.244.201.129
-  sub_tag: M003-260806
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '19,22|🇧GB_29|1.4MB/s|M003-260806 [36... #1'
-  network: xhttp
-  packet-encoding: xudp
+- name: 18,21,36|GB_speednode_0008
   port: 443
-  server: 188.114.97.6
-  servername: crm.dpdns.org
-  sub_tag: M003-260806
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: e58384f2-76ba-400b-ae0a-8271b4c9c310
-  xhttp-opts:
-    host: crm.dpdns.org
-    mode: auto
-    path: /api/v1/stream
-  xudp: true
-- name: 19,22|🇬🇧GB_9|96KB/s|P002-260618 [492...
+- name: 18,21|🇧GB_21|991KB/s|P002-260618 [49...
   password: None
   port: 443
   server: 212.102.63.61
@@ -228,7 +82,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: 19,22|🇬🇧GB_10|309KB/s|M003-260806 [5...
+  name: 18,21|🇬🇧GB_41|4.7MB/s|M003-260806 [5...
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -244,7 +98,7 @@ proxies:
     mode: auto
     path: /api/v1/stream
   xudp: true
-- name: 19,22|🇧GB_8|849KB/s|P002-260618 [5f2...
+- name: 18,21|🇧GB_17|1.5MB/s|P002-260618 [5f...
   password: None
   port: 9443
   server: 84.17.50.214
@@ -253,25 +107,258 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '19,22|🇧GB_5|1.5MB/s|P002-260618 [627... #1'
-  password: None
+- cipher: aes-256-gcm
+  name: 18,21|🇧GB_10|325KB/s|M003-260806 [7c...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 18,21|🇧GB_22|1.1MB/s|R002-260618 [a0...
   port: 9443
   server: 84.17.50.129
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: '19,22|🇧GB_20|1.6MB/s|R002-260618 [6f... #1'
+- cipher: rc4-md5
+  name: 18,21|🇧GB_6|4.5MB/s [a1915d230d8e]
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- name: '21,27|@OutlineReleasedKey #6'
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
+  servername: mother-earth.fyi
+  skip-cert-verify: false
+  sni: mother-earth.fyi
+  tls: false
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 21|GB英国(mibei77.com 米贝节点分享) (4)_2
+  network: ws
+  port: 2053
+  server: ws.dhafhdtjdti.site
+  servername: ws.dhafhdtjdti.site
+  skip-cert-verify: false
+  sni: ws.dhafhdtjdti.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
+  ws-opts:
+    path: /
+- name: 21|GB英国(mibei77.com 米贝节点分享) (5)
+  network: ws
+  port: 443
+  server: 3x-sub.linzhonghong.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a4f1c90-a632-4c69-a8f1-9ebf9acaae71
+  ws-opts:
+    path: /ws7f3k9x2q8m
+- alpn:
+  - http/1.1
+  encryption: none
+  name: 21|🇧GB_42|725KB/s|M003-260806 [0f...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 188.114.98.0
+  servername: sinavm2.soft10.ir
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  ws-opts:
+    headers:
+      Host: sinavm2.soft10.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+  xudp: true
+- name: 21|🇧GB_19|702KB/s [1c273bf3b45f]
+  password: ''
   port: 9443
-  server: 84.233.178.33
+  server: 37.221.113.162
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: 21|🇧GB_33|941KB/s|R002-260618 [21...
+  port: 443
+  server: 37.120.233.50
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
 - cipher: aes-128-gcm
-  name: 19,22,29|🇬🇧_英国 (10)
+  name: 21,28|🇬🇧_英国 (3)
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  skip-cert-verify: true
+  sub_tag: A004-260618
+  tls: false
+  type: ss
+  udp: true
+- name: 21|🇧GB_35|1.3MB/s|R002-260618 [26...
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 21|🇧GB_14|1.3MB/s|R002-260618 [2a...
+  port: 443
+  server: 185.164.138.156
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 21|🇬🇧GB_9|992KB/s|B007-260618 [2d...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 149.7.16.228
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- cipher: aes-256-gcm
+  name: 21|🇬🇧GB_3|3.5MB/s|M003-260806 [30...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.201.129
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 21|🇧GB_36|3.9MB/s|M003-260806 [36...
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 188.114.97.6
+  servername: crm.dpdns.org
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: e58384f2-76ba-400b-ae0a-8271b4c9c310
+  xhttp-opts:
+    host: crm.dpdns.org
+    mode: auto
+    path: /api/v1/stream
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 21|🇧GB_38|217KB/s|M003-260806 [3e...
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: 172.64.155.209
+  servername: sinavm2.soft10.ir
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  name: 21|🇧GB_25|1.8MB/s|C002-260622 [aa...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: uk1.connectsuite.org
+  servername: uk1.connectsuite.org
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /cdn-cgi/ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 21|🇧GB_31|1.6MB/s|B007-260618 [4c...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 51.38.71.147
+  servername: uk1.connectsuite.org
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: fda89998-7e9a-4494-857a-cd0d00661b58
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /cdn-cgi/ws
+  xudp: true
+- name: 21|🇧GB_11|882KB/s|R002-260618 [63...
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 21|🇬🇧GB_34|1.0MB/s|R002-260618 [6...
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: rc4-md5
+  name: 21|🇧GB_28|7.8MB/s|A004-260618 [65...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.207.163
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 21,28|🇬🇧_英国 (10)
   password: shadowsocks
   port: 443
   server: 141.98.101.181
@@ -280,24 +367,53 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 19,22|🇧GB_3|303KB/s|M003-260806 [7c5...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 142.202.51.22
-  sub_tag: M003-260806
+- cipher: rc4-md5
+  name: 21|🇧GB_29|7.7MB/s|A004-260618 [7e...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.142.161
+  sub_tag: A004-260618
   type: ss
   udp: true
-- name: '19,22|🇧GB_27|404KB/s|K001-260618 [8a... #1'
-  password: ''
-  port: 9052
-  server: 157.90.113.23
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: socks5
+- cipher: rc4-md5
+  name: 21|🇬🇧GB_2|3.5MB/s|A004-260618 [89...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  sub_tag: A004-260618
+  type: ss
   udp: true
-  username: ''
-- name: '19,22|🇧GB_22|1.3MB/s|P002-260618 [99... #1'
+- cipher: aes-256-gcm
+  name: 21|🇬🇧GB_15|251KB/s|A004-260618 [8...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 21|🇧GB_40|449KB/s|M003-260806 [95...
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  server: chatgpt.com
+  servername: sinavm2.soft10.ir
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 21|🇧GB_20|1.6MB/s|P002-260618 [99...
   password: None
   port: 443
   server: 212.102.63.1
@@ -306,30 +422,50 @@ proxies:
   tls: true
   type: http
   udp: true
-- cipher: rc4-md5
-  name: 19,22|🇧GB_1|277KB/s [a1915d230d8e]
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
+- client-fingerprint: chrome
+  name: 21|🇧GB_43|685KB/s|M003-260806 [9c...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.32.47
+  servername: sinavm2.soft10.ir
+  sub_tag: M003-260806
+  tls: true
+  type: vless
   udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  ws-opts:
+    headers:
+      Host: sinavm2.soft10.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+  xudp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇬🇧GB_10|3.6MB/s|M003-260806 [a... #1'
+  name: 21|🇧GB_5|3.5MB/s|M003-260806 [a5d...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 38.114.120.221
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: '19,22|🇬🇧GB_26|767KB/s|R002-260618 [b... #1'
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
+- cipher: rc4-md5
+  name: 21|🇧GB_27|3.5MB/s|A004-260618 [b5...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.199
+  sub_tag: A004-260618
+  type: ss
   udp: true
-- name: '19,22|🇧GB_6|1.0MB/s|P002-260618 [bfd... #1'
+- cipher: aes-128-gcm
+  name: 21|🇬🇧GB_46|526KB/s|M003-260806 [b...
+  password: bZndo716esIr4jQ1QvBPjFSPJhSmjZ/v
+  port: 18667
+  server: 82.145.63.22
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- name: 21|🇧GB_23|901KB/s|P002-260618 [bf...
   password: None
   port: 443
   server: 84.17.50.193
@@ -338,43 +474,82 @@ proxies:
   tls: true
   type: http
   udp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '19,22|🇬🇧GB_31|5.5MB/s|M003-260806 [c... #1'
-  network: http
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 21|🇧GB_37|1.4MB/s|M003-260806 [ca...
+  network: ws
   packet-encoding: xudp
   port: 443
-  server: 178.62.58.181
+  server: 172.64.155.209
+  servername: sinavm2.soft10.ir
   sub_tag: M003-260806
+  tls: true
   type: vless
   udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  ws-opts:
+    headers:
+      Host: sinavm2.soft10.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
   xudp: true
+- name: 21|🇧GB_8|1.6MB/s|P002-260618 [cb8...
+  password: None
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-gcm
-  name: '19,22|🇧GB_3|5.4MB/s|M003-260806 [cff... #1'
+  name: 21|🇧GB_4|5.1MB/s|M003-260806 [cff...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 198.244.202.215
   sub_tag: M003-260806
   type: ss
   udp: true
-- name: '19,22|GB_24|1.4MB/s|P002-260618 [f01... #1'
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
+- cipher: aes-128-gcm
+  name: 21|GB_45|4.7MB/s|M003-260806 [e68...
+  password: 8bc8CZHJUuNcD6pI66wcSxXhYWB4iORQ
+  port: 14114
+  server: 51.195.248.85
+  sub_tag: M003-260806
+  type: ss
   udp: true
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 21|🇧GB_39|300KB/s|M003-260806 [e7...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: chatgpt.com
+  servername: sinavm2.soft10.ir
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
+  ws-opts:
+    headers:
+      Host: sinavm2.soft10.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+  xudp: true
 - alterId: '0'
   cipher: auto
-  name: '19,22|🇧GB_19|2.9MB/s|M003-260806 [f2... #1'
+  name: 21|🇧GB_13|3.4MB/s|M003-260806 [f2...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -387,56 +562,7 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    path:
-    - /
-  name: '19,22|🇧GB_28|4.6MB/s|M003-260806 [ff... #1'
-  network: http
-  packet-encoding: xudp
-  port: 443
-  server: 167.99.203.0
-  sub_tag: M003-260806
-  type: vless
-  udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  xudp: true
-- client-fingerprint: chrome
-  name: 22|GB英国(mibei77.com 米贝节点分享) (3)_3
-  network: ws
-  port: 8443
-  server: 178.104.77.229
-  servername: senflarelink-node-m3bfbn.pages.dev
-  skip-cert-verify: false
-  sni: senflarelink-node-m3bfbn.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: /
-- name: 22,35,37|GB_speednode_0008
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 22|🇬🇧GB_4|103KB/s|R002-260618 [a0...
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 29|🇬🇧_英国 (5)
+- name: 28|🇬🇧_英国 (5)
   network: ws
   port: 80
   server: 57.129.132.223
@@ -451,7 +577,7 @@ proxies:
     path: /vless/
 - alterId: 0
   cipher: auto
-  name: 29|🇬🇧_英国 (6)
+  name: 28|🇬🇧_英国 (6)
   network: ws
   port: 80
   server: 57.129.132.223
@@ -463,7 +589,7 @@ proxies:
   ws-opts:
     path: /vmess/
 - cipher: aes-128-gcm
-  name: 29|🇬🇧_英国 (7)
+  name: 28|🇬🇧_英国 (7)
   password: shadowsocks
   port: 443
   server: 141.98.101.178
@@ -472,7 +598,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 29|🇬🇧_英国 (8)
+  name: 28|🇬🇧_英国 (8)
   password: shadowsocks
   port: 443
   server: 141.98.101.179
@@ -481,7 +607,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 29|🇬🇧_英国 (9)
+  name: 28|🇬🇧_英国 (9)
   password: shadowsocks
   port: 443
   server: 141.98.101.182
@@ -489,16 +615,9 @@ proxies:
   tls: false
   type: ss
   udp: true
-- name: 35|🇬🇧GB_2|1.4MB/s
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 36|[VMess] 🇬🇧 英国 V2CROSS.COM
+  name: 35|[VMess] 🇬🇧 英国 V2CROSS.COM
   port: 180
   server: 82.198.246.46
   skip-cert-verify: true
@@ -506,7 +625,7 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 36|[Trojan] 🇬🇧 英国 伦敦Virgin Media
+- name: 35|[Trojan] 🇬🇧 英国 伦敦Virgin Media
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
   server: 82.26.155.20
@@ -514,7 +633,7 @@ proxies:
   sni: fra35.chasem2026sud.com
   type: trojan
   udp: true
-- name: 36|[Trojan] 🇬🇧 英国 伦敦Virgin Media ...
+- name: 35|[Trojan] 🇬🇧 英国 伦敦Virgin Media ...
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
   server: 82.26.155.199
@@ -522,7 +641,7 @@ proxies:
   sni: fra4.chasem2026sud.com
   type: trojan
   udp: true
-- name: '36|[Trojan] 🇬🇧 英国 伦敦Virgin Media ... #1'
+- name: '35|[Trojan] 🇬🇧 英国 伦敦Virgin Media ... #1'
   password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
   port: 10369
   server: 82.26.155.105

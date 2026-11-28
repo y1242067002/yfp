@@ -1,68 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-  name: '19,22|🇸SE_14|3.1MB/s|S004-260618 [07... #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 48115
-  server: leviko-se6979.shopingggg.ir
-  servername: 138-124-86-230.sslip.io
-  sub_tag: S004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  xudp: true
-- name: '19,22|🇸🇪SE_1|1.4MB/s|A004-260618 [19... #1'
-  network: ws
-  packet-encoding: xudp
-  port: 14430
-  server: 5.178.109.174
-  sub_tag: A004-260618
-  type: vless
-  udp: true
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    headers:
-      Host: 5.178.109.174
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /vless
-  xudp: true
-- name: 19,22|❓Other_47|104KB/s|R002-260618 ...
+- name: '18,21|SE_4|272KB/s|R002-260618 [3e64... #1'
   port: 443
-  server: 146.70.242.146
+  server: 146.70.242.130
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: '19,22|🇸SE_8|1.1MB/s|R002-260618 [733... #1'
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-  name: '19,22|🇪SE_6|3.2MB/s|A001-260618 [761... #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 48115
-  server: 138.124.86.230
-  servername: 138-124-86-230.sslip.io
-  sub_tag: A001-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  xudp: true
-- name: 19,22|🇪SE_1|69KB/s|P002-260618 [862c...
+- name: 18,21|🇪SE_9|542KB/s|P002-260618 [862...
   password: None
   port: 443
   server: 79.142.77.63
@@ -74,7 +19,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 19,22|🇪SE_3|206KB/s|B007-260618 [865...
+  name: 18,21|🇪SE_10|2.4MB/s|B007-260618 [86...
   network: tcp
   packet-encoding: xudp
   port: 1270
@@ -86,25 +31,25 @@ proxies:
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   xudp: true
-- name: '19,22|🇸SE_12|657KB/s|P002-260618 [d0... #1'
-  password: None
+- encryption: mlkem768x25519plus.native.0rtt.ioj6Il7vERciaGcXe-_lkWNwZmmTN9nyWIHsmdarrCE
+  name: '18,21|🇪SE_6|265KB/s|S004-260618 [894... #1'
+  network: ws
+  packet-encoding: xudp
   port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
+  server: me.spider1999.kdns.fr
+  sub_tag: S004-260618
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: '19,22|SE_3|2.6MB/s|M003-260806 [ed43... #1'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 138.199.55.243
-  sub_tag: M003-260806
-  type: ss
-  udp: true
+  uuid: 98b60d84-abf7-4211-81b5-c77d980a8b9c
+  ws-opts:
+    headers:
+      Host: me.spider1999.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
+  xudp: true
 - encryption: none
-  name: 19,22|SE_5|291KB/s|M003-260806 [f7bc...
+  name: '18,21|SE_5|291KB/s|M003-260806 [f7bc... #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -121,28 +66,110 @@ proxies:
         Chrome/70.0.3538.110 Safari/537.36
     path: /@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
   xudp: true
-- name: 22|SE_4|272KB/s|R002-260618 [3e64...
+- name: 21|SE_6|1.6MB/s|P002-260618 [63b0...
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+    path: /vless
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 21|🇸🇪SE_13|1.2MB/s|S004-260618 [2...
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: ws.dhafhdtjdti.site
+  servername: ws.dhafhdtjdti.site
+  sub_tag: S004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 21|SE_7|1.9MB/s|B007-260618 [4f40...
+  network: tcp
+  packet-encoding: xudp
+  port: 1270
+  server: 138.199.55.230
+  servername: xmfhlpy.com
+  sub_tag: B007-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  xudp: true
+- name: 21|🇸🇪SE_1|1013KB/s|R002-260618 [7...
   port: 443
-  server: 146.70.242.130
+  server: 149.50.216.65
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- encryption: mlkem768x25519plus.native.0rtt.ioj6Il7vERciaGcXe-_lkWNwZmmTN9nyWIHsmdarrCE
-  name: 22|🇪SE_6|265KB/s|S004-260618 [894...
-  network: ws
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 21|🇪SE_8|2.5MB/s|A001-260618 [761...
+  network: grpc
   packet-encoding: xudp
-  port: 443
-  server: me.spider1999.kdns.fr
-  sub_tag: S004-260618
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  sub_tag: A001-260618
+  tls: true
   type: vless
   udp: true
-  uuid: 98b60d84-abf7-4211-81b5-c77d980a8b9c
-  ws-opts:
-    headers:
-      Host: me.spider1999.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe@Ghiinvdikhfe
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 21|SE_14|2.5MB/s|M003-260806 [cc4...
+  network: grpc
+  packet-encoding: xudp
+  port: 48115
+  server: leviko-se4581.shopingggg.ir
+  servername: 138-124-86-230.sslip.io
+  sub_tag: M003-260806
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  xudp: true
+- name: 21|🇪SE_12|706KB/s|P002-260618 [d0...
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 21|🇸SE_2|2.7MB/s|M003-260806 [ed4...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
+  type: ss
+  udp: true

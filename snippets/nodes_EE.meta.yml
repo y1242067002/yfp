@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 19,22|🇪EE爱沙尼亚丨yoyapai.com (2)_2
+  name: 18,21|🇪EE爱沙尼亚丨yoyapai.com (2)_3
   port: 443
   reality-opts:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
@@ -14,48 +14,11 @@ proxies:
   type: vless
   udp: true
   uuid: 2acc3742-c568-11f1-9902-a337233c6cda
-- name: '19,22|EE_4|1.0MB/s|R002-260618 [6b8c... #1'
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '19,22|EE_1|1.1MB/s|P002-260618 [d8de... #1'
-  password: None
-  port: 9443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-- name: '19,22|🇪EE_3|1002KB/s|K001-260618 [e3... #1'
-  password: None
-  port: 443
-  server: 95.153.32.2
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 19,22|EE_1|415KB/s|K001-260618 [ea6f...
-  password: None
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - alpn:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '22|🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.c... #1'
+  name: '18,21|🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.c... #3'
   port: 443
   server: 138.124.100.128
   servername: ee4.fast-connect-service.site
@@ -65,7 +28,7 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 22|🇪EE_2|1.0MB/s|K001-260618 [968...
+- name: 18,21|EE_2|951KB/s|K001-260618 [968f...
   password: None
   port: 9443
   server: 95.153.31.66
@@ -75,10 +38,60 @@ proxies:
   type: http
   udp: true
   username: ''
+- name: 18,21|EE_1|1.1MB/s|K001-260618 [ea6f...
+  password: None
+  port: 9443
+  server: 192.159.101.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- cipher: chacha20-ietf-poly1305
+  name: 21|EE_5|390KB/s|M003-260806 [2bb6...
+  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: estonia.astroapps.io
+    mode: websocket
+    path: /fd3f56f3dc9f5ceca7e57ecd
+    tls: true
+  port: 443
+  server: estonia.astroapps.io
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- client-fingerprint: safari
+  encryption: none
+  name: 21|🇪EE_4|343KB/s|A003-260618 [42b...
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 165.231.177.60
+  servername: cab-6b07048f.ferrin.uk
+  sub_tag: A003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- name: 21|🇪EE_3|1.1MB/s|K001-260618 [590...
+  password: ''
+  port: 9443
+  server: 95.153.32.2
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   grpc-opts: {}
-  name: 29|🇪🇪_爱沙尼亚
+  name: 28|🇪🇪_爱沙尼亚
   network: grpc
   port: 443
   reality-opts:

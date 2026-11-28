@@ -1,5 +1,5 @@
 proxies:
-- name: 19,22|🇰HK香港丨yoyapai.com (7)_2
+- name: 18,21|🇰HK香港丨yoyapai.com (8)_3
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20103
   server: sclass-00.catcat321.com
@@ -13,23 +13,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '19,22|HK_52|107KB/s|M003-260806 [f95... #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 21021
-  server: dog-hk.kunlun01dns.com
-  skip-cert-verify: false
-  sub_tag: M003-260806
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 22|🇰HK_11|503KB/s|M003-260806 [1e...
+  name: '18,21|HK_11|503KB/s|M003-260806 [1e8... #1'
   network: tcp
   packet-encoding: xudp
   port: 16113
@@ -42,18 +26,18 @@ proxies:
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   xudp: true
 - client-fingerprint: chrome
-  name: 22|🇭🇰HK_10|333KB/s|C002-260622 [a...
+  name: 18,21|🇭🇰HK_81|414KB/s|M003-260806 [8...
   network: tcp
   password: '!!str 12012'
   port: 12012
   server: 47.242.93.89
   skip-cert-verify: true
   sni: ali-hk.b-gfw.cfd
-  sub_tag: C002-260622
+  sub_tag: M003-260806
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 22|🇰HK_14|238KB/s|S001-260618 [b2...
+  name: '18,21|🇰HK_14|238KB/s|S001-260618 [b2... #1'
   network: tcp
   password: 209e77f0-cfbc-4361-a34d-75bb13a79895
   port: 31440
@@ -62,4 +46,48 @@ proxies:
   sni: v1-dy.ixigua.com
   sub_tag: S001-260618
   type: trojan
+  udp: true
+- name: 21|HK香港(mibei77.com 米贝节点分享) (2)_2
+  password: 2e7ebefd-1572-4a4e-b1ec-51a9cb4157b8
+  port: 20103
+  server: sclass-01.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 21|HK_91|536KB/s|M003-260806 [5f0...
+  network: ws
+  packet-encoding: xudp
+  port: 16622
+  server: 162.19.192.89
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
+  ws-opts:
+    headers:
+      Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 21|🇰HK_95|565KB/s|A003-260618 [d5...
+  password: f8256fdf607a8015a02b46df1563c2f35ebaff0d56f2923a
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hongkong.astroapps.io
+    mode: websocket
+    path: /ba91191d41f96668df6fe14b
+    tls: true
+  port: 443
+  server: hongkong.astroapps.io
+  sub_tag: A003-260618
+  type: ss
   udp: true
