@@ -142,18 +142,34 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 29|🇩🇪_德国 (6)
-  network: ws
+  name: 29|🇩🇪_德国 (30)
   port: 443
-  server: 13.140.28.46
-  servername: renderer-stream-2-62.mirra.now
+  server: 45.131.153.149
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (31)
+  port: 443
+  server: de.zhou-yufan.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: 29|🇩🇪_德国 (23)
+  network: ws
+  port: 80
+  server: 91.107.169.224
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 014f8bf6-9221-4f99-838f-4c16ca90334f
   ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
+    v2ray-http-upgrade: true

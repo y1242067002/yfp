@@ -51,12 +51,12 @@ proxies:
   tls: false
   type: ss
   udp: true
-- client-fingerprint: qq
-  name: 19,22,29|🇷🇺_俄罗斯 (12)
+- client-fingerprint: chrome
+  name: '19,22|GB国(mibei77.com 米贝节点分享) #1'
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: szqbx-ru-77dc.my-fade.cloud
   tls: true
   type: vless
@@ -330,7 +330,7 @@ proxies:
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
 - client-fingerprint: qq
-  name: 22,29|🇷🇺_俄罗斯 (24)
+  name: 22,29|🇷🇺_俄罗斯 (23)
   port: 443
   server: 136.148.83.70
   servername: aszbk-ru-78dc.my-fade.cloud
@@ -342,7 +342,7 @@ proxies:
   uuid: 00000000-0000-0001-0000-000000000000
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 22,29|🇷🇺_俄罗斯 (16)
+  name: 22,29|🇷🇺_俄罗斯 (22)
   port: 443
   reality-opts:
     public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
@@ -355,12 +355,12 @@ proxies:
   type: vless
   udp: true
   uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-- name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (4)_...
+- name: 22,29|🇫🇷_法国 (6)
   network: ws
   port: 8443
   server: 13.140.156.31
   servername: v9-eim.pages.dev
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: v9-eim.pages.dev
   tls: true
   type: vless
@@ -369,7 +369,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: qq
-  name: 22,29|🇷🇺_俄罗斯 (22)
+  name: 22,29|🇷🇺_俄罗斯 (24)
   port: 443
   server: 136.148.83.71
   servername: wccfu-ru-79dc.my-fade.cloud
@@ -379,12 +379,12 @@ proxies:
   type: vless
   udp: true
   uuid: 00000000-0000-0001-0000-000000000000
-- name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (6)_...
+- name: 22,29|🇩🇪_德国 (35)
   network: ws
   port: 443
   server: 31.76.127.59
   servername: v9-eim.pages.dev
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: v9-eim.pages.dev
   tls: true
   type: vless
@@ -393,12 +393,12 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: firefox
-  name: 22,29|🇷🇺_俄罗斯 (5)
+  name: '22|RU俄罗斯(mibei77.com 米贝节点分享) (5)_... #1'
   network: ws
   port: 8454
   server: 213.183.45.23
   servername: store.plumstatic.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: store.plumstatic.com
   tls: true
   type: vless
@@ -407,12 +407,12 @@ proxies:
   ws-opts:
     path: /ws
 - client-fingerprint: firefox
-  name: 22,29|🇷🇺_俄罗斯 (8)
+  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (8)_...
   network: ws
   port: 8444
   server: 213.183.45.23
   servername: media.plumstatic.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: media.plumstatic.com
   tls: true
   type: vless
@@ -465,7 +465,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-- name: 22,29|🇮🇳_印度
+- name: 22,29|🇮🇳_印度 (3)
   network: ws
   port: 443
   server: xray-ikmqcro3-rapid-river-6.cloady.io
@@ -479,12 +479,12 @@ proxies:
   ws-opts:
     path: /c54a815e676d9acc
 - client-fingerprint: chrome
-  name: 22,29|🇺🇸_美国 (4)
+  name: 22|RU俄罗斯(mibei77.com 米贝节点分享) (13)...
   network: ws
   port: 8443
   server: 179.255.137.204
   servername: senflarelink-node-xfcyh2.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: senflarelink-node-xfcyh2.pages.dev
   tls: true
   type: vless
@@ -494,123 +494,168 @@ proxies:
     headers:
       Host: senflarelink-node-xfcyh2.pages.dev
     path: /
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (3)
-  network: ws
-  port: 8463
-  server: 213.183.41.31
-  servername: share.plumstatic.com
-  skip-cert-verify: true
-  sni: share.plumstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  ws-opts:
-    path: /ws
-- client-fingerprint: firefox
-  name: 29|🇷🇺_俄罗斯 (2)
-  network: ws
-  port: 8459
-  server: 213.183.41.31
-  servername: photos.plumstatic.com
-  skip-cert-verify: true
-  sni: photos.plumstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  ws-opts:
-    path: /ws
-- name: 29|🇷🇺_俄罗斯 (7)
-  network: ws
-  port: 8450
-  server: 213.183.45.23
-  servername: fonts.plumstatic.com
-  skip-cert-verify: true
-  sni: fonts.plumstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  ws-opts:
-    path: /ws
-- name: 29|🇷🇺_俄罗斯 (9)
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 29|🇷🇺_俄罗斯 (20)
   network: ws
   port: 443
-  server: 45.9.15.206
-  servername: ru05.abvpn.ru
+  server: bookend.filnex.baby
+  servername: ferncrest.gerqix.online
   skip-cert-verify: true
-  sni: ru05.abvpn.ru
+  sni: ferncrest.gerqix.online
   tls: true
   type: vless
   udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
   ws-opts:
-    path: /websocket
+    headers:
+      Host: bookend.filnex.baby
+    path: /api/de1/stream
 - client-fingerprint: chrome
-  name: 29|🇷🇺_俄罗斯 (10)
+  name: 29|🇷🇺_俄罗斯 (25)
   network: ws
-  port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
+  port: 8443
+  server: xinnusvpn.duckdns.org
+  servername: xinnusvpn.duckdns.org
   skip-cert-verify: true
-  sni: ru05.abvpn.ru
+  sni: xinnusvpn.duckdns.org
   tls: true
   type: vless
   udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   ws-opts:
-    path: /websocket
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (15)
-  port: 8443
-  server: 165.231.157.126
-  servername: api-6b04608f.adhil.uk
+    headers:
+      Host: xinnusvpn.duckdns.org
+    path: /wsnl
+- client-fingerprint: chrome
+  name: 29|🇷🇺_俄罗斯
+  port: 443
+  server: 81.163.22.114
+  servername: oecxdhvdfbmwptoldi.fcloudservices.lat
   skip-cert-verify: true
-  sni: api-6b04608f.adhil.uk
+  sni: oecxdhvdfbmwptoldi.fcloudservices.lat
   tls: true
   type: vless
   udp: true
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-- flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (13)
-  port: 8443
-  server: 165.231.157.150
-  servername: api-6b04608f.adhil.uk
-  skip-cert-verify: true
-  sni: api-6b04608f.adhil.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  uuid: 00000000-0000-0001-0000-000000000000
 - alpn:
   - h2
-  client-fingerprint: qq
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (19)
+  name: 29|🇷🇺_俄罗斯 (14)
   port: 443
-  server: 188.225.34.128
-  servername: edge-de5.mystatic-cdn.ru
+  server: 85.8.201.186
+  servername: cdn.mornismp.ru
   skip-cert-verify: true
-  sni: edge-de5.mystatic-cdn.ru
+  sni: cdn.mornismp.ru
   tls: true
   type: vless
   udp: true
-  uuid: b9ae9395-c3e4-4212-86b8-d27a92f214dd
+  uuid: 7aa77858-f235-0004-9434-7ab060848b17
+- flow: xtls-rprx-vision
+  name: 29|🇷🇺_俄罗斯 (15)
+  port: 443
+  server: 85.8.201.186
+  servername: cdn.mornismp.ru
+  skip-cert-verify: true
+  sni: cdn.mornismp.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7aa77858-f235-0001-9434-7ab060848b17
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇷🇺_俄罗斯 (23)
+  grpc-opts: {}
+  name: 29|🇷🇺_俄罗斯 (2)
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: HKKWGVu7xJfscDTH_28WhqSfSnp8fA5jpj7X1eMO-mU
-    short-id: 1067b23f928e7618
-  server: 200.165.229.159
-  servername: flarora.ferreo.sbs
+  server: xssite.webredirect.org
+  servername: xssite.webredirect.org
   skip-cert-verify: true
-  sni: flarora.ferreo.sbs
+  sni: xssite.webredirect.org
   tls: true
   type: vless
   udp: true
-  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+- client-fingerprint: firefox
+  grpc-opts: {}
+  name: 29|🇷🇺_俄罗斯 (4)
+  network: grpc
+  port: 443
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: true
+  sni: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- client-fingerprint: firefox
+  grpc-opts: {}
+  name: 29|🇷🇺_俄罗斯 (5)
+  network: grpc
+  port: 443
+  server: leviko-ru0640.shopingggg.ir
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: true
+  sni: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 29|🇷🇺_俄罗斯 (7)
+  network: grpc
+  port: 443
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: true
+  sni: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 29|🇷🇺_俄罗斯 (8)
+  network: grpc
+  port: 443
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: true
+  sni: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 29|🇷🇺_俄罗斯 (10)
+  network: grpc
+  port: 443
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: true
+  sni: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: 29|🇷🇺_俄罗斯 (11)
+  network: grpc
+  port: 443
+  server: vps3.nemnogogo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e

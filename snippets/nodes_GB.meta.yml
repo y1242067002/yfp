@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 19,22,29|🇩🇪_德国 (10)
+  name: 19,22,29|🇩🇪_德国 (44)
   port: 443
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
@@ -141,11 +141,13 @@ proxies:
   udp: true
   username: ''
 - cipher: aes-128-gcm
-  name: '19,22|🇧GB_14|941KB/s|A004-260618 [26... #1'
+  name: 19,22,29|🇬🇧_英国 (3)
   password: shadowsocks
   port: 443
   server: 158.173.24.73
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - name: '19,22|🇧GB_25|881KB/s|R002-260618 [26... #1'
@@ -269,11 +271,13 @@ proxies:
   type: http
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇧GB_23|3.9MB/s|A004-260618 [70... #1'
+  name: 19,22,29|🇬🇧_英国 (10)
   password: shadowsocks
   port: 443
   server: 141.98.101.181
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -401,12 +405,12 @@ proxies:
   uuid: 40992c2a-513e-4837-9594-23411fd42afd
   xudp: true
 - client-fingerprint: chrome
-  name: 22,29|🇩🇪_德国 (2)
+  name: 22|GB英国(mibei77.com 米贝节点分享) (3)_3
   network: ws
   port: 8443
   server: 178.104.77.229
   servername: senflarelink-node-m3bfbn.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: senflarelink-node-m3bfbn.pages.dev
   tls: true
   type: vless
@@ -416,7 +420,7 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: /
-- name: 22,37|GB_speednode_0008
+- name: 22,35,37|GB_speednode_0008
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
@@ -432,40 +436,60 @@ proxies:
   tls: true
   type: http
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 29|🇬🇧_英国
+- name: 29|🇬🇧_英国 (5)
   network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  servername: ssl.fastly.com
+  port: 80
+  server: 57.129.132.223
+  servername: '---@external_net---@external_net---@external_net---@external_net---@external_net'
   skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 29|🇬🇧_英国 (2)
-  port: 443
-  reality-opts:
-    public-key: Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo
-    short-id: a6040129ad7f4b74
-  server: 136.176.68.34
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: true
+  sni: '---@external_net---@external_net---@external_net---@external_net---@external_net'
+  tls: false
   type: vless
   udp: true
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-- name: 35|GB_1|2.5MB/s
+  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
+  ws-opts:
+    path: /vless/
+- alterId: 0
+  cipher: auto
+  name: 29|🇬🇧_英国 (6)
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    path: /vmess/
+- cipher: aes-128-gcm
+  name: 29|🇬🇧_英国 (7)
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|🇬🇧_英国 (8)
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 29|🇬🇧_英国 (9)
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  skip-cert-verify: true
+  tls: false
+  type: ss
+  udp: true
+- name: 35|🇬🇧GB_2|1.4MB/s
   port: 9443
   server: 84.17.50.214
   skip-cert-verify: true

@@ -72,7 +72,7 @@ proxies:
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 22,29|🇹🇼_台湾 (9)
+  name: 22,29|🇹🇼_台湾 (17)
   port: 19482
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
@@ -87,7 +87,7 @@ proxies:
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,29|🇹🇼_台湾 (10)
+  name: 22,29|🇹🇼_台湾 (4)
   port: 51283
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
@@ -102,7 +102,7 @@ proxies:
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 22,29|🇹🇼_台湾 (5)
+  name: 22,29|🇹🇼_台湾 (9)
   port: 47396
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
@@ -115,7 +115,7 @@ proxies:
   type: vless
   udp: true
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-- name: 29|🇹🇼_台湾
+- name: 29|🇹🇼_台湾 (11)
   network: ws
   port: 8443
   server: 154.40.61.186
@@ -130,6 +130,171 @@ proxies:
     headers:
       Host: senflarelink-node-wj1gsa.pages.dev
     path: /flow=fp=chrome
+- name: 29|🇹🇼_台湾 (18)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: zephyr-tw2.bpca2026.top
+  servername: zephyr-tw2.bpca2026.top
+  skip-cert-verify: true
+  sni: zephyr-tw2.bpca2026.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zephyr-tw2.bpca2026.top
+    path: /images
+- name: 29|🇹🇼_台湾 (19)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: zephyr-tw1.bpca2026.top
+  servername: zephyr-tw1.bpca2026.top
+  skip-cert-verify: true
+  sni: zephyr-tw1.bpca2026.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zephyr-tw1.bpca2026.top
+    path: /images
+- name: 29|🇹🇼_台湾 (20)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: zhilegelian2.bpca2026.top
+  servername: zhilegelian2.bpca2026.top
+  skip-cert-verify: true
+  sni: zhilegelian2.bpca2026.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zhilegelian2.bpca2026.top
+    path: /images
+- name: 29|🇹🇼_台湾 (21)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: t2w2t2w2.bpca2026.top
+  servername: t2w2t2w2.bpca2026.top
+  skip-cert-verify: true
+  sni: t2w2t2w2.bpca2026.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t2w2t2w2.bpca2026.top
+    path: /images
+- name: 29|🇹🇼_台湾 (22)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: zhilegelian3.bpca2026.top
+  servername: zhilegelian3.bpca2026.top
+  skip-cert-verify: true
+  sni: zhilegelian3.bpca2026.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zhilegelian3.bpca2026.top
+    path: /images
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (6)
+  port: 47396
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36edddde-95f7-4f30-966e-6c19c737ef55
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (12)
+  port: 19482
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a76b07ff-6fde-48d3-9c00-17a17ec3850d
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (14)
+  port: 19482
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36edddde-95f7-4f30-966e-6c19c737ef55
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (15)
+  port: 62015
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36edddde-95f7-4f30-966e-6c19c737ef55
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (16)
+  port: 62015
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  sni: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 29|🇹🇼_台湾 (23)
+  port: 443
+  reality-opts:
+    public-key: ZApPToamQ8CuRx9RF5nQ_rrviDPAgw8-OVbyHtzQTgQ
+    short-id: 961cb9
+  server: zhilegelian1.bpca2026.top
+  servername: www.visa.com.tw
+  skip-cert-verify: true
+  sni: www.visa.com.tw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 531d9e93-53be-4f05-a9c1-33490d4da2f3
 - name: 33|🇹🇼 台湾3|@ripaojiedian
   password: 2902c46c8493
   port: 443

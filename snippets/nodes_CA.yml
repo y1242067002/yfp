@@ -154,11 +154,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇦CA_30|782KB/s|A004-260618 [3f... #1'
+  name: 19,22,29|🇨🇦_加拿大
   password: shadowsocks
   port: 443
   server: 149.22.95.183
+  skip-cert-verify: true
   sub_tag: A004-260618
+  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -170,11 +172,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '19,22|🇦CA_39|1.5MB/s|M003-260806 [68... #1'
+  name: 19,22,29|🇨🇦_加拿大 (2)
   password: PmCqK98WqhSC
   port: 443
   server: 134.195.198.163
+  skip-cert-verify: true
   sub_tag: M003-260806
+  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -283,6 +287,68 @@ proxies:
   sub_tag: M003-260806
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 29|🇨🇦_加拿大 (7)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 23.227.38.99
+  servername: uuu-3-8uuu.ccc3cosmo.top
+  skip-cert-verify: true
+  sni: uuu-3-8uuu.ccc3cosmo.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uuu-3-8uuu.ccc3cosmo.top
+    path: /images
+- client-fingerprint: safari
+  name: 29|🇨🇦_加拿大 (8)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 23.227.38.10
+  servername: hkk-1-8hhh.ccc3cosmo.top
+  skip-cert-verify: true
+  sni: hkk-1-8hhh.ccc3cosmo.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hkk-1-8hhh.ccc3cosmo.top
+    path: /images
+- name: 29|🇨🇦_加拿大 (10)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 23.227.38.61
+  servername: 44-ml-1.ccc4vortex.top
+  skip-cert-verify: true
+  sni: 44-ml-1.ccc4vortex.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 44-ml-1.ccc4vortex.top
+    path: /images
+- name: 29|🇨🇦_加拿大 (12)
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 23.227.38.237
+  servername: eofino.bpjp2027.top
+  skip-cert-verify: true
+  sni: eofino.bpjp2027.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eofino.bpjp2027.top
+    path: /images
 - alterId: 0
   cipher: auto
   name: 36|[VMess] 🇨🇦 _CA_加拿大

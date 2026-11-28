@@ -31,13 +31,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '19,22|🇵JP_15|526KB/s|S004-260618 [20... #1'
+  name: 19,22,29|日期：11-28
   network: ws
   packet-encoding: xudp
   port: 80
   server: 168.138.43.75
   servername: 168.138.43.75
-  skip-cert-verify: false
+  skip-cert-verify: true
+  sni: 168.138.43.75
   sub_tag: S004-260618
   tls: false
   type: vmess
@@ -57,19 +58,23 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇯🇵JP_10|666KB/s|A001-260618 [4... #1'
+  name: 19,22,29|🇯🇵_日本 (2)
   password: shadowsocks
   port: 443
   server: 149.22.87.240
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇵JP_22|666KB/s|A001-260618 [59... #1'
+  name: 19,22,29|🇯🇵_日本 (4)
   password: shadowsocks
   port: 443
   server: 149.22.87.241
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -100,11 +105,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇵JP_11|627KB/s|A001-260618 [f5... #1'
+  name: 19,22,29|🇯🇵_日本 (3)
   password: shadowsocks
   port: 443
   server: 149.22.87.204
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -207,11 +214,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (22)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (12)
   password: '!!str 123456'
   port: 5555
   server: 47.245.54.15
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -369,11 +376,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (20)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (30)
   password: '!!str 123456'
   port: 5555
   server: 47.74.24.29
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -576,11 +583,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (23)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (53)
   password: '!!str 123456'
   port: 5555
   server: 47.245.40.193
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -666,11 +673,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (21)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (63)
   password: '!!str 123456'
   port: 5555
   server: 47.74.49.154
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -881,3 +888,33 @@ proxies:
   tls: false
   type: ss
   udp: true
+- name: 29|🇯🇵日本优化1
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 7i56765u.cloudflare.182682.xyz
+  servername: eofino.bpjp2027.top
+  skip-cert-verify: true
+  sni: eofino.bpjp2027.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eofino.bpjp2027.top
+    path: /images
+- name: 29|🇯🇵日本优化2
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 5yh45.cf.877774.xyz
+  servername: eofino.bpjp2027.top
+  skip-cert-verify: true
+  sni: eofino.bpjp2027.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eofino.bpjp2027.top
+    path: /images

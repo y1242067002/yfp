@@ -135,13 +135,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '19,22|🇵JP_15|526KB/s|S004-260618 [20... #1'
+  name: 19,22,29|日期：11-28
   network: ws
   packet-encoding: xudp
   port: 80
   server: 168.138.43.75
   servername: 168.138.43.75
-  skip-cert-verify: false
+  skip-cert-verify: true
+  sni: 168.138.43.75
   sub_tag: S004-260618
   tls: false
   type: vmess
@@ -193,19 +194,23 @@ proxies:
   udp: true
   username: 'null'
 - cipher: aes-128-gcm
-  name: '19,22|🇯🇵JP_10|666KB/s|A001-260618 [4... #1'
+  name: 19,22,29|🇯🇵_日本 (2)
   password: shadowsocks
   port: 443
   server: 149.22.87.240
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '19,22|🇵JP_22|666KB/s|A001-260618 [59... #1'
+  name: 19,22,29|🇯🇵_日本 (4)
   password: shadowsocks
   port: 443
   server: 149.22.87.241
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - name: '19,22|🇵JP_16|344KB/s|P002-260618 [6c... #1'
@@ -264,7 +269,7 @@ proxies:
   type: socks5
   udp: true
   username: tB4vN7qP
-- name: 19,22,35|JP_1|3.8MB/s
+- name: 19,22,35|JP_1|2.0MB/s
   password: EGJDy5Kg
   port: 42000
   server: 103.248.150.50
@@ -274,11 +279,13 @@ proxies:
   udp: true
   username: paZFN3JA
 - cipher: aes-128-gcm
-  name: '19,22|🇵JP_11|627KB/s|A001-260618 [f5... #1'
+  name: 19,22,29|🇯🇵_日本 (3)
   password: shadowsocks
   port: 443
   server: 149.22.87.204
+  skip-cert-verify: true
   sub_tag: A001-260618
+  tls: false
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -396,11 +403,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (22)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (12)
   password: '!!str 123456'
   port: 5555
   server: 47.245.54.15
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -558,11 +565,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (20)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (30)
   password: '!!str 123456'
   port: 5555
   server: 47.74.24.29
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -765,11 +772,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (23)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (53)
   password: '!!str 123456'
   port: 5555
   server: 47.245.40.193
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -855,11 +862,11 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 22,29|🇯🇵_日本 (21)
+  name: 22|JP日本(mibei77.com 米贝节点分享) (63)
   password: '!!str 123456'
   port: 5555
   server: 47.74.49.154
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: ss
   udp: true
@@ -1081,25 +1088,6 @@ proxies:
 - client-fingerprint: chrome
   name: 29|🇯🇵_日本 (5)
   network: ws
-  port: 443
-  reality-opts:
-    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
-    short-id: e535df57
-  server: 149.28.29.156
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  sni: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (2)
-  network: ws
   port: 4798
   server: 107.191.53.86
   servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
@@ -1113,8 +1101,68 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
+- name: 29|🇯🇵日本A1
+  network: ws
+  port: 443
+  server: jl78lp.cf.877774.xyz
+  servername: jpa01.gg9901.uk
+  skip-cert-verify: true
+  sni: jpa01.gg9901.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  ws-opts:
+    headers:
+      Host: jpa01.gg9901.uk
+    path: /images
+- name: 29|🇯🇵日本高速1
+  network: ws
+  port: 443
+  server: jp.cf.877774.xyz
+  servername: 33333.bpjp2027.top
+  skip-cert-verify: true
+  sni: 33333.bpjp2027.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  ws-opts:
+    headers:
+      Host: 33333.bpjp2027.top
+    path: /images
+- name: 29|🇯🇵日本优化1
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 7i56765u.cloudflare.182682.xyz
+  servername: eofino.bpjp2027.top
+  skip-cert-verify: true
+  sni: eofino.bpjp2027.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eofino.bpjp2027.top
+    path: /images
+- name: 29|🇯🇵日本优化2
+  network: ws
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 443
+  server: 5yh45.cf.877774.xyz
+  servername: eofino.bpjp2027.top
+  skip-cert-verify: true
+  sni: eofino.bpjp2027.top
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: eofino.bpjp2027.top
+    path: /images
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (3)
+  name: 29|🇯🇵_日本 (10)
   network: ws
   port: 443
   reality-opts:
@@ -1133,7 +1181,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (4)
+  name: 29|🇯🇵_日本 (11)
   network: ws
   port: 443
   reality-opts:
@@ -1152,7 +1200,26 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (6)
+  name: 29|🇯🇵_日本 (12)
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0
+    short-id: e535df57
+  server: 149.28.29.156
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  sni: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa1a9052-720f-4bb0-92be-21b6baf9f386
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+- client-fingerprint: chrome
+  name: 29|🇯🇵_日本 (13)
   network: ws
   port: 443
   reality-opts:
@@ -1171,7 +1238,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (7)
+  name: 29|🇯🇵_日本 (14)
   network: ws
   port: 443
   reality-opts:
@@ -1190,7 +1257,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (8)
+  name: 29|🇯🇵_日本 (15)
   network: ws
   port: 443
   reality-opts:
@@ -1209,7 +1276,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (9)
+  name: 29|🇯🇵_日本 (16)
   network: ws
   port: 443
   reality-opts:
@@ -1228,7 +1295,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (10)
+  name: 29|🇯🇵_日本 (17)
   network: ws
   port: 443
   reality-opts:
@@ -1247,7 +1314,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (11)
+  name: 29|🇯🇵_日本 (18)
   network: ws
   port: 443
   reality-opts:
@@ -1266,7 +1333,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (12)
+  name: 29|🇯🇵_日本 (19)
   network: ws
   port: 443
   reality-opts:
@@ -1285,7 +1352,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (13)
+  name: 29|🇯🇵_日本 (20)
   network: ws
   port: 443
   reality-opts:
@@ -1304,7 +1371,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (14)
+  name: 29|🇯🇵_日本 (21)
   network: ws
   port: 443
   reality-opts:
@@ -1323,26 +1390,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (15)
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
-    short-id: d1244137
-  server: 139.162.91.228
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  sni: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: /ws
-- client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (16)
+  name: 29|🇯🇵_日本 (22)
   network: ws
   port: 443
   reality-opts:
@@ -1361,7 +1409,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
 - client-fingerprint: chrome
-  name: 29|🇯🇵_日本 (17)
+  name: 29|🇯🇵_日本 (23)
   network: ws
   port: 443
   reality-opts:
@@ -1379,32 +1427,66 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: /ws
-- flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (18)
-  port: 23169
-  server: djj.zjlo.top
-  servername: djj.zjlo.top
-  skip-cert-verify: true
-  sni: djj.zjlo.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 29|🇯🇵_日本 (19)
+  name: 29|🇯🇵_日本 (6)
   port: 443
   reality-opts:
-    public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
-    short-id: 949ddd6bacbc
-  server: jpg1radio.jumpernode.site
-  servername: www.cdn.amazon.com
+    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
+    short-id: 253e450553a2
+  server: jp2music.xyy123.win
+  servername: us.amazon.com
   skip-cert-verify: true
-  sni: www.cdn.amazon.com
+  sni: us.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: f45ccbaa-521d-4d3a-a4e7-13a3094f2b90
+  uuid: 8816de02-ceeb-4155-a539-074e8de44ee6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (7)
+  port: 443
+  reality-opts:
+    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
+    short-id: 6a3c0a718181
+  server: jp2music.xyy123.win
+  servername: stg.nvbugspro.nvidia.com
+  skip-cert-verify: true
+  sni: stg.nvbugspro.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (8)
+  port: 443
+  reality-opts:
+    public-key: I4sC7wO_OjKQcby3249aC1qGAmoMgHEFtRUvoLUy2yc
+    short-id: c92cbef726ee8169
+  server: jp2chat.xyy123.win
+  servername: blog.api.www.cloudflare.com
+  skip-cert-verify: true
+  sni: blog.api.www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218345b7-3589-4c5e-9c6c-15a6c2de6895
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 29|🇯🇵_日本 (9)
+  port: 443
+  reality-opts:
+    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
+    short-id: 6a3c0a718181
+  server: jp2game.xyy123.win
+  servername: stg.nvbugspro.nvidia.com
+  skip-cert-verify: true
+  sni: stg.nvbugspro.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
 - client-fingerprint: chrome
   name: 33|🇯🇵 日本3|@ripaojiedian
   network: ws
@@ -1590,3 +1672,16 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
+- down: ''
+  fingerprint: ''
+  name: 35|🇵JP_2|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: Yuike2026cat
+  port: 8443
+  server: 43.130.234.128
+  skip-cert-verify: false
+  sni: 43-130-234-128.sslip.io
+  type: hysteria2
+  udp: true
+  up: ''
